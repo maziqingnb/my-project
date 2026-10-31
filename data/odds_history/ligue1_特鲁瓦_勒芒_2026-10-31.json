@@ -178,5 +178,35 @@
     "total_line": 2.5,
     "over": 1.02,
     "under": 0.86
+  },
+  {
+    "fixture_key": "ligue1|特鲁瓦|勒芒|2026-10-31",
+    "competition": "ligue1",
+    "home": "特鲁瓦",
+    "away": "勒芒",
+    "kickoff": "2026-10-31T19:45:00",
+    "bookmaker": "crown",
+    "ts": "2026-10-30T19:45:00+00:00",
+    "handicap_line": -0.25,
+    "handicap_home": 0.89,
+    "handicap_away": 0.99,
+    "total_line": 2.5,
+    "over": 0.84,
+    "under": 1.02
+  },
+  {
+    "fixture_key": "ligue1|特鲁瓦|勒芒|2026-10-31",
+    "competition": "ligue1",
+    "home": "特鲁瓦",
+    "away": "勒芒",
+    "kickoff": "2026-10-31T19:45:00",
+    "bookmaker": "crown",
+    "ts": "2026-10-31T18:26:04.106073+00:00",
+    "handicap_line": -0.25,
+    "handicap_home": 0.92,
+    "handicap_away": 0.97,
+    "total_line": 2.5,
+    "over": 1.03,
+    "under": 0.85
   }
 ]

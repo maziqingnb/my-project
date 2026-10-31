@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-31T16:24:10.284476+00:00",
+  "generated_at": "2026-10-31T18:26:04.303387+00:00",
   "scope": "五大联赛 + 欧冠",
   "note": "杯赛与联赛数据分开计算",
-  "total": 34,
+  "total": 35,
   "recommendations": [
     {
       "fixture_key": "ligue1|特鲁瓦|勒芒|2026-10-31",
@@ -17,15 +17,21 @@
       "score": 90.0,
       "reasons": [
         "大小球 盘口不变",
-        "大球升水 0.84->1.02",
+        "大球升水 0.84->1.03",
         "主队近1场场均总进球 0.0",
         "客队近1场场均总进球 2.0"
       ],
       "signals": {
         "line_desc": "盘口不变",
-        "over_desc": "大球升水 0.84->1.02"
+        "over_desc": "大球升水 0.84->1.03"
       },
       "history": [
+        {
+          "ts": "2026-10-30T19:45:00+00:00",
+          "total_line": 2.5,
+          "over": 0.84,
+          "under": 1.02
+        },
         {
           "ts": "2026-10-30T19:45:00+00:00",
           "total_line": 2.5,
@@ -97,6 +103,12 @@
           "total_line": 2.5,
           "over": 1.02,
           "under": 0.86
+        },
+        {
+          "ts": "2026-10-31T18:26:04.106073+00:00",
+          "total_line": 2.5,
+          "over": 1.03,
+          "under": 0.85
         }
       ],
       "competition_name": "法国甲级联赛",
@@ -1498,6 +1510,117 @@
       "competition_class": "league"
     },
     {
+      "fixture_key": "ligue1|特鲁瓦|勒芒|2026-10-31",
+      "competition": "ligue1",
+      "home": "特鲁瓦",
+      "away": "勒芒",
+      "kickoff": "2026-10-31T19:45:00",
+      "market": "handicap",
+      "pick": "客队（受让 0.25）",
+      "side": "away",
+      "confidence": "watch",
+      "score": 65.0,
+      "reasons": [
+        "亚盘 盘口不变",
+        "主队升水 0.89->0.92",
+        "主队近1场 0胜1平0负，场均进0.0/失0.0",
+        "客队近1场 0胜1平0负，场均进1.0/失1.0",
+        "交手0次：主队0胜0平0负"
+      ],
+      "signals": {
+        "line_desc": "盘口不变",
+        "water_desc": "主队升水 0.89->0.92"
+      },
+      "history": [
+        {
+          "ts": "2026-10-30T19:45:00+00:00",
+          "handicap_line": -0.25,
+          "handicap_home": 0.89,
+          "handicap_away": 0.99
+        },
+        {
+          "ts": "2026-10-30T19:45:00+00:00",
+          "handicap_line": -0.25,
+          "handicap_home": 0.89,
+          "handicap_away": 0.99
+        },
+        {
+          "ts": "2026-10-30T19:45:00+00:00",
+          "handicap_line": -0.25,
+          "handicap_home": 0.89,
+          "handicap_away": 0.99
+        },
+        {
+          "ts": "2026-10-30T19:45:00+00:00",
+          "handicap_line": -0.25,
+          "handicap_home": 0.89,
+          "handicap_away": 0.99
+        },
+        {
+          "ts": "2026-10-30T19:45:00+00:00",
+          "handicap_line": -0.25,
+          "handicap_home": 0.89,
+          "handicap_away": 0.99
+        },
+        {
+          "ts": "2026-10-30T19:45:00+00:00",
+          "handicap_line": -0.25,
+          "handicap_home": 0.89,
+          "handicap_away": 0.99
+        },
+        {
+          "ts": "2026-10-30T19:45:00+00:00",
+          "handicap_line": -0.25,
+          "handicap_home": 0.89,
+          "handicap_away": 0.99
+        },
+        {
+          "ts": "2026-10-31T06:49:15.256920+00:00",
+          "handicap_line": -0.25,
+          "handicap_home": 1.04,
+          "handicap_away": 0.85
+        },
+        {
+          "ts": "2026-10-31T08:32:43.551781+00:00",
+          "handicap_line": -0.25,
+          "handicap_home": 0.94,
+          "handicap_away": 0.95
+        },
+        {
+          "ts": "2026-10-31T10:24:42.340764+00:00",
+          "handicap_line": -0.25,
+          "handicap_home": 0.89,
+          "handicap_away": 1
+        },
+        {
+          "ts": "2026-10-31T12:29:24.047777+00:00",
+          "handicap_line": -0.25,
+          "handicap_home": 0.9,
+          "handicap_away": 0.99
+        },
+        {
+          "ts": "2026-10-31T14:26:17.600271+00:00",
+          "handicap_line": -0.25,
+          "handicap_home": 0.89,
+          "handicap_away": 1
+        },
+        {
+          "ts": "2026-10-31T16:24:10.137027+00:00",
+          "handicap_line": -0.25,
+          "handicap_home": 0.89,
+          "handicap_away": 1
+        },
+        {
+          "ts": "2026-10-31T18:26:04.106073+00:00",
+          "handicap_line": -0.25,
+          "handicap_home": 0.92,
+          "handicap_away": 0.97
+        }
+      ],
+      "competition_name": "法国甲级联赛",
+      "competition_class": "league"
+    },
+    {
       "fixture_key": "bundesliga|奥格斯堡|弗赖堡|2026-10-31",
       "competition": "bundesliga",
       "home": "奥格斯堡",
@@ -1582,105 +1705,6 @@
         }
       ],
       "competition_name": "德国甲级联赛",
-      "competition_class": "league"
-    },
-    {
-      "fixture_key": "epl|阿斯顿维拉|富勒姆|2026-10-31",
-      "competition": "epl",
-      "home": "阿斯顿维拉",
-      "away": "富勒姆",
-      "kickoff": "2026-10-31T20:00:00",
-      "market": "handicap",
-      "pick": "主队（让 0.25）",
-      "side": "home",
-      "confidence": "watch",
-      "score": 62.5,
-      "reasons": [
-        "亚盘 降盘 -0.5->-0.25（主队走弱）",
-        "主队降水 1.06->0.83",
-        "主队近1场 1胜0平0负，场均进2.0/失1.0",
-        "客队近1场 1胜0平0负，场均进1.0/失0.0",
-        "交手0次：主队0胜0平0负"
-      ],
-      "signals": {
-        "line_desc": "降盘 -0.5->-0.25（主队走弱）",
-        "water_desc": "主队降水 1.06->0.83"
-      },
-      "history": [
-        {
-          "ts": "2026-10-30T20:00:00+00:00",
-          "handicap_line": -0.5,
-          "handicap_home": 1.06,
-          "handicap_away": 0.82
-        },
-        {
-          "ts": "2026-10-30T20:00:00+00:00",
-          "handicap_line": -0.5,
-          "handicap_home": 1.06,
-          "handicap_away": 0.82
-        },
-        {
-          "ts": "2026-10-30T20:00:00+00:00",
-          "handicap_line": -0.5,
-          "handicap_home": 1.06,
-          "handicap_away": 0.82
-        },
-        {
-          "ts": "2026-10-30T20:00:00+00:00",
-          "handicap_line": -0.5,
-          "handicap_home": 1.06,
-          "handicap_away": 0.82
-        },
-        {
-          "ts": "2026-10-30T20:00:00+00:00",
-          "handicap_line": -0.5,
-          "handicap_home": 1.06,
-          "handicap_away": 0.82
-        },
-        {
-          "ts": "2026-10-30T20:00:00+00:00",
-          "handicap_line": -0.5,
-          "handicap_home": 1.06,
-          "handicap_away": 0.82
-        },
-        {
-          "ts": "2026-10-31T06:49:08.565498+00:00",
-          "handicap_line": -0.5,
-          "handicap_home": 1.05,
-          "handicap_away": 0.84
-        },
-        {
-          "ts": "2026-10-31T08:32:11.252685+00:00",
-          "handicap_line": -0.5,
-          "handicap_home": 1.05,
-          "handicap_away": 0.84
-        },
-        {
-          "ts": "2026-10-31T10:24:16.584527+00:00",
-          "handicap_line": -0.25,
-          "handicap_home": 0.87,
-          "handicap_away": 1.02
-        },
-        {
-          "ts": "2026-10-31T12:28:56.893157+00:00",
-          "handicap_line": -0.25,
-          "handicap_home": 0.85,
-          "handicap_away": 1.04
-        },
-        {
-          "ts": "2026-10-31T14:25:42.022743+00:00",
-          "handicap_line": -0.25,
-          "handicap_home": 0.85,
-          "handicap_away": 1.04
-        },
-        {
-          "ts": "2026-10-31T16:23:57.164149+00:00",
-          "handicap_line": -0.25,
-          "handicap_home": 0.83,
-          "handicap_away": 1.06
-        }
-      ],
-      "competition_name": "英格兰超级联赛",
       "competition_class": "league"
     },
     {
@@ -1869,15 +1893,21 @@
       "score": 60.6,
       "reasons": [
         "大小球 升盘 4->4.25（看大）",
-        "大球升水 0.97->1.03",
+        "大球升水 0.97->1.01",
         "主队近1场场均总进球 3.0",
         "客队近1场场均总进球 2.0"
       ],
       "signals": {
         "line_desc": "升盘 4->4.25（看大）",
-        "over_desc": "大球升水 0.97->1.03"
+        "over_desc": "大球升水 0.97->1.01"
       },
       "history": [
+        {
+          "ts": "2026-10-30T20:00:00+00:00",
+          "total_line": 4,
+          "over": 0.97,
+          "under": 0.89
+        },
         {
           "ts": "2026-10-30T20:00:00+00:00",
           "total_line": 4,
@@ -1949,6 +1979,12 @@
           "total_line": 4.25,
           "over": 1.03,
           "under": 0.85
+        },
+        {
+          "ts": "2026-10-31T18:26:01.537093+00:00",
+          "total_line": 4.25,
+          "over": 1.01,
+          "under": 0.87
         }
       ],
       "competition_name": "西班牙甲级联赛",
@@ -2388,6 +2424,117 @@
       "competition_class": "league"
     },
     {
+      "fixture_key": "epl|阿斯顿维拉|富勒姆|2026-10-31",
+      "competition": "epl",
+      "home": "阿斯顿维拉",
+      "away": "富勒姆",
+      "kickoff": "2026-10-31T20:00:00",
+      "market": "handicap",
+      "pick": "主队（让 0.5）",
+      "side": "home",
+      "confidence": "watch",
+      "score": 57.5,
+      "reasons": [
+        "亚盘 盘口不变",
+        "水位平稳",
+        "主队近1场 1胜0平0负，场均进2.0/失1.0",
+        "客队近1场 1胜0平0负，场均进1.0/失0.0",
+        "交手0次：主队0胜0平0负"
+      ],
+      "signals": {
+        "line_desc": "盘口不变",
+        "water_desc": "水位平稳"
+      },
+      "history": [
+        {
+          "ts": "2026-10-30T20:00:00+00:00",
+          "handicap_line": -0.5,
+          "handicap_home": 1.06,
+          "handicap_away": 0.82
+        },
+        {
+          "ts": "2026-10-30T20:00:00+00:00",
+          "handicap_line": -0.5,
+          "handicap_home": 1.06,
+          "handicap_away": 0.82
+        },
+        {
+          "ts": "2026-10-30T20:00:00+00:00",
+          "handicap_line": -0.5,
+          "handicap_home": 1.06,
+          "handicap_away": 0.82
+        },
+        {
+          "ts": "2026-10-30T20:00:00+00:00",
+          "handicap_line": -0.5,
+          "handicap_home": 1.06,
+          "handicap_away": 0.82
+        },
+        {
+          "ts": "2026-10-30T20:00:00+00:00",
+          "handicap_line": -0.5,
+          "handicap_home": 1.06,
+          "handicap_away": 0.82
+        },
+        {
+          "ts": "2026-10-30T20:00:00+00:00",
+          "handicap_line": -0.5,
+          "handicap_home": 1.06,
+          "handicap_away": 0.82
+        },
+        {
+          "ts": "2026-10-30T20:00:00+00:00",
+          "handicap_line": -0.5,
+          "handicap_home": 1.06,
+          "handicap_away": 0.82
+        },
+        {
+          "ts": "2026-10-31T06:49:08.565498+00:00",
+          "handicap_line": -0.5,
+          "handicap_home": 1.05,
+          "handicap_away": 0.84
+        },
+        {
+          "ts": "2026-10-31T08:32:11.252685+00:00",
+          "handicap_line": -0.5,
+          "handicap_home": 1.05,
+          "handicap_away": 0.84
+        },
+        {
+          "ts": "2026-10-31T10:24:16.584527+00:00",
+          "handicap_line": -0.25,
+          "handicap_home": 0.87,
+          "handicap_away": 1.02
+        },
+        {
+          "ts": "2026-10-31T12:28:56.893157+00:00",
+          "handicap_line": -0.25,
+          "handicap_home": 0.85,
+          "handicap_away": 1.04
+        },
+        {
+          "ts": "2026-10-31T14:25:42.022743+00:00",
+          "handicap_line": -0.25,
+          "handicap_home": 0.85,
+          "handicap_away": 1.04
+        },
+        {
+          "ts": "2026-10-31T16:23:57.164149+00:00",
+          "handicap_line": -0.25,
+          "handicap_home": 0.83,
+          "handicap_away": 1.06
+        },
+        {
+          "ts": "2026-10-31T18:25:59.415002+00:00",
+          "handicap_line": -0.5,
+          "handicap_home": 1.04,
+          "handicap_away": 0.85
+        }
+      ],
+      "competition_name": "英格兰超级联赛",
+      "competition_class": "league"
+    },
+    {
       "fixture_key": "laliga|莱万特|马德里竞技|2026-10-31",
       "competition": "laliga",
       "home": "莱万特",
@@ -2475,16 +2622,22 @@
       "score": 56.9,
       "reasons": [
         "亚盘 升盘 -2.5->-2.75（主队走强）",
-        "主队升水 0.95->1.06",
+        "主队升水 0.95->1.04",
         "主队近1场 0胜0平1负，场均进1.0/失2.0",
         "客队近1场 0胜1平0负，场均进1.0/失1.0",
         "交手0次：主队0胜0平0负"
       ],
       "signals": {
         "line_desc": "升盘 -2.5->-2.75（主队走强）",
-        "water_desc": "主队升水 0.95->1.06"
+        "water_desc": "主队升水 0.95->1.04"
       },
       "history": [
+        {
+          "ts": "2026-10-30T20:00:00+00:00",
+          "handicap_line": -2.5,
+          "handicap_home": 0.95,
+          "handicap_away": 0.93
+        },
         {
           "ts": "2026-10-30T20:00:00+00:00",
           "handicap_line": -2.5,
@@ -2556,6 +2709,12 @@
           "handicap_line": -2.75,
           "handicap_home": 1.06,
           "handicap_away": 0.83
+        },
+        {
+          "ts": "2026-10-31T18:26:01.537093+00:00",
+          "handicap_line": -2.75,
+          "handicap_home": 1.04,
+          "handicap_away": 0.85
         }
       ],
       "competition_name": "西班牙甲级联赛",
