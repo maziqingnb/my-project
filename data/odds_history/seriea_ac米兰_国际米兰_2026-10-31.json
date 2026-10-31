@@ -88,5 +88,35 @@
     "total_line": 2.75,
     "over": 0.99,
     "under": 0.89
+  },
+  {
+    "fixture_key": "seriea|ac米兰|国际米兰|2026-10-31",
+    "competition": "seriea",
+    "home": "AC米兰",
+    "away": "国际米兰",
+    "kickoff": "2026-10-31T19:45:00",
+    "bookmaker": "crown",
+    "ts": "2026-10-30T19:45:00+00:00",
+    "handicap_line": 0.25,
+    "handicap_home": 0.94,
+    "handicap_away": 0.94,
+    "total_line": 2.75,
+    "over": 0.83,
+    "under": 1.05
+  },
+  {
+    "fixture_key": "seriea|ac米兰|国际米兰|2026-10-31",
+    "competition": "seriea",
+    "home": "AC米兰",
+    "away": "国际米兰",
+    "kickoff": "2026-10-31T19:45:00",
+    "bookmaker": "crown",
+    "ts": "2026-10-31T12:29:09.767856+00:00",
+    "handicap_line": 0.5,
+    "handicap_home": 0.84,
+    "handicap_away": 1.05,
+    "total_line": 2.75,
+    "over": 0.95,
+    "under": 0.93
   }
 ]

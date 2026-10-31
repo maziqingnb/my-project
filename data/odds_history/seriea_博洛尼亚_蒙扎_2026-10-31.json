@@ -88,5 +88,35 @@
     "total_line": 2.5,
     "over": 0.83,
     "under": 1.05
+  },
+  {
+    "fixture_key": "seriea|博洛尼亚|蒙扎|2026-10-31",
+    "competition": "seriea",
+    "home": "博洛尼亚",
+    "away": "蒙扎",
+    "kickoff": "2026-10-31T14:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-10-30T14:00:00+00:00",
+    "handicap_line": -0.75,
+    "handicap_home": 1.02,
+    "handicap_away": 0.86,
+    "total_line": 2.5,
+    "over": 0.88,
+    "under": 1
+  },
+  {
+    "fixture_key": "seriea|博洛尼亚|蒙扎|2026-10-31",
+    "competition": "seriea",
+    "home": "博洛尼亚",
+    "away": "蒙扎",
+    "kickoff": "2026-10-31T14:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-10-31T12:29:06.917181+00:00",
+    "handicap_line": -0.75,
+    "handicap_home": 0.88,
+    "handicap_away": 1.01,
+    "total_line": 2.75,
+    "over": 1.02,
+    "under": 0.86
   }
 ]

@@ -88,5 +88,35 @@
     "total_line": 2.5,
     "over": 1.02,
     "under": 0.87
+  },
+  {
+    "fixture_key": "epl|考文垂|桑德兰|2026-10-31",
+    "competition": "epl",
+    "home": "考文垂",
+    "away": "桑德兰",
+    "kickoff": "2026-10-31T15:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-10-30T15:00:00+00:00",
+    "handicap_line": 0,
+    "handicap_home": 1.08,
+    "handicap_away": 0.8,
+    "total_line": 2.5,
+    "over": 0.93,
+    "under": 0.93
+  },
+  {
+    "fixture_key": "epl|考文垂|桑德兰|2026-10-31",
+    "competition": "epl",
+    "home": "考文垂",
+    "away": "桑德兰",
+    "kickoff": "2026-10-31T15:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-10-31T12:28:47.607465+00:00",
+    "handicap_line": 0.25,
+    "handicap_home": 0.82,
+    "handicap_away": 1.07,
+    "total_line": 2.5,
+    "over": 0.99,
+    "under": 0.9
   }
 ]
