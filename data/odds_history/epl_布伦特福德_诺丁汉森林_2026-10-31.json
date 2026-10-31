@@ -118,5 +118,35 @@
     "total_line": 2.75,
     "over": 0.83,
     "under": 1.06
+  },
+  {
+    "fixture_key": "epl|布伦特福德|诺丁汉森林|2026-10-31",
+    "competition": "epl",
+    "home": "布伦特福德",
+    "away": "诺丁汉森林",
+    "kickoff": "2026-10-31T15:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-10-30T15:00:00+00:00",
+    "handicap_line": -0.5,
+    "handicap_home": 1.03,
+    "handicap_away": 0.85,
+    "total_line": 2.75,
+    "over": 0.97,
+    "under": 0.89
+  },
+  {
+    "fixture_key": "epl|布伦特福德|诺丁汉森林|2026-10-31",
+    "competition": "epl",
+    "home": "布伦特福德",
+    "away": "诺丁汉森林",
+    "kickoff": "2026-10-31T15:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-10-31T14:25:30.075010+00:00",
+    "handicap_line": -0.25,
+    "handicap_home": 0.8,
+    "handicap_away": 1.09,
+    "total_line": 2.75,
+    "over": 0.93,
+    "under": 0.96
   }
 ]
