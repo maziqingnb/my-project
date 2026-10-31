@@ -28,5 +28,35 @@
     "total_line": 3.75,
     "over": 0.95,
     "under": 0.93
+  },
+  {
+    "fixture_key": "bundesliga|bayernmunich|多特蒙德|2026-10-31",
+    "competition": "bundesliga",
+    "home": "Bayern Munich",
+    "away": "多特蒙德",
+    "kickoff": "2026-10-31T17:30:00",
+    "bookmaker": "crown",
+    "ts": "2026-10-30T17:30:00+00:00",
+    "handicap_line": -1.75,
+    "handicap_home": 1.03,
+    "handicap_away": 0.85,
+    "total_line": 4,
+    "over": 0.83,
+    "under": 1.03
+  },
+  {
+    "fixture_key": "bundesliga|bayernmunich|多特蒙德|2026-10-31",
+    "competition": "bundesliga",
+    "home": "Bayern Munich",
+    "away": "多特蒙德",
+    "kickoff": "2026-10-31T17:30:00",
+    "bookmaker": "crown",
+    "ts": "2026-10-31T08:32:41.719792+00:00",
+    "handicap_line": -1.5,
+    "handicap_home": 0.87,
+    "handicap_away": 1.02,
+    "total_line": 3.75,
+    "over": 0.95,
+    "under": 0.93
   }
 ]

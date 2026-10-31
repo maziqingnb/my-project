@@ -28,5 +28,35 @@
     "total_line": 3.5,
     "over": 1.01,
     "under": 0.87
+  },
+  {
+    "fixture_key": "bundesliga|云达不莱梅|霍芬海姆|2026-10-31",
+    "competition": "bundesliga",
+    "home": "云达不莱梅",
+    "away": "霍芬海姆",
+    "kickoff": "2026-10-31T14:30:00",
+    "bookmaker": "crown",
+    "ts": "2026-10-30T14:30:00+00:00",
+    "handicap_line": 0.25,
+    "handicap_home": 0.94,
+    "handicap_away": 0.94,
+    "total_line": 3.25,
+    "over": 0.86,
+    "under": 1
+  },
+  {
+    "fixture_key": "bundesliga|云达不莱梅|霍芬海姆|2026-10-31",
+    "competition": "bundesliga",
+    "home": "云达不莱梅",
+    "away": "霍芬海姆",
+    "kickoff": "2026-10-31T14:30:00",
+    "bookmaker": "crown",
+    "ts": "2026-10-31T08:32:40.076297+00:00",
+    "handicap_line": 0,
+    "handicap_home": 0.91,
+    "handicap_away": 0.98,
+    "total_line": 3.5,
+    "over": 1.01,
+    "under": 0.87
   }
 ]

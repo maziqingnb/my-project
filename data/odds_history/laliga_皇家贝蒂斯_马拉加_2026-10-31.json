@@ -28,5 +28,35 @@
     "total_line": 3.25,
     "over": 1,
     "under": 0.88
+  },
+  {
+    "fixture_key": "laliga|皇家贝蒂斯|马拉加|2026-10-31",
+    "competition": "laliga",
+    "home": "皇家贝蒂斯",
+    "away": "马拉加",
+    "kickoff": "2026-10-31T17:30:00",
+    "bookmaker": "crown",
+    "ts": "2026-10-30T17:30:00+00:00",
+    "handicap_line": -1.25,
+    "handicap_home": 0.92,
+    "handicap_away": 0.96,
+    "total_line": 3,
+    "over": 0.86,
+    "under": 1
+  },
+  {
+    "fixture_key": "laliga|皇家贝蒂斯|马拉加|2026-10-31",
+    "competition": "laliga",
+    "home": "皇家贝蒂斯",
+    "away": "马拉加",
+    "kickoff": "2026-10-31T17:30:00",
+    "bookmaker": "crown",
+    "ts": "2026-10-31T08:32:19.950841+00:00",
+    "handicap_line": -1.5,
+    "handicap_home": 0.84,
+    "handicap_away": 1.05,
+    "total_line": 3.25,
+    "over": 1,
+    "under": 0.88
   }
 ]
