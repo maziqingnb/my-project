@@ -1,0 +1,40 @@
+name: Pre-match Alerts
+
+on:
+  schedule:
+    # 每 2 小时刷新临场水位，只推 2 小时内开赛的比赛（每场只推一次）
+    - cron: "0 */2 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  prematch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Sync latest odds & analyze
+        run: |
+          python src/main.py sync --odds
+          python src/main.py analyze
+
+      - name: Notify pre-match
+        env:
+          WECOM_WEBHOOK: ${{ secrets.WECOM_WEBHOOK }}
+          SERVERCHAN_KEY: ${{ secrets.SERVERCHAN_KEY }}
+        run: python src/main.py notify --prematch-hours 2
+
+      - name: Commit odds & notified state
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "data: refresh pre-match odds [skip ci]"
+          file_pattern: "data/"

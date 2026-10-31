@@ -1,12 +1,12 @@
 [
   {
-    "fixture_key": "seriea|乌迪内斯|罗马|2026-11-01",
+    "fixture_key": "seriea|乌迪内斯|罗马|2026-10-31",
     "competition": "seriea",
     "home": "乌迪内斯",
     "away": "罗马",
-    "kickoff": "2026-11-01T01:00:00",
+    "kickoff": "2026-10-31T17:00:00",
     "bookmaker": "crown",
-    "ts": "2026-10-31T01:00:00+00:00",
+    "ts": "2026-10-30T17:00:00+00:00",
     "handicap_line": 0.75,
     "handicap_home": 1.03,
     "handicap_away": 0.85,
@@ -15,13 +15,13 @@
     "under": 1.03
   },
   {
-    "fixture_key": "seriea|乌迪内斯|罗马|2026-11-01",
+    "fixture_key": "seriea|乌迪内斯|罗马|2026-10-31",
     "competition": "seriea",
     "home": "乌迪内斯",
     "away": "罗马",
-    "kickoff": "2026-11-01T01:00:00",
+    "kickoff": "2026-10-31T17:00:00",
     "bookmaker": "crown",
-    "ts": "2026-10-31T06:36:21.178930+00:00",
+    "ts": "2026-10-31T06:49:11.612936+00:00",
     "handicap_line": 1,
     "handicap_home": 0.96,
     "handicap_away": 0.93,

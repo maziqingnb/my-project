@@ -6,7 +6,7 @@
     "away": "门兴格拉德巴赫",
     "home_goals": 2,
     "away_goals": 3,
-    "date": "2026-10-24"
+    "date": "2026-10-23"
   },
   {
     "competition": "bundesliga",
@@ -60,7 +60,7 @@
     "away": "法兰克福",
     "home_goals": 1,
     "away_goals": 0,
-    "date": "2026-10-25"
+    "date": "2026-10-24"
   },
   {
     "competition": "bundesliga",
@@ -78,7 +78,7 @@
     "away": "Bayern Munich",
     "home_goals": 1,
     "away_goals": 3,
-    "date": "2026-10-26"
+    "date": "2026-10-25"
   },
   {
     "competition": "bundesliga",
@@ -87,6 +87,6 @@
     "away": "美因茨",
     "home_goals": 4,
     "away_goals": 1,
-    "date": "2026-10-31"
+    "date": "2026-10-30"
   }
 ]

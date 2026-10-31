@@ -1,12 +1,12 @@
 [
   {
-    "fixture_key": "laliga|巴塞罗那|阿拉维斯|2026-11-01",
+    "fixture_key": "laliga|巴塞罗那|阿拉维斯|2026-10-31",
     "competition": "laliga",
     "home": "巴塞罗那",
     "away": "阿拉维斯",
-    "kickoff": "2026-11-01T04:00:00",
+    "kickoff": "2026-10-31T20:00:00",
     "bookmaker": "crown",
-    "ts": "2026-10-31T04:00:00+00:00",
+    "ts": "2026-10-30T20:00:00+00:00",
     "handicap_line": -2.5,
     "handicap_home": 0.95,
     "handicap_away": 0.93,
@@ -15,13 +15,13 @@
     "under": 0.89
   },
   {
-    "fixture_key": "laliga|巴塞罗那|阿拉维斯|2026-11-01",
+    "fixture_key": "laliga|巴塞罗那|阿拉维斯|2026-10-31",
     "competition": "laliga",
     "home": "巴塞罗那",
     "away": "阿拉维斯",
-    "kickoff": "2026-11-01T04:00:00",
+    "kickoff": "2026-10-31T20:00:00",
     "bookmaker": "crown",
-    "ts": "2026-10-31T06:36:19.982343+00:00",
+    "ts": "2026-10-31T06:49:10.679719+00:00",
     "handicap_line": -2.75,
     "handicap_home": 1.02,
     "handicap_away": 0.87,

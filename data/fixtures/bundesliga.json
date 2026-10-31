@@ -4,7 +4,7 @@
     "competition": "bundesliga",
     "home": "奥格斯堡",
     "away": "弗赖堡",
-    "kickoff": "2026-10-31T22:30:00",
+    "kickoff": "2026-10-31T14:30:00",
     "status": "upcoming",
     "home_goals": null,
     "away_goals": null
@@ -14,7 +14,7 @@
     "competition": "bundesliga",
     "home": "勒沃库森",
     "away": "斯图加特",
-    "kickoff": "2026-10-31T22:30:00",
+    "kickoff": "2026-10-31T14:30:00",
     "status": "upcoming",
     "home_goals": null,
     "away_goals": null
@@ -24,7 +24,7 @@
     "competition": "bundesliga",
     "home": "门兴格拉德巴赫",
     "away": "帕德博恩",
-    "kickoff": "2026-10-31T22:30:00",
+    "kickoff": "2026-10-31T14:30:00",
     "status": "upcoming",
     "home_goals": null,
     "away_goals": null
@@ -34,7 +34,7 @@
     "competition": "bundesliga",
     "home": "沙尔克04",
     "away": "RB莱比锡",
-    "kickoff": "2026-10-31T22:30:00",
+    "kickoff": "2026-10-31T14:30:00",
     "status": "upcoming",
     "home_goals": null,
     "away_goals": null
@@ -44,17 +44,17 @@
     "competition": "bundesliga",
     "home": "云达不莱梅",
     "away": "霍芬海姆",
-    "kickoff": "2026-10-31T22:30:00",
+    "kickoff": "2026-10-31T14:30:00",
     "status": "upcoming",
     "home_goals": null,
     "away_goals": null
   },
   {
-    "key": "bundesliga|bayernmunich|多特蒙德|2026-11-01",
+    "key": "bundesliga|bayernmunich|多特蒙德|2026-10-31",
     "competition": "bundesliga",
     "home": "Bayern Munich",
     "away": "多特蒙德",
-    "kickoff": "2026-11-01T01:30:00",
+    "kickoff": "2026-10-31T17:30:00",
     "status": "upcoming",
     "home_goals": null,
     "away_goals": null
@@ -64,27 +64,27 @@
     "competition": "bundesliga",
     "home": "柏林联合",
     "away": "科隆",
-    "kickoff": "2026-11-01T22:30:00",
+    "kickoff": "2026-11-01T14:30:00",
     "status": "upcoming",
     "home_goals": null,
     "away_goals": null
   },
   {
-    "key": "bundesliga|法兰克福|汉堡|2026-11-02",
+    "key": "bundesliga|法兰克福|汉堡|2026-11-01",
     "competition": "bundesliga",
     "home": "法兰克福",
     "away": "汉堡",
-    "kickoff": "2026-11-02T00:30:00",
+    "kickoff": "2026-11-01T16:30:00",
     "status": "upcoming",
     "home_goals": null,
     "away_goals": null
   },
   {
-    "key": "bundesliga|汉堡|门兴格拉德巴赫|2026-11-07",
+    "key": "bundesliga|汉堡|门兴格拉德巴赫|2026-11-06",
     "competition": "bundesliga",
     "home": "汉堡",
     "away": "门兴格拉德巴赫",
-    "kickoff": "2026-11-07T03:30:00",
+    "kickoff": "2026-11-06T19:30:00",
     "status": "upcoming",
     "home_goals": null,
     "away_goals": null

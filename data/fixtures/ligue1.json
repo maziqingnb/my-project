@@ -1,10 +1,10 @@
 [
   {
-    "key": "ligue1|特鲁瓦|勒芒|2026-11-01",
+    "key": "ligue1|特鲁瓦|勒芒|2026-10-31",
     "competition": "ligue1",
     "home": "特鲁瓦",
     "away": "勒芒",
-    "kickoff": "2026-11-01T03:45:00",
+    "kickoff": "2026-10-31T19:45:00",
     "status": "upcoming",
     "home_goals": null,
     "away_goals": null
@@ -14,57 +14,57 @@
     "competition": "ligue1",
     "home": "斯特拉斯堡",
     "away": "欧塞尔",
-    "kickoff": "2026-11-01T22:00:00",
+    "kickoff": "2026-11-01T14:00:00",
     "status": "upcoming",
     "home_goals": null,
     "away_goals": null
   },
   {
-    "key": "ligue1|里昂|昂热|2026-11-02",
+    "key": "ligue1|里昂|昂热|2026-11-01",
     "competition": "ligue1",
     "home": "里昂",
     "away": "昂热",
-    "kickoff": "2026-11-02T00:15:00",
+    "kickoff": "2026-11-01T16:15:00",
     "status": "upcoming",
     "home_goals": null,
     "away_goals": null
   },
   {
-    "key": "ligue1|巴黎fc|摩纳哥|2026-11-02",
+    "key": "ligue1|巴黎fc|摩纳哥|2026-11-01",
     "competition": "ligue1",
     "home": "巴黎FC",
     "away": "摩纳哥",
-    "kickoff": "2026-11-02T00:15:00",
+    "kickoff": "2026-11-01T16:15:00",
     "status": "upcoming",
     "home_goals": null,
     "away_goals": null
   },
   {
-    "key": "ligue1|马赛|图卢兹|2026-11-02",
+    "key": "ligue1|马赛|图卢兹|2026-11-01",
     "competition": "ligue1",
     "home": "马赛",
     "away": "图卢兹",
-    "kickoff": "2026-11-02T03:45:00",
+    "kickoff": "2026-11-01T19:45:00",
     "status": "upcoming",
     "home_goals": null,
     "away_goals": null
   },
   {
-    "key": "ligue1|洛里昂|布雷斯特|2026-11-03",
+    "key": "ligue1|洛里昂|布雷斯特|2026-11-02",
     "competition": "ligue1",
     "home": "洛里昂",
     "away": "布雷斯特",
-    "kickoff": "2026-11-03T03:45:00",
+    "kickoff": "2026-11-02T19:45:00",
     "status": "upcoming",
     "home_goals": null,
     "away_goals": null
   },
   {
-    "key": "ligue1|图卢兹|斯特拉斯堡|2026-11-07",
+    "key": "ligue1|图卢兹|斯特拉斯堡|2026-11-06",
     "competition": "ligue1",
     "home": "图卢兹",
     "away": "斯特拉斯堡",
-    "kickoff": "2026-11-07T03:45:00",
+    "kickoff": "2026-11-06T19:45:00",
     "status": "upcoming",
     "home_goals": null,
     "away_goals": null

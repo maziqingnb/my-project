@@ -6,7 +6,7 @@
     "away": "尼斯",
     "home_goals": 1,
     "away_goals": 2,
-    "date": "2026-10-24"
+    "date": "2026-10-23"
   },
   {
     "competition": "ligue1",
@@ -15,7 +15,7 @@
     "away": "巴黎FC",
     "home_goals": 2,
     "away_goals": 1,
-    "date": "2026-10-25"
+    "date": "2026-10-24"
   },
   {
     "competition": "ligue1",
@@ -33,7 +33,7 @@
     "away": "洛里昂",
     "home_goals": 0,
     "away_goals": 0,
-    "date": "2026-10-26"
+    "date": "2026-10-25"
   },
   {
     "competition": "ligue1",
@@ -42,7 +42,7 @@
     "away": "勒芒",
     "home_goals": 1,
     "away_goals": 1,
-    "date": "2026-10-26"
+    "date": "2026-10-25"
   },
   {
     "competition": "ligue1",
@@ -51,7 +51,7 @@
     "away": "勒阿弗尔",
     "home_goals": 4,
     "away_goals": 3,
-    "date": "2026-10-26"
+    "date": "2026-10-25"
   },
   {
     "competition": "ligue1",
@@ -60,7 +60,7 @@
     "away": "斯特拉斯堡",
     "home_goals": 3,
     "away_goals": 0,
-    "date": "2026-10-26"
+    "date": "2026-10-25"
   },
   {
     "competition": "ligue1",
@@ -69,7 +69,7 @@
     "away": "特鲁瓦",
     "home_goals": 0,
     "away_goals": 0,
-    "date": "2026-10-26"
+    "date": "2026-10-25"
   },
   {
     "competition": "ligue1",
@@ -78,7 +78,7 @@
     "away": "里昂",
     "home_goals": 2,
     "away_goals": 0,
-    "date": "2026-10-27"
+    "date": "2026-10-26"
   },
   {
     "competition": "ligue1",
@@ -87,7 +87,7 @@
     "away": "巴黎圣日耳曼",
     "home_goals": 1,
     "away_goals": 5,
-    "date": "2026-10-31"
+    "date": "2026-10-30"
   },
   {
     "competition": "ligue1",
@@ -96,7 +96,7 @@
     "away": "雷恩",
     "home_goals": 5,
     "away_goals": 2,
-    "date": "2026-10-31"
+    "date": "2026-10-30"
   },
   {
     "competition": "ligue1",
@@ -105,6 +105,6 @@
     "away": "朗斯",
     "home_goals": 1,
     "away_goals": 0,
-    "date": "2026-10-31"
+    "date": "2026-10-30"
   }
 ]

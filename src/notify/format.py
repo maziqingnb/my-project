@@ -1,7 +1,18 @@
 """把推荐报告转成适合微信推送的文案。"""
 from __future__ import annotations
 
+from datetime import datetime, timedelta, timezone
+
 _MARKET = {"handicap": "亚盘", "totals": "大小球"}
+
+
+def _kickoff(iso: str) -> str:
+    """内部存 UTC，展示转回北京时间(UTC+8)。"""
+    try:
+        dt = datetime.fromisoformat(iso).replace(tzinfo=timezone.utc) + timedelta(hours=8)
+        return dt.strftime("%m-%d %H:%M")
+    except (ValueError, TypeError):
+        return ""
 
 
 def build_title(report: dict) -> str:
@@ -27,10 +38,11 @@ def build_content(report: dict) -> str:
         for i, r in enumerate(items, 1):
             mkt = _MARKET.get(r["market"], r["market"])
             tag = "🏆杯赛 " if r["competition_class"] == "cup" else ""
+            ko = _kickoff(r.get("kickoff", ""))
             sig = (r.get("signals") or {}).get("water_desc") \
                 or (r.get("signals") or {}).get("over_desc") \
                 or (r.get("signals") or {}).get("line_desc") or ""
-            out.append(f"{i}. {tag}{r['home']} vs {r['away']}")
+            out.append(f"{i}. {tag}{r['home']} vs {r['away']}" + (f"（{ko}开赛）" if ko else ""))
             out.append(f"   {mkt} {r['pick']} · {r['score']}分" + (f" · {sig}" if sig else ""))
         return out
 

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-31T06:36:23.715184+00:00",
+  "generated_at": "2026-10-31T06:49:15.461800+00:00",
   "scope": "五大联赛 + 欧冠",
   "note": "杯赛与联赛数据分开计算",
   "total": 35,
@@ -9,7 +9,7 @@
       "competition": "epl",
       "home": "考文垂",
       "away": "桑德兰",
-      "kickoff": "2026-10-31T23:00:00",
+      "kickoff": "2026-10-31T15:00:00",
       "market": "totals",
       "pick": "小球（2.5）",
       "side": "under",
@@ -27,13 +27,13 @@
       },
       "history": [
         {
-          "ts": "2026-10-30T23:00:00+00:00",
+          "ts": "2026-10-30T15:00:00+00:00",
           "total_line": 2.5,
           "over": 0.93,
           "under": 0.93
         },
         {
-          "ts": "2026-10-31T06:36:14.871526+00:00",
+          "ts": "2026-10-31T06:49:05.680998+00:00",
           "total_line": 2.5,
           "over": 1.06,
           "under": 0.82
@@ -43,11 +43,11 @@
       "competition_class": "league"
     },
     {
-      "fixture_key": "laliga|皇家贝蒂斯|马拉加|2026-11-01",
+      "fixture_key": "laliga|皇家贝蒂斯|马拉加|2026-10-31",
       "competition": "laliga",
       "home": "皇家贝蒂斯",
       "away": "马拉加",
-      "kickoff": "2026-11-01T01:30:00",
+      "kickoff": "2026-10-31T17:30:00",
       "market": "totals",
       "pick": "小球（3.25）",
       "side": "under",
@@ -65,13 +65,13 @@
       },
       "history": [
         {
-          "ts": "2026-10-31T01:30:00+00:00",
+          "ts": "2026-10-30T17:30:00+00:00",
           "total_line": 3,
           "over": 0.86,
           "under": 1
         },
         {
-          "ts": "2026-10-31T06:36:19.341670+00:00",
+          "ts": "2026-10-31T06:49:09.993836+00:00",
           "total_line": 3.25,
           "over": 1,
           "under": 0.88
@@ -85,7 +85,7 @@
       "competition": "laliga",
       "home": "莱万特",
       "away": "马德里竞技",
-      "kickoff": "2026-10-31T21:00:00",
+      "kickoff": "2026-10-31T13:00:00",
       "market": "handicap",
       "pick": "客队（让 1）",
       "side": "away",
@@ -104,13 +104,13 @@
       },
       "history": [
         {
-          "ts": "2026-10-30T21:00:00+00:00",
+          "ts": "2026-10-30T13:00:00+00:00",
           "handicap_line": 1,
           "handicap_home": 0.93,
           "handicap_away": 0.95
         },
         {
-          "ts": "2026-10-31T06:36:18.120464+00:00",
+          "ts": "2026-10-31T06:49:08.942912+00:00",
           "handicap_line": 1,
           "handicap_home": 1.07,
           "handicap_away": 0.82
@@ -124,7 +124,7 @@
       "competition": "laliga",
       "home": "巴列卡诺",
       "away": "塞尔塔",
-      "kickoff": "2026-10-31T23:15:00",
+      "kickoff": "2026-10-31T15:15:00",
       "market": "totals",
       "pick": "小球（2.25）",
       "side": "under",
@@ -142,13 +142,13 @@
       },
       "history": [
         {
-          "ts": "2026-10-30T23:15:00+00:00",
+          "ts": "2026-10-30T15:15:00+00:00",
           "total_line": 2.25,
           "over": 0.81,
           "under": 1.05
         },
         {
-          "ts": "2026-10-31T06:36:18.805453+00:00",
+          "ts": "2026-10-31T06:49:09.370037+00:00",
           "total_line": 2.25,
           "over": 0.93,
           "under": 0.95
@@ -158,11 +158,11 @@
       "competition_class": "league"
     },
     {
-      "fixture_key": "laliga|皇家贝蒂斯|马拉加|2026-11-01",
+      "fixture_key": "laliga|皇家贝蒂斯|马拉加|2026-10-31",
       "competition": "laliga",
       "home": "皇家贝蒂斯",
       "away": "马拉加",
-      "kickoff": "2026-11-01T01:30:00",
+      "kickoff": "2026-10-31T17:30:00",
       "market": "handicap",
       "pick": "主队（让 1.5）",
       "side": "home",
@@ -181,13 +181,13 @@
       },
       "history": [
         {
-          "ts": "2026-10-31T01:30:00+00:00",
+          "ts": "2026-10-30T17:30:00+00:00",
           "handicap_line": -1.25,
           "handicap_home": 0.92,
           "handicap_away": 0.96
         },
         {
-          "ts": "2026-10-31T06:36:19.341670+00:00",
+          "ts": "2026-10-31T06:49:09.993836+00:00",
           "handicap_line": -1.5,
           "handicap_home": 0.84,
           "handicap_away": 1.05
@@ -201,7 +201,7 @@
       "competition": "bundesliga",
       "home": "门兴格拉德巴赫",
       "away": "帕德博恩",
-      "kickoff": "2026-10-31T22:30:00",
+      "kickoff": "2026-10-31T14:30:00",
       "market": "handicap",
       "pick": "客队（受让 0.25）",
       "side": "away",
@@ -209,38 +209,38 @@
       "score": 75.0,
       "reasons": [
         "亚盘 降盘 -0.5->-0.25（主队走弱）",
-        "主队升水 0.84->0.94",
+        "主队升水 0.84->0.93",
         "主队近1场 1胜0平0负，场均进3.0/失2.0",
         "客队近1场 1胜0平0负，场均进1.0/失0.0",
         "交手0次：主队0胜0平0负"
       ],
       "signals": {
         "line_desc": "降盘 -0.5->-0.25（主队走弱）",
-        "water_desc": "主队升水 0.84->0.94"
+        "water_desc": "主队升水 0.84->0.93"
       },
       "history": [
         {
-          "ts": "2026-10-30T22:30:00+00:00",
+          "ts": "2026-10-30T14:30:00+00:00",
           "handicap_line": -0.5,
           "handicap_home": 0.84,
           "handicap_away": 1.04
         },
         {
-          "ts": "2026-10-31T06:36:22.650962+00:00",
+          "ts": "2026-10-31T06:49:13.136779+00:00",
           "handicap_line": -0.25,
-          "handicap_home": 0.94,
-          "handicap_away": 0.95
+          "handicap_home": 0.93,
+          "handicap_away": 0.96
         }
       ],
       "competition_name": "德国甲级联赛",
       "competition_class": "league"
     },
     {
-      "fixture_key": "ligue1|特鲁瓦|勒芒|2026-11-01",
+      "fixture_key": "ligue1|特鲁瓦|勒芒|2026-10-31",
       "competition": "ligue1",
       "home": "特鲁瓦",
       "away": "勒芒",
-      "kickoff": "2026-11-01T03:45:00",
+      "kickoff": "2026-10-31T19:45:00",
       "market": "totals",
       "pick": "小球（2.5）",
       "side": "under",
@@ -258,13 +258,13 @@
       },
       "history": [
         {
-          "ts": "2026-10-31T03:45:00+00:00",
+          "ts": "2026-10-30T19:45:00+00:00",
           "total_line": 2.5,
           "over": 0.84,
           "under": 1.02
         },
         {
-          "ts": "2026-10-31T06:36:23.502778+00:00",
+          "ts": "2026-10-31T06:49:15.256920+00:00",
           "total_line": 2.5,
           "over": 0.86,
           "under": 1.02
@@ -278,7 +278,7 @@
       "competition": "epl",
       "home": "Chelsea",
       "away": "曼彻斯特联",
-      "kickoff": "2026-10-31T20:30:00",
+      "kickoff": "2026-10-31T12:30:00",
       "market": "totals",
       "pick": "小球（3）",
       "side": "under",
@@ -296,13 +296,13 @@
       },
       "history": [
         {
-          "ts": "2026-10-30T20:30:00+00:00",
+          "ts": "2026-10-30T12:30:00+00:00",
           "total_line": 3,
           "over": 0.84,
           "under": 1.02
         },
         {
-          "ts": "2026-10-31T06:36:13.628709+00:00",
+          "ts": "2026-10-31T06:49:03.962071+00:00",
           "total_line": 3,
           "over": 1.03,
           "under": 0.85
@@ -312,11 +312,11 @@
       "competition_class": "league"
     },
     {
-      "fixture_key": "seriea|乌迪内斯|罗马|2026-11-01",
+      "fixture_key": "seriea|乌迪内斯|罗马|2026-10-31",
       "competition": "seriea",
       "home": "乌迪内斯",
       "away": "罗马",
-      "kickoff": "2026-11-01T01:00:00",
+      "kickoff": "2026-10-31T17:00:00",
       "market": "totals",
       "pick": "大球（3）",
       "side": "over",
@@ -334,13 +334,13 @@
       },
       "history": [
         {
-          "ts": "2026-10-31T01:00:00+00:00",
+          "ts": "2026-10-30T17:00:00+00:00",
           "total_line": 2.75,
           "over": 0.85,
           "under": 1.03
         },
         {
-          "ts": "2026-10-31T06:36:21.178930+00:00",
+          "ts": "2026-10-31T06:49:11.612936+00:00",
           "total_line": 3,
           "over": 0.95,
           "under": 0.93
@@ -354,7 +354,7 @@
       "competition": "seriea",
       "home": "博洛尼亚",
       "away": "蒙扎",
-      "kickoff": "2026-10-31T22:00:00",
+      "kickoff": "2026-10-31T14:00:00",
       "market": "handicap",
       "pick": "主队（让 0.75）",
       "side": "home",
@@ -373,13 +373,13 @@
       },
       "history": [
         {
-          "ts": "2026-10-30T22:00:00+00:00",
+          "ts": "2026-10-30T14:00:00+00:00",
           "handicap_line": -0.75,
           "handicap_home": 1.02,
           "handicap_away": 0.86
         },
         {
-          "ts": "2026-10-31T06:36:20.595777+00:00",
+          "ts": "2026-10-31T06:49:11.207251+00:00",
           "handicap_line": -0.75,
           "handicap_home": 0.85,
           "handicap_away": 1.04
@@ -389,11 +389,11 @@
       "competition_class": "league"
     },
     {
-      "fixture_key": "bundesliga|bayernmunich|多特蒙德|2026-11-01",
+      "fixture_key": "bundesliga|bayernmunich|多特蒙德|2026-10-31",
       "competition": "bundesliga",
       "home": "Bayern Munich",
       "away": "多特蒙德",
-      "kickoff": "2026-11-01T01:30:00",
+      "kickoff": "2026-10-31T17:30:00",
       "market": "totals",
       "pick": "小球（3.75）",
       "side": "under",
@@ -411,13 +411,13 @@
       },
       "history": [
         {
-          "ts": "2026-10-31T01:30:00+00:00",
+          "ts": "2026-10-30T17:30:00+00:00",
           "total_line": 4,
           "over": 0.83,
           "under": 1.03
         },
         {
-          "ts": "2026-10-31T06:36:23.205158+00:00",
+          "ts": "2026-10-31T06:49:14.880662+00:00",
           "total_line": 3.75,
           "over": 0.95,
           "under": 0.93
@@ -431,7 +431,7 @@
       "competition": "bundesliga",
       "home": "奥格斯堡",
       "away": "弗赖堡",
-      "kickoff": "2026-10-31T22:30:00",
+      "kickoff": "2026-10-31T14:30:00",
       "market": "handicap",
       "pick": "主队（受让 0.25）",
       "side": "home",
@@ -450,13 +450,13 @@
       },
       "history": [
         {
-          "ts": "2026-10-30T22:30:00+00:00",
+          "ts": "2026-10-30T14:30:00+00:00",
           "handicap_line": 0.25,
           "handicap_home": 0.94,
           "handicap_away": 0.94
         },
         {
-          "ts": "2026-10-31T06:36:22.075855+00:00",
+          "ts": "2026-10-31T06:49:12.287604+00:00",
           "handicap_line": 0.25,
           "handicap_home": 0.88,
           "handicap_away": 1.01
@@ -466,11 +466,11 @@
       "competition_class": "league"
     },
     {
-      "fixture_key": "epl|托特纳姆热刺|水晶宫|2026-11-01",
+      "fixture_key": "epl|托特纳姆热刺|水晶宫|2026-10-31",
       "competition": "epl",
       "home": "托特纳姆热刺",
       "away": "水晶宫",
-      "kickoff": "2026-11-01T01:30:00",
+      "kickoff": "2026-10-31T17:30:00",
       "market": "totals",
       "pick": "小球（2.75）",
       "side": "under",
@@ -488,13 +488,13 @@
       },
       "history": [
         {
-          "ts": "2026-10-31T01:30:00+00:00",
+          "ts": "2026-10-30T17:30:00+00:00",
           "total_line": 2.75,
           "over": 0.82,
           "under": 1.04
         },
         {
-          "ts": "2026-10-31T06:36:16.826536+00:00",
+          "ts": "2026-10-31T06:49:07.706751+00:00",
           "total_line": 2.75,
           "over": 0.83,
           "under": 1.05
@@ -508,7 +508,7 @@
       "competition": "epl",
       "home": "赫尔城",
       "away": "伊普斯维奇",
-      "kickoff": "2026-10-31T23:00:00",
+      "kickoff": "2026-10-31T15:00:00",
       "market": "handicap",
       "pick": "平手盘",
       "side": "away",
@@ -527,13 +527,13 @@
       },
       "history": [
         {
-          "ts": "2026-10-30T23:00:00+00:00",
+          "ts": "2026-10-30T15:00:00+00:00",
           "handicap_line": 0,
           "handicap_home": 0.92,
           "handicap_away": 0.96
         },
         {
-          "ts": "2026-10-31T06:36:15.253801+00:00",
+          "ts": "2026-10-31T06:49:06.523279+00:00",
           "handicap_line": 0,
           "handicap_home": 1.08,
           "handicap_away": 0.81
@@ -547,7 +547,7 @@
       "competition": "bundesliga",
       "home": "勒沃库森",
       "away": "斯图加特",
-      "kickoff": "2026-10-31T22:30:00",
+      "kickoff": "2026-10-31T14:30:00",
       "market": "totals",
       "pick": "大球（3.75）",
       "side": "over",
@@ -565,13 +565,13 @@
       },
       "history": [
         {
-          "ts": "2026-10-30T22:30:00+00:00",
+          "ts": "2026-10-30T14:30:00+00:00",
           "total_line": 3.75,
           "over": 1.02,
           "under": 0.84
         },
         {
-          "ts": "2026-10-31T06:36:22.403370+00:00",
+          "ts": "2026-10-31T06:49:12.723748+00:00",
           "total_line": 3.75,
           "over": 0.95,
           "under": 0.93
@@ -585,7 +585,7 @@
       "competition": "bundesliga",
       "home": "奥格斯堡",
       "away": "弗赖堡",
-      "kickoff": "2026-10-31T22:30:00",
+      "kickoff": "2026-10-31T14:30:00",
       "market": "totals",
       "pick": "小球（3.25）",
       "side": "under",
@@ -603,13 +603,13 @@
       },
       "history": [
         {
-          "ts": "2026-10-30T22:30:00+00:00",
+          "ts": "2026-10-30T14:30:00+00:00",
           "total_line": 3.25,
           "over": 0.98,
           "under": 0.88
         },
         {
-          "ts": "2026-10-31T06:36:22.075855+00:00",
+          "ts": "2026-10-31T06:49:12.287604+00:00",
           "total_line": 3.25,
           "over": 1.01,
           "under": 0.87
@@ -619,11 +619,11 @@
       "competition_class": "league"
     },
     {
-      "fixture_key": "ligue1|特鲁瓦|勒芒|2026-11-01",
+      "fixture_key": "ligue1|特鲁瓦|勒芒|2026-10-31",
       "competition": "ligue1",
       "home": "特鲁瓦",
       "away": "勒芒",
-      "kickoff": "2026-11-01T03:45:00",
+      "kickoff": "2026-10-31T19:45:00",
       "market": "handicap",
       "pick": "客队（受让 0.25）",
       "side": "away",
@@ -642,13 +642,13 @@
       },
       "history": [
         {
-          "ts": "2026-10-31T03:45:00+00:00",
+          "ts": "2026-10-30T19:45:00+00:00",
           "handicap_line": -0.25,
           "handicap_home": 0.89,
           "handicap_away": 0.99
         },
         {
-          "ts": "2026-10-31T06:36:23.502778+00:00",
+          "ts": "2026-10-31T06:49:15.256920+00:00",
           "handicap_line": -0.25,
           "handicap_home": 1.04,
           "handicap_away": 0.85
@@ -662,7 +662,7 @@
       "competition": "bundesliga",
       "home": "门兴格拉德巴赫",
       "away": "帕德博恩",
-      "kickoff": "2026-10-31T22:30:00",
+      "kickoff": "2026-10-31T14:30:00",
       "market": "totals",
       "pick": "大球（3）",
       "side": "over",
@@ -680,13 +680,13 @@
       },
       "history": [
         {
-          "ts": "2026-10-30T22:30:00+00:00",
+          "ts": "2026-10-30T14:30:00+00:00",
           "total_line": 3.25,
           "over": 1,
           "under": 0.86
         },
         {
-          "ts": "2026-10-31T06:36:22.650962+00:00",
+          "ts": "2026-10-31T06:49:13.136779+00:00",
           "total_line": 3,
           "over": 0.84,
           "under": 1.04
@@ -700,7 +700,7 @@
       "competition": "epl",
       "home": "Chelsea",
       "away": "曼彻斯特联",
-      "kickoff": "2026-10-31T20:30:00",
+      "kickoff": "2026-10-31T12:30:00",
       "market": "handicap",
       "pick": "客队（受让 0.5）",
       "side": "away",
@@ -719,13 +719,13 @@
       },
       "history": [
         {
-          "ts": "2026-10-30T20:30:00+00:00",
+          "ts": "2026-10-30T12:30:00+00:00",
           "handicap_line": -0.5,
           "handicap_home": 0.98,
           "handicap_away": 0.9
         },
         {
-          "ts": "2026-10-31T06:36:13.628709+00:00",
+          "ts": "2026-10-31T06:49:03.962071+00:00",
           "handicap_line": -0.5,
           "handicap_home": 1.03,
           "handicap_away": 0.86
@@ -739,7 +739,7 @@
       "competition": "epl",
       "home": "赫尔城",
       "away": "伊普斯维奇",
-      "kickoff": "2026-10-31T23:00:00",
+      "kickoff": "2026-10-31T15:00:00",
       "market": "totals",
       "pick": "小球（2.5）",
       "side": "under",
@@ -757,13 +757,13 @@
       },
       "history": [
         {
-          "ts": "2026-10-30T23:00:00+00:00",
+          "ts": "2026-10-30T15:00:00+00:00",
           "total_line": 2.75,
           "over": 1.03,
           "under": 0.83
         },
         {
-          "ts": "2026-10-31T06:36:15.253801+00:00",
+          "ts": "2026-10-31T06:49:06.523279+00:00",
           "total_line": 2.5,
           "over": 0.88,
           "under": 1
@@ -777,7 +777,7 @@
       "competition": "bundesliga",
       "home": "勒沃库森",
       "away": "斯图加特",
-      "kickoff": "2026-10-31T22:30:00",
+      "kickoff": "2026-10-31T14:30:00",
       "market": "handicap",
       "pick": "主队（让 0.75）",
       "side": "home",
@@ -785,27 +785,27 @@
       "score": 61.2,
       "reasons": [
         "亚盘 盘口不变",
-        "主队降水 0.99->0.88",
+        "主队降水 0.99->0.85",
         "主队近1场 0胜0平1负，场均进0.0/失3.0",
         "客队近1场 0胜0平1负，场均进2.0/失3.0",
         "交手0次：主队0胜0平0负"
       ],
       "signals": {
         "line_desc": "盘口不变",
-        "water_desc": "主队降水 0.99->0.88"
+        "water_desc": "主队降水 0.99->0.85"
       },
       "history": [
         {
-          "ts": "2026-10-30T22:30:00+00:00",
+          "ts": "2026-10-30T14:30:00+00:00",
           "handicap_line": -0.75,
           "handicap_home": 0.99,
           "handicap_away": 0.89
         },
         {
-          "ts": "2026-10-31T06:36:22.403370+00:00",
+          "ts": "2026-10-31T06:49:12.723748+00:00",
           "handicap_line": -0.75,
-          "handicap_home": 0.88,
-          "handicap_away": 1.01
+          "handicap_home": 0.85,
+          "handicap_away": 1.04
         }
       ],
       "competition_name": "德国甲级联赛",
@@ -816,7 +816,7 @@
       "competition": "epl",
       "home": "曼彻斯特城",
       "away": "布莱顿",
-      "kickoff": "2026-10-31T23:00:00",
+      "kickoff": "2026-10-31T15:00:00",
       "market": "totals",
       "pick": "小球（3.25）",
       "side": "under",
@@ -834,13 +834,13 @@
       },
       "history": [
         {
-          "ts": "2026-10-30T23:00:00+00:00",
+          "ts": "2026-10-30T15:00:00+00:00",
           "total_line": 3,
           "over": 0.84,
           "under": 1.02
         },
         {
-          "ts": "2026-10-31T06:36:15.880740+00:00",
+          "ts": "2026-10-31T06:49:07.129902+00:00",
           "total_line": 3.25,
           "over": 0.89,
           "under": 0.99
@@ -854,7 +854,7 @@
       "competition": "seriea",
       "home": "博洛尼亚",
       "away": "蒙扎",
-      "kickoff": "2026-10-31T22:00:00",
+      "kickoff": "2026-10-31T14:00:00",
       "market": "totals",
       "pick": "大球（2.5）",
       "side": "over",
@@ -872,13 +872,13 @@
       },
       "history": [
         {
-          "ts": "2026-10-30T22:00:00+00:00",
+          "ts": "2026-10-30T14:00:00+00:00",
           "total_line": 2.5,
           "over": 0.88,
           "under": 1
         },
         {
-          "ts": "2026-10-31T06:36:20.595777+00:00",
+          "ts": "2026-10-31T06:49:11.207251+00:00",
           "total_line": 2.5,
           "over": 0.91,
           "under": 0.97
@@ -892,7 +892,7 @@
       "competition": "bundesliga",
       "home": "沙尔克04",
       "away": "RB莱比锡",
-      "kickoff": "2026-10-31T22:30:00",
+      "kickoff": "2026-10-31T14:30:00",
       "market": "totals",
       "pick": "小球（3.25）",
       "side": "under",
@@ -910,13 +910,13 @@
       },
       "history": [
         {
-          "ts": "2026-10-30T22:30:00+00:00",
+          "ts": "2026-10-30T14:30:00+00:00",
           "total_line": 3.25,
           "over": 0.89,
           "under": 0.97
         },
         {
-          "ts": "2026-10-31T06:36:22.798007+00:00",
+          "ts": "2026-10-31T06:49:13.578410+00:00",
           "total_line": 3.25,
           "over": 0.92,
           "under": 0.96
@@ -930,7 +930,7 @@
       "competition": "epl",
       "home": "曼彻斯特城",
       "away": "布莱顿",
-      "kickoff": "2026-10-31T23:00:00",
+      "kickoff": "2026-10-31T15:00:00",
       "market": "handicap",
       "pick": "主队（让 0.75）",
       "side": "home",
@@ -949,13 +949,13 @@
       },
       "history": [
         {
-          "ts": "2026-10-30T23:00:00+00:00",
+          "ts": "2026-10-30T15:00:00+00:00",
           "handicap_line": -0.75,
           "handicap_home": 0.88,
           "handicap_away": 1
         },
         {
-          "ts": "2026-10-31T06:36:15.880740+00:00",
+          "ts": "2026-10-31T06:49:07.129902+00:00",
           "handicap_line": -0.75,
           "handicap_home": 0.84,
           "handicap_away": 1.05
@@ -965,11 +965,11 @@
       "competition_class": "league"
     },
     {
-      "fixture_key": "laliga|巴塞罗那|阿拉维斯|2026-11-01",
+      "fixture_key": "laliga|巴塞罗那|阿拉维斯|2026-10-31",
       "competition": "laliga",
       "home": "巴塞罗那",
       "away": "阿拉维斯",
-      "kickoff": "2026-11-01T04:00:00",
+      "kickoff": "2026-10-31T20:00:00",
       "market": "totals",
       "pick": "大球（4）",
       "side": "over",
@@ -987,13 +987,13 @@
       },
       "history": [
         {
-          "ts": "2026-10-31T04:00:00+00:00",
+          "ts": "2026-10-30T20:00:00+00:00",
           "total_line": 4,
           "over": 0.97,
           "under": 0.89
         },
         {
-          "ts": "2026-10-31T06:36:19.982343+00:00",
+          "ts": "2026-10-31T06:49:10.679719+00:00",
           "total_line": 4,
           "over": 0.84,
           "under": 1.04
@@ -1003,11 +1003,11 @@
       "competition_class": "league"
     },
     {
-      "fixture_key": "seriea|ac米兰|国际米兰|2026-11-01",
+      "fixture_key": "seriea|ac米兰|国际米兰|2026-10-31",
       "competition": "seriea",
       "home": "AC米兰",
       "away": "国际米兰",
-      "kickoff": "2026-11-01T03:45:00",
+      "kickoff": "2026-10-31T19:45:00",
       "market": "totals",
       "pick": "大球（3）",
       "side": "over",
@@ -1025,13 +1025,13 @@
       },
       "history": [
         {
-          "ts": "2026-10-31T03:45:00+00:00",
+          "ts": "2026-10-30T19:45:00+00:00",
           "total_line": 2.75,
           "over": 0.83,
           "under": 1.05
         },
         {
-          "ts": "2026-10-31T06:36:21.798145+00:00",
+          "ts": "2026-10-31T06:49:12.012480+00:00",
           "total_line": 3,
           "over": 1.08,
           "under": 0.8
@@ -1045,7 +1045,7 @@
       "competition": "bundesliga",
       "home": "云达不莱梅",
       "away": "霍芬海姆",
-      "kickoff": "2026-10-31T22:30:00",
+      "kickoff": "2026-10-31T14:30:00",
       "market": "handicap",
       "pick": "平手盘",
       "side": "away",
@@ -1064,13 +1064,13 @@
       },
       "history": [
         {
-          "ts": "2026-10-30T22:30:00+00:00",
+          "ts": "2026-10-30T14:30:00+00:00",
           "handicap_line": 0.25,
           "handicap_home": 0.94,
           "handicap_away": 0.94
         },
         {
-          "ts": "2026-10-31T06:36:22.984616+00:00",
+          "ts": "2026-10-31T06:49:14.185340+00:00",
           "handicap_line": 0,
           "handicap_home": 0.99,
           "handicap_away": 0.9
@@ -1084,7 +1084,7 @@
       "competition": "epl",
       "home": "伯恩茅斯",
       "away": "利兹联",
-      "kickoff": "2026-10-31T23:00:00",
+      "kickoff": "2026-10-31T15:00:00",
       "market": "handicap",
       "pick": "主队（让 0.5）",
       "side": "home",
@@ -1103,13 +1103,13 @@
       },
       "history": [
         {
-          "ts": "2026-10-30T23:00:00+00:00",
+          "ts": "2026-10-30T15:00:00+00:00",
           "handicap_line": -0.25,
           "handicap_home": 0.97,
           "handicap_away": 0.91
         },
         {
-          "ts": "2026-10-31T06:36:14.215770+00:00",
+          "ts": "2026-10-31T06:49:04.471833+00:00",
           "handicap_line": -0.5,
           "handicap_home": 1.08,
           "handicap_away": 0.81
@@ -1119,11 +1119,11 @@
       "competition_class": "league"
     },
     {
-      "fixture_key": "epl|托特纳姆热刺|水晶宫|2026-11-01",
+      "fixture_key": "epl|托特纳姆热刺|水晶宫|2026-10-31",
       "competition": "epl",
       "home": "托特纳姆热刺",
       "away": "水晶宫",
-      "kickoff": "2026-11-01T01:30:00",
+      "kickoff": "2026-10-31T17:30:00",
       "market": "handicap",
       "pick": "主队（让 1）",
       "side": "home",
@@ -1142,13 +1142,13 @@
       },
       "history": [
         {
-          "ts": "2026-10-31T01:30:00+00:00",
+          "ts": "2026-10-30T17:30:00+00:00",
           "handicap_line": -0.75,
           "handicap_home": 0.81,
           "handicap_away": 1.07
         },
         {
-          "ts": "2026-10-31T06:36:16.826536+00:00",
+          "ts": "2026-10-31T06:49:07.706751+00:00",
           "handicap_line": -1,
           "handicap_home": 1.06,
           "handicap_away": 0.83
@@ -1158,11 +1158,11 @@
       "competition_class": "league"
     },
     {
-      "fixture_key": "epl|阿斯顿维拉|富勒姆|2026-11-01",
+      "fixture_key": "epl|阿斯顿维拉|富勒姆|2026-10-31",
       "competition": "epl",
       "home": "阿斯顿维拉",
       "away": "富勒姆",
-      "kickoff": "2026-11-01T04:00:00",
+      "kickoff": "2026-10-31T20:00:00",
       "market": "handicap",
       "pick": "主队（让 0.5）",
       "side": "home",
@@ -1181,13 +1181,13 @@
       },
       "history": [
         {
-          "ts": "2026-10-31T04:00:00+00:00",
+          "ts": "2026-10-30T20:00:00+00:00",
           "handicap_line": -0.5,
           "handicap_home": 1.06,
           "handicap_away": 0.82
         },
         {
-          "ts": "2026-10-31T06:36:17.544357+00:00",
+          "ts": "2026-10-31T06:49:08.565498+00:00",
           "handicap_line": -0.5,
           "handicap_home": 1.05,
           "handicap_away": 0.84
@@ -1201,7 +1201,7 @@
       "competition": "bundesliga",
       "home": "沙尔克04",
       "away": "RB莱比锡",
-      "kickoff": "2026-10-31T22:30:00",
+      "kickoff": "2026-10-31T14:30:00",
       "market": "handicap",
       "pick": "客队（让 0.75）",
       "side": "away",
@@ -1220,13 +1220,13 @@
       },
       "history": [
         {
-          "ts": "2026-10-30T22:30:00+00:00",
+          "ts": "2026-10-30T14:30:00+00:00",
           "handicap_line": 0.5,
           "handicap_home": 0.98,
           "handicap_away": 0.9
         },
         {
-          "ts": "2026-10-31T06:36:22.798007+00:00",
+          "ts": "2026-10-31T06:49:13.578410+00:00",
           "handicap_line": 0.75,
           "handicap_home": 0.87,
           "handicap_away": 1.02
@@ -1236,11 +1236,11 @@
       "competition_class": "league"
     },
     {
-      "fixture_key": "laliga|巴塞罗那|阿拉维斯|2026-11-01",
+      "fixture_key": "laliga|巴塞罗那|阿拉维斯|2026-10-31",
       "competition": "laliga",
       "home": "巴塞罗那",
       "away": "阿拉维斯",
-      "kickoff": "2026-11-01T04:00:00",
+      "kickoff": "2026-10-31T20:00:00",
       "market": "handicap",
       "pick": "客队（受让 2.75）",
       "side": "away",
@@ -1259,13 +1259,13 @@
       },
       "history": [
         {
-          "ts": "2026-10-31T04:00:00+00:00",
+          "ts": "2026-10-30T20:00:00+00:00",
           "handicap_line": -2.5,
           "handicap_home": 0.95,
           "handicap_away": 0.93
         },
         {
-          "ts": "2026-10-31T06:36:19.982343+00:00",
+          "ts": "2026-10-31T06:49:10.679719+00:00",
           "handicap_line": -2.75,
           "handicap_home": 1.02,
           "handicap_away": 0.87
@@ -1275,11 +1275,11 @@
       "competition_class": "league"
     },
     {
-      "fixture_key": "bundesliga|bayernmunich|多特蒙德|2026-11-01",
+      "fixture_key": "bundesliga|bayernmunich|多特蒙德|2026-10-31",
       "competition": "bundesliga",
       "home": "Bayern Munich",
       "away": "多特蒙德",
-      "kickoff": "2026-11-01T01:30:00",
+      "kickoff": "2026-10-31T17:30:00",
       "market": "handicap",
       "pick": "主队（让 1.5）",
       "side": "home",
@@ -1298,13 +1298,13 @@
       },
       "history": [
         {
-          "ts": "2026-10-31T01:30:00+00:00",
+          "ts": "2026-10-30T17:30:00+00:00",
           "handicap_line": -1.75,
           "handicap_home": 1.03,
           "handicap_away": 0.85
         },
         {
-          "ts": "2026-10-31T06:36:23.205158+00:00",
+          "ts": "2026-10-31T06:49:14.880662+00:00",
           "handicap_line": -1.5,
           "handicap_home": 0.89,
           "handicap_away": 1
@@ -1318,7 +1318,7 @@
       "competition": "epl",
       "home": "布伦特福德",
       "away": "诺丁汉森林",
-      "kickoff": "2026-10-31T23:00:00",
+      "kickoff": "2026-10-31T15:00:00",
       "market": "handicap",
       "pick": "主队（让 0.25）",
       "side": "home",
@@ -1337,13 +1337,13 @@
       },
       "history": [
         {
-          "ts": "2026-10-30T23:00:00+00:00",
+          "ts": "2026-10-30T15:00:00+00:00",
           "handicap_line": -0.5,
           "handicap_home": 1.03,
           "handicap_away": 0.85
         },
         {
-          "ts": "2026-10-31T06:36:14.576160+00:00",
+          "ts": "2026-10-31T06:49:05.082021+00:00",
           "handicap_line": -0.25,
           "handicap_home": 0.86,
           "handicap_away": 1.03

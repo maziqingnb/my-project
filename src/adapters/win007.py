@@ -58,10 +58,12 @@ def _int(s):
 
 
 def _iso(match_time: str) -> str:
-    """'20261031103000' -> '2026-10-31T10:30:00'"""
+    """'20261031103000'（球探网为北京时间 UTC+8）-> UTC 的 '2026-10-31T02:30:00'"""
     t = (match_time or "").strip()
     if len(t) >= 12:
-        return f"{t[:4]}-{t[4:6]}-{t[6:8]}T{t[8:10]}:{t[10:12]}:00"
+        dt = datetime(int(t[:4]), int(t[4:6]), int(t[6:8]), int(t[8:10]), int(t[10:12]), 0,
+                      tzinfo=timezone(timedelta(hours=8)))
+        return dt.astimezone(timezone.utc).strftime("%Y-%m-%dT%H:%M:%S")
     return t
 
 

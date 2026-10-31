@@ -153,6 +153,8 @@ def main() -> None:
     ap.add_argument("--demo", action="store_true")
 
     np = sub.add_parser("notify", help="把最新报告推送到微信（企业微信机器人/Server酱）")
+    np.add_argument("--prematch-hours", type=float, default=None,
+                    help="只推 N 小时内开赛的比赛（赛前提醒，每场只推一次）")
 
     args = parser.parse_args()
     cfg = C.load_config()
@@ -173,7 +175,9 @@ def main() -> None:
             print("暂无报告，请先运行 analyze")
         else:
             from src.notify.push import push_report
-            push_report(report)
+            notified_path = C.DATA_DIR / "prematch_notified.json"
+            push_report(report, prematch_hours=args.prematch_hours,
+                        notified_path=str(notified_path) if args.prematch_hours is not None else None)
 
 
 if __name__ == "__main__":

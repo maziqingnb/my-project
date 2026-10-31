@@ -6,7 +6,7 @@
     "away": "蒙扎",
     "home_goals": 3,
     "away_goals": 2,
-    "date": "2026-10-24"
+    "date": "2026-10-23"
   },
   {
     "competition": "seriea",
@@ -33,7 +33,7 @@
     "away": "罗马",
     "home_goals": 3,
     "away_goals": 3,
-    "date": "2026-10-25"
+    "date": "2026-10-24"
   },
   {
     "competition": "seriea",
@@ -42,7 +42,7 @@
     "away": "帕尔马",
     "home_goals": 2,
     "away_goals": 1,
-    "date": "2026-10-25"
+    "date": "2026-10-24"
   },
   {
     "competition": "seriea",
@@ -78,7 +78,7 @@
     "away": "尤文图斯",
     "home_goals": 0,
     "away_goals": 2,
-    "date": "2026-10-26"
+    "date": "2026-10-25"
   },
   {
     "competition": "seriea",
@@ -87,7 +87,7 @@
     "away": "AC米兰",
     "home_goals": 0,
     "away_goals": 2,
-    "date": "2026-10-26"
+    "date": "2026-10-25"
   },
   {
     "competition": "seriea",
@@ -96,7 +96,7 @@
     "away": "拉齐奥",
     "home_goals": 2,
     "away_goals": 6,
-    "date": "2026-10-28"
+    "date": "2026-10-27"
   },
   {
     "competition": "seriea",
@@ -105,7 +105,7 @@
     "away": "卡利亚里",
     "home_goals": 4,
     "away_goals": 2,
-    "date": "2026-10-28"
+    "date": "2026-10-27"
   },
   {
     "competition": "seriea",
@@ -114,7 +114,7 @@
     "away": "科莫",
     "home_goals": 1,
     "away_goals": 3,
-    "date": "2026-10-28"
+    "date": "2026-10-27"
   },
   {
     "competition": "seriea",
@@ -123,7 +123,7 @@
     "away": "博洛尼亚",
     "home_goals": 2,
     "away_goals": 4,
-    "date": "2026-10-29"
+    "date": "2026-10-28"
   },
   {
     "competition": "seriea",
@@ -132,7 +132,7 @@
     "away": "乌迪内斯",
     "home_goals": 0,
     "away_goals": 0,
-    "date": "2026-10-29"
+    "date": "2026-10-28"
   },
   {
     "competition": "seriea",
@@ -141,7 +141,7 @@
     "away": "国际米兰",
     "home_goals": 0,
     "away_goals": 2,
-    "date": "2026-10-29"
+    "date": "2026-10-28"
   },
   {
     "competition": "seriea",
@@ -150,7 +150,7 @@
     "away": "尤文图斯",
     "home_goals": 2,
     "away_goals": 0,
-    "date": "2026-10-29"
+    "date": "2026-10-28"
   },
   {
     "competition": "seriea",
@@ -159,7 +159,7 @@
     "away": "那不勒斯",
     "home_goals": 1,
     "away_goals": 4,
-    "date": "2026-10-29"
+    "date": "2026-10-28"
   },
   {
     "competition": "seriea",
@@ -168,7 +168,7 @@
     "away": "莱切",
     "home_goals": 5,
     "away_goals": 1,
-    "date": "2026-10-30"
+    "date": "2026-10-29"
   },
   {
     "competition": "seriea",
@@ -177,6 +177,6 @@
     "away": "亚特兰大",
     "home_goals": 2,
     "away_goals": 2,
-    "date": "2026-10-30"
+    "date": "2026-10-29"
   }
 ]

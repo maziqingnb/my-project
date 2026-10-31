@@ -6,7 +6,7 @@
     "away": "马拉加",
     "home_goals": 1,
     "away_goals": 1,
-    "date": "2026-10-24"
+    "date": "2026-10-23"
   },
   {
     "competition": "laliga",
@@ -33,7 +33,7 @@
     "away": "比利亚雷亚尔",
     "home_goals": 1,
     "away_goals": 2,
-    "date": "2026-10-25"
+    "date": "2026-10-24"
   },
   {
     "competition": "laliga",
@@ -42,7 +42,7 @@
     "away": "拉科鲁尼亚",
     "home_goals": 1,
     "away_goals": 0,
-    "date": "2026-10-25"
+    "date": "2026-10-24"
   },
   {
     "competition": "laliga",
@@ -69,7 +69,7 @@
     "away": "莱万特",
     "home_goals": 2,
     "away_goals": 1,
-    "date": "2026-10-26"
+    "date": "2026-10-25"
   },
   {
     "competition": "laliga",
@@ -78,7 +78,7 @@
     "away": "Real Madrid",
     "home_goals": 1,
     "away_goals": 2,
-    "date": "2026-10-26"
+    "date": "2026-10-25"
   },
   {
     "competition": "laliga",
@@ -87,7 +87,7 @@
     "away": "奥萨苏纳",
     "home_goals": 2,
     "away_goals": 0,
-    "date": "2026-10-27"
+    "date": "2026-10-26"
   },
   {
     "competition": "laliga",
@@ -96,6 +96,6 @@
     "away": "西班牙人",
     "home_goals": 0,
     "away_goals": 1,
-    "date": "2026-10-31"
+    "date": "2026-10-30"
   }
 ]
