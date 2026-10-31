@@ -1,0 +1,70 @@
+name: Verify Pages Deployment
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - name: Wait for Pages build and verify site
+        env:
+          OWNER: maziqingnb
+          REPO: my-project
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          EXPECT_SHA: ${{ github.sha }}
+          SERVERCHAN_KEY: ${{ secrets.SERVERCHAN_KEY }}
+        run: |
+          notify() {
+            local title="$1"
+            local desp="$2"
+            if [ -n "${SERVERCHAN_KEY:-}" ]; then
+              curl -sS -X POST "https://sctapi.ftqq.com/${SERVERCHAN_KEY}.send" \
+                --data-urlencode "title=${title}" \
+                --data-urlencode "desp=${desp}" >/dev/null 2>&1 || true
+            else
+              echo "::warning::SERVERCHAN_KEY not set, skip push notification."
+            fi
+          }
+          fail() {
+            local msg="$1"
+            echo "::error::${msg}"
+            notify "Pages 核验失败 my-project" "${msg}
+
+Repo: https://github.com/${OWNER}/${REPO}
+Commit: ${EXPECT_SHA}
+Site: https://${OWNER}.github.io/${REPO}/"
+            exit 1
+          }
+          echo "Waiting for GitHub Pages build (commit ${EXPECT_SHA})..."
+          DONE=0
+          for i in $(seq 1 30); do
+            BUILD=$(curl -sS -H "Authorization: Bearer $GH_TOKEN" -H "Accept: application/vnd.github+json" "https://api.github.com/repos/${OWNER}/${REPO}/pages/builds/latest" || true)
+            STATUS=$(echo "$BUILD" | grep -o '"status": *"[^"]*"' | head -1 | sed 's/.*"\([^"]*\)"$/\1/')
+            COMMIT=$(echo "$BUILD" | grep -o '"commit": *"[^"]*"' | head -1 | sed 's/.*"\([^"]*\)"$/\1/')
+            echo "attempt $i: status=$STATUS commit=$COMMIT"
+            if [ "$STATUS" = "error" ]; then
+              fail "Pages build failed for this commit."
+            fi
+            if [ "$STATUS" = "built" ] && [ "$COMMIT" = "$EXPECT_SHA" ]; then
+              DONE=1
+              break
+            fi
+            sleep 10
+          done
+          if [ "$DONE" != "1" ]; then
+            fail "Timed out waiting for Pages build for commit ${EXPECT_SHA}."
+          fi
+          HTTP_CODE=$(curl -sS -o /dev/null -w "%{http_code}" --max-time 30 "https://${OWNER}.github.io/${REPO}/")
+          echo "Site HTTP status: $HTTP_CODE"
+          if [ "$HTTP_CODE" != "200" ]; then
+            fail "Site returned HTTP ${HTTP_CODE}, expected 200."
+          fi
+          notify "Pages 核验通过 my-project" "部署验证成功: HTTP 200
+
+Site: https://${OWNER}.github.io/${REPO}/
+Commit: ${EXPECT_SHA}"
+          echo "::notice::GitHub Pages deployment verified: HTTP 200."
