@@ -58,5 +58,35 @@
     "total_line": 3.25,
     "over": 1,
     "under": 0.88
+  },
+  {
+    "fixture_key": "bundesliga|沙尔克04|rb莱比锡|2026-10-31",
+    "competition": "bundesliga",
+    "home": "沙尔克04",
+    "away": "RB莱比锡",
+    "kickoff": "2026-10-31T14:30:00",
+    "bookmaker": "crown",
+    "ts": "2026-10-30T14:30:00+00:00",
+    "handicap_line": 0.5,
+    "handicap_home": 0.98,
+    "handicap_away": 0.9,
+    "total_line": 3.25,
+    "over": 0.89,
+    "under": 0.97
+  },
+  {
+    "fixture_key": "bundesliga|沙尔克04|rb莱比锡|2026-10-31",
+    "competition": "bundesliga",
+    "home": "沙尔克04",
+    "away": "RB莱比锡",
+    "kickoff": "2026-10-31T14:30:00",
+    "bookmaker": "crown",
+    "ts": "2026-10-31T10:24:34.936013+00:00",
+    "handicap_line": 0.5,
+    "handicap_home": 1.05,
+    "handicap_away": 0.84,
+    "total_line": 3,
+    "over": 0.92,
+    "under": 0.96
   }
 ]

@@ -58,5 +58,35 @@
     "total_line": 3.25,
     "over": 1.01,
     "under": 0.87
+  },
+  {
+    "fixture_key": "bundesliga|奥格斯堡|弗赖堡|2026-10-31",
+    "competition": "bundesliga",
+    "home": "奥格斯堡",
+    "away": "弗赖堡",
+    "kickoff": "2026-10-31T14:30:00",
+    "bookmaker": "crown",
+    "ts": "2026-10-30T14:30:00+00:00",
+    "handicap_line": 0.25,
+    "handicap_home": 0.94,
+    "handicap_away": 0.94,
+    "total_line": 3.25,
+    "over": 0.98,
+    "under": 0.88
+  },
+  {
+    "fixture_key": "bundesliga|奥格斯堡|弗赖堡|2026-10-31",
+    "competition": "bundesliga",
+    "home": "奥格斯堡",
+    "away": "弗赖堡",
+    "kickoff": "2026-10-31T14:30:00",
+    "bookmaker": "crown",
+    "ts": "2026-10-31T10:24:30.725325+00:00",
+    "handicap_line": 0.25,
+    "handicap_home": 0.86,
+    "handicap_away": 1.03,
+    "total_line": 3.25,
+    "over": 1.01,
+    "under": 0.87
   }
 ]

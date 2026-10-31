@@ -58,5 +58,35 @@
     "total_line": 4,
     "over": 0.84,
     "under": 1.04
+  },
+  {
+    "fixture_key": "laliga|巴塞罗那|阿拉维斯|2026-10-31",
+    "competition": "laliga",
+    "home": "巴塞罗那",
+    "away": "阿拉维斯",
+    "kickoff": "2026-10-31T20:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-10-30T20:00:00+00:00",
+    "handicap_line": -2.5,
+    "handicap_home": 0.95,
+    "handicap_away": 0.93,
+    "total_line": 4,
+    "over": 0.97,
+    "under": 0.89
+  },
+  {
+    "fixture_key": "laliga|巴塞罗那|阿拉维斯|2026-10-31",
+    "competition": "laliga",
+    "home": "巴塞罗那",
+    "away": "阿拉维斯",
+    "kickoff": "2026-10-31T20:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-10-31T10:24:22.770758+00:00",
+    "handicap_line": -2.75,
+    "handicap_home": 1.04,
+    "handicap_away": 0.85,
+    "total_line": 4,
+    "over": 0.83,
+    "under": 1.05
   }
 ]

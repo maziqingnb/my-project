@@ -58,5 +58,35 @@
     "total_line": 2.5,
     "over": 0.88,
     "under": 1
+  },
+  {
+    "fixture_key": "epl|赫尔城|伊普斯维奇|2026-10-31",
+    "competition": "epl",
+    "home": "赫尔城",
+    "away": "伊普斯维奇",
+    "kickoff": "2026-10-31T15:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-10-30T15:00:00+00:00",
+    "handicap_line": 0,
+    "handicap_home": 0.92,
+    "handicap_away": 0.96,
+    "total_line": 2.75,
+    "over": 1.03,
+    "under": 0.83
+  },
+  {
+    "fixture_key": "epl|赫尔城|伊普斯维奇|2026-10-31",
+    "competition": "epl",
+    "home": "赫尔城",
+    "away": "伊普斯维奇",
+    "kickoff": "2026-10-31T15:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-10-31T10:24:12.126813+00:00",
+    "handicap_line": 0,
+    "handicap_home": 1.06,
+    "handicap_away": 0.83,
+    "total_line": 2.5,
+    "over": 0.92,
+    "under": 0.97
   }
 ]

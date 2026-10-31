@@ -58,5 +58,35 @@
     "total_line": 2.75,
     "over": 0.83,
     "under": 1.05
+  },
+  {
+    "fixture_key": "epl|托特纳姆热刺|水晶宫|2026-10-31",
+    "competition": "epl",
+    "home": "托特纳姆热刺",
+    "away": "水晶宫",
+    "kickoff": "2026-10-31T17:30:00",
+    "bookmaker": "crown",
+    "ts": "2026-10-30T17:30:00+00:00",
+    "handicap_line": -0.75,
+    "handicap_home": 0.81,
+    "handicap_away": 1.07,
+    "total_line": 2.75,
+    "over": 0.82,
+    "under": 1.04
+  },
+  {
+    "fixture_key": "epl|托特纳姆热刺|水晶宫|2026-10-31",
+    "competition": "epl",
+    "home": "托特纳姆热刺",
+    "away": "水晶宫",
+    "kickoff": "2026-10-31T17:30:00",
+    "bookmaker": "crown",
+    "ts": "2026-10-31T10:24:15.209736+00:00",
+    "handicap_line": -0.75,
+    "handicap_home": 0.85,
+    "handicap_away": 1.04,
+    "total_line": 2.75,
+    "over": 0.9,
+    "under": 0.99
   }
 ]

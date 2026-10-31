@@ -58,5 +58,35 @@
     "total_line": 3.75,
     "over": 0.98,
     "under": 0.9
+  },
+  {
+    "fixture_key": "bundesliga|勒沃库森|斯图加特|2026-10-31",
+    "competition": "bundesliga",
+    "home": "勒沃库森",
+    "away": "斯图加特",
+    "kickoff": "2026-10-31T14:30:00",
+    "bookmaker": "crown",
+    "ts": "2026-10-30T14:30:00+00:00",
+    "handicap_line": -0.75,
+    "handicap_home": 0.99,
+    "handicap_away": 0.89,
+    "total_line": 3.75,
+    "over": 1.02,
+    "under": 0.84
+  },
+  {
+    "fixture_key": "bundesliga|勒沃库森|斯图加特|2026-10-31",
+    "competition": "bundesliga",
+    "home": "勒沃库森",
+    "away": "斯图加特",
+    "kickoff": "2026-10-31T14:30:00",
+    "bookmaker": "crown",
+    "ts": "2026-10-31T10:24:32.215452+00:00",
+    "handicap_line": -0.75,
+    "handicap_home": 0.83,
+    "handicap_away": 1.06,
+    "total_line": 3.75,
+    "over": 0.97,
+    "under": 0.91
   }
 ]
