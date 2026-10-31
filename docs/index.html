@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>足球水位分析看板</title>
+<style>
+  :root {
+    --bg: #f6f7f9; --card: #ffffff; --ink: #1a1d23; --muted: #6b7280;
+    --border: #e5e7eb; --strong: #d92d20; --watch: #d97706; --pass: #9ca3af;
+    --league: #2563eb; --cup: #7c3aed; --accent: #2563eb;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #111318; --card: #1a1d23; --ink: #e5e7eb; --muted: #9ca3af;
+            --border: #2a2e37; --accent: #60a5fa; }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; font-family: -apple-system, "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif;
+         background: var(--bg); color: var(--ink); line-height: 1.5; }
+  .wrap { max-width: 1080px; margin: 0 auto; padding: 24px 16px 64px; }
+  h1 { font-size: 22px; margin: 0 0 4px; }
+  .meta { color: var(--muted); font-size: 13px; margin-bottom: 24px; }
+  section { margin-bottom: 32px; }
+  h2 { font-size: 16px; display: flex; align-items: center; gap: 8px; }
+  .tag { font-size: 11px; padding: 2px 8px; border-radius: 999px; color: #fff; }
+  .tag.league { background: var(--league); }
+  .tag.cup { background: var(--cup); }
+  table { width: 100%; border-collapse: collapse; background: var(--card); border: 1px solid var(--border);
+          border-radius: 10px; overflow: hidden; font-size: 14px; }
+  th, td { padding: 10px 12px; text-align: left; border-bottom: 1px solid var(--border); vertical-align: top; }
+  th { background: var(--card); color: var(--muted); font-weight: 600; font-size: 12px; }
+  tr:last-child td { border-bottom: none; }
+  .badge { display: inline-block; font-size: 12px; padding: 2px 10px; border-radius: 6px; font-weight: 600; color: #fff; }
+  .badge.strong { background: var(--strong); }
+  .badge.watch { background: var(--watch); }
+  .badge.pass { background: var(--pass); }
+  .score { display: flex; align-items: center; gap: 8px; }
+  .bar { width: 80px; height: 6px; background: var(--border); border-radius: 3px; overflow: hidden; }
+  .bar i { display: block; height: 100%; background: var(--strong); }
+  .reasons { color: var(--muted); font-size: 12px; margin: 0; padding-left: 16px; }
+  .empty { color: var(--muted); text-align: center; padding: 40px; background: var(--card);
+           border: 1px dashed var(--border); border-radius: 10px; }
+  .market { font-size: 12px; color: var(--muted); white-space: nowrap; }
+  .tablewrap { overflow-x: auto; }
+  .spark { display: block; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>⚽ 足球水位分析看板</h1>
+  <div class="meta" id="meta">加载中…</div>
+  <div id="content"></div>
+</div>
+
+<script>
+const CONF = { strong: "强推", watch: "可关注", pass: "观望" };
+const MARKET = { handicap: "亚盘", totals: "大小球" };
+
+function waterField(r) {
+  if (r.market === "handicap") return r.side === "home" ? "handicap_home" : "handicap_away";
+  return r.side === "over" ? "over" : "under";
+}
+
+function sparkline(r) {
+  const field = waterField(r);
+  const hist = (r.history || []).map(h => h[field]).filter(v => v != null && isFinite(v));
+  if (hist.length < 2) return '<span class="market">—</span>';
+  const w = 88, h = 28, pad = 3;
+  const min = Math.min(...hist), max = Math.max(...hist);
+  const range = (max - min) || 1;
+  const step = w / (hist.length - 1);
+  const pts = hist.map((v, i) => [i * step, h - pad - (v - min) / range * (h - 2 * pad)]);
+  const d = pts.map((p, i) => (i ? "L" : "M") + p[0].toFixed(1) + " " + p[1].toFixed(1)).join(" ");
+  const tip = hist.map(v => v.toFixed(2)).join(" → ");
+  return `<svg class="spark" width="${w}" height="${h}" viewBox="0 0 ${w} ${h}" role="img" aria-label="${tip}">
+    <title>${field}: ${tip}</title>
+    <path d="${d}" fill="none" stroke="var(--accent)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="${pts[pts.length - 1][0].toFixed(1)}" cy="${pts[pts.length - 1][1].toFixed(1)}" r="3" fill="var(--accent)"/>
+  </svg>`;
+}
+
+function renderTable(title, cls, items) {
+  if (!items.length) return "";
+  const rows = items.map(r => `
+    <tr>
+      <td><strong>${r.home}</strong> vs <strong>${r.away}</strong><br>
+          <span class="market">${(r.kickoff || "").replace("T", " ").slice(0, 16)}</span></td>
+      <td><span class="market">${MARKET[r.market]}</span></td>
+      <td>${r.pick}</td>
+      <td><span class="badge ${r.confidence}">${CONF[r.confidence]}</span></td>
+      <td><div class="score"><span>${r.score}</span><div class="bar"><i style="width:${r.score}%"></i></div></div></td>
+      <td>${sparkline(r)}</td>
+      <td><ul class="reasons">${r.reasons.map(x => `<li>${x}</li>`).join("")}</ul></td>
+    </tr>`).join("");
+  return `<section>
+    <h2>${title} <span class="tag ${cls}">${cls === "cup" ? "杯赛口径" : "联赛口径"}</span></h2>
+    <div class="tablewrap"><table><thead><tr><th>比赛</th><th>盘口</th><th>推荐</th><th>信心</th><th>分数</th><th>水位走势</th><th>理由</th></tr></thead>
+    <tbody>${rows}</tbody></table></div>
+  </section>`;
+}
+
+fetch("./reports/latest.json")
+  .then(r => { if (!r.ok) throw new Error(r.status); return r.json(); })
+  .then(d => {
+    document.getElementById("meta").textContent =
+      `生成时间 ${d.generated_at}（UTC） · ${d.scope} · ${d.note} · 共 ${d.total} 条推荐`;
+    if (!d.total) {
+      document.getElementById("content").innerHTML = `<div class="empty">暂无推荐数据</div>`;
+      return;
+    }
+    const league = d.recommendations.filter(r => r.competition_class === "league");
+    const cup = d.recommendations.filter(r => r.competition_class === "cup");
+    document.getElementById("content").innerHTML =
+      renderTable("🏆 杯赛", "cup", cup) + renderTable("⚽ 联赛", "league", league);
+  })
+  .catch(() => {
+    document.getElementById("content").innerHTML =
+      `<div class="empty">未找到数据。请先运行同步与分析，或开启 GitHub Pages 并确认 docs/reports/latest.json 已提交。</div>`;
+  });
+</script>
+</body>
+</html>

@@ -1,0 +1,92 @@
+[
+  {
+    "competition": "epl",
+    "cls": "league",
+    "home": "伊普斯维奇",
+    "away": "诺丁汉森林",
+    "home_goals": 1,
+    "away_goals": 1,
+    "date": "2026-10-24"
+  },
+  {
+    "competition": "epl",
+    "cls": "league",
+    "home": "阿斯顿维拉",
+    "away": "曼彻斯特城",
+    "home_goals": 2,
+    "away_goals": 1,
+    "date": "2026-10-24"
+  },
+  {
+    "competition": "epl",
+    "cls": "league",
+    "home": "Arsenal",
+    "away": "埃弗顿",
+    "home_goals": 2,
+    "away_goals": 0,
+    "date": "2026-10-24"
+  },
+  {
+    "competition": "epl",
+    "cls": "league",
+    "home": "考文垂",
+    "away": "富勒姆",
+    "home_goals": 0,
+    "away_goals": 1,
+    "date": "2026-10-24"
+  },
+  {
+    "competition": "epl",
+    "cls": "league",
+    "home": "Chelsea",
+    "away": "托特纳姆热刺",
+    "home_goals": 0,
+    "away_goals": 2,
+    "date": "2026-10-25"
+  },
+  {
+    "competition": "epl",
+    "cls": "league",
+    "home": "水晶宫",
+    "away": "纽卡斯尔联",
+    "home_goals": 0,
+    "away_goals": 2,
+    "date": "2026-10-25"
+  },
+  {
+    "competition": "epl",
+    "cls": "league",
+    "home": "赫尔城",
+    "away": "布伦特福德",
+    "home_goals": 1,
+    "away_goals": 1,
+    "date": "2026-10-25"
+  },
+  {
+    "competition": "epl",
+    "cls": "league",
+    "home": "Liverpool",
+    "away": "布莱顿",
+    "home_goals": 2,
+    "away_goals": 0,
+    "date": "2026-10-25"
+  },
+  {
+    "competition": "epl",
+    "cls": "league",
+    "home": "曼彻斯特联",
+    "away": "伯恩茅斯",
+    "home_goals": 0,
+    "away_goals": 3,
+    "date": "2026-10-25"
+  },
+  {
+    "competition": "epl",
+    "cls": "league",
+    "home": "桑德兰",
+    "away": "利兹联",
+    "home_goals": 0,
+    "away_goals": 0,
+    "date": "2026-10-26"
+  }
+]

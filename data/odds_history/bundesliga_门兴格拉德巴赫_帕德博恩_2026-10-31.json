@@ -1,0 +1,32 @@
+[
+  {
+    "fixture_key": "bundesliga|门兴格拉德巴赫|帕德博恩|2026-10-31",
+    "competition": "bundesliga",
+    "home": "门兴格拉德巴赫",
+    "away": "帕德博恩",
+    "kickoff": "2026-10-31T22:30:00",
+    "bookmaker": "crown",
+    "ts": "2026-10-30T22:30:00+00:00",
+    "handicap_line": -0.5,
+    "handicap_home": 0.84,
+    "handicap_away": 1.04,
+    "total_line": 3.25,
+    "over": 1,
+    "under": 0.86
+  },
+  {
+    "fixture_key": "bundesliga|门兴格拉德巴赫|帕德博恩|2026-10-31",
+    "competition": "bundesliga",
+    "home": "门兴格拉德巴赫",
+    "away": "帕德博恩",
+    "kickoff": "2026-10-31T22:30:00",
+    "bookmaker": "crown",
+    "ts": "2026-10-31T06:36:22.650962+00:00",
+    "handicap_line": -0.25,
+    "handicap_home": 0.94,
+    "handicap_away": 0.95,
+    "total_line": 3,
+    "over": 0.84,
+    "under": 1.04
+  }
+]

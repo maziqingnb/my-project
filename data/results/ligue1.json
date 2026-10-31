@@ -1,0 +1,110 @@
+[
+  {
+    "competition": "ligue1",
+    "cls": "league",
+    "home": "布雷斯特",
+    "away": "尼斯",
+    "home_goals": 1,
+    "away_goals": 2,
+    "date": "2026-10-24"
+  },
+  {
+    "competition": "ligue1",
+    "cls": "league",
+    "home": "朗斯",
+    "away": "巴黎FC",
+    "home_goals": 2,
+    "away_goals": 1,
+    "date": "2026-10-25"
+  },
+  {
+    "competition": "ligue1",
+    "cls": "league",
+    "home": "摩纳哥",
+    "away": "里尔",
+    "home_goals": 1,
+    "away_goals": 1,
+    "date": "2026-10-25"
+  },
+  {
+    "competition": "ligue1",
+    "cls": "league",
+    "home": "昂热",
+    "away": "洛里昂",
+    "home_goals": 0,
+    "away_goals": 0,
+    "date": "2026-10-26"
+  },
+  {
+    "competition": "ligue1",
+    "cls": "league",
+    "home": "欧塞尔",
+    "away": "勒芒",
+    "home_goals": 1,
+    "away_goals": 1,
+    "date": "2026-10-26"
+  },
+  {
+    "competition": "ligue1",
+    "cls": "league",
+    "home": "马赛",
+    "away": "勒阿弗尔",
+    "home_goals": 4,
+    "away_goals": 3,
+    "date": "2026-10-26"
+  },
+  {
+    "competition": "ligue1",
+    "cls": "league",
+    "home": "雷恩",
+    "away": "斯特拉斯堡",
+    "home_goals": 3,
+    "away_goals": 0,
+    "date": "2026-10-26"
+  },
+  {
+    "competition": "ligue1",
+    "cls": "league",
+    "home": "图卢兹",
+    "away": "特鲁瓦",
+    "home_goals": 0,
+    "away_goals": 0,
+    "date": "2026-10-26"
+  },
+  {
+    "competition": "ligue1",
+    "cls": "league",
+    "home": "巴黎圣日耳曼",
+    "away": "里昂",
+    "home_goals": 2,
+    "away_goals": 0,
+    "date": "2026-10-27"
+  },
+  {
+    "competition": "ligue1",
+    "cls": "league",
+    "home": "勒阿弗尔",
+    "away": "巴黎圣日耳曼",
+    "home_goals": 1,
+    "away_goals": 5,
+    "date": "2026-10-31"
+  },
+  {
+    "competition": "ligue1",
+    "cls": "league",
+    "home": "尼斯",
+    "away": "雷恩",
+    "home_goals": 5,
+    "away_goals": 2,
+    "date": "2026-10-31"
+  },
+  {
+    "competition": "ligue1",
+    "cls": "league",
+    "home": "里尔",
+    "away": "朗斯",
+    "home_goals": 1,
+    "away_goals": 0,
+    "date": "2026-10-31"
+  }
+]

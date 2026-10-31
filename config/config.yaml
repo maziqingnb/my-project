@@ -1,0 +1,117 @@
+# ============================================================
+# 足球水位分析系统 —— 配置文件
+# 范围：五大联赛 + 欧冠；杯赛 / 联赛 分开计算
+# ============================================================
+
+competitions:
+  - key: epl
+    name: 英格兰超级联赛
+    cls: league                 # league=联赛  cup=杯赛（分开计算）
+    odds_sport_key: soccer_epl
+    api_football_id: 39
+    win007_id: 36
+  - key: laliga
+    name: 西班牙甲级联赛
+    cls: league
+    odds_sport_key: soccer_spain_la_liga
+    api_football_id: 140
+    win007_id: 31
+  - key: seriea
+    name: 意大利甲级联赛
+    cls: league
+    odds_sport_key: soccer_italy_serie_a
+    api_football_id: 135
+    win007_id: 34
+  - key: bundesliga
+    name: 德国甲级联赛
+    cls: league
+    odds_sport_key: soccer_germany_bundesliga
+    api_football_id: 78
+    win007_id: 8
+  - key: ligue1
+    name: 法国甲级联赛
+    cls: league
+    odds_sport_key: soccer_france_ligue_one
+    api_football_id: 61
+    win007_id: 11
+  - key: ucl
+    name: 欧洲冠军联赛
+    cls: cup                    # 欧冠按杯赛口径统计
+    odds_sport_key: soccer_uefa_champs_league
+    api_football_id: 2
+    # win007_id 待欧冠比赛日确认（今天球探网无欧冠场次）
+
+odds:
+  # the-odds-api 拿这些博彩公司的赔率（取第一个可用的作为代表盘口）
+  bookmakers:
+    - pinnacle
+    - bet365
+    - unibet
+  # spreads=亚盘(让球) totals=大小球
+  markets:
+    - spreads
+    - totals
+
+sync:
+  # 只同步 N 天内开赛的场次，避免浪费免费额度
+  upcoming_days: 7
+  # 开赛前多少小时内尝试抓首发阵容
+  lineup_window_hours: 6
+
+analysis:
+  # 历史样本：近 N 场（联赛/杯赛分开统计）
+  form_matches: 5
+  h2h_matches: 5
+  weights:
+    handicap:                  # 亚盘(让球)推荐权重
+      water_move: 0.30         # 临场水位变动（降水/升水）
+      line_move: 0.20          # 盘口升/降（让球数变化）
+      form: 0.25               # 近期状态（同口径）
+      h2h: 0.10                # 历史交手
+      home_away: 0.15          # 主客场
+    totals:                    # 大小球推荐权重
+      water_move: 0.30         # 大/小水位变动
+      line_move: 0.20          # 盘口升/降（2.5->3 等）
+      attacking_form: 0.30     # 双方进攻效率
+      defensive_form: 0.20     # 双方防守/失球
+  thresholds:
+    strong: 70                 # 分数 >= 70 -> 强推
+    watch: 55                  # 分数 >= 55 -> 可关注，否则观望
+
+# ------------------------------------------------------------
+# 数据源选择
+sources:
+  odds: win007                 # the-odds-api | crown | win007
+  fixtures: win007             # api-football | win007（win007 则赛程/结果也走球探网，免 key）
+  crown_url: ""                # 皇冠盘 HTML 地址（或本地文件路径），odds=crown 时填写
+  win007_url: "https://m.ewin007.com/Schedule.htm?date={date}"   # 球探网移动版赛程页（含亚盘盘口+大小球盘口）
+
+# 皇冠(中文)队名 -> API-Football(英文)队名，用于把抓取结果与历史战绩对齐。
+# 按你实际数据源补齐。
+team_name_map:
+  皇家马德里: Real Madrid
+  拜仁慕尼黑: Bayern Munich
+  阿森纳: Arsenal
+  切尔西: Chelsea
+  利物浦: Liverpool
+  曼城: Man City
+
+# 抓取器 profile：接真实站点时改这里的列/字段顺序，不用改代码
+scrapers:
+  crown:                       # HTML 表格类（皇冠代理页/比分网）
+    columns:
+      home: 0
+      away: 1
+      kickoff: 2
+      handicap: 3
+      home_water: 4
+      away_water: 5
+      total: 6
+      over: 7
+      under: 8
+  win007:                      # 球探网移动版（赔率 + 赛程 + 结果）
+    handicap_sign: -1          # 让球盘口方向系数（负=主让）；若方向反了改成 1
+    days: 1                    # 抓取未来 N 天赔率/赛程
+    results_days: 30           # 抓取过去 N 天结果（近况/交手用）
+    analysis_url: "https://m.ewin007.com/Analy/Analysis/{id}.htm"  # 赔率详情页（大小球水位+初盘）
+

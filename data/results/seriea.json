@@ -1,0 +1,182 @@
+[
+  {
+    "competition": "seriea",
+    "cls": "league",
+    "home": "都灵",
+    "away": "蒙扎",
+    "home_goals": 3,
+    "away_goals": 2,
+    "date": "2026-10-24"
+  },
+  {
+    "competition": "seriea",
+    "cls": "league",
+    "home": "卡利亚里",
+    "away": "博洛尼亚",
+    "home_goals": 0,
+    "away_goals": 2,
+    "date": "2026-10-24"
+  },
+  {
+    "competition": "seriea",
+    "cls": "league",
+    "home": "科莫",
+    "away": "萨索洛",
+    "home_goals": 2,
+    "away_goals": 0,
+    "date": "2026-10-24"
+  },
+  {
+    "competition": "seriea",
+    "cls": "league",
+    "home": "那不勒斯",
+    "away": "罗马",
+    "home_goals": 3,
+    "away_goals": 3,
+    "date": "2026-10-25"
+  },
+  {
+    "competition": "seriea",
+    "cls": "league",
+    "home": "拉齐奥",
+    "away": "帕尔马",
+    "home_goals": 2,
+    "away_goals": 1,
+    "date": "2026-10-25"
+  },
+  {
+    "competition": "seriea",
+    "cls": "league",
+    "home": "国际米兰",
+    "away": "佛罗伦萨",
+    "home_goals": 2,
+    "away_goals": 1,
+    "date": "2026-10-25"
+  },
+  {
+    "competition": "seriea",
+    "cls": "league",
+    "home": "亚特兰大",
+    "away": "弗洛西诺尼",
+    "home_goals": 4,
+    "away_goals": 4,
+    "date": "2026-10-25"
+  },
+  {
+    "competition": "seriea",
+    "cls": "league",
+    "home": "热那亚",
+    "away": "威尼斯",
+    "home_goals": 1,
+    "away_goals": 0,
+    "date": "2026-10-25"
+  },
+  {
+    "competition": "seriea",
+    "cls": "league",
+    "home": "莱切",
+    "away": "尤文图斯",
+    "home_goals": 0,
+    "away_goals": 2,
+    "date": "2026-10-26"
+  },
+  {
+    "competition": "seriea",
+    "cls": "league",
+    "home": "乌迪内斯",
+    "away": "AC米兰",
+    "home_goals": 0,
+    "away_goals": 2,
+    "date": "2026-10-26"
+  },
+  {
+    "competition": "seriea",
+    "cls": "league",
+    "home": "萨索洛",
+    "away": "拉齐奥",
+    "home_goals": 2,
+    "away_goals": 6,
+    "date": "2026-10-28"
+  },
+  {
+    "competition": "seriea",
+    "cls": "league",
+    "home": "罗马",
+    "away": "卡利亚里",
+    "home_goals": 4,
+    "away_goals": 2,
+    "date": "2026-10-28"
+  },
+  {
+    "competition": "seriea",
+    "cls": "league",
+    "home": "都灵",
+    "away": "科莫",
+    "home_goals": 1,
+    "away_goals": 3,
+    "date": "2026-10-28"
+  },
+  {
+    "competition": "seriea",
+    "cls": "league",
+    "home": "AC米兰",
+    "away": "博洛尼亚",
+    "home_goals": 2,
+    "away_goals": 4,
+    "date": "2026-10-29"
+  },
+  {
+    "competition": "seriea",
+    "cls": "league",
+    "home": "帕尔马",
+    "away": "乌迪内斯",
+    "home_goals": 0,
+    "away_goals": 0,
+    "date": "2026-10-29"
+  },
+  {
+    "competition": "seriea",
+    "cls": "league",
+    "home": "威尼斯",
+    "away": "国际米兰",
+    "home_goals": 0,
+    "away_goals": 2,
+    "date": "2026-10-29"
+  },
+  {
+    "competition": "seriea",
+    "cls": "league",
+    "home": "热那亚",
+    "away": "尤文图斯",
+    "home_goals": 2,
+    "away_goals": 0,
+    "date": "2026-10-29"
+  },
+  {
+    "competition": "seriea",
+    "cls": "league",
+    "home": "蒙扎",
+    "away": "那不勒斯",
+    "home_goals": 1,
+    "away_goals": 4,
+    "date": "2026-10-29"
+  },
+  {
+    "competition": "seriea",
+    "cls": "league",
+    "home": "弗洛西诺尼",
+    "away": "莱切",
+    "home_goals": 5,
+    "away_goals": 1,
+    "date": "2026-10-30"
+  },
+  {
+    "competition": "seriea",
+    "cls": "league",
+    "home": "佛罗伦萨",
+    "away": "亚特兰大",
+    "home_goals": 2,
+    "away_goals": 2,
+    "date": "2026-10-30"
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "fixture_key": "laliga|莱万特|马德里竞技|2026-10-31",
+    "competition": "laliga",
+    "home": "莱万特",
+    "away": "马德里竞技",
+    "kickoff": "2026-10-31T21:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-10-30T21:00:00+00:00",
+    "handicap_line": 1,
+    "handicap_home": 0.93,
+    "handicap_away": 0.95,
+    "total_line": 3,
+    "over": 0.99,
+    "under": 0.87
+  },
+  {
+    "fixture_key": "laliga|莱万特|马德里竞技|2026-10-31",
+    "competition": "laliga",
+    "home": "莱万特",
+    "away": "马德里竞技",
+    "kickoff": "2026-10-31T21:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-10-31T06:36:18.120464+00:00",
+    "handicap_line": 1,
+    "handicap_home": 1.07,
+    "handicap_away": 0.82,
+    "total_line": 3,
+    "over": 0.83,
+    "under": 1.05
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "fixture_key": "laliga|巴列卡诺|塞尔塔|2026-10-31",
+    "competition": "laliga",
+    "home": "巴列卡诺",
+    "away": "塞尔塔",
+    "kickoff": "2026-10-31T23:15:00",
+    "bookmaker": "crown",
+    "ts": "2026-10-30T23:15:00+00:00",
+    "handicap_line": -0.25,
+    "handicap_home": 0.87,
+    "handicap_away": 1.01,
+    "total_line": 2.25,
+    "over": 0.81,
+    "under": 1.05
+  },
+  {
+    "fixture_key": "laliga|巴列卡诺|塞尔塔|2026-10-31",
+    "competition": "laliga",
+    "home": "巴列卡诺",
+    "away": "塞尔塔",
+    "kickoff": "2026-10-31T23:15:00",
+    "bookmaker": "crown",
+    "ts": "2026-10-31T06:36:18.805453+00:00",
+    "handicap_line": 0,
+    "handicap_home": 0.83,
+    "handicap_away": 1.06,
+    "total_line": 2.25,
+    "over": 0.93,
+    "under": 0.95
+  }
+]

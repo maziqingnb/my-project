@@ -1,0 +1,49 @@
+name: Analyze Matches
+
+on:
+  schedule:
+    # 每 6 小时跑一次（UTC）；临场水位变动主要靠多次快照对比
+    - cron: "0 */6 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  analyze:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Sync & analyze
+        env:
+          THE_ODDS_API_KEY: ${{ secrets.THE_ODDS_API_KEY }}
+          API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}
+        run: |
+          if [ -n "$THE_ODDS_API_KEY" ] && [ -n "$API_FOOTBALL_KEY" ]; then
+            echo "使用真实数据源同步"
+            python src/main.py sync --all
+            python src/main.py analyze
+          else
+            echo "未配置 API key，回退到演示数据"
+            python src/main.py analyze --demo
+          fi
+
+      - name: Notify via WeChat
+        env:
+          WECOM_WEBHOOK: ${{ secrets.WECOM_WEBHOOK }}
+          SERVERCHAN_KEY: ${{ secrets.SERVERCHAN_KEY }}
+        run: python src/main.py notify
+
+      - name: Commit data & report
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "data: refresh fixtures, odds & recommendations [skip ci]"
+          file_pattern: "data/ docs/reports/"
