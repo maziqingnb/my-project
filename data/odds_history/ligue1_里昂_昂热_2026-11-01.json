@@ -148,5 +148,35 @@
     "total_line": 2.75,
     "over": 0.84,
     "under": 1.04
+  },
+  {
+    "fixture_key": "ligue1|里昂|昂热|2026-11-01",
+    "competition": "ligue1",
+    "home": "里昂",
+    "away": "昂热",
+    "kickoff": "2026-11-01T16:15:00",
+    "bookmaker": "crown",
+    "ts": "2026-10-31T16:15:00+00:00",
+    "handicap_line": -1.25,
+    "handicap_home": 0.88,
+    "handicap_away": 1,
+    "total_line": 3,
+    "over": 0.94,
+    "under": 0.92
+  },
+  {
+    "fixture_key": "ligue1|里昂|昂热|2026-11-01",
+    "competition": "ligue1",
+    "home": "里昂",
+    "away": "昂热",
+    "kickoff": "2026-11-01T16:15:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-01T10:26:36.970065+00:00",
+    "handicap_line": -1.25,
+    "handicap_home": 0.91,
+    "handicap_away": 0.98,
+    "total_line": 2.75,
+    "over": 0.84,
+    "under": 1.04
   }
 ]

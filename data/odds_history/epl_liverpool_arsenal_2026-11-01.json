@@ -148,5 +148,35 @@
     "total_line": 2.5,
     "over": 0.97,
     "under": 0.91
+  },
+  {
+    "fixture_key": "epl|liverpool|arsenal|2026-11-01",
+    "competition": "epl",
+    "home": "Liverpool",
+    "away": "Arsenal",
+    "kickoff": "2026-11-01T16:30:00",
+    "bookmaker": "crown",
+    "ts": "2026-10-31T16:30:00+00:00",
+    "handicap_line": 0.25,
+    "handicap_home": 0.99,
+    "handicap_away": 0.89,
+    "total_line": 2.75,
+    "over": 0.94,
+    "under": 0.92
+  },
+  {
+    "fixture_key": "epl|liverpool|arsenal|2026-11-01",
+    "competition": "epl",
+    "home": "Liverpool",
+    "away": "Arsenal",
+    "kickoff": "2026-11-01T16:30:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-01T10:26:18.050529+00:00",
+    "handicap_line": 0,
+    "handicap_home": 1.03,
+    "handicap_away": 0.86,
+    "total_line": 2.5,
+    "over": 0.88,
+    "under": 1.01
   }
 ]
