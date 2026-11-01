@@ -58,5 +58,35 @@
     "total_line": 2.75,
     "over": 1.04,
     "under": 0.84
+  },
+  {
+    "fixture_key": "seriea|拉齐奥|卡利亚里|2026-11-01",
+    "competition": "seriea",
+    "home": "拉齐奥",
+    "away": "卡利亚里",
+    "kickoff": "2026-11-01T14:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-10-31T14:00:00+00:00",
+    "handicap_line": -1,
+    "handicap_home": 1.08,
+    "handicap_away": 0.8,
+    "total_line": 2.5,
+    "over": 1.05,
+    "under": 0.83
+  },
+  {
+    "fixture_key": "seriea|拉齐奥|卡利亚里|2026-11-01",
+    "competition": "seriea",
+    "home": "拉齐奥",
+    "away": "卡利亚里",
+    "kickoff": "2026-11-01T14:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-01T04:38:59.605954+00:00",
+    "handicap_line": -1.25,
+    "handicap_home": 1,
+    "handicap_away": 0.89,
+    "total_line": 2.75,
+    "over": 1.04,
+    "under": 0.84
   }
 ]
