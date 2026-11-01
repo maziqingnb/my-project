@@ -238,5 +238,35 @@
     "total_line": 3.25,
     "over": 1.03,
     "under": 0.85
+  },
+  {
+    "fixture_key": "ligue1|马赛|图卢兹|2026-11-01",
+    "competition": "ligue1",
+    "home": "马赛",
+    "away": "图卢兹",
+    "kickoff": "2026-11-01T19:45:00",
+    "bookmaker": "crown",
+    "ts": "2026-10-31T19:45:00+00:00",
+    "handicap_line": -0.75,
+    "handicap_home": 1.05,
+    "handicap_away": 0.83,
+    "total_line": 3,
+    "over": 0.95,
+    "under": 0.91
+  },
+  {
+    "fixture_key": "ligue1|马赛|图卢兹|2026-11-01",
+    "competition": "ligue1",
+    "home": "马赛",
+    "away": "图卢兹",
+    "kickoff": "2026-11-01T19:45:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-01T16:25:18.699908+00:00",
+    "handicap_line": -0.5,
+    "handicap_home": 0.93,
+    "handicap_away": 0.96,
+    "total_line": 3.25,
+    "over": 1.01,
+    "under": 0.87
   }
 ]

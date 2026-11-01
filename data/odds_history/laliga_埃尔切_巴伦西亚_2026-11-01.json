@@ -238,5 +238,35 @@
     "total_line": 2.5,
     "over": 0.98,
     "under": 0.9
+  },
+  {
+    "fixture_key": "laliga|埃尔切|巴伦西亚|2026-11-01",
+    "competition": "laliga",
+    "home": "埃尔切",
+    "away": "巴伦西亚",
+    "kickoff": "2026-11-01T17:30:00",
+    "bookmaker": "crown",
+    "ts": "2026-10-31T17:30:00+00:00",
+    "handicap_line": 0,
+    "handicap_home": 0.81,
+    "handicap_away": 1.07,
+    "total_line": 2.5,
+    "over": 0.98,
+    "under": 0.88
+  },
+  {
+    "fixture_key": "laliga|埃尔切|巴伦西亚|2026-11-01",
+    "competition": "laliga",
+    "home": "埃尔切",
+    "away": "巴伦西亚",
+    "kickoff": "2026-11-01T17:30:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-01T16:25:09.073062+00:00",
+    "handicap_line": -0.25,
+    "handicap_home": 1.03,
+    "handicap_away": 0.86,
+    "total_line": 2.5,
+    "over": 0.94,
+    "under": 0.94
   }
 ]
