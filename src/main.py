@@ -114,7 +114,7 @@ def load_odds_history() -> dict[str, list[OddsSnapshot]]:
     return by_comp
 
 
-def do_analyze(cfg: dict) -> dict:
+def do_analyze(cfg: dict, demo: bool = False) -> dict:
     from src.analysis.recommender import recommend_competition
     from src.output.render import render_report
 
@@ -133,7 +133,7 @@ def do_analyze(cfg: dict) -> dict:
         cls_cn = "杯赛" if comp.cls == "cup" else "联赛"
         print(f"[分析] {comp.name}（{cls_cn}口径）: {len(recs)} 条推荐")
 
-    return render_report(cfg, all_recs)
+    return render_report(cfg, all_recs, results_by_comp, demo=demo)
 
 
 def main() -> None:
@@ -167,7 +167,7 @@ def main() -> None:
             _clear_demo_data()
             odds, fixtures = make_clients(cfg, True)
             do_sync(cfg, odds, fixtures, "all")   # 演示模式先灌入样例数据
-        report = do_analyze(cfg)
+        report = do_analyze(cfg, demo=args.demo)
         print(f"\n完成：共 {report['total']} 条推荐，见 data/reports/report.md")
     elif args.cmd == "notify":
         report = read_json(C.REPORTS_DIR / "latest.json", default=None)

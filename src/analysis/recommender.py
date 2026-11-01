@@ -94,7 +94,7 @@ def recommend_handicap(comp, cfg: dict, results: list[Result],
     return Recommendation(
         fixture_key=snaps[-1].fixture_key, competition=comp.key,
         home=home, away=away, kickoff=snaps[-1].kickoff,
-        market="handicap", pick=pick, side=side, confidence=conf,
+        market="handicap", pick=pick, side=side, line=line, confidence=conf,
         score=round(score, 1), reasons=reasons,
         signals=dict(line_desc=sig["line_desc"], water_desc=sig["water_desc"]),
         history=history,
@@ -145,7 +145,7 @@ def recommend_totals(comp, cfg: dict, results: list[Result],
     return Recommendation(
         fixture_key=snaps[-1].fixture_key, competition=comp.key,
         home=home, away=away, kickoff=snaps[-1].kickoff,
-        market="totals", pick=pick, side=side, confidence=conf,
+        market="totals", pick=pick, side=side, line=line, confidence=conf,
         score=round(score, 1), reasons=reasons,
         signals=dict(line_desc=sig["line_desc"], over_desc=sig["over_desc"]),
         history=history,
@@ -154,12 +154,21 @@ def recommend_totals(comp, cfg: dict, results: list[Result],
 
 def recommend_competition(comp, cfg: dict, results: list[Result],
                           odds_by_fixture: dict) -> list[Recommendation]:
-    """对某联赛/杯赛的所有场次出推荐（联赛与杯赛各自独立调用、独立口径）。"""
+    """对某联赛/杯赛的所有场次出推荐（联赛与杯赛各自独立调用、独立口径）。
+
+    同一场比赛若同时有亚盘和大小球两个候选，只保留概率（分数）最高的那个。
+    """
     recs: list[Recommendation] = []
     for fk, snaps in odds_by_fixture.items():
         snaps = sorted(snaps, key=lambda s: s.ts)
+        candidates = []
         for maker in (recommend_handicap, recommend_totals):
             r = maker(comp, cfg, results, snaps)
             if r and r.confidence != "pass":
-                recs.append(r)
+                candidates.append(r)
+        if not candidates:
+            continue
+        # 亚盘 / 大小球二选一：取推荐系数（分数）最高者
+        candidates.sort(key=lambda r: r.score, reverse=True)
+        recs.append(candidates[0])
     return recs

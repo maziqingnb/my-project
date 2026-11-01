@@ -7,8 +7,9 @@
 <style>
   :root {
     --bg: #f6f7f9; --card: #ffffff; --ink: #1a1d23; --muted: #6b7280;
-    --border: #e5e7eb; --strong: #d92d20; --watch: #d97706; --pass: #9ca3af;
+    --border: #e5e7eb; --strong: #d92d20; --watch: #d97706;
     --league: #2563eb; --cup: #7c3aed; --accent: #2563eb;
+    --win: #16a34a; --half-win: #4ade80; --push: #9ca3af; --half-loss: #fbbf24; --loss: #dc2626;
   }
   @media (prefers-color-scheme: dark) {
     :root { --bg: #111318; --card: #1a1d23; --ink: #e5e7eb; --muted: #9ca3af;
@@ -17,14 +18,25 @@
   * { box-sizing: border-box; }
   body { margin: 0; font-family: -apple-system, "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif;
          background: var(--bg); color: var(--ink); line-height: 1.5; }
-  .wrap { max-width: 1080px; margin: 0 auto; padding: 24px 16px 64px; }
+  .wrap { max-width: 1120px; margin: 0 auto; padding: 24px 16px 64px; }
   h1 { font-size: 22px; margin: 0 0 4px; }
-  .meta { color: var(--muted); font-size: 13px; margin-bottom: 24px; }
+  .meta { color: var(--muted); font-size: 13px; margin-bottom: 20px; }
   section { margin-bottom: 32px; }
   h2 { font-size: 16px; display: flex; align-items: center; gap: 8px; }
   .tag { font-size: 11px; padding: 2px 8px; border-radius: 999px; color: #fff; }
   .tag.league { background: var(--league); }
   .tag.cup { background: var(--cup); }
+
+  /* 命中率统计 */
+  .stats-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 12px; }
+  .stat { background: var(--card); border: 1px solid var(--border); border-radius: 10px; padding: 14px 16px; }
+  .stat .num { font-size: 26px; font-weight: 700; line-height: 1.1; }
+  .stat .num.big-rate { color: var(--win); }
+  .stat .lbl { font-size: 12px; color: var(--muted); margin-top: 2px; }
+  .stat .sub { font-size: 11px; color: var(--muted); margin-top: 6px; }
+  .chips { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 8px; }
+  .chip { font-size: 11px; padding: 1px 8px; border-radius: 6px; background: var(--bg); border: 1px solid var(--border); }
+
   table { width: 100%; border-collapse: collapse; background: var(--card); border: 1px solid var(--border);
           border-radius: 10px; overflow: hidden; font-size: 14px; }
   th, td { padding: 10px 12px; text-align: left; border-bottom: 1px solid var(--border); vertical-align: top; }
@@ -33,28 +45,41 @@
   .badge { display: inline-block; font-size: 12px; padding: 2px 10px; border-radius: 6px; font-weight: 600; color: #fff; }
   .badge.strong { background: var(--strong); }
   .badge.watch { background: var(--watch); }
-  .badge.pass { background: var(--pass); }
+  .badge.pass { background: var(--push); }
   .score { display: flex; align-items: center; gap: 8px; }
   .bar { width: 80px; height: 6px; background: var(--border); border-radius: 3px; overflow: hidden; }
-  .bar i { display: block; height: 100%; background: var(--strong); }
+  .bar i { display: block; height: 100%; background: var(--accent); }
   .reasons { color: var(--muted); font-size: 12px; margin: 0; padding-left: 16px; }
   .empty { color: var(--muted); text-align: center; padding: 40px; background: var(--card);
            border: 1px dashed var(--border); border-radius: 10px; }
   .market { font-size: 12px; color: var(--muted); white-space: nowrap; }
   .tablewrap { overflow-x: auto; }
   .spark { display: block; }
+
+  /* 赛果 */
+  .outcome { display: inline-block; font-size: 12px; font-weight: 600; padding: 2px 10px; border-radius: 6px; color: #fff; white-space: nowrap; }
+  .outcome.win { background: var(--win); }
+  .outcome.half_win { background: var(--half-win); color: #14532d; }
+  .outcome.push { background: var(--push); }
+  .outcome.half_loss { background: var(--half-loss); color: #713f12; }
+  .outcome.loss { background: var(--loss); }
+  .outcome.pending { background: var(--bg); color: var(--muted); border: 1px solid var(--border); }
+  .final { font-size: 13px; font-weight: 700; margin-left: 4px; white-space: nowrap; }
 </style>
 </head>
 <body>
 <div class="wrap">
   <h1>⚽ 足球水位分析看板</h1>
   <div class="meta" id="meta">加载中…</div>
+  <div id="stats"></div>
   <div id="content"></div>
 </div>
 
 <script>
 const CONF = { strong: "强推", watch: "可关注", pass: "观望" };
 const MARKET = { handicap: "亚盘", totals: "大小球" };
+const COMP = { epl: "英超", laliga: "西甲", seriea: "意甲", bundesliga: "德甲", ligue1: "法甲", ucl: "欧冠" };
+const OUTCOME_CN = { win: "中", half_win: "半赢", push: "走盘", half_loss: "半输", loss: "没中" };
 
 function waterField(r) {
   if (r.market === "handicap") return r.side === "home" ? "handicap_home" : "handicap_away";
@@ -79,6 +104,56 @@ function sparkline(r) {
   </svg>`;
 }
 
+function resultCell(r) {
+  const res = r.result || {};
+  if (res.settled) {
+    return `<span class="outcome ${res.outcome}">${res.outcome_cn}</span>
+            <span class="final">${res.home_goals}-${res.away_goals}</span>`;
+  }
+  const ko = (r.kickoff ? new Date(r.kickoff).getTime() : 0);
+  const pending = ko && ko < Date.now() ? "待赛果" : "未开赛";
+  return `<span class="outcome pending">${pending}</span>`;
+}
+
+function rateText(s) {
+  if (!s) return "—";
+  return (s.rate == null) ? "—" : s.rate + "%";
+}
+
+function chips(s) {
+  if (!s || !s.counts) return "";
+  const c = s.counts;
+  return `<div class="chips">
+    <span class="chip">中 ${c.win}</span><span class="chip">半赢 ${c.half_win}</span>
+    <span class="chip">走盘 ${c.push}</span><span class="chip">半输 ${c.half_loss}</span>
+    <span class="chip">没中 ${c.loss}</span></div>`;
+}
+
+function renderStats(hist) {
+  if (!hist || !hist.stats) {
+    document.getElementById("stats").innerHTML = "";
+    return;
+  }
+  const st = hist.stats;
+  const overall = st.overall || {};
+  const cards = `
+    <div class="stat"><div class="num">${hist.total ?? 0}</div><div class="lbl">累计推荐</div></div>
+    <div class="stat"><div class="num">${overall.settled ?? 0}</div><div class="lbl">已结算</div><div class="sub">命中 ${overall.hit ?? 0} 场</div></div>
+    <div class="stat"><div class="num big-rate">${rateText(overall)}</div><div class="lbl">累计命中率</div>${chips(overall)}</div>
+    <div class="stat"><div class="num">${rateText(st.by_market && st.by_market.handicap)}</div><div class="lbl">亚盘命中率</div></div>
+    <div class="stat"><div class="num">${rateText(st.by_market && st.by_market.totals)}</div><div class="lbl">大小球命中率</div></div>`;
+
+  let compRows = "";
+  if (st.by_competition) {
+    const rows = Object.entries(st.by_competition).map(([k, s]) =>
+      `<tr><td>${COMP[k] || k}</td><td>${s.settled ?? 0}</td><td>${rateText(s)}</td><td>${(s.hit ?? 0)}</td></tr>`).join("");
+    compRows = `<div class="tablewrap"><table><thead><tr><th>联赛/杯赛</th><th>已结算</th><th>命中率</th><th>命中</th></tr></thead><tbody>${rows}</tbody></table></div>`;
+  }
+
+  document.getElementById("stats").innerHTML = `
+    <section><h2>📊 命中率统计</h2><div class="stats-grid">${cards}</div>${compRows}</section>`;
+}
+
 function renderTable(title, cls, items) {
   if (!items.length) return "";
   const rows = items.map(r => `
@@ -87,23 +162,26 @@ function renderTable(title, cls, items) {
           <span class="market">${(r.kickoff || "").replace("T", " ").slice(0, 16)}</span></td>
       <td><span class="market">${MARKET[r.market]}</span></td>
       <td>${r.pick}</td>
+      <td><div class="score"><span>${r.score}</span><div class="bar"><i style="width:${Math.min(r.score, 100)}%"></i></div></div></td>
       <td><span class="badge ${r.confidence}">${CONF[r.confidence]}</span></td>
-      <td><div class="score"><span>${r.score}</span><div class="bar"><i style="width:${r.score}%"></i></div></div></td>
+      <td>${resultCell(r)}</td>
       <td>${sparkline(r)}</td>
       <td><ul class="reasons">${r.reasons.map(x => `<li>${x}</li>`).join("")}</ul></td>
     </tr>`).join("");
   return `<section>
     <h2>${title} <span class="tag ${cls}">${cls === "cup" ? "杯赛口径" : "联赛口径"}</span></h2>
-    <div class="tablewrap"><table><thead><tr><th>比赛</th><th>盘口</th><th>推荐</th><th>信心</th><th>分数</th><th>水位走势</th><th>理由</th></tr></thead>
+    <div class="tablewrap"><table><thead><tr><th>比赛</th><th>盘口</th><th>推荐</th><th>推荐系数</th><th>信心</th><th>赛果</th><th>水位走势</th><th>理由</th></tr></thead>
     <tbody>${rows}</tbody></table></div>
   </section>`;
 }
 
-fetch("./reports/latest.json")
-  .then(r => { if (!r.ok) throw new Error(r.status); return r.json(); })
-  .then(d => {
+Promise.all([
+  fetch("./reports/latest.json").then(r => { if (!r.ok) throw new Error(r.status); return r.json(); }),
+  fetch("./reports/history.json").then(r => r.ok ? r.json() : null).catch(() => null)
+]).then(([d, hist]) => {
     document.getElementById("meta").textContent =
-      `生成时间 ${d.generated_at}（UTC） · ${d.scope} · ${d.note} · 共 ${d.total} 条推荐`;
+      `生成时间 ${d.generated_at}（UTC） · ${d.scope} · ${d.note} · 本期 ${d.total} 条推荐`;
+    renderStats(hist || { stats: d.stats, total: d.total });
     if (!d.total) {
       document.getElementById("content").innerHTML = `<div class="empty">暂无推荐数据</div>`;
       return;

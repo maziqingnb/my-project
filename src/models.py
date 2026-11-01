@@ -104,6 +104,7 @@ class Recommendation:
     side: str                       # home | away | over | under
     confidence: str                 # strong | watch | pass
     score: float                    # 0-100
+    line: Optional[float] = None    # 结算用：亚盘=主队视角让球线，大小球=总进球线
     reasons: list = field(default_factory=list)
     signals: dict = field(default_factory=dict)
     history: list = field(default_factory=list)   # 水位快照时间序列（供走势图）
