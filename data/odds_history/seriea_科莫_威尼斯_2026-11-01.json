@@ -28,5 +28,35 @@
     "total_line": 3.5,
     "over": 1.01,
     "under": 0.87
+  },
+  {
+    "fixture_key": "seriea|科莫|威尼斯|2026-11-01",
+    "competition": "seriea",
+    "home": "科莫",
+    "away": "威尼斯",
+    "kickoff": "2026-11-01T11:30:00",
+    "bookmaker": "crown",
+    "ts": "2026-10-31T11:30:00+00:00",
+    "handicap_line": -1.75,
+    "handicap_home": 0.92,
+    "handicap_away": 0.96,
+    "total_line": 3.5,
+    "over": 0.96,
+    "under": 0.92
+  },
+  {
+    "fixture_key": "seriea|科莫|威尼斯|2026-11-01",
+    "competition": "seriea",
+    "home": "科莫",
+    "away": "威尼斯",
+    "kickoff": "2026-11-01T11:30:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-01T02:36:58.438959+00:00",
+    "handicap_line": -1.75,
+    "handicap_home": 0.99,
+    "handicap_away": 0.89,
+    "total_line": 3.5,
+    "over": 1.01,
+    "under": 0.87
   }
 ]
