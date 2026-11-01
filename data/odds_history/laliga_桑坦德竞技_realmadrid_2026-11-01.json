@@ -88,5 +88,35 @@
     "total_line": 4.25,
     "over": 0.95,
     "under": 0.93
+  },
+  {
+    "fixture_key": "laliga|桑坦德竞技|realmadrid|2026-11-01",
+    "competition": "laliga",
+    "home": "桑坦德竞技",
+    "away": "Real Madrid",
+    "kickoff": "2026-11-01T15:15:00",
+    "bookmaker": "crown",
+    "ts": "2026-10-31T15:15:00+00:00",
+    "handicap_line": 1.75,
+    "handicap_home": 0.99,
+    "handicap_away": 0.89,
+    "total_line": 4,
+    "over": 1.03,
+    "under": 0.83
+  },
+  {
+    "fixture_key": "laliga|桑坦德竞技|realmadrid|2026-11-01",
+    "competition": "laliga",
+    "home": "桑坦德竞技",
+    "away": "Real Madrid",
+    "kickoff": "2026-11-01T15:15:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-01T06:35:58.381724+00:00",
+    "handicap_line": 2,
+    "handicap_home": 1,
+    "handicap_away": 0.89,
+    "total_line": 4,
+    "over": 0.85,
+    "under": 1.03
   }
 ]
