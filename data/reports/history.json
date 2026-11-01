@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-01T07:42:45.569368+00:00",
-  "total": 36,
+  "generated_at": "2026-11-01T08:36:47.728958+00:00",
+  "total": 37,
   "stats": {
     "overall": {
       "counts": {
@@ -118,7 +118,7 @@
       "confidence": "strong",
       "id": "seriea|尤文图斯|那不勒斯|2026-11-01",
       "settled": false,
-      "generated_at": "2026-11-01T07:42:45.569368+00:00"
+      "generated_at": "2026-11-01T08:36:47.728958+00:00"
     },
     {
       "fixture_key": "ligue1|马赛|图卢兹|2026-11-01",
@@ -134,7 +134,7 @@
       "confidence": "strong",
       "id": "ligue1|马赛|图卢兹|2026-11-01",
       "settled": false,
-      "generated_at": "2026-11-01T07:42:45.569368+00:00"
+      "generated_at": "2026-11-01T08:36:47.728958+00:00"
     },
     {
       "fixture_key": "laliga|埃尔切|巴伦西亚|2026-11-01",
@@ -150,7 +150,7 @@
       "confidence": "watch",
       "id": "laliga|埃尔切|巴伦西亚|2026-11-01",
       "settled": false,
-      "generated_at": "2026-11-01T07:42:45.569368+00:00"
+      "generated_at": "2026-11-01T08:36:47.728958+00:00"
     },
     {
       "fixture_key": "seriea|莱切|热那亚|2026-11-01",
@@ -159,14 +159,14 @@
       "away": "热那亚",
       "kickoff": "2026-11-01T17:00:00",
       "market": "handicap",
-      "pick": "客队（让 0.25）",
+      "pick": "平手盘",
       "side": "away",
-      "line": 0.25,
-      "score": 57.5,
-      "confidence": "watch",
+      "line": 0,
+      "score": 77.5,
+      "confidence": "strong",
       "id": "seriea|莱切|热那亚|2026-11-01",
       "settled": false,
-      "generated_at": "2026-11-01T07:42:45.569368+00:00"
+      "generated_at": "2026-11-01T08:36:47.728958+00:00"
     },
     {
       "fixture_key": "bundesliga|法兰克福|汉堡|2026-11-01",
@@ -182,7 +182,7 @@
       "confidence": "watch",
       "id": "bundesliga|法兰克福|汉堡|2026-11-01",
       "settled": false,
-      "generated_at": "2026-11-01T07:42:45.569368+00:00"
+      "generated_at": "2026-11-01T08:36:47.728958+00:00"
     },
     {
       "fixture_key": "epl|liverpool|arsenal|2026-11-01",
@@ -194,11 +194,11 @@
       "pick": "小球（2.5）",
       "side": "under",
       "line": 2.5,
-      "score": 55.0,
-      "confidence": "watch",
+      "score": 70.0,
+      "confidence": "strong",
       "id": "epl|liverpool|arsenal|2026-11-01",
       "settled": false,
-      "generated_at": "2026-11-01T07:42:45.569368+00:00"
+      "generated_at": "2026-11-01T08:36:47.728958+00:00"
     },
     {
       "fixture_key": "ligue1|里昂|昂热|2026-11-01",
@@ -206,15 +206,31 @@
       "home": "里昂",
       "away": "昂热",
       "kickoff": "2026-11-01T16:15:00",
-      "market": "totals",
-      "pick": "小球（3）",
-      "side": "under",
-      "line": 3,
-      "score": 71.7,
-      "confidence": "strong",
+      "market": "handicap",
+      "pick": "客队（受让 1.25）",
+      "side": "away",
+      "line": -1.25,
+      "score": 68.8,
+      "confidence": "watch",
       "id": "ligue1|里昂|昂热|2026-11-01",
       "settled": false,
-      "generated_at": "2026-11-01T07:42:45.569368+00:00"
+      "generated_at": "2026-11-01T08:36:47.728958+00:00"
+    },
+    {
+      "fixture_key": "ligue1|巴黎fc|摩纳哥|2026-11-01",
+      "competition": "ligue1",
+      "home": "巴黎FC",
+      "away": "摩纳哥",
+      "kickoff": "2026-11-01T16:15:00",
+      "market": "totals",
+      "pick": "小球（2.75）",
+      "side": "under",
+      "line": 2.75,
+      "score": 70.6,
+      "confidence": "strong",
+      "id": "ligue1|巴黎fc|摩纳哥|2026-11-01",
+      "settled": false,
+      "generated_at": "2026-11-01T08:36:47.728958+00:00"
     },
     {
       "fixture_key": "laliga|桑坦德竞技|realmadrid|2026-11-01",
@@ -230,7 +246,7 @@
       "confidence": "strong",
       "id": "laliga|桑坦德竞技|realmadrid|2026-11-01",
       "settled": false,
-      "generated_at": "2026-11-01T07:42:45.569368+00:00"
+      "generated_at": "2026-11-01T08:36:47.728958+00:00"
     },
     {
       "fixture_key": "bundesliga|柏林联合|科隆|2026-11-01",
@@ -242,11 +258,11 @@
       "pick": "小球（2.75）",
       "side": "under",
       "line": 2.75,
-      "score": 75.0,
+      "score": 90.0,
       "confidence": "strong",
       "id": "bundesliga|柏林联合|科隆|2026-11-01",
       "settled": false,
-      "generated_at": "2026-11-01T07:42:45.569368+00:00"
+      "generated_at": "2026-11-01T08:36:47.728958+00:00"
     },
     {
       "fixture_key": "seriea|拉齐奥|卡利亚里|2026-11-01",
@@ -258,11 +274,11 @@
       "pick": "大球（2.75）",
       "side": "over",
       "line": 2.75,
-      "score": 85.0,
+      "score": 100.0,
       "confidence": "strong",
       "id": "seriea|拉齐奥|卡利亚里|2026-11-01",
       "settled": false,
-      "generated_at": "2026-11-01T07:42:45.569368+00:00"
+      "generated_at": "2026-11-01T08:36:47.728958+00:00"
     },
     {
       "fixture_key": "seriea|弗洛西诺尼|都灵|2026-11-01",
@@ -270,15 +286,15 @@
       "home": "弗洛西诺尼",
       "away": "都灵",
       "kickoff": "2026-11-01T14:00:00",
-      "market": "handicap",
-      "pick": "主队（让 0.25）",
-      "side": "home",
-      "line": -0.25,
-      "score": 77.2,
+      "market": "totals",
+      "pick": "大球（3.5）",
+      "side": "over",
+      "line": 3.5,
+      "score": 70.0,
       "confidence": "strong",
       "id": "seriea|弗洛西诺尼|都灵|2026-11-01",
       "settled": false,
-      "generated_at": "2026-11-01T07:42:45.569368+00:00"
+      "generated_at": "2026-11-01T08:36:47.728958+00:00"
     },
     {
       "fixture_key": "ligue1|斯特拉斯堡|欧塞尔|2026-11-01",
@@ -286,15 +302,15 @@
       "home": "斯特拉斯堡",
       "away": "欧塞尔",
       "kickoff": "2026-11-01T14:00:00",
-      "market": "totals",
-      "pick": "大球（3）",
-      "side": "over",
-      "line": 3,
-      "score": 60.0,
+      "market": "handicap",
+      "pick": "客队（受让 0.5）",
+      "side": "away",
+      "line": -0.5,
+      "score": 55.6,
       "confidence": "watch",
       "id": "ligue1|斯特拉斯堡|欧塞尔|2026-11-01",
       "settled": false,
-      "generated_at": "2026-11-01T07:42:45.569368+00:00"
+      "generated_at": "2026-11-01T08:36:47.728958+00:00"
     },
     {
       "fixture_key": "laliga|赫塔菲|塞维利亚|2026-11-01",
@@ -302,15 +318,15 @@
       "home": "赫塔菲",
       "away": "塞维利亚",
       "kickoff": "2026-11-01T13:00:00",
-      "market": "handicap",
-      "pick": "客队（让 0.25）",
-      "side": "away",
-      "line": 0.25,
-      "score": 57.5,
+      "market": "totals",
+      "pick": "大球（2）",
+      "side": "over",
+      "line": 2,
+      "score": 65.0,
       "confidence": "watch",
       "id": "laliga|赫塔菲|塞维利亚|2026-11-01",
       "settled": false,
-      "generated_at": "2026-11-01T07:42:45.569368+00:00"
+      "generated_at": "2026-11-01T08:36:47.728958+00:00"
     },
     {
       "fixture_key": "seriea|科莫|威尼斯|2026-11-01",
@@ -326,7 +342,7 @@
       "confidence": "strong",
       "id": "seriea|科莫|威尼斯|2026-11-01",
       "settled": false,
-      "generated_at": "2026-11-01T07:42:45.569368+00:00"
+      "generated_at": "2026-11-01T08:36:47.728958+00:00"
     },
     {
       "fixture_key": "laliga|巴塞罗那|阿拉维斯|2026-10-31",
@@ -342,7 +358,7 @@
       "confidence": "strong",
       "id": "laliga|巴塞罗那|阿拉维斯|2026-10-31",
       "settled": true,
-      "generated_at": "2026-11-01T07:42:45.569368+00:00",
+      "generated_at": "2026-11-01T08:36:47.728958+00:00",
       "outcome": "win",
       "outcome_cn": "中",
       "home_goals": 6,
@@ -362,7 +378,7 @@
       "confidence": "watch",
       "id": "epl|阿斯顿维拉|富勒姆|2026-10-31",
       "settled": true,
-      "generated_at": "2026-11-01T07:42:45.569368+00:00",
+      "generated_at": "2026-11-01T08:36:47.728958+00:00",
       "outcome": "win",
       "outcome_cn": "中",
       "home_goals": 1,
@@ -382,7 +398,7 @@
       "confidence": "strong",
       "id": "ligue1|特鲁瓦|勒芒|2026-10-31",
       "settled": true,
-      "generated_at": "2026-11-01T07:42:45.569368+00:00",
+      "generated_at": "2026-11-01T08:36:47.728958+00:00",
       "outcome": "win",
       "outcome_cn": "中",
       "home_goals": 2,
@@ -406,7 +422,7 @@
       "home_goals": 3,
       "away_goals": 1,
       "settled": true,
-      "generated_at": "2026-11-01T07:42:45.569368+00:00"
+      "generated_at": "2026-11-01T08:36:47.728958+00:00"
     },
     {
       "fixture_key": "laliga|皇家贝蒂斯|马拉加|2026-10-31",
@@ -422,7 +438,7 @@
       "confidence": "strong",
       "id": "laliga|皇家贝蒂斯|马拉加|2026-10-31",
       "settled": true,
-      "generated_at": "2026-11-01T07:42:45.569368+00:00",
+      "generated_at": "2026-11-01T08:36:47.728958+00:00",
       "outcome": "loss",
       "outcome_cn": "没中",
       "home_goals": 2,
@@ -442,7 +458,7 @@
       "confidence": "strong",
       "id": "bundesliga|bayernmunich|多特蒙德|2026-10-31",
       "settled": true,
-      "generated_at": "2026-11-01T07:42:45.569368+00:00",
+      "generated_at": "2026-11-01T08:36:47.728958+00:00",
       "outcome": "half_loss",
       "outcome_cn": "半输",
       "home_goals": 2,
@@ -462,7 +478,7 @@
       "confidence": "strong",
       "id": "epl|托特纳姆热刺|水晶宫|2026-10-31",
       "settled": true,
-      "generated_at": "2026-11-01T07:42:45.569368+00:00",
+      "generated_at": "2026-11-01T08:36:47.728958+00:00",
       "outcome": "win",
       "outcome_cn": "中",
       "home_goals": 2,
@@ -482,7 +498,7 @@
       "confidence": "strong",
       "id": "seriea|乌迪内斯|罗马|2026-10-31",
       "settled": true,
-      "generated_at": "2026-11-01T07:42:45.569368+00:00",
+      "generated_at": "2026-11-01T08:36:47.728958+00:00",
       "outcome": "win",
       "outcome_cn": "中",
       "home_goals": 2,
@@ -502,7 +518,7 @@
       "confidence": "strong",
       "id": "laliga|巴列卡诺|塞尔塔|2026-10-31",
       "settled": true,
-      "generated_at": "2026-11-01T07:42:45.569368+00:00",
+      "generated_at": "2026-11-01T08:36:47.728958+00:00",
       "outcome": "loss",
       "outcome_cn": "没中",
       "home_goals": 3,
@@ -522,7 +538,7 @@
       "confidence": "watch",
       "id": "epl|考文垂|桑德兰|2026-10-31",
       "settled": true,
-      "generated_at": "2026-11-01T07:42:45.569368+00:00",
+      "generated_at": "2026-11-01T08:36:47.728958+00:00",
       "outcome": "win",
       "outcome_cn": "中",
       "home_goals": 3,
@@ -542,7 +558,7 @@
       "confidence": "watch",
       "id": "epl|伯恩茅斯|利兹联|2026-10-31",
       "settled": true,
-      "generated_at": "2026-11-01T07:42:45.569368+00:00",
+      "generated_at": "2026-11-01T08:36:47.728958+00:00",
       "outcome": "win",
       "outcome_cn": "中",
       "home_goals": 2,
@@ -562,7 +578,7 @@
       "confidence": "watch",
       "id": "epl|赫尔城|伊普斯维奇|2026-10-31",
       "settled": true,
-      "generated_at": "2026-11-01T07:42:45.569368+00:00",
+      "generated_at": "2026-11-01T08:36:47.728958+00:00",
       "outcome": "win",
       "outcome_cn": "中",
       "home_goals": 2,
@@ -582,7 +598,7 @@
       "confidence": "strong",
       "id": "epl|曼彻斯特城|布莱顿|2026-10-31",
       "settled": true,
-      "generated_at": "2026-11-01T07:42:45.569368+00:00",
+      "generated_at": "2026-11-01T08:36:47.728958+00:00",
       "outcome": "win",
       "outcome_cn": "中",
       "home_goals": 0,
@@ -602,7 +618,7 @@
       "confidence": "strong",
       "id": "epl|布伦特福德|诺丁汉森林|2026-10-31",
       "settled": true,
-      "generated_at": "2026-11-01T07:42:45.569368+00:00",
+      "generated_at": "2026-11-01T08:36:47.728958+00:00",
       "outcome": "win",
       "outcome_cn": "中",
       "home_goals": 2,
@@ -622,7 +638,7 @@
       "confidence": "strong",
       "id": "bundesliga|门兴格拉德巴赫|帕德博恩|2026-10-31",
       "settled": true,
-      "generated_at": "2026-11-01T07:42:45.569368+00:00",
+      "generated_at": "2026-11-01T08:36:47.728958+00:00",
       "outcome": "win",
       "outcome_cn": "中",
       "home_goals": 0,
@@ -642,7 +658,7 @@
       "confidence": "watch",
       "id": "bundesliga|奥格斯堡|弗赖堡|2026-10-31",
       "settled": true,
-      "generated_at": "2026-11-01T07:42:45.569368+00:00",
+      "generated_at": "2026-11-01T08:36:47.728958+00:00",
       "outcome": "push",
       "outcome_cn": "走盘",
       "home_goals": 1,
@@ -662,7 +678,7 @@
       "confidence": "strong",
       "id": "bundesliga|勒沃库森|斯图加特|2026-10-31",
       "settled": true,
-      "generated_at": "2026-11-01T07:42:45.569368+00:00",
+      "generated_at": "2026-11-01T08:36:47.728958+00:00",
       "outcome": "win",
       "outcome_cn": "中",
       "home_goals": 2,
@@ -682,7 +698,7 @@
       "confidence": "strong",
       "id": "bundesliga|沙尔克04|rb莱比锡|2026-10-31",
       "settled": true,
-      "generated_at": "2026-11-01T07:42:45.569368+00:00",
+      "generated_at": "2026-11-01T08:36:47.728958+00:00",
       "outcome": "win",
       "outcome_cn": "中",
       "home_goals": 0,
@@ -702,7 +718,7 @@
       "confidence": "watch",
       "id": "bundesliga|云达不莱梅|霍芬海姆|2026-10-31",
       "settled": true,
-      "generated_at": "2026-11-01T07:42:45.569368+00:00",
+      "generated_at": "2026-11-01T08:36:47.728958+00:00",
       "outcome": "win",
       "outcome_cn": "中",
       "home_goals": 2,
@@ -722,7 +738,7 @@
       "confidence": "strong",
       "id": "seriea|博洛尼亚|蒙扎|2026-10-31",
       "settled": true,
-      "generated_at": "2026-11-01T07:42:45.569368+00:00",
+      "generated_at": "2026-11-01T08:36:47.728958+00:00",
       "outcome": "half_win",
       "outcome_cn": "半赢",
       "home_goals": 2,
@@ -742,7 +758,7 @@
       "confidence": "strong",
       "id": "laliga|莱万特|马德里竞技|2026-10-31",
       "settled": true,
-      "generated_at": "2026-11-01T07:42:45.569368+00:00",
+      "generated_at": "2026-11-01T08:36:47.728958+00:00",
       "outcome": "win",
       "outcome_cn": "中",
       "home_goals": 0,
@@ -762,7 +778,7 @@
       "confidence": "strong",
       "id": "epl|chelsea|曼彻斯特联|2026-10-31",
       "settled": true,
-      "generated_at": "2026-11-01T07:42:45.569368+00:00",
+      "generated_at": "2026-11-01T08:36:47.728958+00:00",
       "outcome": "win",
       "outcome_cn": "中",
       "home_goals": 2,
