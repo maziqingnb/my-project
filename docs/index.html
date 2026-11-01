@@ -175,20 +175,40 @@ function renderTable(title, cls, items) {
   </section>`;
 }
 
+function parseUTC(s) {
+  if (!s) return NaN;
+  return (/(?:Z|[+-]\d\d:\d\d)$/.test(s)) ? Date.parse(s) : Date.parse(s + "Z");
+}
+
+function isPrematch(r, hours) {
+  // 最新一条水位快照是否落在开赛前 hours 小时内（临场数据）
+  const ko = parseUTC(r.kickoff);
+  if (!isFinite(ko)) return false;
+  const snaps = (r.history || []).map(h => h && h.ts).filter(Boolean).map(parseUTC).filter(isFinite);
+  if (!snaps.length) return false;
+  const deltaH = (ko - Math.max(...snaps)) / 3600000;
+  return deltaH >= 0 && deltaH <= hours;
+}
+
+const PREMATCH_HOURS = 2;
+
 Promise.all([
   fetch("./reports/latest.json").then(r => { if (!r.ok) throw new Error(r.status); return r.json(); }),
   fetch("./reports/history.json").then(r => r.ok ? r.json() : null).catch(() => null)
 ]).then(([d, hist]) => {
+    const byTime = (a, b) => (a.kickoff || "").localeCompare(b.kickoff || "");
+    const picks = d.recommendations.filter(r =>
+      r.confidence === "strong" && isPrematch(r, PREMATCH_HOURS));
     document.getElementById("meta").textContent =
-      `生成时间 ${d.generated_at}（UTC） · ${d.scope} · ${d.note} · 本期 ${d.total} 条推荐`;
+      `生成时间 ${d.generated_at}（UTC） · ${d.scope} · ${d.note} · 强推+临场(${PREMATCH_HOURS}h内) ${picks.length} 条 / 本期共 ${d.total} 条`;
     renderStats(hist || { stats: d.stats, total: d.total });
-    if (!d.total) {
-      document.getElementById("content").innerHTML = `<div class="empty">暂无推荐数据</div>`;
+    if (!picks.length) {
+      document.getElementById("content").innerHTML =
+        `<div class="empty">暂无强推临场推荐（开赛前 ${PREMATCH_HOURS} 小时内的强推）</div>`;
       return;
     }
-    const byTime = (a, b) => (a.kickoff || "").localeCompare(b.kickoff || "");
-    const league = d.recommendations.filter(r => r.competition_class === "league").sort(byTime);
-    const cup = d.recommendations.filter(r => r.competition_class === "cup").sort(byTime);
+    const league = picks.filter(r => r.competition_class === "league").sort(byTime);
+    const cup = picks.filter(r => r.competition_class === "cup").sort(byTime);
     document.getElementById("content").innerHTML =
       renderTable("🏆 杯赛", "cup", cup) + renderTable("⚽ 联赛", "league", league);
   })
