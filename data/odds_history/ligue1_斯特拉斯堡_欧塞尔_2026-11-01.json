@@ -1,0 +1,32 @@
+[
+  {
+    "fixture_key": "ligue1|斯特拉斯堡|欧塞尔|2026-11-01",
+    "competition": "ligue1",
+    "home": "斯特拉斯堡",
+    "away": "欧塞尔",
+    "kickoff": "2026-11-01T14:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-10-31T14:00:00+00:00",
+    "handicap_line": -0.5,
+    "handicap_home": 0.83,
+    "handicap_away": 1.05,
+    "total_line": 3,
+    "over": 0.98,
+    "under": 0.88
+  },
+  {
+    "fixture_key": "ligue1|斯特拉斯堡|欧塞尔|2026-11-01",
+    "competition": "ligue1",
+    "home": "斯特拉斯堡",
+    "away": "欧塞尔",
+    "kickoff": "2026-11-01T14:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-01T00:30:34.461074+00:00",
+    "handicap_line": -0.75,
+    "handicap_home": 1.05,
+    "handicap_away": 0.83,
+    "total_line": 3,
+    "over": 0.92,
+    "under": 0.95
+  }
+]

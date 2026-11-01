@@ -1,45 +1,5 @@
 [
   {
-    "key": "laliga|莱万特|马德里竞技|2026-10-31",
-    "competition": "laliga",
-    "home": "莱万特",
-    "away": "马德里竞技",
-    "kickoff": "2026-10-31T13:00:00",
-    "status": "upcoming",
-    "home_goals": null,
-    "away_goals": null
-  },
-  {
-    "key": "laliga|巴列卡诺|塞尔塔|2026-10-31",
-    "competition": "laliga",
-    "home": "巴列卡诺",
-    "away": "塞尔塔",
-    "kickoff": "2026-10-31T15:15:00",
-    "status": "upcoming",
-    "home_goals": null,
-    "away_goals": null
-  },
-  {
-    "key": "laliga|皇家贝蒂斯|马拉加|2026-10-31",
-    "competition": "laliga",
-    "home": "皇家贝蒂斯",
-    "away": "马拉加",
-    "kickoff": "2026-10-31T17:30:00",
-    "status": "upcoming",
-    "home_goals": null,
-    "away_goals": null
-  },
-  {
-    "key": "laliga|巴塞罗那|阿拉维斯|2026-10-31",
-    "competition": "laliga",
-    "home": "巴塞罗那",
-    "away": "阿拉维斯",
-    "kickoff": "2026-10-31T20:00:00",
-    "status": "upcoming",
-    "home_goals": null,
-    "away_goals": null
-  },
-  {
     "key": "laliga|赫塔菲|塞维利亚|2026-11-01",
     "competition": "laliga",
     "home": "赫塔菲",
@@ -95,6 +55,46 @@
     "home": "塞维利亚",
     "away": "阿拉维斯",
     "kickoff": "2026-11-06T20:00:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "laliga|马拉加|桑坦德竞技|2026-11-07",
+    "competition": "laliga",
+    "home": "马拉加",
+    "away": "桑坦德竞技",
+    "kickoff": "2026-11-07T13:00:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "laliga|西班牙人|拉科鲁尼亚|2026-11-07",
+    "competition": "laliga",
+    "home": "西班牙人",
+    "away": "拉科鲁尼亚",
+    "kickoff": "2026-11-07T15:15:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "laliga|奥萨苏纳|毕尔巴鄂竞技|2026-11-07",
+    "competition": "laliga",
+    "home": "奥萨苏纳",
+    "away": "毕尔巴鄂竞技",
+    "kickoff": "2026-11-07T17:30:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "laliga|巴伦西亚|realmadrid|2026-11-07",
+    "competition": "laliga",
+    "home": "巴伦西亚",
+    "away": "Real Madrid",
+    "kickoff": "2026-11-07T20:00:00",
     "status": "upcoming",
     "home_goals": null,
     "away_goals": null

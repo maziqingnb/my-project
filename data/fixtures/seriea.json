@@ -1,35 +1,5 @@
 [
   {
-    "key": "seriea|博洛尼亚|蒙扎|2026-10-31",
-    "competition": "seriea",
-    "home": "博洛尼亚",
-    "away": "蒙扎",
-    "kickoff": "2026-10-31T14:00:00",
-    "status": "upcoming",
-    "home_goals": null,
-    "away_goals": null
-  },
-  {
-    "key": "seriea|乌迪内斯|罗马|2026-10-31",
-    "competition": "seriea",
-    "home": "乌迪内斯",
-    "away": "罗马",
-    "kickoff": "2026-10-31T17:00:00",
-    "status": "upcoming",
-    "home_goals": null,
-    "away_goals": null
-  },
-  {
-    "key": "seriea|ac米兰|国际米兰|2026-10-31",
-    "competition": "seriea",
-    "home": "AC米兰",
-    "away": "国际米兰",
-    "kickoff": "2026-10-31T19:45:00",
-    "status": "upcoming",
-    "home_goals": null,
-    "away_goals": null
-  },
-  {
     "key": "seriea|科莫|威尼斯|2026-11-01",
     "competition": "seriea",
     "home": "科莫",
@@ -105,6 +75,46 @@
     "home": "威尼斯",
     "away": "乌迪内斯",
     "kickoff": "2026-11-06T19:45:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "seriea|卡利亚里|弗洛西诺尼|2026-11-07",
+    "competition": "seriea",
+    "home": "卡利亚里",
+    "away": "弗洛西诺尼",
+    "kickoff": "2026-11-07T14:00:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "seriea|都灵|莱切|2026-11-07",
+    "competition": "seriea",
+    "home": "都灵",
+    "away": "莱切",
+    "kickoff": "2026-11-07T14:00:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "seriea|帕尔马|博洛尼亚|2026-11-07",
+    "competition": "seriea",
+    "home": "帕尔马",
+    "away": "博洛尼亚",
+    "kickoff": "2026-11-07T17:00:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "seriea|罗马|萨索洛|2026-11-07",
+    "competition": "seriea",
+    "home": "罗马",
+    "away": "萨索洛",
+    "kickoff": "2026-11-07T19:45:00",
     "status": "upcoming",
     "home_goals": null,
     "away_goals": null

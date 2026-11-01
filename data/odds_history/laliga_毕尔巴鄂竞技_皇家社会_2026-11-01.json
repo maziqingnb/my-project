@@ -1,0 +1,32 @@
+[
+  {
+    "fixture_key": "laliga|毕尔巴鄂竞技|皇家社会|2026-11-01",
+    "competition": "laliga",
+    "home": "毕尔巴鄂竞技",
+    "away": "皇家社会",
+    "kickoff": "2026-11-01T20:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-10-31T20:00:00+00:00",
+    "handicap_line": -0.5,
+    "handicap_home": 0.98,
+    "handicap_away": 0.9,
+    "total_line": 2.5,
+    "over": 0.9,
+    "under": 0.96
+  },
+  {
+    "fixture_key": "laliga|毕尔巴鄂竞技|皇家社会|2026-11-01",
+    "competition": "laliga",
+    "home": "毕尔巴鄂竞技",
+    "away": "皇家社会",
+    "kickoff": "2026-11-01T20:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-01T00:30:22.507111+00:00",
+    "handicap_line": -0.25,
+    "handicap_home": 0.89,
+    "handicap_away": 0.99,
+    "total_line": 2.75,
+    "over": 0.85,
+    "under": 1.03
+  }
+]

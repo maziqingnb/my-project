@@ -178,5 +178,32 @@
     "home_goals": 2,
     "away_goals": 2,
     "date": "2026-10-29"
+  },
+  {
+    "competition": "seriea",
+    "cls": "league",
+    "home": "博洛尼亚",
+    "away": "蒙扎",
+    "home_goals": 2,
+    "away_goals": 1,
+    "date": "2026-10-31"
+  },
+  {
+    "competition": "seriea",
+    "cls": "league",
+    "home": "乌迪内斯",
+    "away": "罗马",
+    "home_goals": 2,
+    "away_goals": 5,
+    "date": "2026-10-31"
+  },
+  {
+    "competition": "seriea",
+    "cls": "league",
+    "home": "AC米兰",
+    "away": "国际米兰",
+    "home_goals": 3,
+    "away_goals": 1,
+    "date": "2026-10-31"
   }
 ]

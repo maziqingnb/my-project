@@ -1,85 +1,5 @@
 [
   {
-    "key": "epl|chelsea|曼彻斯特联|2026-10-31",
-    "competition": "epl",
-    "home": "Chelsea",
-    "away": "曼彻斯特联",
-    "kickoff": "2026-10-31T12:30:00",
-    "status": "upcoming",
-    "home_goals": null,
-    "away_goals": null
-  },
-  {
-    "key": "epl|伯恩茅斯|利兹联|2026-10-31",
-    "competition": "epl",
-    "home": "伯恩茅斯",
-    "away": "利兹联",
-    "kickoff": "2026-10-31T15:00:00",
-    "status": "upcoming",
-    "home_goals": null,
-    "away_goals": null
-  },
-  {
-    "key": "epl|布伦特福德|诺丁汉森林|2026-10-31",
-    "competition": "epl",
-    "home": "布伦特福德",
-    "away": "诺丁汉森林",
-    "kickoff": "2026-10-31T15:00:00",
-    "status": "upcoming",
-    "home_goals": null,
-    "away_goals": null
-  },
-  {
-    "key": "epl|考文垂|桑德兰|2026-10-31",
-    "competition": "epl",
-    "home": "考文垂",
-    "away": "桑德兰",
-    "kickoff": "2026-10-31T15:00:00",
-    "status": "upcoming",
-    "home_goals": null,
-    "away_goals": null
-  },
-  {
-    "key": "epl|赫尔城|伊普斯维奇|2026-10-31",
-    "competition": "epl",
-    "home": "赫尔城",
-    "away": "伊普斯维奇",
-    "kickoff": "2026-10-31T15:00:00",
-    "status": "upcoming",
-    "home_goals": null,
-    "away_goals": null
-  },
-  {
-    "key": "epl|曼彻斯特城|布莱顿|2026-10-31",
-    "competition": "epl",
-    "home": "曼彻斯特城",
-    "away": "布莱顿",
-    "kickoff": "2026-10-31T15:00:00",
-    "status": "upcoming",
-    "home_goals": null,
-    "away_goals": null
-  },
-  {
-    "key": "epl|托特纳姆热刺|水晶宫|2026-10-31",
-    "competition": "epl",
-    "home": "托特纳姆热刺",
-    "away": "水晶宫",
-    "kickoff": "2026-10-31T17:30:00",
-    "status": "upcoming",
-    "home_goals": null,
-    "away_goals": null
-  },
-  {
-    "key": "epl|阿斯顿维拉|富勒姆|2026-10-31",
-    "competition": "epl",
-    "home": "阿斯顿维拉",
-    "away": "富勒姆",
-    "kickoff": "2026-10-31T20:00:00",
-    "status": "upcoming",
-    "home_goals": null,
-    "away_goals": null
-  },
-  {
     "key": "epl|liverpool|arsenal|2026-11-01",
     "competition": "epl",
     "home": "Liverpool",
@@ -105,6 +25,46 @@
     "home": "埃弗顿",
     "away": "考文垂",
     "kickoff": "2026-11-06T20:00:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "epl|利兹联|托特纳姆热刺|2026-11-07",
+    "competition": "epl",
+    "home": "利兹联",
+    "away": "托特纳姆热刺",
+    "kickoff": "2026-11-07T12:30:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "epl|arsenal|赫尔城|2026-11-07",
+    "competition": "epl",
+    "home": "Arsenal",
+    "away": "赫尔城",
+    "kickoff": "2026-11-07T15:00:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "epl|富勒姆|纽卡斯尔联|2026-11-07",
+    "competition": "epl",
+    "home": "富勒姆",
+    "away": "纽卡斯尔联",
+    "kickoff": "2026-11-07T15:00:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "epl|诺丁汉森林|曼彻斯特城|2026-11-07",
+    "competition": "epl",
+    "home": "诺丁汉森林",
+    "away": "曼彻斯特城",
+    "kickoff": "2026-11-07T17:30:00",
     "status": "upcoming",
     "home_goals": null,
     "away_goals": null

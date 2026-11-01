@@ -88,5 +88,59 @@
     "home_goals": 4,
     "away_goals": 1,
     "date": "2026-10-30"
+  },
+  {
+    "competition": "bundesliga",
+    "cls": "league",
+    "home": "奥格斯堡",
+    "away": "弗赖堡",
+    "home_goals": 1,
+    "away_goals": 2,
+    "date": "2026-10-31"
+  },
+  {
+    "competition": "bundesliga",
+    "cls": "league",
+    "home": "勒沃库森",
+    "away": "斯图加特",
+    "home_goals": 2,
+    "away_goals": 4,
+    "date": "2026-10-31"
+  },
+  {
+    "competition": "bundesliga",
+    "cls": "league",
+    "home": "门兴格拉德巴赫",
+    "away": "帕德博恩",
+    "home_goals": 0,
+    "away_goals": 0,
+    "date": "2026-10-31"
+  },
+  {
+    "competition": "bundesliga",
+    "cls": "league",
+    "home": "沙尔克04",
+    "away": "RB莱比锡",
+    "home_goals": 0,
+    "away_goals": 2,
+    "date": "2026-10-31"
+  },
+  {
+    "competition": "bundesliga",
+    "cls": "league",
+    "home": "云达不莱梅",
+    "away": "霍芬海姆",
+    "home_goals": 2,
+    "away_goals": 0,
+    "date": "2026-10-31"
+  },
+  {
+    "competition": "bundesliga",
+    "cls": "league",
+    "home": "Bayern Munich",
+    "away": "多特蒙德",
+    "home_goals": 2,
+    "away_goals": 2,
+    "date": "2026-10-31"
   }
 ]
