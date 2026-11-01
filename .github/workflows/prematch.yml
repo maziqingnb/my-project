@@ -37,4 +37,4 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "data: refresh pre-match odds [skip ci]"
-          file_pattern: "data/"
+          file_pattern: "data/ docs/reports/"

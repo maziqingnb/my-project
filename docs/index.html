@@ -46,6 +46,7 @@
   .badge.strong { background: var(--strong); }
   .badge.watch { background: var(--watch); }
   .badge.pass { background: var(--push); }
+  .badge.prematch { background: #0891b2; }
   .score { display: flex; align-items: center; gap: 8px; }
   .bar { width: 80px; height: 6px; background: var(--border); border-radius: 3px; overflow: hidden; }
   .bar i { display: block; height: 100%; background: var(--accent); }
@@ -81,6 +82,12 @@ const MARKET = { handicap: "亚盘", totals: "大小球" };
 const COMP = { epl: "英超", laliga: "西甲", seriea: "意甲", bundesliga: "德甲", ligue1: "法甲", ucl: "欧冠" };
 const OUTCOME_CN = { win: "中", half_win: "半赢", push: "走盘", half_loss: "半输", loss: "没中" };
 
+function koTs(s) {
+  if (!s) return 0;
+  const t = /Z$|[+-]\d\d:\d\d$/.test(s) ? s : s + "Z"; // 后端存的是 UTC 无时区，补 Z
+  return new Date(t).getTime() || 0;
+}
+
 function waterField(r) {
   if (r.market === "handicap") return r.side === "home" ? "handicap_home" : "handicap_away";
   return r.side === "over" ? "over" : "under";
@@ -110,7 +117,7 @@ function resultCell(r) {
     return `<span class="outcome ${res.outcome}">${res.outcome_cn}</span>
             <span class="final">${res.home_goals}-${res.away_goals}</span>`;
   }
-  const ko = (r.kickoff ? new Date(r.kickoff).getTime() : 0);
+  const ko = koTs(r.kickoff);
   const pending = ko && ko < Date.now() ? "待赛果" : "未开赛";
   return `<span class="outcome pending">${pending}</span>`;
 }
@@ -163,7 +170,7 @@ function renderTable(title, cls, items) {
       <td><span class="market">${MARKET[r.market]}</span></td>
       <td>${r.pick}</td>
       <td><div class="score"><span>${r.score}</span><div class="bar"><i style="width:${Math.min(r.score, 100)}%"></i></div></div></td>
-      <td><span class="badge ${r.confidence}">${CONF[r.confidence]}</span></td>
+      <td><span class="badge ${r.confidence}">${CONF[r.confidence]}</span>${r.prematch ? ' <span class="badge prematch">临场</span>' : ''}</td>
       <td>${resultCell(r)}</td>
       <td>${sparkline(r)}</td>
       <td><ul class="reasons">${r.reasons.map(x => `<li>${x}</li>`).join("")}</ul></td>
@@ -179,19 +186,27 @@ Promise.all([
   fetch("./reports/latest.json").then(r => { if (!r.ok) throw new Error(r.status); return r.json(); }),
   fetch("./reports/history.json").then(r => r.ok ? r.json() : null).catch(() => null)
 ]).then(([d, hist]) => {
-    const byTime = (a, b) => (a.kickoff || "").localeCompare(b.kickoff || "");
-    const picks = d.recommendations.filter(r =>
-      r.confidence === "strong" && r.prematch === true);
+    const now = Date.now();
+    const byKickoff = (a, b) => {
+      const ta = koTs(a.kickoff), tb = koTs(b.kickoff);
+      const ua = ta >= now ? 0 : 1, ub = tb >= now ? 0 : 1;
+      if (ua !== ub) return ua - ub;            // 未开赛的排前面
+      return ua === 0 ? ta - tb : tb - ta;      // 未开赛按开赛时间升序，已开赛按时间降序
+    };
+    const picks = d.recommendations || [];
+    const nStrong = picks.filter(r => r.confidence === "strong").length;
+    const nWatch = picks.filter(r => r.confidence === "watch").length;
+    const nPrematch = picks.filter(r => r.prematch === true).length;
     document.getElementById("meta").textContent =
-      `生成时间 ${d.generated_at}（UTC） · ${d.scope} · ${d.note} · 强推+临场 ${picks.length} 条 / 本期共 ${d.total} 条`;
+      `生成时间 ${d.generated_at}（UTC） · ${d.scope} · 强推 ${nStrong} / 可关注 ${nWatch} / 临场 ${nPrematch} · 本期共 ${d.total} 条`;
     renderStats(hist || { stats: d.stats, total: d.total });
     if (!picks.length) {
       document.getElementById("content").innerHTML =
-        `<div class="empty">暂无强推临场推荐（开赛前 2 小时内的强推）</div>`;
+        `<div class="empty">暂无推荐，请等待下一次同步与分析。</div>`;
       return;
     }
-    const league = picks.filter(r => r.competition_class === "league").sort(byTime);
-    const cup = picks.filter(r => r.competition_class === "cup").sort(byTime);
+    const league = picks.filter(r => r.competition_class === "league").sort(byKickoff);
+    const cup = picks.filter(r => r.competition_class === "cup").sort(byKickoff);
     document.getElementById("content").innerHTML =
       renderTable("🏆 杯赛", "cup", cup) + renderTable("⚽ 联赛", "league", league);
   })
