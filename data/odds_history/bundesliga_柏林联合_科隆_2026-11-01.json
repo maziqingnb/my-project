@@ -118,5 +118,35 @@
     "total_line": 2.75,
     "over": 0.81,
     "under": 1.07
+  },
+  {
+    "fixture_key": "bundesliga|柏林联合|科隆|2026-11-01",
+    "competition": "bundesliga",
+    "home": "柏林联合",
+    "away": "科隆",
+    "kickoff": "2026-11-01T14:30:00",
+    "bookmaker": "crown",
+    "ts": "2026-10-31T14:30:00+00:00",
+    "handicap_line": 0,
+    "handicap_home": 0.88,
+    "handicap_away": 1,
+    "total_line": 2.75,
+    "over": 0.82,
+    "under": 1.04
+  },
+  {
+    "fixture_key": "bundesliga|柏林联合|科隆|2026-11-01",
+    "competition": "bundesliga",
+    "home": "柏林联合",
+    "away": "科隆",
+    "kickoff": "2026-11-01T14:30:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-01T08:36:34.008668+00:00",
+    "handicap_line": 0,
+    "handicap_home": 0.96,
+    "handicap_away": 0.93,
+    "total_line": 2.75,
+    "over": 0.88,
+    "under": 1
   }
 ]

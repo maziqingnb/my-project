@@ -118,5 +118,35 @@
     "total_line": 2,
     "over": 0.81,
     "under": 1.07
+  },
+  {
+    "fixture_key": "seriea|莱切|热那亚|2026-11-01",
+    "competition": "seriea",
+    "home": "莱切",
+    "away": "热那亚",
+    "kickoff": "2026-11-01T17:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-10-31T17:00:00+00:00",
+    "handicap_line": 0,
+    "handicap_home": 0.99,
+    "handicap_away": 0.89,
+    "total_line": 2.25,
+    "over": 1.07,
+    "under": 0.81
+  },
+  {
+    "fixture_key": "seriea|莱切|热那亚|2026-11-01",
+    "competition": "seriea",
+    "home": "莱切",
+    "away": "热那亚",
+    "kickoff": "2026-11-01T17:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-01T08:36:26.983110+00:00",
+    "handicap_line": 0,
+    "handicap_home": 1.12,
+    "handicap_away": 0.78,
+    "total_line": 2,
+    "over": 0.78,
+    "under": 1.11
   }
 ]
