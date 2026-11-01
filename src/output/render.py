@@ -97,7 +97,8 @@ def render_report(cfg: dict, recs, results_by_comp: dict | None = None,
     order = {"strong": 0, "watch": 1, "pass": 2}
     items.sort(key=lambda x: (order[x["confidence"]], -x["score"]))
 
-    settled = [i for i in items if i["result"].get("settled")]
+    # 结算统计需要把 result 里的 outcome 拍平到顶层，供 hit_rate_stats / group_hit_rates 读取
+    settled = [{**i, **i["result"]} for i in items if i["result"].get("settled")]
     report = {
         "generated_at": datetime.now(timezone.utc).isoformat(),
         "scope": "五大联赛 + 欧冠",
