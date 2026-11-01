@@ -208,5 +208,35 @@
     "total_line": 2.5,
     "over": 1.04,
     "under": 0.84
+  },
+  {
+    "fixture_key": "seriea|尤文图斯|那不勒斯|2026-11-01",
+    "competition": "seriea",
+    "home": "尤文图斯",
+    "away": "那不勒斯",
+    "kickoff": "2026-11-01T19:45:00",
+    "bookmaker": "crown",
+    "ts": "2026-10-31T19:45:00+00:00",
+    "handicap_line": -0.5,
+    "handicap_home": 0.88,
+    "handicap_away": 1,
+    "total_line": 2.5,
+    "over": 1,
+    "under": 0.88
+  },
+  {
+    "fixture_key": "seriea|尤文图斯|那不勒斯|2026-11-01",
+    "competition": "seriea",
+    "home": "尤文图斯",
+    "away": "那不勒斯",
+    "kickoff": "2026-11-01T19:45:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-01T14:26:27.280950+00:00",
+    "handicap_line": -0.25,
+    "handicap_home": 0.92,
+    "handicap_away": 0.97,
+    "total_line": 2.5,
+    "over": 0.97,
+    "under": 0.91
   }
 ]
