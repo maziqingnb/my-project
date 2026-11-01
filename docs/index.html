@@ -186,8 +186,9 @@ Promise.all([
       document.getElementById("content").innerHTML = `<div class="empty">暂无推荐数据</div>`;
       return;
     }
-    const league = d.recommendations.filter(r => r.competition_class === "league");
-    const cup = d.recommendations.filter(r => r.competition_class === "cup");
+    const byTime = (a, b) => (a.kickoff || "").localeCompare(b.kickoff || "");
+    const league = d.recommendations.filter(r => r.competition_class === "league").sort(byTime);
+    const cup = d.recommendations.filter(r => r.competition_class === "cup").sort(byTime);
     document.getElementById("content").innerHTML =
       renderTable("🏆 杯赛", "cup", cup) + renderTable("⚽ 联赛", "league", league);
   })
