@@ -106,5 +106,14 @@
     "home_goals": 1,
     "away_goals": 0,
     "date": "2026-10-30"
+  },
+  {
+    "competition": "ligue1",
+    "cls": "league",
+    "home": "特鲁瓦",
+    "away": "勒芒",
+    "home_goals": 2,
+    "away_goals": 0,
+    "date": "2026-10-31"
   }
 ]

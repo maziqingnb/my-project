@@ -1,65 +1,5 @@
 [
   {
-    "key": "bundesliga|奥格斯堡|弗赖堡|2026-10-31",
-    "competition": "bundesliga",
-    "home": "奥格斯堡",
-    "away": "弗赖堡",
-    "kickoff": "2026-10-31T14:30:00",
-    "status": "upcoming",
-    "home_goals": null,
-    "away_goals": null
-  },
-  {
-    "key": "bundesliga|勒沃库森|斯图加特|2026-10-31",
-    "competition": "bundesliga",
-    "home": "勒沃库森",
-    "away": "斯图加特",
-    "kickoff": "2026-10-31T14:30:00",
-    "status": "upcoming",
-    "home_goals": null,
-    "away_goals": null
-  },
-  {
-    "key": "bundesliga|门兴格拉德巴赫|帕德博恩|2026-10-31",
-    "competition": "bundesliga",
-    "home": "门兴格拉德巴赫",
-    "away": "帕德博恩",
-    "kickoff": "2026-10-31T14:30:00",
-    "status": "upcoming",
-    "home_goals": null,
-    "away_goals": null
-  },
-  {
-    "key": "bundesliga|沙尔克04|rb莱比锡|2026-10-31",
-    "competition": "bundesliga",
-    "home": "沙尔克04",
-    "away": "RB莱比锡",
-    "kickoff": "2026-10-31T14:30:00",
-    "status": "upcoming",
-    "home_goals": null,
-    "away_goals": null
-  },
-  {
-    "key": "bundesliga|云达不莱梅|霍芬海姆|2026-10-31",
-    "competition": "bundesliga",
-    "home": "云达不莱梅",
-    "away": "霍芬海姆",
-    "kickoff": "2026-10-31T14:30:00",
-    "status": "upcoming",
-    "home_goals": null,
-    "away_goals": null
-  },
-  {
-    "key": "bundesliga|bayernmunich|多特蒙德|2026-10-31",
-    "competition": "bundesliga",
-    "home": "Bayern Munich",
-    "away": "多特蒙德",
-    "kickoff": "2026-10-31T17:30:00",
-    "status": "upcoming",
-    "home_goals": null,
-    "away_goals": null
-  },
-  {
     "key": "bundesliga|柏林联合|科隆|2026-11-01",
     "competition": "bundesliga",
     "home": "柏林联合",
@@ -85,6 +25,56 @@
     "home": "汉堡",
     "away": "门兴格拉德巴赫",
     "kickoff": "2026-11-06T19:30:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "bundesliga|多特蒙德|埃尔沃斯贝格|2026-11-07",
+    "competition": "bundesliga",
+    "home": "多特蒙德",
+    "away": "埃尔沃斯贝格",
+    "kickoff": "2026-11-07T14:30:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "bundesliga|美因茨|bayernmunich|2026-11-07",
+    "competition": "bundesliga",
+    "home": "美因茨",
+    "away": "Bayern Munich",
+    "kickoff": "2026-11-07T14:30:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "bundesliga|帕德博恩|法兰克福|2026-11-07",
+    "competition": "bundesliga",
+    "home": "帕德博恩",
+    "away": "法兰克福",
+    "kickoff": "2026-11-07T14:30:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "bundesliga|rb莱比锡|奥格斯堡|2026-11-07",
+    "competition": "bundesliga",
+    "home": "RB莱比锡",
+    "away": "奥格斯堡",
+    "kickoff": "2026-11-07T14:30:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "bundesliga|斯图加特|云达不莱梅|2026-11-07",
+    "competition": "bundesliga",
+    "home": "斯图加特",
+    "away": "云达不莱梅",
+    "kickoff": "2026-11-07T17:30:00",
     "status": "upcoming",
     "home_goals": null,
     "away_goals": null

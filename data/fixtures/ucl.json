@@ -1,1 +1,182 @@
-[]
+[
+  {
+    "key": "ucl|顿涅茨克矿工|葡萄牙体育|2026-11-03",
+    "competition": "ucl",
+    "home": "顿涅茨克矿工",
+    "away": "葡萄牙体育",
+    "kickoff": "2026-11-03T17:45:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "ucl|加拉塔萨雷|斯图加特|2026-11-03",
+    "competition": "ucl",
+    "home": "加拉塔萨雷",
+    "away": "斯图加特",
+    "kickoff": "2026-11-03T17:45:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "ucl|马德里竞技|bayernmunich|2026-11-03",
+    "competition": "ucl",
+    "home": "马德里竞技",
+    "away": "Bayern Munich",
+    "kickoff": "2026-11-03T20:00:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "ucl|费耶诺德|国际米兰|2026-11-03",
+    "competition": "ucl",
+    "home": "费耶诺德",
+    "away": "国际米兰",
+    "kickoff": "2026-11-03T20:00:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "ucl|巴塞罗那|阿斯顿维拉|2026-11-03",
+    "competition": "ucl",
+    "home": "巴塞罗那",
+    "away": "阿斯顿维拉",
+    "kickoff": "2026-11-03T20:00:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "ucl|比利亚雷亚尔|巴黎圣日耳曼|2026-11-03",
+    "competition": "ucl",
+    "home": "比利亚雷亚尔",
+    "away": "巴黎圣日耳曼",
+    "kickoff": "2026-11-03T20:00:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "ucl|曼彻斯特联|罗马|2026-11-03",
+    "competition": "ucl",
+    "home": "曼彻斯特联",
+    "away": "罗马",
+    "kickoff": "2026-11-03T20:00:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "ucl|博德闪耀|里尔|2026-11-03",
+    "competition": "ucl",
+    "home": "博德闪耀",
+    "away": "里尔",
+    "kickoff": "2026-11-03T20:00:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "ucl|lask林茨|布拉迪斯拉发|2026-11-03",
+    "competition": "ucl",
+    "home": "LASK林茨",
+    "away": "布拉迪斯拉发",
+    "kickoff": "2026-11-03T20:00:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "ucl|aek雅典|realmadrid|2026-11-04",
+    "competition": "ucl",
+    "home": "AEK雅典",
+    "away": "Real Madrid",
+    "kickoff": "2026-11-04T17:45:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "ucl|费内巴切|liverpool|2026-11-04",
+    "competition": "ucl",
+    "home": "费内巴切",
+    "away": "Liverpool",
+    "kickoff": "2026-11-04T17:45:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "ucl|rb莱比锡|曼彻斯特城|2026-11-04",
+    "competition": "ucl",
+    "home": "RB莱比锡",
+    "away": "曼彻斯特城",
+    "kickoff": "2026-11-04T20:00:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "ucl|布拉格斯拉维亚|arsenal|2026-11-04",
+    "competition": "ucl",
+    "home": "布拉格斯拉维亚",
+    "away": "Arsenal",
+    "kickoff": "2026-11-04T20:00:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "ucl|埃因霍温|布鲁日|2026-11-04",
+    "competition": "ucl",
+    "home": "埃因霍温",
+    "away": "布鲁日",
+    "kickoff": "2026-11-04T20:00:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "ucl|多特蒙德|皇家贝蒂斯|2026-11-04",
+    "competition": "ucl",
+    "home": "多特蒙德",
+    "away": "皇家贝蒂斯",
+    "kickoff": "2026-11-04T20:00:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "ucl|波尔图|那不勒斯|2026-11-04",
+    "competition": "ucl",
+    "home": "波尔图",
+    "away": "那不勒斯",
+    "kickoff": "2026-11-04T20:00:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "ucl|朗斯|科莫|2026-11-04",
+    "competition": "ucl",
+    "home": "朗斯",
+    "away": "科莫",
+    "kickoff": "2026-11-04T20:00:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "ucl|维京|萨巴赫|2026-11-04",
+    "competition": "ucl",
+    "home": "维京",
+    "away": "萨巴赫",
+    "kickoff": "2026-11-04T20:00:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  }
+]
