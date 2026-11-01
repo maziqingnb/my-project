@@ -62,6 +62,8 @@ analysis:
   # 历史样本：近 N 场（联赛/杯赛分开统计）
   form_matches: 5
   h2h_matches: 5
+  # 临场窗口：最新水位快照落在开赛前 N 小时内算「临场」，看板与命中率只统计强推+临场
+  prematch_hours: 2
   weights:
     handicap:                  # 亚盘(让球)推荐权重
       water_move: 0.30         # 临场水位变动（降水/升水）

@@ -1,70 +1,70 @@
 {
-  "generated_at": "2026-11-01T07:42:45.556830+00:00",
+  "generated_at": "2026-11-01T08:52:41.247629+00:00",
   "scope": "五大联赛 + 欧冠",
   "note": "杯赛与联赛数据分开计算",
   "total": 35,
   "stats": {
     "overall": {
       "counts": {
-        "win": 17,
+        "win": 11,
         "half_win": 1,
-        "push": 1,
+        "push": 0,
         "half_loss": 0,
         "loss": 2
       },
-      "settled": 20,
-      "hit": 18,
-      "rate": 90.0
+      "settled": 14,
+      "hit": 12,
+      "rate": 85.7
     },
     "by_market": {
       "handicap": {
         "counts": {
-          "win": 7,
+          "win": 4,
           "half_win": 1,
           "push": 0,
           "half_loss": 0,
           "loss": 1
         },
-        "settled": 9,
-        "hit": 8,
-        "rate": 88.9
+        "settled": 6,
+        "hit": 5,
+        "rate": 83.3
       },
       "totals": {
         "counts": {
-          "win": 10,
+          "win": 7,
           "half_win": 0,
-          "push": 1,
+          "push": 0,
           "half_loss": 0,
           "loss": 1
         },
-        "settled": 11,
-        "hit": 10,
-        "rate": 90.9
+        "settled": 8,
+        "hit": 7,
+        "rate": 87.5
       }
     },
     "by_competition": {
       "bundesliga": {
         "counts": {
-          "win": 4,
-          "half_win": 0,
-          "push": 1,
-          "half_loss": 0,
-          "loss": 0
-        },
-        "settled": 4,
-        "hit": 4,
-        "rate": 100.0
-      },
-      "epl": {
-        "counts": {
-          "win": 8,
+          "win": 3,
           "half_win": 0,
           "push": 0,
           "half_loss": 0,
           "loss": 0
         },
-        "settled": 8,
-        "hit": 8,
+        "settled": 3,
+        "hit": 3,
+        "rate": 100.0
+      },
+      "epl": {
+        "counts": {
+          "win": 4,
+          "half_win": 0,
+          "push": 0,
+          "half_loss": 0,
+          "loss": 0
+        },
+        "settled": 4,
+        "hit": 4,
         "rate": 100.0
       },
       "laliga": {
@@ -93,14 +93,14 @@
       },
       "seriea": {
         "counts": {
-          "win": 2,
+          "win": 1,
           "half_win": 1,
           "push": 0,
           "half_loss": 0,
           "loss": 0
         },
-        "settled": 3,
-        "hit": 3,
+        "settled": 2,
+        "hit": 2,
         "rate": 100.0
       }
     }
@@ -205,6 +205,7 @@
       ],
       "competition_name": "西班牙甲级联赛",
       "competition_class": "league",
+      "prematch": true,
       "result": {
         "outcome": "loss",
         "outcome_cn": "没中",
@@ -299,6 +300,7 @@
       ],
       "competition_name": "德国甲级联赛",
       "competition_class": "league",
+      "prematch": true,
       "result": {
         "outcome": "win",
         "outcome_cn": "中",
@@ -417,6 +419,7 @@
       ],
       "competition_name": "法国甲级联赛",
       "competition_class": "league",
+      "prematch": true,
       "result": {
         "outcome": "win",
         "outcome_cn": "中",
@@ -499,6 +502,7 @@
       ],
       "competition_name": "意大利甲级联赛",
       "competition_class": "league",
+      "prematch": false,
       "result": {
         "settled": false
       }
@@ -578,6 +582,7 @@
       ],
       "competition_name": "意大利甲级联赛",
       "competition_class": "league",
+      "prematch": true,
       "result": {
         "outcome": "half_win",
         "outcome_cn": "半赢",
@@ -673,6 +678,7 @@
       ],
       "competition_name": "德国甲级联赛",
       "competition_class": "league",
+      "prematch": true,
       "result": {
         "outcome": "win",
         "outcome_cn": "中",
@@ -779,6 +785,7 @@
       ],
       "competition_name": "英格兰超级联赛",
       "competition_class": "league",
+      "prematch": true,
       "result": {
         "outcome": "win",
         "outcome_cn": "中",
@@ -873,6 +880,7 @@
       ],
       "competition_name": "德国甲级联赛",
       "competition_class": "league",
+      "prematch": true,
       "result": {
         "outcome": "win",
         "outcome_cn": "中",
@@ -968,6 +976,7 @@
       ],
       "competition_name": "英格兰超级联赛",
       "competition_class": "league",
+      "prematch": true,
       "result": {
         "outcome": "win",
         "outcome_cn": "中",
@@ -1051,6 +1060,7 @@
       ],
       "competition_name": "意大利甲级联赛",
       "competition_class": "league",
+      "prematch": false,
       "result": {
         "settled": false
       }
@@ -1130,6 +1140,7 @@
       ],
       "competition_name": "意大利甲级联赛",
       "competition_class": "league",
+      "prematch": false,
       "result": {
         "settled": false
       }
@@ -1233,6 +1244,7 @@
       ],
       "competition_name": "意大利甲级联赛",
       "competition_class": "league",
+      "prematch": true,
       "result": {
         "outcome": "win",
         "outcome_cn": "中",
@@ -1327,6 +1339,7 @@
       ],
       "competition_name": "西班牙甲级联赛",
       "competition_class": "league",
+      "prematch": true,
       "result": {
         "outcome": "loss",
         "outcome_cn": "没中",
@@ -1409,6 +1422,7 @@
       ],
       "competition_name": "德国甲级联赛",
       "competition_class": "league",
+      "prematch": false,
       "result": {
         "settled": false
       }
@@ -1487,6 +1501,7 @@
       ],
       "competition_name": "西班牙甲级联赛",
       "competition_class": "league",
+      "prematch": false,
       "result": {
         "settled": false
       }
@@ -1565,6 +1580,7 @@
       ],
       "competition_name": "意大利甲级联赛",
       "competition_class": "league",
+      "prematch": false,
       "result": {
         "settled": false
       }
@@ -1644,6 +1660,7 @@
       ],
       "competition_name": "法国甲级联赛",
       "competition_class": "league",
+      "prematch": false,
       "result": {
         "settled": false
       }
@@ -1735,6 +1752,7 @@
       ],
       "competition_name": "英格兰超级联赛",
       "competition_class": "league",
+      "prematch": true,
       "result": {
         "outcome": "win",
         "outcome_cn": "中",
@@ -1817,6 +1835,7 @@
       ],
       "competition_name": "西班牙甲级联赛",
       "competition_class": "league",
+      "prematch": true,
       "result": {
         "outcome": "win",
         "outcome_cn": "中",
@@ -1899,6 +1918,7 @@
       ],
       "competition_name": "法国甲级联赛",
       "competition_class": "league",
+      "prematch": false,
       "result": {
         "settled": false
       }
@@ -1977,6 +1997,7 @@
       ],
       "competition_name": "英格兰超级联赛",
       "competition_class": "league",
+      "prematch": true,
       "result": {
         "outcome": "win",
         "outcome_cn": "中",
@@ -2095,6 +2116,7 @@
       ],
       "competition_name": "西班牙甲级联赛",
       "competition_class": "league",
+      "prematch": true,
       "result": {
         "outcome": "win",
         "outcome_cn": "中",
@@ -2190,6 +2212,7 @@
       ],
       "competition_name": "英格兰超级联赛",
       "competition_class": "league",
+      "prematch": true,
       "result": {
         "outcome": "win",
         "outcome_cn": "中",
@@ -2284,6 +2307,7 @@
       ],
       "competition_name": "英格兰超级联赛",
       "competition_class": "league",
+      "prematch": true,
       "result": {
         "outcome": "win",
         "outcome_cn": "中",
@@ -2379,6 +2403,7 @@
       ],
       "competition_name": "英格兰超级联赛",
       "competition_class": "league",
+      "prematch": true,
       "result": {
         "outcome": "win",
         "outcome_cn": "中",
@@ -2473,6 +2498,7 @@
       ],
       "competition_name": "德国甲级联赛",
       "competition_class": "league",
+      "prematch": true,
       "result": {
         "outcome": "push",
         "outcome_cn": "走盘",
@@ -2592,6 +2618,7 @@
       ],
       "competition_name": "意大利甲级联赛",
       "competition_class": "league",
+      "prematch": true,
       "result": {
         "outcome": "win",
         "outcome_cn": "中",
@@ -2674,6 +2701,7 @@
       ],
       "competition_name": "法国甲级联赛",
       "competition_class": "league",
+      "prematch": false,
       "result": {
         "settled": false
       }
@@ -2752,6 +2780,7 @@
       ],
       "competition_name": "西班牙甲级联赛",
       "competition_class": "league",
+      "prematch": false,
       "result": {
         "settled": false
       }
@@ -2831,6 +2860,7 @@
       ],
       "competition_name": "西班牙甲级联赛",
       "competition_class": "league",
+      "prematch": false,
       "result": {
         "settled": false
       }
@@ -2910,6 +2940,7 @@
       ],
       "competition_name": "意大利甲级联赛",
       "competition_class": "league",
+      "prematch": false,
       "result": {
         "settled": false
       }
@@ -2989,6 +3020,7 @@
       ],
       "competition_name": "德国甲级联赛",
       "competition_class": "league",
+      "prematch": false,
       "result": {
         "settled": false
       }
@@ -3103,6 +3135,7 @@
       ],
       "competition_name": "英格兰超级联赛",
       "competition_class": "league",
+      "prematch": true,
       "result": {
         "outcome": "win",
         "outcome_cn": "中",
@@ -3197,6 +3230,7 @@
       ],
       "competition_name": "德国甲级联赛",
       "competition_class": "league",
+      "prematch": true,
       "result": {
         "outcome": "win",
         "outcome_cn": "中",
@@ -3279,6 +3313,7 @@
       ],
       "competition_name": "英格兰超级联赛",
       "competition_class": "league",
+      "prematch": false,
       "result": {
         "settled": false
       }

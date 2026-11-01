@@ -8,7 +8,7 @@
 from __future__ import annotations
 
 from dataclasses import asdict
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 
 from .. import config as C
 from ..storage import write_json, read_json
@@ -18,7 +18,41 @@ from ..analysis.settle import (settle_dict, hit_rate_stats, group_hit_rates,
 _CONF_CN = {"strong": "强推", "watch": "可关注", "pass": "观望"}
 _MARKET_CN = {"handicap": "亚盘(让球)", "totals": "大小球"}
 _HISTORY_FIELDS = ("fixture_key", "competition", "home", "away", "kickoff",
-                   "market", "pick", "side", "line", "score", "confidence")
+                   "market", "pick", "side", "line", "score", "confidence",
+                   "prematch")
+
+
+def _parse_ts(s):
+    """解析 ISO 时间（容忍无时区，按 UTC 处理）。"""
+    if not s:
+        return None
+    s = s.replace("Z", "+00:00")
+    try:
+        dt = datetime.fromisoformat(s)
+    except (ValueError, TypeError):
+        return None
+    return dt if dt.tzinfo else dt.replace(tzinfo=timezone.utc)
+
+
+def _is_prematch(kickoff, history, hours: float) -> bool:
+    """最新一条水位快照是否落在开赛前 hours 小时内（临场）。"""
+    ko = _parse_ts(kickoff)
+    if not ko or not history:
+        return False
+    last = None
+    for h in history or []:
+        dt = _parse_ts(h.get("ts") if isinstance(h, dict) else None)
+        if dt and (last is None or dt > last):
+            last = dt
+    if not last:
+        return False
+    delta = ko - last
+    return timedelta(0) <= delta <= timedelta(hours=hours)
+
+
+def _is_counted(item: dict) -> bool:
+    """命中率只统计强推 + 临场。"""
+    return item.get("confidence") == "strong" and bool(item.get("prematch"))
 
 
 def _record(item: dict) -> dict:
@@ -62,15 +96,16 @@ def _update_history(items: list[dict], results_by_comp: dict) -> dict:
         records.append(rec)
 
     records.sort(key=lambda r: (r.get("kickoff") or ""), reverse=True)
+    counted = [r for r in records if _is_counted(r)]
     history = {
         "generated_at": now,
-        "total": len(records),
+        "total": len(counted),              # 累计推荐 = 强推 + 临场
         "stats": {
-            "overall": hit_rate_stats(records),
-            "by_market": group_hit_rates(records, "market"),
-            "by_competition": group_hit_rates(records, "competition"),
+            "overall": hit_rate_stats(counted),
+            "by_market": group_hit_rates(counted, "market"),
+            "by_competition": group_hit_rates(counted, "competition"),
         },
-        "records": records,
+        "records": records,                 # 全量账本（供审计/合并，不参与统计）
     }
 
     write_json(C.REPORTS_DIR / "history.json", history)
@@ -82,6 +117,7 @@ def render_report(cfg: dict, recs, results_by_comp: dict | None = None,
                   demo: bool = False) -> dict:
     comp_map = {c.key: c for c in cfg["competitions"]}
     results_by_comp = results_by_comp or {}
+    prematch_hours = float(cfg.get("analysis", {}).get("prematch_hours", 2))
 
     items = []
     for r in recs:
@@ -91,14 +127,17 @@ def render_report(cfg: dict, recs, results_by_comp: dict | None = None,
             "competition_name": c.name,
             "competition_class": c.cls,
         }
+        item["prematch"] = _is_prematch(item.get("kickoff"), item.get("history"),
+                                        prematch_hours)
         _settle_item(item, results_by_comp)
         items.append(item)
 
     order = {"strong": 0, "watch": 1, "pass": 2}
     items.sort(key=lambda x: (order[x["confidence"]], -x["score"]))
 
-    # 结算统计需要把 result 里的 outcome 拍平到顶层，供 hit_rate_stats / group_hit_rates 读取
-    settled = [{**i, **i["result"]} for i in items if i["result"].get("settled")]
+    # 结算统计：只统计强推+临场，并把 result 里的 outcome 拍平到顶层供统计读取
+    settled = [{**i, **i["result"]}
+               for i in items if i["result"].get("settled") and _is_counted(i)]
     report = {
         "generated_at": datetime.now(timezone.utc).isoformat(),
         "scope": "五大联赛 + 欧冠",
