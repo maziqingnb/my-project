@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-01T08:36:47.719414+00:00",
+  "generated_at": "2026-11-01T08:55:10.925925+00:00",
   "scope": "五大联赛 + 欧冠",
   "note": "杯赛与联赛数据分开计算",
   "total": 36,
@@ -192,6 +192,7 @@
       ],
       "competition_name": "意大利甲级联赛",
       "competition_class": "league",
+      "prematch": false,
       "result": {
         "settled": false
       }
@@ -485,6 +486,7 @@
       ],
       "competition_name": "德国甲级联赛",
       "competition_class": "league",
+      "prematch": false,
       "result": {
         "settled": false
       }
@@ -2186,6 +2188,7 @@
       ],
       "competition_name": "英格兰超级联赛",
       "competition_class": "league",
+      "prematch": false,
       "result": {
         "settled": false
       }
@@ -2395,6 +2398,7 @@
       ],
       "competition_name": "意大利甲级联赛",
       "competition_class": "league",
+      "prematch": false,
       "result": {
         "settled": false
       }
@@ -2486,6 +2490,7 @@
       ],
       "competition_name": "法国甲级联赛",
       "competition_class": "league",
+      "prematch": false,
       "result": {
         "settled": false
       }
@@ -2767,6 +2772,7 @@
       ],
       "competition_name": "西班牙甲级联赛",
       "competition_class": "league",
+      "prematch": false,
       "result": {
         "settled": false
       }
