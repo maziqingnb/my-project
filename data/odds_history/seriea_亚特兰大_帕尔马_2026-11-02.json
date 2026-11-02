@@ -178,5 +178,35 @@
     "total_line": 3.25,
     "over": 1.06,
     "under": 0.83
+  },
+  {
+    "fixture_key": "seriea|亚特兰大|帕尔马|2026-11-02",
+    "competition": "seriea",
+    "home": "亚特兰大",
+    "away": "帕尔马",
+    "kickoff": "2026-11-02T19:45:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-01T19:45:00+00:00",
+    "handicap_line": -1.25,
+    "handicap_home": 0.97,
+    "handicap_away": 0.91,
+    "total_line": 2.75,
+    "over": 0.98,
+    "under": 0.9
+  },
+  {
+    "fixture_key": "seriea|亚特兰大|帕尔马|2026-11-02",
+    "competition": "seriea",
+    "home": "亚特兰大",
+    "away": "帕尔马",
+    "kickoff": "2026-11-02T19:45:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-02T16:26:07.556333+00:00",
+    "handicap_line": -1.25,
+    "handicap_home": 0.96,
+    "handicap_away": 0.93,
+    "total_line": 3.25,
+    "over": 1.06,
+    "under": 0.83
   }
 ]
