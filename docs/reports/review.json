@@ -1,11 +1,51 @@
 {
-  "generated_at": "2026-11-02T18:41:59.740217+00:00",
-  "total_missed": 5,
+  "generated_at": "2026-11-02T19:32:12.538670+00:00",
+  "total_missed": 6,
   "days": [
     {
       "date": "2026-11-02",
-      "missed": 1,
+      "missed": 2,
       "items": [
+        {
+          "competition": "denmark",
+          "home": "桑德捷斯基",
+          "away": "哥本哈根",
+          "kickoff": "2026-11-02T18:00:00",
+          "market": "handicap",
+          "sport": "football",
+          "pick": "主队（受让 1.25）",
+          "side": "home",
+          "line": 1.25,
+          "score": 59.0,
+          "confidence": "watch",
+          "outcome": "loss",
+          "outcome_cn": "没中",
+          "home_goals": 0,
+          "away_goals": 2,
+          "book": "盘口 主受让1.25 → 主受让1.25，水位 主1.05/0.83 → 主0.96/0.93",
+          "diagnosis": [
+            "盘口 主受让1.25 → 主受让1.25，水位 主1.05/0.83 → 主0.96/0.93",
+            "最终 0-2，推荐侧相对盘口 -0.75 球（未打穿）"
+          ],
+          "note": "主队（受让 1.25） · 最终 0-2（主队净胜 -2），未打穿",
+          "signals": {
+            "line_desc": "盘口不变",
+            "water_desc": "主队降水 1.05->0.96",
+            "line_first": 1.25,
+            "line_last": 1.25,
+            "home_water_first": 1.05,
+            "home_water_last": 0.96,
+            "away_water_first": 0.83,
+            "away_water_last": 0.93
+          },
+          "reasons": [
+            "亚盘 盘口不变",
+            "主队降水 1.05->0.96",
+            "主队近1场 0胜0平1负，场均进1.0/失5.0",
+            "客队近1场 0胜1平0负，场均进1.0/失1.0",
+            "交手0次：主队0胜0平0负"
+          ]
+        },
         {
           "competition": "seriea",
           "home": "萨索洛",

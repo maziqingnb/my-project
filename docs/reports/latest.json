@@ -1,48 +1,60 @@
 {
-  "generated_at": "2026-11-02T18:41:59.718606+00:00",
+  "generated_at": "2026-11-02T19:32:12.516473+00:00",
   "scope": "16 个联赛 + 5 个杯赛",
   "note": "杯赛与联赛数据分开计算；仅开赛前 6h 内出推荐",
-  "total": 65,
+  "total": 64,
   "stats": {
     "overall": {
       "counts": {
-        "win": 25,
+        "win": 29,
         "half_win": 1,
         "push": 0,
         "half_loss": 0,
         "loss": 1
       },
-      "settled": 27,
-      "hit": 26,
-      "rate": 96.3
+      "settled": 31,
+      "hit": 30,
+      "rate": 96.8
     },
     "by_market": {
       "handicap": {
         "counts": {
-          "win": 9,
+          "win": 11,
           "half_win": 1,
           "push": 0,
           "half_loss": 0,
           "loss": 1
         },
-        "settled": 11,
-        "hit": 10,
-        "rate": 90.9
+        "settled": 13,
+        "hit": 12,
+        "rate": 92.3
       },
       "totals": {
         "counts": {
-          "win": 16,
+          "win": 18,
           "half_win": 0,
           "push": 0,
           "half_loss": 0,
           "loss": 0
         },
-        "settled": 16,
-        "hit": 16,
+        "settled": 18,
+        "hit": 18,
         "rate": 100.0
       }
     },
     "by_competition": {
+      "afc_cl": {
+        "counts": {
+          "win": 2,
+          "half_win": 0,
+          "push": 0,
+          "half_loss": 0,
+          "loss": 0
+        },
+        "settled": 2,
+        "hit": 2,
+        "rate": 100.0
+      },
       "bundesliga": {
         "counts": {
           "win": 5,
@@ -125,6 +137,18 @@
         },
         "settled": 1,
         "hit": 1,
+        "rate": 100.0
+      },
+      "sweden": {
+        "counts": {
+          "win": 2,
+          "half_win": 0,
+          "push": 0,
+          "half_loss": 0,
+          "loss": 0
+        },
+        "settled": 2,
+        "hit": 2,
         "rate": 100.0
       }
     }
@@ -982,6 +1006,86 @@
       }
     },
     {
+      "fixture_key": "sweden|米亚尔比|卡尔马|2026-11-02",
+      "competition": "sweden",
+      "home": "米亚尔比",
+      "away": "卡尔马",
+      "kickoff": "2026-11-02T18:00:00",
+      "market": "totals",
+      "pick": "小球（2.5）",
+      "side": "under",
+      "confidence": "strong",
+      "score": 90.0,
+      "line": 2.5,
+      "reasons": [
+        "大小球 盘口不变",
+        "大球升水 0.89->0.97",
+        "主队近3场场均总进球 1.7",
+        "客队近2场场均总进球 0.5",
+        "历史交锋大小球：0次大/1次小（均线 2.50）"
+      ],
+      "signals": {
+        "line_desc": "盘口不变",
+        "over_desc": "大球升水 0.89->0.97",
+        "line_first": 2.5,
+        "line_last": 2.5,
+        "over_first": 0.89,
+        "over_last": 0.97,
+        "under_first": 0.91,
+        "under_last": 0.9
+      },
+      "history": [
+        {
+          "ts": "2026-11-01T18:00:00+00:00",
+          "total_line": 2.5,
+          "over": 0.89,
+          "under": 0.91
+        },
+        {
+          "ts": "2026-11-01T18:00:00+00:00",
+          "total_line": 2.5,
+          "over": 0.89,
+          "under": 0.91
+        },
+        {
+          "ts": "2026-11-01T18:00:00+00:00",
+          "total_line": 2.5,
+          "over": 0.89,
+          "under": 0.91
+        },
+        {
+          "ts": "2026-11-02T16:14:17.400670+00:00",
+          "total_line": 2.5,
+          "over": 0.96,
+          "under": 0.91
+        },
+        {
+          "ts": "2026-11-02T16:26:40.219082+00:00",
+          "total_line": 2.5,
+          "over": 0.97,
+          "under": 0.9
+        },
+        {
+          "ts": "2026-11-02T16:50:16.732573+00:00",
+          "total_line": 2.5,
+          "over": 0.97,
+          "under": 0.9
+        }
+      ],
+      "competition_name": "瑞典超级联赛",
+      "competition_class": "league",
+      "sport": "football",
+      "lead_hours": 1.1620187297222222,
+      "prematch": true,
+      "result": {
+        "outcome": "win",
+        "outcome_cn": "中",
+        "home_goals": 0,
+        "away_goals": 0,
+        "settled": true
+      }
+    },
+    {
       "fixture_key": "poland|卢宾扎格勒比|哥罗纳|2026-11-02",
       "competition": "poland",
       "home": "卢宾扎格勒比",
@@ -1343,6 +1447,87 @@
       "prematch": false,
       "result": {
         "settled": false
+      }
+    },
+    {
+      "fixture_key": "afc_cl|加拉法|卡达西亚|2026-11-02",
+      "competition": "afc_cl",
+      "home": "加拉法",
+      "away": "卡达西亚",
+      "kickoff": "2026-11-02T18:15:00",
+      "market": "handicap",
+      "pick": "客队（让 1.25）",
+      "side": "away",
+      "confidence": "strong",
+      "score": 85.0,
+      "line": 1.25,
+      "reasons": [
+        "亚盘 盘口不变",
+        "主队升水 0.8->0.99",
+        "主队近2场 0胜0平2负，场均进0.5/失3.0",
+        "客队近2场 1胜1平0负，场均进2.5/失0.5",
+        "交手1次：主队0胜0平1负",
+        "历史交锋盘口覆盖：主队0次打穿/客队1次打穿（均线 +1.25）"
+      ],
+      "signals": {
+        "line_desc": "盘口不变",
+        "water_desc": "主队升水 0.8->0.99",
+        "line_first": 1.25,
+        "line_last": 1.25,
+        "home_water_first": 0.8,
+        "home_water_last": 0.99,
+        "away_water_first": 0.96,
+        "away_water_last": 0.83
+      },
+      "history": [
+        {
+          "ts": "2026-11-01T18:15:00+00:00",
+          "handicap_line": 1.25,
+          "handicap_home": 0.8,
+          "handicap_away": 0.96
+        },
+        {
+          "ts": "2026-11-01T18:15:00+00:00",
+          "handicap_line": 1.25,
+          "handicap_home": 0.8,
+          "handicap_away": 0.96
+        },
+        {
+          "ts": "2026-11-01T18:15:00+00:00",
+          "handicap_line": 1.25,
+          "handicap_home": 0.8,
+          "handicap_away": 0.96
+        },
+        {
+          "ts": "2026-11-02T16:14:25.117991+00:00",
+          "handicap_line": 1.25,
+          "handicap_home": 0.97,
+          "handicap_away": 0.85
+        },
+        {
+          "ts": "2026-11-02T16:26:57.438319+00:00",
+          "handicap_line": 1.25,
+          "handicap_home": 0.97,
+          "handicap_away": 0.85
+        },
+        {
+          "ts": "2026-11-02T16:50:24.857378+00:00",
+          "handicap_line": 1.25,
+          "handicap_home": 0.99,
+          "handicap_away": 0.83
+        }
+      ],
+      "competition_name": "亚冠精英",
+      "competition_class": "cup",
+      "sport": "football",
+      "lead_hours": 1.4097618394444444,
+      "prematch": true,
+      "result": {
+        "outcome": "win",
+        "outcome_cn": "中",
+        "home_goals": 0,
+        "away_goals": 4,
+        "settled": true
       }
     },
     {
@@ -2681,6 +2866,87 @@
       }
     },
     {
+      "fixture_key": "afc_cl|吉达联合|艾因|2026-11-02",
+      "competition": "afc_cl",
+      "home": "吉达联合",
+      "away": "艾因",
+      "kickoff": "2026-11-02T18:15:00",
+      "market": "handicap",
+      "pick": "客队（受让 0.25）",
+      "side": "away",
+      "confidence": "strong",
+      "score": 80.0,
+      "line": -0.25,
+      "reasons": [
+        "亚盘 盘口不变",
+        "主队升水 0.78->1.02",
+        "主队近2场 1胜0平1负，场均进1.5/失1.5",
+        "客队近2场 2胜0平0负，场均进2.0/失1.0",
+        "交手1次：主队0胜0平1负",
+        "历史交锋盘口覆盖：主队0次打穿/客队1次打穿（均线 -0.25）"
+      ],
+      "signals": {
+        "line_desc": "盘口不变",
+        "water_desc": "主队升水 0.78->1.02",
+        "line_first": -0.25,
+        "line_last": -0.25,
+        "home_water_first": 0.78,
+        "home_water_last": 1.02,
+        "away_water_first": 0.98,
+        "away_water_last": 0.8
+      },
+      "history": [
+        {
+          "ts": "2026-11-01T18:15:00+00:00",
+          "handicap_line": -0.25,
+          "handicap_home": 0.78,
+          "handicap_away": 0.98
+        },
+        {
+          "ts": "2026-11-01T18:15:00+00:00",
+          "handicap_line": -0.25,
+          "handicap_home": 0.78,
+          "handicap_away": 0.98
+        },
+        {
+          "ts": "2026-11-01T18:15:00+00:00",
+          "handicap_line": -0.25,
+          "handicap_home": 0.78,
+          "handicap_away": 0.98
+        },
+        {
+          "ts": "2026-11-02T16:14:23.645908+00:00",
+          "handicap_line": -0.25,
+          "handicap_home": 1.02,
+          "handicap_away": 0.8
+        },
+        {
+          "ts": "2026-11-02T16:26:54.272354+00:00",
+          "handicap_line": -0.25,
+          "handicap_home": 1.02,
+          "handicap_away": 0.8
+        },
+        {
+          "ts": "2026-11-02T16:50:23.509441+00:00",
+          "handicap_line": -0.25,
+          "handicap_home": 1.02,
+          "handicap_away": 0.8
+        }
+      ],
+      "competition_name": "亚冠精英",
+      "competition_class": "cup",
+      "sport": "football",
+      "lead_hours": 1.4101362663888888,
+      "prematch": true,
+      "result": {
+        "outcome": "win",
+        "outcome_cn": "中",
+        "home_goals": 1,
+        "away_goals": 2,
+        "settled": true
+      }
+    },
+    {
       "fixture_key": "epl|chelsea|曼彻斯特联|2026-10-31",
       "competition": "epl",
       "home": "Chelsea",
@@ -2773,78 +3039,83 @@
       }
     },
     {
-      "fixture_key": "sweden|米亚尔比|卡尔马|2026-11-02",
+      "fixture_key": "sweden|哥德堡盖斯|索尔纳|2026-11-02",
       "competition": "sweden",
-      "home": "米亚尔比",
-      "away": "卡尔马",
+      "home": "哥德堡盖斯",
+      "away": "索尔纳",
       "kickoff": "2026-11-02T18:00:00",
       "market": "totals",
-      "pick": "小球（2.5）",
+      "pick": "小球（3）",
       "side": "under",
       "confidence": "strong",
-      "score": 78.3,
-      "line": 2.5,
+      "score": 75.9,
+      "line": 3,
       "reasons": [
         "大小球 盘口不变",
-        "大球升水 0.89->0.97",
-        "主队近2场场均总进球 2.5",
-        "客队近1场场均总进球 1.0"
+        "大球升水 0.98->1.02",
+        "主队近3场场均总进球 1.7",
+        "客队近2场场均总进球 3.0",
+        "历史交锋大小球：0次大/1次小（均线 3.00）"
       ],
       "signals": {
         "line_desc": "盘口不变",
-        "over_desc": "大球升水 0.89->0.97",
-        "line_first": 2.5,
-        "line_last": 2.5,
-        "over_first": 0.89,
-        "over_last": 0.97,
-        "under_first": 0.91,
-        "under_last": 0.9
+        "over_desc": "大球升水 0.98->1.02",
+        "line_first": 3,
+        "line_last": 3,
+        "over_first": 0.98,
+        "over_last": 1.02,
+        "under_first": 0.82,
+        "under_last": 0.85
       },
       "history": [
         {
           "ts": "2026-11-01T18:00:00+00:00",
-          "total_line": 2.5,
-          "over": 0.89,
-          "under": 0.91
+          "total_line": 3,
+          "over": 0.98,
+          "under": 0.82
         },
         {
           "ts": "2026-11-01T18:00:00+00:00",
-          "total_line": 2.5,
-          "over": 0.89,
-          "under": 0.91
+          "total_line": 3,
+          "over": 0.98,
+          "under": 0.82
         },
         {
           "ts": "2026-11-01T18:00:00+00:00",
-          "total_line": 2.5,
-          "over": 0.89,
-          "under": 0.91
+          "total_line": 3,
+          "over": 0.98,
+          "under": 0.82
         },
         {
-          "ts": "2026-11-02T16:14:17.400670+00:00",
-          "total_line": 2.5,
-          "over": 0.96,
-          "under": 0.91
+          "ts": "2026-11-02T16:14:15.907862+00:00",
+          "total_line": 3,
+          "over": 1.02,
+          "under": 0.85
         },
         {
-          "ts": "2026-11-02T16:26:40.219082+00:00",
-          "total_line": 2.5,
-          "over": 0.97,
-          "under": 0.9
+          "ts": "2026-11-02T16:26:37.744106+00:00",
+          "total_line": 3,
+          "over": 1.02,
+          "under": 0.85
         },
         {
-          "ts": "2026-11-02T16:50:16.732573+00:00",
-          "total_line": 2.5,
-          "over": 0.97,
-          "under": 0.9
+          "ts": "2026-11-02T16:50:15.378605+00:00",
+          "total_line": 3,
+          "over": 1.02,
+          "under": 0.85
         }
       ],
       "competition_name": "瑞典超级联赛",
       "competition_class": "league",
       "sport": "football",
-      "lead_hours": 1.1620187297222222,
+      "lead_hours": 1.1623948319444444,
       "prematch": true,
       "result": {
-        "settled": false
+        "outcome": "win",
+        "outcome_cn": "中",
+        "home_goals": 2,
+        "away_goals": 0,
+        "settled": true
       }
     },
     {
@@ -4867,82 +5138,6 @@
       }
     },
     {
-      "fixture_key": "afc_cl|加拉法|卡达西亚|2026-11-02",
-      "competition": "afc_cl",
-      "home": "加拉法",
-      "away": "卡达西亚",
-      "kickoff": "2026-11-02T18:15:00",
-      "market": "handicap",
-      "pick": "客队（让 1.25）",
-      "side": "away",
-      "confidence": "watch",
-      "score": 66.5,
-      "line": 1.25,
-      "reasons": [
-        "亚盘 盘口不变",
-        "主队升水 0.8->0.99",
-        "主队近1场 0胜0平1负，场均进1.0/失2.0",
-        "客队近1场 0胜1平0负，场均进1.0/失1.0",
-        "交手0次：主队0胜0平0负"
-      ],
-      "signals": {
-        "line_desc": "盘口不变",
-        "water_desc": "主队升水 0.8->0.99",
-        "line_first": 1.25,
-        "line_last": 1.25,
-        "home_water_first": 0.8,
-        "home_water_last": 0.99,
-        "away_water_first": 0.96,
-        "away_water_last": 0.83
-      },
-      "history": [
-        {
-          "ts": "2026-11-01T18:15:00+00:00",
-          "handicap_line": 1.25,
-          "handicap_home": 0.8,
-          "handicap_away": 0.96
-        },
-        {
-          "ts": "2026-11-01T18:15:00+00:00",
-          "handicap_line": 1.25,
-          "handicap_home": 0.8,
-          "handicap_away": 0.96
-        },
-        {
-          "ts": "2026-11-01T18:15:00+00:00",
-          "handicap_line": 1.25,
-          "handicap_home": 0.8,
-          "handicap_away": 0.96
-        },
-        {
-          "ts": "2026-11-02T16:14:25.117991+00:00",
-          "handicap_line": 1.25,
-          "handicap_home": 0.97,
-          "handicap_away": 0.85
-        },
-        {
-          "ts": "2026-11-02T16:26:57.438319+00:00",
-          "handicap_line": 1.25,
-          "handicap_home": 0.97,
-          "handicap_away": 0.85
-        },
-        {
-          "ts": "2026-11-02T16:50:24.857378+00:00",
-          "handicap_line": 1.25,
-          "handicap_home": 0.99,
-          "handicap_away": 0.83
-        }
-      ],
-      "competition_name": "亚冠精英",
-      "competition_class": "cup",
-      "sport": "football",
-      "lead_hours": 1.4097618394444444,
-      "prematch": true,
-      "result": {
-        "settled": false
-      }
-    },
-    {
       "fixture_key": "laliga|莱万特|马德里竞技|2026-10-31",
       "competition": "laliga",
       "home": "莱万特",
@@ -5661,82 +5856,6 @@
       }
     },
     {
-      "fixture_key": "afc_cl|吉达联合|艾因|2026-11-02",
-      "competition": "afc_cl",
-      "home": "吉达联合",
-      "away": "艾因",
-      "kickoff": "2026-11-02T18:15:00",
-      "market": "handicap",
-      "pick": "客队（受让 0.25）",
-      "side": "away",
-      "confidence": "watch",
-      "score": 65.0,
-      "line": -0.25,
-      "reasons": [
-        "亚盘 盘口不变",
-        "主队升水 0.78->1.02",
-        "主队近1场 1胜0平0负，场均进2.0/失1.0",
-        "客队近1场 1胜0平0负，场均进2.0/失1.0",
-        "交手0次：主队0胜0平0负"
-      ],
-      "signals": {
-        "line_desc": "盘口不变",
-        "water_desc": "主队升水 0.78->1.02",
-        "line_first": -0.25,
-        "line_last": -0.25,
-        "home_water_first": 0.78,
-        "home_water_last": 1.02,
-        "away_water_first": 0.98,
-        "away_water_last": 0.8
-      },
-      "history": [
-        {
-          "ts": "2026-11-01T18:15:00+00:00",
-          "handicap_line": -0.25,
-          "handicap_home": 0.78,
-          "handicap_away": 0.98
-        },
-        {
-          "ts": "2026-11-01T18:15:00+00:00",
-          "handicap_line": -0.25,
-          "handicap_home": 0.78,
-          "handicap_away": 0.98
-        },
-        {
-          "ts": "2026-11-01T18:15:00+00:00",
-          "handicap_line": -0.25,
-          "handicap_home": 0.78,
-          "handicap_away": 0.98
-        },
-        {
-          "ts": "2026-11-02T16:14:23.645908+00:00",
-          "handicap_line": -0.25,
-          "handicap_home": 1.02,
-          "handicap_away": 0.8
-        },
-        {
-          "ts": "2026-11-02T16:26:54.272354+00:00",
-          "handicap_line": -0.25,
-          "handicap_home": 1.02,
-          "handicap_away": 0.8
-        },
-        {
-          "ts": "2026-11-02T16:50:23.509441+00:00",
-          "handicap_line": -0.25,
-          "handicap_home": 1.02,
-          "handicap_away": 0.8
-        }
-      ],
-      "competition_name": "亚冠精英",
-      "competition_class": "cup",
-      "sport": "football",
-      "lead_hours": 1.4101362663888888,
-      "prematch": true,
-      "result": {
-        "settled": false
-      }
-    },
-    {
       "fixture_key": "nba|philadelphia76ers|chicagobulls|2026-11-03",
       "competition": "nba",
       "home": "Philadelphia 76ers",
@@ -6225,81 +6344,6 @@
       }
     },
     {
-      "fixture_key": "sweden|哥德堡盖斯|索尔纳|2026-11-02",
-      "competition": "sweden",
-      "home": "哥德堡盖斯",
-      "away": "索尔纳",
-      "kickoff": "2026-11-02T18:00:00",
-      "market": "totals",
-      "pick": "小球（3）",
-      "side": "under",
-      "confidence": "watch",
-      "score": 60.3,
-      "line": 3,
-      "reasons": [
-        "大小球 盘口不变",
-        "大球升水 0.98->1.02",
-        "主队近2场场均总进球 1.5",
-        "客队近1场场均总进球 4.0"
-      ],
-      "signals": {
-        "line_desc": "盘口不变",
-        "over_desc": "大球升水 0.98->1.02",
-        "line_first": 3,
-        "line_last": 3,
-        "over_first": 0.98,
-        "over_last": 1.02,
-        "under_first": 0.82,
-        "under_last": 0.85
-      },
-      "history": [
-        {
-          "ts": "2026-11-01T18:00:00+00:00",
-          "total_line": 3,
-          "over": 0.98,
-          "under": 0.82
-        },
-        {
-          "ts": "2026-11-01T18:00:00+00:00",
-          "total_line": 3,
-          "over": 0.98,
-          "under": 0.82
-        },
-        {
-          "ts": "2026-11-01T18:00:00+00:00",
-          "total_line": 3,
-          "over": 0.98,
-          "under": 0.82
-        },
-        {
-          "ts": "2026-11-02T16:14:15.907862+00:00",
-          "total_line": 3,
-          "over": 1.02,
-          "under": 0.85
-        },
-        {
-          "ts": "2026-11-02T16:26:37.744106+00:00",
-          "total_line": 3,
-          "over": 1.02,
-          "under": 0.85
-        },
-        {
-          "ts": "2026-11-02T16:50:15.378605+00:00",
-          "total_line": 3,
-          "over": 1.02,
-          "under": 0.85
-        }
-      ],
-      "competition_name": "瑞典超级联赛",
-      "competition_class": "league",
-      "sport": "football",
-      "lead_hours": 1.1623948319444444,
-      "prematch": true,
-      "result": {
-        "settled": false
-      }
-    },
-    {
       "fixture_key": "primeira|本菲卡|艾华卡|2026-11-02",
       "competition": "primeira",
       "home": "本菲卡",
@@ -6553,82 +6597,6 @@
         "home_goals": 2,
         "away_goals": 1,
         "settled": true
-      }
-    },
-    {
-      "fixture_key": "denmark|桑德捷斯基|哥本哈根|2026-11-02",
-      "competition": "denmark",
-      "home": "桑德捷斯基",
-      "away": "哥本哈根",
-      "kickoff": "2026-11-02T18:00:00",
-      "market": "handicap",
-      "pick": "主队（受让 1.25）",
-      "side": "home",
-      "confidence": "watch",
-      "score": 59.0,
-      "line": 1.25,
-      "reasons": [
-        "亚盘 盘口不变",
-        "主队降水 1.05->0.96",
-        "主队近1场 0胜0平1负，场均进1.0/失5.0",
-        "客队近1场 0胜1平0负，场均进1.0/失1.0",
-        "交手0次：主队0胜0平0负"
-      ],
-      "signals": {
-        "line_desc": "盘口不变",
-        "water_desc": "主队降水 1.05->0.96",
-        "line_first": 1.25,
-        "line_last": 1.25,
-        "home_water_first": 1.05,
-        "home_water_last": 0.96,
-        "away_water_first": 0.83,
-        "away_water_last": 0.93
-      },
-      "history": [
-        {
-          "ts": "2026-11-01T18:00:00+00:00",
-          "handicap_line": 1.25,
-          "handicap_home": 1.05,
-          "handicap_away": 0.83
-        },
-        {
-          "ts": "2026-11-01T18:00:00+00:00",
-          "handicap_line": 1.25,
-          "handicap_home": 1.05,
-          "handicap_away": 0.83
-        },
-        {
-          "ts": "2026-11-01T18:00:00+00:00",
-          "handicap_line": 1.25,
-          "handicap_home": 1.05,
-          "handicap_away": 0.83
-        },
-        {
-          "ts": "2026-11-02T16:14:14.343004+00:00",
-          "handicap_line": 1.25,
-          "handicap_home": 0.93,
-          "handicap_away": 0.96
-        },
-        {
-          "ts": "2026-11-02T16:26:36.028915+00:00",
-          "handicap_line": 1.25,
-          "handicap_home": 0.93,
-          "handicap_away": 0.96
-        },
-        {
-          "ts": "2026-11-02T16:50:13.983003+00:00",
-          "handicap_line": 1.25,
-          "handicap_home": 0.96,
-          "handicap_away": 0.93
-        }
-      ],
-      "competition_name": "丹麦超级联赛",
-      "competition_class": "league",
-      "sport": "football",
-      "lead_hours": 1.1627824991666666,
-      "prematch": true,
-      "result": {
-        "settled": false
       }
     },
     {
