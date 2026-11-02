@@ -148,5 +148,35 @@
     "total_line": 229.0,
     "over": 1.91,
     "under": 1.98
+  },
+  {
+    "fixture_key": "nba|clevelandcavaliers|oklahomacitythunder|2026-11-03",
+    "competition": "nba",
+    "home": "Cleveland Cavaliers",
+    "away": "Oklahoma City Thunder",
+    "kickoff": "2026-11-03T00:10:00Z",
+    "bookmaker": "unibet",
+    "ts": "2026-11-02T22:28:55.832903+00:00",
+    "handicap_line": -4.5,
+    "handicap_home": 1.93,
+    "handicap_away": 1.89,
+    "total_line": null,
+    "over": null,
+    "under": null
+  },
+  {
+    "fixture_key": "nba|clevelandcavaliers|oklahomacitythunder|2026-11-03",
+    "competition": "nba",
+    "home": "Cleveland Cavaliers",
+    "away": "Oklahoma City Thunder",
+    "kickoff": "2026-11-03T00:10:00Z",
+    "bookmaker": "pinnacle",
+    "ts": "2026-11-02T22:28:55.832903+00:00",
+    "handicap_line": -4.0,
+    "handicap_home": 1.93,
+    "handicap_away": 1.98,
+    "total_line": 229.0,
+    "over": 1.89,
+    "under": 1.99
   }
 ]

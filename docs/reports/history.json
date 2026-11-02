@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-02T22:27:07.276578+00:00",
-  "total": 38,
+  "generated_at": "2026-11-02T22:28:56.057232+00:00",
+  "total": 41,
   "stats": {
     "overall": {
       "counts": {
@@ -53,6 +53,18 @@
         "hit": 2,
         "rate": 100.0
       },
+      "argentina": {
+        "counts": {
+          "win": 0,
+          "half_win": 0,
+          "push": 0,
+          "half_loss": 0,
+          "loss": 0
+        },
+        "settled": 0,
+        "hit": 0,
+        "rate": null
+      },
       "bundesliga": {
         "counts": {
           "win": 5,
@@ -100,6 +112,18 @@
         "settled": 5,
         "hit": 5,
         "rate": 100.0
+      },
+      "nba": {
+        "counts": {
+          "win": 0,
+          "half_win": 0,
+          "push": 0,
+          "half_loss": 0,
+          "loss": 0
+        },
+        "settled": 0,
+        "hit": 0,
+        "rate": null
       },
       "poland": {
         "counts": {
@@ -165,6 +189,110 @@
   },
   "records": [
     {
+      "fixture_key": "nba|goldenstatewarriors|phoenixsuns|2026-11-03",
+      "competition": "nba",
+      "home": "Golden State Warriors",
+      "away": "Phoenix Suns",
+      "kickoff": "2026-11-03T03:10:00Z",
+      "market": "handicap",
+      "pick": "客队（受让 3）",
+      "side": "away",
+      "line": -3.0,
+      "score": 70.8,
+      "confidence": "strong",
+      "prematch": false,
+      "sport": "basketball",
+      "signals": {
+        "line_desc": "降盘 -4.5->-3.0（主队走弱）",
+        "water_desc": "主队升水 1.92->1.99",
+        "line_first": -4.5,
+        "line_last": -3.0,
+        "home_water_first": 1.92,
+        "home_water_last": 1.99,
+        "away_water_first": 1.9,
+        "away_water_last": 1.91
+      },
+      "reasons": [
+        "亚盘 降盘 -4.5->-3.0（主队走弱）",
+        "主队升水 1.92->1.99",
+        "主队近5场 4胜0平1负，场均进122.2/失113.2",
+        "客队近5场 1胜0平4负，场均进112.8/失123.4",
+        "交手1次：主队0胜0平1负"
+      ],
+      "id": "nba|goldenstatewarriors|phoenixsuns|2026-11-03",
+      "settled": false,
+      "generated_at": "2026-11-02T22:28:56.057232+00:00"
+    },
+    {
+      "fixture_key": "nba|losangelesclippers|torontoraptors|2026-11-03",
+      "competition": "nba",
+      "home": "Los Angeles Clippers",
+      "away": "Toronto Raptors",
+      "kickoff": "2026-11-03T03:10:00Z",
+      "market": "totals",
+      "pick": "大分（219.5）",
+      "side": "over",
+      "line": 219.5,
+      "score": 70.0,
+      "confidence": "strong",
+      "prematch": false,
+      "sport": "basketball",
+      "signals": {
+        "line_desc": "盘口不变",
+        "over_desc": "大球水位平稳",
+        "line_first": 219.5,
+        "line_last": 219.5,
+        "over_first": 1.93,
+        "over_last": 1.93,
+        "under_first": 1.93,
+        "under_last": 1.94
+      },
+      "reasons": [
+        "大小球 盘口不变",
+        "大球水位平稳",
+        "主队近5场场均总进球 221.0",
+        "客队近5场场均总进球 228.8"
+      ],
+      "id": "nba|losangelesclippers|torontoraptors|2026-11-03",
+      "settled": false,
+      "generated_at": "2026-11-02T22:28:56.057232+00:00"
+    },
+    {
+      "fixture_key": "nba|losangeleslakers|miamiheat|2026-11-03",
+      "competition": "nba",
+      "home": "Los Angeles Lakers",
+      "away": "Miami Heat",
+      "kickoff": "2026-11-03T03:10:00Z",
+      "market": "handicap",
+      "pick": "主队（让 2）",
+      "side": "home",
+      "line": -2.0,
+      "score": 62.1,
+      "confidence": "watch",
+      "prematch": false,
+      "sport": "basketball",
+      "signals": {
+        "line_desc": "升盘 -1.5->-2.0（主队走强）",
+        "water_desc": "水位平稳",
+        "line_first": -1.5,
+        "line_last": -2.0,
+        "home_water_first": 1.9,
+        "home_water_last": 1.92,
+        "away_water_first": 1.92,
+        "away_water_last": 1.99
+      },
+      "reasons": [
+        "亚盘 升盘 -1.5->-2.0（主队走强）",
+        "水位平稳",
+        "主队近5场 3胜0平2负，场均进118.0/失116.6",
+        "客队近5场 2胜0平3负，场均进120.8/失119.6",
+        "交手0次：主队0胜0平0负"
+      ],
+      "id": "nba|losangeleslakers|miamiheat|2026-11-03",
+      "settled": false,
+      "generated_at": "2026-11-02T22:28:56.057232+00:00"
+    },
+    {
       "fixture_key": "nba|denvernuggets|portlandtrailblazers|2026-11-03",
       "competition": "nba",
       "home": "Denver Nuggets",
@@ -184,9 +312,9 @@
         "line_first": 230.5,
         "line_last": 231.5,
         "over_first": 1.92,
-        "over_last": 1.94,
+        "over_last": 1.92,
         "under_first": 1.95,
-        "under_last": 1.94
+        "under_last": 1.97
       },
       "reasons": [
         "大小球 升盘 230.5->231.5（看大）",
@@ -196,7 +324,7 @@
       ],
       "id": "nba|denvernuggets|portlandtrailblazers|2026-11-03",
       "settled": false,
-      "generated_at": "2026-11-02T22:27:07.276578+00:00"
+      "generated_at": "2026-11-02T22:28:56.057232+00:00"
     },
     {
       "fixture_key": "nba|houstonrockets|bostonceltics|2026-11-03",
@@ -205,32 +333,32 @@
       "away": "Boston Celtics",
       "kickoff": "2026-11-03T01:40:00Z",
       "market": "totals",
-      "pick": "大分（217）",
+      "pick": "大分（215.5）",
       "side": "over",
-      "line": 217.0,
+      "line": 215.5,
       "score": 60.0,
       "confidence": "watch",
       "prematch": false,
       "sport": "basketball",
       "signals": {
-        "line_desc": "降盘 219.0->217.0（看小）",
+        "line_desc": "降盘 219.0->215.5（看小）",
         "over_desc": "大球水位平稳",
         "line_first": 219.0,
-        "line_last": 217.0,
+        "line_last": 215.5,
         "over_first": 1.93,
-        "over_last": 1.95,
+        "over_last": 1.92,
         "under_first": 1.93,
-        "under_last": 1.93
+        "under_last": 1.97
       },
       "reasons": [
-        "大小球 降盘 219.0->217.0（看小）",
+        "大小球 降盘 219.0->215.5（看小）",
         "大球水位平稳",
         "主队近5场场均总进球 228.2",
         "客队近5场场均总进球 226.6"
       ],
       "id": "nba|houstonrockets|bostonceltics|2026-11-03",
       "settled": false,
-      "generated_at": "2026-11-02T22:27:07.276578+00:00"
+      "generated_at": "2026-11-02T22:28:56.057232+00:00"
     },
     {
       "fixture_key": "nba|sanantoniospurs|utahjazz|2026-11-03",
@@ -239,32 +367,32 @@
       "away": "Utah Jazz",
       "kickoff": "2026-11-03T01:40:00Z",
       "market": "totals",
-      "pick": "小分（229.5）",
-      "side": "under",
-      "line": 229.5,
-      "score": 55.0,
+      "pick": "大分（228.5）",
+      "side": "over",
+      "line": 228.5,
+      "score": 60.0,
       "confidence": "watch",
       "prematch": false,
       "sport": "basketball",
       "signals": {
-        "line_desc": "降盘 232.5->229.5（看小）",
-        "over_desc": "大球升水 1.94->1.99",
+        "line_desc": "降盘 232.5->228.5（看小）",
+        "over_desc": "大球水位平稳",
         "line_first": 232.5,
-        "line_last": 229.5,
+        "line_last": 228.5,
         "over_first": 1.94,
-        "over_last": 1.99,
+        "over_last": 1.94,
         "under_first": 1.93,
-        "under_last": 1.9
+        "under_last": 1.94
       },
       "reasons": [
-        "大小球 降盘 232.5->229.5（看小）",
-        "大球升水 1.94->1.99",
+        "大小球 降盘 232.5->228.5（看小）",
+        "大球水位平稳",
         "主队近5场场均总进球 229.0",
         "客队近5场场均总进球 227.8"
       ],
       "id": "nba|sanantoniospurs|utahjazz|2026-11-03",
       "settled": false,
-      "generated_at": "2026-11-02T22:27:07.276578+00:00"
+      "generated_at": "2026-11-02T22:28:56.057232+00:00"
     },
     {
       "fixture_key": "nba|minnesotatimberwolves|milwaukeebucks|2026-11-03",
@@ -276,29 +404,29 @@
       "pick": "大分（230）",
       "side": "over",
       "line": 230.0,
-      "score": 75.0,
-      "confidence": "strong",
+      "score": 60.0,
+      "confidence": "watch",
       "prematch": false,
       "sport": "basketball",
       "signals": {
         "line_desc": "降盘 234.0->230.0（看小）",
-        "over_desc": "大球降水 1.93->1.9",
+        "over_desc": "大球水位平稳",
         "line_first": 234.0,
         "line_last": 230.0,
         "over_first": 1.93,
-        "over_last": 1.9,
+        "over_last": 1.91,
         "under_first": 1.94,
         "under_last": 1.96
       },
       "reasons": [
         "大小球 降盘 234.0->230.0（看小）",
-        "大球降水 1.93->1.9",
+        "大球水位平稳",
         "主队近5场场均总进球 231.2",
         "客队近5场场均总进球 238.2"
       ],
       "id": "nba|minnesotatimberwolves|milwaukeebucks|2026-11-03",
       "settled": false,
-      "generated_at": "2026-11-02T22:27:07.276578+00:00"
+      "generated_at": "2026-11-02T22:28:56.057232+00:00"
     },
     {
       "fixture_key": "nba|dallasmavericks|sacramentokings|2026-11-03",
@@ -316,24 +444,24 @@
       "sport": "basketball",
       "signals": {
         "line_desc": "降盘 -9.5->-8.5（主队走弱）",
-        "water_desc": "主队升水 1.86->1.95",
+        "water_desc": "主队升水 1.86->1.98",
         "line_first": -9.5,
         "line_last": -8.5,
         "home_water_first": 1.86,
-        "home_water_last": 1.95,
+        "home_water_last": 1.98,
         "away_water_first": 1.96,
-        "away_water_last": 1.93
+        "away_water_last": 1.91
       },
       "reasons": [
         "亚盘 降盘 -9.5->-8.5（主队走弱）",
-        "主队升水 1.86->1.95",
+        "主队升水 1.86->1.98",
         "主队近5场 4胜0平1负，场均进115.2/失108.6",
         "客队近5场 0胜0平5负，场均进112.0/失129.8",
         "交手0次：主队0胜0平0负"
       ],
       "id": "nba|dallasmavericks|sacramentokings|2026-11-03",
       "settled": false,
-      "generated_at": "2026-11-02T22:27:07.276578+00:00"
+      "generated_at": "2026-11-02T22:28:56.057232+00:00"
     },
     {
       "fixture_key": "nba|memphisgrizzlies|neworleanspelicans|2026-11-03",
@@ -341,33 +469,34 @@
       "home": "Memphis Grizzlies",
       "away": "New Orleans Pelicans",
       "kickoff": "2026-11-03T01:10:00Z",
-      "market": "totals",
-      "pick": "小分（232.5）",
-      "side": "under",
-      "line": 232.5,
-      "score": 55.0,
+      "market": "handicap",
+      "pick": "主队（让 5）",
+      "side": "home",
+      "line": -5.0,
+      "score": 65.8,
       "confidence": "watch",
       "prematch": false,
       "sport": "basketball",
       "signals": {
-        "line_desc": "降盘 234.5->232.5（看小）",
-        "over_desc": "大球升水 1.91->1.97",
-        "line_first": 234.5,
-        "line_last": 232.5,
-        "over_first": 1.91,
-        "over_last": 1.97,
-        "under_first": 1.96,
-        "under_last": 1.92
+        "line_desc": "降盘 -6.5->-5.0（主队走弱）",
+        "water_desc": "主队降水 1.96->1.92",
+        "line_first": -6.5,
+        "line_last": -5.0,
+        "home_water_first": 1.96,
+        "home_water_last": 1.92,
+        "away_water_first": 1.87,
+        "away_water_last": 1.99
       },
       "reasons": [
-        "大小球 降盘 234.5->232.5（看小）",
-        "大球升水 1.91->1.97",
-        "主队近5场场均总进球 227.4",
-        "客队近5场场均总进球 236.4"
+        "亚盘 降盘 -6.5->-5.0（主队走弱）",
+        "主队降水 1.96->1.92",
+        "主队近5场 5胜0平0负，场均进120.8/失106.6",
+        "客队近5场 2胜0平3负，场均进119.6/失116.8",
+        "交手0次：主队0胜0平0负"
       ],
       "id": "nba|memphisgrizzlies|neworleanspelicans|2026-11-03",
       "settled": false,
-      "generated_at": "2026-11-02T22:27:07.276578+00:00"
+      "generated_at": "2026-11-02T22:28:56.057232+00:00"
     },
     {
       "fixture_key": "nba|charlottehornets|detroitpistons|2026-11-03",
@@ -385,24 +514,24 @@
       "sport": "basketball",
       "signals": {
         "line_desc": "降盘 3.5->5.5（主队走弱）",
-        "water_desc": "主队升水 1.91->1.99",
+        "water_desc": "主队升水 1.91->2.0",
         "line_first": 3.5,
         "line_last": 5.5,
         "home_water_first": 1.91,
-        "home_water_last": 1.99,
+        "home_water_last": 2.0,
         "away_water_first": 1.91,
-        "away_water_last": 1.92
+        "away_water_last": 1.91
       },
       "reasons": [
         "亚盘 降盘 3.5->5.5（主队走弱）",
-        "主队升水 1.91->1.99",
+        "主队升水 1.91->2.0",
         "主队近5场 2胜0平3负，场均进99.4/失102.8",
         "客队近5场 4胜0平1负，场均进107.6/失99.6",
         "交手1次：主队0胜0平1负"
       ],
       "id": "nba|charlottehornets|detroitpistons|2026-11-03",
       "settled": false,
-      "generated_at": "2026-11-02T22:27:07.276578+00:00"
+      "generated_at": "2026-11-02T22:28:56.057232+00:00"
     },
     {
       "fixture_key": "nba|indianapacers|atlantahawks|2026-11-03",
@@ -414,30 +543,30 @@
       "pick": "客队（让 9.5）",
       "side": "away",
       "line": 9.5,
-      "score": 55.6,
-      "confidence": "watch",
+      "score": 70.6,
+      "confidence": "strong",
       "prematch": false,
       "sport": "basketball",
       "signals": {
         "line_desc": "降盘 4.5->9.5（主队走弱）",
-        "water_desc": "水位平稳",
+        "water_desc": "主队升水 1.95->2.02",
         "line_first": 4.5,
         "line_last": 9.5,
         "home_water_first": 1.95,
-        "home_water_last": 1.95,
+        "home_water_last": 2.02,
         "away_water_first": 1.87,
-        "away_water_last": 1.93
+        "away_water_last": 1.87
       },
       "reasons": [
         "亚盘 降盘 4.5->9.5（主队走弱）",
-        "水位平稳",
+        "主队升水 1.95->2.02",
         "主队近5场 1胜0平4负，场均进112.4/失115.2",
         "客队近5场 1胜0平4负，场均进110.8/失120.4",
         "交手1次：主队0胜0平1负"
       ],
       "id": "nba|indianapacers|atlantahawks|2026-11-03",
       "settled": false,
-      "generated_at": "2026-11-02T22:27:07.276578+00:00"
+      "generated_at": "2026-11-02T22:28:56.057232+00:00"
     },
     {
       "fixture_key": "nba|orlandomagic|washingtonwizards|2026-11-03",
@@ -445,34 +574,33 @@
       "home": "Orlando Magic",
       "away": "Washington Wizards",
       "kickoff": "2026-11-03T00:40:00Z",
-      "market": "handicap",
-      "pick": "客队（受让 3）",
-      "side": "away",
-      "line": -3.0,
-      "score": 66.0,
-      "confidence": "watch",
+      "market": "totals",
+      "pick": "大分（225）",
+      "side": "over",
+      "line": 225.0,
+      "score": 80.0,
+      "confidence": "strong",
       "prematch": false,
       "sport": "basketball",
       "signals": {
-        "line_desc": "升盘 -0.5->-3.0（主队走强）",
-        "water_desc": "主队升水 1.82->1.94",
-        "line_first": -0.5,
-        "line_last": -3.0,
-        "home_water_first": 1.82,
-        "home_water_last": 1.94,
-        "away_water_first": 2.0,
-        "away_water_last": 1.96
+        "line_desc": "升盘 223.5->225.0（看大）",
+        "over_desc": "大球水位平稳",
+        "line_first": 223.5,
+        "line_last": 225.0,
+        "over_first": 1.87,
+        "over_last": 1.88,
+        "under_first": 2.01,
+        "under_last": 2.01
       },
       "reasons": [
-        "亚盘 升盘 -0.5->-3.0（主队走强）",
-        "主队升水 1.82->1.94",
-        "主队近5场 2胜0平3负，场均进104.2/失113.6",
-        "客队近5场 2胜0平3负，场均进107.0/失108.4",
-        "交手0次：主队0胜0平0负"
+        "大小球 升盘 223.5->225.0（看大）",
+        "大球水位平稳",
+        "主队近5场场均总进球 217.8",
+        "客队近5场场均总进球 215.4"
       ],
       "id": "nba|orlandomagic|washingtonwizards|2026-11-03",
       "settled": false,
-      "generated_at": "2026-11-02T22:27:07.276578+00:00"
+      "generated_at": "2026-11-02T22:28:56.057232+00:00"
     },
     {
       "fixture_key": "nba|philadelphia76ers|chicagobulls|2026-11-03",
@@ -490,24 +618,24 @@
       "sport": "basketball",
       "signals": {
         "line_desc": "降盘 -10.5->-10.0（主队走弱）",
-        "water_desc": "主队升水 1.84->1.89",
+        "water_desc": "主队升水 1.84->1.98",
         "line_first": -10.5,
         "line_last": -10.0,
         "home_water_first": 1.84,
-        "home_water_last": 1.89,
+        "home_water_last": 1.98,
         "away_water_first": 1.98,
-        "away_water_last": 2.0
+        "away_water_last": 1.91
       },
       "reasons": [
         "亚盘 降盘 -10.5->-10.0（主队走弱）",
-        "主队升水 1.84->1.89",
+        "主队升水 1.84->1.98",
         "主队近5场 4胜0平1负，场均进108.2/失105.6",
         "客队近5场 1胜0平4负，场均进117.8/失128.2",
         "交手0次：主队0胜0平0负"
       ],
       "id": "nba|philadelphia76ers|chicagobulls|2026-11-03",
       "settled": false,
-      "generated_at": "2026-11-02T22:27:07.276578+00:00"
+      "generated_at": "2026-11-02T22:28:56.057232+00:00"
     },
     {
       "fixture_key": "nba|newyorkknicks|brooklynnets|2026-11-03",
@@ -525,23 +653,23 @@
       "sport": "basketball",
       "signals": {
         "line_desc": "降盘 220.5->218.5（看小）",
-        "over_desc": "大球降水 1.95->1.91",
+        "over_desc": "大球降水 1.95->1.86",
         "line_first": 220.5,
         "line_last": 218.5,
         "over_first": 1.95,
-        "over_last": 1.91,
+        "over_last": 1.86,
         "under_first": 1.92,
-        "under_last": 1.98
+        "under_last": 2.03
       },
       "reasons": [
         "大小球 降盘 220.5->218.5（看小）",
-        "大球降水 1.95->1.91",
+        "大球降水 1.95->1.86",
         "主队近5场场均总进球 216.4",
         "客队近5场场均总进球 226.4"
       ],
       "id": "nba|newyorkknicks|brooklynnets|2026-11-03",
       "settled": false,
-      "generated_at": "2026-11-02T22:27:07.276578+00:00"
+      "generated_at": "2026-11-02T22:28:56.057232+00:00"
     },
     {
       "fixture_key": "argentina|门多萨独立|班菲尔德|2026-11-03",
@@ -555,7 +683,7 @@
       "line": 2.5,
       "score": 85.0,
       "confidence": "strong",
-      "prematch": false,
+      "prematch": true,
       "sport": "football",
       "signals": {
         "line_desc": "盘口不变",
@@ -575,7 +703,7 @@
       ],
       "id": "argentina|门多萨独立|班菲尔德|2026-11-03",
       "settled": false,
-      "generated_at": "2026-11-02T22:27:07.276578+00:00"
+      "generated_at": "2026-11-02T22:28:56.057232+00:00"
     },
     {
       "fixture_key": "argentina|图库曼竞技|阿根廷青年人|2026-11-03",
@@ -589,7 +717,7 @@
       "line": 2,
       "score": 70.0,
       "confidence": "strong",
-      "prematch": false,
+      "prematch": true,
       "sport": "football",
       "signals": {
         "line_desc": "盘口不变",
@@ -609,7 +737,7 @@
       ],
       "id": "argentina|图库曼竞技|阿根廷青年人|2026-11-03",
       "settled": false,
-      "generated_at": "2026-11-02T22:27:07.276578+00:00"
+      "generated_at": "2026-11-02T22:28:56.057232+00:00"
     },
     {
       "fixture_key": "nba|clevelandcavaliers|oklahomacitythunder|2026-11-03",
@@ -621,29 +749,29 @@
       "pick": "大分（229）",
       "side": "over",
       "line": 229.0,
-      "score": 65.0,
-      "confidence": "watch",
-      "prematch": false,
+      "score": 80.0,
+      "confidence": "strong",
+      "prematch": true,
       "sport": "basketball",
       "signals": {
         "line_desc": "升盘 227.5->229.0（看大）",
-        "over_desc": "大球升水 1.88->1.91",
+        "over_desc": "大球水位平稳",
         "line_first": 227.5,
         "line_last": 229.0,
         "over_first": 1.88,
-        "over_last": 1.91,
+        "over_last": 1.89,
         "under_first": 1.99,
-        "under_last": 1.98
+        "under_last": 1.99
       },
       "reasons": [
         "大小球 升盘 227.5->229.0（看大）",
-        "大球升水 1.88->1.91",
+        "大球水位平稳",
         "主队近5场场均总进球 240.4",
         "客队近5场场均总进球 212.2"
       ],
       "id": "nba|clevelandcavaliers|oklahomacitythunder|2026-11-03",
       "settled": false,
-      "generated_at": "2026-11-02T22:27:07.276578+00:00"
+      "generated_at": "2026-11-02T22:28:56.057232+00:00"
     },
     {
       "fixture_key": "brasileirao|布拉干蒂诺rb|桑托斯|2026-11-02",
@@ -657,28 +785,28 @@
       "line": -0.5,
       "score": 60.0,
       "confidence": "watch",
-      "prematch": false,
+      "prematch": true,
       "sport": "football",
       "signals": {
         "line_desc": "升盘 -0.25->-0.5（主队走强）",
-        "water_desc": "主队升水 0.85->0.96",
+        "water_desc": "主队升水 0.85->0.99",
         "line_first": -0.25,
         "line_last": -0.5,
         "home_water_first": 0.85,
-        "home_water_last": 0.96,
+        "home_water_last": 0.99,
         "away_water_first": 1.03,
-        "away_water_last": 0.93
+        "away_water_last": 0.9
       },
       "reasons": [
         "亚盘 升盘 -0.25->-0.5（主队走强）",
-        "主队升水 0.85->0.96",
+        "主队升水 0.85->0.99",
         "主队近1场 1胜0平0负，场均进3.0/失0.0",
         "客队近1场 0胜1平0负，场均进0.0/失0.0",
         "交手0次：主队0胜0平0负"
       ],
       "id": "brasileirao|布拉干蒂诺rb|桑托斯|2026-11-02",
       "settled": false,
-      "generated_at": "2026-11-02T22:27:07.276578+00:00"
+      "generated_at": "2026-11-02T22:28:56.057232+00:00"
     },
     {
       "fixture_key": "argentina|普拉腾斯|科尔多瓦中央sde|2026-11-02",
@@ -713,7 +841,7 @@
       ],
       "id": "argentina|普拉腾斯|科尔多瓦中央sde|2026-11-02",
       "settled": false,
-      "generated_at": "2026-11-02T22:27:07.276578+00:00"
+      "generated_at": "2026-11-02T22:28:56.057232+00:00"
     },
     {
       "fixture_key": "argentina|防卫者|阿根廷独立|2026-11-02",
@@ -748,7 +876,7 @@
       ],
       "id": "argentina|防卫者|阿根廷独立|2026-11-02",
       "settled": false,
-      "generated_at": "2026-11-02T22:27:07.276578+00:00"
+      "generated_at": "2026-11-02T22:28:56.057232+00:00"
     },
     {
       "fixture_key": "primeira|吉维森特|吉马良斯|2026-11-02",
@@ -784,7 +912,7 @@
       ],
       "id": "primeira|吉维森特|吉马良斯|2026-11-02",
       "settled": true,
-      "generated_at": "2026-11-02T22:27:07.276578+00:00",
+      "generated_at": "2026-11-02T22:28:56.057232+00:00",
       "outcome": "push",
       "outcome_cn": "走盘",
       "home_goals": 0,
@@ -824,7 +952,7 @@
       ],
       "id": "primeira|本菲卡|艾华卡|2026-11-02",
       "settled": true,
-      "generated_at": "2026-11-02T22:27:07.276578+00:00",
+      "generated_at": "2026-11-02T22:28:56.057232+00:00",
       "outcome": "loss",
       "outcome_cn": "没中",
       "home_goals": 1,
@@ -863,7 +991,7 @@
       ],
       "id": "laliga|拉科鲁尼亚|奥萨苏纳|2026-11-02",
       "settled": true,
-      "generated_at": "2026-11-02T22:27:07.276578+00:00",
+      "generated_at": "2026-11-02T22:28:56.057232+00:00",
       "outcome": "win",
       "outcome_cn": "中",
       "home_goals": 0,
@@ -902,7 +1030,7 @@
       ],
       "id": "epl|纽卡斯尔联|埃弗顿|2026-11-02",
       "settled": true,
-      "generated_at": "2026-11-02T22:27:07.276578+00:00",
+      "generated_at": "2026-11-02T22:28:56.057232+00:00",
       "outcome": "win",
       "outcome_cn": "中",
       "home_goals": 0,
@@ -941,7 +1069,7 @@
       ],
       "id": "ligue1|洛里昂|布雷斯特|2026-11-02",
       "settled": true,
-      "generated_at": "2026-11-02T22:27:07.276578+00:00",
+      "generated_at": "2026-11-02T22:28:56.057232+00:00",
       "outcome": "win",
       "outcome_cn": "中",
       "home_goals": 0,
@@ -980,7 +1108,7 @@
       ],
       "id": "seriea|亚特兰大|帕尔马|2026-11-02",
       "settled": true,
-      "generated_at": "2026-11-02T22:27:07.276578+00:00",
+      "generated_at": "2026-11-02T22:28:56.057232+00:00",
       "outcome": "half_loss",
       "outcome_cn": "半输",
       "home_goals": 0,
@@ -1019,7 +1147,7 @@
       ],
       "id": "poland|琴斯托霍瓦|什切青|2026-11-02",
       "settled": true,
-      "generated_at": "2026-11-02T22:27:07.276578+00:00",
+      "generated_at": "2026-11-02T22:28:56.057232+00:00",
       "outcome": "win",
       "outcome_cn": "中",
       "home_goals": 0,
@@ -1059,7 +1187,7 @@
       ],
       "id": "afc_cl|加拉法|卡达西亚|2026-11-02",
       "settled": true,
-      "generated_at": "2026-11-02T22:27:07.276578+00:00",
+      "generated_at": "2026-11-02T22:28:56.057232+00:00",
       "outcome": "win",
       "outcome_cn": "中",
       "home_goals": 0,
@@ -1099,7 +1227,7 @@
       ],
       "id": "afc_cl|吉达联合|艾因|2026-11-02",
       "settled": true,
-      "generated_at": "2026-11-02T22:27:07.276578+00:00",
+      "generated_at": "2026-11-02T22:28:56.057232+00:00",
       "outcome": "win",
       "outcome_cn": "中",
       "home_goals": 1,
@@ -1138,7 +1266,7 @@
       ],
       "id": "sweden|米亚尔比|卡尔马|2026-11-02",
       "settled": true,
-      "generated_at": "2026-11-02T22:27:07.276578+00:00",
+      "generated_at": "2026-11-02T22:28:56.057232+00:00",
       "outcome": "win",
       "outcome_cn": "中",
       "home_goals": 0,
@@ -1177,7 +1305,7 @@
       ],
       "id": "sweden|哥德堡盖斯|索尔纳|2026-11-02",
       "settled": true,
-      "generated_at": "2026-11-02T22:27:07.276578+00:00",
+      "generated_at": "2026-11-02T22:28:56.057232+00:00",
       "outcome": "win",
       "outcome_cn": "中",
       "home_goals": 2,
@@ -1216,7 +1344,7 @@
       ],
       "id": "denmark|桑德捷斯基|哥本哈根|2026-11-02",
       "settled": true,
-      "generated_at": "2026-11-02T22:27:07.276578+00:00",
+      "generated_at": "2026-11-02T22:28:56.057232+00:00",
       "outcome": "loss",
       "outcome_cn": "没中",
       "home_goals": 0,
@@ -1256,7 +1384,7 @@
       ],
       "id": "seriea|萨索洛|佛罗伦萨|2026-11-02",
       "settled": true,
-      "generated_at": "2026-11-02T22:27:07.276578+00:00",
+      "generated_at": "2026-11-02T22:28:56.057232+00:00",
       "outcome": "half_loss",
       "outcome_cn": "半输",
       "home_goals": 1,
@@ -1296,7 +1424,7 @@
       ],
       "id": "greeksl|卡拉玛达|伊拉克里斯|2026-11-02",
       "settled": true,
-      "generated_at": "2026-11-02T22:27:07.276578+00:00",
+      "generated_at": "2026-11-02T22:28:56.057232+00:00",
       "outcome": "half_win",
       "outcome_cn": "半赢",
       "home_goals": 0,
@@ -1335,7 +1463,7 @@
       ],
       "id": "poland|卢宾扎格勒比|哥罗纳|2026-11-02",
       "settled": true,
-      "generated_at": "2026-11-02T22:27:07.276578+00:00",
+      "generated_at": "2026-11-02T22:28:56.057232+00:00",
       "outcome": "win",
       "outcome_cn": "中",
       "home_goals": 1,
@@ -1375,7 +1503,7 @@
       ],
       "id": "superlig|根克勒比利吉|阿拉尼亚体育|2026-11-02",
       "settled": true,
-      "generated_at": "2026-11-02T22:27:07.276578+00:00",
+      "generated_at": "2026-11-02T22:28:56.057232+00:00",
       "outcome": "win",
       "outcome_cn": "中",
       "home_goals": 4,
@@ -1415,7 +1543,7 @@
       ],
       "id": "poland|拉多麦科|史拉斯科|2026-11-02",
       "settled": true,
-      "generated_at": "2026-11-02T22:27:07.276578+00:00",
+      "generated_at": "2026-11-02T22:28:56.057232+00:00",
       "outcome": "win",
       "outcome_cn": "中",
       "home_goals": 2,
@@ -1436,7 +1564,7 @@
       "prematch": true,
       "id": "laliga|毕尔巴鄂竞技|皇家社会|2026-11-01",
       "settled": true,
-      "generated_at": "2026-11-02T22:27:07.276578+00:00",
+      "generated_at": "2026-11-02T22:28:56.057232+00:00",
       "signals": {
         "line_desc": "升盘 2.5->2.75（看大）",
         "over_desc": "大球升水 0.9->1.04",
@@ -1474,7 +1602,7 @@
       "confidence": "watch",
       "id": "seriea|尤文图斯|那不勒斯|2026-11-01",
       "settled": true,
-      "generated_at": "2026-11-02T22:27:07.276578+00:00",
+      "generated_at": "2026-11-02T22:28:56.057232+00:00",
       "prematch": true,
       "signals": {
         "line_desc": "盘口不变",
@@ -1513,7 +1641,7 @@
       "confidence": "strong",
       "id": "ligue1|马赛|图卢兹|2026-11-01",
       "settled": true,
-      "generated_at": "2026-11-02T22:27:07.276578+00:00",
+      "generated_at": "2026-11-02T22:28:56.057232+00:00",
       "prematch": true,
       "signals": {
         "line_desc": "降盘 -0.75->-0.5（主队走弱）",
@@ -1553,7 +1681,7 @@
       "confidence": "strong",
       "id": "laliga|埃尔切|巴伦西亚|2026-11-01",
       "settled": true,
-      "generated_at": "2026-11-02T22:27:07.276578+00:00",
+      "generated_at": "2026-11-02T22:28:56.057232+00:00",
       "prematch": true,
       "signals": {
         "line_desc": "升盘 0->-0.25（主队走强）",
@@ -1593,7 +1721,7 @@
       "confidence": "strong",
       "id": "seriea|莱切|热那亚|2026-11-01",
       "settled": true,
-      "generated_at": "2026-11-02T22:27:07.276578+00:00",
+      "generated_at": "2026-11-02T22:28:56.057232+00:00",
       "prematch": true,
       "signals": {
         "line_desc": "盘口不变",
@@ -1632,7 +1760,7 @@
       "confidence": "strong",
       "id": "bundesliga|法兰克福|汉堡|2026-11-01",
       "settled": true,
-      "generated_at": "2026-11-02T22:27:07.276578+00:00",
+      "generated_at": "2026-11-02T22:28:56.057232+00:00",
       "prematch": true,
       "signals": {
         "line_desc": "升盘 -1->-1.25（主队走强）",
@@ -1672,7 +1800,7 @@
       "confidence": "watch",
       "id": "epl|liverpool|arsenal|2026-11-01",
       "settled": true,
-      "generated_at": "2026-11-02T22:27:07.276578+00:00",
+      "generated_at": "2026-11-02T22:28:56.057232+00:00",
       "prematch": true,
       "signals": {
         "line_desc": "盘口不变",
@@ -1711,7 +1839,7 @@
       "confidence": "watch",
       "id": "ligue1|里昂|昂热|2026-11-01",
       "settled": true,
-      "generated_at": "2026-11-02T22:27:07.276578+00:00",
+      "generated_at": "2026-11-02T22:28:56.057232+00:00",
       "prematch": true,
       "signals": {
         "line_desc": "降盘 3->2.75（看小）",
@@ -1750,7 +1878,7 @@
       "confidence": "strong",
       "id": "ligue1|巴黎fc|摩纳哥|2026-11-01",
       "settled": true,
-      "generated_at": "2026-11-02T22:27:07.276578+00:00",
+      "generated_at": "2026-11-02T22:28:56.057232+00:00",
       "prematch": true,
       "signals": {
         "line_desc": "降盘 -0.25->0（主队走弱）",
@@ -1790,7 +1918,7 @@
       "confidence": "strong",
       "id": "laliga|桑坦德竞技|realmadrid|2026-11-01",
       "settled": true,
-      "generated_at": "2026-11-02T22:27:07.276578+00:00",
+      "generated_at": "2026-11-02T22:28:56.057232+00:00",
       "prematch": true,
       "signals": {
         "line_desc": "降盘 1.75->2（主队走弱）",
@@ -1830,7 +1958,7 @@
       "confidence": "strong",
       "id": "bundesliga|柏林联合|科隆|2026-11-01",
       "settled": true,
-      "generated_at": "2026-11-02T22:27:07.276578+00:00",
+      "generated_at": "2026-11-02T22:28:56.057232+00:00",
       "prematch": true,
       "signals": {
         "line_desc": "盘口不变",
@@ -1869,7 +1997,7 @@
       "confidence": "strong",
       "id": "seriea|拉齐奥|卡利亚里|2026-11-01",
       "settled": true,
-      "generated_at": "2026-11-02T22:27:07.276578+00:00",
+      "generated_at": "2026-11-02T22:28:56.057232+00:00",
       "prematch": true,
       "signals": {
         "line_desc": "盘口不变",
@@ -1908,7 +2036,7 @@
       "confidence": "watch",
       "id": "seriea|弗洛西诺尼|都灵|2026-11-01",
       "settled": true,
-      "generated_at": "2026-11-02T22:27:07.276578+00:00",
+      "generated_at": "2026-11-02T22:28:56.057232+00:00",
       "prematch": true,
       "signals": {
         "line_desc": "升盘 -0.25->-0.5（主队走强）",
@@ -1948,7 +2076,7 @@
       "confidence": "strong",
       "id": "ligue1|斯特拉斯堡|欧塞尔|2026-11-01",
       "settled": true,
-      "generated_at": "2026-11-02T22:27:07.276578+00:00",
+      "generated_at": "2026-11-02T22:28:56.057232+00:00",
       "prematch": true,
       "signals": {
         "line_desc": "盘口不变",
@@ -1987,7 +2115,7 @@
       "confidence": "strong",
       "id": "laliga|赫塔菲|塞维利亚|2026-11-01",
       "settled": true,
-      "generated_at": "2026-11-02T22:27:07.276578+00:00",
+      "generated_at": "2026-11-02T22:28:56.057232+00:00",
       "prematch": true,
       "signals": {
         "line_desc": "盘口不变",
@@ -2026,7 +2154,7 @@
       "confidence": "strong",
       "id": "seriea|科莫|威尼斯|2026-11-01",
       "settled": true,
-      "generated_at": "2026-11-02T22:27:07.276578+00:00",
+      "generated_at": "2026-11-02T22:28:56.057232+00:00",
       "prematch": true,
       "signals": {
         "line_desc": "盘口不变",
@@ -2065,7 +2193,7 @@
       "confidence": "strong",
       "id": "laliga|巴塞罗那|阿拉维斯|2026-10-31",
       "settled": true,
-      "generated_at": "2026-11-02T22:27:07.276578+00:00",
+      "generated_at": "2026-11-02T22:28:56.057232+00:00",
       "outcome": "win",
       "outcome_cn": "中",
       "home_goals": 6,
@@ -2104,7 +2232,7 @@
       "confidence": "watch",
       "id": "epl|阿斯顿维拉|富勒姆|2026-10-31",
       "settled": true,
-      "generated_at": "2026-11-02T22:27:07.276578+00:00",
+      "generated_at": "2026-11-02T22:28:56.057232+00:00",
       "outcome": "win",
       "outcome_cn": "中",
       "home_goals": 1,
@@ -2143,7 +2271,7 @@
       "confidence": "strong",
       "id": "ligue1|特鲁瓦|勒芒|2026-10-31",
       "settled": true,
-      "generated_at": "2026-11-02T22:27:07.276578+00:00",
+      "generated_at": "2026-11-02T22:28:56.057232+00:00",
       "outcome": "win",
       "outcome_cn": "中",
       "home_goals": 2,
@@ -2186,7 +2314,7 @@
       "home_goals": 3,
       "away_goals": 1,
       "settled": true,
-      "generated_at": "2026-11-02T22:27:07.276578+00:00",
+      "generated_at": "2026-11-02T22:28:56.057232+00:00",
       "prematch": true,
       "signals": {
         "line_desc": "降盘 0.25->0.5（主队走弱）",
@@ -2222,7 +2350,7 @@
       "confidence": "strong",
       "id": "laliga|皇家贝蒂斯|马拉加|2026-10-31",
       "settled": true,
-      "generated_at": "2026-11-02T22:27:07.276578+00:00",
+      "generated_at": "2026-11-02T22:28:56.057232+00:00",
       "outcome": "loss",
       "outcome_cn": "没中",
       "home_goals": 2,
@@ -2262,7 +2390,7 @@
       "confidence": "strong",
       "id": "bundesliga|bayernmunich|多特蒙德|2026-10-31",
       "settled": true,
-      "generated_at": "2026-11-02T22:27:07.276578+00:00",
+      "generated_at": "2026-11-02T22:28:56.057232+00:00",
       "outcome": "half_loss",
       "outcome_cn": "半输",
       "home_goals": 2,
@@ -2282,7 +2410,7 @@
       "confidence": "strong",
       "id": "epl|托特纳姆热刺|水晶宫|2026-10-31",
       "settled": true,
-      "generated_at": "2026-11-02T22:27:07.276578+00:00",
+      "generated_at": "2026-11-02T22:28:56.057232+00:00",
       "outcome": "win",
       "outcome_cn": "中",
       "home_goals": 2,
@@ -2321,7 +2449,7 @@
       "confidence": "strong",
       "id": "seriea|乌迪内斯|罗马|2026-10-31",
       "settled": true,
-      "generated_at": "2026-11-02T22:27:07.276578+00:00",
+      "generated_at": "2026-11-02T22:28:56.057232+00:00",
       "outcome": "win",
       "outcome_cn": "中",
       "home_goals": 2,
@@ -2361,7 +2489,7 @@
       "confidence": "watch",
       "id": "laliga|巴列卡诺|塞尔塔|2026-10-31",
       "settled": true,
-      "generated_at": "2026-11-02T22:27:07.276578+00:00",
+      "generated_at": "2026-11-02T22:28:56.057232+00:00",
       "outcome": "loss",
       "outcome_cn": "没中",
       "home_goals": 3,
@@ -2400,7 +2528,7 @@
       "confidence": "strong",
       "id": "epl|考文垂|桑德兰|2026-10-31",
       "settled": true,
-      "generated_at": "2026-11-02T22:27:07.276578+00:00",
+      "generated_at": "2026-11-02T22:28:56.057232+00:00",
       "outcome": "win",
       "outcome_cn": "中",
       "home_goals": 3,
@@ -2439,7 +2567,7 @@
       "confidence": "watch",
       "id": "epl|伯恩茅斯|利兹联|2026-10-31",
       "settled": true,
-      "generated_at": "2026-11-02T22:27:07.276578+00:00",
+      "generated_at": "2026-11-02T22:28:56.057232+00:00",
       "outcome": "win",
       "outcome_cn": "中",
       "home_goals": 2,
@@ -2479,7 +2607,7 @@
       "confidence": "strong",
       "id": "epl|赫尔城|伊普斯维奇|2026-10-31",
       "settled": true,
-      "generated_at": "2026-11-02T22:27:07.276578+00:00",
+      "generated_at": "2026-11-02T22:28:56.057232+00:00",
       "outcome": "win",
       "outcome_cn": "中",
       "home_goals": 2,
@@ -2518,7 +2646,7 @@
       "confidence": "strong",
       "id": "epl|曼彻斯特城|布莱顿|2026-10-31",
       "settled": true,
-      "generated_at": "2026-11-02T22:27:07.276578+00:00",
+      "generated_at": "2026-11-02T22:28:56.057232+00:00",
       "outcome": "win",
       "outcome_cn": "中",
       "home_goals": 0,
@@ -2558,7 +2686,7 @@
       "confidence": "strong",
       "id": "epl|布伦特福德|诺丁汉森林|2026-10-31",
       "settled": true,
-      "generated_at": "2026-11-02T22:27:07.276578+00:00",
+      "generated_at": "2026-11-02T22:28:56.057232+00:00",
       "outcome": "win",
       "outcome_cn": "中",
       "home_goals": 2,
@@ -2598,7 +2726,7 @@
       "confidence": "strong",
       "id": "bundesliga|门兴格拉德巴赫|帕德博恩|2026-10-31",
       "settled": true,
-      "generated_at": "2026-11-02T22:27:07.276578+00:00",
+      "generated_at": "2026-11-02T22:28:56.057232+00:00",
       "outcome": "win",
       "outcome_cn": "中",
       "home_goals": 0,
@@ -2637,7 +2765,7 @@
       "confidence": "watch",
       "id": "bundesliga|奥格斯堡|弗赖堡|2026-10-31",
       "settled": true,
-      "generated_at": "2026-11-02T22:27:07.276578+00:00",
+      "generated_at": "2026-11-02T22:28:56.057232+00:00",
       "outcome": "push",
       "outcome_cn": "走盘",
       "home_goals": 1,
@@ -2676,7 +2804,7 @@
       "confidence": "strong",
       "id": "bundesliga|勒沃库森|斯图加特|2026-10-31",
       "settled": true,
-      "generated_at": "2026-11-02T22:27:07.276578+00:00",
+      "generated_at": "2026-11-02T22:28:56.057232+00:00",
       "outcome": "win",
       "outcome_cn": "中",
       "home_goals": 2,
@@ -2715,7 +2843,7 @@
       "confidence": "strong",
       "id": "bundesliga|沙尔克04|rb莱比锡|2026-10-31",
       "settled": true,
-      "generated_at": "2026-11-02T22:27:07.276578+00:00",
+      "generated_at": "2026-11-02T22:28:56.057232+00:00",
       "outcome": "win",
       "outcome_cn": "中",
       "home_goals": 0,
@@ -2754,7 +2882,7 @@
       "confidence": "watch",
       "id": "bundesliga|云达不莱梅|霍芬海姆|2026-10-31",
       "settled": true,
-      "generated_at": "2026-11-02T22:27:07.276578+00:00",
+      "generated_at": "2026-11-02T22:28:56.057232+00:00",
       "outcome": "win",
       "outcome_cn": "中",
       "home_goals": 2,
@@ -2793,7 +2921,7 @@
       "confidence": "strong",
       "id": "seriea|博洛尼亚|蒙扎|2026-10-31",
       "settled": true,
-      "generated_at": "2026-11-02T22:27:07.276578+00:00",
+      "generated_at": "2026-11-02T22:28:56.057232+00:00",
       "outcome": "half_win",
       "outcome_cn": "半赢",
       "home_goals": 2,
@@ -2833,7 +2961,7 @@
       "confidence": "watch",
       "id": "laliga|莱万特|马德里竞技|2026-10-31",
       "settled": true,
-      "generated_at": "2026-11-02T22:27:07.276578+00:00",
+      "generated_at": "2026-11-02T22:28:56.057232+00:00",
       "outcome": "win",
       "outcome_cn": "中",
       "home_goals": 0,
@@ -2872,7 +3000,7 @@
       "confidence": "strong",
       "id": "epl|chelsea|曼彻斯特联|2026-10-31",
       "settled": true,
-      "generated_at": "2026-11-02T22:27:07.276578+00:00",
+      "generated_at": "2026-11-02T22:28:56.057232+00:00",
       "outcome": "win",
       "outcome_cn": "中",
       "home_goals": 2,
