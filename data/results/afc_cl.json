@@ -13,6 +13,39 @@
   {
     "competition": "afc_cl",
     "cls": "cup",
+    "home": "大不里士拖拉机",
+    "away": "费尔干纳石油工人",
+    "home_goals": 0,
+    "away_goals": 1,
+    "date": "2026-11-02",
+    "handicap_line": -0.25,
+    "total_line": 2.0
+  },
+  {
+    "competition": "afc_cl",
+    "cls": "cup",
+    "home": "迪拜祈祷",
+    "away": "巴格达空军",
+    "home_goals": 4,
+    "away_goals": 2,
+    "date": "2026-11-02",
+    "handicap_line": -1.75,
+    "total_line": 3.25
+  },
+  {
+    "competition": "afc_cl",
+    "cls": "cup",
+    "home": "萨德",
+    "away": "吉达国民",
+    "home_goals": 0,
+    "away_goals": 0,
+    "date": "2026-11-02",
+    "handicap_line": 0.25,
+    "total_line": 3.0
+  },
+  {
+    "competition": "afc_cl",
+    "cls": "cup",
     "home": "鹿岛鹿角",
     "away": "浦项制铁",
     "home_goals": 3,
