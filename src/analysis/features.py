@@ -89,6 +89,67 @@ def home_away_stats(results: list[Result], home: str, away: str) -> dict:
     return dict(home_home_win_rate=win_rate(home_home), away_away_win_rate=win_rate(away_away))
 
 
+# ---------------------------------------------------------------- 历史盘口
+
+def h2h_line_stats(results: list[Result], home: str, away: str, n: int = 5) -> dict:
+    """历史交锋的「盘口覆盖」统计（分析结合过往比赛盘口）。
+
+    对两队近 n 次直接交锋，用当时那场的让球线（主队视角，负=主让）判定
+    「谁打穿了盘口」，返回当前主队/客队各自打穿次数与平均让球线。
+    若历史结果没带盘口（结果里 handicap_line 为 None），meetings 记为 0。
+    """
+    h, a = norm_team(home), norm_team(away)
+    meetings = [r for r in results if {norm_team(r.home), norm_team(r.away)} == {h, a}]
+    meetings.sort(key=lambda r: r.date, reverse=True)
+    meetings = meetings[:n]
+
+    home_cover = away_cover = 0
+    lines = []
+    for r in meetings:
+        if r.handicap_line is None:
+            continue
+        lines.append(r.handicap_line)
+        # 历史那场：历史主队是否打穿（历史主净胜 + 让球线 > 0）
+        hist_home_cover = (r.home_goals - r.away_goals) + r.handicap_line > 0
+        if norm_team(r.home) == h:
+            if hist_home_cover:
+                home_cover += 1
+            else:
+                away_cover += 1
+        else:
+            if hist_home_cover:
+                away_cover += 1
+            else:
+                home_cover += 1
+
+    m = len(lines)
+    return dict(meetings=m, home_cover=home_cover, away_cover=away_cover,
+                avg_line=(sum(lines) / m if m else None))
+
+
+def h2h_totals_stats(results: list[Result], home: str, away: str, n: int = 5) -> dict:
+    """历史交锋的「大小球盘口覆盖」：近 n 次交手，按当时总进球线判定大/小次数。"""
+    h, a = norm_team(home), norm_team(away)
+    meetings = [r for r in results if {norm_team(r.home), norm_team(r.away)} == {h, a}]
+    meetings.sort(key=lambda r: r.date, reverse=True)
+    meetings = meetings[:n]
+
+    over = under = 0
+    lines = []
+    for r in meetings:
+        if r.total_line is None:
+            continue
+        lines.append(r.total_line)
+        if (r.home_goals + r.away_goals) > r.total_line:
+            over += 1
+        else:
+            under += 1
+
+    m = len(lines)
+    return dict(meetings=m, over=over, under=under,
+                avg_line=(sum(lines) / m if m else None))
+
+
 # ---------------------------------------------------------------- 水位/盘口信号
 
 def handicap_signals(snaps: list[OddsSnapshot]) -> Optional[dict]:
@@ -119,6 +180,7 @@ def handicap_signals(snaps: list[OddsSnapshot]) -> Optional[dict]:
     return dict(
         line_first=first.handicap_line, line_last=last.handicap_line,
         home_water_first=first.handicap_home, home_water_last=last.handicap_home,
+        away_water_first=first.handicap_away, away_water_last=last.handicap_away,
         line_signal=line_signal, water_signal=water_signal,
         line_desc=line_desc, water_desc=water_desc,
     )
@@ -152,6 +214,7 @@ def totals_signals(snaps: list[OddsSnapshot]) -> Optional[dict]:
     return dict(
         line_first=first.total_line, line_last=last.total_line,
         over_first=first.over, over_last=last.over,
+        under_first=first.under, under_last=last.under,
         line_signal=line_signal, over_signal=over_signal,
         line_desc=line_desc, over_desc=over_desc,
     )

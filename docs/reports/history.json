@@ -1,43 +1,43 @@
 {
-  "generated_at": "2026-11-02T09:27:03.376327+00:00",
-  "total": 24,
+  "generated_at": "2026-11-02T08:47:39.142494+00:00",
+  "total": 20,
   "stats": {
     "overall": {
       "counts": {
-        "win": 18,
+        "win": 15,
         "half_win": 1,
         "push": 0,
         "half_loss": 0,
-        "loss": 5
+        "loss": 4
       },
-      "settled": 24,
-      "hit": 19,
-      "rate": 79.2
+      "settled": 20,
+      "hit": 16,
+      "rate": 80.0
     },
     "by_market": {
       "handicap": {
         "counts": {
-          "win": 6,
+          "win": 5,
           "half_win": 1,
           "push": 0,
           "half_loss": 0,
           "loss": 1
         },
-        "settled": 8,
-        "hit": 7,
-        "rate": 87.5
+        "settled": 7,
+        "hit": 6,
+        "rate": 85.7
       },
       "totals": {
         "counts": {
-          "win": 12,
+          "win": 10,
           "half_win": 0,
           "push": 0,
           "half_loss": 0,
-          "loss": 4
+          "loss": 3
         },
-        "settled": 16,
-        "hit": 12,
-        "rate": 75.0
+        "settled": 13,
+        "hit": 10,
+        "rate": 76.9
       }
     },
     "by_competition": {
@@ -55,27 +55,27 @@
       },
       "epl": {
         "counts": {
-          "win": 4,
+          "win": 3,
           "half_win": 0,
           "push": 0,
           "half_loss": 0,
           "loss": 0
         },
-        "settled": 4,
-        "hit": 4,
+        "settled": 3,
+        "hit": 3,
         "rate": 100.0
       },
       "laliga": {
         "counts": {
-          "win": 3,
+          "win": 1,
           "half_win": 0,
           "push": 0,
           "half_loss": 0,
           "loss": 3
         },
-        "settled": 6,
-        "hit": 3,
-        "rate": 50.0
+        "settled": 4,
+        "hit": 1,
+        "rate": 25.0
       },
       "ligue1": {
         "counts": {
@@ -95,150 +95,15 @@
           "half_win": 1,
           "push": 0,
           "half_loss": 0,
-          "loss": 2
+          "loss": 1
         },
-        "settled": 6,
+        "settled": 5,
         "hit": 4,
-        "rate": 66.7
+        "rate": 80.0
       }
     }
   },
   "records": [
-    {
-      "fixture_key": "epl|纽卡斯尔联|埃弗顿|2026-11-02",
-      "competition": "epl",
-      "home": "纽卡斯尔联",
-      "away": "埃弗顿",
-      "kickoff": "2026-11-02T20:00:00",
-      "market": "totals",
-      "pick": "小球（2.75）",
-      "side": "under",
-      "line": 2.75,
-      "score": 66.7,
-      "confidence": "watch",
-      "prematch": false,
-      "signals": {
-        "line_desc": "盘口不变",
-        "over_desc": "大球水位平稳"
-      },
-      "reasons": [
-        "大小球 盘口不变",
-        "大球水位平稳",
-        "主队近1场场均总进球 2.0",
-        "客队近1场场均总进球 2.0"
-      ],
-      "id": "epl|纽卡斯尔联|埃弗顿|2026-11-02",
-      "settled": false,
-      "generated_at": "2026-11-02T09:27:03.376327+00:00"
-    },
-    {
-      "fixture_key": "laliga|拉科鲁尼亚|奥萨苏纳|2026-11-02",
-      "competition": "laliga",
-      "home": "拉科鲁尼亚",
-      "away": "奥萨苏纳",
-      "kickoff": "2026-11-02T20:00:00",
-      "market": "totals",
-      "pick": "小球（2.25）",
-      "side": "under",
-      "line": 2.25,
-      "score": 60.6,
-      "confidence": "watch",
-      "prematch": false,
-      "signals": {
-        "line_desc": "盘口不变",
-        "over_desc": "大球水位平稳"
-      },
-      "reasons": [
-        "大小球 盘口不变",
-        "大球水位平稳",
-        "主队近1场场均总进球 1.0",
-        "客队近1场场均总进球 2.0"
-      ],
-      "id": "laliga|拉科鲁尼亚|奥萨苏纳|2026-11-02",
-      "settled": false,
-      "generated_at": "2026-11-02T09:27:03.376327+00:00"
-    },
-    {
-      "fixture_key": "seriea|亚特兰大|帕尔马|2026-11-02",
-      "competition": "seriea",
-      "home": "亚特兰大",
-      "away": "帕尔马",
-      "kickoff": "2026-11-02T19:45:00",
-      "market": "totals",
-      "pick": "大球（3）",
-      "side": "over",
-      "line": 3,
-      "score": 85.0,
-      "confidence": "strong",
-      "prematch": false,
-      "signals": {
-        "line_desc": "升盘 2.75->3（看大）",
-        "over_desc": "大球水位平稳"
-      },
-      "reasons": [
-        "大小球 升盘 2.75->3（看大）",
-        "大球水位平稳",
-        "主队近2场场均总进球 6.0",
-        "客队近2场场均总进球 1.5"
-      ],
-      "id": "seriea|亚特兰大|帕尔马|2026-11-02",
-      "settled": false,
-      "generated_at": "2026-11-02T09:27:03.376327+00:00"
-    },
-    {
-      "fixture_key": "ligue1|洛里昂|布雷斯特|2026-11-02",
-      "competition": "ligue1",
-      "home": "洛里昂",
-      "away": "布雷斯特",
-      "kickoff": "2026-11-02T19:45:00",
-      "market": "totals",
-      "pick": "小球（2.25）",
-      "side": "under",
-      "line": 2.25,
-      "score": 66.7,
-      "confidence": "watch",
-      "prematch": false,
-      "signals": {
-        "line_desc": "降盘 2.5->2.25（看小）",
-        "over_desc": "大球降水 0.93->0.87"
-      },
-      "reasons": [
-        "大小球 降盘 2.5->2.25（看小）",
-        "大球降水 0.93->0.87",
-        "主队近1场场均总进球 0.0",
-        "客队近1场场均总进球 3.0"
-      ],
-      "id": "ligue1|洛里昂|布雷斯特|2026-11-02",
-      "settled": false,
-      "generated_at": "2026-11-02T09:27:03.376327+00:00"
-    },
-    {
-      "fixture_key": "seriea|萨索洛|佛罗伦萨|2026-11-02",
-      "competition": "seriea",
-      "home": "萨索洛",
-      "away": "佛罗伦萨",
-      "kickoff": "2026-11-02T17:30:00",
-      "market": "totals",
-      "pick": "大球（3）",
-      "side": "over",
-      "line": 3,
-      "score": 68.3,
-      "confidence": "watch",
-      "prematch": false,
-      "signals": {
-        "line_desc": "升盘 2.75->3（看大）",
-        "over_desc": "大球水位平稳"
-      },
-      "reasons": [
-        "大小球 升盘 2.75->3（看大）",
-        "大球水位平稳",
-        "主队近2场场均总进球 5.0",
-        "客队近2场场均总进球 3.5"
-      ],
-      "id": "seriea|萨索洛|佛罗伦萨|2026-11-02",
-      "settled": false,
-      "generated_at": "2026-11-02T09:27:03.376327+00:00"
-    },
     {
       "fixture_key": "laliga|毕尔巴鄂竞技|皇家社会|2026-11-01",
       "competition": "laliga",
@@ -254,7 +119,7 @@
       "prematch": false,
       "id": "laliga|毕尔巴鄂竞技|皇家社会|2026-11-01",
       "settled": true,
-      "generated_at": "2026-11-02T09:27:03.376327+00:00",
+      "generated_at": "2026-11-02T08:47:39.142494+00:00",
       "signals": {
         "line_desc": "盘口不变",
         "water_desc": "水位平稳"
@@ -281,15 +146,21 @@
       "pick": "大球（2.5）",
       "side": "over",
       "line": 2.5,
-      "score": 80.7,
+      "score": 78.1,
       "confidence": "strong",
       "id": "seriea|尤文图斯|那不勒斯|2026-11-01",
       "settled": true,
-      "generated_at": "2026-11-02T09:27:03.376327+00:00",
+      "generated_at": "2026-11-02T08:47:39.142494+00:00",
       "prematch": true,
       "signals": {
         "line_desc": "盘口不变",
-        "over_desc": "大球降水 1->0.92"
+        "over_desc": "大球降水 1->0.92",
+        "line_first": 2.5,
+        "line_last": 2.5,
+        "over_first": 1,
+        "over_last": 0.92,
+        "under_first": 0.88,
+        "under_last": 0.96
       },
       "reasons": [
         "大小球 盘口不变",
@@ -300,7 +171,8 @@
       "outcome": "loss",
       "outcome_cn": "没中",
       "home_goals": 2,
-      "away_goals": 0
+      "away_goals": 0,
+      "sport": "football"
     },
     {
       "fixture_key": "ligue1|马赛|图卢兹|2026-11-01",
@@ -312,15 +184,21 @@
       "pick": "主队（让 0.5）",
       "side": "home",
       "line": -0.5,
-      "score": 72.5,
+      "score": 70.0,
       "confidence": "strong",
       "id": "ligue1|马赛|图卢兹|2026-11-01",
       "settled": true,
-      "generated_at": "2026-11-02T09:27:03.376327+00:00",
+      "generated_at": "2026-11-02T08:47:39.142494+00:00",
       "prematch": true,
       "signals": {
         "line_desc": "降盘 -0.75->-0.5（主队走弱）",
-        "water_desc": "主队降水 1.05->0.92"
+        "water_desc": "主队降水 1.05->0.92",
+        "line_first": -0.75,
+        "line_last": -0.5,
+        "home_water_first": 1.05,
+        "home_water_last": 0.92,
+        "away_water_first": 0.83,
+        "away_water_last": 0.97
       },
       "reasons": [
         "亚盘 降盘 -0.75->-0.5（主队走弱）",
@@ -332,7 +210,8 @@
       "outcome": "win",
       "outcome_cn": "中",
       "home_goals": 2,
-      "away_goals": 0
+      "away_goals": 0,
+      "sport": "football"
     },
     {
       "fixture_key": "laliga|埃尔切|巴伦西亚|2026-11-01",
@@ -344,15 +223,21 @@
       "pick": "客队（受让 0.25）",
       "side": "away",
       "line": -0.25,
-      "score": 58.1,
+      "score": 58.5,
       "confidence": "watch",
       "id": "laliga|埃尔切|巴伦西亚|2026-11-01",
       "settled": true,
-      "generated_at": "2026-11-02T09:27:03.376327+00:00",
+      "generated_at": "2026-11-02T08:47:39.142494+00:00",
       "prematch": true,
       "signals": {
         "line_desc": "升盘 0->-0.25（主队走强）",
-        "water_desc": "主队升水 0.81->1.03"
+        "water_desc": "主队升水 0.81->1.03",
+        "line_first": 0,
+        "line_last": -0.25,
+        "home_water_first": 0.81,
+        "home_water_last": 1.03,
+        "away_water_first": 1.07,
+        "away_water_last": 0.86
       },
       "reasons": [
         "亚盘 升盘 0->-0.25（主队走强）",
@@ -364,7 +249,8 @@
       "outcome": "win",
       "outcome_cn": "中",
       "home_goals": 0,
-      "away_goals": 1
+      "away_goals": 1,
+      "sport": "football"
     },
     {
       "fixture_key": "seriea|莱切|热那亚|2026-11-01",
@@ -376,15 +262,21 @@
       "pick": "大球（2.25）",
       "side": "over",
       "line": 2.25,
-      "score": 68.7,
+      "score": 67.4,
       "confidence": "watch",
       "id": "seriea|莱切|热那亚|2026-11-01",
       "settled": true,
-      "generated_at": "2026-11-02T09:27:03.376327+00:00",
+      "generated_at": "2026-11-02T08:47:39.142494+00:00",
       "prematch": true,
       "signals": {
         "line_desc": "盘口不变",
-        "over_desc": "大球降水 1.07->1"
+        "over_desc": "大球降水 1.07->1",
+        "line_first": 2.25,
+        "line_last": 2.25,
+        "over_first": 1.07,
+        "over_last": 1,
+        "under_first": 0.81,
+        "under_last": 0.89
       },
       "reasons": [
         "大小球 盘口不变",
@@ -395,7 +287,8 @@
       "outcome": "win",
       "outcome_cn": "中",
       "home_goals": 1,
-      "away_goals": 2
+      "away_goals": 2,
+      "sport": "football"
     },
     {
       "fixture_key": "bundesliga|法兰克福|汉堡|2026-11-01",
@@ -407,15 +300,21 @@
       "pick": "主队（让 1.25）",
       "side": "home",
       "line": -1.25,
-      "score": 88.1,
+      "score": 86.5,
       "confidence": "strong",
       "id": "bundesliga|法兰克福|汉堡|2026-11-01",
       "settled": true,
-      "generated_at": "2026-11-02T09:27:03.376327+00:00",
+      "generated_at": "2026-11-02T08:47:39.142494+00:00",
       "prematch": true,
       "signals": {
         "line_desc": "升盘 -1->-1.25（主队走强）",
-        "water_desc": "主队降水 1.05->1.01"
+        "water_desc": "主队降水 1.05->1.01",
+        "line_first": -1,
+        "line_last": -1.25,
+        "home_water_first": 1.05,
+        "home_water_last": 1.01,
+        "away_water_first": 0.83,
+        "away_water_last": 0.88
       },
       "reasons": [
         "亚盘 升盘 -1->-1.25（主队走强）",
@@ -427,7 +326,8 @@
       "outcome": "win",
       "outcome_cn": "中",
       "home_goals": 3,
-      "away_goals": 1
+      "away_goals": 1,
+      "sport": "football"
     },
     {
       "fixture_key": "epl|liverpool|arsenal|2026-11-01",
@@ -443,11 +343,17 @@
       "confidence": "watch",
       "id": "epl|liverpool|arsenal|2026-11-01",
       "settled": true,
-      "generated_at": "2026-11-02T09:27:03.376327+00:00",
+      "generated_at": "2026-11-02T08:47:39.142494+00:00",
       "prematch": true,
       "signals": {
         "line_desc": "盘口不变",
-        "water_desc": "主队降水 0.99->0.8"
+        "water_desc": "主队降水 0.99->0.8",
+        "line_first": 0.25,
+        "line_last": 0.25,
+        "home_water_first": 0.99,
+        "home_water_last": 0.8,
+        "away_water_first": 0.89,
+        "away_water_last": 1.09
       },
       "reasons": [
         "亚盘 盘口不变",
@@ -459,7 +365,8 @@
       "outcome": "loss",
       "outcome_cn": "没中",
       "home_goals": 0,
-      "away_goals": 1
+      "away_goals": 1,
+      "sport": "football"
     },
     {
       "fixture_key": "ligue1|里昂|昂热|2026-11-01",
@@ -471,15 +378,21 @@
       "pick": "小球（2.75）",
       "side": "under",
       "line": 2.75,
-      "score": 66.7,
+      "score": 62.5,
       "confidence": "watch",
       "id": "ligue1|里昂|昂热|2026-11-01",
       "settled": true,
-      "generated_at": "2026-11-02T09:27:03.376327+00:00",
+      "generated_at": "2026-11-02T08:47:39.142494+00:00",
       "prematch": true,
       "signals": {
         "line_desc": "降盘 3->2.75（看小）",
-        "over_desc": "大球降水 0.94->0.83"
+        "over_desc": "大球降水 0.94->0.83",
+        "line_first": 3,
+        "line_last": 2.75,
+        "over_first": 0.94,
+        "over_last": 0.83,
+        "under_first": 0.92,
+        "under_last": 1.05
       },
       "reasons": [
         "大小球 降盘 3->2.75（看小）",
@@ -490,7 +403,8 @@
       "outcome": "win",
       "outcome_cn": "中",
       "home_goals": 2,
-      "away_goals": 0
+      "away_goals": 0,
+      "sport": "football"
     },
     {
       "fixture_key": "ligue1|巴黎fc|摩纳哥|2026-11-01",
@@ -502,15 +416,21 @@
       "pick": "平手盘",
       "side": "home",
       "line": 0,
-      "score": 67.2,
+      "score": 65.8,
       "confidence": "watch",
       "id": "ligue1|巴黎fc|摩纳哥|2026-11-01",
       "settled": true,
-      "generated_at": "2026-11-02T09:27:03.376327+00:00",
+      "generated_at": "2026-11-02T08:47:39.142494+00:00",
       "prematch": true,
       "signals": {
         "line_desc": "降盘 -0.25->0（主队走弱）",
-        "water_desc": "主队降水 1.05->0.87"
+        "water_desc": "主队降水 1.05->0.87",
+        "line_first": -0.25,
+        "line_last": 0,
+        "home_water_first": 1.05,
+        "home_water_last": 0.87,
+        "away_water_first": 0.83,
+        "away_water_last": 1.02
       },
       "reasons": [
         "亚盘 降盘 -0.25->0（主队走弱）",
@@ -522,7 +442,8 @@
       "outcome": "win",
       "outcome_cn": "中",
       "home_goals": 3,
-      "away_goals": 1
+      "away_goals": 1,
+      "sport": "football"
     },
     {
       "fixture_key": "laliga|桑坦德竞技|realmadrid|2026-11-01",
@@ -534,15 +455,21 @@
       "pick": "大球（4）",
       "side": "over",
       "line": 4,
-      "score": 78.9,
+      "score": 76.7,
       "confidence": "strong",
       "id": "laliga|桑坦德竞技|realmadrid|2026-11-01",
       "settled": true,
-      "generated_at": "2026-11-02T09:27:03.376327+00:00",
+      "generated_at": "2026-11-02T08:47:39.142494+00:00",
       "prematch": true,
       "signals": {
         "line_desc": "盘口不变",
-        "over_desc": "大球降水 1.03->0.97"
+        "over_desc": "大球降水 1.03->0.97",
+        "line_first": 4,
+        "line_last": 4,
+        "over_first": 1.03,
+        "over_last": 0.97,
+        "under_first": 0.83,
+        "under_last": 0.92
       },
       "reasons": [
         "大小球 盘口不变",
@@ -553,7 +480,8 @@
       "outcome": "loss",
       "outcome_cn": "没中",
       "home_goals": 0,
-      "away_goals": 3
+      "away_goals": 3,
+      "sport": "football"
     },
     {
       "fixture_key": "bundesliga|柏林联合|科隆|2026-11-01",
@@ -565,15 +493,21 @@
       "pick": "小球（2.75）",
       "side": "under",
       "line": 2.75,
-      "score": 90.0,
+      "score": 85.0,
       "confidence": "strong",
       "id": "bundesliga|柏林联合|科隆|2026-11-01",
       "settled": true,
-      "generated_at": "2026-11-02T09:27:03.376327+00:00",
+      "generated_at": "2026-11-02T08:47:39.142494+00:00",
       "prematch": true,
       "signals": {
         "line_desc": "盘口不变",
-        "over_desc": "大球升水 0.82->0.93"
+        "over_desc": "大球升水 0.82->0.93",
+        "line_first": 2.75,
+        "line_last": 2.75,
+        "over_first": 0.82,
+        "over_last": 0.93,
+        "under_first": 1.04,
+        "under_last": 0.96
       },
       "reasons": [
         "大小球 盘口不变",
@@ -584,7 +518,8 @@
       "outcome": "win",
       "outcome_cn": "中",
       "home_goals": 1,
-      "away_goals": 1
+      "away_goals": 1,
+      "sport": "football"
     },
     {
       "fixture_key": "seriea|拉齐奥|卡利亚里|2026-11-01",
@@ -596,15 +531,21 @@
       "pick": "大球（2.5）",
       "side": "over",
       "line": 2.5,
-      "score": 90.0,
+      "score": 85.0,
       "confidence": "strong",
       "id": "seriea|拉齐奥|卡利亚里|2026-11-01",
       "settled": true,
-      "generated_at": "2026-11-02T09:27:03.376327+00:00",
+      "generated_at": "2026-11-02T08:47:39.142494+00:00",
       "prematch": true,
       "signals": {
         "line_desc": "盘口不变",
-        "over_desc": "大球降水 1.05->0.85"
+        "over_desc": "大球降水 1.05->0.85",
+        "line_first": 2.5,
+        "line_last": 2.5,
+        "over_first": 1.05,
+        "over_last": 0.85,
+        "under_first": 0.83,
+        "under_last": 1.03
       },
       "reasons": [
         "大小球 盘口不变",
@@ -615,7 +556,8 @@
       "outcome": "win",
       "outcome_cn": "中",
       "home_goals": 2,
-      "away_goals": 1
+      "away_goals": 1,
+      "sport": "football"
     },
     {
       "fixture_key": "seriea|弗洛西诺尼|都灵|2026-11-01",
@@ -627,15 +569,21 @@
       "pick": "大球（3.5）",
       "side": "over",
       "line": 3.5,
-      "score": 70.0,
-      "confidence": "strong",
+      "score": 65.0,
+      "confidence": "watch",
       "id": "seriea|弗洛西诺尼|都灵|2026-11-01",
       "settled": true,
-      "generated_at": "2026-11-02T09:27:03.376327+00:00",
+      "generated_at": "2026-11-02T08:47:39.142494+00:00",
       "prematch": true,
       "signals": {
         "line_desc": "升盘 3->3.5（看大）",
-        "over_desc": "大球升水 0.85->1"
+        "over_desc": "大球升水 0.85->1",
+        "line_first": 3,
+        "line_last": 3.5,
+        "over_first": 0.85,
+        "over_last": 1,
+        "under_first": 1.03,
+        "under_last": 0.88
       },
       "reasons": [
         "大小球 升盘 3->3.5（看大）",
@@ -646,7 +594,8 @@
       "outcome": "loss",
       "outcome_cn": "没中",
       "home_goals": 2,
-      "away_goals": 0
+      "away_goals": 0,
+      "sport": "football"
     },
     {
       "fixture_key": "ligue1|斯特拉斯堡|欧塞尔|2026-11-01",
@@ -658,15 +607,21 @@
       "pick": "大球（3）",
       "side": "over",
       "line": 3,
-      "score": 75.0,
+      "score": 70.0,
       "confidence": "strong",
       "id": "ligue1|斯特拉斯堡|欧塞尔|2026-11-01",
       "settled": true,
-      "generated_at": "2026-11-02T09:27:03.376327+00:00",
+      "generated_at": "2026-11-02T08:47:39.142494+00:00",
       "prematch": true,
       "signals": {
         "line_desc": "盘口不变",
-        "over_desc": "大球水位平稳"
+        "over_desc": "大球水位平稳",
+        "line_first": 3,
+        "line_last": 3,
+        "over_first": 0.98,
+        "over_last": 0.96,
+        "under_first": 0.88,
+        "under_last": 0.92
       },
       "reasons": [
         "大小球 盘口不变",
@@ -677,7 +632,8 @@
       "outcome": "win",
       "outcome_cn": "中",
       "home_goals": 5,
-      "away_goals": 1
+      "away_goals": 1,
+      "sport": "football"
     },
     {
       "fixture_key": "laliga|赫塔菲|塞维利亚|2026-11-01",
@@ -689,15 +645,21 @@
       "pick": "大球（2）",
       "side": "over",
       "line": 2,
-      "score": 81.7,
+      "score": 78.1,
       "confidence": "strong",
       "id": "laliga|赫塔菲|塞维利亚|2026-11-01",
       "settled": true,
-      "generated_at": "2026-11-02T09:27:03.376327+00:00",
+      "generated_at": "2026-11-02T08:47:39.142494+00:00",
       "prematch": true,
       "signals": {
         "line_desc": "盘口不变",
-        "over_desc": "大球降水 1.06->0.99"
+        "over_desc": "大球降水 1.06->0.99",
+        "line_first": 2,
+        "line_last": 2,
+        "over_first": 1.06,
+        "over_last": 0.99,
+        "under_first": 0.8,
+        "under_last": 0.9
       },
       "reasons": [
         "大小球 盘口不变",
@@ -708,7 +670,8 @@
       "outcome": "win",
       "outcome_cn": "中",
       "home_goals": 3,
-      "away_goals": 1
+      "away_goals": 1,
+      "sport": "football"
     },
     {
       "fixture_key": "seriea|科莫|威尼斯|2026-11-01",
@@ -720,15 +683,21 @@
       "pick": "小球（3.5）",
       "side": "under",
       "line": 3.5,
-      "score": 85.0,
+      "score": 80.8,
       "confidence": "strong",
       "id": "seriea|科莫|威尼斯|2026-11-01",
       "settled": true,
-      "generated_at": "2026-11-02T09:27:03.376327+00:00",
+      "generated_at": "2026-11-02T08:47:39.142494+00:00",
       "prematch": true,
       "signals": {
         "line_desc": "盘口不变",
-        "over_desc": "大球升水 0.96->1"
+        "over_desc": "大球升水 0.96->1",
+        "line_first": 3.5,
+        "line_last": 3.5,
+        "over_first": 0.96,
+        "over_last": 1,
+        "under_first": 0.92,
+        "under_last": 0.88
       },
       "reasons": [
         "大小球 盘口不变",
@@ -739,7 +708,8 @@
       "outcome": "win",
       "outcome_cn": "中",
       "home_goals": 1,
-      "away_goals": 0
+      "away_goals": 0,
+      "sport": "football"
     },
     {
       "fixture_key": "laliga|巴塞罗那|阿拉维斯|2026-10-31",
@@ -751,11 +721,11 @@
       "pick": "大球（4.25）",
       "side": "over",
       "line": 4.25,
-      "score": 70.0,
-      "confidence": "strong",
+      "score": 65.0,
+      "confidence": "watch",
       "id": "laliga|巴塞罗那|阿拉维斯|2026-10-31",
       "settled": true,
-      "generated_at": "2026-11-02T09:27:03.376327+00:00",
+      "generated_at": "2026-11-02T08:47:39.142494+00:00",
       "outcome": "win",
       "outcome_cn": "中",
       "home_goals": 6,
@@ -763,14 +733,21 @@
       "prematch": true,
       "signals": {
         "line_desc": "升盘 4->4.25（看大）",
-        "over_desc": "大球升水 0.97->1.01"
+        "over_desc": "大球升水 0.97->1.01",
+        "line_first": 4,
+        "line_last": 4.25,
+        "over_first": 0.97,
+        "over_last": 1.01,
+        "under_first": 0.89,
+        "under_last": 0.87
       },
       "reasons": [
         "大小球 升盘 4->4.25（看大）",
         "大球升水 0.97->1.01",
         "主队近2场场均总进球 5.0",
         "客队近2场场均总进球 4.5"
-      ]
+      ],
+      "sport": "football"
     },
     {
       "fixture_key": "epl|阿斯顿维拉|富勒姆|2026-10-31",
@@ -786,7 +763,7 @@
       "confidence": "watch",
       "id": "epl|阿斯顿维拉|富勒姆|2026-10-31",
       "settled": true,
-      "generated_at": "2026-11-02T09:27:03.376327+00:00",
+      "generated_at": "2026-11-02T08:47:39.142494+00:00",
       "outcome": "win",
       "outcome_cn": "中",
       "home_goals": 1,
@@ -813,11 +790,11 @@
       "pick": "小球（2.5）",
       "side": "under",
       "line": 2.5,
-      "score": 90.0,
+      "score": 85.0,
       "confidence": "strong",
       "id": "ligue1|特鲁瓦|勒芒|2026-10-31",
       "settled": true,
-      "generated_at": "2026-11-02T09:27:03.376327+00:00",
+      "generated_at": "2026-11-02T08:47:39.142494+00:00",
       "outcome": "win",
       "outcome_cn": "中",
       "home_goals": 2,
@@ -825,14 +802,21 @@
       "prematch": true,
       "signals": {
         "line_desc": "盘口不变",
-        "over_desc": "大球升水 0.84->1.03"
+        "over_desc": "大球升水 0.84->1.03",
+        "line_first": 2.5,
+        "line_last": 2.5,
+        "over_first": 0.84,
+        "over_last": 1.03,
+        "under_first": 1.02,
+        "under_last": 0.85
       },
       "reasons": [
         "大小球 盘口不变",
         "大球升水 0.84->1.03",
         "主队近2场场均总进球 1.0",
         "客队近2场场均总进球 2.0"
-      ]
+      ],
+      "sport": "football"
     },
     {
       "fixture_key": "seriea|ac米兰|国际米兰|2026-10-31",
@@ -844,7 +828,7 @@
       "pick": "主队（受让 0.5）",
       "side": "home",
       "line": 0.5,
-      "score": 60.6,
+      "score": 60.5,
       "confidence": "watch",
       "id": "seriea|ac米兰|国际米兰|2026-10-31",
       "outcome": "win",
@@ -852,11 +836,17 @@
       "home_goals": 3,
       "away_goals": 1,
       "settled": true,
-      "generated_at": "2026-11-02T09:27:03.376327+00:00",
+      "generated_at": "2026-11-02T08:47:39.142494+00:00",
       "prematch": true,
       "signals": {
         "line_desc": "降盘 0.25->0.5（主队走弱）",
-        "water_desc": "主队降水 0.94->0.85"
+        "water_desc": "主队降水 0.94->0.85",
+        "line_first": 0.25,
+        "line_last": 0.5,
+        "home_water_first": 0.94,
+        "home_water_last": 0.85,
+        "away_water_first": 0.94,
+        "away_water_last": 1.04
       },
       "reasons": [
         "亚盘 降盘 0.25->0.5（主队走弱）",
@@ -864,7 +854,8 @@
         "主队近3场 2胜0平1负，场均进2.3/失1.7",
         "客队近3场 2胜0平1负，场均进1.7/失1.3",
         "交手1次：主队1胜0平0负"
-      ]
+      ],
+      "sport": "football"
     },
     {
       "fixture_key": "laliga|皇家贝蒂斯|马拉加|2026-10-31",
@@ -876,11 +867,11 @@
       "pick": "主队（让 1.5）",
       "side": "home",
       "line": -1.5,
-      "score": 90.0,
+      "score": 87.5,
       "confidence": "strong",
       "id": "laliga|皇家贝蒂斯|马拉加|2026-10-31",
       "settled": true,
-      "generated_at": "2026-11-02T09:27:03.376327+00:00",
+      "generated_at": "2026-11-02T08:47:39.142494+00:00",
       "outcome": "loss",
       "outcome_cn": "没中",
       "home_goals": 2,
@@ -888,7 +879,13 @@
       "prematch": true,
       "signals": {
         "line_desc": "升盘 -1.25->-1.5（主队走强）",
-        "water_desc": "主队降水 0.92->0.87"
+        "water_desc": "主队降水 0.92->0.87",
+        "line_first": -1.25,
+        "line_last": -1.5,
+        "home_water_first": 0.92,
+        "home_water_last": 0.87,
+        "away_water_first": 0.96,
+        "away_water_last": 1.02
       },
       "reasons": [
         "亚盘 升盘 -1.25->-1.5（主队走强）",
@@ -896,7 +893,8 @@
         "主队近2场 1胜1平0负，场均进1.0/失0.5",
         "客队近2场 0胜1平1负，场均进1.0/失1.5",
         "交手1次：主队1胜0平0负"
-      ]
+      ],
+      "sport": "football"
     },
     {
       "fixture_key": "bundesliga|bayernmunich|多特蒙德|2026-10-31",
@@ -912,7 +910,7 @@
       "confidence": "strong",
       "id": "bundesliga|bayernmunich|多特蒙德|2026-10-31",
       "settled": true,
-      "generated_at": "2026-11-02T09:27:03.376327+00:00",
+      "generated_at": "2026-11-02T08:47:39.142494+00:00",
       "outcome": "half_loss",
       "outcome_cn": "半输",
       "home_goals": 2,
@@ -928,11 +926,11 @@
       "pick": "小球（2.75）",
       "side": "under",
       "line": 2.75,
-      "score": 81.7,
+      "score": 78.3,
       "confidence": "strong",
       "id": "epl|托特纳姆热刺|水晶宫|2026-10-31",
       "settled": true,
-      "generated_at": "2026-11-02T09:27:03.376327+00:00",
+      "generated_at": "2026-11-02T08:47:39.142494+00:00",
       "outcome": "win",
       "outcome_cn": "中",
       "home_goals": 2,
@@ -940,14 +938,21 @@
       "prematch": true,
       "signals": {
         "line_desc": "盘口不变",
-        "over_desc": "大球升水 0.82->0.93"
+        "over_desc": "大球升水 0.82->0.93",
+        "line_first": 2.75,
+        "line_last": 2.75,
+        "over_first": 0.82,
+        "over_last": 0.93,
+        "under_first": 1.04,
+        "under_last": 0.96
       },
       "reasons": [
         "大小球 盘口不变",
         "大球升水 0.82->0.93",
         "主队近2场场均总进球 2.0",
         "客队近2场场均总进球 2.0"
-      ]
+      ],
+      "sport": "football"
     },
     {
       "fixture_key": "seriea|乌迪内斯|罗马|2026-10-31",
@@ -959,11 +964,11 @@
       "pick": "客队（让 1）",
       "side": "away",
       "line": 1,
-      "score": 77.1,
+      "score": 74.7,
       "confidence": "strong",
       "id": "seriea|乌迪内斯|罗马|2026-10-31",
       "settled": true,
-      "generated_at": "2026-11-02T09:27:03.376327+00:00",
+      "generated_at": "2026-11-02T08:47:39.142494+00:00",
       "outcome": "win",
       "outcome_cn": "中",
       "home_goals": 2,
@@ -971,7 +976,13 @@
       "prematch": true,
       "signals": {
         "line_desc": "降盘 0.75->1（主队走弱）",
-        "water_desc": "水位平稳"
+        "water_desc": "水位平稳",
+        "line_first": 0.75,
+        "line_last": 1,
+        "home_water_first": 1.03,
+        "home_water_last": 1.02,
+        "away_water_first": 0.85,
+        "away_water_last": 0.87
       },
       "reasons": [
         "亚盘 降盘 0.75->1（主队走弱）",
@@ -979,7 +990,8 @@
         "主队近3场 0胜1平2负，场均进0.7/失2.3",
         "客队近3场 2胜1平0负，场均进4.0/失2.3",
         "交手1次：主队0胜0平1负"
-      ]
+      ],
+      "sport": "football"
     },
     {
       "fixture_key": "laliga|巴列卡诺|塞尔塔|2026-10-31",
@@ -991,11 +1003,11 @@
       "pick": "小球（2.25）",
       "side": "under",
       "line": 2.25,
-      "score": 75.6,
+      "score": 74.2,
       "confidence": "strong",
       "id": "laliga|巴列卡诺|塞尔塔|2026-10-31",
       "settled": true,
-      "generated_at": "2026-11-02T09:27:03.376327+00:00",
+      "generated_at": "2026-11-02T08:47:39.142494+00:00",
       "outcome": "loss",
       "outcome_cn": "没中",
       "home_goals": 3,
@@ -1003,14 +1015,21 @@
       "prematch": true,
       "signals": {
         "line_desc": "盘口不变",
-        "over_desc": "大球升水 0.81->0.98"
+        "over_desc": "大球升水 0.81->0.98",
+        "line_first": 2.25,
+        "line_last": 2.25,
+        "over_first": 0.81,
+        "over_last": 0.98,
+        "under_first": 1.05,
+        "under_last": 0.91
       },
       "reasons": [
         "大小球 盘口不变",
         "大球升水 0.81->0.98",
         "主队近2场场均总进球 3.0",
         "客队近2场场均总进球 1.5"
-      ]
+      ],
+      "sport": "football"
     },
     {
       "fixture_key": "epl|考文垂|桑德兰|2026-10-31",
@@ -1022,11 +1041,11 @@
       "pick": "主队（受让 0.25）",
       "side": "home",
       "line": 0.25,
-      "score": 63.4,
+      "score": 63.2,
       "confidence": "watch",
       "id": "epl|考文垂|桑德兰|2026-10-31",
       "settled": true,
-      "generated_at": "2026-11-02T09:27:03.376327+00:00",
+      "generated_at": "2026-11-02T08:47:39.142494+00:00",
       "outcome": "win",
       "outcome_cn": "中",
       "home_goals": 3,
@@ -1034,7 +1053,13 @@
       "prematch": true,
       "signals": {
         "line_desc": "降盘 0->0.25（主队走弱）",
-        "water_desc": "主队降水 1.08->0.8"
+        "water_desc": "主队降水 1.08->0.8",
+        "line_first": 0,
+        "line_last": 0.25,
+        "home_water_first": 1.08,
+        "home_water_last": 0.8,
+        "away_water_first": 0.8,
+        "away_water_last": 1.09
       },
       "reasons": [
         "亚盘 降盘 0->0.25（主队走弱）",
@@ -1042,7 +1067,8 @@
         "主队近2场 1胜0平1负，场均进1.5/失1.0",
         "客队近2场 0胜1平1负，场均进0.5/失1.5",
         "交手1次：主队1胜0平0负"
-      ]
+      ],
+      "sport": "football"
     },
     {
       "fixture_key": "epl|伯恩茅斯|利兹联|2026-10-31",
@@ -1054,11 +1080,11 @@
       "pick": "主队（让 0.5）",
       "side": "home",
       "line": -0.5,
-      "score": 66.2,
+      "score": 62.5,
       "confidence": "watch",
       "id": "epl|伯恩茅斯|利兹联|2026-10-31",
       "settled": true,
-      "generated_at": "2026-11-02T09:27:03.376327+00:00",
+      "generated_at": "2026-11-02T08:47:39.142494+00:00",
       "outcome": "win",
       "outcome_cn": "中",
       "home_goals": 2,
@@ -1066,7 +1092,13 @@
       "prematch": true,
       "signals": {
         "line_desc": "升盘 -0.25->-0.5（主队走强）",
-        "water_desc": "主队升水 0.97->1.03"
+        "water_desc": "主队升水 0.97->1.03",
+        "line_first": -0.25,
+        "line_last": -0.5,
+        "home_water_first": 0.97,
+        "home_water_last": 1.03,
+        "away_water_first": 0.91,
+        "away_water_last": 0.86
       },
       "reasons": [
         "亚盘 升盘 -0.25->-0.5（主队走强）",
@@ -1074,7 +1106,8 @@
         "主队近2场 2胜0平0负，场均进2.5/失0.0",
         "客队近2场 0胜1平1负，场均进0.0/失1.0",
         "交手1次：主队1胜0平0负"
-      ]
+      ],
+      "sport": "football"
     },
     {
       "fixture_key": "epl|赫尔城|伊普斯维奇|2026-10-31",
@@ -1086,11 +1119,11 @@
       "pick": "大球（2.5）",
       "side": "over",
       "line": 2.5,
-      "score": 66.1,
+      "score": 63.9,
       "confidence": "watch",
       "id": "epl|赫尔城|伊普斯维奇|2026-10-31",
       "settled": true,
-      "generated_at": "2026-11-02T09:27:03.376327+00:00",
+      "generated_at": "2026-11-02T08:47:39.142494+00:00",
       "outcome": "win",
       "outcome_cn": "中",
       "home_goals": 2,
@@ -1098,14 +1131,21 @@
       "prematch": true,
       "signals": {
         "line_desc": "降盘 2.75->2.5（看小）",
-        "over_desc": "大球降水 1.03->0.95"
+        "over_desc": "大球降水 1.03->0.95",
+        "line_first": 2.75,
+        "line_last": 2.5,
+        "over_first": 1.03,
+        "over_last": 0.95,
+        "under_first": 0.83,
+        "under_last": 0.94
       },
       "reasons": [
         "大小球 降盘 2.75->2.5（看小）",
         "大球降水 1.03->0.95",
         "主队近2场场均总进球 3.0",
         "客队近2场场均总进球 3.0"
-      ]
+      ],
+      "sport": "football"
     },
     {
       "fixture_key": "epl|曼彻斯特城|布莱顿|2026-10-31",
@@ -1117,11 +1157,11 @@
       "pick": "客队（受让 0.75）",
       "side": "away",
       "line": -0.75,
-      "score": 79.1,
+      "score": 76.8,
       "confidence": "strong",
       "id": "epl|曼彻斯特城|布莱顿|2026-10-31",
       "settled": true,
-      "generated_at": "2026-11-02T09:27:03.376327+00:00",
+      "generated_at": "2026-11-02T08:47:39.142494+00:00",
       "outcome": "win",
       "outcome_cn": "中",
       "home_goals": 0,
@@ -1129,7 +1169,13 @@
       "prematch": true,
       "signals": {
         "line_desc": "盘口不变",
-        "water_desc": "主队升水 0.88->0.99"
+        "water_desc": "主队升水 0.88->0.99",
+        "line_first": -0.75,
+        "line_last": -0.75,
+        "home_water_first": 0.88,
+        "home_water_last": 0.99,
+        "away_water_first": 1,
+        "away_water_last": 0.9
       },
       "reasons": [
         "亚盘 盘口不变",
@@ -1137,7 +1183,8 @@
         "主队近2场 0胜0平2负，场均进0.5/失1.5",
         "客队近2场 1胜0平1负，场均进0.5/失1.0",
         "交手1次：主队0胜0平1负"
-      ]
+      ],
+      "sport": "football"
     },
     {
       "fixture_key": "epl|布伦特福德|诺丁汉森林|2026-10-31",
@@ -1149,11 +1196,11 @@
       "pick": "主队（让 0.25）",
       "side": "home",
       "line": -0.25,
-      "score": 71.9,
-      "confidence": "strong",
+      "score": 69.0,
+      "confidence": "watch",
       "id": "epl|布伦特福德|诺丁汉森林|2026-10-31",
       "settled": true,
-      "generated_at": "2026-11-02T09:27:03.376327+00:00",
+      "generated_at": "2026-11-02T08:47:39.142494+00:00",
       "outcome": "win",
       "outcome_cn": "中",
       "home_goals": 2,
@@ -1161,7 +1208,13 @@
       "prematch": true,
       "signals": {
         "line_desc": "降盘 -0.5->-0.25（主队走弱）",
-        "water_desc": "主队降水 1.03->0.8"
+        "water_desc": "主队降水 1.03->0.8",
+        "line_first": -0.5,
+        "line_last": -0.25,
+        "home_water_first": 1.03,
+        "home_water_last": 0.8,
+        "away_water_first": 0.85,
+        "away_water_last": 1.09
       },
       "reasons": [
         "亚盘 降盘 -0.5->-0.25（主队走弱）",
@@ -1169,7 +1222,8 @@
         "主队近2场 1胜1平0负，场均进1.5/失0.5",
         "客队近2场 0胜1平1负，场均进0.5/失1.5",
         "交手1次：主队1胜0平0负"
-      ]
+      ],
+      "sport": "football"
     },
     {
       "fixture_key": "bundesliga|门兴格拉德巴赫|帕德博恩|2026-10-31",
@@ -1181,11 +1235,11 @@
       "pick": "小球（3）",
       "side": "under",
       "line": 3,
-      "score": 80.0,
+      "score": 75.8,
       "confidence": "strong",
       "id": "bundesliga|门兴格拉德巴赫|帕德博恩|2026-10-31",
       "settled": true,
-      "generated_at": "2026-11-02T09:27:03.376327+00:00",
+      "generated_at": "2026-11-02T08:47:39.142494+00:00",
       "outcome": "win",
       "outcome_cn": "中",
       "home_goals": 0,
@@ -1193,14 +1247,21 @@
       "prematch": true,
       "signals": {
         "line_desc": "降盘 3.25->3（看小）",
-        "over_desc": "大球水位平稳"
+        "over_desc": "大球水位平稳",
+        "line_first": 3.25,
+        "line_last": 3,
+        "over_first": 1,
+        "over_last": 0.98,
+        "under_first": 0.86,
+        "under_last": 0.91
       },
       "reasons": [
         "大小球 降盘 3.25->3（看小）",
         "大球水位平稳",
         "主队近2场场均总进球 2.5",
         "客队近2场场均总进球 0.5"
-      ]
+      ],
+      "sport": "football"
     },
     {
       "fixture_key": "bundesliga|奥格斯堡|弗赖堡|2026-10-31",
@@ -1212,11 +1273,11 @@
       "pick": "大球（3）",
       "side": "over",
       "line": 3,
-      "score": 63.3,
+      "score": 61.1,
       "confidence": "watch",
       "id": "bundesliga|奥格斯堡|弗赖堡|2026-10-31",
       "settled": true,
-      "generated_at": "2026-11-02T09:27:03.376327+00:00",
+      "generated_at": "2026-11-02T08:47:39.142494+00:00",
       "outcome": "push",
       "outcome_cn": "走盘",
       "home_goals": 1,
@@ -1224,14 +1285,21 @@
       "prematch": true,
       "signals": {
         "line_desc": "降盘 3.25->3（看小）",
-        "over_desc": "大球降水 0.98->0.83"
+        "over_desc": "大球降水 0.98->0.83",
+        "line_first": 3.25,
+        "line_last": 3,
+        "over_first": 0.98,
+        "over_last": 0.83,
+        "under_first": 0.88,
+        "under_last": 1.06
       },
       "reasons": [
         "大小球 降盘 3.25->3（看小）",
         "大球降水 0.98->0.83",
         "主队近2场场均总进球 2.5",
         "客队近2场场均总进球 3.5"
-      ]
+      ],
+      "sport": "football"
     },
     {
       "fixture_key": "bundesliga|勒沃库森|斯图加特|2026-10-31",
@@ -1243,11 +1311,11 @@
       "pick": "大球（3.75）",
       "side": "over",
       "line": 3.75,
-      "score": 90.0,
+      "score": 85.0,
       "confidence": "strong",
       "id": "bundesliga|勒沃库森|斯图加特|2026-10-31",
       "settled": true,
-      "generated_at": "2026-11-02T09:27:03.376327+00:00",
+      "generated_at": "2026-11-02T08:47:39.142494+00:00",
       "outcome": "win",
       "outcome_cn": "中",
       "home_goals": 2,
@@ -1255,14 +1323,21 @@
       "prematch": true,
       "signals": {
         "line_desc": "盘口不变",
-        "over_desc": "大球降水 1.02->0.96"
+        "over_desc": "大球降水 1.02->0.96",
+        "line_first": 3.75,
+        "line_last": 3.75,
+        "over_first": 1.02,
+        "over_last": 0.96,
+        "under_first": 0.84,
+        "under_last": 0.93
       },
       "reasons": [
         "大小球 盘口不变",
         "大球降水 1.02->0.96",
         "主队近2场场均总进球 4.5",
         "客队近2场场均总进球 5.5"
-      ]
+      ],
+      "sport": "football"
     },
     {
       "fixture_key": "bundesliga|沙尔克04|rb莱比锡|2026-10-31",
@@ -1274,11 +1349,11 @@
       "pick": "客队（让 0.5）",
       "side": "away",
       "line": 0.5,
-      "score": 82.5,
+      "score": 80.0,
       "confidence": "strong",
       "id": "bundesliga|沙尔克04|rb莱比锡|2026-10-31",
       "settled": true,
-      "generated_at": "2026-11-02T09:27:03.376327+00:00",
+      "generated_at": "2026-11-02T08:47:39.142494+00:00",
       "outcome": "win",
       "outcome_cn": "中",
       "home_goals": 0,
@@ -1286,7 +1361,13 @@
       "prematch": true,
       "signals": {
         "line_desc": "盘口不变",
-        "water_desc": "主队升水 0.98->1.03"
+        "water_desc": "主队升水 0.98->1.03",
+        "line_first": 0.5,
+        "line_last": 0.5,
+        "home_water_first": 0.98,
+        "home_water_last": 1.03,
+        "away_water_first": 0.9,
+        "away_water_last": 0.86
       },
       "reasons": [
         "亚盘 盘口不变",
@@ -1294,7 +1375,8 @@
         "主队近2场 0胜1平1负，场均进0.0/失1.0",
         "客队近2场 2胜0平0负，场均进3.0/失0.0",
         "交手1次：主队0胜0平1负"
-      ]
+      ],
+      "sport": "football"
     },
     {
       "fixture_key": "bundesliga|云达不莱梅|霍芬海姆|2026-10-31",
@@ -1306,11 +1388,11 @@
       "pick": "小球（3.25）",
       "side": "under",
       "line": 3.25,
-      "score": 56.7,
+      "score": 57.5,
       "confidence": "watch",
       "id": "bundesliga|云达不莱梅|霍芬海姆|2026-10-31",
       "settled": true,
-      "generated_at": "2026-11-02T09:27:03.376327+00:00",
+      "generated_at": "2026-11-02T08:47:39.142494+00:00",
       "outcome": "win",
       "outcome_cn": "中",
       "home_goals": 2,
@@ -1318,14 +1400,21 @@
       "prematch": true,
       "signals": {
         "line_desc": "盘口不变",
-        "over_desc": "大球升水 0.86->0.91"
+        "over_desc": "大球升水 0.86->0.91",
+        "line_first": 3.25,
+        "line_last": 3.25,
+        "over_first": 0.86,
+        "over_last": 0.91,
+        "under_first": 1,
+        "under_last": 0.98
       },
       "reasons": [
         "大小球 盘口不变",
         "大球升水 0.86->0.91",
         "主队近2场场均总进球 3.5",
         "客队近2场场均总进球 2.5"
-      ]
+      ],
+      "sport": "football"
     },
     {
       "fixture_key": "seriea|博洛尼亚|蒙扎|2026-10-31",
@@ -1337,11 +1426,11 @@
       "pick": "主队（让 0.75）",
       "side": "home",
       "line": -0.75,
-      "score": 82.5,
+      "score": 80.0,
       "confidence": "strong",
       "id": "seriea|博洛尼亚|蒙扎|2026-10-31",
       "settled": true,
-      "generated_at": "2026-11-02T09:27:03.376327+00:00",
+      "generated_at": "2026-11-02T08:47:39.142494+00:00",
       "outcome": "half_win",
       "outcome_cn": "半赢",
       "home_goals": 2,
@@ -1349,7 +1438,13 @@
       "prematch": true,
       "signals": {
         "line_desc": "盘口不变",
-        "water_desc": "主队降水 1.02->0.88"
+        "water_desc": "主队降水 1.02->0.88",
+        "line_first": -0.75,
+        "line_last": -0.75,
+        "home_water_first": 1.02,
+        "home_water_last": 0.88,
+        "away_water_first": 0.86,
+        "away_water_last": 1.01
       },
       "reasons": [
         "亚盘 盘口不变",
@@ -1357,7 +1452,8 @@
         "主队近3场 3胜0平0负，场均进2.7/失1.0",
         "客队近3场 0胜0平3负，场均进1.3/失3.0",
         "交手1次：主队1胜0平0负"
-      ]
+      ],
+      "sport": "football"
     },
     {
       "fixture_key": "laliga|莱万特|马德里竞技|2026-10-31",
@@ -1369,11 +1465,11 @@
       "pick": "小球（3.25）",
       "side": "under",
       "line": 3.25,
-      "score": 71.7,
-      "confidence": "strong",
+      "score": 68.3,
+      "confidence": "watch",
       "id": "laliga|莱万特|马德里竞技|2026-10-31",
       "settled": true,
-      "generated_at": "2026-11-02T09:27:03.376327+00:00",
+      "generated_at": "2026-11-02T08:47:39.142494+00:00",
       "outcome": "win",
       "outcome_cn": "中",
       "home_goals": 0,
@@ -1381,14 +1477,21 @@
       "prematch": true,
       "signals": {
         "line_desc": "升盘 3->3.25（看大）",
-        "over_desc": "大球升水 0.99->1.05"
+        "over_desc": "大球升水 0.99->1.05",
+        "line_first": 3,
+        "line_last": 3.25,
+        "over_first": 0.99,
+        "over_last": 1.05,
+        "under_first": 0.87,
+        "under_last": 0.84
       },
       "reasons": [
         "大小球 升盘 3->3.25（看大）",
         "大球升水 0.99->1.05",
         "主队近2场场均总进球 2.5",
         "客队近2场场均总进球 1.5"
-      ]
+      ],
+      "sport": "football"
     },
     {
       "fixture_key": "epl|chelsea|曼彻斯特联|2026-10-31",
@@ -1404,7 +1507,7 @@
       "confidence": "strong",
       "id": "epl|chelsea|曼彻斯特联|2026-10-31",
       "settled": true,
-      "generated_at": "2026-11-02T09:27:03.376327+00:00",
+      "generated_at": "2026-11-02T08:47:39.142494+00:00",
       "outcome": "win",
       "outcome_cn": "中",
       "home_goals": 2,
@@ -1412,14 +1515,21 @@
       "prematch": true,
       "signals": {
         "line_desc": "盘口不变",
-        "over_desc": "大球升水 0.84->0.98"
+        "over_desc": "大球升水 0.84->0.98",
+        "line_first": 3,
+        "line_last": 3,
+        "over_first": 0.84,
+        "over_last": 0.98,
+        "under_first": 1.02,
+        "under_last": 0.91
       },
       "reasons": [
         "大小球 盘口不变",
         "大球升水 0.84->0.98",
         "主队近2场场均总进球 2.0",
         "客队近2场场均总进球 2.5"
-      ]
+      ],
+      "sport": "football"
     }
   ]
 }

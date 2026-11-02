@@ -41,6 +41,78 @@ competitions:
     api_football_id: 2
     win007_id: 103              # 欧冠杯（球探网 sclassid）
 
+  # ---- 世界知名联赛（win007_id 已实测，五大联赛之外扩展） ----
+  # 说明：win007 为默认数据源时只需 win007_id；odds_sport_key / api_football_id
+  # 仅在切换 the-odds-api / API-Football 时需要，届时按各自文档补齐即可。
+  - key: primeira
+    name: 葡萄牙超级联赛
+    cls: league
+    win007_id: 23
+  - key: rpl
+    name: 俄罗斯超级联赛
+    cls: league
+    win007_id: 10
+  - key: superlig
+    name: 土耳其超级联赛
+    cls: league
+    win007_id: 30
+  - key: brasileirao
+    name: 巴西甲级联赛
+    cls: league
+    win007_id: 4
+  - key: argentina
+    name: 阿根廷甲级联赛
+    cls: league
+    win007_id: 2
+  - key: mls
+    name: 美国职业大联盟
+    cls: league
+    win007_id: 21
+  - key: greeksl
+    name: 希腊超级联赛
+    cls: league
+    win007_id: 32
+  - key: denmark
+    name: 丹麦超级联赛
+    cls: league
+    win007_id: 7
+  - key: sweden
+    name: 瑞典超级联赛
+    cls: league
+    win007_id: 26
+  - key: poland
+    name: 波兰超级联赛
+    cls: league
+    win007_id: 6
+
+  # ---- 杯赛 / 国际赛事（含用户新增：亚冠、国家队比赛等） ----
+  - key: afc_cl
+    name: 亚冠精英
+    cls: cup
+    win007_id: 192
+  - key: afc_cl2
+    name: 亚冠二级
+    cls: cup
+    win007_id: 350
+  - key: intl_friendly
+    name: 国家队友谊赛
+    cls: cup                    # 非联赛，按独立口径统计（不混入俱乐部联赛近况）
+    win007_id: 1366
+  - key: europa_league
+    name: 欧洲联赛（欧联杯 / UEFA Europa League）
+    cls: cup
+    odds_sport_key: soccer_uefa_europa_league
+    api_football_id: 3
+    win007_id: 113             # 球探网「欧罗巴杯」sclassid
+
+  # ---- 篮球（NBA，独立口径） ----
+  - key: nba
+    name: NBA 美国职业篮球联赛
+    cls: league
+    sport: basketball          # 篮球：让分/总分，结算不走 0.25/0.75 亚洲盘拆腿
+    odds_sport_key: basketball_nba   # the-odds-api 的 NBA spreads/totals
+    basketball_id: 3           # 球探网篮球联赛 id（NBA）
+
 odds:
   # the-odds-api 拿这些博彩公司的赔率（取第一个可用的作为代表盘口）
   bookmakers:
@@ -64,18 +136,23 @@ analysis:
   h2h_matches: 5
   # 临场窗口：最新水位快照落在开赛前 N 小时内算「临场」，看板与命中率只统计强推+临场
   prematch_hours: 2
+  # 出推荐窗口：只在开赛前 N 小时内出推荐（更早的场次不进看板/账本）。
+  # 配合 6h/2h 两档：6h 内开始上架，2h 内算临场强推。
+  publish_hours: 6
   weights:
     handicap:                  # 亚盘(让球)推荐权重
       water_move: 0.30         # 临场水位变动（降水/升水）
       line_move: 0.20          # 盘口升/降（让球数变化）
-      form: 0.25               # 近期状态（同口径）
+      form: 0.20               # 近期状态（同口径）
       h2h: 0.10                # 历史交手
-      home_away: 0.15          # 主客场
+      home_away: 0.10          # 主客场
+      h2h_line: 0.10           # 历史交手盘口覆盖（结合过往比赛盘口）
     totals:                    # 大小球推荐权重
       water_move: 0.30         # 大/小水位变动
       line_move: 0.20          # 盘口升/降（2.5->3 等）
-      attacking_form: 0.30     # 双方进攻效率
-      defensive_form: 0.20     # 双方防守/失球
+      attacking_form: 0.25     # 双方进攻效率
+      defensive_form: 0.15     # 双方防守/失球
+      h2h_total: 0.10          # 历史交手大小球覆盖（结合过往比赛盘口）
   thresholds:
     strong: 70                 # 分数 >= 70 -> 强推
     watch: 55                  # 分数 >= 55 -> 可关注，否则观望
@@ -87,16 +164,126 @@ sources:
   fixtures: win007             # api-football | win007（win007 则赛程/结果也走球探网，免 key）
   crown_url: ""                # 皇冠盘 HTML 地址（或本地文件路径），odds=crown 时填写
   win007_url: "https://m.ewin007.com/Schedule.htm?date={date}"   # 球探网移动版赛程页（含亚盘盘口+大小球盘口）
+  # 篮球（NBA）：让分/总分赔率走 the-odds-api（需 THE_ODDS_API_KEY）；赛程/结果走球探网篮球（免 key）
+  basketball_odds: the-odds-api
+  basketball_url: "https://bdata.7m.com.cn/basketball_match_data/3/big/match_list.js"
 
-# 皇冠(中文)队名 -> API-Football(英文)队名，用于把抓取结果与历史战绩对齐。
-# 按你实际数据源补齐。
+# 队名映射：球探网中文队名 -> 英文队名（the-odds-api / API-Football 用）。
+# 默认数据源是球探网(win007)时赔率与结果都是中文、自洽，本映射只在切换英文源时用于对齐；
+# 未映射到的队会保持中文，导致近况/交手匹配不全。英文名用 ASCII（norm_team 会去掉 ö 等非 ASCII 字符）。
 team_name_map:
-  皇家马德里: Real Madrid
-  拜仁慕尼黑: Bayern Munich
+  # --- 英超 / 英冠 ---
   阿森纳: Arsenal
   切尔西: Chelsea
   利物浦: Liverpool
-  曼城: Man City
+  曼彻斯特城: Manchester City
+  曼彻斯特联: Manchester United
+  托特纳姆热刺: Tottenham Hotspur
+  阿斯顿维拉: Aston Villa
+  伯恩茅斯: Bournemouth
+  布伦特福德: Brentford
+  布莱顿: Brighton
+  水晶宫: Crystal Palace
+  富勒姆: Fulham
+  利兹联: Leeds United
+  诺丁汉森林: Nottingham Forest
+  伊普斯维奇: Ipswich Town
+  考文垂: Coventry City
+  桑德兰: Sunderland
+  赫尔城: Hull City
+  # --- 西甲 ---
+  皇家马德里: Real Madrid
+  巴塞罗那: Barcelona
+  马德里竞技: Atletico Madrid
+  塞维利亚: Sevilla
+  巴伦西亚: Valencia
+  皇家贝蒂斯: Real Betis
+  皇家社会: Real Sociedad
+  毕尔巴鄂竞技: Athletic Bilbao
+  塞尔塔: Celta Vigo
+  巴列卡诺: Rayo Vallecano
+  赫塔菲: Getafe
+  阿拉维斯: Alaves
+  埃尔切: Elche
+  莱万特: Levante
+  马拉加: Malaga
+  桑坦德竞技: Racing Santander
+  # --- 德甲 ---
+  拜仁慕尼黑: Bayern Munich
+  多特蒙德: Borussia Dortmund
+  RB莱比锡: RB Leipzig
+  勒沃库森: Bayer Leverkusen
+  法兰克福: Eintracht Frankfurt
+  斯图加特: Stuttgart
+  云达不莱梅: Werder Bremen
+  霍芬海姆: Hoffenheim
+  奥格斯堡: Augsburg
+  弗赖堡: Freiburg
+  柏林联合: Union Berlin
+  科隆: FC Koln
+  沙尔克04: Schalke 04
+  汉堡: Hamburger SV
+  门兴格拉德巴赫: Borussia Monchengladbach
+  帕德博恩: Paderborn
+  # --- 意甲 ---
+  AC米兰: AC Milan
+  国际米兰: Inter Milan
+  尤文图斯: Juventus
+  那不勒斯: Napoli
+  罗马: Roma
+  拉齐奥: Lazio
+  乌迪内斯: Udinese
+  都灵: Torino
+  博洛尼亚: Bologna
+  热那亚: Genoa
+  莱切: Lecce
+  卡利亚里: Cagliari
+  蒙扎: Monza
+  科莫: Como
+  威尼斯: Venezia
+  弗洛西诺尼: Frosinone
+  # --- 法甲 ---
+  巴黎FC: Paris FC
+  马赛: Marseille
+  里昂: Lyon
+  摩纳哥: Monaco
+  图卢兹: Toulouse
+  斯特拉斯堡: Strasbourg
+  欧塞尔: Auxerre
+  特鲁瓦: Troyes
+  勒芒: Le Mans
+  昂热: Angers
+  # --- NBA（球探网篮球繁体队名 -> 英文队名，30 队） ---
+  洛杉磯湖人: Los Angeles Lakers
+  芝加哥公牛: Chicago Bulls
+  波士頓塞爾特人: Boston Celtics
+  阿特蘭大鷹: Atlanta Hawks
+  布魯克林籃網: Brooklyn Nets
+  克里夫蘭騎士: Cleveland Cavaliers
+  夏洛特黃蜂: Charlotte Hornets
+  紐約人: New York Knicks
+  底特律活塞: Detroit Pistons
+  邁亞密熱火: Miami Heat
+  費城七十六人: Philadelphia 76ers
+  多倫多速龍: Toronto Raptors
+  印第安納溜馬: Indiana Pacers
+  密爾沃基公鹿: Milwaukee Bucks
+  奧蘭多魔術: Orlando Magic
+  華盛頓巫師: Washington Wizards
+  奧克拉荷馬雷霆: Oklahoma City Thunder
+  明尼蘇達木狼: Minnesota Timberwolves
+  丹佛金塊: Denver Nuggets
+  波特蘭拓荒者: Portland Trail Blazers
+  猶他爵士: Utah Jazz
+  鳳凰城太陽: Phoenix Suns
+  薩克拉門托帝王: Sacramento Kings
+  洛杉磯快艇: Los Angeles Clippers
+  金州勇士: Golden State Warriors
+  聖安東尼奧馬刺: San Antonio Spurs
+  達拉斯獨行俠: Dallas Mavericks
+  侯斯頓火箭: Houston Rockets
+  孟菲斯灰熊: Memphis Grizzlies
+  新奧爾良鵜鶘: New Orleans Pelicans
 
 # 抓取器 profile：接真实站点时改这里的列/字段顺序，不用改代码
 scrapers:

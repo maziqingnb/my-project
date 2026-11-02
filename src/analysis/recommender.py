@@ -54,6 +54,12 @@ def recommend_handicap(comp, cfg: dict, results: list[Result],
     af = F.form_stats(results, away, cfg["analysis"]["form_matches"])
     h2h = F.h2h_stats(results, home, away, cfg["analysis"]["h2h_matches"])
     ha = F.home_away_stats(results, home, away)
+    h2hl = F.h2h_line_stats(results, home, away, cfg["analysis"]["h2h_matches"])
+
+    # 历史盘口覆盖：当前主队在历史交锋里打穿盘口的次数占比（相对客队）
+    h2h_line_signal = 0.0
+    if h2hl["meetings"]:
+        h2h_line_signal = (h2hl["home_cover"] - h2hl["away_cover"]) / h2hl["meetings"]
 
     w = cfg["analysis"]["weights"]["handicap"]
     combined = (
@@ -62,6 +68,7 @@ def recommend_handicap(comp, cfg: dict, results: list[Result],
         + w["form"] * _form_signal(hf, af)
         + w["h2h"] * _h2h_signal(h2h)
         + w["home_away"] * _home_away_signal(ha)
+        + w.get("h2h_line", 0.0) * h2h_line_signal
     )
 
     side = "home" if combined >= 0 else "away"
@@ -84,6 +91,11 @@ def recommend_handicap(comp, cfg: dict, results: list[Result],
         f"客队近{af['played']}场 {af['wins']}胜{af['draws']}平{af['losses']}负，场均进{af['avg_gf']:.1f}/失{af['avg_ga']:.1f}",
         f"交手{h2h['meetings']}次：主队{h2h['home_wins']}胜{h2h['draws']}平{h2h['away_wins']}负",
     ]
+    if h2hl["meetings"]:
+        reasons.append(
+            f"历史交锋盘口覆盖：主队{h2hl['home_cover']}次打穿/客队{h2hl['away_cover']}次打穿"
+            f"（均线 {h2hl['avg_line']:+.2f}）"
+        )
 
     history = [
         {"ts": s.ts, "handicap_line": s.handicap_line,
@@ -96,7 +108,10 @@ def recommend_handicap(comp, cfg: dict, results: list[Result],
         home=home, away=away, kickoff=snaps[-1].kickoff,
         market="handicap", pick=pick, side=side, line=line, confidence=conf,
         score=round(score, 1), reasons=reasons,
-        signals=dict(line_desc=sig["line_desc"], water_desc=sig["water_desc"]),
+        signals=dict(line_desc=sig["line_desc"], water_desc=sig["water_desc"],
+                     line_first=sig["line_first"], line_last=sig["line_last"],
+                     home_water_first=sig["home_water_first"], home_water_last=sig["home_water_last"],
+                     away_water_first=sig["away_water_first"], away_water_last=sig["away_water_last"]),
         history=history,
     )
 
@@ -110,6 +125,12 @@ def recommend_totals(comp, cfg: dict, results: list[Result],
     home, away = snaps[-1].home, snaps[-1].away
     hf = F.form_stats(results, home, cfg["analysis"]["form_matches"])
     af = F.form_stats(results, away, cfg["analysis"]["form_matches"])
+    h2ht = F.h2h_totals_stats(results, home, away, cfg["analysis"]["h2h_matches"])
+
+    # 历史交手大小球覆盖：大球次数越多越偏向大球
+    h2h_total_signal = 0.0
+    if h2ht["meetings"]:
+        h2h_total_signal = (h2ht["over"] - h2ht["under"]) / h2ht["meetings"]
 
     # 进攻：双方场均进球之和；防守：双方场均失球之和（相对 2.6 的基线）
     attack = (hf["avg_gf"] + af["avg_gf"] - 2.6) / 0.9
@@ -121,6 +142,7 @@ def recommend_totals(comp, cfg: dict, results: list[Result],
         + w["line_move"] * sig["line_signal"]
         + w["attacking_form"] * _clamp(attack)
         + w["defensive_form"] * _clamp(defense)
+        + w.get("h2h_total", 0.0) * h2h_total_signal
     )
 
     side = "over" if combined >= 0 else "under"
@@ -128,7 +150,10 @@ def recommend_totals(comp, cfg: dict, results: list[Result],
     conf = _confidence(score, cfg["analysis"]["thresholds"])
 
     line = sig["line_last"] if sig["line_last"] is not None else 2.5
-    pick = f"{'大球' if side == 'over' else '小球'}（{line:g}）"
+    if comp.sport == "basketball":
+        pick = f"{'大分' if side == 'over' else '小分'}（{line:g}）"
+    else:
+        pick = f"{'大球' if side == 'over' else '小球'}（{line:g}）"
 
     reasons = [
         f"大小球 {sig['line_desc']}",
@@ -136,6 +161,10 @@ def recommend_totals(comp, cfg: dict, results: list[Result],
         f"主队近{hf['played']}场场均总进球 {hf['avg_total']:.1f}",
         f"客队近{af['played']}场场均总进球 {af['avg_total']:.1f}",
     ]
+    if h2ht["meetings"]:
+        reasons.append(
+            f"历史交锋大小球：{h2ht['over']}次大/{h2ht['under']}次小（均线 {h2ht['avg_line']:.2f}）"
+        )
 
     history = [
         {"ts": s.ts, "total_line": s.total_line, "over": s.over, "under": s.under}
@@ -147,7 +176,10 @@ def recommend_totals(comp, cfg: dict, results: list[Result],
         home=home, away=away, kickoff=snaps[-1].kickoff,
         market="totals", pick=pick, side=side, line=line, confidence=conf,
         score=round(score, 1), reasons=reasons,
-        signals=dict(line_desc=sig["line_desc"], over_desc=sig["over_desc"]),
+        signals=dict(line_desc=sig["line_desc"], over_desc=sig["over_desc"],
+                     line_first=sig["line_first"], line_last=sig["line_last"],
+                     over_first=sig["over_first"], over_last=sig["over_last"],
+                     under_first=sig["under_first"], under_last=sig["under_last"]),
         history=history,
     )
 

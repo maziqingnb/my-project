@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T09:27:03.380887+00:00",
+  "generated_at": "2026-11-02T08:47:39.148539+00:00",
   "total_missed": 7,
   "days": [
     {
@@ -12,19 +12,31 @@
           "away": "那不勒斯",
           "kickoff": "2026-11-01T19:45:00",
           "market": "totals",
+          "sport": "football",
           "pick": "大球（2.5）",
           "side": "over",
           "line": 2.5,
-          "score": 80.7,
+          "score": 78.1,
           "confidence": "strong",
           "outcome": "loss",
           "outcome_cn": "没中",
           "home_goals": 2,
           "away_goals": 0,
+          "book": "盘口 2.5 → 2.5，水位 大1.00/小0.88 → 大0.92/小0.96",
+          "diagnosis": [
+            "盘口 2.5 → 2.5，水位 大1.00/小0.88 → 大0.92/小0.96",
+            "最终总进球 2，相对盘口 2.5 偏小"
+          ],
           "note": "大球（2.5） · 最终 2-0（总进球 2），未打出",
           "signals": {
             "line_desc": "盘口不变",
-            "over_desc": "大球降水 1->0.92"
+            "over_desc": "大球降水 1->0.92",
+            "line_first": 2.5,
+            "line_last": 2.5,
+            "over_first": 1,
+            "over_last": 0.92,
+            "under_first": 0.88,
+            "under_last": 0.96
           },
           "reasons": [
             "大小球 盘口不变",
@@ -39,6 +51,7 @@
           "away": "Arsenal",
           "kickoff": "2026-11-01T16:30:00",
           "market": "handicap",
+          "sport": "football",
           "pick": "主队（受让 0.25）",
           "side": "home",
           "line": 0.25,
@@ -48,10 +61,21 @@
           "outcome_cn": "没中",
           "home_goals": 0,
           "away_goals": 1,
+          "book": "盘口 主受让0.25 → 主受让0.25，水位 主0.99/0.89 → 主0.80/1.09",
+          "diagnosis": [
+            "盘口 主受让0.25 → 主受让0.25，水位 主0.99/0.89 → 主0.80/1.09",
+            "最终 0-1，推荐侧相对盘口 -0.75 球（未打穿）"
+          ],
           "note": "主队（受让 0.25） · 最终 0-1（主队净胜 -1），未打穿",
           "signals": {
             "line_desc": "盘口不变",
-            "water_desc": "主队降水 0.99->0.8"
+            "water_desc": "主队降水 0.99->0.8",
+            "line_first": 0.25,
+            "line_last": 0.25,
+            "home_water_first": 0.99,
+            "home_water_last": 0.8,
+            "away_water_first": 0.89,
+            "away_water_last": 1.09
           },
           "reasons": [
             "亚盘 盘口不变",
@@ -67,19 +91,31 @@
           "away": "Real Madrid",
           "kickoff": "2026-11-01T15:15:00",
           "market": "totals",
+          "sport": "football",
           "pick": "大球（4）",
           "side": "over",
           "line": 4,
-          "score": 78.9,
+          "score": 76.7,
           "confidence": "strong",
           "outcome": "loss",
           "outcome_cn": "没中",
           "home_goals": 0,
           "away_goals": 3,
+          "book": "盘口 4 → 4，水位 大1.03/小0.83 → 大0.97/小0.92",
+          "diagnosis": [
+            "盘口 4 → 4，水位 大1.03/小0.83 → 大0.97/小0.92",
+            "最终总进球 3，相对盘口 4 偏小"
+          ],
           "note": "大球（4） · 最终 0-3（总进球 3），未打出",
           "signals": {
             "line_desc": "盘口不变",
-            "over_desc": "大球降水 1.03->0.97"
+            "over_desc": "大球降水 1.03->0.97",
+            "line_first": 4,
+            "line_last": 4,
+            "over_first": 1.03,
+            "over_last": 0.97,
+            "under_first": 0.83,
+            "under_last": 0.92
           },
           "reasons": [
             "大小球 盘口不变",
@@ -94,19 +130,32 @@
           "away": "都灵",
           "kickoff": "2026-11-01T14:00:00",
           "market": "totals",
+          "sport": "football",
           "pick": "大球（3.5）",
           "side": "over",
           "line": 3.5,
-          "score": 70.0,
-          "confidence": "strong",
+          "score": 65.0,
+          "confidence": "watch",
           "outcome": "loss",
           "outcome_cn": "没中",
           "home_goals": 2,
           "away_goals": 0,
+          "book": "盘口 3 → 3.5，水位 大0.85/小1.03 → 大1.00/小0.88",
+          "diagnosis": [
+            "盘口 3 → 3.5，水位 大0.85/小1.03 → 大1.00/小0.88",
+            "最终总进球 2，相对盘口 3.5 偏小",
+            "大球升水（资金偏向小球）却推大球，水位信号与方向背离"
+          ],
           "note": "大球（3.5） · 最终 2-0（总进球 2），未打出",
           "signals": {
             "line_desc": "升盘 3->3.5（看大）",
-            "over_desc": "大球升水 0.85->1"
+            "over_desc": "大球升水 0.85->1",
+            "line_first": 3,
+            "line_last": 3.5,
+            "over_first": 0.85,
+            "over_last": 1,
+            "under_first": 1.03,
+            "under_last": 0.88
           },
           "reasons": [
             "大小球 升盘 3->3.5（看大）",
@@ -127,19 +176,32 @@
           "away": "马拉加",
           "kickoff": "2026-10-31T17:30:00",
           "market": "handicap",
+          "sport": "football",
           "pick": "主队（让 1.5）",
           "side": "home",
           "line": -1.5,
-          "score": 90.0,
+          "score": 87.5,
           "confidence": "strong",
           "outcome": "loss",
           "outcome_cn": "没中",
           "home_goals": 2,
           "away_goals": 1,
+          "book": "盘口 主让1.25 → 主让1.5，水位 主0.92/0.96 → 主0.87/1.02",
+          "diagnosis": [
+            "盘口 主让1.25 → 主让1.5，水位 主0.92/0.96 → 主0.87/1.02",
+            "最终 2-1，推荐侧相对盘口 -0.50 球（未打穿）",
+            "初盘→临场升盘仍推主队：盘口已偏深，注意「升盘陷阱」"
+          ],
           "note": "主队（让 1.5） · 最终 2-1（主队净胜 1），未打穿",
           "signals": {
             "line_desc": "升盘 -1.25->-1.5（主队走强）",
-            "water_desc": "主队降水 0.92->0.87"
+            "water_desc": "主队降水 0.92->0.87",
+            "line_first": -1.25,
+            "line_last": -1.5,
+            "home_water_first": 0.92,
+            "home_water_last": 0.87,
+            "away_water_first": 0.96,
+            "away_water_last": 1.02
           },
           "reasons": [
             "亚盘 升盘 -1.25->-1.5（主队走强）",
@@ -155,6 +217,7 @@
           "away": "多特蒙德",
           "kickoff": "2026-10-31T17:30:00",
           "market": "totals",
+          "sport": "football",
           "pick": "小球（3.75）",
           "side": "under",
           "line": 3.75,
@@ -164,6 +227,11 @@
           "outcome_cn": "半输",
           "home_goals": 2,
           "away_goals": 2,
+          "book": "盘口信息缺失",
+          "diagnosis": [
+            "盘口信息缺失",
+            "最终总进球 4，相对盘口 3.75 偏大"
+          ],
           "note": "小球（3.75） · 最终 2-2（总进球 4），未打出",
           "signals": {},
           "reasons": []
@@ -174,19 +242,31 @@
           "away": "塞尔塔",
           "kickoff": "2026-10-31T15:15:00",
           "market": "totals",
+          "sport": "football",
           "pick": "小球（2.25）",
           "side": "under",
           "line": 2.25,
-          "score": 75.6,
+          "score": 74.2,
           "confidence": "strong",
           "outcome": "loss",
           "outcome_cn": "没中",
           "home_goals": 3,
           "away_goals": 0,
+          "book": "盘口 2.25 → 2.25，水位 大0.81/小1.05 → 大0.98/小0.91",
+          "diagnosis": [
+            "盘口 2.25 → 2.25，水位 大0.81/小1.05 → 大0.98/小0.91",
+            "最终总进球 3，相对盘口 2.25 偏大"
+          ],
           "note": "小球（2.25） · 最终 3-0（总进球 3），未打出",
           "signals": {
             "line_desc": "盘口不变",
-            "over_desc": "大球升水 0.81->0.98"
+            "over_desc": "大球升水 0.81->0.98",
+            "line_first": 2.25,
+            "line_last": 2.25,
+            "over_first": 0.81,
+            "over_last": 0.98,
+            "under_first": 1.05,
+            "under_last": 0.91
           },
           "reasons": [
             "大小球 盘口不变",

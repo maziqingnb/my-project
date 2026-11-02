@@ -3,7 +3,7 @@ from __future__ import annotations
 
 from datetime import datetime, timedelta, timezone
 
-_MARKET = {"handicap": "亚盘", "totals": "大小球"}
+from ..models import market_cn
 
 
 def _kickoff(iso: str) -> str:
@@ -36,7 +36,7 @@ def build_content(report: dict) -> str:
             return []
         out = ["", f"**{section_title}**"]
         for i, r in enumerate(items, 1):
-            mkt = _MARKET.get(r["market"], r["market"])
+            mkt = market_cn(r["market"], r.get("sport", "football"))
             tag = "🏆杯赛 " if r["competition_class"] == "cup" else ""
             ko = _kickoff(r.get("kickoff", ""))
             sig = (r.get("signals") or {}).get("water_desc") \

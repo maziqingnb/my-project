@@ -7,10 +7,10 @@ from .. import config as C
 from ..storage import append_odds_snapshot
 
 
-def sync_odds(cfg: dict, client) -> None:
+def sync_odds(cfg: dict, client_of) -> None:
     total = 0
     for comp in cfg["competitions"]:
-        snaps = client.fetch_odds(comp)
+        snaps = client_of(comp).fetch_odds(comp)
         for s in snaps:
             append_odds_snapshot(C.ODDS_DIR, asdict(s))
         total += len(snaps)

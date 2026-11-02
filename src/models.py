@@ -20,6 +20,13 @@ def norm_team(name: str) -> str:
     return s
 
 
+def market_cn(market: str, sport: str = "football") -> str:
+    """盘口中文名：足球叫「亚盘/大小球」，篮球叫「让分/总分」。"""
+    if sport == "basketball":
+        return {"handicap": "让分", "totals": "总分"}.get(market, market)
+    return {"handicap": "亚盘", "totals": "大小球"}.get(market, market)
+
+
 def fixture_key(competition: str, home: str, away: str, kickoff_iso: str) -> str:
     """比赛唯一键：联赛 + 主队 + 客队 + 开赛日期。
 
@@ -38,6 +45,8 @@ class Competition:
     odds_sport_key: Optional[str] = None
     api_football_id: Optional[int] = None
     win007_id: Optional[int] = None  # 球探网 sclassid（英超36 西甲31 德甲8 意甲34 法甲11）
+    sport: str = "football"         # "football" | "basketball"（NBA 等，结算口径不同）
+    basketball_id: Optional[int] = None  # 球探网篮球联赛 id（NBA=3）
 
 
 @dataclass
@@ -61,6 +70,10 @@ class Result:
     home_goals: int
     away_goals: int
     date: str
+    # 历史盘口（可选）：过往比赛的亚盘让球线（主队视角，负=主让）与大小球线。
+    # 用于「分析结合过往比赛盘口」——看历史交锋/近况里盘口是否被打穿。
+    handicap_line: Optional[float] = None
+    total_line: Optional[float] = None
 
 
 @dataclass

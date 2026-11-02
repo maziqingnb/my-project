@@ -308,11 +308,32 @@ class Win007Client(OddsClient, FixturesClient):
                     home=m["home"], away=m["away"],
                     home_goals=m["home_goals"], away_goals=m["away_goals"],
                     date=m["kickoff"][:10],
+                    handicap_line=m["handicap_line"],   # 完场时盘口 = 该场最终让球线
+                    total_line=m["total_line"],         # 完场时大小球线
                 ))
         return results
 
     def fetch_lineup(self, comp: Competition, fixture: Fixture) -> Lineup | None:
         return None          # 阵容在分析页另一部分，暂未接入
+
+    # ------------------------------------------------------------ 联赛发现
+    def discover_leagues(self, day: str | None = None) -> list[tuple[str, str]]:
+        """解析赛程页里的 sclassDataStr（联赛表），返回 [(联赛名, sclassid), ...]。
+
+        用于给任意联赛/杯赛查球探网 ID，方便往 config.yaml 里「植入」更多联赛。
+        day 为 None 时用今天；欧冠/欧联等杯赛要在其比赛日抓才有。
+        """
+        day = day or datetime.now(timezone.utc).strftime("%Y-%m-%d")
+        html = self._fetch(self.base_url.replace("{date}", day))
+        m = re.search(r'var sclassDataStr = "(.*?)";', html, re.S)
+        if not m:
+            return []
+        seen: dict[str, str] = {}
+        for seg in m.group(1).split("!"):
+            f = seg.split("^")
+            if len(f) >= 2 and f[0].strip() and (f[1] or "").strip().isdigit():
+                seen.setdefault(f[1].strip(), f[0].strip())
+        return sorted(seen.items(), key=lambda kv: int(kv[0]))
 
     def _map(self, name: str) -> str:
         return self.team_name_map.get(name, name)

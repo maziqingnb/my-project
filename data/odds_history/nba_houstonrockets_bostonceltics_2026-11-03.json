@@ -1,0 +1,32 @@
+[
+  {
+    "fixture_key": "nba|houstonrockets|bostonceltics|2026-11-03",
+    "competition": "nba",
+    "home": "Houston Rockets",
+    "away": "Boston Celtics",
+    "kickoff": "2026-11-03T01:40:00Z",
+    "bookmaker": "unibet",
+    "ts": "2026-11-02T08:38:57.645912+00:00",
+    "handicap_line": -5.5,
+    "handicap_home": 2.05,
+    "handicap_away": 1.78,
+    "total_line": null,
+    "over": null,
+    "under": null
+  },
+  {
+    "fixture_key": "nba|houstonrockets|bostonceltics|2026-11-03",
+    "competition": "nba",
+    "home": "Houston Rockets",
+    "away": "Boston Celtics",
+    "kickoff": "2026-11-03T01:40:00Z",
+    "bookmaker": "pinnacle",
+    "ts": "2026-11-02T08:38:57.645912+00:00",
+    "handicap_line": -5.0,
+    "handicap_home": 1.99,
+    "handicap_away": 1.9,
+    "total_line": 219.0,
+    "over": 1.93,
+    "under": 1.93
+  }
+]

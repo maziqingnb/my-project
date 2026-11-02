@@ -1,0 +1,32 @@
+[
+  {
+    "fixture_key": "nba|losangeleslakers|miamiheat|2026-11-03",
+    "competition": "nba",
+    "home": "Los Angeles Lakers",
+    "away": "Miami Heat",
+    "kickoff": "2026-11-03T03:10:00Z",
+    "bookmaker": "unibet",
+    "ts": "2026-11-02T08:38:57.645912+00:00",
+    "handicap_line": -1.5,
+    "handicap_home": 1.9,
+    "handicap_away": 1.92,
+    "total_line": null,
+    "over": null,
+    "under": null
+  },
+  {
+    "fixture_key": "nba|losangeleslakers|miamiheat|2026-11-03",
+    "competition": "nba",
+    "home": "Los Angeles Lakers",
+    "away": "Miami Heat",
+    "kickoff": "2026-11-03T03:10:00Z",
+    "bookmaker": "pinnacle",
+    "ts": "2026-11-02T08:38:57.645912+00:00",
+    "handicap_line": -2.0,
+    "handicap_home": 1.89,
+    "handicap_away": 1.99,
+    "total_line": 237.5,
+    "over": 1.95,
+    "under": 1.92
+  }
+]

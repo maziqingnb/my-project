@@ -51,8 +51,13 @@ def _win007_client(cfg: dict, scrapers: dict, name_map: dict):
 
 
 def make_clients(cfg: dict, demo: bool):
+    """返回 {sport: {"odds": OddsClient, "fixtures": FixturesClient}}。
+
+    足球走 sources.odds / sources.fixtures（默认 win007 免 key）；
+    篮球（NBA）让分/总分走 the-odds-api，赛程/结果走球探网篮球（免 key）。
+    """
     if demo:
-        return MockOdds(), MockFixtures()
+        return {"football": {"odds": MockOdds(), "fixtures": MockFixtures()}}
 
     scrapers = cfg.get("scrapers") or {}
     name_map = cfg.get("team_name_map") or {}
@@ -71,7 +76,25 @@ def make_clients(cfg: dict, demo: bool):
         odds = TheOddsApi(cfg["api_keys"]["the_odds_api"], cfg["odds"]["bookmakers"], cfg["odds"]["markets"])
 
     fixtures = win if fx_src == "win007" else ApiFootball(cfg["api_keys"]["api_football"])
-    return odds, fixtures
+
+    # 篮球（NBA）：赔率用 the-odds-api 的 spreads/totals；结果用球探网篮球 match_list.js
+    from src.adapters.basketball_7m import Basketball7mClient
+    bball_odds = TheOddsApi(cfg["api_keys"]["the_odds_api"],
+                            cfg["odds"]["bookmakers"], ["spreads", "totals"])
+    bball_fixtures = Basketball7mClient(sources.get("basketball_url", ""), name_map)
+
+    return {
+        "football": {"odds": odds, "fixtures": fixtures},
+        "basketball": {"odds": bball_odds, "fixtures": bball_fixtures},
+    }
+
+
+def _client_of(clients: dict, kind: str):
+    """返回一个 comp -> client 的解析器（按 comp.sport 路由到对应数据源）。"""
+    def pick(comp):
+        bucket = clients.get(getattr(comp, "sport", "football"), clients["football"])
+        return bucket[kind]
+    return pick
 
 
 def _clear_demo_data() -> None:
@@ -83,16 +106,20 @@ def _clear_demo_data() -> None:
         d.mkdir(parents=True, exist_ok=True)
 
 
-def do_sync(cfg: dict, odds, fixtures, what: str) -> None:
+def do_sync(cfg: dict, clients: dict, what: str) -> None:
     from src.sync import schedules, odds as odds_sync, lineups as lineups_sync
+    from src.output.render import build_schedule
 
+    fixtures_of = _client_of(clients, "fixtures")
+    odds_of = _client_of(clients, "odds")
     if what in ("fixtures", "all"):
-        schedules.sync_fixtures(cfg, fixtures)
-        schedules.sync_results(cfg, fixtures)
+        schedules.sync_fixtures(cfg, fixtures_of)
+        build_schedule(cfg)      # 未开赛赛程提前展示（不含推荐）
+        schedules.sync_results(cfg, fixtures_of)
     if what in ("odds", "all"):
-        odds_sync.sync_odds(cfg, odds)
+        odds_sync.sync_odds(cfg, odds_of)
     if what in ("lineups", "all"):
-        lineups_sync.sync_lineups(cfg, fixtures)
+        lineups_sync.sync_lineups(cfg, fixtures_of)
 
 
 def load_results(cfg: dict) -> dict[str, list[Result]]:
@@ -167,25 +194,30 @@ def main() -> None:
     np.add_argument("--prematch-hours", type=float, default=None,
                     help="只推 N 小时内开赛的比赛（赛前提醒，每场只推一次）")
 
+    lg = sub.add_parser("leagues", help="发现球探网联赛 ID（给 config.yaml 植入新联赛用）")
+    lg.add_argument("keyword", nargs="?", default=None, help="按联赛名关键字过滤，如「欧联」「亚冠」「NBA」")
+    lg.add_argument("--date", default=None, help="抓取日期（默认今天；杯赛要在其比赛日查）")
+
     args = parser.parse_args()
     cfg = C.load_config()
 
     if args.cmd == "sync":
-        odds, fixtures = make_clients(cfg, args.demo)
-        do_sync(cfg, odds, fixtures, args.what)
+        clients = make_clients(cfg, args.demo)
+        do_sync(cfg, clients, args.what)
     elif args.cmd == "analyze":
         if args.demo:
             _clear_demo_data()
-            odds, fixtures = make_clients(cfg, True)
-            do_sync(cfg, odds, fixtures, "all")   # 演示模式先灌入样例数据
+            clients = make_clients(cfg, True)
+            do_sync(cfg, clients, "all")   # 演示模式先灌入样例数据
         report = do_analyze(cfg, demo=args.demo)
         print(f"\n完成：共 {report['total']} 条推荐，见 data/reports/report.md")
     elif args.cmd == "live":
-        odds, fixtures = make_clients(cfg, False)
+        clients = make_clients(cfg, False)
         from src.sync.live import sync_live_scores
         from src.sync import schedules
-        sync_live_scores(cfg, fixtures)
-        schedules.sync_recent_results(cfg, fixtures, days_back=1)
+        fixtures_of = _client_of(clients, "fixtures")
+        sync_live_scores(cfg, fixtures_of)
+        schedules.sync_recent_results(cfg, fixtures_of, days_back=1)
         do_analyze(cfg)
     elif args.cmd == "review":
         from src.output.review import build_daily_review
@@ -203,6 +235,22 @@ def main() -> None:
             notified_path = C.DATA_DIR / "prematch_notified.json"
             push_report(report, prematch_hours=args.prematch_hours,
                         notified_path=str(notified_path) if args.prematch_hours is not None else None)
+    elif args.cmd == "leagues":
+        win = _win007_client(cfg, cfg.get("scrapers") or {}, cfg.get("team_name_map") or {})
+        try:
+            rows = win.discover_leagues(args.date)
+        except Exception as e:
+            print(f"[联赛发现] 抓取失败：{e}")
+            rows = []
+        kw = (args.keyword or "").strip()
+        if kw:
+            rows = [(n, i) for n, i in rows if kw in n]
+        if not rows:
+            print("未找到联赛（或该日期无数据）。杯赛请在其比赛日查询，如欧联杯比赛日。")
+        else:
+            print(f"共 {len(rows)} 个联赛（名称 => win007_id）：")
+            for name, sid in rows:
+                print(f"  {name} => {sid}")
 
 
 if __name__ == "__main__":

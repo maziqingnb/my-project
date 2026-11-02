@@ -13,10 +13,10 @@ from ..models import to_dicts
 from ..storage import write_json
 
 
-def sync_live_scores(cfg: dict, client) -> dict:
+def sync_live_scores(cfg: dict, client_of) -> dict:
     matches = []
     for comp in cfg["competitions"]:
-        live = client.fetch_live(comp)
+        live = client_of(comp).fetch_live(comp)
         for f in live:
             matches.append({
                 "fixture_key": f.key,

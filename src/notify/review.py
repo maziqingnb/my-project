@@ -1,9 +1,8 @@
 """把每日复盘推送到微信（复用 push 里的渠道装配）。"""
 from __future__ import annotations
 
+from ..models import market_cn
 from .push import _channels
-
-_MARKET = {"handicap": "亚盘", "totals": "大小球"}
 
 
 def _build_content(review: dict) -> str:
@@ -15,8 +14,12 @@ def _build_content(review: dict) -> str:
     for day in days[:3]:        # 微信推送只取最近 3 天，避免过长
         lines.append(f"\n**{day['date']}（{day['missed']} 场）**")
         for it in day["items"][:10]:
-            mkt = _MARKET.get(it["market"], it["market"])
+            mkt = market_cn(it["market"], it.get("sport", "football"))
             lines.append(f"- {it['home']} vs {it['away']} · {mkt} {it['pick']} → {it['outcome_cn']}")
+            if it.get("book"):
+                lines.append(f"  盘口：{it['book']}")
+            if it.get("diagnosis"):
+                lines.append(f"  复盘：{'；'.join(it['diagnosis'])}")
     return "\n".join(lines)
 
 

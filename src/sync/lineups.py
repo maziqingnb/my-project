@@ -16,7 +16,7 @@ def _parse_iso(s: str) -> datetime:
     return dt
 
 
-def sync_lineups(cfg: dict, client) -> None:
+def sync_lineups(cfg: dict, client_of) -> None:
     window = cfg["sync"]["lineup_window_hours"]
     now = datetime.now(timezone.utc)
     count = 0
@@ -29,7 +29,7 @@ def sync_lineups(cfg: dict, client) -> None:
             except (ValueError, TypeError):
                 continue
             if now - timedelta(hours=window) <= ko <= now + timedelta(hours=window):
-                lineup = client.fetch_lineup(comp, fx)
+                lineup = client_of(comp).fetch_lineup(comp, fx)
                 if lineup:
                     safe = fx.key.replace("|", "_").replace("/", "_")
                     write_json(C.LINEUPS_DIR / f"{safe}.json", asdict(lineup))
