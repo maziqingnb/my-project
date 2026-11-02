@@ -2,6 +2,17 @@
   {
     "competition": "seriea",
     "cls": "league",
+    "home": "萨索洛",
+    "away": "佛罗伦萨",
+    "home_goals": 1,
+    "away_goals": 1,
+    "date": "2026-11-02",
+    "handicap_line": -0.0,
+    "total_line": 2.75
+  },
+  {
+    "competition": "seriea",
+    "cls": "league",
     "home": "Como",
     "away": "Venezia",
     "home_goals": 1,

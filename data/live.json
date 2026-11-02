@@ -1,55 +1,55 @@
 {
-  "generated_at": "2026-11-02T17:38:42.873673+00:00",
+  "generated_at": "2026-11-02T18:33:58.592489+00:00",
   "matches": [
     {
-      "fixture_key": "seriea|萨索洛|佛罗伦萨|2026-11-02",
-      "competition": "seriea",
-      "home": "萨索洛",
-      "away": "佛罗伦萨",
-      "kickoff": "2026-11-02T17:30:00",
+      "fixture_key": "denmark|桑德捷斯基|哥本哈根|2026-11-02",
+      "competition": "denmark",
+      "home": "桑德捷斯基",
+      "away": "哥本哈根",
+      "kickoff": "2026-11-02T18:00:00",
       "status": "live",
       "home_goals": 0,
-      "away_goals": 0
-    },
-    {
-      "fixture_key": "superlig|根克勒比利吉|阿拉尼亚体育|2026-11-02",
-      "competition": "superlig",
-      "home": "根克勒比利吉",
-      "away": "阿拉尼亚体育",
-      "kickoff": "2026-11-02T17:00:00",
-      "status": "live",
-      "home_goals": 1,
-      "away_goals": 0
-    },
-    {
-      "fixture_key": "greeksl|卡拉玛达|伊拉克里斯|2026-11-02",
-      "competition": "greeksl",
-      "home": "卡拉玛达",
-      "away": "伊拉克里斯",
-      "kickoff": "2026-11-02T17:30:00",
-      "status": "live",
-      "home_goals": 0,
-      "away_goals": 0
-    },
-    {
-      "fixture_key": "poland|拉多麦科|史拉斯科|2026-11-02",
-      "competition": "poland",
-      "home": "拉多麦科",
-      "away": "史拉斯科",
-      "kickoff": "2026-11-02T17:00:00",
-      "status": "live",
-      "home_goals": 1,
       "away_goals": 1
     },
     {
-      "fixture_key": "poland|卢宾扎格勒比|哥罗纳|2026-11-02",
-      "competition": "poland",
-      "home": "卢宾扎格勒比",
-      "away": "哥罗纳",
-      "kickoff": "2026-11-02T17:10:00",
+      "fixture_key": "sweden|哥德堡盖斯|索尔纳|2026-11-02",
+      "competition": "sweden",
+      "home": "哥德堡盖斯",
+      "away": "索尔纳",
+      "kickoff": "2026-11-02T18:00:00",
       "status": "live",
-      "home_goals": 1,
+      "home_goals": 0,
       "away_goals": 0
+    },
+    {
+      "fixture_key": "sweden|米亚尔比|卡尔马|2026-11-02",
+      "competition": "sweden",
+      "home": "米亚尔比",
+      "away": "卡尔马",
+      "kickoff": "2026-11-02T18:00:00",
+      "status": "live",
+      "home_goals": 0,
+      "away_goals": 0
+    },
+    {
+      "fixture_key": "afc_cl|吉达联合|艾因|2026-11-02",
+      "competition": "afc_cl",
+      "home": "吉达联合",
+      "away": "艾因",
+      "kickoff": "2026-11-02T18:15:00",
+      "status": "live",
+      "home_goals": 0,
+      "away_goals": 1
+    },
+    {
+      "fixture_key": "afc_cl|加拉法|卡达西亚|2026-11-02",
+      "competition": "afc_cl",
+      "home": "加拉法",
+      "away": "卡达西亚",
+      "kickoff": "2026-11-02T18:15:00",
+      "status": "live",
+      "home_goals": 0,
+      "away_goals": 1
     }
   ]
 }
