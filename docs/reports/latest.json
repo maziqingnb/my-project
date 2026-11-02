@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-01T22:23:40.710912+00:00",
+  "generated_at": "2026-11-02T00:31:33.780125+00:00",
   "scope": "五大联赛 + 欧冠",
   "note": "杯赛与联赛数据分开计算",
-  "total": 36,
+  "total": 41,
   "stats": {
     "overall": {
       "counts": {
@@ -2903,6 +2903,49 @@
       }
     },
     {
+      "fixture_key": "seriea|亚特兰大|帕尔马|2026-11-02",
+      "competition": "seriea",
+      "home": "亚特兰大",
+      "away": "帕尔马",
+      "kickoff": "2026-11-02T19:45:00",
+      "market": "totals",
+      "pick": "大球（3）",
+      "side": "over",
+      "confidence": "strong",
+      "score": 70.0,
+      "line": 3,
+      "reasons": [
+        "大小球 升盘 2.75->3（看大）",
+        "大球升水 0.98->1.02",
+        "主队近2场场均总进球 6.0",
+        "客队近2场场均总进球 1.5"
+      ],
+      "signals": {
+        "line_desc": "升盘 2.75->3（看大）",
+        "over_desc": "大球升水 0.98->1.02"
+      },
+      "history": [
+        {
+          "ts": "2026-11-01T19:45:00+00:00",
+          "total_line": 2.75,
+          "over": 0.98,
+          "under": 0.9
+        },
+        {
+          "ts": "2026-11-02T00:31:32.103630+00:00",
+          "total_line": 3,
+          "over": 1.02,
+          "under": 0.86
+        }
+      ],
+      "competition_name": "意大利甲级联赛",
+      "competition_class": "league",
+      "prematch": false,
+      "result": {
+        "settled": false
+      }
+    },
+    {
       "fixture_key": "bundesliga|法兰克福|汉堡|2026-11-01",
       "competition": "bundesliga",
       "home": "法兰克福",
@@ -3038,6 +3081,93 @@
       "competition_name": "德国甲级联赛",
       "competition_class": "league",
       "prematch": true,
+      "result": {
+        "settled": false
+      }
+    },
+    {
+      "fixture_key": "ligue1|洛里昂|布雷斯特|2026-11-02",
+      "competition": "ligue1",
+      "home": "洛里昂",
+      "away": "布雷斯特",
+      "kickoff": "2026-11-02T19:45:00",
+      "market": "handicap",
+      "pick": "平手盘",
+      "side": "home",
+      "confidence": "watch",
+      "score": 66.9,
+      "line": 0,
+      "reasons": [
+        "亚盘 盘口不变",
+        "主队降水 0.93->0.78",
+        "主队近1场 0胜1平0负，场均进0.0/失0.0",
+        "客队近1场 0胜0平1负，场均进1.0/失2.0",
+        "交手0次：主队0胜0平0负"
+      ],
+      "signals": {
+        "line_desc": "盘口不变",
+        "water_desc": "主队降水 0.93->0.78"
+      },
+      "history": [
+        {
+          "ts": "2026-11-01T19:45:00+00:00",
+          "handicap_line": 0,
+          "handicap_home": 0.93,
+          "handicap_away": 0.95
+        },
+        {
+          "ts": "2026-11-02T00:31:33.566204+00:00",
+          "handicap_line": 0,
+          "handicap_home": 0.78,
+          "handicap_away": 1.11
+        }
+      ],
+      "competition_name": "法国甲级联赛",
+      "competition_class": "league",
+      "prematch": false,
+      "result": {
+        "settled": false
+      }
+    },
+    {
+      "fixture_key": "epl|纽卡斯尔联|埃弗顿|2026-11-02",
+      "competition": "epl",
+      "home": "纽卡斯尔联",
+      "away": "埃弗顿",
+      "kickoff": "2026-11-02T20:00:00",
+      "market": "totals",
+      "pick": "小球（2.75）",
+      "side": "under",
+      "confidence": "watch",
+      "score": 66.7,
+      "line": 2.75,
+      "reasons": [
+        "大小球 盘口不变",
+        "大球水位平稳",
+        "主队近1场场均总进球 2.0",
+        "客队近1场场均总进球 2.0"
+      ],
+      "signals": {
+        "line_desc": "盘口不变",
+        "over_desc": "大球水位平稳"
+      },
+      "history": [
+        {
+          "ts": "2026-11-01T20:00:00+00:00",
+          "total_line": 2.75,
+          "over": 0.91,
+          "under": 0.95
+        },
+        {
+          "ts": "2026-11-02T00:31:28.506945+00:00",
+          "total_line": 2.75,
+          "over": 0.91,
+          "under": 0.97
+        }
+      ],
+      "competition_name": "英格兰超级联赛",
+      "competition_class": "league",
+      "prematch": false,
       "result": {
         "settled": false
       }
@@ -3806,6 +3936,49 @@
       }
     },
     {
+      "fixture_key": "laliga|拉科鲁尼亚|奥萨苏纳|2026-11-02",
+      "competition": "laliga",
+      "home": "拉科鲁尼亚",
+      "away": "奥萨苏纳",
+      "kickoff": "2026-11-02T20:00:00",
+      "market": "totals",
+      "pick": "小球（2.25）",
+      "side": "under",
+      "confidence": "watch",
+      "score": 60.6,
+      "line": 2.25,
+      "reasons": [
+        "大小球 盘口不变",
+        "大球水位平稳",
+        "主队近1场场均总进球 1.0",
+        "客队近1场场均总进球 2.0"
+      ],
+      "signals": {
+        "line_desc": "盘口不变",
+        "over_desc": "大球水位平稳"
+      },
+      "history": [
+        {
+          "ts": "2026-11-01T20:00:00+00:00",
+          "total_line": 2.25,
+          "over": 0.97,
+          "under": 0.91
+        },
+        {
+          "ts": "2026-11-02T00:31:29.661930+00:00",
+          "total_line": 2.25,
+          "over": 0.96,
+          "under": 0.92
+        }
+      ],
+      "competition_name": "西班牙甲级联赛",
+      "competition_class": "league",
+      "prematch": false,
+      "result": {
+        "settled": false
+      }
+    },
+    {
       "fixture_key": "seriea|ac米兰|国际米兰|2026-10-31",
       "competition": "seriea",
       "home": "AC米兰",
@@ -3923,6 +4096,50 @@
         "home_goals": 3,
         "away_goals": 1,
         "settled": true
+      }
+    },
+    {
+      "fixture_key": "seriea|萨索洛|佛罗伦萨|2026-11-02",
+      "competition": "seriea",
+      "home": "萨索洛",
+      "away": "佛罗伦萨",
+      "kickoff": "2026-11-02T17:30:00",
+      "market": "handicap",
+      "pick": "客队（让 0.25）",
+      "side": "away",
+      "confidence": "watch",
+      "score": 57.2,
+      "line": 0.25,
+      "reasons": [
+        "亚盘 降盘 0->0.25（主队走弱）",
+        "主队降水 0.91->0.85",
+        "主队近2场 0胜0平2负，场均进1.0/失4.0",
+        "客队近2场 0胜1平1负，场均进1.5/失2.0",
+        "交手0次：主队0胜0平0负"
+      ],
+      "signals": {
+        "line_desc": "降盘 0->0.25（主队走弱）",
+        "water_desc": "主队降水 0.91->0.85"
+      },
+      "history": [
+        {
+          "ts": "2026-11-01T17:30:00+00:00",
+          "handicap_line": 0,
+          "handicap_home": 0.91,
+          "handicap_away": 0.97
+        },
+        {
+          "ts": "2026-11-02T00:31:30.856789+00:00",
+          "handicap_line": 0.25,
+          "handicap_home": 0.85,
+          "handicap_away": 1.03
+        }
+      ],
+      "competition_name": "意大利甲级联赛",
+      "competition_class": "league",
+      "prematch": false,
+      "result": {
+        "settled": false
       }
     },
     {

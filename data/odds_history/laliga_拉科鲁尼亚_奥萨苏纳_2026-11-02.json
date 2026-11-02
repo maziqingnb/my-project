@@ -1,0 +1,32 @@
+[
+  {
+    "fixture_key": "laliga|拉科鲁尼亚|奥萨苏纳|2026-11-02",
+    "competition": "laliga",
+    "home": "拉科鲁尼亚",
+    "away": "奥萨苏纳",
+    "kickoff": "2026-11-02T20:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-01T20:00:00+00:00",
+    "handicap_line": -0.25,
+    "handicap_home": 1.03,
+    "handicap_away": 0.85,
+    "total_line": 2.25,
+    "over": 0.97,
+    "under": 0.91
+  },
+  {
+    "fixture_key": "laliga|拉科鲁尼亚|奥萨苏纳|2026-11-02",
+    "competition": "laliga",
+    "home": "拉科鲁尼亚",
+    "away": "奥萨苏纳",
+    "kickoff": "2026-11-02T20:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-02T00:31:29.661930+00:00",
+    "handicap_line": -0.25,
+    "handicap_home": 0.85,
+    "handicap_away": 1.03,
+    "total_line": 2.25,
+    "over": 0.96,
+    "under": 0.92
+  }
+]

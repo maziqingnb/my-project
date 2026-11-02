@@ -1,0 +1,32 @@
+[
+  {
+    "fixture_key": "epl|纽卡斯尔联|埃弗顿|2026-11-02",
+    "competition": "epl",
+    "home": "纽卡斯尔联",
+    "away": "埃弗顿",
+    "kickoff": "2026-11-02T20:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-01T20:00:00+00:00",
+    "handicap_line": -0.25,
+    "handicap_home": 0.89,
+    "handicap_away": 0.99,
+    "total_line": 2.75,
+    "over": 0.91,
+    "under": 0.95
+  },
+  {
+    "fixture_key": "epl|纽卡斯尔联|埃弗顿|2026-11-02",
+    "competition": "epl",
+    "home": "纽卡斯尔联",
+    "away": "埃弗顿",
+    "kickoff": "2026-11-02T20:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-02T00:31:28.506945+00:00",
+    "handicap_line": -0.25,
+    "handicap_home": 1.04,
+    "handicap_away": 0.84,
+    "total_line": 2.75,
+    "over": 0.91,
+    "under": 0.97
+  }
+]
