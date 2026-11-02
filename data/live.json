@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T23:14:30.504555+00:00",
+  "generated_at": "2026-11-02T23:52:28.898652+00:00",
   "matches": [
     {
       "fixture_key": "brasileirao|布拉干蒂诺rb|桑托斯|2026-11-02",
@@ -8,8 +8,8 @@
       "away": "桑托斯",
       "kickoff": "2026-11-02T23:00:00",
       "status": "live",
-      "home_goals": 1,
-      "away_goals": 0
+      "home_goals": 2,
+      "away_goals": 1
     }
   ]
 }
