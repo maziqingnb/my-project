@@ -1,11 +1,53 @@
 {
-  "generated_at": "2026-11-02T21:06:55.981485+00:00",
-  "total_missed": 7,
+  "generated_at": "2026-11-02T21:47:57.805060+00:00",
+  "total_missed": 8,
   "days": [
     {
       "date": "2026-11-02",
-      "missed": 3,
+      "missed": 4,
       "items": [
+        {
+          "competition": "primeira",
+          "home": "本菲卡",
+          "away": "艾华卡",
+          "kickoff": "2026-11-02T20:15:00",
+          "market": "handicap",
+          "sport": "football",
+          "pick": "主队（让 2.5）",
+          "side": "home",
+          "line": -2.5,
+          "score": 70.0,
+          "confidence": "strong",
+          "outcome": "loss",
+          "outcome_cn": "没中",
+          "home_goals": 1,
+          "away_goals": 0,
+          "book": "盘口 主让2 → 主让2.5，水位 主0.94/0.94 → 主0.95/0.94",
+          "diagnosis": [
+            "盘口 主让2 → 主让2.5，水位 主0.94/0.94 → 主0.95/0.94",
+            "最终 1-0，推荐侧相对盘口 -1.50 球（未打穿）",
+            "初盘→临场升盘仍推主队：盘口已偏深，注意「升盘陷阱」"
+          ],
+          "note": "主队（让 2.5） · 最终 1-0（主队净胜 1），未打穿",
+          "signals": {
+            "line_desc": "升盘 -2->-2.5（主队走强）",
+            "water_desc": "水位平稳",
+            "line_first": -2,
+            "line_last": -2.5,
+            "home_water_first": 0.94,
+            "home_water_last": 0.95,
+            "away_water_first": 0.94,
+            "away_water_last": 0.94
+          },
+          "reasons": [
+            "亚盘 升盘 -2->-2.5（主队走强）",
+            "水位平稳",
+            "主队近2场 2胜0平0负，场均进1.5/失0.5",
+            "客队近1场 0胜0平1负，场均进0.0/失1.0",
+            "交手1次：主队1胜0平0负",
+            "历史交锋盘口覆盖：主队0次打穿/客队1次打穿（均线 -2.00）"
+          ]
+        },
         {
           "competition": "seriea",
           "home": "亚特兰大",

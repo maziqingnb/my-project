@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T21:06:55.958185+00:00",
+  "generated_at": "2026-11-02T21:47:57.787869+00:00",
   "scope": "16 个联赛 + 5 个杯赛",
   "note": "杯赛与联赛数据分开计算；仅开赛前 6h 内出推荐",
   "total": 70,
@@ -10,11 +10,11 @@
         "half_win": 1,
         "push": 1,
         "half_loss": 1,
-        "loss": 1
+        "loss": 2
       },
-      "settled": 36,
+      "settled": 37,
       "hit": 34,
-      "rate": 94.4
+      "rate": 91.9
     },
     "by_market": {
       "handicap": {
@@ -23,11 +23,11 @@
           "half_win": 1,
           "push": 1,
           "half_loss": 0,
-          "loss": 1
+          "loss": 2
         },
-        "settled": 13,
+        "settled": 14,
         "hit": 12,
-        "rate": 92.3
+        "rate": 85.7
       },
       "totals": {
         "counts": {
@@ -121,11 +121,11 @@
           "half_win": 0,
           "push": 1,
           "half_loss": 0,
-          "loss": 0
+          "loss": 1
         },
-        "settled": 0,
+        "settled": 1,
         "hit": 0,
-        "rate": null
+        "rate": 0.0
       },
       "seriea": {
         "counts": {
@@ -4831,6 +4831,99 @@
       }
     },
     {
+      "fixture_key": "primeira|本菲卡|艾华卡|2026-11-02",
+      "competition": "primeira",
+      "home": "本菲卡",
+      "away": "艾华卡",
+      "kickoff": "2026-11-02T20:15:00",
+      "market": "handicap",
+      "pick": "主队（让 2.5）",
+      "side": "home",
+      "confidence": "strong",
+      "score": 70.0,
+      "line": -2.5,
+      "reasons": [
+        "亚盘 升盘 -2->-2.5（主队走强）",
+        "水位平稳",
+        "主队近2场 2胜0平0负，场均进1.5/失0.5",
+        "客队近1场 0胜0平1负，场均进0.0/失1.0",
+        "交手1次：主队1胜0平0负",
+        "历史交锋盘口覆盖：主队0次打穿/客队1次打穿（均线 -2.00）"
+      ],
+      "signals": {
+        "line_desc": "升盘 -2->-2.5（主队走强）",
+        "water_desc": "水位平稳",
+        "line_first": -2,
+        "line_last": -2.5,
+        "home_water_first": 0.94,
+        "home_water_last": 0.95,
+        "away_water_first": 0.94,
+        "away_water_last": 0.94
+      },
+      "history": [
+        {
+          "ts": "2026-11-01T20:15:00+00:00",
+          "handicap_line": -2,
+          "handicap_home": 0.94,
+          "handicap_away": 0.94
+        },
+        {
+          "ts": "2026-11-01T20:15:00+00:00",
+          "handicap_line": -2,
+          "handicap_home": 0.94,
+          "handicap_away": 0.94
+        },
+        {
+          "ts": "2026-11-01T20:15:00+00:00",
+          "handicap_line": -2,
+          "handicap_home": 0.94,
+          "handicap_away": 0.94
+        },
+        {
+          "ts": "2026-11-01T20:15:00+00:00",
+          "handicap_line": -2,
+          "handicap_home": 0.94,
+          "handicap_away": 0.94
+        },
+        {
+          "ts": "2026-11-02T16:14:00.583590+00:00",
+          "handicap_line": -2.5,
+          "handicap_home": 1.04,
+          "handicap_away": 0.85
+        },
+        {
+          "ts": "2026-11-02T16:26:14.602641+00:00",
+          "handicap_line": -2.5,
+          "handicap_home": 1.04,
+          "handicap_away": 0.85
+        },
+        {
+          "ts": "2026-11-02T16:49:58.190591+00:00",
+          "handicap_line": -2.5,
+          "handicap_home": 1.01,
+          "handicap_away": 0.88
+        },
+        {
+          "ts": "2026-11-02T18:41:50.123074+00:00",
+          "handicap_line": -2.5,
+          "handicap_home": 0.95,
+          "handicap_away": 0.94
+        }
+      ],
+      "competition_name": "葡萄牙超级联赛",
+      "competition_class": "league",
+      "sport": "football",
+      "lead_hours": 1.5527435905555556,
+      "prematch": true,
+      "result": {
+        "outcome": "loss",
+        "outcome_cn": "没中",
+        "home_goals": 1,
+        "away_goals": 0,
+        "settled": true
+      }
+    },
+    {
       "fixture_key": "primeira|吉维森特|吉马良斯|2026-11-02",
       "competition": "primeira",
       "home": "吉维森特",
@@ -6689,94 +6782,6 @@
         "home_goals": 3,
         "away_goals": 0,
         "settled": true
-      }
-    },
-    {
-      "fixture_key": "primeira|本菲卡|艾华卡|2026-11-02",
-      "competition": "primeira",
-      "home": "本菲卡",
-      "away": "艾华卡",
-      "kickoff": "2026-11-02T20:15:00",
-      "market": "handicap",
-      "pick": "主队（让 2.5）",
-      "side": "home",
-      "confidence": "watch",
-      "score": 60.0,
-      "line": -2.5,
-      "reasons": [
-        "亚盘 升盘 -2->-2.5（主队走强）",
-        "水位平稳",
-        "主队近1场 1胜0平0负，场均进2.0/失1.0",
-        "客队近0场 0胜0平0负，场均进0.0/失0.0",
-        "交手0次：主队0胜0平0负"
-      ],
-      "signals": {
-        "line_desc": "升盘 -2->-2.5（主队走强）",
-        "water_desc": "水位平稳",
-        "line_first": -2,
-        "line_last": -2.5,
-        "home_water_first": 0.94,
-        "home_water_last": 0.95,
-        "away_water_first": 0.94,
-        "away_water_last": 0.94
-      },
-      "history": [
-        {
-          "ts": "2026-11-01T20:15:00+00:00",
-          "handicap_line": -2,
-          "handicap_home": 0.94,
-          "handicap_away": 0.94
-        },
-        {
-          "ts": "2026-11-01T20:15:00+00:00",
-          "handicap_line": -2,
-          "handicap_home": 0.94,
-          "handicap_away": 0.94
-        },
-        {
-          "ts": "2026-11-01T20:15:00+00:00",
-          "handicap_line": -2,
-          "handicap_home": 0.94,
-          "handicap_away": 0.94
-        },
-        {
-          "ts": "2026-11-01T20:15:00+00:00",
-          "handicap_line": -2,
-          "handicap_home": 0.94,
-          "handicap_away": 0.94
-        },
-        {
-          "ts": "2026-11-02T16:14:00.583590+00:00",
-          "handicap_line": -2.5,
-          "handicap_home": 1.04,
-          "handicap_away": 0.85
-        },
-        {
-          "ts": "2026-11-02T16:26:14.602641+00:00",
-          "handicap_line": -2.5,
-          "handicap_home": 1.04,
-          "handicap_away": 0.85
-        },
-        {
-          "ts": "2026-11-02T16:49:58.190591+00:00",
-          "handicap_line": -2.5,
-          "handicap_home": 1.01,
-          "handicap_away": 0.88
-        },
-        {
-          "ts": "2026-11-02T18:41:50.123074+00:00",
-          "handicap_line": -2.5,
-          "handicap_home": 0.95,
-          "handicap_away": 0.94
-        }
-      ],
-      "competition_name": "葡萄牙超级联赛",
-      "competition_class": "league",
-      "sport": "football",
-      "lead_hours": 1.5527435905555556,
-      "prematch": true,
-      "result": {
-        "settled": false
       }
     },
     {
