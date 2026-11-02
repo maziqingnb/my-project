@@ -10,11 +10,26 @@ from dataclasses import dataclass, field, asdict
 from typing import Optional
 
 
+_TEAM_NAME_MAP: dict = {}      # 中文队名 -> 英文规范名（启动时由 set_team_name_map 注入）
+
+
+def set_team_name_map(mapping: dict) -> None:
+    """注入队名归一化映射，供 norm_team 在匹配前把中文队名折到英文规范名。
+
+    数据源（球探网）队名时而中文、时而英文，历史快照与最新结果可能不一致；
+    统一在匹配层折到英文，避免「沙尔克04」和「Schalke 04」匹配不上。
+    """
+    global _TEAM_NAME_MAP
+    _TEAM_NAME_MAP = mapping or {}
+
+
 def norm_team(name: str) -> str:
     """归一化队名，用于跨数据源匹配（the-odds-api / API-Football 写法可能不同）。"""
     if not name:
         return ""
-    s = name.strip().lower()
+    s = name.strip()
+    s = _TEAM_NAME_MAP.get(s, s)          # 中文 -> 英文规范名（无映射则原样）
+    s = s.lower()
     s = re.sub(r"\s*\(.*?\)", "", s)      # 去掉 (ITA) 之类后缀
     s = re.sub(r"[^a-z0-9一-鿿]", "", s)
     return s

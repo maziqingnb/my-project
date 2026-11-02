@@ -6,7 +6,7 @@ from pathlib import Path
 
 import yaml
 
-from .models import Competition
+from .models import Competition, set_team_name_map
 
 ROOT = Path(__file__).resolve().parent.parent
 CONFIG_PATH = ROOT / "config" / "config.yaml"
@@ -28,6 +28,8 @@ def load_config() -> dict:
         "the_odds_api": os.getenv("THE_ODDS_API_KEY", "").strip(),
         "api_football": os.getenv("API_FOOTBALL_KEY", "").strip(),
     }
+    # 注入队名映射，让 norm_team 在匹配时把中文队名折到英文规范名
+    set_team_name_map(cfg.get("team_name_map") or {})
     return cfg
 
 
