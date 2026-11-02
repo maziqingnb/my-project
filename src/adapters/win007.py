@@ -57,6 +57,14 @@ def _int(s):
         return None
 
 
+def _state(code):
+    """球探网 scheduleDataStr 第 3 个字段（索引 2）的比赛状态。
+
+    实测：0=未开赛 1=进行中 -1=完场（其余为推迟/取消等，按未开赛处理）。
+    """
+    return {0: "upcoming", 1: "live", -1: "finished"}.get(code)
+
+
 def _iso(match_time: str) -> str:
     """'20261031103000'（球探网为北京时间 UTC+8）-> UTC 的 '2026-10-31T02:30:00'"""
     t = (match_time or "").strip()
@@ -128,6 +136,7 @@ class Win007Client(OddsClient, FixturesClient):
             out.append({
                 "scheduleid": p[0], "comp_key": comp_key,
                 "home": home, "away": away, "kickoff": _iso(p[3]),
+                "state": _state(_int(p[2])),
                 "home_goals": _int(p[7]), "away_goals": _int(p[8]),
                 "handicap_line": (self.handicap_sign * handicap) if handicap is not None else None,
                 "handicap_home": _num(p[23]), "handicap_away": _num(p[25]),
@@ -263,14 +272,31 @@ class Win007Client(OddsClient, FixturesClient):
             ))
         return fixtures
 
+    def fetch_live(self, comp: Competition) -> list[Fixture]:
+        """进行中的比赛（含实时比分）。只抓今天赛程页；五大联赛比赛时间都在当天北京时间白天/晚间，
+        进行中状态只会出现在当天的赛程页上。"""
+        fixtures = []
+        for m in self._matches(days=1):
+            if m["comp_key"] != comp.key or m.get("state") != "live":
+                continue
+            fixtures.append(Fixture(
+                key=fixture_key(comp.key, m["home"], m["away"], m["kickoff"]),
+                competition=comp.key, home=m["home"], away=m["away"],
+                kickoff=m["kickoff"], status="live",
+                home_goals=m.get("home_goals"), away_goals=m.get("away_goals"),
+            ))
+        return fixtures
+
     def fetch_results(self, comp: Competition, days_back: int) -> list[Result]:
         today = datetime.now(timezone.utc)
         seen: set[str] = set()
         results = []
-        for d in range(days_back, 0, -1):        # 从最久到最近
+        for d in range(days_back, -1, -1):       # 从最久到最近，含今天（d=0）以实时结算
             day = (today - timedelta(days=d)).strftime("%Y-%m-%d")
             for m in self._schedule(day):
                 if m["comp_key"] != comp.key:
+                    continue
+                if m.get("state") in ("live", "upcoming"):   # 进行中/未开赛的临时比分不计入结果
                     continue
                 if m["home_goals"] is None or m["away_goals"] is None:
                     continue

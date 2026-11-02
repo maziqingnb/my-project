@@ -119,6 +119,9 @@ class MockFixtures(FixturesClient):
             for h, a, hg, ag, d in data
         ]
 
+    def fetch_live(self, comp: Competition) -> list[Fixture]:
+        return []
+
     def fetch_lineup(self, comp: Competition, fixture: Fixture) -> Lineup | None:
         if fixture.key == _fk("epl", "Arsenal", "Chelsea", "ars_che"):
             return Lineup(

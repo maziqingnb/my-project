@@ -57,6 +57,16 @@
   .tablewrap { overflow-x: auto; }
   .spark { display: block; }
 
+  /* 进行中比赛 */
+  .live-list { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 10px; }
+  .live-card { background: var(--card); border: 1px solid var(--border); border-radius: 10px; padding: 12px 14px; }
+  .live-head { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+  .live-dot { width: 8px; height: 8px; border-radius: 50%; background: var(--strong); animation: pulse 1.2s infinite; }
+  .live-score { font-size: 18px; font-weight: 700; color: var(--accent); padding: 0 2px; }
+  .live-sub { margin-top: 6px; display: flex; align-items: center; gap: 6px; flex-wrap: wrap; }
+  @keyframes pulse { 0%,100% { opacity: 1; } 50% { opacity: .3; } }
+  .day-title { margin: 16px 0 6px; font-size: 14px; color: var(--muted); }
+
   /* 赛果 */
   .outcome { display: inline-block; font-size: 12px; font-weight: 600; padding: 2px 10px; border-radius: 6px; color: #fff; white-space: nowrap; }
   .outcome.win { background: var(--win); }
@@ -72,8 +82,10 @@
 <div class="wrap">
   <h1>⚽ 足球水位分析看板</h1>
   <div class="meta" id="meta">加载中…</div>
+  <div id="live"></div>
   <div id="stats"></div>
   <div id="content"></div>
+  <div id="review"></div>
 </div>
 
 <script>
@@ -182,10 +194,85 @@ function renderTable(title, cls, items) {
   </section>`;
 }
 
-Promise.all([
-  fetch("./reports/latest.json").then(r => { if (!r.ok) throw new Error(r.status); return r.json(); }),
-  fetch("./reports/history.json").then(r => r.ok ? r.json() : null).catch(() => null)
-]).then(([d, hist]) => {
+function bjTime(iso) {
+  if (!iso) return "—";
+  const t = /Z$|[+-]\d\d:\d\d$/.test(iso) ? iso : iso + "Z";
+  const d = new Date(t);
+  return isNaN(d) ? "—" : new Date(d.getTime() + 8 * 3600 * 1000).toISOString().slice(11, 19);
+}
+
+function renderLive(live, d) {
+  const box = document.getElementById("live");
+  const matches = (live && live.matches) || [];
+  const upd = `更新于 ${bjTime(live && live.generated_at)}（北京）`;
+  if (!matches.length) {
+    box.innerHTML = `<section><h2>🔴 进行中</h2><div class="empty">暂无进行中的比赛。<span class="market">${upd}</span></div></section>`;
+    return;
+  }
+  const recByKey = {};
+  ((d && d.recommendations) || []).forEach(r => { recByKey[r.fixture_key] = r; });
+  const rows = matches.map(m => {
+    const rec = recByKey[m.fixture_key];
+    const recCell = rec
+      ? `<span class="badge ${rec.confidence}">${CONF[rec.confidence]}</span>
+         <span class="market">${MARKET[rec.market]} ${rec.pick}</span>`
+      : '<span class="market">未推荐</span>';
+    return `<div class="live-card">
+      <div class="live-head">
+        <span class="live-dot"></span>
+        <strong>${m.home}</strong>
+        <span class="live-score">${m.home_goals ?? 0} - ${m.away_goals ?? 0}</span>
+        <strong>${m.away}</strong>
+        <span class="market">${COMP[m.competition] || m.competition}</span>
+      </div>
+      <div class="live-sub">${recCell}</div>
+    </div>`;
+  }).join("");
+  box.innerHTML = `<section><h2>🔴 进行中 <span class="tag league">实时</span></h2>
+    <div class="market">${upd} · 每 30 秒自动刷新</div>
+    <div class="live-list">${rows}</div></section>`;
+}
+
+function renderReview(review) {
+  const box = document.getElementById("review");
+  const days = (review && review.days) || [];
+  if (!days.length) {
+    box.innerHTML = `<section><h2>📋 每日复盘</h2><div class="empty">暂无未命中的推荐。</div></section>`;
+    return;
+  }
+  const blocks = days.map(day => {
+    const items = (day.items || []).map(it => `
+      <tr>
+        <td><strong>${it.home}</strong> vs <strong>${it.away}</strong><br>
+            <span class="market">${(it.kickoff || "").replace("T", " ").slice(0, 16)}</span></td>
+        <td><span class="market">${MARKET[it.market]} ${it.pick}</span></td>
+        <td><span class="outcome ${it.outcome}">${it.outcome_cn}</span>
+            <span class="final">${it.home_goals}-${it.away_goals}</span></td>
+        <td class="reasons">${it.note || ""}</td>
+      </tr>`).join("");
+    return `<div class="day-title">${day.date} · ${day.missed} 场未命中</div>
+      <div class="tablewrap"><table><thead><tr><th>比赛</th><th>推荐</th><th>赛果</th><th>复盘</th></tr></thead><tbody>${items}</tbody></table></div>`;
+  }).join("");
+  box.innerHTML = `<section><h2>📋 每日复盘 <span class="tag watch">未命中</span></h2>${blocks}</section>`;
+}
+
+let latestData = null;   // 缓存 latest.json，供「进行中」板块交叉引用推荐
+
+function loadLive() {
+  return fetch("./reports/live.json")
+    .then(r => r.ok ? r.json() : null)
+    .catch(() => null)
+    .then(live => renderLive(live, latestData));
+}
+
+function loadAll() {
+  return Promise.all([
+    fetch("./reports/latest.json").then(r => { if (!r.ok) throw new Error(r.status); return r.json(); }),
+    fetch("./reports/history.json").then(r => r.ok ? r.json() : null).catch(() => null),
+    fetch("./reports/live.json").then(r => r.ok ? r.json() : null).catch(() => null),
+    fetch("./reports/review.json").then(r => r.ok ? r.json() : null).catch(() => null)
+  ]).then(([d, hist, live, review]) => {
+    latestData = d;
     const now = Date.now();
     const byKickoff = (a, b) => {
       const ta = koTs(a.kickoff), tb = koTs(b.kickoff);
@@ -198,6 +285,8 @@ Promise.all([
     document.getElementById("meta").textContent =
       `生成时间 ${d.generated_at}（UTC） · ${d.scope} · 强推 ${picks.length} / 临场 ${nPrematch} · 本期共 ${d.total} 条`;
     renderStats(hist || { stats: d.stats, total: d.total });
+    renderLive(live, d);
+    renderReview(review);
     if (!picks.length) {
       document.getElementById("content").innerHTML =
         `<div class="empty">暂无强推，请等待下一次同步与分析。</div>`;
@@ -207,11 +296,17 @@ Promise.all([
     const cup = picks.filter(r => r.competition_class === "cup").sort(byKickoff);
     document.getElementById("content").innerHTML =
       renderTable("🏆 杯赛", "cup", cup) + renderTable("⚽ 联赛", "league", league);
-  })
-  .catch(() => {
-    document.getElementById("content").innerHTML =
-      `<div class="empty">未找到数据。请先运行同步与分析，或开启 GitHub Pages 并确认 docs/reports/latest.json 已提交。</div>`;
   });
+}
+
+// 首次全量加载；失败才显示错误提示
+loadAll().catch(() => {
+  document.getElementById("content").innerHTML =
+    `<div class="empty">未找到数据。请先运行同步与分析，或开启 GitHub Pages 并确认 docs/reports/latest.json 已提交。</div>`;
+});
+// 进行中比分每 30 秒刷新；全量数据（含赛果命中结算）每 5 分钟刷新
+setInterval(() => loadLive().catch(() => {}), 30000);
+setInterval(() => loadAll().catch(() => {}), 300000);
 </script>
 </body>
 </html>

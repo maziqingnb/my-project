@@ -5,6 +5,8 @@
   python src/main.py sync --odds           # 只同步赔率水位
   python src/main.py analyze               # 基于已有数据出推荐
   python src/main.py analyze --demo        # 演示模式：用内置样例数据跑通全流程
+  python src/main.py live                  # 同步进行中比分 + 今日结果并实时结算命中
+  python src/main.py review --notify       # 生成/推送每日未命中复盘
 """
 from __future__ import annotations
 
@@ -133,7 +135,11 @@ def do_analyze(cfg: dict, demo: bool = False) -> dict:
         cls_cn = "杯赛" if comp.cls == "cup" else "联赛"
         print(f"[分析] {comp.name}（{cls_cn}口径）: {len(recs)} 条推荐")
 
-    return render_report(cfg, all_recs, results_by_comp, demo=demo)
+    report = render_report(cfg, all_recs, results_by_comp, demo=demo)
+    if not demo:
+        from src.output.review import build_daily_review
+        build_daily_review()
+    return report
 
 
 def main() -> None:
@@ -152,6 +158,11 @@ def main() -> None:
     ap = sub.add_parser("analyze")
     ap.add_argument("--demo", action="store_true")
 
+    lp = sub.add_parser("live", help="同步进行中比分 + 今日结果并重新结算（实时命中）")
+
+    rp = sub.add_parser("review", help="生成/推送每日未命中复盘")
+    rp.add_argument("--notify", action="store_true", help="同时推送到微信")
+
     np = sub.add_parser("notify", help="把最新报告推送到微信（企业微信机器人/Server酱）")
     np.add_argument("--prematch-hours", type=float, default=None,
                     help="只推 N 小时内开赛的比赛（赛前提醒，每场只推一次）")
@@ -169,6 +180,20 @@ def main() -> None:
             do_sync(cfg, odds, fixtures, "all")   # 演示模式先灌入样例数据
         report = do_analyze(cfg, demo=args.demo)
         print(f"\n完成：共 {report['total']} 条推荐，见 data/reports/report.md")
+    elif args.cmd == "live":
+        odds, fixtures = make_clients(cfg, False)
+        from src.sync.live import sync_live_scores
+        from src.sync import schedules
+        sync_live_scores(cfg, fixtures)
+        schedules.sync_recent_results(cfg, fixtures, days_back=1)
+        do_analyze(cfg)
+    elif args.cmd == "review":
+        from src.output.review import build_daily_review
+        review = build_daily_review()
+        print(f"\n复盘完成：累计未命中 {review['total_missed']} 场，见 data/reports/review.md")
+        if args.notify:
+            from src.notify.review import push_review
+            push_review(review)
     elif args.cmd == "notify":
         report = read_json(C.REPORTS_DIR / "latest.json", default=None)
         if not report:

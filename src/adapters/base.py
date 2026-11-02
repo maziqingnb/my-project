@@ -33,6 +33,10 @@ class FixturesClient(ABC):
     def fetch_results(self, comp: Competition, days_back: int) -> list[Result]:
         """过去 N 天的比赛结果（用于近况/交手）。"""
 
+    def fetch_live(self, comp: Competition) -> list[Fixture]:
+        """进行中的比赛（含实时比分）。默认无，数据源支持时覆盖实现。"""
+        return []
+
     @abstractmethod
     def fetch_lineup(self, comp: Competition, fixture: Fixture) -> Lineup | None:
         """某场比赛的首发阵容（临近开赛才有）。"""

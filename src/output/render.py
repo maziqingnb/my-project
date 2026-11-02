@@ -19,7 +19,7 @@ _CONF_CN = {"strong": "强推", "watch": "可关注", "pass": "观望"}
 _MARKET_CN = {"handicap": "亚盘(让球)", "totals": "大小球"}
 _HISTORY_FIELDS = ("fixture_key", "competition", "home", "away", "kickoff",
                    "market", "pick", "side", "line", "score", "confidence",
-                   "prematch")
+                   "prematch", "signals", "reasons")
 
 
 def _parse_ts(s):
