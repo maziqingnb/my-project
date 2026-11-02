@@ -1,15 +1,45 @@
 {
-  "generated_at": "2026-11-02T15:37:56.720033+00:00",
+  "generated_at": "2026-11-02T16:30:23.257563+00:00",
   "matches": [
     {
-      "fixture_key": "rpl|苏维埃之翼|圣彼得堡泽尼特|2026-11-02",
-      "competition": "rpl",
-      "home": "苏维埃之翼",
-      "away": "圣彼得堡泽尼特",
-      "kickoff": "2026-11-02T15:00:00",
+      "fixture_key": "greeksl|阿特罗米托斯|维洛斯nfc|2026-11-02",
+      "competition": "greeksl",
+      "home": "阿特罗米托斯",
+      "away": "维洛斯NFC",
+      "kickoff": "2026-11-02T16:00:00",
+      "status": "live",
+      "home_goals": 1,
+      "away_goals": 0
+    },
+    {
+      "fixture_key": "afc_cl|大不里士拖拉机|费尔干纳石油工人|2026-11-02",
+      "competition": "afc_cl",
+      "home": "大不里士拖拉机",
+      "away": "费尔干纳石油工人",
+      "kickoff": "2026-11-02T16:00:00",
       "status": "live",
       "home_goals": 0,
+      "away_goals": 0
+    },
+    {
+      "fixture_key": "afc_cl|迪拜祈祷|巴格达空军|2026-11-02",
+      "competition": "afc_cl",
+      "home": "迪拜祈祷",
+      "away": "巴格达空军",
+      "kickoff": "2026-11-02T16:00:00",
+      "status": "live",
+      "home_goals": 2,
       "away_goals": 1
+    },
+    {
+      "fixture_key": "afc_cl|萨德|吉达国民|2026-11-02",
+      "competition": "afc_cl",
+      "home": "萨德",
+      "away": "吉达国民",
+      "kickoff": "2026-11-02T16:00:00",
+      "status": "live",
+      "home_goals": 0,
+      "away_goals": 0
     }
   ]
 }

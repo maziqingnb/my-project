@@ -2,68 +2,13 @@
   {
     "competition": "rpl",
     "cls": "league",
-    "home": "罗斯托夫",
-    "away": "莫斯科火车头",
-    "home_goals": 2,
-    "away_goals": 0,
-    "date": "2026-10-25",
-    "handicap_line": -0.25,
-    "total_line": 2.25
-  },
-  {
-    "competition": "rpl",
-    "cls": "league",
-    "home": "莫斯科中央陆军",
-    "away": "莫斯科斯巴达",
-    "home_goals": 2,
-    "away_goals": 0,
-    "date": "2026-10-25",
-    "handicap_line": 0.25,
-    "total_line": 2.75
-  },
-  {
-    "competition": "rpl",
-    "cls": "league",
-    "home": "圣彼得堡泽尼特",
-    "away": "马哈奇卡拉",
-    "home_goals": 2,
-    "away_goals": 0,
-    "date": "2026-10-25",
-    "handicap_line": -1.5,
-    "total_line": 2.75
-  },
-  {
-    "competition": "rpl",
-    "cls": "league",
-    "home": "喀山红宝石",
-    "away": "沃罗涅日火炬",
-    "home_goals": 1,
-    "away_goals": 0,
-    "date": "2026-10-31",
-    "handicap_line": -0.5,
-    "total_line": 2.0
-  },
-  {
-    "competition": "rpl",
-    "cls": "league",
-    "home": "莫斯科迪纳摩",
-    "away": "格罗兹尼特里克",
-    "home_goals": 2,
-    "away_goals": 0,
-    "date": "2026-10-31",
-    "handicap_line": -1.0,
-    "total_line": 2.75
-  },
-  {
-    "competition": "rpl",
-    "cls": "league",
-    "home": "罗迪纳莫斯科",
-    "away": "克拉斯诺达尔",
-    "home_goals": 2,
+    "home": "苏维埃之翼",
+    "away": "圣彼得堡泽尼特",
+    "home_goals": 0,
     "away_goals": 1,
-    "date": "2026-10-31",
-    "handicap_line": 0.75,
-    "total_line": 3.0
+    "date": "2026-11-02",
+    "handicap_line": 1.0,
+    "total_line": 2.75
   },
   {
     "competition": "rpl",
@@ -112,12 +57,67 @@
   {
     "competition": "rpl",
     "cls": "league",
-    "home": "苏维埃之翼",
-    "away": "圣彼得堡泽尼特",
-    "home_goals": 0,
+    "home": "喀山红宝石",
+    "away": "沃罗涅日火炬",
+    "home_goals": 1,
+    "away_goals": 0,
+    "date": "2026-10-31",
+    "handicap_line": -0.5,
+    "total_line": 2.0
+  },
+  {
+    "competition": "rpl",
+    "cls": "league",
+    "home": "莫斯科迪纳摩",
+    "away": "格罗兹尼特里克",
+    "home_goals": 2,
+    "away_goals": 0,
+    "date": "2026-10-31",
+    "handicap_line": -1.0,
+    "total_line": 2.75
+  },
+  {
+    "competition": "rpl",
+    "cls": "league",
+    "home": "罗迪纳莫斯科",
+    "away": "克拉斯诺达尔",
+    "home_goals": 2,
     "away_goals": 1,
-    "date": "2026-11-02",
-    "handicap_line": 1.0,
+    "date": "2026-10-31",
+    "handicap_line": 0.75,
+    "total_line": 3.0
+  },
+  {
+    "competition": "rpl",
+    "cls": "league",
+    "home": "罗斯托夫",
+    "away": "莫斯科火车头",
+    "home_goals": 2,
+    "away_goals": 0,
+    "date": "2026-10-25",
+    "handicap_line": -0.25,
+    "total_line": 2.25
+  },
+  {
+    "competition": "rpl",
+    "cls": "league",
+    "home": "莫斯科中央陆军",
+    "away": "莫斯科斯巴达",
+    "home_goals": 2,
+    "away_goals": 0,
+    "date": "2026-10-25",
+    "handicap_line": 0.25,
+    "total_line": 2.75
+  },
+  {
+    "competition": "rpl",
+    "cls": "league",
+    "home": "圣彼得堡泽尼特",
+    "away": "马哈奇卡拉",
+    "home_goals": 2,
+    "away_goals": 0,
+    "date": "2026-10-25",
+    "handicap_line": -1.5,
     "total_line": 2.75
   }
 ]
