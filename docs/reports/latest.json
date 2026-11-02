@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T22:28:56.046280+00:00",
+  "generated_at": "2026-11-02T23:14:34.156506+00:00",
   "scope": "16 个联赛 + 5 个杯赛",
   "note": "杯赛与联赛数据分开计算；仅开赛前 6h 内出推荐",
   "total": 73,
@@ -6802,106 +6802,6 @@
       }
     },
     {
-      "fixture_key": "argentina|防卫者|阿根廷独立|2026-11-02",
-      "competition": "argentina",
-      "home": "防卫者",
-      "away": "阿根廷独立",
-      "kickoff": "2026-11-02T22:00:00",
-      "market": "handicap",
-      "pick": "主队（让 0.25）",
-      "side": "home",
-      "confidence": "watch",
-      "score": 65.0,
-      "line": -0.25,
-      "reasons": [
-        "亚盘 盘口不变",
-        "主队降水 0.96->0.91",
-        "主队近0场 0胜0平0负，场均进0.0/失0.0",
-        "客队近1场 0胜0平1负，场均进0.0/失1.0",
-        "交手0次：主队0胜0平0负"
-      ],
-      "signals": {
-        "line_desc": "盘口不变",
-        "water_desc": "主队降水 0.96->0.91",
-        "line_first": -0.25,
-        "line_last": -0.25,
-        "home_water_first": 0.96,
-        "home_water_last": 0.91,
-        "away_water_first": 0.92,
-        "away_water_last": 0.98
-      },
-      "history": [
-        {
-          "ts": "2026-11-01T22:00:00+00:00",
-          "handicap_line": -0.25,
-          "handicap_home": 0.96,
-          "handicap_away": 0.92
-        },
-        {
-          "ts": "2026-11-01T22:00:00+00:00",
-          "handicap_line": -0.25,
-          "handicap_home": 0.96,
-          "handicap_away": 0.92
-        },
-        {
-          "ts": "2026-11-01T22:00:00+00:00",
-          "handicap_line": -0.25,
-          "handicap_home": 0.96,
-          "handicap_away": 0.92
-        },
-        {
-          "ts": "2026-11-01T22:00:00+00:00",
-          "handicap_line": -0.25,
-          "handicap_home": 0.96,
-          "handicap_away": 0.92
-        },
-        {
-          "ts": "2026-11-01T22:00:00+00:00",
-          "handicap_line": -0.25,
-          "handicap_home": 0.96,
-          "handicap_away": 0.92
-        },
-        {
-          "ts": "2026-11-02T16:14:06.870212+00:00",
-          "handicap_line": -0.25,
-          "handicap_home": 0.89,
-          "handicap_away": 1
-        },
-        {
-          "ts": "2026-11-02T16:26:22.903805+00:00",
-          "handicap_line": -0.25,
-          "handicap_home": 0.89,
-          "handicap_away": 1
-        },
-        {
-          "ts": "2026-11-02T16:50:05.278514+00:00",
-          "handicap_line": -0.25,
-          "handicap_home": 0.89,
-          "handicap_away": 1
-        },
-        {
-          "ts": "2026-11-02T18:41:54.186706+00:00",
-          "handicap_line": -0.25,
-          "handicap_home": 0.91,
-          "handicap_away": 0.98
-        },
-        {
-          "ts": "2026-11-02T20:34:38.523324+00:00",
-          "handicap_line": -0.25,
-          "handicap_home": 0.91,
-          "handicap_away": 0.98
-        }
-      ],
-      "competition_name": "阿根廷甲级联赛",
-      "competition_class": "league",
-      "sport": "football",
-      "lead_hours": 1.42263241,
-      "prematch": true,
-      "result": {
-        "settled": false
-      }
-    },
-    {
       "fixture_key": "nba|philadelphia76ers|chicagobulls|2026-11-03",
       "competition": "nba",
       "home": "Philadelphia 76ers",
@@ -7348,6 +7248,111 @@
         "outcome_cn": "没中",
         "home_goals": 3,
         "away_goals": 0,
+        "settled": true
+      }
+    },
+    {
+      "fixture_key": "argentina|防卫者|阿根廷独立|2026-11-02",
+      "competition": "argentina",
+      "home": "防卫者",
+      "away": "阿根廷独立",
+      "kickoff": "2026-11-02T22:00:00",
+      "market": "handicap",
+      "pick": "主队（让 0.25）",
+      "side": "home",
+      "confidence": "watch",
+      "score": 60.8,
+      "line": -0.25,
+      "reasons": [
+        "亚盘 盘口不变",
+        "主队降水 0.96->0.91",
+        "主队近1场 0胜1平0负，场均进1.0/失1.0",
+        "客队近2场 0胜1平1负，场均进0.5/失1.0",
+        "交手1次：主队0胜1平0负",
+        "历史交锋盘口覆盖：主队0次打穿/客队1次打穿（均线 -0.25）"
+      ],
+      "signals": {
+        "line_desc": "盘口不变",
+        "water_desc": "主队降水 0.96->0.91",
+        "line_first": -0.25,
+        "line_last": -0.25,
+        "home_water_first": 0.96,
+        "home_water_last": 0.91,
+        "away_water_first": 0.92,
+        "away_water_last": 0.98
+      },
+      "history": [
+        {
+          "ts": "2026-11-01T22:00:00+00:00",
+          "handicap_line": -0.25,
+          "handicap_home": 0.96,
+          "handicap_away": 0.92
+        },
+        {
+          "ts": "2026-11-01T22:00:00+00:00",
+          "handicap_line": -0.25,
+          "handicap_home": 0.96,
+          "handicap_away": 0.92
+        },
+        {
+          "ts": "2026-11-01T22:00:00+00:00",
+          "handicap_line": -0.25,
+          "handicap_home": 0.96,
+          "handicap_away": 0.92
+        },
+        {
+          "ts": "2026-11-01T22:00:00+00:00",
+          "handicap_line": -0.25,
+          "handicap_home": 0.96,
+          "handicap_away": 0.92
+        },
+        {
+          "ts": "2026-11-01T22:00:00+00:00",
+          "handicap_line": -0.25,
+          "handicap_home": 0.96,
+          "handicap_away": 0.92
+        },
+        {
+          "ts": "2026-11-02T16:14:06.870212+00:00",
+          "handicap_line": -0.25,
+          "handicap_home": 0.89,
+          "handicap_away": 1
+        },
+        {
+          "ts": "2026-11-02T16:26:22.903805+00:00",
+          "handicap_line": -0.25,
+          "handicap_home": 0.89,
+          "handicap_away": 1
+        },
+        {
+          "ts": "2026-11-02T16:50:05.278514+00:00",
+          "handicap_line": -0.25,
+          "handicap_home": 0.89,
+          "handicap_away": 1
+        },
+        {
+          "ts": "2026-11-02T18:41:54.186706+00:00",
+          "handicap_line": -0.25,
+          "handicap_home": 0.91,
+          "handicap_away": 0.98
+        },
+        {
+          "ts": "2026-11-02T20:34:38.523324+00:00",
+          "handicap_line": -0.25,
+          "handicap_home": 0.91,
+          "handicap_away": 0.98
+        }
+      ],
+      "competition_name": "阿根廷甲级联赛",
+      "competition_class": "league",
+      "sport": "football",
+      "lead_hours": 1.42263241,
+      "prematch": true,
+      "result": {
+        "outcome": "half_loss",
+        "outcome_cn": "半输",
+        "home_goals": 1,
+        "away_goals": 1,
         "settled": true
       }
     },
@@ -7959,6 +7964,110 @@
       }
     },
     {
+      "fixture_key": "argentina|普拉腾斯|科尔多瓦中央sde|2026-11-02",
+      "competition": "argentina",
+      "home": "普拉腾斯",
+      "away": "科尔多瓦中央SDE",
+      "kickoff": "2026-11-02T22:00:00",
+      "market": "totals",
+      "pick": "小球（2.25）",
+      "side": "under",
+      "confidence": "watch",
+      "score": 58.3,
+      "line": 2.25,
+      "reasons": [
+        "大小球 升盘 2->2.25（看大）",
+        "大球水位平稳",
+        "主队近1场场均总进球 0.0",
+        "客队近2场场均总进球 2.5",
+        "历史交锋大小球：0次大/1次小（均线 2.00）"
+      ],
+      "signals": {
+        "line_desc": "升盘 2->2.25（看大）",
+        "over_desc": "大球水位平稳",
+        "line_first": 2,
+        "line_last": 2.25,
+        "over_first": 0.8,
+        "over_last": 0.83,
+        "under_first": 1.07,
+        "under_last": 1.04
+      },
+      "history": [
+        {
+          "ts": "2026-11-01T22:00:00+00:00",
+          "total_line": 2,
+          "over": 0.8,
+          "under": 1.07
+        },
+        {
+          "ts": "2026-11-01T22:00:00+00:00",
+          "total_line": 2,
+          "over": 0.8,
+          "under": 1.07
+        },
+        {
+          "ts": "2026-11-01T22:00:00+00:00",
+          "total_line": 2,
+          "over": 0.8,
+          "under": 1.07
+        },
+        {
+          "ts": "2026-11-01T22:00:00+00:00",
+          "total_line": 2,
+          "over": 0.8,
+          "under": 1.07
+        },
+        {
+          "ts": "2026-11-01T22:00:00+00:00",
+          "total_line": 2,
+          "over": 0.8,
+          "under": 1.07
+        },
+        {
+          "ts": "2026-11-02T16:14:08.226660+00:00",
+          "total_line": 2.25,
+          "over": 0.88,
+          "under": 0.99
+        },
+        {
+          "ts": "2026-11-02T16:26:25.574287+00:00",
+          "total_line": 2.25,
+          "over": 0.88,
+          "under": 0.99
+        },
+        {
+          "ts": "2026-11-02T16:50:06.683081+00:00",
+          "total_line": 2.25,
+          "over": 0.85,
+          "under": 1.02
+        },
+        {
+          "ts": "2026-11-02T18:41:55.437225+00:00",
+          "total_line": 2.25,
+          "over": 0.83,
+          "under": 1.04
+        },
+        {
+          "ts": "2026-11-02T20:34:39.803775+00:00",
+          "total_line": 2.25,
+          "over": 0.83,
+          "under": 1.04
+        }
+      ],
+      "competition_name": "阿根廷甲级联赛",
+      "competition_class": "league",
+      "sport": "football",
+      "lead_hours": 1.4222767291666665,
+      "prematch": true,
+      "result": {
+        "outcome": "win",
+        "outcome_cn": "中",
+        "home_goals": 0,
+        "away_goals": 0,
+        "settled": true
+      }
+    },
+    {
       "fixture_key": "laliga|毕尔巴鄂竞技|皇家社会|2026-11-01",
       "competition": "laliga",
       "home": "毕尔巴鄂竞技",
@@ -8517,106 +8626,6 @@
         "home_goals": 1,
         "away_goals": 1,
         "settled": true
-      }
-    },
-    {
-      "fixture_key": "argentina|普拉腾斯|科尔多瓦中央sde|2026-11-02",
-      "competition": "argentina",
-      "home": "普拉腾斯",
-      "away": "科尔多瓦中央SDE",
-      "kickoff": "2026-11-02T22:00:00",
-      "market": "handicap",
-      "pick": "客队（受让 1.25）",
-      "side": "away",
-      "confidence": "watch",
-      "score": 55.0,
-      "line": -1.25,
-      "reasons": [
-        "亚盘 升盘 -0.75->-1.25（主队走强）",
-        "主队升水 0.93->1.11",
-        "主队近0场 0胜0平0负，场均进0.0/失0.0",
-        "客队近1场 0胜0平1负，场均进0.0/失5.0",
-        "交手0次：主队0胜0平0负"
-      ],
-      "signals": {
-        "line_desc": "升盘 -0.75->-1.25（主队走强）",
-        "water_desc": "主队升水 0.93->1.11",
-        "line_first": -0.75,
-        "line_last": -1.25,
-        "home_water_first": 0.93,
-        "home_water_last": 1.11,
-        "away_water_first": 0.95,
-        "away_water_last": 0.79
-      },
-      "history": [
-        {
-          "ts": "2026-11-01T22:00:00+00:00",
-          "handicap_line": -0.75,
-          "handicap_home": 0.93,
-          "handicap_away": 0.95
-        },
-        {
-          "ts": "2026-11-01T22:00:00+00:00",
-          "handicap_line": -0.75,
-          "handicap_home": 0.93,
-          "handicap_away": 0.95
-        },
-        {
-          "ts": "2026-11-01T22:00:00+00:00",
-          "handicap_line": -0.75,
-          "handicap_home": 0.93,
-          "handicap_away": 0.95
-        },
-        {
-          "ts": "2026-11-01T22:00:00+00:00",
-          "handicap_line": -0.75,
-          "handicap_home": 0.93,
-          "handicap_away": 0.95
-        },
-        {
-          "ts": "2026-11-01T22:00:00+00:00",
-          "handicap_line": -0.75,
-          "handicap_home": 0.93,
-          "handicap_away": 0.95
-        },
-        {
-          "ts": "2026-11-02T16:14:08.226660+00:00",
-          "handicap_line": -1,
-          "handicap_home": 0.87,
-          "handicap_away": 1.02
-        },
-        {
-          "ts": "2026-11-02T16:26:25.574287+00:00",
-          "handicap_line": -1,
-          "handicap_home": 0.87,
-          "handicap_away": 1.02
-        },
-        {
-          "ts": "2026-11-02T16:50:06.683081+00:00",
-          "handicap_line": -1,
-          "handicap_home": 0.85,
-          "handicap_away": 1.04
-        },
-        {
-          "ts": "2026-11-02T18:41:55.437225+00:00",
-          "handicap_line": -1.25,
-          "handicap_home": 1.11,
-          "handicap_away": 0.79
-        },
-        {
-          "ts": "2026-11-02T20:34:39.803775+00:00",
-          "handicap_line": -1.25,
-          "handicap_home": 1.11,
-          "handicap_away": 0.79
-        }
-      ],
-      "competition_name": "阿根廷甲级联赛",
-      "competition_class": "league",
-      "sport": "football",
-      "lead_hours": 1.4222767291666665,
-      "prematch": true,
-      "result": {
-        "settled": false
       }
     }
   ]

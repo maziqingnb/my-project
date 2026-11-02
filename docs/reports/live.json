@@ -1,24 +1,14 @@
 {
-  "generated_at": "2026-11-02T22:27:03.851413+00:00",
+  "generated_at": "2026-11-02T23:14:30.504555+00:00",
   "matches": [
     {
-      "fixture_key": "argentina|防卫者|阿根廷独立|2026-11-02",
-      "competition": "argentina",
-      "home": "防卫者",
-      "away": "阿根廷独立",
-      "kickoff": "2026-11-02T22:00:00",
+      "fixture_key": "brasileirao|布拉干蒂诺rb|桑托斯|2026-11-02",
+      "competition": "brasileirao",
+      "home": "布拉干蒂诺RB",
+      "away": "桑托斯",
+      "kickoff": "2026-11-02T23:00:00",
       "status": "live",
-      "home_goals": 0,
-      "away_goals": 0
-    },
-    {
-      "fixture_key": "argentina|普拉腾斯|科尔多瓦中央sde|2026-11-02",
-      "competition": "argentina",
-      "home": "普拉腾斯",
-      "away": "科尔多瓦中央SDE",
-      "kickoff": "2026-11-02T22:00:00",
-      "status": "live",
-      "home_goals": 0,
+      "home_goals": 1,
       "away_goals": 0
     }
   ]

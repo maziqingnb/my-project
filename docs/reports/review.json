@@ -1,11 +1,52 @@
 {
-  "generated_at": "2026-11-02T22:28:56.064258+00:00",
-  "total_missed": 8,
+  "generated_at": "2026-11-02T23:14:34.190051+00:00",
+  "total_missed": 9,
   "days": [
     {
       "date": "2026-11-02",
-      "missed": 4,
+      "missed": 5,
       "items": [
+        {
+          "competition": "argentina",
+          "home": "防卫者",
+          "away": "阿根廷独立",
+          "kickoff": "2026-11-02T22:00:00",
+          "market": "handicap",
+          "sport": "football",
+          "pick": "主队（让 0.25）",
+          "side": "home",
+          "line": -0.25,
+          "score": 60.8,
+          "confidence": "watch",
+          "outcome": "half_loss",
+          "outcome_cn": "半输",
+          "home_goals": 1,
+          "away_goals": 1,
+          "book": "盘口 主让0.25 → 主让0.25，水位 主0.96/0.92 → 主0.91/0.98",
+          "diagnosis": [
+            "盘口 主让0.25 → 主让0.25，水位 主0.96/0.92 → 主0.91/0.98",
+            "最终 1-1，推荐侧相对盘口 -0.25 球（未打穿）"
+          ],
+          "note": "主队（让 0.25） · 最终 1-1（主队净胜 0），未打穿",
+          "signals": {
+            "line_desc": "盘口不变",
+            "water_desc": "主队降水 0.96->0.91",
+            "line_first": -0.25,
+            "line_last": -0.25,
+            "home_water_first": 0.96,
+            "home_water_last": 0.91,
+            "away_water_first": 0.92,
+            "away_water_last": 0.98
+          },
+          "reasons": [
+            "亚盘 盘口不变",
+            "主队降水 0.96->0.91",
+            "主队近1场 0胜1平0负，场均进1.0/失1.0",
+            "客队近2场 0胜1平1负，场均进0.5/失1.0",
+            "交手1次：主队0胜1平0负",
+            "历史交锋盘口覆盖：主队0次打穿/客队1次打穿（均线 -0.25）"
+          ]
+        },
         {
           "competition": "primeira",
           "home": "本菲卡",
