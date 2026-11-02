@@ -13,6 +13,17 @@
   {
     "competition": "seriea",
     "cls": "league",
+    "home": "亚特兰大",
+    "away": "帕尔马",
+    "home_goals": 0,
+    "away_goals": 3,
+    "date": "2026-11-02",
+    "handicap_line": -1.25,
+    "total_line": 2.75
+  },
+  {
+    "competition": "seriea",
+    "cls": "league",
     "home": "Como",
     "away": "Venezia",
     "home_goals": 1,
