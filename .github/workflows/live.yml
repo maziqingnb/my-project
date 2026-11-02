@@ -2,9 +2,9 @@ name: Live Scores & Real-time Settle
 
 on:
   schedule:
-    # 每 10 分钟：同步进行中比分 + 今日赛果，赛果一出即结算命中并更新看板
-    # 想更密可改成 "*/5 * * * *"（GitHub 定时任务最细 5 分钟；私有仓库注意免费额度）
-    - cron: "*/10 * * * *"
+    # 每 5 分钟：同步进行中比分 + 今日赛果，赛果一出即结算命中并更新看板
+    # GitHub 定时任务最细 5 分钟；私有仓库注意免费额度
+    - cron: "*/5 * * * *"
   workflow_dispatch: {}
 
 permissions:
