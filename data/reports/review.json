@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-02T03:11:26.235250+00:00",
-  "total_missed": 6,
+  "generated_at": "2026-11-02T04:47:12.194270+00:00",
+  "total_missed": 7,
   "days": [
     {
       "date": "2026-11-01",
-      "missed": 3,
+      "missed": 4,
       "items": [
         {
           "competition": "seriea",
@@ -24,13 +24,41 @@
           "note": "大球（2.5） · 最终 2-0（总进球 2），未打出",
           "signals": {
             "line_desc": "盘口不变",
-            "over_desc": "大球降水 1->0.97"
+            "over_desc": "大球降水 1->0.92"
           },
           "reasons": [
             "大小球 盘口不变",
-            "大球降水 1->0.97",
+            "大球降水 1->0.92",
             "主队近3场场均总进球 2.0",
             "客队近3场场均总进球 4.3"
+          ]
+        },
+        {
+          "competition": "epl",
+          "home": "Liverpool",
+          "away": "Arsenal",
+          "kickoff": "2026-11-01T16:30:00",
+          "market": "handicap",
+          "pick": "主队（受让 0.25）",
+          "side": "home",
+          "line": 0.25,
+          "score": 57.5,
+          "confidence": "watch",
+          "outcome": "loss",
+          "outcome_cn": "没中",
+          "home_goals": 0,
+          "away_goals": 1,
+          "note": "主队（受让 0.25） · 最终 0-1（主队净胜 -1），未打穿",
+          "signals": {
+            "line_desc": "盘口不变",
+            "water_desc": "主队降水 0.99->0.8"
+          },
+          "reasons": [
+            "亚盘 盘口不变",
+            "主队降水 0.99->0.8",
+            "主队近2场 1胜0平1负，场均进1.0/失0.5",
+            "客队近2场 2胜0平0负，场均进1.5/失0.0",
+            "交手1次：主队0胜0平1负"
           ]
         },
         {
