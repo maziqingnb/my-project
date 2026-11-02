@@ -1,4 +1,65 @@
 {
-  "generated_at": "2026-11-02T19:32:09.306147+00:00",
-  "matches": []
+  "generated_at": "2026-11-02T20:21:31.468511+00:00",
+  "matches": [
+    {
+      "fixture_key": "epl|纽卡斯尔联|埃弗顿|2026-11-02",
+      "competition": "epl",
+      "home": "纽卡斯尔联",
+      "away": "埃弗顿",
+      "kickoff": "2026-11-02T20:00:00",
+      "status": "live",
+      "home_goals": 0,
+      "away_goals": 0
+    },
+    {
+      "fixture_key": "laliga|拉科鲁尼亚|奥萨苏纳|2026-11-02",
+      "competition": "laliga",
+      "home": "拉科鲁尼亚",
+      "away": "奥萨苏纳",
+      "kickoff": "2026-11-02T20:00:00",
+      "status": "live",
+      "home_goals": 0,
+      "away_goals": 0
+    },
+    {
+      "fixture_key": "seriea|亚特兰大|帕尔马|2026-11-02",
+      "competition": "seriea",
+      "home": "亚特兰大",
+      "away": "帕尔马",
+      "kickoff": "2026-11-02T19:45:00",
+      "status": "live",
+      "home_goals": 0,
+      "away_goals": 0
+    },
+    {
+      "fixture_key": "ligue1|洛里昂|布雷斯特|2026-11-02",
+      "competition": "ligue1",
+      "home": "洛里昂",
+      "away": "布雷斯特",
+      "kickoff": "2026-11-02T19:45:00",
+      "status": "live",
+      "home_goals": 0,
+      "away_goals": 0
+    },
+    {
+      "fixture_key": "primeira|本菲卡|艾华卡|2026-11-02",
+      "competition": "primeira",
+      "home": "本菲卡",
+      "away": "艾华卡",
+      "kickoff": "2026-11-02T20:15:00",
+      "status": "live",
+      "home_goals": 0,
+      "away_goals": 0
+    },
+    {
+      "fixture_key": "primeira|吉维森特|吉马良斯|2026-11-02",
+      "competition": "primeira",
+      "home": "吉维森特",
+      "away": "吉马良斯",
+      "kickoff": "2026-11-02T20:15:00",
+      "status": "live",
+      "home_goals": 0,
+      "away_goals": 0
+    }
+  ]
 }
