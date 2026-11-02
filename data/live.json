@@ -1,4 +1,15 @@
 {
-  "generated_at": "2026-11-02T13:40:57.037399+00:00",
-  "matches": []
+  "generated_at": "2026-11-02T15:37:56.720033+00:00",
+  "matches": [
+    {
+      "fixture_key": "rpl|苏维埃之翼|圣彼得堡泽尼特|2026-11-02",
+      "competition": "rpl",
+      "home": "苏维埃之翼",
+      "away": "圣彼得堡泽尼特",
+      "kickoff": "2026-11-02T15:00:00",
+      "status": "live",
+      "home_goals": 0,
+      "away_goals": 1
+    }
+  ]
 }
