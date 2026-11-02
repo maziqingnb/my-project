@@ -1,1 +1,13 @@
-[]
+[
+  {
+    "competition": "intl_friendly",
+    "cls": "cup",
+    "home": "法罗群岛U17",
+    "away": "日本U17",
+    "home_goals": 0,
+    "away_goals": 1,
+    "date": "2026-11-02",
+    "handicap_line": null,
+    "total_line": null
+  }
+]
