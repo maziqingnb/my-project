@@ -27,6 +27,12 @@
   .tag.league { background: var(--league); }
   .tag.cup { background: var(--cup); }
 
+  /* 顶部标签页 */
+  .tabs { display: flex; gap: 4px; margin: 12px 0 16px; border-bottom: 1px solid var(--border); }
+  .tab { padding: 9px 18px; font-size: 14px; cursor: pointer; border: none; background: none;
+         color: var(--muted); border-bottom: 2px solid transparent; font-family: inherit; }
+  .tab.active { color: var(--accent); border-bottom-color: var(--accent); font-weight: 600; }
+
   /* 命中率统计 */
   .stats-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 12px; }
   .stat { background: var(--card); border: 1px solid var(--border); border-radius: 10px; padding: 14px 16px; }
@@ -81,12 +87,16 @@
 <body>
 <div class="wrap">
   <h1>⚽ 足球水位分析看板</h1>
+  <div class="tabs">
+    <button class="tab active" id="tab-rec" onclick="switchTab('rec')">⚽ 推荐</button>
+    <button class="tab" id="tab-schedule" onclick="switchTab('schedule')">📅 赛程</button>
+  </div>
   <div class="meta" id="meta">加载中…</div>
-  <div id="live"></div>
-  <div id="schedule"></div>
-  <div id="stats"></div>
-  <div id="content"></div>
-  <div id="review"></div>
+  <div id="live" class="tab-panel" data-tab="rec"></div>
+  <div id="schedule" class="tab-panel" data-tab="schedule"></div>
+  <div id="stats" class="tab-panel" data-tab="rec"></div>
+  <div id="content" class="tab-panel" data-tab="rec"></div>
+  <div id="review" class="tab-panel" data-tab="rec"></div>
 </div>
 
 <script>
@@ -94,6 +104,29 @@ const CONF = { strong: "强推", watch: "可关注", pass: "观望" };
 const MARKET = { handicap: "亚盘", totals: "大小球" };
 const MARKET_BBALL = { handicap: "让分", totals: "总分" };
 const marketLabel = r => ((r.sport === "basketball" ? MARKET_BBALL : MARKET)[r.market] || r.market);
+
+// NBA 球队英文名 -> 简体中文（仅用于展示，不影响数据匹配）
+const NBA_CN = {
+  "Los Angeles Lakers": "洛杉矶湖人", "Chicago Bulls": "芝加哥公牛", "Boston Celtics": "波士顿凯尔特人",
+  "Atlanta Hawks": "亚特兰大老鹰", "Brooklyn Nets": "布鲁克林篮网", "Cleveland Cavaliers": "克利夫兰骑士",
+  "Charlotte Hornets": "夏洛特黄蜂", "New York Knicks": "纽约尼克斯", "Detroit Pistons": "底特律活塞",
+  "Miami Heat": "迈阿密热火", "Philadelphia 76ers": "费城76人", "Toronto Raptors": "多伦多猛龙",
+  "Indiana Pacers": "印第安纳步行者", "Milwaukee Bucks": "密尔沃基雄鹿", "Orlando Magic": "奥兰多魔术",
+  "Washington Wizards": "华盛顿奇才", "Oklahoma City Thunder": "俄克拉荷马雷霆",
+  "Minnesota Timberwolves": "明尼苏达森林狼", "Denver Nuggets": "丹佛掘金", "Portland Trail Blazers": "波特兰开拓者",
+  "Utah Jazz": "犹他爵士", "Phoenix Suns": "菲尼克斯太阳", "Sacramento Kings": "萨克拉门托国王",
+  "Los Angeles Clippers": "洛杉矶快船", "Golden State Warriors": "金州勇士", "San Antonio Spurs": "圣安东尼奥马刺",
+  "Dallas Mavericks": "达拉斯独行侠", "Houston Rockets": "休斯顿火箭", "Memphis Grizzlies": "孟菲斯灰熊",
+  "New Orleans Pelicans": "新奥尔良鹈鹕"
+};
+const teamName = t => NBA_CN[t] || t;
+
+function switchTab(name) {
+  document.querySelectorAll(".tab").forEach(b =>
+    b.classList.toggle("active", b.id === "tab-" + name));
+  document.querySelectorAll(".tab-panel").forEach(p =>
+    p.style.display = (p.dataset.tab === name) ? "" : "none");
+}
 const COMP = { epl: "英超", laliga: "西甲", seriea: "意甲", bundesliga: "德甲", ligue1: "法甲", ucl: "欧冠",
   primeira: "葡超", rpl: "俄超", superlig: "土超", brasileirao: "巴西甲", argentina: "阿甲", mls: "美职联",
   greeksl: "希腊超", denmark: "丹麦超", sweden: "瑞典超", poland: "波兰超",
@@ -184,7 +217,7 @@ function renderTable(title, cls, items) {
   if (!items.length) return "";
   const rows = items.map(r => `
     <tr>
-      <td><strong>${r.home}</strong> vs <strong>${r.away}</strong><br>
+      <td><strong>${teamName(r.home)}</strong> vs <strong>${teamName(r.away)}</strong><br>
           <span class="market">${(r.kickoff || "").replace("T", " ").slice(0, 16)}</span></td>
       <td><span class="market">${marketLabel(r)}</span></td>
       <td>${r.pick}</td>
@@ -227,9 +260,9 @@ function renderLive(live, d) {
     return `<div class="live-card">
       <div class="live-head">
         <span class="live-dot"></span>
-        <strong>${m.home}</strong>
+        <strong>${teamName(m.home)}</strong>
         <span class="live-score">${m.home_goals ?? 0} - ${m.away_goals ?? 0}</span>
-        <strong>${m.away}</strong>
+        <strong>${teamName(m.away)}</strong>
         <span class="market">${COMP[m.competition] || m.competition}</span>
       </div>
       <div class="live-sub">${recCell}</div>
@@ -267,7 +300,7 @@ function renderSchedule(schedule) {
       const dt = bjDayTime(m.kickoff);
       return `<tr>
         <td><span class="market">${dt.hm}</span></td>
-        <td><strong>${m.home}</strong> vs <strong>${m.away}</strong></td>
+        <td><strong>${teamName(m.home)}</strong> vs <strong>${teamName(m.away)}</strong></td>
         <td><span class="market">${COMP[m.competition] || m.competition}</span></td>
       </tr>`;
     }).join("");
@@ -288,7 +321,7 @@ function renderReview(review) {
   const blocks = days.map(day => {
     const items = (day.items || []).map(it => `
       <tr>
-        <td><strong>${it.home}</strong> vs <strong>${it.away}</strong><br>
+        <td><strong>${teamName(it.home)}</strong> vs <strong>${teamName(it.away)}</strong><br>
             <span class="market">${(it.kickoff || "").replace("T", " ").slice(0, 16)}</span></td>
         <td><span class="market">${MARKET[it.market]} ${it.pick}</span></td>
         <td><span class="outcome ${it.outcome}">${it.outcome_cn}</span>
@@ -300,6 +333,8 @@ function renderReview(review) {
   }).join("");
   box.innerHTML = `<section><h2>📋 每日复盘 <span class="tag watch">未命中</span></h2>${blocks}</section>`;
 }
+
+switchTab("rec");        // 默认显示「推荐」，赛程在单独标签页
 
 let latestData = null;   // 缓存 latest.json，供「进行中」板块交叉引用推荐
 
