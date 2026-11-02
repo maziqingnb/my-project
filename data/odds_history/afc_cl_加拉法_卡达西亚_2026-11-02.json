@@ -58,5 +58,35 @@
     "total_line": 3.5,
     "over": 0.92,
     "under": 0.88
+  },
+  {
+    "fixture_key": "afc_cl|加拉法|卡达西亚|2026-11-02",
+    "competition": "afc_cl",
+    "home": "加拉法",
+    "away": "卡达西亚",
+    "kickoff": "2026-11-02T18:15:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-01T18:15:00+00:00",
+    "handicap_line": 1.25,
+    "handicap_home": 0.8,
+    "handicap_away": 0.96,
+    "total_line": 3.25,
+    "over": 0.81,
+    "under": 0.95
+  },
+  {
+    "fixture_key": "afc_cl|加拉法|卡达西亚|2026-11-02",
+    "competition": "afc_cl",
+    "home": "加拉法",
+    "away": "卡达西亚",
+    "kickoff": "2026-11-02T18:15:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-02T16:50:24.857378+00:00",
+    "handicap_line": 1.25,
+    "handicap_home": 0.99,
+    "handicap_away": 0.83,
+    "total_line": 3.5,
+    "over": 0.92,
+    "under": 0.88
   }
 ]

@@ -58,5 +58,35 @@
     "total_line": 2.25,
     "over": 0.88,
     "under": 0.99
+  },
+  {
+    "fixture_key": "argentina|普拉腾斯|科尔多瓦中央sde|2026-11-02",
+    "competition": "argentina",
+    "home": "普拉腾斯",
+    "away": "科尔多瓦中央SDE",
+    "kickoff": "2026-11-02T22:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-01T22:00:00+00:00",
+    "handicap_line": -0.75,
+    "handicap_home": 0.93,
+    "handicap_away": 0.95,
+    "total_line": 2,
+    "over": 0.8,
+    "under": 1.07
+  },
+  {
+    "fixture_key": "argentina|普拉腾斯|科尔多瓦中央sde|2026-11-02",
+    "competition": "argentina",
+    "home": "普拉腾斯",
+    "away": "科尔多瓦中央SDE",
+    "kickoff": "2026-11-02T22:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-02T16:50:06.683081+00:00",
+    "handicap_line": -1,
+    "handicap_home": 0.85,
+    "handicap_away": 1.04,
+    "total_line": 2.25,
+    "over": 0.85,
+    "under": 1.02
   }
 ]

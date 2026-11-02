@@ -58,5 +58,35 @@
     "total_line": 2.5,
     "over": 0.97,
     "under": 0.9
+  },
+  {
+    "fixture_key": "sweden|米亚尔比|卡尔马|2026-11-02",
+    "competition": "sweden",
+    "home": "米亚尔比",
+    "away": "卡尔马",
+    "kickoff": "2026-11-02T18:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-01T18:00:00+00:00",
+    "handicap_line": -0.25,
+    "handicap_home": 1.06,
+    "handicap_away": 0.76,
+    "total_line": 2.5,
+    "over": 0.89,
+    "under": 0.91
+  },
+  {
+    "fixture_key": "sweden|米亚尔比|卡尔马|2026-11-02",
+    "competition": "sweden",
+    "home": "米亚尔比",
+    "away": "卡尔马",
+    "kickoff": "2026-11-02T18:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-02T16:50:16.732573+00:00",
+    "handicap_line": 0,
+    "handicap_home": 1.08,
+    "handicap_away": 0.81,
+    "total_line": 2.5,
+    "over": 0.97,
+    "under": 0.9
   }
 ]

@@ -58,5 +58,35 @@
     "total_line": 210.5,
     "over": 1.98,
     "under": 1.91
+  },
+  {
+    "fixture_key": "nba|charlottehornets|detroitpistons|2026-11-03",
+    "competition": "nba",
+    "home": "Charlotte Hornets",
+    "away": "Detroit Pistons",
+    "kickoff": "2026-11-03T00:40:00Z",
+    "bookmaker": "unibet",
+    "ts": "2026-11-02T16:50:25.023744+00:00",
+    "handicap_line": 5.5,
+    "handicap_home": 1.86,
+    "handicap_away": 1.96,
+    "total_line": null,
+    "over": null,
+    "under": null
+  },
+  {
+    "fixture_key": "nba|charlottehornets|detroitpistons|2026-11-03",
+    "competition": "nba",
+    "home": "Charlotte Hornets",
+    "away": "Detroit Pistons",
+    "kickoff": "2026-11-03T00:40:00Z",
+    "bookmaker": "pinnacle",
+    "ts": "2026-11-02T16:50:25.023744+00:00",
+    "handicap_line": 6.0,
+    "handicap_home": 1.92,
+    "handicap_away": 1.99,
+    "total_line": 210.5,
+    "over": 1.98,
+    "under": 1.91
   }
 ]

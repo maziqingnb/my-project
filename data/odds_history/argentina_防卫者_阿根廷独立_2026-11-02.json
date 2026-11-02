@@ -58,5 +58,35 @@
     "total_line": 2.25,
     "over": 0.86,
     "under": 1.01
+  },
+  {
+    "fixture_key": "argentina|防卫者|阿根廷独立|2026-11-02",
+    "competition": "argentina",
+    "home": "防卫者",
+    "away": "阿根廷独立",
+    "kickoff": "2026-11-02T22:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-01T22:00:00+00:00",
+    "handicap_line": -0.25,
+    "handicap_home": 0.96,
+    "handicap_away": 0.92,
+    "total_line": 2.25,
+    "over": 0.97,
+    "under": 0.9
+  },
+  {
+    "fixture_key": "argentina|防卫者|阿根廷独立|2026-11-02",
+    "competition": "argentina",
+    "home": "防卫者",
+    "away": "阿根廷独立",
+    "kickoff": "2026-11-02T22:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-02T16:50:05.278514+00:00",
+    "handicap_line": -0.25,
+    "handicap_home": 0.89,
+    "handicap_away": 1,
+    "total_line": 2.25,
+    "over": 0.86,
+    "under": 1.01
   }
 ]
