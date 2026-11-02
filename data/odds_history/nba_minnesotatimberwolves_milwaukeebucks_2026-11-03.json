@@ -118,5 +118,35 @@
     "total_line": 233.5,
     "over": 1.89,
     "under": 2.0
+  },
+  {
+    "fixture_key": "nba|minnesotatimberwolves|milwaukeebucks|2026-11-03",
+    "competition": "nba",
+    "home": "Minnesota Timberwolves",
+    "away": "Milwaukee Bucks",
+    "kickoff": "2026-11-03T01:10:00Z",
+    "bookmaker": "unibet",
+    "ts": "2026-11-02T20:34:42.924369+00:00",
+    "handicap_line": -9.5,
+    "handicap_home": 1.9,
+    "handicap_away": 1.92,
+    "total_line": null,
+    "over": null,
+    "under": null
+  },
+  {
+    "fixture_key": "nba|minnesotatimberwolves|milwaukeebucks|2026-11-03",
+    "competition": "nba",
+    "home": "Minnesota Timberwolves",
+    "away": "Milwaukee Bucks",
+    "kickoff": "2026-11-03T01:10:00Z",
+    "bookmaker": "pinnacle",
+    "ts": "2026-11-02T20:34:42.924369+00:00",
+    "handicap_line": -10.5,
+    "handicap_home": 1.96,
+    "handicap_away": 1.93,
+    "total_line": 230.0,
+    "over": 1.9,
+    "under": 1.96
   }
 ]

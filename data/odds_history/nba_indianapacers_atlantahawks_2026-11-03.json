@@ -118,5 +118,35 @@
     "total_line": 230.5,
     "over": 1.95,
     "under": 1.92
+  },
+  {
+    "fixture_key": "nba|indianapacers|atlantahawks|2026-11-03",
+    "competition": "nba",
+    "home": "Indiana Pacers",
+    "away": "Atlanta Hawks",
+    "kickoff": "2026-11-03T00:40:00Z",
+    "bookmaker": "unibet",
+    "ts": "2026-11-02T20:34:42.924369+00:00",
+    "handicap_line": 10.5,
+    "handicap_home": 1.87,
+    "handicap_away": 1.95,
+    "total_line": null,
+    "over": null,
+    "under": null
+  },
+  {
+    "fixture_key": "nba|indianapacers|atlantahawks|2026-11-03",
+    "competition": "nba",
+    "home": "Indiana Pacers",
+    "away": "Atlanta Hawks",
+    "kickoff": "2026-11-03T00:40:00Z",
+    "bookmaker": "pinnacle",
+    "ts": "2026-11-02T20:34:42.924369+00:00",
+    "handicap_line": 9.5,
+    "handicap_home": 1.95,
+    "handicap_away": 1.93,
+    "total_line": 230.5,
+    "over": 1.99,
+    "under": 1.88
   }
 ]

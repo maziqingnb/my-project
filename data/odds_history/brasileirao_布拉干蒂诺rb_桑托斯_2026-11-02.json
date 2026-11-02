@@ -118,5 +118,35 @@
     "total_line": 3,
     "over": 0.79,
     "under": 1.08
+  },
+  {
+    "fixture_key": "brasileirao|布拉干蒂诺rb|桑托斯|2026-11-02",
+    "competition": "brasileirao",
+    "home": "布拉干蒂诺RB",
+    "away": "桑托斯",
+    "kickoff": "2026-11-02T23:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-01T23:00:00+00:00",
+    "handicap_line": -0.25,
+    "handicap_home": 0.85,
+    "handicap_away": 1.03,
+    "total_line": 3,
+    "over": 1.02,
+    "under": 0.85
+  },
+  {
+    "fixture_key": "brasileirao|布拉干蒂诺rb|桑托斯|2026-11-02",
+    "competition": "brasileirao",
+    "home": "布拉干蒂诺RB",
+    "away": "桑托斯",
+    "kickoff": "2026-11-02T23:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-02T20:34:37.204511+00:00",
+    "handicap_line": -0.5,
+    "handicap_home": 0.96,
+    "handicap_away": 0.93,
+    "total_line": 3.25,
+    "over": 1.05,
+    "under": 0.82
   }
 ]

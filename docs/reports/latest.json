@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-02T20:21:35.075494+00:00",
+  "generated_at": "2026-11-02T20:34:43.130168+00:00",
   "scope": "16 个联赛 + 5 个杯赛",
   "note": "杯赛与联赛数据分开计算；仅开赛前 6h 内出推荐",
-  "total": 64,
+  "total": 70,
   "stats": {
     "overall": {
       "counts": {
@@ -1171,6 +1171,106 @@
       }
     },
     {
+      "fixture_key": "nba|charlottehornets|detroitpistons|2026-11-03",
+      "competition": "nba",
+      "home": "Charlotte Hornets",
+      "away": "Detroit Pistons",
+      "kickoff": "2026-11-03T00:40:00Z",
+      "market": "handicap",
+      "pick": "客队（让 5.5）",
+      "side": "away",
+      "confidence": "strong",
+      "score": 89.2,
+      "line": 5.5,
+      "reasons": [
+        "亚盘 降盘 3.5->5.5（主队走弱）",
+        "主队升水 1.91->1.99",
+        "主队近5场 2胜0平3负，场均进99.4/失102.8",
+        "客队近5场 4胜0平1负，场均进107.6/失99.6",
+        "交手1次：主队0胜0平1负"
+      ],
+      "signals": {
+        "line_desc": "降盘 3.5->5.5（主队走弱）",
+        "water_desc": "主队升水 1.91->1.99",
+        "line_first": 3.5,
+        "line_last": 5.5,
+        "home_water_first": 1.91,
+        "home_water_last": 1.99,
+        "away_water_first": 1.91,
+        "away_water_last": 1.92
+      },
+      "history": [
+        {
+          "ts": "2026-11-02T08:38:57.645912+00:00",
+          "handicap_line": 3.5,
+          "handicap_home": 1.91,
+          "handicap_away": 1.91
+        },
+        {
+          "ts": "2026-11-02T08:38:57.645912+00:00",
+          "handicap_line": 4.0,
+          "handicap_home": 1.96,
+          "handicap_away": 1.93
+        },
+        {
+          "ts": "2026-11-02T16:26:57.499672+00:00",
+          "handicap_line": 5.5,
+          "handicap_home": 1.86,
+          "handicap_away": 1.96
+        },
+        {
+          "ts": "2026-11-02T16:26:57.499672+00:00",
+          "handicap_line": 6.0,
+          "handicap_home": 1.91,
+          "handicap_away": 2.0
+        },
+        {
+          "ts": "2026-11-02T16:50:25.023744+00:00",
+          "handicap_line": 5.5,
+          "handicap_home": 1.86,
+          "handicap_away": 1.96
+        },
+        {
+          "ts": "2026-11-02T16:50:25.023744+00:00",
+          "handicap_line": 6.0,
+          "handicap_home": 1.92,
+          "handicap_away": 1.99
+        },
+        {
+          "ts": "2026-11-02T18:41:59.421305+00:00",
+          "handicap_line": 5.5,
+          "handicap_home": 1.87,
+          "handicap_away": 1.95
+        },
+        {
+          "ts": "2026-11-02T18:41:59.421305+00:00",
+          "handicap_line": 6.0,
+          "handicap_home": 1.93,
+          "handicap_away": 1.98
+        },
+        {
+          "ts": "2026-11-02T20:34:42.924369+00:00",
+          "handicap_line": 5.5,
+          "handicap_home": 1.87,
+          "handicap_away": 1.95
+        },
+        {
+          "ts": "2026-11-02T20:34:42.924369+00:00",
+          "handicap_line": 5.5,
+          "handicap_home": 1.99,
+          "handicap_away": 1.92
+        }
+      ],
+      "competition_name": "NBA 美国职业篮球联赛",
+      "competition_class": "league",
+      "sport": "basketball",
+      "lead_hours": 4.088076564166666,
+      "prematch": false,
+      "result": {
+        "settled": false
+      }
+    },
+    {
       "fixture_key": "seriea|博洛尼亚|蒙扎|2026-10-31",
       "competition": "seriea",
       "home": "博洛尼亚",
@@ -1421,6 +1521,12 @@
           "under": 0.97
         },
         {
+          "ts": "2026-11-02T00:15:00+00:00",
+          "total_line": 2.5,
+          "over": 0.9,
+          "under": 0.97
+        },
+        {
           "ts": "2026-11-02T16:14:11.382378+00:00",
           "total_line": 2.5,
           "over": 0.93,
@@ -1443,12 +1549,18 @@
           "total_line": 2.5,
           "over": 0.93,
           "under": 0.94
+        },
+        {
+          "ts": "2026-11-02T20:34:42.766283+00:00",
+          "total_line": 2.5,
+          "over": 0.93,
+          "under": 0.94
         }
       ],
       "competition_name": "阿根廷甲级联赛",
       "competition_class": "league",
       "sport": "football",
-      "lead_hours": 5.550553043611112,
+      "lead_hours": 3.6714538102777774,
       "prematch": false,
       "result": {
         "settled": false
@@ -2952,6 +3064,105 @@
       }
     },
     {
+      "fixture_key": "nba|denvernuggets|portlandtrailblazers|2026-11-03",
+      "competition": "nba",
+      "home": "Denver Nuggets",
+      "away": "Portland Trail Blazers",
+      "kickoff": "2026-11-03T02:10:00Z",
+      "market": "totals",
+      "pick": "大分（231.5）",
+      "side": "over",
+      "confidence": "strong",
+      "score": 80.0,
+      "line": 231.5,
+      "reasons": [
+        "大小球 升盘 230.5->231.5（看大）",
+        "大球水位平稳",
+        "主队近5场场均总进球 229.2",
+        "客队近5场场均总进球 229.8"
+      ],
+      "signals": {
+        "line_desc": "升盘 230.5->231.5（看大）",
+        "over_desc": "大球水位平稳",
+        "line_first": 230.5,
+        "line_last": 231.5,
+        "over_first": 1.92,
+        "over_last": 1.94,
+        "under_first": 1.95,
+        "under_last": 1.94
+      },
+      "history": [
+        {
+          "ts": "2026-11-02T08:38:57.645912+00:00",
+          "total_line": null,
+          "over": null,
+          "under": null
+        },
+        {
+          "ts": "2026-11-02T08:38:57.645912+00:00",
+          "total_line": 230.5,
+          "over": 1.92,
+          "under": 1.95
+        },
+        {
+          "ts": "2026-11-02T16:26:57.499672+00:00",
+          "total_line": null,
+          "over": null,
+          "under": null
+        },
+        {
+          "ts": "2026-11-02T16:26:57.499672+00:00",
+          "total_line": 230.5,
+          "over": 1.88,
+          "under": 2.0
+        },
+        {
+          "ts": "2026-11-02T16:50:25.023744+00:00",
+          "total_line": null,
+          "over": null,
+          "under": null
+        },
+        {
+          "ts": "2026-11-02T16:50:25.023744+00:00",
+          "total_line": 230.5,
+          "over": 1.88,
+          "under": 2.0
+        },
+        {
+          "ts": "2026-11-02T18:41:59.421305+00:00",
+          "total_line": null,
+          "over": null,
+          "under": null
+        },
+        {
+          "ts": "2026-11-02T18:41:59.421305+00:00",
+          "total_line": 230.5,
+          "over": 1.89,
+          "under": 2.0
+        },
+        {
+          "ts": "2026-11-02T20:34:42.924369+00:00",
+          "total_line": null,
+          "over": null,
+          "under": null
+        },
+        {
+          "ts": "2026-11-02T20:34:42.924369+00:00",
+          "total_line": 231.5,
+          "over": 1.94,
+          "under": 1.94
+        }
+      ],
+      "competition_name": "NBA 美国职业篮球联赛",
+      "competition_class": "league",
+      "sport": "basketball",
+      "lead_hours": 5.588076564166666,
+      "prematch": false,
+      "result": {
+        "settled": false
+      }
+    },
+    {
       "fixture_key": "epl|chelsea|曼彻斯特联|2026-10-31",
       "competition": "epl",
       "home": "Chelsea",
@@ -3711,88 +3922,198 @@
       }
     },
     {
-      "fixture_key": "nba|charlottehornets|detroitpistons|2026-11-03",
+      "fixture_key": "nba|newyorkknicks|brooklynnets|2026-11-03",
       "competition": "nba",
-      "home": "Charlotte Hornets",
-      "away": "Detroit Pistons",
+      "home": "New York Knicks",
+      "away": "Brooklyn Nets",
       "kickoff": "2026-11-03T00:40:00Z",
-      "market": "handicap",
-      "pick": "客队（让 6）",
-      "side": "away",
+      "market": "totals",
+      "pick": "大分（218.5）",
+      "side": "over",
       "confidence": "strong",
-      "score": 74.2,
-      "line": 6.0,
+      "score": 75.0,
+      "line": 218.5,
       "reasons": [
-        "亚盘 降盘 3.5->6.0（主队走弱）",
-        "水位平稳",
-        "主队近5场 2胜0平3负，场均进99.4/失102.8",
-        "客队近5场 4胜0平1负，场均进107.6/失99.6",
-        "交手1次：主队0胜0平1负"
+        "大小球 降盘 220.5->218.5（看小）",
+        "大球降水 1.95->1.91",
+        "主队近5场场均总进球 216.4",
+        "客队近5场场均总进球 226.4"
       ],
       "signals": {
-        "line_desc": "降盘 3.5->6.0（主队走弱）",
-        "water_desc": "水位平稳",
-        "line_first": 3.5,
-        "line_last": 6.0,
-        "home_water_first": 1.91,
-        "home_water_last": 1.93,
-        "away_water_first": 1.91,
-        "away_water_last": 1.98
+        "line_desc": "降盘 220.5->218.5（看小）",
+        "over_desc": "大球降水 1.95->1.91",
+        "line_first": 220.5,
+        "line_last": 218.5,
+        "over_first": 1.95,
+        "over_last": 1.91,
+        "under_first": 1.92,
+        "under_last": 1.98
       },
       "history": [
         {
           "ts": "2026-11-02T08:38:57.645912+00:00",
-          "handicap_line": 3.5,
-          "handicap_home": 1.91,
-          "handicap_away": 1.91
+          "total_line": null,
+          "over": null,
+          "under": null
         },
         {
           "ts": "2026-11-02T08:38:57.645912+00:00",
-          "handicap_line": 4.0,
-          "handicap_home": 1.96,
-          "handicap_away": 1.93
+          "total_line": 220.5,
+          "over": 1.95,
+          "under": 1.92
         },
         {
           "ts": "2026-11-02T16:26:57.499672+00:00",
-          "handicap_line": 5.5,
-          "handicap_home": 1.86,
-          "handicap_away": 1.96
+          "total_line": null,
+          "over": null,
+          "under": null
         },
         {
           "ts": "2026-11-02T16:26:57.499672+00:00",
-          "handicap_line": 6.0,
-          "handicap_home": 1.91,
-          "handicap_away": 2.0
+          "total_line": 219.5,
+          "over": 2.0,
+          "under": 1.88
         },
         {
           "ts": "2026-11-02T16:50:25.023744+00:00",
-          "handicap_line": 5.5,
-          "handicap_home": 1.86,
-          "handicap_away": 1.96
+          "total_line": null,
+          "over": null,
+          "under": null
         },
         {
           "ts": "2026-11-02T16:50:25.023744+00:00",
-          "handicap_line": 6.0,
-          "handicap_home": 1.92,
-          "handicap_away": 1.99
+          "total_line": 219.5,
+          "over": 2.02,
+          "under": 1.87
         },
         {
           "ts": "2026-11-02T18:41:59.421305+00:00",
-          "handicap_line": 5.5,
-          "handicap_home": 1.87,
-          "handicap_away": 1.95
+          "total_line": null,
+          "over": null,
+          "under": null
         },
         {
           "ts": "2026-11-02T18:41:59.421305+00:00",
-          "handicap_line": 6.0,
-          "handicap_home": 1.93,
-          "handicap_away": 1.98
+          "total_line": 218.5,
+          "over": 1.96,
+          "under": 1.93
+        },
+        {
+          "ts": "2026-11-02T20:34:42.924369+00:00",
+          "total_line": null,
+          "over": null,
+          "under": null
+        },
+        {
+          "ts": "2026-11-02T20:34:42.924369+00:00",
+          "total_line": 218.5,
+          "over": 1.91,
+          "under": 1.98
         }
       ],
       "competition_name": "NBA 美国职业篮球联赛",
       "competition_class": "league",
       "sport": "basketball",
-      "lead_hours": 5.966827415277778,
+      "lead_hours": 4.088076564166666,
+      "prematch": false,
+      "result": {
+        "settled": false
+      }
+    },
+    {
+      "fixture_key": "nba|minnesotatimberwolves|milwaukeebucks|2026-11-03",
+      "competition": "nba",
+      "home": "Minnesota Timberwolves",
+      "away": "Milwaukee Bucks",
+      "kickoff": "2026-11-03T01:10:00Z",
+      "market": "totals",
+      "pick": "大分（230）",
+      "side": "over",
+      "confidence": "strong",
+      "score": 75.0,
+      "line": 230.0,
+      "reasons": [
+        "大小球 降盘 234.0->230.0（看小）",
+        "大球降水 1.93->1.9",
+        "主队近5场场均总进球 231.2",
+        "客队近5场场均总进球 238.2"
+      ],
+      "signals": {
+        "line_desc": "降盘 234.0->230.0（看小）",
+        "over_desc": "大球降水 1.93->1.9",
+        "line_first": 234.0,
+        "line_last": 230.0,
+        "over_first": 1.93,
+        "over_last": 1.9,
+        "under_first": 1.94,
+        "under_last": 1.96
+      },
+      "history": [
+        {
+          "ts": "2026-11-02T08:38:57.645912+00:00",
+          "total_line": null,
+          "over": null,
+          "under": null
+        },
+        {
+          "ts": "2026-11-02T08:38:57.645912+00:00",
+          "total_line": 234.0,
+          "over": 1.93,
+          "under": 1.94
+        },
+        {
+          "ts": "2026-11-02T16:26:57.499672+00:00",
+          "total_line": null,
+          "over": null,
+          "under": null
+        },
+        {
+          "ts": "2026-11-02T16:26:57.499672+00:00",
+          "total_line": 233.5,
+          "over": 1.9,
+          "under": 1.98
+        },
+        {
+          "ts": "2026-11-02T16:50:25.023744+00:00",
+          "total_line": null,
+          "over": null,
+          "under": null
+        },
+        {
+          "ts": "2026-11-02T16:50:25.023744+00:00",
+          "total_line": 233.5,
+          "over": 1.89,
+          "under": 2.0
+        },
+        {
+          "ts": "2026-11-02T18:41:59.421305+00:00",
+          "total_line": null,
+          "over": null,
+          "under": null
+        },
+        {
+          "ts": "2026-11-02T18:41:59.421305+00:00",
+          "total_line": 233.5,
+          "over": 1.89,
+          "under": 2.0
+        },
+        {
+          "ts": "2026-11-02T20:34:42.924369+00:00",
+          "total_line": null,
+          "over": null,
+          "under": null
+        },
+        {
+          "ts": "2026-11-02T20:34:42.924369+00:00",
+          "total_line": 230.0,
+          "over": 1.9,
+          "under": 1.96
+        }
+      ],
+      "competition_name": "NBA 美国职业篮球联赛",
+      "competition_class": "league",
+      "sport": "basketball",
+      "lead_hours": 4.588076564166666,
       "prematch": false,
       "result": {
         "settled": false
@@ -4203,94 +4524,6 @@
       }
     },
     {
-      "fixture_key": "nba|indianapacers|atlantahawks|2026-11-03",
-      "competition": "nba",
-      "home": "Indiana Pacers",
-      "away": "Atlanta Hawks",
-      "kickoff": "2026-11-03T00:40:00Z",
-      "market": "handicap",
-      "pick": "客队（让 9）",
-      "side": "away",
-      "confidence": "strong",
-      "score": 70.6,
-      "line": 9.0,
-      "reasons": [
-        "亚盘 降盘 4.5->9.0（主队走弱）",
-        "主队升水 1.95->2.0",
-        "主队近5场 1胜0平4负，场均进112.4/失115.2",
-        "客队近5场 1胜0平4负，场均进110.8/失120.4",
-        "交手1次：主队0胜0平1负"
-      ],
-      "signals": {
-        "line_desc": "降盘 4.5->9.0（主队走弱）",
-        "water_desc": "主队升水 1.95->2.0",
-        "line_first": 4.5,
-        "line_last": 9.0,
-        "home_water_first": 1.95,
-        "home_water_last": 2.0,
-        "away_water_first": 1.87,
-        "away_water_last": 1.89
-      },
-      "history": [
-        {
-          "ts": "2026-11-02T08:38:57.645912+00:00",
-          "handicap_line": 4.5,
-          "handicap_home": 1.95,
-          "handicap_away": 1.87
-        },
-        {
-          "ts": "2026-11-02T08:38:57.645912+00:00",
-          "handicap_line": 5.0,
-          "handicap_home": 1.94,
-          "handicap_away": 1.94
-        },
-        {
-          "ts": "2026-11-02T16:26:57.499672+00:00",
-          "handicap_line": 4.5,
-          "handicap_home": 1.94,
-          "handicap_away": 1.88
-        },
-        {
-          "ts": "2026-11-02T16:26:57.499672+00:00",
-          "handicap_line": 5.0,
-          "handicap_home": 1.98,
-          "handicap_away": 1.91
-        },
-        {
-          "ts": "2026-11-02T16:50:25.023744+00:00",
-          "handicap_line": 4.5,
-          "handicap_home": 1.94,
-          "handicap_away": 1.88
-        },
-        {
-          "ts": "2026-11-02T16:50:25.023744+00:00",
-          "handicap_line": 5.0,
-          "handicap_home": 1.96,
-          "handicap_away": 1.93
-        },
-        {
-          "ts": "2026-11-02T18:41:59.421305+00:00",
-          "handicap_line": 9.5,
-          "handicap_home": 1.88,
-          "handicap_away": 1.94
-        },
-        {
-          "ts": "2026-11-02T18:41:59.421305+00:00",
-          "handicap_line": 9.0,
-          "handicap_home": 2.0,
-          "handicap_away": 1.89
-        }
-      ],
-      "competition_name": "NBA 美国职业篮球联赛",
-      "competition_class": "league",
-      "sport": "basketball",
-      "lead_hours": 5.966827415277778,
-      "prematch": false,
-      "result": {
-        "settled": false
-      }
-    },
-    {
       "fixture_key": "laliga|巴塞罗那|阿拉维斯|2026-10-31",
       "competition": "laliga",
       "home": "巴塞罗那",
@@ -4523,11 +4756,17 @@
         "line_first": 2,
         "line_last": 2,
         "over_first": 0.9,
-        "over_last": 0.88,
+        "over_last": 0.9,
         "under_first": 0.97,
-        "under_last": 0.99
+        "under_last": 0.97
       },
       "history": [
+        {
+          "ts": "2026-11-02T00:15:00+00:00",
+          "total_line": 2,
+          "over": 0.9,
+          "under": 0.97
+        },
         {
           "ts": "2026-11-02T00:15:00+00:00",
           "total_line": 2,
@@ -4575,12 +4814,18 @@
           "total_line": 2,
           "over": 0.88,
           "under": 0.99
+        },
+        {
+          "ts": "2026-11-02T20:34:41.255533+00:00",
+          "total_line": 2,
+          "over": 0.9,
+          "under": 0.97
         }
       ],
       "competition_name": "阿根廷甲级联赛",
       "competition_class": "league",
       "sport": "football",
-      "lead_hours": 5.550893624444444,
+      "lead_hours": 3.671873463055556,
       "prematch": false,
       "result": {
         "settled": false
@@ -4729,6 +4974,106 @@
       "sport": "football",
       "lead_hours": 1.0534189688888889,
       "prematch": true,
+      "result": {
+        "settled": false
+      }
+    },
+    {
+      "fixture_key": "nba|dallasmavericks|sacramentokings|2026-11-03",
+      "competition": "nba",
+      "home": "Dallas Mavericks",
+      "away": "Sacramento Kings",
+      "kickoff": "2026-11-03T01:10:00Z",
+      "market": "handicap",
+      "pick": "客队（受让 8.5）",
+      "side": "away",
+      "confidence": "watch",
+      "score": 68.3,
+      "line": -8.5,
+      "reasons": [
+        "亚盘 降盘 -9.5->-8.5（主队走弱）",
+        "主队升水 1.86->1.95",
+        "主队近5场 4胜0平1负，场均进115.2/失108.6",
+        "客队近5场 0胜0平5负，场均进112.0/失129.8",
+        "交手0次：主队0胜0平0负"
+      ],
+      "signals": {
+        "line_desc": "降盘 -9.5->-8.5（主队走弱）",
+        "water_desc": "主队升水 1.86->1.95",
+        "line_first": -9.5,
+        "line_last": -8.5,
+        "home_water_first": 1.86,
+        "home_water_last": 1.95,
+        "away_water_first": 1.96,
+        "away_water_last": 1.93
+      },
+      "history": [
+        {
+          "ts": "2026-11-02T08:38:57.645912+00:00",
+          "handicap_line": -9.5,
+          "handicap_home": 1.86,
+          "handicap_away": 1.96
+        },
+        {
+          "ts": "2026-11-02T08:38:57.645912+00:00",
+          "handicap_line": -10.0,
+          "handicap_home": 1.88,
+          "handicap_away": 2.01
+        },
+        {
+          "ts": "2026-11-02T16:26:57.499672+00:00",
+          "handicap_line": -9.5,
+          "handicap_home": 1.87,
+          "handicap_away": 1.95
+        },
+        {
+          "ts": "2026-11-02T16:26:57.499672+00:00",
+          "handicap_line": -10.5,
+          "handicap_home": 1.93,
+          "handicap_away": 1.96
+        },
+        {
+          "ts": "2026-11-02T16:50:25.023744+00:00",
+          "handicap_line": -10.5,
+          "handicap_home": 1.94,
+          "handicap_away": 1.88
+        },
+        {
+          "ts": "2026-11-02T16:50:25.023744+00:00",
+          "handicap_line": -10.5,
+          "handicap_home": 1.88,
+          "handicap_away": 2.01
+        },
+        {
+          "ts": "2026-11-02T18:41:59.421305+00:00",
+          "handicap_line": -10.5,
+          "handicap_home": 1.94,
+          "handicap_away": 1.88
+        },
+        {
+          "ts": "2026-11-02T18:41:59.421305+00:00",
+          "handicap_line": -10.5,
+          "handicap_home": 1.91,
+          "handicap_away": 1.98
+        },
+        {
+          "ts": "2026-11-02T20:34:42.924369+00:00",
+          "handicap_line": -8.5,
+          "handicap_home": 1.9,
+          "handicap_away": 1.92
+        },
+        {
+          "ts": "2026-11-02T20:34:42.924369+00:00",
+          "handicap_line": -8.5,
+          "handicap_home": 1.95,
+          "handicap_away": 1.93
+        }
+      ],
+      "competition_name": "NBA 美国职业篮球联赛",
+      "competition_class": "league",
+      "sport": "basketball",
+      "lead_hours": 4.588076564166666,
+      "prematch": false,
       "result": {
         "settled": false
       }
@@ -5248,20 +5593,20 @@
       "line": -3.0,
       "reasons": [
         "亚盘 升盘 -0.5->-3.0（主队走强）",
-        "主队升水 1.82->1.93",
+        "主队升水 1.82->1.94",
         "主队近5场 2胜0平3负，场均进104.2/失113.6",
         "客队近5场 2胜0平3负，场均进107.0/失108.4",
         "交手0次：主队0胜0平0负"
       ],
       "signals": {
         "line_desc": "升盘 -0.5->-3.0（主队走强）",
-        "water_desc": "主队升水 1.82->1.93",
+        "water_desc": "主队升水 1.82->1.94",
         "line_first": -0.5,
         "line_last": -3.0,
         "home_water_first": 1.82,
-        "home_water_last": 1.93,
+        "home_water_last": 1.94,
         "away_water_first": 2.0,
-        "away_water_last": 1.97
+        "away_water_last": 1.96
       },
       "history": [
         {
@@ -5311,12 +5656,24 @@
           "handicap_line": -3.0,
           "handicap_home": 1.93,
           "handicap_away": 1.97
+        },
+        {
+          "ts": "2026-11-02T20:34:42.924369+00:00",
+          "handicap_line": -3.5,
+          "handicap_home": 1.96,
+          "handicap_away": 1.86
+        },
+        {
+          "ts": "2026-11-02T20:34:42.924369+00:00",
+          "handicap_line": -3.0,
+          "handicap_home": 1.94,
+          "handicap_away": 1.96
         }
       ],
       "competition_name": "NBA 美国职业篮球联赛",
       "competition_class": "league",
       "sport": "basketball",
-      "lead_hours": 5.966827415277778,
+      "lead_hours": 4.088076564166666,
       "prematch": false,
       "result": {
         "settled": false
@@ -5827,6 +6184,12 @@
           "handicap_away": 0.92
         },
         {
+          "ts": "2026-11-01T22:00:00+00:00",
+          "handicap_line": -0.25,
+          "handicap_home": 0.96,
+          "handicap_away": 0.92
+        },
+        {
           "ts": "2026-11-02T16:14:06.870212+00:00",
           "handicap_line": -0.25,
           "handicap_home": 0.89,
@@ -5849,13 +6212,19 @@
           "handicap_line": -0.25,
           "handicap_home": 0.91,
           "handicap_away": 0.98
+        },
+        {
+          "ts": "2026-11-02T20:34:38.523324+00:00",
+          "handicap_line": -0.25,
+          "handicap_home": 0.91,
+          "handicap_away": 0.98
         }
       ],
       "competition_name": "阿根廷甲级联赛",
       "competition_class": "league",
       "sport": "football",
-      "lead_hours": 3.3016148038888886,
-      "prematch": false,
+      "lead_hours": 1.42263241,
+      "prematch": true,
       "result": {
         "settled": false
       }
@@ -5874,20 +6243,20 @@
       "line": -10.0,
       "reasons": [
         "亚盘 降盘 -10.5->-10.0（主队走弱）",
-        "主队升水 1.84->1.92",
+        "主队升水 1.84->1.89",
         "主队近5场 4胜0平1负，场均进108.2/失105.6",
         "客队近5场 1胜0平4负，场均进117.8/失128.2",
         "交手0次：主队0胜0平0负"
       ],
       "signals": {
         "line_desc": "降盘 -10.5->-10.0（主队走弱）",
-        "water_desc": "主队升水 1.84->1.92",
+        "water_desc": "主队升水 1.84->1.89",
         "line_first": -10.5,
         "line_last": -10.0,
         "home_water_first": 1.84,
-        "home_water_last": 1.92,
+        "home_water_last": 1.89,
         "away_water_first": 1.98,
-        "away_water_last": 1.97
+        "away_water_last": 2.0
       },
       "history": [
         {
@@ -5931,12 +6300,24 @@
           "handicap_line": -10.0,
           "handicap_home": 1.92,
           "handicap_away": 1.97
+        },
+        {
+          "ts": "2026-11-02T20:34:42.924369+00:00",
+          "handicap_line": -10.5,
+          "handicap_home": 1.89,
+          "handicap_away": 1.93
+        },
+        {
+          "ts": "2026-11-02T20:34:42.924369+00:00",
+          "handicap_line": -10.0,
+          "handicap_home": 1.89,
+          "handicap_away": 2.0
         }
       ],
       "competition_name": "NBA 美国职业篮球联赛",
       "competition_class": "league",
       "sport": "basketball",
-      "lead_hours": 5.966827415277778,
+      "lead_hours": 4.088076564166666,
       "prematch": false,
       "result": {
         "settled": false
@@ -5956,19 +6337,19 @@
       "line": 229.0,
       "reasons": [
         "大小球 升盘 227.5->229.0（看大）",
-        "大球升水 1.88->1.93",
+        "大球升水 1.88->1.91",
         "主队近5场场均总进球 240.4",
         "客队近5场场均总进球 212.2"
       ],
       "signals": {
         "line_desc": "升盘 227.5->229.0（看大）",
-        "over_desc": "大球升水 1.88->1.93",
+        "over_desc": "大球升水 1.88->1.91",
         "line_first": 227.5,
         "line_last": 229.0,
         "over_first": 1.88,
-        "over_last": 1.93,
+        "over_last": 1.91,
         "under_first": 1.99,
-        "under_last": 1.95
+        "under_last": 1.98
       },
       "history": [
         {
@@ -6018,12 +6399,24 @@
           "total_line": 229.0,
           "over": 1.93,
           "under": 1.95
+        },
+        {
+          "ts": "2026-11-02T20:34:42.924369+00:00",
+          "total_line": null,
+          "over": null,
+          "under": null
+        },
+        {
+          "ts": "2026-11-02T20:34:42.924369+00:00",
+          "total_line": 229.0,
+          "over": 1.91,
+          "under": 1.98
         }
       ],
       "competition_name": "NBA 美国职业篮球联赛",
       "competition_class": "league",
       "sport": "basketball",
-      "lead_hours": 5.466827415277778,
+      "lead_hours": 3.5880765641666668,
       "prematch": false,
       "result": {
         "settled": false
@@ -6155,93 +6548,6 @@
         "home_goals": 1,
         "away_goals": 1,
         "settled": true
-      }
-    },
-    {
-      "fixture_key": "brasileirao|布拉干蒂诺rb|桑托斯|2026-11-02",
-      "competition": "brasileirao",
-      "home": "布拉干蒂诺RB",
-      "away": "桑托斯",
-      "kickoff": "2026-11-02T23:00:00",
-      "market": "totals",
-      "pick": "大球（3）",
-      "side": "over",
-      "confidence": "watch",
-      "score": 63.1,
-      "line": 3,
-      "reasons": [
-        "大小球 盘口不变",
-        "大球降水 1.02->0.79",
-        "主队近1场场均总进球 3.0",
-        "客队近1场场均总进球 0.0"
-      ],
-      "signals": {
-        "line_desc": "盘口不变",
-        "over_desc": "大球降水 1.02->0.79",
-        "line_first": 3,
-        "line_last": 3,
-        "over_first": 1.02,
-        "over_last": 0.79,
-        "under_first": 0.85,
-        "under_last": 1.08
-      },
-      "history": [
-        {
-          "ts": "2026-11-01T23:00:00+00:00",
-          "total_line": 3,
-          "over": 1.02,
-          "under": 0.85
-        },
-        {
-          "ts": "2026-11-01T23:00:00+00:00",
-          "total_line": 3,
-          "over": 1.02,
-          "under": 0.85
-        },
-        {
-          "ts": "2026-11-01T23:00:00+00:00",
-          "total_line": 3,
-          "over": 1.02,
-          "under": 0.85
-        },
-        {
-          "ts": "2026-11-01T23:00:00+00:00",
-          "total_line": 3,
-          "over": 1.02,
-          "under": 0.85
-        },
-        {
-          "ts": "2026-11-02T16:14:05.560693+00:00",
-          "total_line": 3,
-          "over": 0.83,
-          "under": 1.04
-        },
-        {
-          "ts": "2026-11-02T16:26:20.413852+00:00",
-          "total_line": 3,
-          "over": 0.83,
-          "under": 1.04
-        },
-        {
-          "ts": "2026-11-02T16:50:03.796809+00:00",
-          "total_line": 3,
-          "over": 0.83,
-          "under": 1.04
-        },
-        {
-          "ts": "2026-11-02T18:41:52.962525+00:00",
-          "total_line": 3,
-          "over": 0.79,
-          "under": 1.08
-        }
-      ],
-      "competition_name": "巴西甲级联赛",
-      "competition_class": "league",
-      "sport": "football",
-      "lead_hours": 4.301954854166667,
-      "prematch": false,
-      "result": {
-        "settled": false
       }
     },
     {
@@ -6437,31 +6743,131 @@
       }
     },
     {
-      "fixture_key": "nba|newyorkknicks|brooklynnets|2026-11-03",
+      "fixture_key": "brasileirao|布拉干蒂诺rb|桑托斯|2026-11-02",
+      "competition": "brasileirao",
+      "home": "布拉干蒂诺RB",
+      "away": "桑托斯",
+      "kickoff": "2026-11-02T23:00:00",
+      "market": "handicap",
+      "pick": "主队（让 0.5）",
+      "side": "home",
+      "confidence": "watch",
+      "score": 60.0,
+      "line": -0.5,
+      "reasons": [
+        "亚盘 升盘 -0.25->-0.5（主队走强）",
+        "主队升水 0.85->0.96",
+        "主队近1场 1胜0平0负，场均进3.0/失0.0",
+        "客队近1场 0胜1平0负，场均进0.0/失0.0",
+        "交手0次：主队0胜0平0负"
+      ],
+      "signals": {
+        "line_desc": "升盘 -0.25->-0.5（主队走强）",
+        "water_desc": "主队升水 0.85->0.96",
+        "line_first": -0.25,
+        "line_last": -0.5,
+        "home_water_first": 0.85,
+        "home_water_last": 0.96,
+        "away_water_first": 1.03,
+        "away_water_last": 0.93
+      },
+      "history": [
+        {
+          "ts": "2026-11-01T23:00:00+00:00",
+          "handicap_line": -0.25,
+          "handicap_home": 0.85,
+          "handicap_away": 1.03
+        },
+        {
+          "ts": "2026-11-01T23:00:00+00:00",
+          "handicap_line": -0.25,
+          "handicap_home": 0.85,
+          "handicap_away": 1.03
+        },
+        {
+          "ts": "2026-11-01T23:00:00+00:00",
+          "handicap_line": -0.25,
+          "handicap_home": 0.85,
+          "handicap_away": 1.03
+        },
+        {
+          "ts": "2026-11-01T23:00:00+00:00",
+          "handicap_line": -0.25,
+          "handicap_home": 0.85,
+          "handicap_away": 1.03
+        },
+        {
+          "ts": "2026-11-01T23:00:00+00:00",
+          "handicap_line": -0.25,
+          "handicap_home": 0.85,
+          "handicap_away": 1.03
+        },
+        {
+          "ts": "2026-11-02T16:14:05.560693+00:00",
+          "handicap_line": -0.5,
+          "handicap_home": 1.02,
+          "handicap_away": 0.87
+        },
+        {
+          "ts": "2026-11-02T16:26:20.413852+00:00",
+          "handicap_line": -0.5,
+          "handicap_home": 1.02,
+          "handicap_away": 0.87
+        },
+        {
+          "ts": "2026-11-02T16:50:03.796809+00:00",
+          "handicap_line": -0.5,
+          "handicap_home": 0.99,
+          "handicap_away": 0.9
+        },
+        {
+          "ts": "2026-11-02T18:41:52.962525+00:00",
+          "handicap_line": -0.5,
+          "handicap_home": 0.97,
+          "handicap_away": 0.92
+        },
+        {
+          "ts": "2026-11-02T20:34:37.204511+00:00",
+          "handicap_line": -0.5,
+          "handicap_home": 0.96,
+          "handicap_away": 0.93
+        }
+      ],
+      "competition_name": "巴西甲级联赛",
+      "competition_class": "league",
+      "sport": "football",
+      "lead_hours": 2.4229987469444443,
+      "prematch": false,
+      "result": {
+        "settled": false
+      }
+    },
+    {
+      "fixture_key": "nba|houstonrockets|bostonceltics|2026-11-03",
       "competition": "nba",
-      "home": "New York Knicks",
-      "away": "Brooklyn Nets",
-      "kickoff": "2026-11-03T00:40:00Z",
+      "home": "Houston Rockets",
+      "away": "Boston Celtics",
+      "kickoff": "2026-11-03T01:40:00Z",
       "market": "totals",
-      "pick": "大分（218.5）",
+      "pick": "大分（217）",
       "side": "over",
       "confidence": "watch",
       "score": 60.0,
-      "line": 218.5,
+      "line": 217.0,
       "reasons": [
-        "大小球 降盘 220.5->218.5（看小）",
+        "大小球 降盘 219.0->217.0（看小）",
         "大球水位平稳",
-        "主队近5场场均总进球 216.4",
-        "客队近5场场均总进球 226.4"
+        "主队近5场场均总进球 228.2",
+        "客队近5场场均总进球 226.6"
       ],
       "signals": {
-        "line_desc": "降盘 220.5->218.5（看小）",
+        "line_desc": "降盘 219.0->217.0（看小）",
         "over_desc": "大球水位平稳",
-        "line_first": 220.5,
-        "line_last": 218.5,
-        "over_first": 1.95,
-        "over_last": 1.96,
-        "under_first": 1.92,
+        "line_first": 219.0,
+        "line_last": 217.0,
+        "over_first": 1.93,
+        "over_last": 1.95,
+        "under_first": 1.93,
         "under_last": 1.93
       },
       "history": [
@@ -6473,9 +6879,9 @@
         },
         {
           "ts": "2026-11-02T08:38:57.645912+00:00",
-          "total_line": 220.5,
-          "over": 1.95,
-          "under": 1.92
+          "total_line": 219.0,
+          "over": 1.93,
+          "under": 1.93
         },
         {
           "ts": "2026-11-02T16:26:57.499672+00:00",
@@ -6485,9 +6891,9 @@
         },
         {
           "ts": "2026-11-02T16:26:57.499672+00:00",
-          "total_line": 219.5,
-          "over": 2.0,
-          "under": 1.88
+          "total_line": 218.5,
+          "over": 1.89,
+          "under": 1.99
         },
         {
           "ts": "2026-11-02T16:50:25.023744+00:00",
@@ -6497,9 +6903,9 @@
         },
         {
           "ts": "2026-11-02T16:50:25.023744+00:00",
-          "total_line": 219.5,
-          "over": 2.02,
-          "under": 1.87
+          "total_line": 218.5,
+          "over": 1.91,
+          "under": 1.98
         },
         {
           "ts": "2026-11-02T18:41:59.421305+00:00",
@@ -6511,13 +6917,25 @@
           "ts": "2026-11-02T18:41:59.421305+00:00",
           "total_line": 218.5,
           "over": 1.96,
+          "under": 1.91
+        },
+        {
+          "ts": "2026-11-02T20:34:42.924369+00:00",
+          "total_line": null,
+          "over": null,
+          "under": null
+        },
+        {
+          "ts": "2026-11-02T20:34:42.924369+00:00",
+          "total_line": 217.0,
+          "over": 1.95,
           "under": 1.93
         }
       ],
       "competition_name": "NBA 美国职业篮球联赛",
       "competition_class": "league",
       "sport": "basketball",
-      "lead_hours": 5.966827415277778,
+      "lead_hours": 5.088076564166666,
       "prematch": false,
       "result": {
         "settled": false
@@ -7106,6 +7524,106 @@
       }
     },
     {
+      "fixture_key": "nba|indianapacers|atlantahawks|2026-11-03",
+      "competition": "nba",
+      "home": "Indiana Pacers",
+      "away": "Atlanta Hawks",
+      "kickoff": "2026-11-03T00:40:00Z",
+      "market": "handicap",
+      "pick": "客队（让 9.5）",
+      "side": "away",
+      "confidence": "watch",
+      "score": 55.6,
+      "line": 9.5,
+      "reasons": [
+        "亚盘 降盘 4.5->9.5（主队走弱）",
+        "水位平稳",
+        "主队近5场 1胜0平4负，场均进112.4/失115.2",
+        "客队近5场 1胜0平4负，场均进110.8/失120.4",
+        "交手1次：主队0胜0平1负"
+      ],
+      "signals": {
+        "line_desc": "降盘 4.5->9.5（主队走弱）",
+        "water_desc": "水位平稳",
+        "line_first": 4.5,
+        "line_last": 9.5,
+        "home_water_first": 1.95,
+        "home_water_last": 1.95,
+        "away_water_first": 1.87,
+        "away_water_last": 1.93
+      },
+      "history": [
+        {
+          "ts": "2026-11-02T08:38:57.645912+00:00",
+          "handicap_line": 4.5,
+          "handicap_home": 1.95,
+          "handicap_away": 1.87
+        },
+        {
+          "ts": "2026-11-02T08:38:57.645912+00:00",
+          "handicap_line": 5.0,
+          "handicap_home": 1.94,
+          "handicap_away": 1.94
+        },
+        {
+          "ts": "2026-11-02T16:26:57.499672+00:00",
+          "handicap_line": 4.5,
+          "handicap_home": 1.94,
+          "handicap_away": 1.88
+        },
+        {
+          "ts": "2026-11-02T16:26:57.499672+00:00",
+          "handicap_line": 5.0,
+          "handicap_home": 1.98,
+          "handicap_away": 1.91
+        },
+        {
+          "ts": "2026-11-02T16:50:25.023744+00:00",
+          "handicap_line": 4.5,
+          "handicap_home": 1.94,
+          "handicap_away": 1.88
+        },
+        {
+          "ts": "2026-11-02T16:50:25.023744+00:00",
+          "handicap_line": 5.0,
+          "handicap_home": 1.96,
+          "handicap_away": 1.93
+        },
+        {
+          "ts": "2026-11-02T18:41:59.421305+00:00",
+          "handicap_line": 9.5,
+          "handicap_home": 1.88,
+          "handicap_away": 1.94
+        },
+        {
+          "ts": "2026-11-02T18:41:59.421305+00:00",
+          "handicap_line": 9.0,
+          "handicap_home": 2.0,
+          "handicap_away": 1.89
+        },
+        {
+          "ts": "2026-11-02T20:34:42.924369+00:00",
+          "handicap_line": 10.5,
+          "handicap_home": 1.87,
+          "handicap_away": 1.95
+        },
+        {
+          "ts": "2026-11-02T20:34:42.924369+00:00",
+          "handicap_line": 9.5,
+          "handicap_home": 1.95,
+          "handicap_away": 1.93
+        }
+      ],
+      "competition_name": "NBA 美国职业篮球联赛",
+      "competition_class": "league",
+      "sport": "basketball",
+      "lead_hours": 4.088076564166666,
+      "prematch": false,
+      "result": {
+        "settled": false
+      }
+    },
+    {
       "fixture_key": "seriea|萨索洛|佛罗伦萨|2026-11-02",
       "competition": "seriea",
       "home": "萨索洛",
@@ -7301,6 +7819,12 @@
           "handicap_away": 0.95
         },
         {
+          "ts": "2026-11-01T22:00:00+00:00",
+          "handicap_line": -0.75,
+          "handicap_home": 0.93,
+          "handicap_away": 0.95
+        },
+        {
           "ts": "2026-11-02T16:14:08.226660+00:00",
           "handicap_line": -1,
           "handicap_home": 0.87,
@@ -7323,12 +7847,216 @@
           "handicap_line": -1.25,
           "handicap_home": 1.11,
           "handicap_away": 0.79
+        },
+        {
+          "ts": "2026-11-02T20:34:39.803775+00:00",
+          "handicap_line": -1.25,
+          "handicap_home": 1.11,
+          "handicap_away": 0.79
         }
       ],
       "competition_name": "阿根廷甲级联赛",
       "competition_class": "league",
       "sport": "football",
-      "lead_hours": 3.3012674375,
+      "lead_hours": 1.4222767291666665,
+      "prematch": true,
+      "result": {
+        "settled": false
+      }
+    },
+    {
+      "fixture_key": "nba|sanantoniospurs|utahjazz|2026-11-03",
+      "competition": "nba",
+      "home": "San Antonio Spurs",
+      "away": "Utah Jazz",
+      "kickoff": "2026-11-03T01:40:00Z",
+      "market": "totals",
+      "pick": "小分（229.5）",
+      "side": "under",
+      "confidence": "watch",
+      "score": 55.0,
+      "line": 229.5,
+      "reasons": [
+        "大小球 降盘 232.5->229.5（看小）",
+        "大球升水 1.94->1.99",
+        "主队近5场场均总进球 229.0",
+        "客队近5场场均总进球 227.8"
+      ],
+      "signals": {
+        "line_desc": "降盘 232.5->229.5（看小）",
+        "over_desc": "大球升水 1.94->1.99",
+        "line_first": 232.5,
+        "line_last": 229.5,
+        "over_first": 1.94,
+        "over_last": 1.99,
+        "under_first": 1.93,
+        "under_last": 1.9
+      },
+      "history": [
+        {
+          "ts": "2026-11-02T08:38:57.645912+00:00",
+          "total_line": 232.5,
+          "over": 1.94,
+          "under": 1.93
+        },
+        {
+          "ts": "2026-11-02T08:38:57.645912+00:00",
+          "total_line": null,
+          "over": null,
+          "under": null
+        },
+        {
+          "ts": "2026-11-02T16:26:57.499672+00:00",
+          "total_line": 230.5,
+          "over": 2.03,
+          "under": 1.86
+        },
+        {
+          "ts": "2026-11-02T16:26:57.499672+00:00",
+          "total_line": null,
+          "over": null,
+          "under": null
+        },
+        {
+          "ts": "2026-11-02T16:50:25.023744+00:00",
+          "total_line": 230.5,
+          "over": 2.03,
+          "under": 1.87
+        },
+        {
+          "ts": "2026-11-02T16:50:25.023744+00:00",
+          "total_line": null,
+          "over": null,
+          "under": null
+        },
+        {
+          "ts": "2026-11-02T18:41:59.421305+00:00",
+          "total_line": 229.5,
+          "over": 1.99,
+          "under": 1.9
+        },
+        {
+          "ts": "2026-11-02T18:41:59.421305+00:00",
+          "total_line": null,
+          "over": null,
+          "under": null
+        },
+        {
+          "ts": "2026-11-02T20:34:42.924369+00:00",
+          "total_line": 229.5,
+          "over": 1.99,
+          "under": 1.9
+        },
+        {
+          "ts": "2026-11-02T20:34:42.924369+00:00",
+          "total_line": null,
+          "over": null,
+          "under": null
+        }
+      ],
+      "competition_name": "NBA 美国职业篮球联赛",
+      "competition_class": "league",
+      "sport": "basketball",
+      "lead_hours": 5.088076564166666,
+      "prematch": false,
+      "result": {
+        "settled": false
+      }
+    },
+    {
+      "fixture_key": "nba|memphisgrizzlies|neworleanspelicans|2026-11-03",
+      "competition": "nba",
+      "home": "Memphis Grizzlies",
+      "away": "New Orleans Pelicans",
+      "kickoff": "2026-11-03T01:10:00Z",
+      "market": "totals",
+      "pick": "小分（232.5）",
+      "side": "under",
+      "confidence": "watch",
+      "score": 55.0,
+      "line": 232.5,
+      "reasons": [
+        "大小球 降盘 234.5->232.5（看小）",
+        "大球升水 1.91->1.97",
+        "主队近5场场均总进球 227.4",
+        "客队近5场场均总进球 236.4"
+      ],
+      "signals": {
+        "line_desc": "降盘 234.5->232.5（看小）",
+        "over_desc": "大球升水 1.91->1.97",
+        "line_first": 234.5,
+        "line_last": 232.5,
+        "over_first": 1.91,
+        "over_last": 1.97,
+        "under_first": 1.96,
+        "under_last": 1.92
+      },
+      "history": [
+        {
+          "ts": "2026-11-02T08:38:57.645912+00:00",
+          "total_line": null,
+          "over": null,
+          "under": null
+        },
+        {
+          "ts": "2026-11-02T08:38:57.645912+00:00",
+          "total_line": 234.5,
+          "over": 1.91,
+          "under": 1.96
+        },
+        {
+          "ts": "2026-11-02T16:26:57.499672+00:00",
+          "total_line": null,
+          "over": null,
+          "under": null
+        },
+        {
+          "ts": "2026-11-02T16:26:57.499672+00:00",
+          "total_line": 234.0,
+          "over": 2.02,
+          "under": 1.87
+        },
+        {
+          "ts": "2026-11-02T16:50:25.023744+00:00",
+          "total_line": null,
+          "over": null,
+          "under": null
+        },
+        {
+          "ts": "2026-11-02T16:50:25.023744+00:00",
+          "total_line": 234.0,
+          "over": 2.04,
+          "under": 1.86
+        },
+        {
+          "ts": "2026-11-02T18:41:59.421305+00:00",
+          "total_line": null,
+          "over": null,
+          "under": null
+        },
+        {
+          "ts": "2026-11-02T18:41:59.421305+00:00",
+          "total_line": 234.0,
+          "over": 2.03,
+          "under": 1.86
+        },
+        {
+          "ts": "2026-11-02T20:34:42.924369+00:00",
+          "total_line": null,
+          "over": null,
+          "under": null
+        },
+        {
+          "ts": "2026-11-02T20:34:42.924369+00:00",
+          "total_line": 232.5,
+          "over": 1.97,
+          "under": 1.92
+        }
+      ],
+      "competition_name": "NBA 美国职业篮球联赛",
+      "competition_class": "league",
+      "sport": "basketball",
+      "lead_hours": 4.588076564166666,
       "prematch": false,
       "result": {
         "settled": false
