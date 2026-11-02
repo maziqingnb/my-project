@@ -238,5 +238,35 @@
     "total_line": 3.25,
     "over": 0.83,
     "under": 1.05
+  },
+  {
+    "fixture_key": "bundesliga|法兰克福|汉堡|2026-11-01",
+    "competition": "bundesliga",
+    "home": "法兰克福",
+    "away": "汉堡",
+    "kickoff": "2026-11-01T16:30:00",
+    "bookmaker": "crown",
+    "ts": "2026-10-31T16:30:00+00:00",
+    "handicap_line": -1,
+    "handicap_home": 1.05,
+    "handicap_away": 0.83,
+    "total_line": 3.25,
+    "over": 0.87,
+    "under": 0.99
+  },
+  {
+    "fixture_key": "bundesliga|法兰克福|汉堡|2026-11-01",
+    "competition": "bundesliga",
+    "home": "法兰克福",
+    "away": "汉堡",
+    "kickoff": "2026-11-01T16:30:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-01T16:25:17.202115+00:00",
+    "handicap_line": -1.25,
+    "handicap_home": 1.01,
+    "handicap_away": 0.88,
+    "total_line": 3.25,
+    "over": 0.82,
+    "under": 1.07
   }
 ]
