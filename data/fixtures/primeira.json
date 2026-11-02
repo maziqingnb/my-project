@@ -1,0 +1,112 @@
+[
+  {
+    "key": "primeira|本菲卡|艾华卡|2026-11-02",
+    "competition": "primeira",
+    "home": "本菲卡",
+    "away": "艾华卡",
+    "kickoff": "2026-11-02T20:15:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "primeira|吉维森特|吉马良斯|2026-11-02",
+    "competition": "primeira",
+    "home": "吉维森特",
+    "away": "吉马良斯",
+    "kickoff": "2026-11-02T20:15:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "primeira|法马利康|阿罗卡|2026-11-06",
+    "competition": "primeira",
+    "home": "法马利康",
+    "away": "阿罗卡",
+    "kickoff": "2026-11-06T20:45:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "primeira|葡萄牙国民|维塞乌|2026-11-07",
+    "competition": "primeira",
+    "home": "葡萄牙国民",
+    "away": "维塞乌",
+    "kickoff": "2026-11-07T15:30:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "primeira|艾华卡|卡萨比亚|2026-11-07",
+    "competition": "primeira",
+    "home": "艾华卡",
+    "away": "卡萨比亚",
+    "kickoff": "2026-11-07T18:00:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "primeira|葡萄牙体育|摩里伦斯|2026-11-07",
+    "competition": "primeira",
+    "home": "葡萄牙体育",
+    "away": "摩里伦斯",
+    "kickoff": "2026-11-07T20:30:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "primeira|埃斯托里尔|马里迪莫|2026-11-08",
+    "competition": "primeira",
+    "home": "埃斯托里尔",
+    "away": "马里迪莫",
+    "kickoff": "2026-11-08T15:30:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "primeira|圣克拉拉|吉维森特|2026-11-08",
+    "competition": "primeira",
+    "home": "圣克拉拉",
+    "away": "吉维森特",
+    "kickoff": "2026-11-08T15:30:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "primeira|吉马良斯|波尔图|2026-11-08",
+    "competition": "primeira",
+    "home": "吉马良斯",
+    "away": "波尔图",
+    "kickoff": "2026-11-08T18:00:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "primeira|阿马多拉|本菲卡|2026-11-08",
+    "competition": "primeira",
+    "home": "阿马多拉",
+    "away": "本菲卡",
+    "kickoff": "2026-11-08T20:30:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "primeira|里奥阿维|布拉加|2026-11-08",
+    "competition": "primeira",
+    "home": "里奥阿维",
+    "away": "布拉加",
+    "kickoff": "2026-11-08T20:30:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  }
+]

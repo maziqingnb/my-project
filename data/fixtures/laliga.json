@@ -1,45 +1,5 @@
 [
   {
-    "key": "laliga|赫塔菲|塞维利亚|2026-11-01",
-    "competition": "laliga",
-    "home": "赫塔菲",
-    "away": "塞维利亚",
-    "kickoff": "2026-11-01T13:00:00",
-    "status": "upcoming",
-    "home_goals": null,
-    "away_goals": null
-  },
-  {
-    "key": "laliga|桑坦德竞技|realmadrid|2026-11-01",
-    "competition": "laliga",
-    "home": "桑坦德竞技",
-    "away": "Real Madrid",
-    "kickoff": "2026-11-01T15:15:00",
-    "status": "upcoming",
-    "home_goals": null,
-    "away_goals": null
-  },
-  {
-    "key": "laliga|埃尔切|巴伦西亚|2026-11-01",
-    "competition": "laliga",
-    "home": "埃尔切",
-    "away": "巴伦西亚",
-    "kickoff": "2026-11-01T17:30:00",
-    "status": "upcoming",
-    "home_goals": null,
-    "away_goals": null
-  },
-  {
-    "key": "laliga|毕尔巴鄂竞技|皇家社会|2026-11-01",
-    "competition": "laliga",
-    "home": "毕尔巴鄂竞技",
-    "away": "皇家社会",
-    "kickoff": "2026-11-01T20:00:00",
-    "status": "upcoming",
-    "home_goals": null,
-    "away_goals": null
-  },
-  {
     "key": "laliga|拉科鲁尼亚|奥萨苏纳|2026-11-02",
     "competition": "laliga",
     "home": "拉科鲁尼亚",
@@ -50,20 +10,20 @@
     "away_goals": null
   },
   {
-    "key": "laliga|塞维利亚|阿拉维斯|2026-11-06",
+    "key": "laliga|sevilla|alaves|2026-11-06",
     "competition": "laliga",
-    "home": "塞维利亚",
-    "away": "阿拉维斯",
+    "home": "Sevilla",
+    "away": "Alaves",
     "kickoff": "2026-11-06T20:00:00",
     "status": "upcoming",
     "home_goals": null,
     "away_goals": null
   },
   {
-    "key": "laliga|马拉加|桑坦德竞技|2026-11-07",
+    "key": "laliga|malaga|racingsantander|2026-11-07",
     "competition": "laliga",
-    "home": "马拉加",
-    "away": "桑坦德竞技",
+    "home": "Malaga",
+    "away": "Racing Santander",
     "kickoff": "2026-11-07T13:00:00",
     "status": "upcoming",
     "home_goals": null,
@@ -80,21 +40,71 @@
     "away_goals": null
   },
   {
-    "key": "laliga|奥萨苏纳|毕尔巴鄂竞技|2026-11-07",
+    "key": "laliga|奥萨苏纳|athleticbilbao|2026-11-07",
     "competition": "laliga",
     "home": "奥萨苏纳",
-    "away": "毕尔巴鄂竞技",
+    "away": "Athletic Bilbao",
     "kickoff": "2026-11-07T17:30:00",
     "status": "upcoming",
     "home_goals": null,
     "away_goals": null
   },
   {
-    "key": "laliga|巴伦西亚|realmadrid|2026-11-07",
+    "key": "laliga|valencia|realmadrid|2026-11-07",
     "competition": "laliga",
-    "home": "巴伦西亚",
+    "home": "Valencia",
     "away": "Real Madrid",
     "kickoff": "2026-11-07T20:00:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "laliga|elche|realbetis|2026-11-08",
+    "competition": "laliga",
+    "home": "Elche",
+    "away": "Real Betis",
+    "kickoff": "2026-11-08T13:00:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "laliga|realsociedad|rayovallecano|2026-11-08",
+    "competition": "laliga",
+    "home": "Real Sociedad",
+    "away": "Rayo Vallecano",
+    "kickoff": "2026-11-08T15:15:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "laliga|celtavigo|levante|2026-11-08",
+    "competition": "laliga",
+    "home": "Celta Vigo",
+    "away": "Levante",
+    "kickoff": "2026-11-08T17:30:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "laliga|比利亚雷亚尔|getafe|2026-11-08",
+    "competition": "laliga",
+    "home": "比利亚雷亚尔",
+    "away": "Getafe",
+    "kickoff": "2026-11-08T17:30:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "laliga|atleticomadrid|barcelona|2026-11-08",
+    "competition": "laliga",
+    "home": "Atletico Madrid",
+    "away": "Barcelona",
+    "kickoff": "2026-11-08T20:00:00",
     "status": "upcoming",
     "home_goals": null,
     "away_goals": null

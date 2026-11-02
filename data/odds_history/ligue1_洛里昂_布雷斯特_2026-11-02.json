@@ -148,5 +148,35 @@
     "total_line": 2.25,
     "over": 0.87,
     "under": 1.01
+  },
+  {
+    "fixture_key": "ligue1|洛里昂|布雷斯特|2026-11-02",
+    "competition": "ligue1",
+    "home": "洛里昂",
+    "away": "布雷斯特",
+    "kickoff": "2026-11-02T19:45:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-01T19:45:00+00:00",
+    "handicap_line": 0,
+    "handicap_home": 0.93,
+    "handicap_away": 0.95,
+    "total_line": 2.5,
+    "over": 0.93,
+    "under": 0.93
+  },
+  {
+    "fixture_key": "ligue1|洛里昂|布雷斯特|2026-11-02",
+    "competition": "ligue1",
+    "home": "洛里昂",
+    "away": "布雷斯特",
+    "kickoff": "2026-11-02T19:45:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-02T16:13:59.247631+00:00",
+    "handicap_line": 0,
+    "handicap_home": 0.77,
+    "handicap_away": 1.13,
+    "total_line": 2.25,
+    "over": 0.95,
+    "under": 0.93
   }
 ]

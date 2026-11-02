@@ -1,0 +1,32 @@
+[
+  {
+    "fixture_key": "afc_cl|吉达联合|艾因|2026-11-02",
+    "competition": "afc_cl",
+    "home": "吉达联合",
+    "away": "艾因",
+    "kickoff": "2026-11-02T18:15:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-01T18:15:00+00:00",
+    "handicap_line": -0.25,
+    "handicap_home": 0.78,
+    "handicap_away": 0.98,
+    "total_line": 2.75,
+    "over": 0.84,
+    "under": 0.92
+  },
+  {
+    "fixture_key": "afc_cl|吉达联合|艾因|2026-11-02",
+    "competition": "afc_cl",
+    "home": "吉达联合",
+    "away": "艾因",
+    "kickoff": "2026-11-02T18:15:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-02T16:14:23.645908+00:00",
+    "handicap_line": -0.25,
+    "handicap_home": 1.02,
+    "handicap_away": 0.8,
+    "total_line": 3.25,
+    "over": 1.01,
+    "under": 0.79
+  }
+]

@@ -2,38 +2,112 @@
   {
     "competition": "laliga",
     "cls": "league",
-    "home": "赫塔菲",
-    "away": "塞维利亚",
-    "home_goals": 3,
-    "away_goals": 1,
-    "date": "2026-11-01"
+    "home": "Athletic Bilbao",
+    "away": "Getafe",
+    "home_goals": 4,
+    "away_goals": 0,
+    "date": "2026-10-25",
+    "handicap_line": -1.0,
+    "total_line": 2.25
   },
   {
     "competition": "laliga",
     "cls": "league",
-    "home": "桑坦德竞技",
-    "away": "Real Madrid",
+    "home": "Celta Vigo",
+    "away": "Real Betis",
     "home_goals": 0,
-    "away_goals": 3,
-    "date": "2026-11-01"
+    "away_goals": 0,
+    "date": "2026-10-25",
+    "handicap_line": -0.0,
+    "total_line": 2.5
   },
   {
     "competition": "laliga",
     "cls": "league",
-    "home": "埃尔切",
-    "away": "巴伦西亚",
-    "home_goals": 0,
-    "away_goals": 1,
-    "date": "2026-11-01"
-  },
-  {
-    "competition": "laliga",
-    "cls": "league",
-    "home": "毕尔巴鄂竞技",
-    "away": "皇家社会",
+    "home": "Real Sociedad",
+    "away": "Levante",
     "home_goals": 2,
     "away_goals": 1,
-    "date": "2026-11-01"
+    "date": "2026-10-25",
+    "handicap_line": -0.75,
+    "total_line": 3.0
+  },
+  {
+    "competition": "laliga",
+    "cls": "league",
+    "home": "Barcelona",
+    "away": "Real Madrid",
+    "home_goals": 1,
+    "away_goals": 2,
+    "date": "2026-10-25",
+    "handicap_line": -1.0,
+    "total_line": 3.75
+  },
+  {
+    "competition": "laliga",
+    "cls": "league",
+    "home": "Sevilla",
+    "away": "奥萨苏纳",
+    "home_goals": 2,
+    "away_goals": 0,
+    "date": "2026-10-26",
+    "handicap_line": -0.5,
+    "total_line": 2.25
+  },
+  {
+    "competition": "laliga",
+    "cls": "league",
+    "home": "比利亚雷亚尔",
+    "away": "西班牙人",
+    "home_goals": 0,
+    "away_goals": 1,
+    "date": "2026-10-30",
+    "handicap_line": -1.0,
+    "total_line": 3.0
+  },
+  {
+    "competition": "laliga",
+    "cls": "league",
+    "home": "Levante",
+    "away": "Atletico Madrid",
+    "home_goals": 0,
+    "away_goals": 2,
+    "date": "2026-10-31",
+    "handicap_line": 1.0,
+    "total_line": 3.0
+  },
+  {
+    "competition": "laliga",
+    "cls": "league",
+    "home": "Rayo Vallecano",
+    "away": "Celta Vigo",
+    "home_goals": 3,
+    "away_goals": 0,
+    "date": "2026-10-31",
+    "handicap_line": -0.25,
+    "total_line": 2.25
+  },
+  {
+    "competition": "laliga",
+    "cls": "league",
+    "home": "Real Betis",
+    "away": "Malaga",
+    "home_goals": 2,
+    "away_goals": 1,
+    "date": "2026-10-31",
+    "handicap_line": -1.25,
+    "total_line": 3.0
+  },
+  {
+    "competition": "laliga",
+    "cls": "league",
+    "home": "Barcelona",
+    "away": "Alaves",
+    "home_goals": 6,
+    "away_goals": 1,
+    "date": "2026-10-31",
+    "handicap_line": -2.5,
+    "total_line": 4.0
   },
   {
     "competition": "laliga",
@@ -78,140 +152,5 @@
     "date": "2026-11-01",
     "handicap_line": -0.5,
     "total_line": 2.5
-  },
-  {
-    "competition": "laliga",
-    "cls": "league",
-    "home": "莱万特",
-    "away": "马德里竞技",
-    "home_goals": 0,
-    "away_goals": 2,
-    "date": "2026-10-31"
-  },
-  {
-    "competition": "laliga",
-    "cls": "league",
-    "home": "巴列卡诺",
-    "away": "塞尔塔",
-    "home_goals": 3,
-    "away_goals": 0,
-    "date": "2026-10-31"
-  },
-  {
-    "competition": "laliga",
-    "cls": "league",
-    "home": "皇家贝蒂斯",
-    "away": "马拉加",
-    "home_goals": 2,
-    "away_goals": 1,
-    "date": "2026-10-31"
-  },
-  {
-    "competition": "laliga",
-    "cls": "league",
-    "home": "巴塞罗那",
-    "away": "阿拉维斯",
-    "home_goals": 6,
-    "away_goals": 1,
-    "date": "2026-10-31"
-  },
-  {
-    "competition": "laliga",
-    "cls": "league",
-    "home": "比利亚雷亚尔",
-    "away": "西班牙人",
-    "home_goals": 0,
-    "away_goals": 1,
-    "date": "2026-10-30"
-  },
-  {
-    "competition": "laliga",
-    "cls": "league",
-    "home": "塞维利亚",
-    "away": "奥萨苏纳",
-    "home_goals": 2,
-    "away_goals": 0,
-    "date": "2026-10-26"
-  },
-  {
-    "competition": "laliga",
-    "cls": "league",
-    "home": "毕尔巴鄂竞技",
-    "away": "赫塔菲",
-    "home_goals": 4,
-    "away_goals": 0,
-    "date": "2026-10-25"
-  },
-  {
-    "competition": "laliga",
-    "cls": "league",
-    "home": "塞尔塔",
-    "away": "皇家贝蒂斯",
-    "home_goals": 0,
-    "away_goals": 0,
-    "date": "2026-10-25"
-  },
-  {
-    "competition": "laliga",
-    "cls": "league",
-    "home": "皇家社会",
-    "away": "莱万特",
-    "home_goals": 2,
-    "away_goals": 1,
-    "date": "2026-10-25"
-  },
-  {
-    "competition": "laliga",
-    "cls": "league",
-    "home": "巴塞罗那",
-    "away": "Real Madrid",
-    "home_goals": 1,
-    "away_goals": 2,
-    "date": "2026-10-25"
-  },
-  {
-    "competition": "laliga",
-    "cls": "league",
-    "home": "巴列卡诺",
-    "away": "埃尔切",
-    "home_goals": 0,
-    "away_goals": 3,
-    "date": "2026-10-24"
-  },
-  {
-    "competition": "laliga",
-    "cls": "league",
-    "home": "桑坦德竞技",
-    "away": "西班牙人",
-    "home_goals": 2,
-    "away_goals": 1,
-    "date": "2026-10-24"
-  },
-  {
-    "competition": "laliga",
-    "cls": "league",
-    "home": "巴伦西亚",
-    "away": "比利亚雷亚尔",
-    "home_goals": 1,
-    "away_goals": 2,
-    "date": "2026-10-24"
-  },
-  {
-    "competition": "laliga",
-    "cls": "league",
-    "home": "马德里竞技",
-    "away": "拉科鲁尼亚",
-    "home_goals": 1,
-    "away_goals": 0,
-    "date": "2026-10-24"
-  },
-  {
-    "competition": "laliga",
-    "cls": "league",
-    "home": "阿拉维斯",
-    "away": "马拉加",
-    "home_goals": 1,
-    "away_goals": 1,
-    "date": "2026-10-23"
   }
 ]

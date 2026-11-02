@@ -1,0 +1,72 @@
+[
+  {
+    "key": "denmark|桑德捷斯基|哥本哈根|2026-11-02",
+    "competition": "denmark",
+    "home": "桑德捷斯基",
+    "away": "哥本哈根",
+    "kickoff": "2026-11-02T18:00:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "denmark|锡尔克堡|利恩比|2026-11-06",
+    "competition": "denmark",
+    "home": "锡尔克堡",
+    "away": "利恩比",
+    "kickoff": "2026-11-06T18:00:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "denmark|欧登塞|维堡|2026-11-07",
+    "competition": "denmark",
+    "home": "欧登塞",
+    "away": "维堡",
+    "kickoff": "2026-11-07T17:00:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "denmark|哥本哈根|布隆德比|2026-11-08",
+    "competition": "denmark",
+    "home": "哥本哈根",
+    "away": "布隆德比",
+    "kickoff": "2026-11-08T11:00:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "denmark|奥胡斯|霍森斯|2026-11-08",
+    "competition": "denmark",
+    "home": "奥胡斯",
+    "away": "霍森斯",
+    "kickoff": "2026-11-08T13:00:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "denmark|兰讷斯|北西兰|2026-11-08",
+    "competition": "denmark",
+    "home": "兰讷斯",
+    "away": "北西兰",
+    "kickoff": "2026-11-08T15:00:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "denmark|中日德兰|桑德捷斯基|2026-11-08",
+    "competition": "denmark",
+    "home": "中日德兰",
+    "away": "桑德捷斯基",
+    "kickoff": "2026-11-08T17:00:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  }
+]

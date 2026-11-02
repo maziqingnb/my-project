@@ -1,0 +1,122 @@
+[
+  {
+    "key": "afc_cl|吉达联合|艾因|2026-11-02",
+    "competition": "afc_cl",
+    "home": "吉达联合",
+    "away": "艾因",
+    "kickoff": "2026-11-02T18:15:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "afc_cl|加拉法|卡达西亚|2026-11-02",
+    "competition": "afc_cl",
+    "home": "加拉法",
+    "away": "卡达西亚",
+    "kickoff": "2026-11-02T18:15:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "afc_cl|纽卡斯尔喷气机|上海海港|2026-11-03",
+    "competition": "afc_cl",
+    "home": "纽卡斯尔喷气机",
+    "away": "上海海港",
+    "kickoff": "2026-11-03T07:45:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "afc_cl|全北现代|柔佛|2026-11-03",
+    "competition": "afc_cl",
+    "home": "全北现代",
+    "away": "柔佛",
+    "kickoff": "2026-11-03T10:00:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "afc_cl|神户胜利船|拉查布里府|2026-11-03",
+    "competition": "afc_cl",
+    "home": "神户胜利船",
+    "away": "拉查布里府",
+    "kickoff": "2026-11-03T10:00:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "afc_cl|柏太阳神|大田市民|2026-11-03",
+    "competition": "afc_cl",
+    "home": "柏太阳神",
+    "away": "大田市民",
+    "kickoff": "2026-11-03T10:00:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "afc_cl|狮子港|北京国安|2026-11-03",
+    "competition": "afc_cl",
+    "home": "狮子港",
+    "away": "北京国安",
+    "kickoff": "2026-11-03T12:15:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "afc_cl|河内公安|京都不死鸟|2026-11-03",
+    "competition": "afc_cl",
+    "home": "河内公安",
+    "away": "京都不死鸟",
+    "kickoff": "2026-11-03T12:15:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "afc_cl|德黑兰独立|艾沙姆|2026-11-03",
+    "competition": "afc_cl",
+    "home": "德黑兰独立",
+    "away": "艾沙姆",
+    "kickoff": "2026-11-03T16:00:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "afc_cl|利雅得新月|迪拜青年国民|2026-11-03",
+    "competition": "afc_cl",
+    "home": "利雅得新月",
+    "away": "迪拜青年国民",
+    "kickoff": "2026-11-03T18:15:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "afc_cl|浦项制铁|大阪钢巴|2026-11-04",
+    "competition": "afc_cl",
+    "home": "浦项制铁",
+    "away": "大阪钢巴",
+    "kickoff": "2026-11-04T10:00:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "afc_cl|武里南联|鹿岛鹿角|2026-11-04",
+    "competition": "afc_cl",
+    "home": "武里南联",
+    "away": "鹿岛鹿角",
+    "kickoff": "2026-11-04T12:15:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  }
+]

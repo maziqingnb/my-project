@@ -1,55 +1,5 @@
 [
   {
-    "key": "seriea|科莫|威尼斯|2026-11-01",
-    "competition": "seriea",
-    "home": "科莫",
-    "away": "威尼斯",
-    "kickoff": "2026-11-01T11:30:00",
-    "status": "upcoming",
-    "home_goals": null,
-    "away_goals": null
-  },
-  {
-    "key": "seriea|弗洛西诺尼|都灵|2026-11-01",
-    "competition": "seriea",
-    "home": "弗洛西诺尼",
-    "away": "都灵",
-    "kickoff": "2026-11-01T14:00:00",
-    "status": "upcoming",
-    "home_goals": null,
-    "away_goals": null
-  },
-  {
-    "key": "seriea|拉齐奥|卡利亚里|2026-11-01",
-    "competition": "seriea",
-    "home": "拉齐奥",
-    "away": "卡利亚里",
-    "kickoff": "2026-11-01T14:00:00",
-    "status": "upcoming",
-    "home_goals": null,
-    "away_goals": null
-  },
-  {
-    "key": "seriea|莱切|热那亚|2026-11-01",
-    "competition": "seriea",
-    "home": "莱切",
-    "away": "热那亚",
-    "kickoff": "2026-11-01T17:00:00",
-    "status": "upcoming",
-    "home_goals": null,
-    "away_goals": null
-  },
-  {
-    "key": "seriea|尤文图斯|那不勒斯|2026-11-01",
-    "competition": "seriea",
-    "home": "尤文图斯",
-    "away": "那不勒斯",
-    "kickoff": "2026-11-01T19:45:00",
-    "status": "upcoming",
-    "home_goals": null,
-    "away_goals": null
-  },
-  {
     "key": "seriea|萨索洛|佛罗伦萨|2026-11-02",
     "competition": "seriea",
     "home": "萨索洛",
@@ -70,51 +20,101 @@
     "away_goals": null
   },
   {
-    "key": "seriea|威尼斯|乌迪内斯|2026-11-06",
+    "key": "seriea|venezia|udinese|2026-11-06",
     "competition": "seriea",
-    "home": "威尼斯",
-    "away": "乌迪内斯",
+    "home": "Venezia",
+    "away": "Udinese",
     "kickoff": "2026-11-06T19:45:00",
     "status": "upcoming",
     "home_goals": null,
     "away_goals": null
   },
   {
-    "key": "seriea|卡利亚里|弗洛西诺尼|2026-11-07",
+    "key": "seriea|cagliari|frosinone|2026-11-07",
     "competition": "seriea",
-    "home": "卡利亚里",
-    "away": "弗洛西诺尼",
+    "home": "Cagliari",
+    "away": "Frosinone",
     "kickoff": "2026-11-07T14:00:00",
     "status": "upcoming",
     "home_goals": null,
     "away_goals": null
   },
   {
-    "key": "seriea|都灵|莱切|2026-11-07",
+    "key": "seriea|torino|lecce|2026-11-07",
     "competition": "seriea",
-    "home": "都灵",
-    "away": "莱切",
+    "home": "Torino",
+    "away": "Lecce",
     "kickoff": "2026-11-07T14:00:00",
     "status": "upcoming",
     "home_goals": null,
     "away_goals": null
   },
   {
-    "key": "seriea|帕尔马|博洛尼亚|2026-11-07",
+    "key": "seriea|帕尔马|bologna|2026-11-07",
     "competition": "seriea",
     "home": "帕尔马",
-    "away": "博洛尼亚",
+    "away": "Bologna",
     "kickoff": "2026-11-07T17:00:00",
     "status": "upcoming",
     "home_goals": null,
     "away_goals": null
   },
   {
-    "key": "seriea|罗马|萨索洛|2026-11-07",
+    "key": "seriea|roma|萨索洛|2026-11-07",
     "competition": "seriea",
-    "home": "罗马",
+    "home": "Roma",
     "away": "萨索洛",
     "kickoff": "2026-11-07T19:45:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "seriea|napoli|lazio|2026-11-08",
+    "competition": "seriea",
+    "home": "Napoli",
+    "away": "Lazio",
+    "kickoff": "2026-11-08T11:30:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "seriea|genoa|acmilan|2026-11-08",
+    "competition": "seriea",
+    "home": "Genoa",
+    "away": "AC Milan",
+    "kickoff": "2026-11-08T14:00:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "seriea|monza|亚特兰大|2026-11-08",
+    "competition": "seriea",
+    "home": "Monza",
+    "away": "亚特兰大",
+    "kickoff": "2026-11-08T14:00:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "seriea|intermilan|como|2026-11-08",
+    "competition": "seriea",
+    "home": "Inter Milan",
+    "away": "Como",
+    "kickoff": "2026-11-08T17:00:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "seriea|佛罗伦萨|juventus|2026-11-08",
+    "competition": "seriea",
+    "home": "佛罗伦萨",
+    "away": "Juventus",
+    "kickoff": "2026-11-08T19:45:00",
     "status": "upcoming",
     "home_goals": null,
     "away_goals": null

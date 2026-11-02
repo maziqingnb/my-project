@@ -10,19 +10,19 @@
     "away_goals": null
   },
   {
-    "key": "ucl|加拉塔萨雷|斯图加特|2026-11-03",
+    "key": "ucl|加拉塔萨雷|stuttgart|2026-11-03",
     "competition": "ucl",
     "home": "加拉塔萨雷",
-    "away": "斯图加特",
+    "away": "Stuttgart",
     "kickoff": "2026-11-03T17:45:00",
     "status": "upcoming",
     "home_goals": null,
     "away_goals": null
   },
   {
-    "key": "ucl|马德里竞技|bayernmunich|2026-11-03",
+    "key": "ucl|atleticomadrid|bayernmunich|2026-11-03",
     "competition": "ucl",
-    "home": "马德里竞技",
+    "home": "Atletico Madrid",
     "away": "Bayern Munich",
     "kickoff": "2026-11-03T20:00:00",
     "status": "upcoming",
@@ -30,20 +30,20 @@
     "away_goals": null
   },
   {
-    "key": "ucl|费耶诺德|国际米兰|2026-11-03",
+    "key": "ucl|费耶诺德|intermilan|2026-11-03",
     "competition": "ucl",
     "home": "费耶诺德",
-    "away": "国际米兰",
+    "away": "Inter Milan",
     "kickoff": "2026-11-03T20:00:00",
     "status": "upcoming",
     "home_goals": null,
     "away_goals": null
   },
   {
-    "key": "ucl|巴塞罗那|阿斯顿维拉|2026-11-03",
+    "key": "ucl|barcelona|astonvilla|2026-11-03",
     "competition": "ucl",
-    "home": "巴塞罗那",
-    "away": "阿斯顿维拉",
+    "home": "Barcelona",
+    "away": "Aston Villa",
     "kickoff": "2026-11-03T20:00:00",
     "status": "upcoming",
     "home_goals": null,
@@ -60,10 +60,10 @@
     "away_goals": null
   },
   {
-    "key": "ucl|曼彻斯特联|罗马|2026-11-03",
+    "key": "ucl|manchesterunited|roma|2026-11-03",
     "competition": "ucl",
-    "home": "曼彻斯特联",
-    "away": "罗马",
+    "home": "Manchester United",
+    "away": "Roma",
     "kickoff": "2026-11-03T20:00:00",
     "status": "upcoming",
     "home_goals": null,
@@ -110,10 +110,10 @@
     "away_goals": null
   },
   {
-    "key": "ucl|rb莱比锡|曼彻斯特城|2026-11-04",
+    "key": "ucl|rbleipzig|manchestercity|2026-11-04",
     "competition": "ucl",
-    "home": "RB莱比锡",
-    "away": "曼彻斯特城",
+    "home": "RB Leipzig",
+    "away": "Manchester City",
     "kickoff": "2026-11-04T20:00:00",
     "status": "upcoming",
     "home_goals": null,
@@ -140,30 +140,30 @@
     "away_goals": null
   },
   {
-    "key": "ucl|多特蒙德|皇家贝蒂斯|2026-11-04",
+    "key": "ucl|borussiadortmund|realbetis|2026-11-04",
     "competition": "ucl",
-    "home": "多特蒙德",
-    "away": "皇家贝蒂斯",
+    "home": "Borussia Dortmund",
+    "away": "Real Betis",
     "kickoff": "2026-11-04T20:00:00",
     "status": "upcoming",
     "home_goals": null,
     "away_goals": null
   },
   {
-    "key": "ucl|波尔图|那不勒斯|2026-11-04",
+    "key": "ucl|波尔图|napoli|2026-11-04",
     "competition": "ucl",
     "home": "波尔图",
-    "away": "那不勒斯",
+    "away": "Napoli",
     "kickoff": "2026-11-04T20:00:00",
     "status": "upcoming",
     "home_goals": null,
     "away_goals": null
   },
   {
-    "key": "ucl|朗斯|科莫|2026-11-04",
+    "key": "ucl|朗斯|como|2026-11-04",
     "competition": "ucl",
     "home": "朗斯",
-    "away": "科莫",
+    "away": "Como",
     "kickoff": "2026-11-04T20:00:00",
     "status": "upcoming",
     "home_goals": null,

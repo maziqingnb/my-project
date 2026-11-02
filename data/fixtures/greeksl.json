@@ -1,0 +1,82 @@
+[
+  {
+    "key": "greeksl|卡拉玛达|伊拉克里斯|2026-11-02",
+    "competition": "greeksl",
+    "home": "卡拉玛达",
+    "away": "伊拉克里斯",
+    "kickoff": "2026-11-02T17:30:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "greeksl|维洛斯nfc|基菲萨|2026-11-07",
+    "competition": "greeksl",
+    "home": "维洛斯NFC",
+    "away": "基菲萨",
+    "kickoff": "2026-11-07T15:00:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "greeksl|阿里斯|帕纳多里高斯|2026-11-07",
+    "competition": "greeksl",
+    "home": "阿里斯",
+    "away": "帕纳多里高斯",
+    "kickoff": "2026-11-07T17:30:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "greeksl|aek雅典|莱瓦贾科斯|2026-11-08",
+    "competition": "greeksl",
+    "home": "AEK雅典",
+    "away": "莱瓦贾科斯",
+    "kickoff": "2026-11-08T15:00:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "greeksl|特里波利斯|卡拉玛达|2026-11-08",
+    "competition": "greeksl",
+    "home": "特里波利斯",
+    "away": "卡拉玛达",
+    "kickoff": "2026-11-08T15:00:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "greeksl|伊拉克里斯|帕纳辛纳科斯|2026-11-08",
+    "competition": "greeksl",
+    "home": "伊拉克里斯",
+    "away": "帕纳辛纳科斯",
+    "kickoff": "2026-11-08T15:30:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "greeksl|ofi克里特|阿特罗米托斯|2026-11-08",
+    "competition": "greeksl",
+    "home": "OFI克里特",
+    "away": "阿特罗米托斯",
+    "kickoff": "2026-11-08T16:30:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "greeksl|奥林匹亚科斯|塞萨洛尼基|2026-11-08",
+    "competition": "greeksl",
+    "home": "奥林匹亚科斯",
+    "away": "塞萨洛尼基",
+    "kickoff": "2026-11-08T19:00:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  }
+]

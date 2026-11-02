@@ -1,0 +1,102 @@
+[
+  {
+    "key": "brasileirao|布拉干蒂诺rb|桑托斯|2026-11-02",
+    "competition": "brasileirao",
+    "home": "布拉干蒂诺RB",
+    "away": "桑托斯",
+    "kickoff": "2026-11-02T23:00:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "brasileirao|沙佩科恩斯|米拉索|2026-11-03",
+    "competition": "brasileirao",
+    "home": "沙佩科恩斯",
+    "away": "米拉索",
+    "kickoff": "2026-11-03T22:30:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "brasileirao|巴西国际|科里蒂巴|2026-11-04",
+    "competition": "brasileirao",
+    "home": "巴西国际",
+    "away": "科里蒂巴",
+    "kickoff": "2026-11-04T00:30:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "brasileirao|巴拉纳竞技|瓦斯科达伽马|2026-11-04",
+    "competition": "brasileirao",
+    "home": "巴拉纳竞技",
+    "away": "瓦斯科达伽马",
+    "kickoff": "2026-11-04T22:30:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "brasileirao|弗拉门戈|格雷米奥|2026-11-04",
+    "competition": "brasileirao",
+    "home": "弗拉门戈",
+    "away": "格雷米奥",
+    "kickoff": "2026-11-04T22:30:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "brasileirao|博塔弗戈|米内罗竞技|2026-11-05",
+    "competition": "brasileirao",
+    "home": "博塔弗戈",
+    "away": "米内罗竞技",
+    "kickoff": "2026-11-05T00:30:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "brasileirao|圣保罗|科林蒂安|2026-11-05",
+    "competition": "brasileirao",
+    "home": "圣保罗",
+    "away": "科林蒂安",
+    "kickoff": "2026-11-05T00:30:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "brasileirao|帕尔梅拉斯|瑞模贝雷|2026-11-05",
+    "competition": "brasileirao",
+    "home": "帕尔梅拉斯",
+    "away": "瑞模贝雷",
+    "kickoff": "2026-11-05T22:30:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "brasileirao|克鲁塞罗|巴伊亚|2026-11-06",
+    "competition": "brasileirao",
+    "home": "克鲁塞罗",
+    "away": "巴伊亚",
+    "kickoff": "2026-11-06T00:30:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "brasileirao|维多利亚|弗鲁米嫩塞|2026-11-06",
+    "competition": "brasileirao",
+    "home": "维多利亚",
+    "away": "弗鲁米嫩塞",
+    "kickoff": "2026-11-06T23:00:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  }
+]
