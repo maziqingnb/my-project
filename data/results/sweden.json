@@ -1,0 +1,57 @@
+[
+  {
+    "competition": "sweden",
+    "cls": "league",
+    "home": "尤尔加登",
+    "away": "代格福什",
+    "home_goals": 2,
+    "away_goals": 1,
+    "date": "2026-11-01",
+    "handicap_line": -1.5,
+    "total_line": 3.0
+  },
+  {
+    "competition": "sweden",
+    "cls": "league",
+    "home": "马尔默",
+    "away": "哈马比",
+    "home_goals": 1,
+    "away_goals": 2,
+    "date": "2026-11-01",
+    "handicap_line": 0.75,
+    "total_line": 3.0
+  },
+  {
+    "competition": "sweden",
+    "cls": "league",
+    "home": "埃尔夫斯堡",
+    "away": "奥尔格里特",
+    "home_goals": 2,
+    "away_goals": 1,
+    "date": "2026-11-01",
+    "handicap_line": -1.5,
+    "total_line": 3.25
+  },
+  {
+    "competition": "sweden",
+    "cls": "league",
+    "home": "赫根",
+    "away": "哥德堡",
+    "home_goals": 1,
+    "away_goals": 0,
+    "date": "2026-11-01",
+    "handicap_line": -0.75,
+    "total_line": 3.25
+  },
+  {
+    "competition": "sweden",
+    "cls": "league",
+    "home": "瓦斯特拉斯",
+    "away": "布洛马波卡纳",
+    "home_goals": 1,
+    "away_goals": 0,
+    "date": "2026-11-01",
+    "handicap_line": -0.5,
+    "total_line": 2.75
+  }
+]

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T08:47:39.130348+00:00",
+  "generated_at": "2026-11-02T10:30:16.748018+00:00",
   "scope": "16 个联赛 + 5 个杯赛",
   "note": "杯赛与联赛数据分开计算；仅开赛前 6h 内出推荐",
   "total": 35,
@@ -1691,6 +1691,109 @@
       }
     },
     {
+      "fixture_key": "bundesliga|门兴格拉德巴赫|帕德博恩|2026-10-31",
+      "competition": "bundesliga",
+      "home": "门兴格拉德巴赫",
+      "away": "帕德博恩",
+      "kickoff": "2026-10-31T14:30:00",
+      "market": "totals",
+      "pick": "小球（3）",
+      "side": "under",
+      "confidence": "strong",
+      "score": 75.8,
+      "line": 3,
+      "reasons": [
+        "大小球 降盘 3.25->3（看小）",
+        "大球水位平稳",
+        "主队近2场场均总进球 2.5",
+        "客队近2场场均总进球 0.5"
+      ],
+      "signals": {
+        "line_desc": "降盘 3.25->3（看小）",
+        "over_desc": "大球水位平稳",
+        "line_first": 3.25,
+        "line_last": 3,
+        "over_first": 1,
+        "over_last": 0.98,
+        "under_first": 0.86,
+        "under_last": 0.91
+      },
+      "history": [
+        {
+          "ts": "2026-10-30T14:30:00+00:00",
+          "total_line": 3.25,
+          "over": 1,
+          "under": 0.86
+        },
+        {
+          "ts": "2026-10-30T14:30:00+00:00",
+          "total_line": 3.25,
+          "over": 1,
+          "under": 0.86
+        },
+        {
+          "ts": "2026-10-30T14:30:00+00:00",
+          "total_line": 3.25,
+          "over": 1,
+          "under": 0.86
+        },
+        {
+          "ts": "2026-10-30T14:30:00+00:00",
+          "total_line": 3.25,
+          "over": 1,
+          "under": 0.86
+        },
+        {
+          "ts": "2026-10-30T14:30:00+00:00",
+          "total_line": 3.25,
+          "over": 1,
+          "under": 0.86
+        },
+        {
+          "ts": "2026-10-31T06:49:13.136779+00:00",
+          "total_line": 3,
+          "over": 0.84,
+          "under": 1.04
+        },
+        {
+          "ts": "2026-10-31T08:32:34.973238+00:00",
+          "total_line": 3,
+          "over": 0.84,
+          "under": 1.04
+        },
+        {
+          "ts": "2026-10-31T10:24:33.597475+00:00",
+          "total_line": 3,
+          "over": 0.84,
+          "under": 1.04
+        },
+        {
+          "ts": "2026-10-31T12:29:15.987724+00:00",
+          "total_line": 3,
+          "over": 0.84,
+          "under": 1.04
+        },
+        {
+          "ts": "2026-10-31T14:26:02.626152+00:00",
+          "total_line": 3,
+          "over": 0.98,
+          "under": 0.91
+        }
+      ],
+      "competition_name": "德国甲级联赛",
+      "competition_class": "league",
+      "sport": "football",
+      "lead_hours": 0.06593718,
+      "prematch": true,
+      "result": {
+        "outcome": "win",
+        "outcome_cn": "中",
+        "home_goals": 0,
+        "away_goals": 0,
+        "settled": true
+      }
+    },
+    {
       "fixture_key": "laliga|桑坦德竞技|realmadrid|2026-11-01",
       "competition": "laliga",
       "home": "桑坦德竞技",
@@ -1700,13 +1803,13 @@
       "pick": "大球（4）",
       "side": "over",
       "confidence": "strong",
-      "score": 76.7,
+      "score": 75.3,
       "line": 4,
       "reasons": [
         "大小球 盘口不变",
         "大球降水 1.03->0.97",
         "主队近2场场均总进球 3.0",
-        "客队近2场场均总进球 3.0"
+        "客队近3场场均总进球 3.0"
       ],
       "signals": {
         "line_desc": "盘口不变",
@@ -1826,109 +1929,6 @@
         "outcome_cn": "没中",
         "home_goals": 0,
         "away_goals": 3,
-        "settled": true
-      }
-    },
-    {
-      "fixture_key": "bundesliga|门兴格拉德巴赫|帕德博恩|2026-10-31",
-      "competition": "bundesliga",
-      "home": "门兴格拉德巴赫",
-      "away": "帕德博恩",
-      "kickoff": "2026-10-31T14:30:00",
-      "market": "totals",
-      "pick": "小球（3）",
-      "side": "under",
-      "confidence": "strong",
-      "score": 75.8,
-      "line": 3,
-      "reasons": [
-        "大小球 降盘 3.25->3（看小）",
-        "大球水位平稳",
-        "主队近2场场均总进球 2.5",
-        "客队近2场场均总进球 0.5"
-      ],
-      "signals": {
-        "line_desc": "降盘 3.25->3（看小）",
-        "over_desc": "大球水位平稳",
-        "line_first": 3.25,
-        "line_last": 3,
-        "over_first": 1,
-        "over_last": 0.98,
-        "under_first": 0.86,
-        "under_last": 0.91
-      },
-      "history": [
-        {
-          "ts": "2026-10-30T14:30:00+00:00",
-          "total_line": 3.25,
-          "over": 1,
-          "under": 0.86
-        },
-        {
-          "ts": "2026-10-30T14:30:00+00:00",
-          "total_line": 3.25,
-          "over": 1,
-          "under": 0.86
-        },
-        {
-          "ts": "2026-10-30T14:30:00+00:00",
-          "total_line": 3.25,
-          "over": 1,
-          "under": 0.86
-        },
-        {
-          "ts": "2026-10-30T14:30:00+00:00",
-          "total_line": 3.25,
-          "over": 1,
-          "under": 0.86
-        },
-        {
-          "ts": "2026-10-30T14:30:00+00:00",
-          "total_line": 3.25,
-          "over": 1,
-          "under": 0.86
-        },
-        {
-          "ts": "2026-10-31T06:49:13.136779+00:00",
-          "total_line": 3,
-          "over": 0.84,
-          "under": 1.04
-        },
-        {
-          "ts": "2026-10-31T08:32:34.973238+00:00",
-          "total_line": 3,
-          "over": 0.84,
-          "under": 1.04
-        },
-        {
-          "ts": "2026-10-31T10:24:33.597475+00:00",
-          "total_line": 3,
-          "over": 0.84,
-          "under": 1.04
-        },
-        {
-          "ts": "2026-10-31T12:29:15.987724+00:00",
-          "total_line": 3,
-          "over": 0.84,
-          "under": 1.04
-        },
-        {
-          "ts": "2026-10-31T14:26:02.626152+00:00",
-          "total_line": 3,
-          "over": 0.98,
-          "under": 0.91
-        }
-      ],
-      "competition_name": "德国甲级联赛",
-      "competition_class": "league",
-      "sport": "football",
-      "lead_hours": 0.06593718,
-      "prematch": true,
-      "result": {
-        "outcome": "win",
-        "outcome_cn": "中",
-        "home_goals": 0,
-        "away_goals": 0,
         "settled": true
       }
     },

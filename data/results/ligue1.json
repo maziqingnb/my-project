@@ -38,6 +38,50 @@
   {
     "competition": "ligue1",
     "cls": "league",
+    "home": "Strasbourg",
+    "away": "Auxerre",
+    "home_goals": 5,
+    "away_goals": 1,
+    "date": "2026-11-01",
+    "handicap_line": -0.5,
+    "total_line": 3.0
+  },
+  {
+    "competition": "ligue1",
+    "cls": "league",
+    "home": "Lyon",
+    "away": "Angers",
+    "home_goals": 2,
+    "away_goals": 0,
+    "date": "2026-11-01",
+    "handicap_line": -1.25,
+    "total_line": 3.0
+  },
+  {
+    "competition": "ligue1",
+    "cls": "league",
+    "home": "Paris FC",
+    "away": "Monaco",
+    "home_goals": 3,
+    "away_goals": 1,
+    "date": "2026-11-01",
+    "handicap_line": -0.25,
+    "total_line": 2.75
+  },
+  {
+    "competition": "ligue1",
+    "cls": "league",
+    "home": "Marseille",
+    "away": "Toulouse",
+    "home_goals": 2,
+    "away_goals": 0,
+    "date": "2026-11-01",
+    "handicap_line": -0.75,
+    "total_line": 3.0
+  },
+  {
+    "competition": "ligue1",
+    "cls": "league",
     "home": "特鲁瓦",
     "away": "勒芒",
     "home_goals": 2,

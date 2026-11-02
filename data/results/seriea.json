@@ -47,6 +47,61 @@
   {
     "competition": "seriea",
     "cls": "league",
+    "home": "Como",
+    "away": "Venezia",
+    "home_goals": 1,
+    "away_goals": 0,
+    "date": "2026-11-01",
+    "handicap_line": -1.75,
+    "total_line": 3.5
+  },
+  {
+    "competition": "seriea",
+    "cls": "league",
+    "home": "Frosinone",
+    "away": "Torino",
+    "home_goals": 2,
+    "away_goals": 0,
+    "date": "2026-11-01",
+    "handicap_line": -0.25,
+    "total_line": 3.0
+  },
+  {
+    "competition": "seriea",
+    "cls": "league",
+    "home": "Lazio",
+    "away": "Cagliari",
+    "home_goals": 2,
+    "away_goals": 1,
+    "date": "2026-11-01",
+    "handicap_line": -1.0,
+    "total_line": 2.5
+  },
+  {
+    "competition": "seriea",
+    "cls": "league",
+    "home": "Lecce",
+    "away": "Genoa",
+    "home_goals": 1,
+    "away_goals": 2,
+    "date": "2026-11-01",
+    "handicap_line": -0.0,
+    "total_line": 2.25
+  },
+  {
+    "competition": "seriea",
+    "cls": "league",
+    "home": "Juventus",
+    "away": "Napoli",
+    "home_goals": 2,
+    "away_goals": 0,
+    "date": "2026-11-01",
+    "handicap_line": -0.5,
+    "total_line": 2.5
+  },
+  {
+    "competition": "seriea",
+    "cls": "league",
     "home": "博洛尼亚",
     "away": "蒙扎",
     "home_goals": 2,

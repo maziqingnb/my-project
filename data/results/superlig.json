@@ -1,0 +1,46 @@
+[
+  {
+    "competition": "superlig",
+    "cls": "league",
+    "home": "阿美德",
+    "away": "埃于普体育",
+    "home_goals": 5,
+    "away_goals": 1,
+    "date": "2026-11-01",
+    "handicap_line": -1.5,
+    "total_line": 3.0
+  },
+  {
+    "competition": "superlig",
+    "cls": "league",
+    "home": "伊斯坦布尔巴萨克塞尔",
+    "away": "萨姆松体育",
+    "home_goals": 5,
+    "away_goals": 2,
+    "date": "2026-11-01",
+    "handicap_line": -0.5,
+    "total_line": 2.75
+  },
+  {
+    "competition": "superlig",
+    "cls": "league",
+    "home": "特拉布宗体育",
+    "away": "加济安泰普大都会",
+    "home_goals": 2,
+    "away_goals": 0,
+    "date": "2026-11-01",
+    "handicap_line": -1.5,
+    "total_line": 3.25
+  },
+  {
+    "competition": "superlig",
+    "cls": "league",
+    "home": "卡斯帕萨",
+    "away": "贝西克塔斯",
+    "home_goals": 2,
+    "away_goals": 2,
+    "date": "2026-11-01",
+    "handicap_line": 1.0,
+    "total_line": 2.75
+  }
+]
