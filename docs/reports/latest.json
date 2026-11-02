@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T06:50:20.904515+00:00",
+  "generated_at": "2026-11-02T06:56:23.563982+00:00",
   "scope": "五大联赛 + 欧冠",
   "note": "杯赛与联赛数据分开计算",
   "total": 41,
@@ -971,6 +971,12 @@
           "under": 0.9
         },
         {
+          "ts": "2026-11-01T19:45:00+00:00",
+          "total_line": 2.75,
+          "over": 0.98,
+          "under": 0.9
+        },
+        {
           "ts": "2026-11-02T00:31:32.103630+00:00",
           "total_line": 3,
           "over": 1.02,
@@ -984,6 +990,12 @@
         },
         {
           "ts": "2026-11-02T04:47:10.515574+00:00",
+          "total_line": 3,
+          "over": 1,
+          "under": 0.88
+        },
+        {
+          "ts": "2026-11-02T06:56:22.054469+00:00",
           "total_line": 3,
           "over": 1,
           "under": 0.88
@@ -3133,74 +3145,6 @@
       }
     },
     {
-      "fixture_key": "ligue1|洛里昂|布雷斯特|2026-11-02",
-      "competition": "ligue1",
-      "home": "洛里昂",
-      "away": "布雷斯特",
-      "kickoff": "2026-11-02T19:45:00",
-      "market": "handicap",
-      "pick": "平手盘",
-      "side": "home",
-      "confidence": "watch",
-      "score": 66.9,
-      "line": 0,
-      "reasons": [
-        "亚盘 盘口不变",
-        "主队降水 0.93->0.76",
-        "主队近1场 0胜1平0负，场均进0.0/失0.0",
-        "客队近1场 0胜0平1负，场均进1.0/失2.0",
-        "交手0次：主队0胜0平0负"
-      ],
-      "signals": {
-        "line_desc": "盘口不变",
-        "water_desc": "主队降水 0.93->0.76"
-      },
-      "history": [
-        {
-          "ts": "2026-11-01T19:45:00+00:00",
-          "handicap_line": 0,
-          "handicap_home": 0.93,
-          "handicap_away": 0.95
-        },
-        {
-          "ts": "2026-11-01T19:45:00+00:00",
-          "handicap_line": 0,
-          "handicap_home": 0.93,
-          "handicap_away": 0.95
-        },
-        {
-          "ts": "2026-11-01T19:45:00+00:00",
-          "handicap_line": 0,
-          "handicap_home": 0.93,
-          "handicap_away": 0.95
-        },
-        {
-          "ts": "2026-11-02T00:31:33.566204+00:00",
-          "handicap_line": 0,
-          "handicap_home": 0.78,
-          "handicap_away": 1.11
-        },
-        {
-          "ts": "2026-11-02T02:39:46.344688+00:00",
-          "handicap_line": 0,
-          "handicap_home": 0.78,
-          "handicap_away": 1.11
-        },
-        {
-          "ts": "2026-11-02T04:47:11.962834+00:00",
-          "handicap_line": 0,
-          "handicap_home": 0.76,
-          "handicap_away": 1.14
-        }
-      ],
-      "competition_name": "法国甲级联赛",
-      "competition_class": "league",
-      "prematch": false,
-      "result": {
-        "settled": false
-      }
-    },
-    {
       "fixture_key": "epl|纽卡斯尔联|埃弗顿|2026-11-02",
       "competition": "epl",
       "home": "纽卡斯尔联",
@@ -3242,6 +3186,12 @@
           "under": 0.95
         },
         {
+          "ts": "2026-11-01T20:00:00+00:00",
+          "total_line": 2.75,
+          "over": 0.91,
+          "under": 0.95
+        },
+        {
           "ts": "2026-11-02T00:31:28.506945+00:00",
           "total_line": 2.75,
           "over": 0.91,
@@ -3258,9 +3208,94 @@
           "total_line": 2.75,
           "over": 0.91,
           "under": 0.97
+        },
+        {
+          "ts": "2026-11-02T06:56:18.508194+00:00",
+          "total_line": 2.75,
+          "over": 0.91,
+          "under": 0.97
         }
       ],
       "competition_name": "英格兰超级联赛",
+      "competition_class": "league",
+      "prematch": false,
+      "result": {
+        "settled": false
+      }
+    },
+    {
+      "fixture_key": "ligue1|洛里昂|布雷斯特|2026-11-02",
+      "competition": "ligue1",
+      "home": "洛里昂",
+      "away": "布雷斯特",
+      "kickoff": "2026-11-02T19:45:00",
+      "market": "totals",
+      "pick": "小球（2.25）",
+      "side": "under",
+      "confidence": "watch",
+      "score": 66.7,
+      "line": 2.25,
+      "reasons": [
+        "大小球 降盘 2.5->2.25（看小）",
+        "大球降水 0.93->0.87",
+        "主队近1场场均总进球 0.0",
+        "客队近1场场均总进球 3.0"
+      ],
+      "signals": {
+        "line_desc": "降盘 2.5->2.25（看小）",
+        "over_desc": "大球降水 0.93->0.87"
+      },
+      "history": [
+        {
+          "ts": "2026-11-01T19:45:00+00:00",
+          "total_line": 2.5,
+          "over": 0.93,
+          "under": 0.93
+        },
+        {
+          "ts": "2026-11-01T19:45:00+00:00",
+          "total_line": 2.5,
+          "over": 0.93,
+          "under": 0.93
+        },
+        {
+          "ts": "2026-11-01T19:45:00+00:00",
+          "total_line": 2.5,
+          "over": 0.93,
+          "under": 0.93
+        },
+        {
+          "ts": "2026-11-01T19:45:00+00:00",
+          "total_line": 2.5,
+          "over": 0.93,
+          "under": 0.93
+        },
+        {
+          "ts": "2026-11-02T00:31:33.566204+00:00",
+          "total_line": 2.25,
+          "over": 0.84,
+          "under": 1.03
+        },
+        {
+          "ts": "2026-11-02T02:39:46.344688+00:00",
+          "total_line": 2.25,
+          "over": 0.84,
+          "under": 1.03
+        },
+        {
+          "ts": "2026-11-02T04:47:11.962834+00:00",
+          "total_line": 2.25,
+          "over": 0.86,
+          "under": 1.02
+        },
+        {
+          "ts": "2026-11-02T06:56:23.352528+00:00",
+          "total_line": 2.25,
+          "over": 0.87,
+          "under": 1.01
+        }
+      ],
+      "competition_name": "法国甲级联赛",
       "competition_class": "league",
       "prematch": false,
       "result": {
@@ -3822,6 +3857,12 @@
           "under": 0.91
         },
         {
+          "ts": "2026-11-01T20:00:00+00:00",
+          "total_line": 2.25,
+          "over": 0.97,
+          "under": 0.91
+        },
+        {
           "ts": "2026-11-02T00:31:29.661930+00:00",
           "total_line": 2.25,
           "over": 0.96,
@@ -3838,6 +3879,12 @@
           "total_line": 2.25,
           "over": 0.96,
           "under": 0.92
+        },
+        {
+          "ts": "2026-11-02T06:56:19.776372+00:00",
+          "total_line": 2.25,
+          "over": 0.98,
+          "under": 0.9
         }
       ],
       "competition_name": "西班牙甲级联赛",
@@ -4269,16 +4316,22 @@
       "line": 0.25,
       "reasons": [
         "亚盘 降盘 0->0.25（主队走弱）",
-        "主队降水 0.91->0.85",
+        "主队降水 0.91->0.84",
         "主队近2场 0胜0平2负，场均进1.0/失4.0",
         "客队近2场 0胜1平1负，场均进1.5/失2.0",
         "交手0次：主队0胜0平0负"
       ],
       "signals": {
         "line_desc": "降盘 0->0.25（主队走弱）",
-        "water_desc": "主队降水 0.91->0.85"
+        "water_desc": "主队降水 0.91->0.84"
       },
       "history": [
+        {
+          "ts": "2026-11-01T17:30:00+00:00",
+          "handicap_line": 0,
+          "handicap_home": 0.91,
+          "handicap_away": 0.97
+        },
         {
           "ts": "2026-11-01T17:30:00+00:00",
           "handicap_line": 0,
@@ -4314,6 +4367,12 @@
           "handicap_line": 0.25,
           "handicap_home": 0.85,
           "handicap_away": 1.04
+        },
+        {
+          "ts": "2026-11-02T06:56:20.910294+00:00",
+          "handicap_line": 0.25,
+          "handicap_home": 0.84,
+          "handicap_away": 1.05
         }
       ],
       "competition_name": "意大利甲级联赛",
