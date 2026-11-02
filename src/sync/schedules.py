@@ -10,7 +10,11 @@ def sync_fixtures(cfg: dict, client_of) -> None:
     """同步未来 N 天赛程。client_of(comp) -> 该联赛对应的数据源客户端。"""
     days = cfg["sync"]["upcoming_days"]
     for comp in cfg["competitions"]:
-        fixtures = client_of(comp).fetch_upcoming(comp, days)
+        try:
+            fixtures = client_of(comp).fetch_upcoming(comp, days)
+        except Exception as exc:      # 单个联赛失败（如站点超时）不应中断整轮同步
+            print(f"[赛程] {comp.name}: 跳过（{exc}）")
+            continue
         write_json(C.FIXTURES_DIR / f"{comp.key}.json", to_dicts(fixtures))
         print(f"[赛程] {comp.name}: {len(fixtures)} 场")
 
@@ -18,7 +22,11 @@ def sync_fixtures(cfg: dict, client_of) -> None:
 def sync_results(cfg: dict, client_of, days_back: int = 60) -> None:
     """同步历史结果（用于近况/交手，联赛与杯赛分别存各自文件）。"""
     for comp in cfg["competitions"]:
-        results = client_of(comp).fetch_results(comp, days_back)
+        try:
+            results = client_of(comp).fetch_results(comp, days_back)
+        except Exception as exc:
+            print(f"[结果] {comp.name}: 跳过（{exc}）")
+            continue
         write_json(C.RESULTS_DIR / f"{comp.key}.json", to_dicts(results))
         print(f"[结果] {comp.name}: {len(results)} 场")
 
@@ -31,7 +39,11 @@ def sync_recent_results(cfg: dict, client_of, days_back: int = 1) -> None:
     """
     for comp in cfg["competitions"]:
         existing = read_json(C.RESULTS_DIR / f"{comp.key}.json", default=[]) or []
-        recent = client_of(comp).fetch_results(comp, days_back)
+        try:
+            recent = client_of(comp).fetch_results(comp, days_back)
+        except Exception as exc:
+            print(f"[结果合并] {comp.name}: 跳过（{exc}）")
+            continue
         seen = {(norm_team(r.get("home")), norm_team(r.get("away")), (r.get("date") or "")[:10])
                 for r in existing}
         merged = list(existing)

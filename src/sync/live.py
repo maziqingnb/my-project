@@ -16,7 +16,11 @@ from ..storage import write_json
 def sync_live_scores(cfg: dict, client_of) -> dict:
     matches = []
     for comp in cfg["competitions"]:
-        live = client_of(comp).fetch_live(comp)
+        try:
+            live = client_of(comp).fetch_live(comp)
+        except Exception as exc:      # 单个联赛失败（如站点超时）不应中断整轮
+            print(f"[进行中] {comp.name}: 跳过（{exc}）")
+            continue
         for f in live:
             matches.append({
                 "fixture_key": f.key,

@@ -29,7 +29,11 @@ def sync_lineups(cfg: dict, client_of) -> None:
             except (ValueError, TypeError):
                 continue
             if now - timedelta(hours=window) <= ko <= now + timedelta(hours=window):
-                lineup = client_of(comp).fetch_lineup(comp, fx)
+                try:
+                    lineup = client_of(comp).fetch_lineup(comp, fx)
+                except Exception as exc:     # 单个联赛/场次失败不影响整轮
+                    print(f"[阵容] {comp.name} {fx.home} vs {fx.away}: 跳过（{exc}）")
+                    continue
                 if lineup:
                     safe = fx.key.replace("|", "_").replace("/", "_")
                     write_json(C.LINEUPS_DIR / f"{safe}.json", asdict(lineup))
