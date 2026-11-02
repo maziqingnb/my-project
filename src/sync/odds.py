@@ -10,7 +10,11 @@ from ..storage import append_odds_snapshot
 def sync_odds(cfg: dict, client_of) -> None:
     total = 0
     for comp in cfg["competitions"]:
-        snaps = client_of(comp).fetch_odds(comp)
+        try:
+            snaps = client_of(comp).fetch_odds(comp)
+        except Exception as exc:  # 单个联赛失败（如缺 THE_ODDS_API_KEY）不应中断整轮同步
+            print(f"[赔率] {comp.name}: 跳过（{exc}）")
+            continue
         for s in snaps:
             append_odds_snapshot(C.ODDS_DIR, asdict(s))
         total += len(snaps)
