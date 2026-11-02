@@ -88,5 +88,35 @@
     "total_line": null,
     "over": null,
     "under": null
+  },
+  {
+    "fixture_key": "nba|sanantoniospurs|utahjazz|2026-11-03",
+    "competition": "nba",
+    "home": "San Antonio Spurs",
+    "away": "Utah Jazz",
+    "kickoff": "2026-11-03T01:40:00Z",
+    "bookmaker": "pinnacle",
+    "ts": "2026-11-02T18:41:59.421305+00:00",
+    "handicap_line": -16.0,
+    "handicap_home": 1.93,
+    "handicap_away": 1.97,
+    "total_line": 229.5,
+    "over": 1.99,
+    "under": 1.9
+  },
+  {
+    "fixture_key": "nba|sanantoniospurs|utahjazz|2026-11-03",
+    "competition": "nba",
+    "home": "San Antonio Spurs",
+    "away": "Utah Jazz",
+    "kickoff": "2026-11-03T01:40:00Z",
+    "bookmaker": "unibet",
+    "ts": "2026-11-02T18:41:59.421305+00:00",
+    "handicap_line": -15.5,
+    "handicap_home": 1.88,
+    "handicap_away": 1.94,
+    "total_line": null,
+    "over": null,
+    "under": null
   }
 ]

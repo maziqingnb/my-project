@@ -88,5 +88,35 @@
     "total_line": 2.25,
     "over": 0.91,
     "under": 0.95
+  },
+  {
+    "fixture_key": "primeira|吉维森特|吉马良斯|2026-11-02",
+    "competition": "primeira",
+    "home": "吉维森特",
+    "away": "吉马良斯",
+    "kickoff": "2026-11-02T20:15:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-01T20:15:00+00:00",
+    "handicap_line": 0,
+    "handicap_home": 0.93,
+    "handicap_away": 0.95,
+    "total_line": 2.25,
+    "over": 1.01,
+    "under": 0.85
+  },
+  {
+    "fixture_key": "primeira|吉维森特|吉马良斯|2026-11-02",
+    "competition": "primeira",
+    "home": "吉维森特",
+    "away": "吉马良斯",
+    "kickoff": "2026-11-02T20:15:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-02T18:41:51.527915+00:00",
+    "handicap_line": 0,
+    "handicap_home": 1.13,
+    "handicap_away": 0.77,
+    "total_line": 2.25,
+    "over": 0.91,
+    "under": 0.95
   }
 ]
