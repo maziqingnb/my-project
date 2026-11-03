@@ -238,5 +238,35 @@
     "total_line": 228.0,
     "over": 1.99,
     "under": 1.89
+  },
+  {
+    "fixture_key": "nba|goldenstatewarriors|phoenixsuns|2026-11-03",
+    "competition": "nba",
+    "home": "Golden State Warriors",
+    "away": "Phoenix Suns",
+    "kickoff": "2026-11-03T03:13:00Z",
+    "bookmaker": "unibet",
+    "ts": "2026-11-03T04:40:56.472639+00:00",
+    "handicap_line": 5.5,
+    "handicap_home": 1.88,
+    "handicap_away": 1.86,
+    "total_line": null,
+    "over": null,
+    "under": null
+  },
+  {
+    "fixture_key": "nba|goldenstatewarriors|phoenixsuns|2026-11-03",
+    "competition": "nba",
+    "home": "Golden State Warriors",
+    "away": "Phoenix Suns",
+    "kickoff": "2026-11-03T03:13:00Z",
+    "bookmaker": "pinnacle",
+    "ts": "2026-11-03T04:40:56.472639+00:00",
+    "handicap_line": 3.5,
+    "handicap_home": 1.93,
+    "handicap_away": 1.96,
+    "total_line": 217.5,
+    "over": 1.97,
+    "under": 1.91
   }
 ]

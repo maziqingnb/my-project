@@ -58,5 +58,35 @@
     "total_line": 3.25,
     "over": 1.03,
     "under": 0.85
+  },
+  {
+    "fixture_key": "ucl|博德闪耀|里尔|2026-11-03",
+    "competition": "ucl",
+    "home": "博德闪耀",
+    "away": "里尔",
+    "kickoff": "2026-11-03T20:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-02T20:00:00+00:00",
+    "handicap_line": -0.5,
+    "handicap_home": 0.97,
+    "handicap_away": 0.91,
+    "total_line": 3.25,
+    "over": 0.95,
+    "under": 0.91
+  },
+  {
+    "fixture_key": "ucl|博德闪耀|里尔|2026-11-03",
+    "competition": "ucl",
+    "home": "博德闪耀",
+    "away": "里尔",
+    "kickoff": "2026-11-03T20:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-03T04:40:24.505130+00:00",
+    "handicap_line": -0.75,
+    "handicap_home": 0.99,
+    "handicap_away": 0.9,
+    "total_line": 3.25,
+    "over": 1.01,
+    "under": 0.87
   }
 ]
