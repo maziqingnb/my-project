@@ -86,12 +86,14 @@ def _update_history(items: list[dict], results_by_comp: dict) -> dict:
     for rec in prev.get("records", []):
         by_id[rec.get("id") or rec.get("fixture_key")] = rec
 
-    # 合并本次推荐（同一场比赛只保留最新推荐）
+    # 合并本次推荐：同一场比赛只保留「首次推荐」的口径。
+    # 分数/方向/理由/信号在首次上架时冻结，之后每次 analyze 重算只用来补赛果结算，
+    # 不再覆盖推荐本身——否则赛后会因近况/交手、收盘盘变化把「强推」重算成「可关注」。
     for item in items:
         rid = item.get("fixture_key")
-        merged = {**by_id.get(rid, {}), **_record(item)}
-        merged["id"] = rid
-        by_id[rid] = merged
+        if rid in by_id:
+            continue            # 已冻结，跳过本次重算（结算在下方统一补）
+        by_id[rid] = {**_record(item), "id": rid}
 
     # 对账本里所有记录重结算（赛果陆续到位后自动补上）
     records = []
