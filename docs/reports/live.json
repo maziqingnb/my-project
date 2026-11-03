@@ -1,35 +1,4 @@
 {
-  "generated_at": "2026-11-03T18:14:54.908420+00:00",
-  "matches": [
-    {
-      "fixture_key": "ucl|顿涅茨克矿工|葡萄牙体育|2026-11-03",
-      "competition": "ucl",
-      "home": "顿涅茨克矿工",
-      "away": "葡萄牙体育",
-      "kickoff": "2026-11-03T17:45:00",
-      "status": "live",
-      "home_goals": 0,
-      "away_goals": 0
-    },
-    {
-      "fixture_key": "ucl|加拉塔萨雷|stuttgart|2026-11-03",
-      "competition": "ucl",
-      "home": "加拉塔萨雷",
-      "away": "Stuttgart",
-      "kickoff": "2026-11-03T17:45:00",
-      "status": "live",
-      "home_goals": 2,
-      "away_goals": 0
-    },
-    {
-      "fixture_key": "sweden|天狼星|哈尔姆斯塔德|2026-11-03",
-      "competition": "sweden",
-      "home": "天狼星",
-      "away": "哈尔姆斯塔德",
-      "kickoff": "2026-11-03T18:00:00",
-      "status": "live",
-      "home_goals": 0,
-      "away_goals": 0
-    }
-  ]
+  "generated_at": "2026-11-03T19:16:39.099844+00:00",
+  "matches": []
 }
