@@ -26,6 +26,7 @@
   .tag { font-size: 11px; padding: 2px 8px; border-radius: 999px; color: #fff; }
   .tag.league { background: var(--league); }
   .tag.cup { background: var(--cup); }
+  .tag.basketball { background: #ea580c; }
 
   /* 顶部标签页 */
   .tabs { display: flex; gap: 4px; margin: 12px 0 16px; border-bottom: 1px solid var(--border); }
@@ -229,8 +230,9 @@ function renderTable(title, cls, items) {
       <td>${sparkline(r)}</td>
       <td><ul class="reasons">${r.reasons.map(x => `<li>${x}</li>`).join("")}</ul></td>
     </tr>`).join("");
+  const tagLabel = cls === "cup" ? "杯赛口径" : cls === "basketball" ? "篮球" : "联赛口径";
   return `<section>
-    <h2>${title} <span class="tag ${cls}">${cls === "cup" ? "杯赛口径" : "联赛口径"}</span></h2>
+    <h2>${title} <span class="tag ${cls}">${tagLabel}</span></h2>
     <div class="tablewrap"><table><thead><tr><th>比赛</th><th>盘口</th><th>推荐</th><th>推荐系数</th><th>信心</th><th>赛果</th><th>水位走势</th><th>理由</th></tr></thead>
     <tbody>${rows}</tbody></table></div>
   </section>`;
@@ -423,10 +425,12 @@ function loadAll() {
         `<div class="empty">暂无推荐，请等待下一次同步与分析。</div>`;
       return;
     }
-    const league = picks.filter(r => r.competition_class === "league").sort(byKickoff);
-    const cup = picks.filter(r => r.competition_class === "cup").sort(byKickoff);
+    // 篮球单独成板块，与足球联赛/杯赛分开展示（NBA 的 sport === "basketball"）
+    const bball = picks.filter(r => r.sport === "basketball").sort(byKickoff);
+    const league = picks.filter(r => r.sport !== "basketball" && r.competition_class === "league").sort(byKickoff);
+    const cup = picks.filter(r => r.sport !== "basketball" && r.competition_class === "cup").sort(byKickoff);
     document.getElementById("content").innerHTML =
-      renderTable("🏆 杯赛", "cup", cup) + renderTable("⚽ 联赛", "league", league);
+      renderTable("🏀 篮球", "basketball", bball) + renderTable("🏆 杯赛", "cup", cup) + renderTable("⚽ 联赛", "league", league);
   });
 }
 
