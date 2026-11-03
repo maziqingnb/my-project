@@ -208,5 +208,35 @@
     "total_line": 3.5,
     "over": 0.99,
     "under": 0.89
+  },
+  {
+    "fixture_key": "ucl|比利亚雷亚尔|巴黎圣日耳曼|2026-11-03",
+    "competition": "ucl",
+    "home": "比利亚雷亚尔",
+    "away": "巴黎圣日耳曼",
+    "kickoff": "2026-11-03T20:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-02T20:00:00+00:00",
+    "handicap_line": 1,
+    "handicap_home": 0.92,
+    "handicap_away": 0.96,
+    "total_line": 3.5,
+    "over": 0.96,
+    "under": 0.9
+  },
+  {
+    "fixture_key": "ucl|比利亚雷亚尔|巴黎圣日耳曼|2026-11-03",
+    "competition": "ucl",
+    "home": "比利亚雷亚尔",
+    "away": "巴黎圣日耳曼",
+    "kickoff": "2026-11-03T20:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-03T14:42:33.441767+00:00",
+    "handicap_line": 0.75,
+    "handicap_home": 1.01,
+    "handicap_away": 0.88,
+    "total_line": 3.5,
+    "over": 0.98,
+    "under": 0.9
   }
 ]
