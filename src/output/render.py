@@ -121,6 +121,7 @@ def _update_history(items: list[dict], results_by_comp: dict) -> dict:
             "overall": hit_rate_stats(counted),
             "by_market": group_hit_rates(counted, "market"),
             "by_competition": group_hit_rates(counted, "competition"),
+            "by_sport": group_hit_rates(counted, "sport"),   # 足球/篮球分口径命中率
         },
         "records": records,                 # 全量账本（供审计/合并，不参与统计）
     }
@@ -209,6 +210,7 @@ def render_report(cfg: dict, recs, results_by_comp: dict | None = None,
             "overall": hit_rate_stats(settled),
             "by_market": group_hit_rates(settled, "market"),
             "by_competition": group_hit_rates(settled, "competition"),
+            "by_sport": group_hit_rates(settled, "sport"),
         },
         "recommendations": panel_items,
     }

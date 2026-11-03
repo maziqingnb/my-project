@@ -73,6 +73,7 @@
   .live-sub { margin-top: 6px; display: flex; align-items: center; gap: 6px; flex-wrap: wrap; }
   @keyframes pulse { 0%,100% { opacity: 1; } 50% { opacity: .3; } }
   .day-title { margin: 16px 0 6px; font-size: 14px; color: var(--muted); }
+  .subhead { margin: 16px 0 6px; font-size: 14px; font-weight: 600; color: var(--ink); }
 
   /* 赛果 */
   .outcome { display: inline-block; font-size: 12px; font-weight: 600; padding: 2px 10px; border-radius: 6px; color: #fff; white-space: nowrap; }
@@ -198,10 +199,14 @@ function renderStats(hist) {
   }
   const st = hist.stats;
   const overall = st.overall || {};
+  const foot = st.by_sport && st.by_sport.football;      // 旧 history.json 无 by_sport 时为 undefined，显示「—」
+  const bball = st.by_sport && st.by_sport.basketball;
   const cards = `
     <div class="stat"><div class="num">${hist.total ?? 0}</div><div class="lbl">累计推荐</div></div>
     <div class="stat"><div class="num">${overall.settled ?? 0}</div><div class="lbl">已结算</div><div class="sub">命中 ${overall.hit ?? 0} 场</div></div>
     <div class="stat"><div class="num big-rate">${rateText(overall)}</div><div class="lbl">累计命中率</div>${chips(overall)}</div>
+    <div class="stat"><div class="num big-rate">${rateText(foot)}</div><div class="lbl">足球命中率</div></div>
+    <div class="stat"><div class="num big-rate">${rateText(bball)}</div><div class="lbl">篮球命中率</div></div>
     <div class="stat"><div class="num">${rateText(st.by_market && st.by_market.handicap)}</div><div class="lbl">亚盘命中率</div></div>
     <div class="stat"><div class="num">${rateText(st.by_market && st.by_market.totals)}</div><div class="lbl">大小球命中率</div></div>`;
 
@@ -292,14 +297,8 @@ function bjDateTime(iso) {
   return `${t.day} ${t.hm}`;
 }
 
-function renderSchedule(schedule) {
-  const box = document.getElementById("schedule");
-  const matches = (schedule && schedule.matches) || [];
-  const upd = `更新于 ${bjTime(schedule && schedule.generated_at)}（北京）`;
-  if (!matches.length) {
-    box.innerHTML = `<section><h2>📅 赛程</h2><div class="empty">暂无未开赛的赛程。<span class="market">${upd}</span></div></section>`;
-    return;
-  }
+function scheduleBlocks(matches, label) {
+  if (!matches.length) return "";
   const byDay = {};
   matches.forEach(m => {
     const { day } = bjDayTime(m.kickoff);
@@ -317,8 +316,23 @@ function renderSchedule(schedule) {
     return `<div class="day-title">${day}</div>
       <div class="tablewrap"><table><thead><tr><th>开赛(北京)</th><th>对阵</th><th>联赛/杯赛</th></tr></thead><tbody>${rows}</tbody></table></div>`;
   }).join("");
+  return `<div class="subhead">${label}</div>${blocks}`;
+}
+
+function renderSchedule(schedule) {
+  const box = document.getElementById("schedule");
+  const matches = (schedule && schedule.matches) || [];
+  const upd = `更新于 ${bjTime(schedule && schedule.generated_at)}（北京）`;
+  if (!matches.length) {
+    box.innerHTML = `<section><h2>📅 赛程</h2><div class="empty">暂无未开赛的赛程。<span class="market">${upd}</span></div></section>`;
+    return;
+  }
+  // 篮球单独一节，与足球赛程分开展示
+  const bball = matches.filter(m => m.sport === "basketball");
+  const football = matches.filter(m => m.sport !== "basketball");
   box.innerHTML = `<section><h2>📅 赛程 <span class="tag league">未开赛</span></h2>
-    <div class="market">${upd} · 推荐只在开赛前 6 小时内上架 · 开赛前 2 小时内标记「临场」</div>${blocks}</section>`;
+    <div class="market">${upd} · 推荐只在开赛前 6 小时内上架 · 开赛前 2 小时内标记「临场」</div>
+    ${scheduleBlocks(bball, "🏀 篮球")}${scheduleBlocks(football, "⚽ 足球")}</section>`;
 }
 
 function renderReview(review) {
