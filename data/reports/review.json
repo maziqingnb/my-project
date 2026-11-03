@@ -1,11 +1,51 @@
 {
-  "generated_at": "2026-11-03T17:30:16.890489+00:00",
-  "total_missed": 11,
+  "generated_at": "2026-11-03T18:14:56.288634+00:00",
+  "total_missed": 12,
   "days": [
     {
       "date": "2026-11-03",
-      "missed": 7,
+      "missed": 8,
       "items": [
+        {
+          "competition": "afc_cl2",
+          "home": "侯塞因",
+          "away": "巴格达警察",
+          "kickoff": "2026-11-03T16:00:00",
+          "market": "totals",
+          "sport": "football",
+          "pick": "小球（2.25）",
+          "side": "under",
+          "line": 2.25,
+          "score": 83.3,
+          "confidence": "strong",
+          "outcome": "loss",
+          "outcome_cn": "没中",
+          "home_goals": 0,
+          "away_goals": 3,
+          "book": "盘口 2.25 → 2.25，水位 大0.85/小0.95 → 大0.91/小0.89",
+          "diagnosis": [
+            "盘口 2.25 → 2.25，水位 大0.85/小0.95 → 大0.91/小0.89",
+            "最终总进球 3，相对盘口 2.25 偏大"
+          ],
+          "note": "小球（2.25） · 最终 0-3（总进球 3），未打出",
+          "signals": {
+            "line_desc": "盘口不变",
+            "over_desc": "大球升水 0.85->0.91",
+            "line_first": 2.25,
+            "line_last": 2.25,
+            "over_first": 0.85,
+            "over_last": 0.91,
+            "under_first": 0.95,
+            "under_last": 0.89
+          },
+          "reasons": [
+            "大小球 盘口不变",
+            "大球升水 0.85->0.91",
+            "主队近1场场均总进球 2.0",
+            "客队近1场场均总进球 2.0",
+            "历史交锋大小球：0次大/1次小（均线 2.50）"
+          ]
+        },
         {
           "competition": "nba",
           "home": "Los Angeles Lakers",

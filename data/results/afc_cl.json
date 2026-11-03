@@ -68,6 +68,17 @@
   {
     "competition": "afc_cl",
     "cls": "cup",
+    "home": "德黑兰独立",
+    "away": "艾沙姆",
+    "home_goals": 1,
+    "away_goals": 0,
+    "date": "2026-11-03",
+    "handicap_line": -0.25,
+    "total_line": 2.25
+  },
+  {
+    "competition": "afc_cl",
+    "cls": "cup",
     "home": "塔什干棉农",
     "away": "利雅得胜利",
     "home_goals": 2,
