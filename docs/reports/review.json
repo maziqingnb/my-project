@@ -1,11 +1,286 @@
 {
-  "generated_at": "2026-11-03T06:48:41.102069+00:00",
-  "total_missed": 9,
+  "generated_at": "2026-11-03T07:45:28.794326+00:00",
+  "total_missed": 16,
   "days": [
     {
       "date": "2026-11-03",
-      "missed": 1,
+      "missed": 8,
       "items": [
+        {
+          "competition": "nba",
+          "home": "Golden State Warriors",
+          "away": "Phoenix Suns",
+          "kickoff": "2026-11-03T03:10:00Z",
+          "market": "handicap",
+          "sport": "basketball",
+          "pick": "客队（受让 2.5）",
+          "side": "away",
+          "line": -2.5,
+          "score": 70.8,
+          "confidence": "strong",
+          "outcome": "loss",
+          "outcome_cn": "没中",
+          "home_goals": 116,
+          "away_goals": 113,
+          "book": "盘口 主让4.5 → 主让2.5，水位 主1.92/1.90 → 主1.98/1.93",
+          "diagnosis": [
+            "盘口 主让4.5 → 主让2.5，水位 主1.92/1.90 → 主1.98/1.93",
+            "最终 116-113，推荐侧相对盘口 -0.50 球（未打穿）"
+          ],
+          "note": "客队（受让 2.5） · 最终 116-113（客队净胜 -3），未打穿",
+          "signals": {
+            "line_desc": "降盘 -4.5->-2.5（主队走弱）",
+            "water_desc": "主队升水 1.92->1.98",
+            "line_first": -4.5,
+            "line_last": -2.5,
+            "home_water_first": 1.92,
+            "home_water_last": 1.98,
+            "away_water_first": 1.9,
+            "away_water_last": 1.93
+          },
+          "reasons": [
+            "亚盘 降盘 -4.5->-2.5（主队走弱）",
+            "主队升水 1.92->1.98",
+            "主队近5场 4胜0平1负，场均进122.2/失113.2",
+            "客队近5场 1胜0平4负，场均进112.8/失123.4",
+            "交手1次：主队0胜0平1负"
+          ]
+        },
+        {
+          "competition": "nba",
+          "home": "Denver Nuggets",
+          "away": "Portland Trail Blazers",
+          "kickoff": "2026-11-03T02:10:00Z",
+          "market": "totals",
+          "sport": "basketball",
+          "pick": "大分（231.5）",
+          "side": "over",
+          "line": 231.5,
+          "score": 80.0,
+          "confidence": "strong",
+          "outcome": "loss",
+          "outcome_cn": "没中",
+          "home_goals": 110,
+          "away_goals": 118,
+          "book": "盘口 230.5 → 231.5，水位 大1.92/小1.95 → 大1.92/小1.97",
+          "diagnosis": [
+            "盘口 230.5 → 231.5，水位 大1.92/小1.95 → 大1.92/小1.97",
+            "最终总进球 228，相对盘口 231.5 偏小"
+          ],
+          "note": "大分（231.5） · 最终 110-118（总进球 228），未打出",
+          "signals": {
+            "line_desc": "升盘 230.5->231.5（看大）",
+            "over_desc": "大球水位平稳",
+            "line_first": 230.5,
+            "line_last": 231.5,
+            "over_first": 1.92,
+            "over_last": 1.92,
+            "under_first": 1.95,
+            "under_last": 1.97
+          },
+          "reasons": [
+            "大小球 升盘 230.5->231.5（看大）",
+            "大球水位平稳",
+            "主队近5场场均总进球 229.2",
+            "客队近5场场均总进球 229.8"
+          ]
+        },
+        {
+          "competition": "nba",
+          "home": "Houston Rockets",
+          "away": "Boston Celtics",
+          "kickoff": "2026-11-03T01:40:00Z",
+          "market": "totals",
+          "sport": "basketball",
+          "pick": "大分（215.5）",
+          "side": "over",
+          "line": 215.5,
+          "score": 60.0,
+          "confidence": "watch",
+          "outcome": "loss",
+          "outcome_cn": "没中",
+          "home_goals": 109,
+          "away_goals": 93,
+          "book": "盘口 219 → 215.5，水位 大1.93/小1.93 → 大1.93/小1.96",
+          "diagnosis": [
+            "盘口 219 → 215.5，水位 大1.93/小1.93 → 大1.93/小1.96",
+            "最终总进球 202，相对盘口 215.5 偏小"
+          ],
+          "note": "大分（215.5） · 最终 109-93（总进球 202），未打出",
+          "signals": {
+            "line_desc": "降盘 219.0->215.5（看小）",
+            "over_desc": "大球水位平稳",
+            "line_first": 219.0,
+            "line_last": 215.5,
+            "over_first": 1.93,
+            "over_last": 1.93,
+            "under_first": 1.93,
+            "under_last": 1.96
+          },
+          "reasons": [
+            "大小球 降盘 219.0->215.5（看小）",
+            "大球水位平稳",
+            "主队近5场场均总进球 228.2",
+            "客队近5场场均总进球 226.6"
+          ]
+        },
+        {
+          "competition": "nba",
+          "home": "Minnesota Timberwolves",
+          "away": "Milwaukee Bucks",
+          "kickoff": "2026-11-03T01:10:00Z",
+          "market": "totals",
+          "sport": "basketball",
+          "pick": "大分（231）",
+          "side": "over",
+          "line": 231.0,
+          "score": 75.0,
+          "confidence": "strong",
+          "outcome": "loss",
+          "outcome_cn": "没中",
+          "home_goals": 112,
+          "away_goals": 100,
+          "book": "盘口 234 → 231，水位 大1.93/小1.94 → 大1.85/小2.02",
+          "diagnosis": [
+            "盘口 234 → 231，水位 大1.93/小1.94 → 大1.85/小2.02",
+            "最终总进球 212，相对盘口 231 偏小"
+          ],
+          "note": "大分（231） · 最终 112-100（总进球 212），未打出",
+          "signals": {
+            "line_desc": "降盘 234.0->231.0（看小）",
+            "over_desc": "大球降水 1.93->1.85",
+            "line_first": 234.0,
+            "line_last": 231.0,
+            "over_first": 1.93,
+            "over_last": 1.85,
+            "under_first": 1.94,
+            "under_last": 2.02
+          },
+          "reasons": [
+            "大小球 降盘 234.0->231.0（看小）",
+            "大球降水 1.93->1.85",
+            "主队近5场场均总进球 231.2",
+            "客队近5场场均总进球 238.2"
+          ]
+        },
+        {
+          "competition": "nba",
+          "home": "Indiana Pacers",
+          "away": "Atlanta Hawks",
+          "kickoff": "2026-11-03T00:40:00Z",
+          "market": "handicap",
+          "sport": "basketball",
+          "pick": "客队（让 10）",
+          "side": "away",
+          "line": 10.0,
+          "score": 70.6,
+          "confidence": "strong",
+          "outcome": "loss",
+          "outcome_cn": "没中",
+          "home_goals": 104,
+          "away_goals": 108,
+          "book": "盘口 主受让4.5 → 主受让10，水位 主1.95/1.87 → 主1.98/1.93",
+          "diagnosis": [
+            "盘口 主受让4.5 → 主受让10，水位 主1.95/1.87 → 主1.98/1.93",
+            "最终 104-108，推荐侧相对盘口 -6.00 球（未打穿）"
+          ],
+          "note": "客队（让 10） · 最终 104-108（客队净胜 4），未打穿",
+          "signals": {
+            "line_desc": "降盘 4.5->10.0（主队走弱）",
+            "water_desc": "主队升水 1.95->1.98",
+            "line_first": 4.5,
+            "line_last": 10.0,
+            "home_water_first": 1.95,
+            "home_water_last": 1.98,
+            "away_water_first": 1.87,
+            "away_water_last": 1.93
+          },
+          "reasons": [
+            "亚盘 降盘 4.5->10.0（主队走弱）",
+            "主队升水 1.95->1.98",
+            "主队近5场 1胜0平4负，场均进112.4/失115.2",
+            "客队近5场 1胜0平4负，场均进110.8/失120.4",
+            "交手1次：主队0胜0平1负"
+          ]
+        },
+        {
+          "competition": "nba",
+          "home": "Philadelphia 76ers",
+          "away": "Chicago Bulls",
+          "kickoff": "2026-11-03T00:40:00Z",
+          "market": "totals",
+          "sport": "basketball",
+          "pick": "大分（239.5）",
+          "side": "over",
+          "line": 239.5,
+          "score": 85.0,
+          "confidence": "strong",
+          "outcome": "loss",
+          "outcome_cn": "没中",
+          "home_goals": 126,
+          "away_goals": 107,
+          "book": "盘口 239.5 → 239.5，水位 大1.93/小1.94 → 大1.88/小2.00",
+          "diagnosis": [
+            "盘口 239.5 → 239.5，水位 大1.93/小1.94 → 大1.88/小2.00",
+            "最终总进球 233，相对盘口 239.5 偏小"
+          ],
+          "note": "大分（239.5） · 最终 126-107（总进球 233），未打出",
+          "signals": {
+            "line_desc": "盘口不变",
+            "over_desc": "大球降水 1.93->1.88",
+            "line_first": 239.5,
+            "line_last": 239.5,
+            "over_first": 1.93,
+            "over_last": 1.88,
+            "under_first": 1.94,
+            "under_last": 2.0
+          },
+          "reasons": [
+            "大小球 盘口不变",
+            "大球降水 1.93->1.88",
+            "主队近5场场均总进球 213.8",
+            "客队近5场场均总进球 246.0"
+          ]
+        },
+        {
+          "competition": "nba",
+          "home": "New York Knicks",
+          "away": "Brooklyn Nets",
+          "kickoff": "2026-11-03T00:40:00Z",
+          "market": "totals",
+          "sport": "basketball",
+          "pick": "大分（218.5）",
+          "side": "over",
+          "line": 218.5,
+          "score": 60.0,
+          "confidence": "watch",
+          "outcome": "loss",
+          "outcome_cn": "没中",
+          "home_goals": 103,
+          "away_goals": 90,
+          "book": "盘口 220.5 → 218.5，水位 大1.95/小1.92 → 大1.93/小1.95",
+          "diagnosis": [
+            "盘口 220.5 → 218.5，水位 大1.95/小1.92 → 大1.93/小1.95",
+            "最终总进球 193，相对盘口 218.5 偏小"
+          ],
+          "note": "大分（218.5） · 最终 103-90（总进球 193），未打出",
+          "signals": {
+            "line_desc": "降盘 220.5->218.5（看小）",
+            "over_desc": "大球水位平稳",
+            "line_first": 220.5,
+            "line_last": 218.5,
+            "over_first": 1.95,
+            "over_last": 1.93,
+            "under_first": 1.92,
+            "under_last": 1.95
+          },
+          "reasons": [
+            "大小球 降盘 220.5->218.5（看小）",
+            "大球水位平稳",
+            "主队近5场场均总进球 216.4",
+            "客队近5场场均总进球 226.4"
+          ]
+        },
         {
           "competition": "argentina",
           "home": "门多萨独立",
