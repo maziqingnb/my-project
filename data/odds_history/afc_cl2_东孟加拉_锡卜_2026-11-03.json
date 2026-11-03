@@ -88,5 +88,35 @@
     "total_line": 2.25,
     "over": 0.83,
     "under": 0.97
+  },
+  {
+    "fixture_key": "afc_cl2|东孟加拉|锡卜|2026-11-03",
+    "competition": "afc_cl2",
+    "home": "东孟加拉",
+    "away": "锡卜",
+    "kickoff": "2026-11-03T13:45:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-02T13:45:00+00:00",
+    "handicap_line": -0.25,
+    "handicap_home": 0.99,
+    "handicap_away": 0.83,
+    "total_line": 2.25,
+    "over": 0.83,
+    "under": 0.97
+  },
+  {
+    "fixture_key": "afc_cl2|东孟加拉|锡卜|2026-11-03",
+    "competition": "afc_cl2",
+    "home": "东孟加拉",
+    "away": "锡卜",
+    "kickoff": "2026-11-03T13:45:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-03T06:48:33.271357+00:00",
+    "handicap_line": 0,
+    "handicap_home": 0.82,
+    "handicap_away": 1,
+    "total_line": 2.25,
+    "over": 0.8,
+    "under": 1
   }
 ]

@@ -43,5 +43,20 @@
     "total_line": null,
     "over": null,
     "under": null
+  },
+  {
+    "fixture_key": "intl_friendly|荷兰u16|乌克兰u16|2026-11-03",
+    "competition": "intl_friendly",
+    "home": "荷兰U16",
+    "away": "乌克兰U16",
+    "kickoff": "2026-11-03T15:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-03T06:48:40.569525+00:00",
+    "handicap_line": null,
+    "handicap_home": null,
+    "handicap_away": null,
+    "total_line": null,
+    "over": null,
+    "under": null
   }
 ]

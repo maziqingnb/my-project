@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-03T06:30:53.603049+00:00",
+  "generated_at": "2026-11-03T06:48:41.070295+00:00",
   "scope": "16 个联赛 + 5 个杯赛",
   "note": "杯赛与联赛数据分开计算；仅开赛前 6h 内出推荐；命中率统计强推+可关注",
-  "total": 61,
+  "total": 63,
   "stats": {
     "overall": {
       "counts": {
@@ -1588,21 +1588,27 @@
       "line": 2.75,
       "reasons": [
         "大小球 盘口不变",
-        "大球升水 0.77->0.81",
+        "大球升水 0.77->0.8",
         "主队近1场场均总进球 0.0",
         "客队近1场场均总进球 1.0"
       ],
       "signals": {
         "line_desc": "盘口不变",
-        "over_desc": "大球升水 0.77->0.81",
+        "over_desc": "大球升水 0.77->0.8",
         "line_first": 2.75,
         "line_last": 2.75,
         "over_first": 0.77,
-        "over_last": 0.81,
+        "over_last": 0.8,
         "under_first": 0.99,
-        "under_last": 0.99
+        "under_last": 1
       },
       "history": [
+        {
+          "ts": "2026-11-02T10:00:00+00:00",
+          "total_line": 2.75,
+          "over": 0.77,
+          "under": 0.99
+        },
         {
           "ts": "2026-11-02T10:00:00+00:00",
           "total_line": 2.75,
@@ -1638,12 +1644,105 @@
           "total_line": 2.75,
           "over": 0.81,
           "under": 0.99
+        },
+        {
+          "ts": "2026-11-03T06:48:25.114720+00:00",
+          "total_line": 2.75,
+          "over": 0.8,
+          "under": 1
         }
       ],
       "competition_name": "亚冠精英",
       "competition_class": "cup",
       "sport": "football",
-      "lead_hours": 5.322496240277778,
+      "lead_hours": 3.193023688888889,
+      "prematch": false,
+      "result": {
+        "settled": false
+      }
+    },
+    {
+      "fixture_key": "afc_cl|河内公安|京都不死鸟|2026-11-03",
+      "competition": "afc_cl",
+      "home": "河内公安",
+      "away": "京都不死鸟",
+      "kickoff": "2026-11-03T12:15:00",
+      "market": "totals",
+      "pick": "大球（2.75）",
+      "side": "over",
+      "confidence": "strong",
+      "score": 85.0,
+      "line": 2.75,
+      "reasons": [
+        "大小球 盘口不变",
+        "大球降水 0.95->0.84",
+        "主队近1场场均总进球 5.0",
+        "客队近1场场均总进球 7.0"
+      ],
+      "signals": {
+        "line_desc": "盘口不变",
+        "over_desc": "大球降水 0.95->0.84",
+        "line_first": 2.75,
+        "line_last": 2.75,
+        "over_first": 0.95,
+        "over_last": 0.84,
+        "under_first": 0.81,
+        "under_last": 0.96
+      },
+      "history": [
+        {
+          "ts": "2026-11-02T12:15:00+00:00",
+          "total_line": 2.75,
+          "over": 0.95,
+          "under": 0.81
+        },
+        {
+          "ts": "2026-11-02T12:15:00+00:00",
+          "total_line": 2.75,
+          "over": 0.95,
+          "under": 0.81
+        },
+        {
+          "ts": "2026-11-02T12:15:00+00:00",
+          "total_line": 2.75,
+          "over": 0.95,
+          "under": 0.81
+        },
+        {
+          "ts": "2026-11-02T12:15:00+00:00",
+          "total_line": 2.75,
+          "over": 0.95,
+          "under": 0.81
+        },
+        {
+          "ts": "2026-11-03T00:33:02.163351+00:00",
+          "total_line": 2.75,
+          "over": 1,
+          "under": 0.8
+        },
+        {
+          "ts": "2026-11-03T02:38:38.460686+00:00",
+          "total_line": 2.75,
+          "over": 1,
+          "under": 0.8
+        },
+        {
+          "ts": "2026-11-03T04:40:41.859845+00:00",
+          "total_line": 2.75,
+          "over": 1,
+          "under": 0.8
+        },
+        {
+          "ts": "2026-11-03T06:48:28.324776+00:00",
+          "total_line": 2.75,
+          "over": 0.84,
+          "under": 0.96
+        }
+      ],
+      "competition_name": "亚冠精英",
+      "competition_class": "cup",
+      "sport": "football",
+      "lead_hours": 5.442132006666666,
       "prematch": false,
       "result": {
         "settled": false
@@ -1728,81 +1827,6 @@
         "home_goals": 0,
         "away_goals": 5,
         "settled": true
-      }
-    },
-    {
-      "fixture_key": "afc_cl|神户胜利船|拉查布里府|2026-11-03",
-      "competition": "afc_cl",
-      "home": "神户胜利船",
-      "away": "拉查布里府",
-      "kickoff": "2026-11-03T10:00:00",
-      "market": "totals",
-      "pick": "小球（3.25）",
-      "side": "under",
-      "confidence": "strong",
-      "score": 85.0,
-      "line": 3.25,
-      "reasons": [
-        "大小球 盘口不变",
-        "大球升水 0.96->1",
-        "主队近1场场均总进球 1.0",
-        "客队近1场场均总进球 0.0"
-      ],
-      "signals": {
-        "line_desc": "盘口不变",
-        "over_desc": "大球升水 0.96->1",
-        "line_first": 3.25,
-        "line_last": 3.25,
-        "over_first": 0.96,
-        "over_last": 1,
-        "under_first": 0.8,
-        "under_last": 0.8
-      },
-      "history": [
-        {
-          "ts": "2026-11-02T10:00:00+00:00",
-          "total_line": 3.25,
-          "over": 0.96,
-          "under": 0.8
-        },
-        {
-          "ts": "2026-11-02T10:00:00+00:00",
-          "total_line": 3.25,
-          "over": 0.96,
-          "under": 0.8
-        },
-        {
-          "ts": "2026-11-02T10:00:00+00:00",
-          "total_line": 3.25,
-          "over": 0.96,
-          "under": 0.8
-        },
-        {
-          "ts": "2026-11-03T00:32:57.384554+00:00",
-          "total_line": 3,
-          "over": 0.82,
-          "under": 0.98
-        },
-        {
-          "ts": "2026-11-03T02:38:33.935070+00:00",
-          "total_line": 3,
-          "over": 0.82,
-          "under": 0.98
-        },
-        {
-          "ts": "2026-11-03T04:40:37.621595+00:00",
-          "total_line": 3.25,
-          "over": 1,
-          "under": 0.8
-        }
-      ],
-      "competition_name": "亚冠精英",
-      "competition_class": "cup",
-      "sport": "football",
-      "lead_hours": 5.322882890277778,
-      "prematch": false,
-      "result": {
-        "settled": false
       }
     },
     {
@@ -3227,6 +3251,93 @@
       }
     },
     {
+      "fixture_key": "afc_cl|纽卡斯尔喷气机|上海海港|2026-11-03",
+      "competition": "afc_cl",
+      "home": "纽卡斯尔喷气机",
+      "away": "上海海港",
+      "kickoff": "2026-11-03T07:45:00",
+      "market": "totals",
+      "pick": "大球（3.5）",
+      "side": "over",
+      "confidence": "strong",
+      "score": 80.0,
+      "line": 3.5,
+      "reasons": [
+        "大小球 升盘 3.25->3.5（看大）",
+        "大球水位平稳",
+        "主队近1场场均总进球 7.0",
+        "客队近1场场均总进球 5.0"
+      ],
+      "signals": {
+        "line_desc": "升盘 3.25->3.5（看大）",
+        "over_desc": "大球水位平稳",
+        "line_first": 3.25,
+        "line_last": 3.5,
+        "over_first": 0.9,
+        "over_last": 0.92,
+        "under_first": 0.86,
+        "under_last": 0.88
+      },
+      "history": [
+        {
+          "ts": "2026-11-02T07:45:00+00:00",
+          "total_line": 3.25,
+          "over": 0.9,
+          "under": 0.86
+        },
+        {
+          "ts": "2026-11-02T07:45:00+00:00",
+          "total_line": 3.25,
+          "over": 0.9,
+          "under": 0.86
+        },
+        {
+          "ts": "2026-11-02T07:45:00+00:00",
+          "total_line": 3.25,
+          "over": 0.9,
+          "under": 0.86
+        },
+        {
+          "ts": "2026-11-02T07:45:00+00:00",
+          "total_line": 3.25,
+          "over": 0.9,
+          "under": 0.86
+        },
+        {
+          "ts": "2026-11-03T00:32:54.188473+00:00",
+          "total_line": 3.25,
+          "over": 0.8,
+          "under": 1
+        },
+        {
+          "ts": "2026-11-03T02:38:31.070099+00:00",
+          "total_line": 3.25,
+          "over": 0.75,
+          "under": 1.05
+        },
+        {
+          "ts": "2026-11-03T04:40:33.472728+00:00",
+          "total_line": 3.5,
+          "over": 0.94,
+          "under": 0.86
+        },
+        {
+          "ts": "2026-11-03T06:48:17.667487+00:00",
+          "total_line": 3.5,
+          "over": 0.92,
+          "under": 0.88
+        }
+      ],
+      "competition_name": "亚冠精英",
+      "competition_class": "cup",
+      "sport": "football",
+      "lead_hours": 0.9450923647222221,
+      "prematch": true,
+      "result": {
+        "settled": false
+      }
+    },
+    {
       "fixture_key": "epl|chelsea|曼彻斯特联|2026-10-31",
       "competition": "epl",
       "home": "Chelsea",
@@ -3469,82 +3580,6 @@
         "home_goals": 0,
         "away_goals": 1,
         "settled": true
-      }
-    },
-    {
-      "fixture_key": "afc_cl|纽卡斯尔喷气机|上海海港|2026-11-03",
-      "competition": "afc_cl",
-      "home": "纽卡斯尔喷气机",
-      "away": "上海海港",
-      "kickoff": "2026-11-03T07:45:00",
-      "market": "handicap",
-      "pick": "客队（让 0.5）",
-      "side": "away",
-      "confidence": "strong",
-      "score": 78.0,
-      "line": 0.5,
-      "reasons": [
-        "亚盘 降盘 0.25->0.5（主队走弱）",
-        "主队升水 0.86->0.97",
-        "主队近1场 0胜0平1负，场均进2.0/失5.0",
-        "客队近1场 0胜0平1负，场均进2.0/失3.0",
-        "交手0次：主队0胜0平0负"
-      ],
-      "signals": {
-        "line_desc": "降盘 0.25->0.5（主队走弱）",
-        "water_desc": "主队升水 0.86->0.97",
-        "line_first": 0.25,
-        "line_last": 0.5,
-        "home_water_first": 0.86,
-        "home_water_last": 0.97,
-        "away_water_first": 0.9,
-        "away_water_last": 0.85
-      },
-      "history": [
-        {
-          "ts": "2026-11-02T07:45:00+00:00",
-          "handicap_line": 0.25,
-          "handicap_home": 0.86,
-          "handicap_away": 0.9
-        },
-        {
-          "ts": "2026-11-02T07:45:00+00:00",
-          "handicap_line": 0.25,
-          "handicap_home": 0.86,
-          "handicap_away": 0.9
-        },
-        {
-          "ts": "2026-11-02T07:45:00+00:00",
-          "handicap_line": 0.25,
-          "handicap_home": 0.86,
-          "handicap_away": 0.9
-        },
-        {
-          "ts": "2026-11-03T00:32:54.188473+00:00",
-          "handicap_line": 0.5,
-          "handicap_home": 1,
-          "handicap_away": 0.82
-        },
-        {
-          "ts": "2026-11-03T02:38:31.070099+00:00",
-          "handicap_line": 0.5,
-          "handicap_home": 1,
-          "handicap_away": 0.82
-        },
-        {
-          "ts": "2026-11-03T04:40:33.472728+00:00",
-          "handicap_line": 0.5,
-          "handicap_home": 0.97,
-          "handicap_away": 0.85
-        }
-      ],
-      "competition_name": "亚冠精英",
-      "competition_class": "cup",
-      "sport": "football",
-      "lead_hours": 3.074035353333333,
-      "prematch": false,
-      "result": {
-        "settled": false
       }
     },
     {
@@ -4369,21 +4404,27 @@
       "line": 2.75,
       "reasons": [
         "大小球 盘口不变",
-        "大球降水 0.93->0.86",
+        "大球降水 0.93->0.82",
         "主队近1场场均总进球 4.0",
         "客队近1场场均总进球 3.0"
       ],
       "signals": {
         "line_desc": "盘口不变",
-        "over_desc": "大球降水 0.93->0.86",
+        "over_desc": "大球降水 0.93->0.82",
         "line_first": 2.75,
         "line_last": 2.75,
         "over_first": 0.93,
-        "over_last": 0.86,
+        "over_last": 0.82,
         "under_first": 0.83,
-        "under_last": 0.94
+        "under_last": 0.98
       },
       "history": [
+        {
+          "ts": "2026-11-02T10:00:00+00:00",
+          "total_line": 2.75,
+          "over": 0.93,
+          "under": 0.83
+        },
         {
           "ts": "2026-11-02T10:00:00+00:00",
           "total_line": 2.75,
@@ -4419,12 +4460,18 @@
           "total_line": 2.75,
           "over": 0.86,
           "under": 0.94
+        },
+        {
+          "ts": "2026-11-03T06:48:19.365250+00:00",
+          "total_line": 2.75,
+          "over": 0.82,
+          "under": 0.98
         }
       ],
       "competition_name": "亚冠精英",
       "competition_class": "cup",
       "sport": "football",
-      "lead_hours": 5.323273441388889,
+      "lead_hours": 3.1946207638888886,
       "prematch": false,
       "result": {
         "settled": false
@@ -5198,6 +5245,93 @@
       }
     },
     {
+      "fixture_key": "afc_cl|神户胜利船|拉查布里府|2026-11-03",
+      "competition": "afc_cl",
+      "home": "神户胜利船",
+      "away": "拉查布里府",
+      "kickoff": "2026-11-03T10:00:00",
+      "market": "totals",
+      "pick": "小球（3.25）",
+      "side": "under",
+      "confidence": "strong",
+      "score": 70.0,
+      "line": 3.25,
+      "reasons": [
+        "大小球 盘口不变",
+        "大球水位平稳",
+        "主队近1场场均总进球 1.0",
+        "客队近1场场均总进球 0.0"
+      ],
+      "signals": {
+        "line_desc": "盘口不变",
+        "over_desc": "大球水位平稳",
+        "line_first": 3.25,
+        "line_last": 3.25,
+        "over_first": 0.96,
+        "over_last": 0.97,
+        "under_first": 0.8,
+        "under_last": 0.83
+      },
+      "history": [
+        {
+          "ts": "2026-11-02T10:00:00+00:00",
+          "total_line": 3.25,
+          "over": 0.96,
+          "under": 0.8
+        },
+        {
+          "ts": "2026-11-02T10:00:00+00:00",
+          "total_line": 3.25,
+          "over": 0.96,
+          "under": 0.8
+        },
+        {
+          "ts": "2026-11-02T10:00:00+00:00",
+          "total_line": 3.25,
+          "over": 0.96,
+          "under": 0.8
+        },
+        {
+          "ts": "2026-11-02T10:00:00+00:00",
+          "total_line": 3.25,
+          "over": 0.96,
+          "under": 0.8
+        },
+        {
+          "ts": "2026-11-03T00:32:57.384554+00:00",
+          "total_line": 3,
+          "over": 0.82,
+          "under": 0.98
+        },
+        {
+          "ts": "2026-11-03T02:38:33.935070+00:00",
+          "total_line": 3,
+          "over": 0.82,
+          "under": 0.98
+        },
+        {
+          "ts": "2026-11-03T04:40:37.621595+00:00",
+          "total_line": 3.25,
+          "over": 1,
+          "under": 0.8
+        },
+        {
+          "ts": "2026-11-03T06:48:21.100358+00:00",
+          "total_line": 3.25,
+          "over": 0.97,
+          "under": 0.83
+        }
+      ],
+      "competition_name": "亚冠精英",
+      "competition_class": "cup",
+      "sport": "football",
+      "lead_hours": 3.1941387894444446,
+      "prematch": false,
+      "result": {
+        "settled": false
+      }
+    },
+    {
       "fixture_key": "sweden|哥德堡盖斯|索尔纳|2026-11-02",
       "competition": "sweden",
       "home": "哥德堡盖斯",
@@ -5777,6 +5911,93 @@
         "home_goals": 0,
         "away_goals": 2,
         "settled": true
+      }
+    },
+    {
+      "fixture_key": "afc_cl|狮子港|北京国安|2026-11-03",
+      "competition": "afc_cl",
+      "home": "狮子港",
+      "away": "北京国安",
+      "kickoff": "2026-11-03T12:15:00",
+      "market": "totals",
+      "pick": "小球（3）",
+      "side": "under",
+      "confidence": "watch",
+      "score": 65.8,
+      "line": 3,
+      "reasons": [
+        "大小球 盘口不变",
+        "大球升水 0.75->0.83",
+        "主队近1场场均总进球 3.0",
+        "客队近1场场均总进球 4.0"
+      ],
+      "signals": {
+        "line_desc": "盘口不变",
+        "over_desc": "大球升水 0.75->0.83",
+        "line_first": 3,
+        "line_last": 3,
+        "over_first": 0.75,
+        "over_last": 0.83,
+        "under_first": 1.01,
+        "under_last": 0.97
+      },
+      "history": [
+        {
+          "ts": "2026-11-02T12:15:00+00:00",
+          "total_line": 3,
+          "over": 0.75,
+          "under": 1.01
+        },
+        {
+          "ts": "2026-11-02T12:15:00+00:00",
+          "total_line": 3,
+          "over": 0.75,
+          "under": 1.01
+        },
+        {
+          "ts": "2026-11-02T12:15:00+00:00",
+          "total_line": 3,
+          "over": 0.75,
+          "under": 1.01
+        },
+        {
+          "ts": "2026-11-02T12:15:00+00:00",
+          "total_line": 3,
+          "over": 0.75,
+          "under": 1.01
+        },
+        {
+          "ts": "2026-11-03T00:33:00.560752+00:00",
+          "total_line": 3.25,
+          "over": 1.01,
+          "under": 0.79
+        },
+        {
+          "ts": "2026-11-03T02:38:36.848637+00:00",
+          "total_line": 3.25,
+          "over": 1.01,
+          "under": 0.79
+        },
+        {
+          "ts": "2026-11-03T04:40:40.477504+00:00",
+          "total_line": 3.25,
+          "over": 1.01,
+          "under": 0.79
+        },
+        {
+          "ts": "2026-11-03T06:48:26.756831+00:00",
+          "total_line": 3,
+          "over": 0.83,
+          "under": 0.97
+        }
+      ],
+      "competition_name": "亚冠精英",
+      "competition_class": "cup",
+      "sport": "football",
+      "lead_hours": 5.442567546944445,
+      "prematch": false,
+      "result": {
+        "settled": false
       }
     },
     {

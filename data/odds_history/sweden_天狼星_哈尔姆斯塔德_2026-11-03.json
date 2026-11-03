@@ -88,5 +88,35 @@
     "total_line": 3.5,
     "over": 0.87,
     "under": 1
+  },
+  {
+    "fixture_key": "sweden|天狼星|哈尔姆斯塔德|2026-11-03",
+    "competition": "sweden",
+    "home": "天狼星",
+    "away": "哈尔姆斯塔德",
+    "kickoff": "2026-11-03T18:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-02T18:00:00+00:00",
+    "handicap_line": -1.5,
+    "handicap_home": 0.85,
+    "handicap_away": 0.97,
+    "total_line": 3.25,
+    "over": 0.92,
+    "under": 0.88
+  },
+  {
+    "fixture_key": "sweden|天狼星|哈尔姆斯塔德|2026-11-03",
+    "competition": "sweden",
+    "home": "天狼星",
+    "away": "哈尔姆斯塔德",
+    "kickoff": "2026-11-03T18:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-03T06:48:16.182657+00:00",
+    "handicap_line": -1.75,
+    "handicap_home": 1.01,
+    "handicap_away": 0.88,
+    "total_line": 3.5,
+    "over": 1,
+    "under": 0.87
   }
 ]
