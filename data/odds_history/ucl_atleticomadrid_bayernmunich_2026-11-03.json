@@ -268,5 +268,35 @@
     "total_line": 3.25,
     "over": 1.06,
     "under": 0.82
+  },
+  {
+    "fixture_key": "ucl|atleticomadrid|bayernmunich|2026-11-03",
+    "competition": "ucl",
+    "home": "Atletico Madrid",
+    "away": "Bayern Munich",
+    "kickoff": "2026-11-03T20:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-02T20:00:00+00:00",
+    "handicap_line": 0.5,
+    "handicap_home": 0.83,
+    "handicap_away": 1.05,
+    "total_line": 3.25,
+    "over": 0.85,
+    "under": 1.01
+  },
+  {
+    "fixture_key": "ucl|atleticomadrid|bayernmunich|2026-11-03",
+    "competition": "ucl",
+    "home": "Atletico Madrid",
+    "away": "Bayern Munich",
+    "kickoff": "2026-11-03T20:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-03T18:34:39.127568+00:00",
+    "handicap_line": 0.25,
+    "handicap_home": 0.96,
+    "handicap_away": 0.93,
+    "total_line": 3.25,
+    "over": 1.06,
+    "under": 0.82
   }
 ]

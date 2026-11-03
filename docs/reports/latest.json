@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T18:14:56.271291+00:00",
+  "generated_at": "2026-11-03T18:34:49.997132+00:00",
   "scope": "16 个联赛 + 5 个杯赛",
   "note": "杯赛与联赛数据分开计算；仅开赛前 6h 内出推荐；命中率只统计强推",
   "total": 6,
@@ -312,6 +312,12 @@
           "under": 1.01
         },
         {
+          "ts": "2026-11-02T20:00:00+00:00",
+          "total_line": 3.25,
+          "over": 0.85,
+          "under": 1.01
+        },
+        {
           "ts": "2026-11-03T00:32:36.703250+00:00",
           "total_line": 3.25,
           "over": 0.87,
@@ -364,12 +370,18 @@
           "total_line": 3.25,
           "over": 1.06,
           "under": 0.82
+        },
+        {
+          "ts": "2026-11-03T18:34:39.127568+00:00",
+          "total_line": 3.25,
+          "over": 1.06,
+          "under": 0.82
         }
       ],
       "competition_name": "欧洲冠军联赛",
       "competition_class": "cup",
       "sport": "football",
-      "lead_hours": 3.305824904722222,
+      "lead_hours": 1.4224645644444445,
       "prematch": false,
       "result": {
         "settled": false
@@ -405,6 +417,12 @@
         "away_water_last": 0.92
       },
       "history": [
+        {
+          "ts": "2026-11-02T20:00:00+00:00",
+          "handicap_line": 0.75,
+          "handicap_home": 1.02,
+          "handicap_away": 0.86
+        },
         {
           "ts": "2026-11-02T20:00:00+00:00",
           "handicap_line": 0.75,
@@ -512,12 +530,18 @@
           "handicap_line": 0.5,
           "handicap_home": 0.95,
           "handicap_away": 0.94
+        },
+        {
+          "ts": "2026-11-03T18:34:40.420506+00:00",
+          "handicap_line": 0.5,
+          "handicap_home": 0.96,
+          "handicap_away": 0.93
         }
       ],
       "competition_name": "欧洲冠军联赛",
       "competition_class": "cup",
       "sport": "football",
-      "lead_hours": 3.305480941666667,
+      "lead_hours": 1.4221054149999999,
       "prematch": false,
       "result": {
         "settled": false
@@ -756,6 +780,12 @@
           "handicap_away": 0.92
         },
         {
+          "ts": "2026-11-02T20:00:00+00:00",
+          "handicap_line": -1.25,
+          "handicap_home": 0.96,
+          "handicap_away": 0.92
+        },
+        {
           "ts": "2026-11-03T00:32:45.948031+00:00",
           "handicap_line": -1.5,
           "handicap_home": 1.02,
@@ -808,12 +838,18 @@
           "handicap_line": -1.5,
           "handicap_home": 0.89,
           "handicap_away": 1
+        },
+        {
+          "ts": "2026-11-03T18:34:46.557862+00:00",
+          "handicap_line": -1.5,
+          "handicap_home": 0.93,
+          "handicap_away": 0.96
         }
       ],
       "competition_name": "欧洲冠军联赛",
       "competition_class": "cup",
       "sport": "football",
-      "lead_hours": 3.3036754075,
+      "lead_hours": 1.420400593888889,
       "prematch": false,
       "result": {
         "settled": false
@@ -1051,6 +1087,12 @@
           "handicap_away": 0.96
         },
         {
+          "ts": "2026-11-02T20:00:00+00:00",
+          "handicap_line": 1,
+          "handicap_home": 0.92,
+          "handicap_away": 0.96
+        },
+        {
           "ts": "2026-11-03T00:32:41.244828+00:00",
           "handicap_line": 1,
           "handicap_home": 0.85,
@@ -1103,12 +1145,18 @@
           "handicap_line": 0.75,
           "handicap_home": 1.02,
           "handicap_away": 0.87
+        },
+        {
+          "ts": "2026-11-03T18:34:43.012400+00:00",
+          "handicap_line": 0.75,
+          "handicap_home": 1.04,
+          "handicap_away": 0.85
         }
       ],
       "competition_name": "欧洲冠军联赛",
       "competition_class": "cup",
       "sport": "football",
-      "lead_hours": 3.304816564722222,
+      "lead_hours": 1.4213854444444445,
       "prematch": false,
       "result": {
         "settled": false
