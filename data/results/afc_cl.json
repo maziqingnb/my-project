@@ -13,6 +13,39 @@
   {
     "competition": "afc_cl",
     "cls": "cup",
+    "home": "全北现代",
+    "away": "柔佛",
+    "home_goals": 2,
+    "away_goals": 0,
+    "date": "2026-11-03",
+    "handicap_line": -0.0,
+    "total_line": 2.75
+  },
+  {
+    "competition": "afc_cl",
+    "cls": "cup",
+    "home": "神户胜利船",
+    "away": "拉查布里府",
+    "home_goals": 3,
+    "away_goals": 2,
+    "date": "2026-11-03",
+    "handicap_line": -2.0,
+    "total_line": 3.25
+  },
+  {
+    "competition": "afc_cl",
+    "cls": "cup",
+    "home": "柏太阳神",
+    "away": "大田市民",
+    "home_goals": 2,
+    "away_goals": 0,
+    "date": "2026-11-03",
+    "handicap_line": -1.0,
+    "total_line": 2.75
+  },
+  {
+    "competition": "afc_cl",
+    "cls": "cup",
     "home": "塔什干棉农",
     "away": "利雅得胜利",
     "home_goals": 2,
