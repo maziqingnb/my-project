@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-11-03T00:38:57.921752+00:00",
+  "generated_at": "2026-11-03T01:45:16.204627+00:00",
   "scope": "16 个联赛 + 5 个杯赛",
   "note": "杯赛与联赛数据分开计算；仅开赛前 6h 内出推荐",
-  "total": 72,
+  "total": 71,
   "stats": {
     "overall": {
       "counts": {
         "win": 33,
         "half_win": 2,
-        "push": 1,
+        "push": 2,
         "half_loss": 1,
         "loss": 2
       },
@@ -33,7 +33,7 @@
         "counts": {
           "win": 19,
           "half_win": 1,
-          "push": 0,
+          "push": 1,
           "half_loss": 1,
           "loss": 0
         },
@@ -54,6 +54,18 @@
         "settled": 2,
         "hit": 2,
         "rate": 100.0
+      },
+      "argentina": {
+        "counts": {
+          "win": 0,
+          "half_win": 0,
+          "push": 1,
+          "half_loss": 0,
+          "loss": 0
+        },
+        "settled": 0,
+        "hit": 0,
+        "rate": null
       },
       "bundesliga": {
         "counts": {
@@ -1567,117 +1579,6 @@
         "home_goals": 0,
         "away_goals": 0,
         "settled": true
-      }
-    },
-    {
-      "fixture_key": "argentina|门多萨独立|班菲尔德|2026-11-03",
-      "competition": "argentina",
-      "home": "门多萨独立",
-      "away": "班菲尔德",
-      "kickoff": "2026-11-03T00:15:00",
-      "market": "totals",
-      "pick": "小球（2.5）",
-      "side": "under",
-      "confidence": "strong",
-      "score": 85.0,
-      "line": 2.5,
-      "reasons": [
-        "大小球 盘口不变",
-        "大球升水 0.9->0.93",
-        "主队近1场场均总进球 1.0",
-        "客队近0场场均总进球 0.0"
-      ],
-      "signals": {
-        "line_desc": "盘口不变",
-        "over_desc": "大球升水 0.9->0.93",
-        "line_first": 2.5,
-        "line_last": 2.5,
-        "over_first": 0.9,
-        "over_last": 0.93,
-        "under_first": 0.97,
-        "under_last": 0.94
-      },
-      "history": [
-        {
-          "ts": "2026-11-02T00:15:00+00:00",
-          "total_line": 2.5,
-          "over": 0.9,
-          "under": 0.97
-        },
-        {
-          "ts": "2026-11-02T00:15:00+00:00",
-          "total_line": 2.5,
-          "over": 0.9,
-          "under": 0.97
-        },
-        {
-          "ts": "2026-11-02T00:15:00+00:00",
-          "total_line": 2.5,
-          "over": 0.9,
-          "under": 0.97
-        },
-        {
-          "ts": "2026-11-02T00:15:00+00:00",
-          "total_line": 2.5,
-          "over": 0.9,
-          "under": 0.97
-        },
-        {
-          "ts": "2026-11-02T00:15:00+00:00",
-          "total_line": 2.5,
-          "over": 0.9,
-          "under": 0.97
-        },
-        {
-          "ts": "2026-11-02T00:15:00+00:00",
-          "total_line": 2.5,
-          "over": 0.9,
-          "under": 0.97
-        },
-        {
-          "ts": "2026-11-02T16:14:11.382378+00:00",
-          "total_line": 2.5,
-          "over": 0.93,
-          "under": 0.94
-        },
-        {
-          "ts": "2026-11-02T16:26:29.949720+00:00",
-          "total_line": 2.5,
-          "over": 0.93,
-          "under": 0.94
-        },
-        {
-          "ts": "2026-11-02T16:50:10.227891+00:00",
-          "total_line": 2.5,
-          "over": 0.93,
-          "under": 0.94
-        },
-        {
-          "ts": "2026-11-02T18:41:58.009043+00:00",
-          "total_line": 2.5,
-          "over": 0.93,
-          "under": 0.94
-        },
-        {
-          "ts": "2026-11-02T20:34:42.766283+00:00",
-          "total_line": 2.5,
-          "over": 0.93,
-          "under": 0.94
-        },
-        {
-          "ts": "2026-11-02T22:28:55.702655+00:00",
-          "total_line": 2.5,
-          "over": 0.93,
-          "under": 0.94
-        }
-      ],
-      "competition_name": "阿根廷甲级联赛",
-      "competition_class": "league",
-      "sport": "football",
-      "lead_hours": 1.7678603736111111,
-      "prematch": true,
-      "result": {
-        "settled": false
       }
     },
     {
@@ -4576,6 +4477,122 @@
       }
     },
     {
+      "fixture_key": "argentina|图库曼竞技|阿根廷青年人|2026-11-03",
+      "competition": "argentina",
+      "home": "图库曼竞技",
+      "away": "阿根廷青年人",
+      "kickoff": "2026-11-03T00:15:00",
+      "market": "totals",
+      "pick": "小球（2）",
+      "side": "under",
+      "confidence": "strong",
+      "score": 72.5,
+      "line": 2,
+      "reasons": [
+        "大小球 盘口不变",
+        "大球水位平稳",
+        "主队近1场场均总进球 2.0",
+        "客队近2场场均总进球 1.5",
+        "历史交锋大小球：0次大/1次小（均线 2.00）"
+      ],
+      "signals": {
+        "line_desc": "盘口不变",
+        "over_desc": "大球水位平稳",
+        "line_first": 2,
+        "line_last": 2,
+        "over_first": 0.9,
+        "over_last": 0.9,
+        "under_first": 0.97,
+        "under_last": 0.97
+      },
+      "history": [
+        {
+          "ts": "2026-11-02T00:15:00+00:00",
+          "total_line": 2,
+          "over": 0.9,
+          "under": 0.97
+        },
+        {
+          "ts": "2026-11-02T00:15:00+00:00",
+          "total_line": 2,
+          "over": 0.9,
+          "under": 0.97
+        },
+        {
+          "ts": "2026-11-02T00:15:00+00:00",
+          "total_line": 2,
+          "over": 0.9,
+          "under": 0.97
+        },
+        {
+          "ts": "2026-11-02T00:15:00+00:00",
+          "total_line": 2,
+          "over": 0.9,
+          "under": 0.97
+        },
+        {
+          "ts": "2026-11-02T00:15:00+00:00",
+          "total_line": 2,
+          "over": 0.9,
+          "under": 0.97
+        },
+        {
+          "ts": "2026-11-02T00:15:00+00:00",
+          "total_line": 2,
+          "over": 0.9,
+          "under": 0.97
+        },
+        {
+          "ts": "2026-11-02T16:14:10.014252+00:00",
+          "total_line": 2,
+          "over": 0.9,
+          "under": 0.97
+        },
+        {
+          "ts": "2026-11-02T16:26:28.090902+00:00",
+          "total_line": 2,
+          "over": 0.9,
+          "under": 0.97
+        },
+        {
+          "ts": "2026-11-02T16:50:08.114533+00:00",
+          "total_line": 2,
+          "over": 0.9,
+          "under": 0.97
+        },
+        {
+          "ts": "2026-11-02T18:41:56.782952+00:00",
+          "total_line": 2,
+          "over": 0.88,
+          "under": 0.99
+        },
+        {
+          "ts": "2026-11-02T20:34:41.255533+00:00",
+          "total_line": 2,
+          "over": 0.9,
+          "under": 0.97
+        },
+        {
+          "ts": "2026-11-02T22:28:54.321470+00:00",
+          "total_line": 2,
+          "over": 0.9,
+          "under": 0.97
+        }
+      ],
+      "competition_name": "阿根廷甲级联赛",
+      "competition_class": "league",
+      "sport": "football",
+      "lead_hours": 1.7682440361111111,
+      "prematch": true,
+      "result": {
+        "outcome": "push",
+        "outcome_cn": "走盘",
+        "home_goals": 0,
+        "away_goals": 2,
+        "settled": true
+      }
+    },
+    {
       "fixture_key": "seriea|莱切|热那亚|2026-11-01",
       "competition": "seriea",
       "home": "莱切",
@@ -5712,117 +5729,6 @@
         "home_goals": 5,
         "away_goals": 0,
         "settled": true
-      }
-    },
-    {
-      "fixture_key": "argentina|图库曼竞技|阿根廷青年人|2026-11-03",
-      "competition": "argentina",
-      "home": "图库曼竞技",
-      "away": "阿根廷青年人",
-      "kickoff": "2026-11-03T00:15:00",
-      "market": "totals",
-      "pick": "小球（2）",
-      "side": "under",
-      "confidence": "strong",
-      "score": 70.0,
-      "line": 2,
-      "reasons": [
-        "大小球 盘口不变",
-        "大球水位平稳",
-        "主队近0场场均总进球 0.0",
-        "客队近1场场均总进球 1.0"
-      ],
-      "signals": {
-        "line_desc": "盘口不变",
-        "over_desc": "大球水位平稳",
-        "line_first": 2,
-        "line_last": 2,
-        "over_first": 0.9,
-        "over_last": 0.9,
-        "under_first": 0.97,
-        "under_last": 0.97
-      },
-      "history": [
-        {
-          "ts": "2026-11-02T00:15:00+00:00",
-          "total_line": 2,
-          "over": 0.9,
-          "under": 0.97
-        },
-        {
-          "ts": "2026-11-02T00:15:00+00:00",
-          "total_line": 2,
-          "over": 0.9,
-          "under": 0.97
-        },
-        {
-          "ts": "2026-11-02T00:15:00+00:00",
-          "total_line": 2,
-          "over": 0.9,
-          "under": 0.97
-        },
-        {
-          "ts": "2026-11-02T00:15:00+00:00",
-          "total_line": 2,
-          "over": 0.9,
-          "under": 0.97
-        },
-        {
-          "ts": "2026-11-02T00:15:00+00:00",
-          "total_line": 2,
-          "over": 0.9,
-          "under": 0.97
-        },
-        {
-          "ts": "2026-11-02T00:15:00+00:00",
-          "total_line": 2,
-          "over": 0.9,
-          "under": 0.97
-        },
-        {
-          "ts": "2026-11-02T16:14:10.014252+00:00",
-          "total_line": 2,
-          "over": 0.9,
-          "under": 0.97
-        },
-        {
-          "ts": "2026-11-02T16:26:28.090902+00:00",
-          "total_line": 2,
-          "over": 0.9,
-          "under": 0.97
-        },
-        {
-          "ts": "2026-11-02T16:50:08.114533+00:00",
-          "total_line": 2,
-          "over": 0.9,
-          "under": 0.97
-        },
-        {
-          "ts": "2026-11-02T18:41:56.782952+00:00",
-          "total_line": 2,
-          "over": 0.88,
-          "under": 0.99
-        },
-        {
-          "ts": "2026-11-02T20:34:41.255533+00:00",
-          "total_line": 2,
-          "over": 0.9,
-          "under": 0.97
-        },
-        {
-          "ts": "2026-11-02T22:28:54.321470+00:00",
-          "total_line": 2,
-          "over": 0.9,
-          "under": 0.97
-        }
-      ],
-      "competition_name": "阿根廷甲级联赛",
-      "competition_class": "league",
-      "sport": "football",
-      "lead_hours": 1.7682440361111111,
-      "prematch": true,
-      "result": {
-        "settled": false
       }
     },
     {
