@@ -1,25 +1,4 @@
 {
-  "generated_at": "2026-11-03T16:29:13.878410+00:00",
-  "matches": [
-    {
-      "fixture_key": "afc_cl|德黑兰独立|艾沙姆|2026-11-03",
-      "competition": "afc_cl",
-      "home": "德黑兰独立",
-      "away": "艾沙姆",
-      "kickoff": "2026-11-03T16:00:00",
-      "status": "live",
-      "home_goals": 0,
-      "away_goals": 0
-    },
-    {
-      "fixture_key": "afc_cl2|侯塞因|巴格达警察|2026-11-03",
-      "competition": "afc_cl2",
-      "home": "侯塞因",
-      "away": "巴格达警察",
-      "kickoff": "2026-11-03T16:00:00",
-      "status": "live",
-      "home_goals": 0,
-      "away_goals": 1
-    }
-  ]
+  "generated_at": "2026-11-03T17:24:59.192611+00:00",
+  "matches": []
 }
