@@ -132,9 +132,14 @@ def recommend_totals(comp, cfg: dict, results: list[Result],
     if h2ht["meetings"]:
         h2h_total_signal = (h2ht["over"] - h2ht["under"]) / h2ht["meetings"]
 
-    # 进攻：双方场均进球之和；防守：双方场均失球之和（相对 2.6 的基线）
-    attack = (hf["avg_gf"] + af["avg_gf"] - 2.6) / 0.9
-    defense = (hf["avg_ga"] + af["avg_ga"] - 2.6) / 0.9
+    # 进攻：双方场均进球之和；防守：双方场均失球之和（相对 2.6 球的足球基线）。
+    # 篮球（NBA）场均得分 ~110，若套用 2.6 基线，attack/defense 恒被 clamp 到 +1，
+    # 会把所有 NBA 总分方向压向「大分」，故篮球只走盘口/水位/历史大小球信号。
+    if comp.sport == "basketball":
+        attack = defense = 0.0
+    else:
+        attack = (hf["avg_gf"] + af["avg_gf"] - 2.6) / 0.9
+        defense = (hf["avg_ga"] + af["avg_ga"] - 2.6) / 0.9
 
     w = cfg["analysis"]["weights"]["totals"]
     combined = (

@@ -130,6 +130,22 @@ def _update_history(items: list[dict], results_by_comp: dict) -> dict:
     return history
 
 
+def _frozen_map() -> dict:
+    """读取历史账本，返回 {fixture_key: 记录}，用于锁定「首推口径」。
+
+    同一场比赛第二次及以后进 analyze 时，用账本里首次上架锁定的
+    score/confidence/pick/signals 覆盖本次重算值，让看板与历史都保留
+    你实际参考的那个推荐，只把赛果结算留给后续重算。
+    """
+    hist = read_json(C.REPORTS_DIR / "history.json", default={"records": []}) or {}
+    out = {}
+    for rec in hist.get("records", []):
+        rid = rec.get("id") or rec.get("fixture_key")
+        if rid:
+            out[rid] = rec
+    return out
+
+
 def render_report(cfg: dict, recs, results_by_comp: dict | None = None,
                   demo: bool = False) -> dict:
     comp_map = {c.key: c for c in cfg["competitions"]}
@@ -137,6 +153,7 @@ def render_report(cfg: dict, recs, results_by_comp: dict | None = None,
     analysis_cfg = cfg.get("analysis", {}) or {}
     prematch_hours = float(analysis_cfg.get("prematch_hours", 2))
     publish_hours = float(analysis_cfg.get("publish_hours", 6))
+    frozen_by_id = {} if demo else _frozen_map()
 
     items = []
     for r in recs:
@@ -150,6 +167,13 @@ def render_report(cfg: dict, recs, results_by_comp: dict | None = None,
         item["lead_hours"] = _lead_hours(item.get("kickoff"), item.get("history"))
         item["prematch"] = _is_prematch(item.get("kickoff"), item.get("history"),
                                         prematch_hours)
+        # 已发布过的场次：锁定首推口径，本次只重算赛果结算（lead_hours 仍按最新快照算，
+        # 用于决定是否还留在看板，不冻结）。
+        frozen = frozen_by_id.get(r.fixture_key)
+        if frozen:
+            for k in _HISTORY_FIELDS:
+                if k != "fixture_key" and k in frozen:
+                    item[k] = frozen[k]
         _settle_item(item, results_by_comp)
         items.append(item)
 
@@ -165,11 +189,15 @@ def render_report(cfg: dict, recs, results_by_comp: dict | None = None,
     items.sort(key=lambda x: (order[x["confidence"]], -x["score"]))
 
     # 看板与命中率只保留「强推」；可关注/观望仅进历史账本备查，不占推荐位、不计命中率
-    panel_items = [i for i in items if i["confidence"] == "strong"]
+    strong_items = [i for i in items if i["confidence"] == "strong"]
 
     # 结算统计：只统计强推，并把 result 里的 outcome 拍平到顶层供统计读取
     settled = [{**i, **i["result"]}
-               for i in panel_items if i["result"].get("settled")]
+               for i in strong_items if i["result"].get("settled")]
+
+    # 看板「推荐」标签只展示待进行/进行中的强推；已完场（已结算）的场次归历史账本，
+    # 否则已完场旧比赛的 lead_hours 恒 <= publish_hours，会一直赖在推荐页。
+    panel_items = [i for i in strong_items if not i["result"].get("settled")]
     n_league = sum(1 for c in cfg["competitions"] if c.cls == "league")
     n_cup = sum(1 for c in cfg["competitions"] if c.cls == "cup")
     report = {
