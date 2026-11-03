@@ -28,5 +28,35 @@
     "total_line": 2.5,
     "over": 0.88,
     "under": 0.92
+  },
+  {
+    "fixture_key": "brasileirao|巴西国际|科里蒂巴|2026-11-04",
+    "competition": "brasileirao",
+    "home": "巴西国际",
+    "away": "科里蒂巴",
+    "kickoff": "2026-11-04T00:30:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-03T00:30:00+00:00",
+    "handicap_line": -1,
+    "handicap_home": 1.05,
+    "handicap_away": 0.83,
+    "total_line": 2.75,
+    "over": 1.04,
+    "under": 0.83
+  },
+  {
+    "fixture_key": "brasileirao|巴西国际|科里蒂巴|2026-11-04",
+    "competition": "brasileirao",
+    "home": "巴西国际",
+    "away": "科里蒂巴",
+    "kickoff": "2026-11-04T00:30:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-03T02:38:28.071189+00:00",
+    "handicap_line": -0.75,
+    "handicap_home": 0.82,
+    "handicap_away": 1,
+    "total_line": 2.5,
+    "over": 0.92,
+    "under": 0.88
   }
 ]

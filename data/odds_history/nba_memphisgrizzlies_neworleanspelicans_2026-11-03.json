@@ -208,5 +208,35 @@
     "total_line": 231.5,
     "over": 1.95,
     "under": 1.93
+  },
+  {
+    "fixture_key": "nba|memphisgrizzlies|neworleanspelicans|2026-11-03",
+    "competition": "nba",
+    "home": "Memphis Grizzlies",
+    "away": "New Orleans Pelicans",
+    "kickoff": "2026-11-03T01:11:33Z",
+    "bookmaker": "unibet",
+    "ts": "2026-11-03T02:38:50.091543+00:00",
+    "handicap_line": -0.5,
+    "handicap_home": 1.9,
+    "handicap_away": 1.84,
+    "total_line": null,
+    "over": null,
+    "under": null
+  },
+  {
+    "fixture_key": "nba|memphisgrizzlies|neworleanspelicans|2026-11-03",
+    "competition": "nba",
+    "home": "Memphis Grizzlies",
+    "away": "New Orleans Pelicans",
+    "kickoff": "2026-11-03T01:11:33Z",
+    "bookmaker": "pinnacle",
+    "ts": "2026-11-03T02:38:50.091543+00:00",
+    "handicap_line": 2.0,
+    "handicap_home": 1.88,
+    "handicap_away": 1.98,
+    "total_line": 252.0,
+    "over": 1.94,
+    "under": 1.91
   }
 ]

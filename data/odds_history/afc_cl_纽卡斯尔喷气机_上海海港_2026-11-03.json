@@ -28,5 +28,35 @@
     "total_line": 3.25,
     "over": 0.8,
     "under": 1
+  },
+  {
+    "fixture_key": "afc_cl|纽卡斯尔喷气机|上海海港|2026-11-03",
+    "competition": "afc_cl",
+    "home": "纽卡斯尔喷气机",
+    "away": "上海海港",
+    "kickoff": "2026-11-03T07:45:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-02T07:45:00+00:00",
+    "handicap_line": 0.25,
+    "handicap_home": 0.86,
+    "handicap_away": 0.9,
+    "total_line": 3.25,
+    "over": 0.9,
+    "under": 0.86
+  },
+  {
+    "fixture_key": "afc_cl|纽卡斯尔喷气机|上海海港|2026-11-03",
+    "competition": "afc_cl",
+    "home": "纽卡斯尔喷气机",
+    "away": "上海海港",
+    "kickoff": "2026-11-03T07:45:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-03T02:38:31.070099+00:00",
+    "handicap_line": 0.5,
+    "handicap_home": 1,
+    "handicap_away": 0.82,
+    "total_line": 3.25,
+    "over": 0.75,
+    "under": 1.05
   }
 ]

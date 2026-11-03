@@ -28,5 +28,35 @@
     "total_line": 3.25,
     "over": 1.01,
     "under": 0.79
+  },
+  {
+    "fixture_key": "afc_cl|狮子港|北京国安|2026-11-03",
+    "competition": "afc_cl",
+    "home": "狮子港",
+    "away": "北京国安",
+    "kickoff": "2026-11-03T12:15:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-02T12:15:00+00:00",
+    "handicap_line": 0.75,
+    "handicap_home": 0.94,
+    "handicap_away": 0.82,
+    "total_line": 3,
+    "over": 0.75,
+    "under": 1.01
+  },
+  {
+    "fixture_key": "afc_cl|狮子港|北京国安|2026-11-03",
+    "competition": "afc_cl",
+    "home": "狮子港",
+    "away": "北京国安",
+    "kickoff": "2026-11-03T12:15:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-03T02:38:36.848637+00:00",
+    "handicap_line": 0.5,
+    "handicap_home": 0.94,
+    "handicap_away": 0.88,
+    "total_line": 3.25,
+    "over": 1.01,
+    "under": 0.79
   }
 ]
