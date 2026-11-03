@@ -58,5 +58,20 @@
     "total_line": null,
     "over": null,
     "under": null
+  },
+  {
+    "fixture_key": "intl_friendly|苏格兰u16|葡萄牙u16|2026-11-03",
+    "competition": "intl_friendly",
+    "home": "苏格兰U16",
+    "away": "葡萄牙U16",
+    "kickoff": "2026-11-03T09:30:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-03T08:48:14.778053+00:00",
+    "handicap_line": null,
+    "handicap_home": null,
+    "handicap_away": null,
+    "total_line": null,
+    "over": null,
+    "under": null
   }
 ]

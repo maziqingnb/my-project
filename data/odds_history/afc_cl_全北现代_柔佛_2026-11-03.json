@@ -118,5 +118,35 @@
     "total_line": 2.75,
     "over": 0.82,
     "under": 0.98
+  },
+  {
+    "fixture_key": "afc_cl|全北现代|柔佛|2026-11-03",
+    "competition": "afc_cl",
+    "home": "全北现代",
+    "away": "柔佛",
+    "kickoff": "2026-11-03T10:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-02T10:00:00+00:00",
+    "handicap_line": 0,
+    "handicap_home": 1.03,
+    "handicap_away": 0.73,
+    "total_line": 2.75,
+    "over": 0.93,
+    "under": 0.83
+  },
+  {
+    "fixture_key": "afc_cl|全北现代|柔佛|2026-11-03",
+    "competition": "afc_cl",
+    "home": "全北现代",
+    "away": "柔佛",
+    "kickoff": "2026-11-03T10:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-03T08:47:52.969255+00:00",
+    "handicap_line": 0.25,
+    "handicap_home": 0.88,
+    "handicap_away": 0.94,
+    "total_line": 2.75,
+    "over": 0.82,
+    "under": 0.98
   }
 ]
