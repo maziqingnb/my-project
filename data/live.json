@@ -1,4 +1,25 @@
 {
-  "generated_at": "2026-11-03T08:42:32.067846+00:00",
-  "matches": []
+  "generated_at": "2026-11-03T09:38:48.194911+00:00",
+  "matches": [
+    {
+      "fixture_key": "intl_friendly|沙特阿拉伯u16|瑞士u16|2026-11-03",
+      "competition": "intl_friendly",
+      "home": "沙特阿拉伯U16",
+      "away": "瑞士U16",
+      "kickoff": "2026-11-03T09:00:00",
+      "status": "live",
+      "home_goals": 0,
+      "away_goals": 0
+    },
+    {
+      "fixture_key": "intl_friendly|苏格兰u16|葡萄牙u16|2026-11-03",
+      "competition": "intl_friendly",
+      "home": "苏格兰U16",
+      "away": "葡萄牙U16",
+      "kickoff": "2026-11-03T09:30:00",
+      "status": "live",
+      "home_goals": 0,
+      "away_goals": 0
+    }
+  ]
 }
