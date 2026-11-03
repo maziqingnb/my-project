@@ -308,7 +308,7 @@ function renderSchedule(schedule) {
       <div class="tablewrap"><table><thead><tr><th>开赛(北京)</th><th>对阵</th><th>联赛/杯赛</th></tr></thead><tbody>${rows}</tbody></table></div>`;
   }).join("");
   box.innerHTML = `<section><h2>📅 赛程 <span class="tag league">未开赛</span></h2>
-    <div class="market">${upd} · 推荐只在开赛前 6 小时内上架 · 开赛前 2 小时内转「临场」强推</div>${blocks}</section>`;
+    <div class="market">${upd} · 推荐只在开赛前 6 小时内上架 · 开赛前 2 小时内标记「临场」</div>${blocks}</section>`;
 }
 
 function renderReview(review) {
@@ -361,17 +361,18 @@ function loadAll() {
       if (ua !== ub) return ua - ub;            // 未开赛的排前面
       return ua === 0 ? ta - tb : tb - ta;      // 未开赛按开赛时间升序，已开赛按时间降序
     };
-    const picks = (d.recommendations || []).filter(r => r.confidence === "strong");
+    const picks = (d.recommendations || []).filter(r => r.confidence === "strong" || r.confidence === "watch");
+    const nStrong = picks.filter(r => r.confidence === "strong").length;
     const nPrematch = picks.filter(r => r.prematch === true).length;
     document.getElementById("meta").textContent =
-      `生成时间 ${d.generated_at}（UTC） · ${d.scope} · 强推 ${picks.length} / 临场 ${nPrematch} · 本期共 ${d.total} 条`;
+      `生成时间 ${d.generated_at}（UTC） · ${d.scope} · 强推 ${nStrong} / 可关注 ${picks.length - nStrong} / 临场 ${nPrematch} · 本期共 ${d.total} 条`;
     renderStats(hist || { stats: d.stats, total: d.total });
     renderLive(live, d);
     renderSchedule(schedule);
     renderReview(review);
     if (!picks.length) {
       document.getElementById("content").innerHTML =
-        `<div class="empty">暂无强推，请等待下一次同步与分析。</div>`;
+        `<div class="empty">暂无推荐，请等待下一次同步与分析。</div>`;
       return;
     }
     const league = picks.filter(r => r.competition_class === "league").sort(byKickoff);

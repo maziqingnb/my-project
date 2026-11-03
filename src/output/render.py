@@ -58,8 +58,13 @@ def _is_prematch(kickoff, history, hours: float) -> bool:
 
 
 def _is_counted(item: dict) -> bool:
-    """命中率只统计强推 + 临场。"""
-    return item.get("confidence") == "strong" and bool(item.get("prematch"))
+    """命中率统计所有真实推荐（强推 + 可关注）。
+
+    观望(pass)不算推荐、不参与统计；「临场(prematch)」只作展示标签，不再
+    作为统计口径——否则开赛前 2h 内是否恰好抓到快照（调度巧合）会决定一场
+    推荐是否计入命中，且旧账本里 prematch 为 null 的记录会被静默漏掉。
+    """
+    return item.get("confidence") in ("strong", "watch")
 
 
 def _record(item: dict) -> dict:
@@ -93,6 +98,9 @@ def _update_history(items: list[dict], results_by_comp: dict) -> dict:
     now = datetime.now(timezone.utc).isoformat()
     for rid, rec in by_id.items():
         results = results_by_comp.get(rec.get("competition"), [])
+        # 归一化临场标记：旧账本可能存 null，统一成布尔。临场仅作展示，不参与命中统计。
+        if rec.get("prematch") is None:
+            rec["prematch"] = False
         res = settle_dict(rec, results)
         if res:
             rec.update({k: res[k] for k in
@@ -106,7 +114,7 @@ def _update_history(items: list[dict], results_by_comp: dict) -> dict:
     counted = [r for r in records if _is_counted(r)]
     history = {
         "generated_at": now,
-        "total": len(counted),              # 累计推荐 = 强推 + 临场
+        "total": len(counted),              # 累计推荐 = 强推 + 可关注
         "stats": {
             "overall": hit_rate_stats(counted),
             "by_market": group_hit_rates(counted, "market"),
@@ -160,7 +168,7 @@ def render_report(cfg: dict, recs, results_by_comp: dict | None = None,
     report = {
         "generated_at": datetime.now(timezone.utc).isoformat(),
         "scope": f"{n_league} 个联赛 + {n_cup} 个杯赛",
-        "note": "杯赛与联赛数据分开计算；仅开赛前 6h 内出推荐",
+        "note": "杯赛与联赛数据分开计算；仅开赛前 6h 内出推荐；命中率统计强推+可关注",
         "total": len(items),
         "stats": {
             "overall": hit_rate_stats(settled),
