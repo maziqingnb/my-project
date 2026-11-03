@@ -28,5 +28,20 @@
     "total_line": null,
     "over": null,
     "under": null
+  },
+  {
+    "fixture_key": "nba|sanantoniospurs|dallasmavericks|2026-11-05",
+    "competition": "nba",
+    "home": "San Antonio Spurs",
+    "away": "Dallas Mavericks",
+    "kickoff": "2026-11-05T02:40:00Z",
+    "bookmaker": "unibet",
+    "ts": "2026-11-03T10:45:30.292332+00:00",
+    "handicap_line": -11.5,
+    "handicap_home": 1.79,
+    "handicap_away": 2.05,
+    "total_line": null,
+    "over": null,
+    "under": null
   }
 ]

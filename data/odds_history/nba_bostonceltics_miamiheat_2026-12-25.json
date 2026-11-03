@@ -163,5 +163,20 @@
     "total_line": null,
     "over": null,
     "under": null
+  },
+  {
+    "fixture_key": "nba|bostonceltics|miamiheat|2026-12-25",
+    "competition": "nba",
+    "home": "Boston Celtics",
+    "away": "Miami Heat",
+    "kickoff": "2026-12-25T19:40:00Z",
+    "bookmaker": "unibet",
+    "ts": "2026-11-03T10:45:30.292332+00:00",
+    "handicap_line": -5.5,
+    "handicap_home": 1.94,
+    "handicap_away": 1.88,
+    "total_line": null,
+    "over": null,
+    "under": null
   }
 ]

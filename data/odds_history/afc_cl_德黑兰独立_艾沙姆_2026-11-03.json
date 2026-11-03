@@ -148,5 +148,35 @@
     "total_line": 2.25,
     "over": 0.8,
     "under": 1
+  },
+  {
+    "fixture_key": "afc_cl|德黑兰独立|艾沙姆|2026-11-03",
+    "competition": "afc_cl",
+    "home": "德黑兰独立",
+    "away": "艾沙姆",
+    "kickoff": "2026-11-03T16:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-02T16:00:00+00:00",
+    "handicap_line": -0.25,
+    "handicap_home": 0.98,
+    "handicap_away": 0.78,
+    "total_line": 2.25,
+    "over": 0.77,
+    "under": 0.99
+  },
+  {
+    "fixture_key": "afc_cl|德黑兰独立|艾沙姆|2026-11-03",
+    "competition": "afc_cl",
+    "home": "德黑兰独立",
+    "away": "艾沙姆",
+    "kickoff": "2026-11-03T16:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-03T10:45:21.631640+00:00",
+    "handicap_line": -0.25,
+    "handicap_home": 0.96,
+    "handicap_away": 0.86,
+    "total_line": 2.25,
+    "over": 0.8,
+    "under": 1
   }
 ]

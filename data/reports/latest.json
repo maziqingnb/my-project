@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-03T10:37:26.631099+00:00",
+  "generated_at": "2026-11-03T10:45:30.703296+00:00",
   "scope": "16 个联赛 + 5 个杯赛",
   "note": "杯赛与联赛数据分开计算；仅开赛前 6h 内出推荐；命中率统计强推+可关注",
-  "total": 64,
+  "total": 66,
   "stats": {
     "overall": {
       "counts": {
@@ -2028,6 +2028,118 @@
       }
     },
     {
+      "fixture_key": "afc_cl2|侯塞因|巴格达警察|2026-11-03",
+      "competition": "afc_cl2",
+      "home": "侯塞因",
+      "away": "巴格达警察",
+      "kickoff": "2026-11-03T16:00:00",
+      "market": "totals",
+      "pick": "小球（2.25）",
+      "side": "under",
+      "confidence": "strong",
+      "score": 83.3,
+      "line": 2.25,
+      "reasons": [
+        "大小球 盘口不变",
+        "大球升水 0.85->0.89",
+        "主队近1场场均总进球 2.0",
+        "客队近1场场均总进球 2.0",
+        "历史交锋大小球：0次大/1次小（均线 2.50）"
+      ],
+      "signals": {
+        "line_desc": "盘口不变",
+        "over_desc": "大球升水 0.85->0.89",
+        "line_first": 2.25,
+        "line_last": 2.25,
+        "over_first": 0.85,
+        "over_last": 0.89,
+        "under_first": 0.95,
+        "under_last": 0.91
+      },
+      "history": [
+        {
+          "ts": "2026-11-02T16:00:00+00:00",
+          "total_line": 2.25,
+          "over": 0.85,
+          "under": 0.95
+        },
+        {
+          "ts": "2026-11-02T16:00:00+00:00",
+          "total_line": 2.25,
+          "over": 0.85,
+          "under": 0.95
+        },
+        {
+          "ts": "2026-11-02T16:00:00+00:00",
+          "total_line": 2.25,
+          "over": 0.85,
+          "under": 0.95
+        },
+        {
+          "ts": "2026-11-02T16:00:00+00:00",
+          "total_line": 2.25,
+          "over": 0.85,
+          "under": 0.95
+        },
+        {
+          "ts": "2026-11-02T16:00:00+00:00",
+          "total_line": 2.25,
+          "over": 0.85,
+          "under": 0.95
+        },
+        {
+          "ts": "2026-11-02T16:00:00+00:00",
+          "total_line": 2.25,
+          "over": 0.85,
+          "under": 0.95
+        },
+        {
+          "ts": "2026-11-03T00:33:08.949954+00:00",
+          "total_line": 2.25,
+          "over": 0.9,
+          "under": 0.9
+        },
+        {
+          "ts": "2026-11-03T02:38:44.229117+00:00",
+          "total_line": 2.25,
+          "over": 0.9,
+          "under": 0.9
+        },
+        {
+          "ts": "2026-11-03T04:40:51.187719+00:00",
+          "total_line": 2.25,
+          "over": 0.98,
+          "under": 0.82
+        },
+        {
+          "ts": "2026-11-03T06:48:35.096972+00:00",
+          "total_line": 2.25,
+          "over": 0.87,
+          "under": 0.93
+        },
+        {
+          "ts": "2026-11-03T08:48:11.533211+00:00",
+          "total_line": 2.25,
+          "over": 0.87,
+          "under": 0.93
+        },
+        {
+          "ts": "2026-11-03T10:45:27.656252+00:00",
+          "total_line": 2.25,
+          "over": 0.89,
+          "under": 0.91
+        }
+      ],
+      "competition_name": "亚冠二级",
+      "competition_class": "cup",
+      "sport": "football",
+      "lead_hours": 5.242317707777778,
+      "prematch": false,
+      "result": {
+        "settled": false
+      }
+    },
+    {
       "fixture_key": "laliga|赫塔菲|塞维利亚|2026-11-01",
       "competition": "laliga",
       "home": "赫塔菲",
@@ -3077,6 +3189,118 @@
       }
     },
     {
+      "fixture_key": "afc_cl2|东孟加拉|锡卜|2026-11-03",
+      "competition": "afc_cl2",
+      "home": "东孟加拉",
+      "away": "锡卜",
+      "kickoff": "2026-11-03T13:45:00",
+      "market": "totals",
+      "pick": "小球（2.5）",
+      "side": "under",
+      "confidence": "strong",
+      "score": 80.0,
+      "line": 2.5,
+      "reasons": [
+        "大小球 升盘 2.25->2.5（看大）",
+        "大球升水 0.83->0.98",
+        "主队近1场场均总进球 0.0",
+        "客队近1场场均总进球 0.0",
+        "历史交锋大小球：0次大/1次小（均线 2.50）"
+      ],
+      "signals": {
+        "line_desc": "升盘 2.25->2.5（看大）",
+        "over_desc": "大球升水 0.83->0.98",
+        "line_first": 2.25,
+        "line_last": 2.5,
+        "over_first": 0.83,
+        "over_last": 0.98,
+        "under_first": 0.97,
+        "under_last": 0.82
+      },
+      "history": [
+        {
+          "ts": "2026-11-02T13:45:00+00:00",
+          "total_line": 2.25,
+          "over": 0.83,
+          "under": 0.97
+        },
+        {
+          "ts": "2026-11-02T13:45:00+00:00",
+          "total_line": 2.25,
+          "over": 0.83,
+          "under": 0.97
+        },
+        {
+          "ts": "2026-11-02T13:45:00+00:00",
+          "total_line": 2.25,
+          "over": 0.83,
+          "under": 0.97
+        },
+        {
+          "ts": "2026-11-02T13:45:00+00:00",
+          "total_line": 2.25,
+          "over": 0.83,
+          "under": 0.97
+        },
+        {
+          "ts": "2026-11-02T13:45:00+00:00",
+          "total_line": 2.25,
+          "over": 0.83,
+          "under": 0.97
+        },
+        {
+          "ts": "2026-11-02T13:45:00+00:00",
+          "total_line": 2.25,
+          "over": 0.83,
+          "under": 0.97
+        },
+        {
+          "ts": "2026-11-03T00:33:07.479402+00:00",
+          "total_line": 2.25,
+          "over": 0.83,
+          "under": 0.97
+        },
+        {
+          "ts": "2026-11-03T02:38:42.886424+00:00",
+          "total_line": 2.25,
+          "over": 0.83,
+          "under": 0.97
+        },
+        {
+          "ts": "2026-11-03T04:40:48.135686+00:00",
+          "total_line": 2.25,
+          "over": 0.83,
+          "under": 0.97
+        },
+        {
+          "ts": "2026-11-03T06:48:33.271357+00:00",
+          "total_line": 2.25,
+          "over": 0.8,
+          "under": 1
+        },
+        {
+          "ts": "2026-11-03T08:48:10.094369+00:00",
+          "total_line": 2.25,
+          "over": 0.78,
+          "under": 1.02
+        },
+        {
+          "ts": "2026-11-03T10:45:24.552597+00:00",
+          "total_line": 2.5,
+          "over": 0.98,
+          "under": 0.82
+        }
+      ],
+      "competition_name": "亚冠二级",
+      "competition_class": "cup",
+      "sport": "football",
+      "lead_hours": 2.993179834166667,
+      "prematch": false,
+      "result": {
+        "settled": false
+      }
+    },
+    {
       "fixture_key": "epl|chelsea|曼彻斯特联|2026-10-31",
       "competition": "epl",
       "home": "Chelsea",
@@ -4006,6 +4230,117 @@
         "home_goals": 2,
         "away_goals": 0,
         "settled": true
+      }
+    },
+    {
+      "fixture_key": "afc_cl|河内公安|京都不死鸟|2026-11-03",
+      "competition": "afc_cl",
+      "home": "河内公安",
+      "away": "京都不死鸟",
+      "kickoff": "2026-11-03T12:15:00",
+      "market": "totals",
+      "pick": "大球（2.5）",
+      "side": "over",
+      "confidence": "strong",
+      "score": 75.0,
+      "line": 2.5,
+      "reasons": [
+        "大小球 降盘 2.75->2.5（看小）",
+        "大球降水 0.95->0.81",
+        "主队近1场场均总进球 5.0",
+        "客队近1场场均总进球 7.0"
+      ],
+      "signals": {
+        "line_desc": "降盘 2.75->2.5（看小）",
+        "over_desc": "大球降水 0.95->0.81",
+        "line_first": 2.75,
+        "line_last": 2.5,
+        "over_first": 0.95,
+        "over_last": 0.81,
+        "under_first": 0.81,
+        "under_last": 0.99
+      },
+      "history": [
+        {
+          "ts": "2026-11-02T12:15:00+00:00",
+          "total_line": 2.75,
+          "over": 0.95,
+          "under": 0.81
+        },
+        {
+          "ts": "2026-11-02T12:15:00+00:00",
+          "total_line": 2.75,
+          "over": 0.95,
+          "under": 0.81
+        },
+        {
+          "ts": "2026-11-02T12:15:00+00:00",
+          "total_line": 2.75,
+          "over": 0.95,
+          "under": 0.81
+        },
+        {
+          "ts": "2026-11-02T12:15:00+00:00",
+          "total_line": 2.75,
+          "over": 0.95,
+          "under": 0.81
+        },
+        {
+          "ts": "2026-11-02T12:15:00+00:00",
+          "total_line": 2.75,
+          "over": 0.95,
+          "under": 0.81
+        },
+        {
+          "ts": "2026-11-02T12:15:00+00:00",
+          "total_line": 2.75,
+          "over": 0.95,
+          "under": 0.81
+        },
+        {
+          "ts": "2026-11-03T00:33:02.163351+00:00",
+          "total_line": 2.75,
+          "over": 1,
+          "under": 0.8
+        },
+        {
+          "ts": "2026-11-03T02:38:38.460686+00:00",
+          "total_line": 2.75,
+          "over": 1,
+          "under": 0.8
+        },
+        {
+          "ts": "2026-11-03T04:40:41.859845+00:00",
+          "total_line": 2.75,
+          "over": 1,
+          "under": 0.8
+        },
+        {
+          "ts": "2026-11-03T06:48:28.324776+00:00",
+          "total_line": 2.75,
+          "over": 0.84,
+          "under": 0.96
+        },
+        {
+          "ts": "2026-11-03T08:48:04.913242+00:00",
+          "total_line": 2.75,
+          "over": 1,
+          "under": 0.8
+        },
+        {
+          "ts": "2026-11-03T10:45:19.688581+00:00",
+          "total_line": 2.5,
+          "over": 0.81,
+          "under": 0.99
+        }
+      ],
+      "competition_name": "亚冠精英",
+      "competition_class": "cup",
+      "sport": "football",
+      "lead_hours": 1.4945309497222221,
+      "prematch": true,
+      "result": {
+        "settled": false
       }
     },
     {
@@ -5883,21 +6218,27 @@
       "line": 3,
       "reasons": [
         "大小球 盘口不变",
-        "大球升水 0.75->0.8",
+        "大球升水 0.75->0.87",
         "主队近1场场均总进球 3.0",
         "客队近1场场均总进球 4.0"
       ],
       "signals": {
         "line_desc": "盘口不变",
-        "over_desc": "大球升水 0.75->0.8",
+        "over_desc": "大球升水 0.75->0.87",
         "line_first": 3,
         "line_last": 3,
         "over_first": 0.75,
-        "over_last": 0.8,
+        "over_last": 0.87,
         "under_first": 1.01,
-        "under_last": 1
+        "under_last": 0.93
       },
       "history": [
+        {
+          "ts": "2026-11-02T12:15:00+00:00",
+          "total_line": 3,
+          "over": 0.75,
+          "under": 1.01
+        },
         {
           "ts": "2026-11-02T12:15:00+00:00",
           "total_line": 3,
@@ -5957,13 +6298,19 @@
           "total_line": 3,
           "over": 0.8,
           "under": 1
+        },
+        {
+          "ts": "2026-11-03T10:45:18.491300+00:00",
+          "total_line": 3,
+          "over": 0.87,
+          "under": 0.93
         }
       ],
       "competition_name": "亚冠精英",
       "competition_class": "cup",
       "sport": "football",
-      "lead_hours": 3.4490792913888892,
-      "prematch": false,
+      "lead_hours": 1.4948635277777778,
+      "prematch": true,
       "result": {
         "settled": false
       }
@@ -6681,106 +7028,6 @@
       }
     },
     {
-      "fixture_key": "afc_cl|河内公安|京都不死鸟|2026-11-03",
-      "competition": "afc_cl",
-      "home": "河内公安",
-      "away": "京都不死鸟",
-      "kickoff": "2026-11-03T12:15:00",
-      "market": "handicap",
-      "pick": "主队（受让 0.25）",
-      "side": "home",
-      "confidence": "watch",
-      "score": 62.0,
-      "line": 0.25,
-      "reasons": [
-        "亚盘 盘口不变",
-        "主队降水 0.84->0.79",
-        "主队近1场 1胜0平0负，场均进3.0/失2.0",
-        "客队近1场 1胜0平0负，场均进5.0/失2.0",
-        "交手0次：主队0胜0平0负"
-      ],
-      "signals": {
-        "line_desc": "盘口不变",
-        "water_desc": "主队降水 0.84->0.79",
-        "line_first": 0.25,
-        "line_last": 0.25,
-        "home_water_first": 0.84,
-        "home_water_last": 0.79,
-        "away_water_first": 0.92,
-        "away_water_last": 1.03
-      },
-      "history": [
-        {
-          "ts": "2026-11-02T12:15:00+00:00",
-          "handicap_line": 0.25,
-          "handicap_home": 0.84,
-          "handicap_away": 0.92
-        },
-        {
-          "ts": "2026-11-02T12:15:00+00:00",
-          "handicap_line": 0.25,
-          "handicap_home": 0.84,
-          "handicap_away": 0.92
-        },
-        {
-          "ts": "2026-11-02T12:15:00+00:00",
-          "handicap_line": 0.25,
-          "handicap_home": 0.84,
-          "handicap_away": 0.92
-        },
-        {
-          "ts": "2026-11-02T12:15:00+00:00",
-          "handicap_line": 0.25,
-          "handicap_home": 0.84,
-          "handicap_away": 0.92
-        },
-        {
-          "ts": "2026-11-02T12:15:00+00:00",
-          "handicap_line": 0.25,
-          "handicap_home": 0.84,
-          "handicap_away": 0.92
-        },
-        {
-          "ts": "2026-11-03T00:33:02.163351+00:00",
-          "handicap_line": 0,
-          "handicap_home": 0.97,
-          "handicap_away": 0.85
-        },
-        {
-          "ts": "2026-11-03T02:38:38.460686+00:00",
-          "handicap_line": 0,
-          "handicap_home": 0.97,
-          "handicap_away": 0.85
-        },
-        {
-          "ts": "2026-11-03T04:40:41.859845+00:00",
-          "handicap_line": 0,
-          "handicap_home": 1.01,
-          "handicap_away": 0.81
-        },
-        {
-          "ts": "2026-11-03T06:48:28.324776+00:00",
-          "handicap_line": 0,
-          "handicap_home": 1,
-          "handicap_away": 0.82
-        },
-        {
-          "ts": "2026-11-03T08:48:04.913242+00:00",
-          "handicap_line": 0.25,
-          "handicap_home": 0.79,
-          "handicap_away": 1.03
-        }
-      ],
-      "competition_name": "亚冠精英",
-      "competition_class": "cup",
-      "sport": "football",
-      "lead_hours": 3.4486352105555556,
-      "prematch": false,
-      "result": {
-        "settled": false
-      }
-    },
-    {
       "fixture_key": "laliga|巴列卡诺|塞尔塔|2026-10-31",
       "competition": "laliga",
       "home": "巴列卡诺",
@@ -6990,101 +7237,112 @@
       }
     },
     {
-      "fixture_key": "afc_cl2|东孟加拉|锡卜|2026-11-03",
-      "competition": "afc_cl2",
-      "home": "东孟加拉",
-      "away": "锡卜",
-      "kickoff": "2026-11-03T13:45:00",
+      "fixture_key": "afc_cl|德黑兰独立|艾沙姆|2026-11-03",
+      "competition": "afc_cl",
+      "home": "德黑兰独立",
+      "away": "艾沙姆",
+      "kickoff": "2026-11-03T16:00:00",
       "market": "handicap",
-      "pick": "平手盘",
-      "side": "home",
+      "pick": "客队（受让 0.25）",
+      "side": "away",
       "confidence": "watch",
       "score": 60.0,
-      "line": 0,
+      "line": -0.25,
       "reasons": [
-        "亚盘 降盘 -0.25->0（主队走弱）",
-        "主队降水 0.99->0.8",
-        "主队近1场 0胜1平0负，场均进0.0/失0.0",
-        "客队近1场 0胜1平0负，场均进0.0/失0.0",
-        "交手1次：主队0胜1平0负",
-        "历史交锋盘口覆盖：主队1次打穿/客队0次打穿（均线 -0.25）"
+        "亚盘 盘口不变",
+        "水位平稳",
+        "主队近1场 0胜0平1负，场均进0.0/失2.0",
+        "客队近1场 1胜0平0负，场均进3.0/失1.0",
+        "交手0次：主队0胜0平0负"
       ],
       "signals": {
-        "line_desc": "降盘 -0.25->0（主队走弱）",
-        "water_desc": "主队降水 0.99->0.8",
+        "line_desc": "盘口不变",
+        "water_desc": "水位平稳",
         "line_first": -0.25,
-        "line_last": 0,
-        "home_water_first": 0.99,
-        "home_water_last": 0.8,
-        "away_water_first": 0.83,
-        "away_water_last": 1.02
+        "line_last": -0.25,
+        "home_water_first": 0.98,
+        "home_water_last": 0.96,
+        "away_water_first": 0.78,
+        "away_water_last": 0.86
       },
       "history": [
         {
-          "ts": "2026-11-02T13:45:00+00:00",
+          "ts": "2026-11-02T16:00:00+00:00",
           "handicap_line": -0.25,
-          "handicap_home": 0.99,
-          "handicap_away": 0.83
-        },
-        {
-          "ts": "2026-11-02T13:45:00+00:00",
-          "handicap_line": -0.25,
-          "handicap_home": 0.99,
-          "handicap_away": 0.83
-        },
-        {
-          "ts": "2026-11-02T13:45:00+00:00",
-          "handicap_line": -0.25,
-          "handicap_home": 0.99,
-          "handicap_away": 0.83
-        },
-        {
-          "ts": "2026-11-02T13:45:00+00:00",
-          "handicap_line": -0.25,
-          "handicap_home": 0.99,
-          "handicap_away": 0.83
-        },
-        {
-          "ts": "2026-11-02T13:45:00+00:00",
-          "handicap_line": -0.25,
-          "handicap_home": 0.99,
-          "handicap_away": 0.83
-        },
-        {
-          "ts": "2026-11-03T00:33:07.479402+00:00",
-          "handicap_line": -0.25,
-          "handicap_home": 0.95,
-          "handicap_away": 0.87
-        },
-        {
-          "ts": "2026-11-03T02:38:42.886424+00:00",
-          "handicap_line": -0.25,
-          "handicap_home": 0.95,
-          "handicap_away": 0.87
-        },
-        {
-          "ts": "2026-11-03T04:40:48.135686+00:00",
-          "handicap_line": -0.25,
-          "handicap_home": 1.04,
+          "handicap_home": 0.98,
           "handicap_away": 0.78
         },
         {
-          "ts": "2026-11-03T06:48:33.271357+00:00",
-          "handicap_line": 0,
-          "handicap_home": 0.82,
-          "handicap_away": 1
+          "ts": "2026-11-02T16:00:00+00:00",
+          "handicap_line": -0.25,
+          "handicap_home": 0.98,
+          "handicap_away": 0.78
         },
         {
-          "ts": "2026-11-03T08:48:10.094369+00:00",
-          "handicap_line": 0,
-          "handicap_home": 0.8,
-          "handicap_away": 1.02
+          "ts": "2026-11-02T16:00:00+00:00",
+          "handicap_line": -0.25,
+          "handicap_home": 0.98,
+          "handicap_away": 0.78
+        },
+        {
+          "ts": "2026-11-02T16:00:00+00:00",
+          "handicap_line": -0.25,
+          "handicap_home": 0.98,
+          "handicap_away": 0.78
+        },
+        {
+          "ts": "2026-11-02T16:00:00+00:00",
+          "handicap_line": -0.25,
+          "handicap_home": 0.98,
+          "handicap_away": 0.78
+        },
+        {
+          "ts": "2026-11-02T16:00:00+00:00",
+          "handicap_line": -0.25,
+          "handicap_home": 0.98,
+          "handicap_away": 0.78
+        },
+        {
+          "ts": "2026-11-03T00:33:04.227412+00:00",
+          "handicap_line": -0.25,
+          "handicap_home": 0.91,
+          "handicap_away": 0.91
+        },
+        {
+          "ts": "2026-11-03T02:38:39.848356+00:00",
+          "handicap_line": -0.25,
+          "handicap_home": 0.91,
+          "handicap_away": 0.91
+        },
+        {
+          "ts": "2026-11-03T04:40:43.209059+00:00",
+          "handicap_line": -0.25,
+          "handicap_home": 0.93,
+          "handicap_away": 0.89
+        },
+        {
+          "ts": "2026-11-03T06:48:29.882852+00:00",
+          "handicap_line": -0.25,
+          "handicap_home": 0.96,
+          "handicap_away": 0.86
+        },
+        {
+          "ts": "2026-11-03T08:48:07.248877+00:00",
+          "handicap_line": -0.25,
+          "handicap_home": 0.96,
+          "handicap_away": 0.86
+        },
+        {
+          "ts": "2026-11-03T10:45:21.631640+00:00",
+          "handicap_line": -0.25,
+          "handicap_home": 0.96,
+          "handicap_away": 0.86
         }
       ],
-      "competition_name": "亚冠二级",
+      "competition_name": "亚冠精英",
       "competition_class": "cup",
       "sport": "football",
-      "lead_hours": 4.947196008611112,
+      "lead_hours": 5.243991211111111,
       "prematch": false,
       "result": {
         "settled": false
