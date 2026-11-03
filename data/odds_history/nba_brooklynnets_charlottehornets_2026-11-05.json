@@ -103,5 +103,20 @@
     "total_line": null,
     "over": null,
     "under": null
+  },
+  {
+    "fixture_key": "nba|brooklynnets|charlottehornets|2026-11-05",
+    "competition": "nba",
+    "home": "Brooklyn Nets",
+    "away": "Charlotte Hornets",
+    "kickoff": "2026-11-05T00:30:00Z",
+    "bookmaker": "unibet",
+    "ts": "2026-11-03T20:33:59.814546+00:00",
+    "handicap_line": 1.5,
+    "handicap_home": 2.02,
+    "handicap_away": 1.81,
+    "total_line": null,
+    "over": null,
+    "under": null
   }
 ]
