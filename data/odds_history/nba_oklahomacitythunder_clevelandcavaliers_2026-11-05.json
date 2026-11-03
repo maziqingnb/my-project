@@ -43,5 +43,20 @@
     "total_line": null,
     "over": null,
     "under": null
+  },
+  {
+    "fixture_key": "nba|oklahomacitythunder|clevelandcavaliers|2026-11-05",
+    "competition": "nba",
+    "home": "Oklahoma City Thunder",
+    "away": "Cleveland Cavaliers",
+    "kickoff": "2026-11-05T01:10:00Z",
+    "bookmaker": "unibet",
+    "ts": "2026-11-03T16:41:54.172054+00:00",
+    "handicap_line": -2.5,
+    "handicap_home": 1.92,
+    "handicap_away": 1.9,
+    "total_line": null,
+    "over": null,
+    "under": null
   }
 ]

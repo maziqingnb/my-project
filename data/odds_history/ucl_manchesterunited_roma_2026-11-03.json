@@ -238,5 +238,35 @@
     "total_line": 3,
     "over": 0.83,
     "under": 1.05
+  },
+  {
+    "fixture_key": "ucl|manchesterunited|roma|2026-11-03",
+    "competition": "ucl",
+    "home": "Manchester United",
+    "away": "Roma",
+    "kickoff": "2026-11-03T20:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-02T20:00:00+00:00",
+    "handicap_line": -0.5,
+    "handicap_home": 1.03,
+    "handicap_away": 0.85,
+    "total_line": 3,
+    "over": 0.86,
+    "under": 1
+  },
+  {
+    "fixture_key": "ucl|manchesterunited|roma|2026-11-03",
+    "competition": "ucl",
+    "home": "Manchester United",
+    "away": "Roma",
+    "kickoff": "2026-11-03T20:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-03T16:41:44.490729+00:00",
+    "handicap_line": -0.25,
+    "handicap_home": 0.95,
+    "handicap_away": 0.94,
+    "total_line": 3,
+    "over": 0.8,
+    "under": 1.08
   }
 ]

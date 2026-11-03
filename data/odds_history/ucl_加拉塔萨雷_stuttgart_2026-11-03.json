@@ -238,5 +238,35 @@
     "total_line": 3.75,
     "over": 0.91,
     "under": 0.97
+  },
+  {
+    "fixture_key": "ucl|加拉塔萨雷|stuttgart|2026-11-03",
+    "competition": "ucl",
+    "home": "加拉塔萨雷",
+    "away": "Stuttgart",
+    "kickoff": "2026-11-03T17:45:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-02T17:45:00+00:00",
+    "handicap_line": -0.25,
+    "handicap_home": 1.04,
+    "handicap_away": 0.84,
+    "total_line": 3.25,
+    "over": 0.83,
+    "under": 1.03
+  },
+  {
+    "fixture_key": "ucl|加拉塔萨雷|stuttgart|2026-11-03",
+    "competition": "ucl",
+    "home": "加拉塔萨雷",
+    "away": "Stuttgart",
+    "kickoff": "2026-11-03T17:45:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-03T16:41:37.274042+00:00",
+    "handicap_line": -0.25,
+    "handicap_home": 0.85,
+    "handicap_away": 1.04,
+    "total_line": 3.75,
+    "over": 0.96,
+    "under": 0.92
   }
 ]
