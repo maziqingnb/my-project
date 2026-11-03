@@ -178,5 +178,20 @@
     "total_line": null,
     "over": null,
     "under": null
+  },
+  {
+    "fixture_key": "nba|newyorkknicks|sanantoniospurs|2026-12-25",
+    "competition": "nba",
+    "home": "New York Knicks",
+    "away": "San Antonio Spurs",
+    "kickoff": "2026-12-25T17:10:00Z",
+    "bookmaker": "unibet",
+    "ts": "2026-11-03T12:45:56.931729+00:00",
+    "handicap_line": -1.0,
+    "handicap_home": 1.95,
+    "handicap_away": 1.87,
+    "total_line": null,
+    "over": null,
+    "under": null
   }
 ]
