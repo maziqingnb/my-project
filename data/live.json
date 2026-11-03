@@ -1,4 +1,25 @@
 {
-  "generated_at": "2026-11-03T14:36:43.505168+00:00",
-  "matches": []
+  "generated_at": "2026-11-03T15:25:19.102375+00:00",
+  "matches": [
+    {
+      "fixture_key": "intl_friendly|土耳其u16|丹麦u16|2026-11-03",
+      "competition": "intl_friendly",
+      "home": "土耳其U16",
+      "away": "丹麦U16",
+      "kickoff": "2026-11-03T14:30:00",
+      "status": "live",
+      "home_goals": 0,
+      "away_goals": 0
+    },
+    {
+      "fixture_key": "intl_friendly|荷兰u16|乌克兰u16|2026-11-03",
+      "competition": "intl_friendly",
+      "home": "荷兰U16",
+      "away": "乌克兰U16",
+      "kickoff": "2026-11-03T15:00:00",
+      "status": "live",
+      "home_goals": 1,
+      "away_goals": 0
+    }
+  ]
 }
