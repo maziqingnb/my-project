@@ -1,11 +1,91 @@
 {
-  "generated_at": "2026-11-03T21:43:27.276719+00:00",
-  "total_missed": 13,
+  "generated_at": "2026-11-03T22:24:38.276396+00:00",
+  "total_missed": 15,
   "days": [
     {
       "date": "2026-11-03",
-      "missed": 9,
+      "missed": 11,
       "items": [
+        {
+          "competition": "ucl",
+          "home": "费耶诺德",
+          "away": "Inter Milan",
+          "kickoff": "2026-11-03T20:00:00",
+          "market": "handicap",
+          "sport": "football",
+          "pick": "主队（受让 0.5）",
+          "side": "home",
+          "line": 0.5,
+          "score": 75.0,
+          "confidence": "strong",
+          "outcome": "loss",
+          "outcome_cn": "没中",
+          "home_goals": 0,
+          "away_goals": 3,
+          "book": "盘口 主受让0.75 → 主受让0.5，水位 主1.02/0.86 → 主0.97/0.92",
+          "diagnosis": [
+            "盘口 主受让0.75 → 主受让0.5，水位 主1.02/0.86 → 主0.97/0.92",
+            "最终 0-3，推荐侧相对盘口 -2.50 球（未打穿）",
+            "初盘→临场升盘仍推主队：盘口已偏深，注意「升盘陷阱」"
+          ],
+          "note": "主队（受让 0.5） · 最终 0-3（主队净胜 -3），未打穿",
+          "signals": {
+            "line_desc": "升盘 0.75->0.5（主队走强）",
+            "water_desc": "主队降水 1.02->0.97",
+            "line_first": 0.75,
+            "line_last": 0.5,
+            "home_water_first": 1.02,
+            "home_water_last": 0.97,
+            "away_water_first": 0.86,
+            "away_water_last": 0.92
+          },
+          "reasons": [
+            "亚盘 升盘 0.75->0.5（主队走强）",
+            "主队降水 1.02->0.97",
+            "主队近0场 0胜0平0负，场均进0.0/失0.0",
+            "客队近0场 0胜0平0负，场均进0.0/失0.0",
+            "交手0次：主队0胜0平0负"
+          ]
+        },
+        {
+          "competition": "ucl",
+          "home": "比利亚雷亚尔",
+          "away": "巴黎圣日耳曼",
+          "kickoff": "2026-11-03T20:00:00",
+          "market": "totals",
+          "sport": "football",
+          "pick": "小球（3.5）",
+          "side": "under",
+          "line": 3.5,
+          "score": 70.0,
+          "confidence": "strong",
+          "outcome": "loss",
+          "outcome_cn": "没中",
+          "home_goals": 0,
+          "away_goals": 6,
+          "book": "盘口 3.5 → 3.5，水位 大0.96/小0.90 → 大0.98/小0.90",
+          "diagnosis": [
+            "盘口 3.5 → 3.5，水位 大0.96/小0.90 → 大0.98/小0.90",
+            "最终总进球 6，相对盘口 3.5 偏大"
+          ],
+          "note": "小球（3.5） · 最终 0-6（总进球 6），未打出",
+          "signals": {
+            "line_desc": "盘口不变",
+            "over_desc": "大球水位平稳",
+            "line_first": 3.5,
+            "line_last": 3.5,
+            "over_first": 0.96,
+            "over_last": 0.98,
+            "under_first": 0.9,
+            "under_last": 0.9
+          },
+          "reasons": [
+            "大小球 盘口不变",
+            "大球水位平稳",
+            "主队近0场场均总进球 0.0",
+            "客队近0场场均总进球 0.0"
+          ]
+        },
         {
           "competition": "afc_cl",
           "home": "利雅得新月",

@@ -20,5 +20,82 @@
     "date": "2026-11-03",
     "handicap_line": -0.25,
     "total_line": 3.25
+  },
+  {
+    "competition": "ucl",
+    "cls": "cup",
+    "home": "Atletico Madrid",
+    "away": "Bayern Munich",
+    "home_goals": 0,
+    "away_goals": 2,
+    "date": "2026-11-03",
+    "handicap_line": 0.5,
+    "total_line": 3.25
+  },
+  {
+    "competition": "ucl",
+    "cls": "cup",
+    "home": "费耶诺德",
+    "away": "Inter Milan",
+    "home_goals": 0,
+    "away_goals": 3,
+    "date": "2026-11-03",
+    "handicap_line": 0.75,
+    "total_line": 3.25
+  },
+  {
+    "competition": "ucl",
+    "cls": "cup",
+    "home": "Barcelona",
+    "away": "Aston Villa",
+    "home_goals": 3,
+    "away_goals": 0,
+    "date": "2026-11-03",
+    "handicap_line": -2.0,
+    "total_line": 4.0
+  },
+  {
+    "competition": "ucl",
+    "cls": "cup",
+    "home": "比利亚雷亚尔",
+    "away": "巴黎圣日耳曼",
+    "home_goals": 0,
+    "away_goals": 6,
+    "date": "2026-11-03",
+    "handicap_line": 1.0,
+    "total_line": 3.5
+  },
+  {
+    "competition": "ucl",
+    "cls": "cup",
+    "home": "Manchester United",
+    "away": "Roma",
+    "home_goals": 3,
+    "away_goals": 2,
+    "date": "2026-11-03",
+    "handicap_line": -0.5,
+    "total_line": 3.0
+  },
+  {
+    "competition": "ucl",
+    "cls": "cup",
+    "home": "博德闪耀",
+    "away": "里尔",
+    "home_goals": 0,
+    "away_goals": 0,
+    "date": "2026-11-03",
+    "handicap_line": -0.5,
+    "total_line": 3.25
+  },
+  {
+    "competition": "ucl",
+    "cls": "cup",
+    "home": "LASK林茨",
+    "away": "布拉迪斯拉发",
+    "home_goals": 4,
+    "away_goals": 0,
+    "date": "2026-11-03",
+    "handicap_line": -1.25,
+    "total_line": 3.25
   }
 ]
