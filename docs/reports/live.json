@@ -1,22 +1,32 @@
 {
-  "generated_at": "2026-11-03T09:38:48.194911+00:00",
+  "generated_at": "2026-11-03T10:37:23.600409+00:00",
   "matches": [
     {
-      "fixture_key": "intl_friendly|沙特阿拉伯u16|瑞士u16|2026-11-03",
-      "competition": "intl_friendly",
-      "home": "沙特阿拉伯U16",
-      "away": "瑞士U16",
-      "kickoff": "2026-11-03T09:00:00",
+      "fixture_key": "afc_cl|全北现代|柔佛|2026-11-03",
+      "competition": "afc_cl",
+      "home": "全北现代",
+      "away": "柔佛",
+      "kickoff": "2026-11-03T10:00:00",
       "status": "live",
-      "home_goals": 0,
+      "home_goals": 1,
       "away_goals": 0
     },
     {
-      "fixture_key": "intl_friendly|苏格兰u16|葡萄牙u16|2026-11-03",
-      "competition": "intl_friendly",
-      "home": "苏格兰U16",
-      "away": "葡萄牙U16",
-      "kickoff": "2026-11-03T09:30:00",
+      "fixture_key": "afc_cl|神户胜利船|拉查布里府|2026-11-03",
+      "competition": "afc_cl",
+      "home": "神户胜利船",
+      "away": "拉查布里府",
+      "kickoff": "2026-11-03T10:00:00",
+      "status": "live",
+      "home_goals": 1,
+      "away_goals": 0
+    },
+    {
+      "fixture_key": "afc_cl|柏太阳神|大田市民|2026-11-03",
+      "competition": "afc_cl",
+      "home": "柏太阳神",
+      "away": "大田市民",
+      "kickoff": "2026-11-03T10:00:00",
       "status": "live",
       "home_goals": 0,
       "away_goals": 0
