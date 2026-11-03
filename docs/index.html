@@ -90,10 +90,12 @@
   <div class="tabs">
     <button class="tab active" id="tab-rec" onclick="switchTab('rec')">⚽ 推荐</button>
     <button class="tab" id="tab-schedule" onclick="switchTab('schedule')">📅 赛程</button>
+    <button class="tab" id="tab-history" onclick="switchTab('history')">📜 历史</button>
   </div>
   <div class="meta" id="meta">加载中…</div>
   <div id="live" class="tab-panel" data-tab="rec"></div>
   <div id="schedule" class="tab-panel" data-tab="schedule"></div>
+  <div id="history" class="tab-panel" data-tab="history"></div>
   <div id="stats" class="tab-panel" data-tab="rec"></div>
   <div id="content" class="tab-panel" data-tab="rec"></div>
   <div id="review" class="tab-panel" data-tab="rec"></div>
@@ -334,6 +336,43 @@ function renderReview(review) {
   box.innerHTML = `<section><h2>📋 每日复盘 <span class="tag watch">未命中</span></h2>${blocks}</section>`;
 }
 
+function renderHistory(hist) {
+  const box = document.getElementById("history");
+  const records = (hist && hist.records) || [];
+  if (!records.length) {
+    box.innerHTML = `<section><h2>📜 历史推荐</h2><div class="empty">暂无历史推荐，先跑一次同步与分析。</div></section>`;
+    return;
+  }
+  // 已结算排前、未结算排后；同组内按开赛时间降序
+  const rows = [...records].sort((a, b) => {
+    const sa = a.settled ? 0 : 1, sb = b.settled ? 0 : 1;
+    if (sa !== sb) return sa - sb;
+    return koTs(b.kickoff) - koTs(a.kickoff);
+  }).map(r => {
+    const res = r.settled
+      ? `<span class="outcome ${r.outcome}">${r.outcome_cn}</span>
+         <span class="final">${r.home_goals}-${r.away_goals}</span>`
+      : `<span class="outcome pending">${koTs(r.kickoff) < Date.now() ? "待赛果" : "未开赛"}</span>`;
+    return `<tr>
+      <td><strong>${teamName(r.home)}</strong> vs <strong>${teamName(r.away)}</strong><br>
+          <span class="market">${(r.kickoff || "").replace("T", " ").slice(0, 16)}</span></td>
+      <td><span class="market">${marketLabel(r)}</span></td>
+      <td>${r.pick}</td>
+      <td><div class="score"><span>${r.score}</span><div class="bar"><i style="width:${Math.min(r.score, 100)}%"></i></div></div></td>
+      <td><span class="badge ${r.confidence}">${CONF[r.confidence]}</span>${r.prematch ? ' <span class="badge prematch">临场</span>' : ''}</td>
+      <td>${res}</td>
+    </tr>`;
+  }).join("");
+  const overall = (hist.stats && hist.stats.overall) || {};
+  const settled = records.filter(r => r.settled).length;
+  box.innerHTML = `<section>
+    <h2>📜 历史推荐 <span class="tag league">全量账本</span></h2>
+    <div class="market">共 ${records.length} 条（已结算 ${settled}）· 累计命中率 ${rateText(overall)}</div>
+    <div class="tablewrap"><table><thead><tr><th>比赛</th><th>盘口</th><th>推荐</th><th>系数</th><th>信心</th><th>赛果</th></tr></thead>
+    <tbody>${rows}</tbody></table></div>
+  </section>`;
+}
+
 switchTab("rec");        // 默认显示「推荐」，赛程在单独标签页
 
 let latestData = null;   // 缓存 latest.json，供「进行中」板块交叉引用推荐
@@ -370,6 +409,7 @@ function loadAll() {
     renderLive(live, d);
     renderSchedule(schedule);
     renderReview(review);
+    renderHistory(hist);
     if (!picks.length) {
       document.getElementById("content").innerHTML =
         `<div class="empty">暂无推荐，请等待下一次同步与分析。</div>`;
