@@ -1,1 +1,24 @@
-[]
+[
+  {
+    "competition": "ucl",
+    "cls": "cup",
+    "home": "顿涅茨克矿工",
+    "away": "葡萄牙体育",
+    "home_goals": 0,
+    "away_goals": 1,
+    "date": "2026-11-03",
+    "handicap_line": 0.5,
+    "total_line": 3.0
+  },
+  {
+    "competition": "ucl",
+    "cls": "cup",
+    "home": "加拉塔萨雷",
+    "away": "Stuttgart",
+    "home_goals": 2,
+    "away_goals": 0,
+    "date": "2026-11-03",
+    "handicap_line": -0.25,
+    "total_line": 3.25
+  }
+]

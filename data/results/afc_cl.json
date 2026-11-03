@@ -79,6 +79,17 @@
   {
     "competition": "afc_cl",
     "cls": "cup",
+    "home": "利雅得新月",
+    "away": "迪拜青年国民",
+    "home_goals": 2,
+    "away_goals": 0,
+    "date": "2026-11-03",
+    "handicap_line": -1.25,
+    "total_line": 3.0
+  },
+  {
+    "competition": "afc_cl",
+    "cls": "cup",
     "home": "塔什干棉农",
     "away": "利雅得胜利",
     "home_goals": 2,

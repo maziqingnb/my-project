@@ -1,4 +1,75 @@
 {
-  "generated_at": "2026-11-03T19:16:39.099844+00:00",
-  "matches": []
+  "generated_at": "2026-11-03T20:11:16.732213+00:00",
+  "matches": [
+    {
+      "fixture_key": "ucl|atleticomadrid|bayernmunich|2026-11-03",
+      "competition": "ucl",
+      "home": "Atletico Madrid",
+      "away": "Bayern Munich",
+      "kickoff": "2026-11-03T20:00:00",
+      "status": "live",
+      "home_goals": 0,
+      "away_goals": 0
+    },
+    {
+      "fixture_key": "ucl|费耶诺德|intermilan|2026-11-03",
+      "competition": "ucl",
+      "home": "费耶诺德",
+      "away": "Inter Milan",
+      "kickoff": "2026-11-03T20:00:00",
+      "status": "live",
+      "home_goals": 0,
+      "away_goals": 1
+    },
+    {
+      "fixture_key": "ucl|barcelona|astonvilla|2026-11-03",
+      "competition": "ucl",
+      "home": "Barcelona",
+      "away": "Aston Villa",
+      "kickoff": "2026-11-03T20:00:00",
+      "status": "live",
+      "home_goals": 1,
+      "away_goals": 0
+    },
+    {
+      "fixture_key": "ucl|比利亚雷亚尔|巴黎圣日耳曼|2026-11-03",
+      "competition": "ucl",
+      "home": "比利亚雷亚尔",
+      "away": "巴黎圣日耳曼",
+      "kickoff": "2026-11-03T20:00:00",
+      "status": "live",
+      "home_goals": 0,
+      "away_goals": 1
+    },
+    {
+      "fixture_key": "ucl|manchesterunited|roma|2026-11-03",
+      "competition": "ucl",
+      "home": "Manchester United",
+      "away": "Roma",
+      "kickoff": "2026-11-03T20:00:00",
+      "status": "live",
+      "home_goals": 0,
+      "away_goals": 0
+    },
+    {
+      "fixture_key": "ucl|博德闪耀|里尔|2026-11-03",
+      "competition": "ucl",
+      "home": "博德闪耀",
+      "away": "里尔",
+      "kickoff": "2026-11-03T20:00:00",
+      "status": "live",
+      "home_goals": 0,
+      "away_goals": 0
+    },
+    {
+      "fixture_key": "ucl|lask林茨|布拉迪斯拉发|2026-11-03",
+      "competition": "ucl",
+      "home": "LASK林茨",
+      "away": "布拉迪斯拉发",
+      "kickoff": "2026-11-03T20:00:00",
+      "status": "live",
+      "home_goals": 0,
+      "away_goals": 0
+    }
+  ]
 }

@@ -2,6 +2,17 @@
   {
     "competition": "sweden",
     "cls": "league",
+    "home": "天狼星",
+    "away": "哈尔姆斯塔德",
+    "home_goals": 2,
+    "away_goals": 0,
+    "date": "2026-11-03",
+    "handicap_line": -1.5,
+    "total_line": 3.25
+  },
+  {
+    "competition": "sweden",
+    "cls": "league",
     "home": "哥德堡盖斯",
     "away": "索尔纳",
     "home_goals": 2,

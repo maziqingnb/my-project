@@ -1,11 +1,51 @@
 {
-  "generated_at": "2026-11-03T19:16:40.651959+00:00",
-  "total_missed": 12,
+  "generated_at": "2026-11-03T20:11:18.220956+00:00",
+  "total_missed": 13,
   "days": [
     {
       "date": "2026-11-03",
-      "missed": 8,
+      "missed": 9,
       "items": [
+        {
+          "competition": "afc_cl",
+          "home": "利雅得新月",
+          "away": "迪拜青年国民",
+          "kickoff": "2026-11-03T18:15:00",
+          "market": "handicap",
+          "sport": "football",
+          "pick": "客队（受让 1.25）",
+          "side": "away",
+          "line": -1.25,
+          "score": 75.0,
+          "confidence": "strong",
+          "outcome": "loss",
+          "outcome_cn": "没中",
+          "home_goals": 2,
+          "away_goals": 0,
+          "book": "盘口 主让1.25 → 主让1.25，水位 主0.83/0.93 → 主0.89/0.93",
+          "diagnosis": [
+            "盘口 主让1.25 → 主让1.25，水位 主0.83/0.93 → 主0.89/0.93",
+            "最终 2-0，推荐侧相对盘口 -0.75 球（未打穿）"
+          ],
+          "note": "客队（受让 1.25） · 最终 2-0（客队净胜 -2），未打穿",
+          "signals": {
+            "line_desc": "盘口不变",
+            "water_desc": "主队升水 0.83->0.89",
+            "line_first": -1.25,
+            "line_last": -1.25,
+            "home_water_first": 0.83,
+            "home_water_last": 0.89,
+            "away_water_first": 0.93,
+            "away_water_last": 0.93
+          },
+          "reasons": [
+            "亚盘 盘口不变",
+            "主队升水 0.83->0.89",
+            "主队近1场 0胜0平1负，场均进1.0/失3.0",
+            "客队近2场 2胜0平0负，场均进3.0/失1.5",
+            "交手0次：主队0胜0平0负"
+          ]
+        },
         {
           "competition": "afc_cl2",
           "home": "侯塞因",
