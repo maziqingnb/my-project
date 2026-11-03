@@ -1,25 +1,4 @@
 {
-  "generated_at": "2026-11-03T12:26:43.075869+00:00",
-  "matches": [
-    {
-      "fixture_key": "afc_cl|狮子港|北京国安|2026-11-03",
-      "competition": "afc_cl",
-      "home": "狮子港",
-      "away": "北京国安",
-      "kickoff": "2026-11-03T12:15:00",
-      "status": "live",
-      "home_goals": 0,
-      "away_goals": 1
-    },
-    {
-      "fixture_key": "afc_cl|河内公安|京都不死鸟|2026-11-03",
-      "competition": "afc_cl",
-      "home": "河内公安",
-      "away": "京都不死鸟",
-      "kickoff": "2026-11-03T12:15:00",
-      "status": "live",
-      "home_goals": 0,
-      "away_goals": 0
-    }
-  ]
+  "generated_at": "2026-11-03T13:41:41.693699+00:00",
+  "matches": []
 }
