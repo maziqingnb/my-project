@@ -19,6 +19,24 @@ REPORTS_DIR = DATA_DIR / "reports"
 DOCS_REPORTS_DIR = ROOT / "docs" / "reports"
 
 
+def set_data_root(root) -> None:
+    """把数据/报告目录根重定向到 root（demo 模式隔离用，避免污染真实数据）。
+
+    所有模块都通过 `from .. import config as C` 引用 C.FIXTURES_DIR 等，
+    运行时改这几个模块级全局变量，即可让后续读写全部落在新目录；
+    真实 config.yaml 仍从 ROOT/config 读取，不受影响。
+    """
+    global DATA_DIR, FIXTURES_DIR, RESULTS_DIR, ODDS_DIR, LINEUPS_DIR, REPORTS_DIR, DOCS_REPORTS_DIR
+    root = Path(root)
+    DATA_DIR = root
+    FIXTURES_DIR = root / "fixtures"
+    RESULTS_DIR = root / "results"
+    ODDS_DIR = root / "odds_history"
+    LINEUPS_DIR = root / "lineups"
+    REPORTS_DIR = root / "reports"
+    DOCS_REPORTS_DIR = root / "docs_reports"   # demo 不写真实 docs/reports，隔离到本地
+
+
 def load_config() -> dict:
     with open(CONFIG_PATH, encoding="utf-8") as f:
         cfg = yaml.safe_load(f)

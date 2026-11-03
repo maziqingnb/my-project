@@ -97,13 +97,18 @@ def _client_of(clients: dict, kind: str):
     return pick
 
 
-def _clear_demo_data() -> None:
-    """清空演示数据目录，保证 --demo 每次结果一致、不累积重复快照。"""
+def _enter_demo_dirs() -> None:
+    """demo 模式把数据目录重定向到独立临时目录，避免抹掉/污染真实 data/。
+
+    每次 --demo 用全新临时目录：结果确定、不累积重复快照，退出时自动清理，
+    完全不会触碰真实 data/ 与 docs/reports/。
+    """
+    import atexit
     import shutil
-    for d in (C.ODDS_DIR, C.FIXTURES_DIR, C.RESULTS_DIR, C.LINEUPS_DIR):
-        if d.exists():
-            shutil.rmtree(d)
-        d.mkdir(parents=True, exist_ok=True)
+    import tempfile
+    root = Path(tempfile.mkdtemp(prefix="football-odds-demo-"))
+    C.set_data_root(root)
+    atexit.register(shutil.rmtree, root, ignore_errors=True)
 
 
 def do_sync(cfg: dict, clients: dict, what: str) -> None:
@@ -206,11 +211,14 @@ def main() -> None:
         do_sync(cfg, clients, args.what)
     elif args.cmd == "analyze":
         if args.demo:
-            _clear_demo_data()
+            _enter_demo_dirs()               # 先隔离数据目录，再灌样例数据
             clients = make_clients(cfg, True)
-            do_sync(cfg, clients, "all")   # 演示模式先灌入样例数据
+            do_sync(cfg, clients, "all")
         report = do_analyze(cfg, demo=args.demo)
-        print(f"\n完成：共 {report['total']} 条推荐，见 data/reports/report.md")
+        if args.demo:
+            print(f"\n完成（演示数据，未写真实 data/ 与 docs/reports/）：共 {report['total']} 条推荐")
+        else:
+            print(f"\n完成：共 {report['total']} 条推荐，见 data/reports/report.md")
     elif args.cmd == "live":
         clients = make_clients(cfg, False)
         from src.sync.live import sync_live_scores
