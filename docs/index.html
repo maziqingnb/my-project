@@ -126,7 +126,8 @@ const NBA_CN = {
 const teamName = t => NBA_CN[t] || t;
 
 function switchTab(name) {
-  document.querySelectorAll(".tab").forEach(b =>
+  // 只操作顶层标签（id 形如 tab-*），避免误伤历史页里的子标签按钮
+  document.querySelectorAll('.tab[id^="tab-"]').forEach(b =>
     b.classList.toggle("active", b.id === "tab-" + name));
   document.querySelectorAll(".tab-panel").forEach(p =>
     p.style.display = (p.dataset.tab === name) ? "" : "none");
@@ -332,7 +333,7 @@ function renderSchedule(schedule) {
   const football = matches.filter(m => m.sport !== "basketball");
   box.innerHTML = `<section><h2>📅 赛程 <span class="tag league">未开赛</span></h2>
     <div class="market">${upd} · 推荐只在开赛前 6 小时内上架 · 开赛前 2 小时内标记「临场」</div>
-    ${scheduleBlocks(bball, "🏀 篮球")}${scheduleBlocks(football, "⚽ 足球")}</section>`;
+    ${scheduleBlocks(football, "⚽ 足球")}${scheduleBlocks(bball, "🏀 篮球")}</section>`;
 }
 
 function renderReview(review) {
@@ -358,13 +359,19 @@ function renderReview(review) {
   box.innerHTML = `<section><h2>📋 每日复盘 <span class="tag watch">未命中</span></h2>${blocks}</section>`;
 }
 
-function renderHistory(hist) {
+let histSub = "football";   // 历史页当前子标签：football | basketball
+
+function setHistSub(sport) {
+  histSub = sport;
   const box = document.getElementById("history");
-  const records = (hist && hist.records) || [];
-  if (!records.length) {
-    box.innerHTML = `<section><h2>📜 历史推荐</h2><div class="empty">暂无历史推荐，先跑一次同步与分析。</div></section>`;
-    return;
-  }
+  box.querySelectorAll(".hist-tab").forEach(b =>
+    b.classList.toggle("active", b.dataset.sport === sport));
+  box.querySelectorAll(".hist-panel").forEach(p =>
+    p.style.display = (p.dataset.sport === sport) ? "" : "none");
+}
+
+function historyTable(title, records) {
+  if (!records.length) return `<div class="empty">暂无该分类的历史推荐。</div>`;
   // 已结算排前、未结算排后；同组内按开赛时间降序
   const rows = [...records].sort((a, b) => {
     const sa = a.settled ? 0 : 1, sb = b.settled ? 0 : 1;
@@ -385,13 +392,30 @@ function renderHistory(hist) {
       <td>${res}</td>
     </tr>`;
   }).join("");
-  const overall = (hist.stats && hist.stats.overall) || {};
+  return `<div class="subhead">${title} · ${records.length} 条</div>
+    <div class="tablewrap"><table><thead><tr><th>比赛</th><th>盘口</th><th>推荐</th><th>系数</th><th>信心</th><th>赛果</th></tr></thead><tbody>${rows}</tbody></table></div>`;
+}
+
+function renderHistory(hist) {
+  const box = document.getElementById("history");
+  const records = (hist && hist.records) || [];
+  if (!records.length) {
+    box.innerHTML = `<section><h2>📜 历史推荐</h2><div class="empty">暂无历史推荐，先跑一次同步与分析。</div></section>`;
+    return;
+  }
+  // 足球/篮球拆分两个子标签，各自独立展示
+  const football = records.filter(r => r.sport !== "basketball");
+  const bball = records.filter(r => r.sport === "basketball");
   const settled = records.filter(r => r.settled).length;
+  const overall = (hist.stats && hist.stats.overall) || {};
+  const sub = (label, sport) =>
+    `<button class="tab hist-tab ${histSub === sport ? "active" : ""}" data-sport="${sport}" onclick="setHistSub('${sport}')">${label}</button>`;
   box.innerHTML = `<section>
     <h2>📜 历史推荐 <span class="tag league">全量账本</span></h2>
     <div class="market">共 ${records.length} 条（已结算 ${settled}）· 累计命中率 ${rateText(overall)}</div>
-    <div class="tablewrap"><table><thead><tr><th>比赛</th><th>盘口</th><th>推荐</th><th>系数</th><th>信心</th><th>赛果</th></tr></thead>
-    <tbody>${rows}</tbody></table></div>
+    <div class="tabs" style="margin-top:12px">${sub("⚽ 足球", "football")}${sub("🏀 篮球", "basketball")}</div>
+    <div class="hist-panel" data-sport="football" style="${histSub === "football" ? "" : "display:none"}">${historyTable("⚽ 足球历史", football)}</div>
+    <div class="hist-panel" data-sport="basketball" style="${histSub === "basketball" ? "" : "display:none"}">${historyTable("🏀 篮球历史", bball)}</div>
   </section>`;
 }
 
@@ -444,7 +468,7 @@ function loadAll() {
     const league = picks.filter(r => r.sport !== "basketball" && r.competition_class === "league").sort(byKickoff);
     const cup = picks.filter(r => r.sport !== "basketball" && r.competition_class === "cup").sort(byKickoff);
     document.getElementById("content").innerHTML =
-      renderTable("🏀 篮球", "basketball", bball) + renderTable("🏆 杯赛", "cup", cup) + renderTable("⚽ 联赛", "league", league);
+      renderTable("🏆 杯赛", "cup", cup) + renderTable("⚽ 联赛", "league", league) + renderTable("🏀 篮球", "basketball", bball);
   });
 }
 
