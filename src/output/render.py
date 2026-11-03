@@ -103,6 +103,10 @@ def _update_history(items: list[dict], results_by_comp: dict) -> dict:
         # 归一化临场标记：旧账本可能存 null，统一成布尔。临场仅作展示，不参与命中统计。
         if rec.get("prematch") is None:
             rec["prematch"] = False
+        # 旧账本可能没有 sport 字段（后加的），按联赛回填：NBA=篮球，其余=足球。
+        # 否则这些记录会落进 by_sport 的「?」桶，足球命中率被漏计。
+        if not rec.get("sport"):
+            rec["sport"] = "basketball" if rec.get("competition") == "nba" else "football"
         res = settle_dict(rec, results)
         if res:
             rec.update({k: res[k] for k in

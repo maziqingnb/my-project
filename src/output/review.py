@@ -66,7 +66,8 @@ def _diagnose(r: dict) -> list[str]:
                 margin = (hg - ag) + line      # 主队相对让球线
             else:
                 margin = (ag - hg) - line
-            pts.append(f"最终 {hg}-{ag}，推荐侧相对盘口 {'+' if margin >= 0 else ''}{margin:+.2f} 球"
+            unit = "分" if r.get("sport") == "basketball" else "球"
+            pts.append(f"最终 {hg}-{ag}，推荐侧相对盘口 {'+' if margin >= 0 else ''}{margin:+.2f} {unit}"
                        f"（{'打穿' if margin > 0 else '未打穿'}）")
         lf, ll = sig.get("line_first"), sig.get("line_last")
         if lf is not None and ll is not None and (lf - ll) > 0.05 and side == "home":
@@ -79,7 +80,8 @@ def _diagnose(r: dict) -> list[str]:
     else:
         if hg is not None and ag is not None and line is not None:
             total = hg + ag
-            pts.append(f"最终总进球 {total}，相对盘口 {line:g} {'偏大' if total > line else '偏小'}")
+            unit = "总分" if r.get("sport") == "basketball" else "总进球"
+            pts.append(f"最终{unit} {total}，相对盘口 {line:g} {'偏大' if total > line else '偏小'}")
         od = sig.get("over_desc") or ""
         if "升水" in od and side == "over":
             pts.append("大球升水（资金偏向小球）却推大球，水位信号与方向背离")
@@ -99,7 +101,8 @@ def _note(r: dict) -> str:
         else:
             d = f"客队净胜 {-diff}"
         return f"{pick} · 最终 {hg}-{ag}（{d}），未打穿"
-    return f"{pick} · 最终 {hg}-{ag}（总进球 {total}），未打出"
+    unit = "总分" if r.get("sport") == "basketball" else "总进球"
+    return f"{pick} · 最终 {hg}-{ag}（{unit} {total}），未打出"
 
 
 def _item(r: dict) -> dict:

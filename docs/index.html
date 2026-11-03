@@ -91,6 +91,7 @@
   <h1>⚽ 足球水位分析看板</h1>
   <div class="tabs">
     <button class="tab active" id="tab-rec" onclick="switchTab('rec')">⚽ 推荐</button>
+    <button class="tab" id="tab-bball" onclick="switchTab('bball')">🏀 篮球</button>
     <button class="tab" id="tab-schedule" onclick="switchTab('schedule')">📅 赛程</button>
     <button class="tab" id="tab-history" onclick="switchTab('history')">📜 历史</button>
   </div>
@@ -100,6 +101,7 @@
   <div id="history" class="tab-panel" data-tab="history"></div>
   <div id="stats" class="tab-panel" data-tab="rec"></div>
   <div id="content" class="tab-panel" data-tab="rec"></div>
+  <div id="bball" class="tab-panel" data-tab="bball"></div>
   <div id="review" class="tab-panel" data-tab="rec"></div>
 </div>
 
@@ -222,9 +224,8 @@ function renderStats(hist) {
     <section><h2>📊 命中率统计</h2><div class="stats-grid">${cards}</div>${compRows}</section>`;
 }
 
-function renderTable(title, cls, items) {
-  if (!items.length) return "";
-  const rows = items.map(r => `
+function recommendationRows(items) {
+  return items.map(r => `
     <tr>
       <td><strong>${teamName(r.home)}</strong> vs <strong>${teamName(r.away)}</strong><br>
           <span class="market">${bjDateTime(r.kickoff)}</span></td>
@@ -236,11 +237,33 @@ function renderTable(title, cls, items) {
       <td>${sparkline(r)}</td>
       <td><ul class="reasons">${r.reasons.map(x => `<li>${x}</li>`).join("")}</ul></td>
     </tr>`).join("");
+}
+
+function recommendationTable(items) {
+  return `<div class="tablewrap"><table><thead><tr><th>比赛</th><th>盘口</th><th>推荐</th><th>推荐系数</th><th>信心</th><th>赛果</th><th>水位走势</th><th>理由</th></tr></thead>
+    <tbody>${recommendationRows(items)}</tbody></table></div>`;
+}
+
+function renderTable(title, cls, items) {
+  if (!items.length) return "";
   const tagLabel = cls === "cup" ? "杯赛口径" : cls === "basketball" ? "篮球" : "联赛口径";
   return `<section>
     <h2>${title} <span class="tag ${cls}">${tagLabel}</span></h2>
-    <div class="tablewrap"><table><thead><tr><th>比赛</th><th>盘口</th><th>推荐</th><th>推荐系数</th><th>信心</th><th>赛果</th><th>水位走势</th><th>理由</th></tr></thead>
-    <tbody>${rows}</tbody></table></div>
+    ${recommendationTable(items)}
+  </section>`;
+}
+
+// 篮球单独成页：只展示篮球（NBA）推荐 + 篮球命中率，与足球推荐页分离
+function renderBasketball(items, hist) {
+  const box = document.getElementById("bball");
+  const st = (hist && hist.stats && hist.stats.by_sport && hist.stats.by_sport.basketball) || {};
+  const statLine = `<div class="market" style="margin-bottom:8px">篮球命中率 ${rateText(st)} · 已结算 ${st.settled ?? 0} 场（命中 ${st.hit ?? 0}）</div>`;
+  const body = items.length
+    ? recommendationTable(items)
+    : `<div class="empty">暂无进行中的篮球推荐。NBA 赛程与赔率在开赛前 6 小时内上架；历史篮球推荐请看「📜 历史」→「🏀 篮球」。</div>`;
+  box.innerHTML = `<section>
+    <h2>🏀 篮球推荐 <span class="tag basketball">NBA</span></h2>
+    ${statLine}${body}
   </section>`;
 }
 
@@ -458,17 +481,15 @@ function loadAll() {
     renderSchedule(schedule);
     renderReview(review);
     renderHistory(hist);
-    if (!picks.length) {
-      document.getElementById("content").innerHTML =
-        `<div class="empty">暂无推荐，请等待下一次同步与分析。</div>`;
-      return;
-    }
-    // 篮球单独成板块，与足球联赛/杯赛分开展示（NBA 的 sport === "basketball"）
+
+    // 足球（联赛+杯赛）与篮球分开：篮球走独立「🏀 篮球」标签页，推荐页只放足球
     const bball = picks.filter(r => r.sport === "basketball").sort(byKickoff);
     const league = picks.filter(r => r.sport !== "basketball" && r.competition_class === "league").sort(byKickoff);
     const cup = picks.filter(r => r.sport !== "basketball" && r.competition_class === "cup").sort(byKickoff);
-    document.getElementById("content").innerHTML =
-      renderTable("🏆 杯赛", "cup", cup) + renderTable("⚽ 联赛", "league", league) + renderTable("🏀 篮球", "basketball", bball);
+    document.getElementById("content").innerHTML = (league.length + cup.length)
+      ? renderTable("🏆 杯赛", "cup", cup) + renderTable("⚽ 联赛", "league", league)
+      : `<div class="empty">暂无足球推荐，请等待下一次同步与分析。</div>`;
+    renderBasketball(bball, hist);
   });
 }
 
