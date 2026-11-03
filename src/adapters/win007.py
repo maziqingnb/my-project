@@ -296,7 +296,7 @@ class Win007Client(OddsClient, FixturesClient):
             for m in self._schedule(day):
                 if m["comp_key"] != comp.key:
                     continue
-                if m.get("state") in ("live", "upcoming"):   # 进行中/未开赛的临时比分不计入结果
+                if m.get("state") != "finished":            # 只有「完场」才计入结果，进行中/未开赛/未知状态一律不算
                     continue
                 if m["home_goals"] is None or m["away_goals"] is None:
                     continue

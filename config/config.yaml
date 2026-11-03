@@ -285,6 +285,9 @@ team_name_map:
   孟菲斯灰熊: Memphis Grizzlies
   新奧爾良鵜鶘: New Orleans Pelicans
 
+  # --- 亚冠（球探网同一队多个中文名 -> 统一到规范名，避免近况/交手/结算匹配不上） ---
+  迪拜祈祷: 迪拜青年国民          # Shabab Al-Ahli（迪拜青年国民）的球探网别名
+
 # 抓取器 profile：接真实站点时改这里的列/字段顺序，不用改代码
 scrapers:
   crown:                       # HTML 表格类（皇冠代理页/比分网）

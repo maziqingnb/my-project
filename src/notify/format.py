@@ -16,14 +16,11 @@ def _kickoff(iso: str) -> str:
 
 
 def build_title(report: dict) -> str:
-    strong = sum(1 for r in report["recommendations"] if r["confidence"] == "strong")
-    return f"足球水位分析 · 强推{strong}条/共{report['total']}条"
+    return f"足球水位分析 · 强推{report['total']}条"
 
 
 def build_content(report: dict) -> str:
     recs = report["recommendations"]
-    strong = [r for r in recs if r["confidence"] == "strong"]
-    watch = [r for r in recs if r["confidence"] == "watch"]
     ts = report["generated_at"][:16].replace("T", " ")
 
     lines = [
@@ -46,6 +43,5 @@ def build_content(report: dict) -> str:
             out.append(f"   {mkt} {r['pick']} · {r['score']}分" + (f" · {sig}" if sig else ""))
         return out
 
-    lines += _lines("🏆 强推", strong)
-    lines += _lines("👀 可关注", watch)
+    lines += _lines("🏆 强推", recs)
     return "\n".join(lines)

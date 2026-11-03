@@ -257,7 +257,7 @@ function renderLive(live, d) {
     const rec = recByKey[m.fixture_key];
     const recCell = rec
       ? `<span class="badge ${rec.confidence}">${CONF[rec.confidence]}</span>
-         <span class="market">${MARKET[rec.market]} ${rec.pick}</span>`
+         <span class="market">${marketLabel(rec)} ${rec.pick}</span>`
       : '<span class="market">未推荐</span>';
     return `<div class="live-card">
       <div class="live-head">
@@ -271,7 +271,7 @@ function renderLive(live, d) {
     </div>`;
   }).join("");
   box.innerHTML = `<section><h2>🔴 进行中 <span class="tag league">实时</span></h2>
-    <div class="market">${upd} · 每 30 秒自动刷新</div>
+    <div class="market">${upd} · 每 15 秒自动刷新</div>
     <div class="live-list">${rows}</div></section>`;
 }
 
@@ -325,7 +325,7 @@ function renderReview(review) {
       <tr>
         <td><strong>${teamName(it.home)}</strong> vs <strong>${teamName(it.away)}</strong><br>
             <span class="market">${(it.kickoff || "").replace("T", " ").slice(0, 16)}</span></td>
-        <td><span class="market">${MARKET[it.market]} ${it.pick}</span></td>
+        <td><span class="market">${marketLabel(it)} ${it.pick}</span></td>
         <td><span class="outcome ${it.outcome}">${it.outcome_cn}</span>
             <span class="final">${it.home_goals}-${it.away_goals}</span></td>
         <td class="reasons">${it.note || ""}</td>
@@ -377,8 +377,11 @@ switchTab("rec");        // 默认显示「推荐」，赛程在单独标签页
 
 let latestData = null;   // 缓存 latest.json，供「进行中」板块交叉引用推荐
 
+// 给请求加时间戳，绕过 GitHub Pages 的 CDN 缓存，让刷新真正拿到新数据
+const bust = p => p + "?_=" + Date.now();
+
 function loadLive() {
-  return fetch("./reports/live.json")
+  return fetch(bust("./reports/live.json"))
     .then(r => r.ok ? r.json() : null)
     .catch(() => null)
     .then(live => renderLive(live, latestData));
@@ -386,11 +389,11 @@ function loadLive() {
 
 function loadAll() {
   return Promise.all([
-    fetch("./reports/latest.json").then(r => { if (!r.ok) throw new Error(r.status); return r.json(); }),
-    fetch("./reports/history.json").then(r => r.ok ? r.json() : null).catch(() => null),
-    fetch("./reports/live.json").then(r => r.ok ? r.json() : null).catch(() => null),
-    fetch("./reports/review.json").then(r => r.ok ? r.json() : null).catch(() => null),
-    fetch("./reports/schedule.json").then(r => r.ok ? r.json() : null).catch(() => null)
+    fetch(bust("./reports/latest.json")).then(r => { if (!r.ok) throw new Error(r.status); return r.json(); }),
+    fetch(bust("./reports/history.json")).then(r => r.ok ? r.json() : null).catch(() => null),
+    fetch(bust("./reports/live.json")).then(r => r.ok ? r.json() : null).catch(() => null),
+    fetch(bust("./reports/review.json")).then(r => r.ok ? r.json() : null).catch(() => null),
+    fetch(bust("./reports/schedule.json")).then(r => r.ok ? r.json() : null).catch(() => null)
   ]).then(([d, hist, live, review, schedule]) => {
     latestData = d;
     const now = Date.now();
@@ -400,11 +403,10 @@ function loadAll() {
       if (ua !== ub) return ua - ub;            // 未开赛的排前面
       return ua === 0 ? ta - tb : tb - ta;      // 未开赛按开赛时间升序，已开赛按时间降序
     };
-    const picks = (d.recommendations || []).filter(r => r.confidence === "strong" || r.confidence === "watch");
-    const nStrong = picks.filter(r => r.confidence === "strong").length;
+    const picks = (d.recommendations || []).filter(r => r.confidence === "strong");
     const nPrematch = picks.filter(r => r.prematch === true).length;
     document.getElementById("meta").textContent =
-      `生成时间 ${d.generated_at}（UTC） · ${d.scope} · 强推 ${nStrong} / 可关注 ${picks.length - nStrong} / 临场 ${nPrematch} · 本期共 ${d.total} 条`;
+      `生成时间 ${d.generated_at}（UTC） · ${d.scope} · 强推 ${picks.length} / 临场 ${nPrematch} · 本期共 ${d.total} 条`;
     renderStats(hist || { stats: d.stats, total: d.total });
     renderLive(live, d);
     renderSchedule(schedule);
@@ -427,9 +429,9 @@ loadAll().catch(() => {
   document.getElementById("content").innerHTML =
     `<div class="empty">未找到数据。请先运行同步与分析，或开启 GitHub Pages 并确认 docs/reports/latest.json 已提交。</div>`;
 });
-// 进行中比分每 30 秒刷新；全量数据（含赛果命中结算）每 5 分钟刷新
-setInterval(() => loadLive().catch(() => {}), 30000);
-setInterval(() => loadAll().catch(() => {}), 300000);
+// 进行中比分每 15 秒刷新；全量数据（含赛果命中结算）每 60 秒刷新
+setInterval(() => loadLive().catch(() => {}), 15000);
+setInterval(() => loadAll().catch(() => {}), 60000);
 </script>
 </body>
 </html>

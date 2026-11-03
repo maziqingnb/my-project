@@ -58,13 +58,13 @@ def _is_prematch(kickoff, history, hours: float) -> bool:
 
 
 def _is_counted(item: dict) -> bool:
-    """命中率统计所有真实推荐（强推 + 可关注）。
+    """命中率只统计「强推」场次。
 
-    观望(pass)不算推荐、不参与统计；「临场(prematch)」只作展示标签，不再
-    作为统计口径——否则开赛前 2h 内是否恰好抓到快照（调度巧合）会决定一场
-    推荐是否计入命中，且旧账本里 prematch 为 null 的记录会被静默漏掉。
+    可关注(watch)与观望(pass)都不算推荐、不参与命中率统计；「临场(prematch)」
+    只作展示标签，不作为统计口径——否则开赛前 2h 内是否恰好抓到快照（调度巧合）
+    会决定一场推荐是否计入命中，且旧账本里 prematch 为 null 的记录会被静默漏掉。
     """
-    return item.get("confidence") in ("strong", "watch")
+    return item.get("confidence") == "strong"
 
 
 def _record(item: dict) -> dict:
@@ -114,7 +114,7 @@ def _update_history(items: list[dict], results_by_comp: dict) -> dict:
     counted = [r for r in records if _is_counted(r)]
     history = {
         "generated_at": now,
-        "total": len(counted),              # 累计推荐 = 强推 + 可关注
+        "total": len(counted),              # 累计推荐 = 强推（可关注不计入）
         "stats": {
             "overall": hit_rate_stats(counted),
             "by_market": group_hit_rates(counted, "market"),
@@ -151,31 +151,36 @@ def render_report(cfg: dict, recs, results_by_comp: dict | None = None,
         _settle_item(item, results_by_comp)
         items.append(item)
 
-    # 只在开赛前 publish_hours 内出推荐（默认 6h）；更早的场次不进看板/账本。
+    # 只在「开赛前 publish_hours 内 + 已开赛（进行中）」的场次出推荐；更早的场次不进看板/账本。
+    # lead_hours <= publish_hours 允许负数（已开赛），让进行中的比赛继续留在看板上，
+    # 避免 NBA 等跨时区赛事因开赛后水位仍在更新（lead_hours 变负）而从看板消失。
     # 演示模式（mock 数据）跳过此过滤，保证样例始终能跑通全流程。
     if not demo:
         items = [i for i in items
-                 if i.get("lead_hours") is not None and 0 <= i["lead_hours"] <= publish_hours]
+                 if i.get("lead_hours") is not None and i["lead_hours"] <= publish_hours]
 
     order = {"strong": 0, "watch": 1, "pass": 2}
     items.sort(key=lambda x: (order[x["confidence"]], -x["score"]))
 
-    # 结算统计：只统计强推+临场，并把 result 里的 outcome 拍平到顶层供统计读取
+    # 看板与命中率只保留「强推」；可关注/观望仅进历史账本备查，不占推荐位、不计命中率
+    panel_items = [i for i in items if i["confidence"] == "strong"]
+
+    # 结算统计：只统计强推，并把 result 里的 outcome 拍平到顶层供统计读取
     settled = [{**i, **i["result"]}
-               for i in items if i["result"].get("settled") and _is_counted(i)]
+               for i in panel_items if i["result"].get("settled")]
     n_league = sum(1 for c in cfg["competitions"] if c.cls == "league")
     n_cup = sum(1 for c in cfg["competitions"] if c.cls == "cup")
     report = {
         "generated_at": datetime.now(timezone.utc).isoformat(),
         "scope": f"{n_league} 个联赛 + {n_cup} 个杯赛",
-        "note": "杯赛与联赛数据分开计算；仅开赛前 6h 内出推荐；命中率统计强推+可关注",
-        "total": len(items),
+        "note": "杯赛与联赛数据分开计算；仅开赛前 6h 内出推荐；命中率只统计强推",
+        "total": len(panel_items),
         "stats": {
             "overall": hit_rate_stats(settled),
             "by_market": group_hit_rates(settled, "market"),
             "by_competition": group_hit_rates(settled, "competition"),
         },
-        "recommendations": items,
+        "recommendations": panel_items,
     }
 
     write_json(C.REPORTS_DIR / "latest.json", report)

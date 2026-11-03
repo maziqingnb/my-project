@@ -78,7 +78,7 @@ def recommend_handicap(comp, cfg: dict, results: list[Result],
     line = sig["line_last"] if sig["line_last"] is not None else 0.0
     # line 从主队视角：<=0 主队让球，>0 主队受让；方向侧决定"让"还是"受让"
     if abs(line) < 0.01:
-        pick = "平手盘"
+        pick = f"{'主队' if side == 'home' else '客队'}（平手盘）"
     elif side == "home":
         pick = f"主队（{'让' if line <= 0 else '受让'} {abs(line):g}）"
     else:

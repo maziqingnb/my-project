@@ -133,7 +133,9 @@ def build_daily_review() -> dict:
     hist = read_json(C.REPORTS_DIR / "history.json", default={"records": []}) or {}
     records = hist.get("records", [])
 
-    missed = [r for r in records if r.get("settled") and r.get("outcome") in _MISSED]
+    missed = [r for r in records
+              if r.get("settled") and r.get("outcome") in _MISSED
+              and r.get("confidence") == "strong"]
 
     by_day: dict[str, list[dict]] = defaultdict(list)
     for r in missed:

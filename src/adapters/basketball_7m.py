@@ -167,7 +167,20 @@ class Basketball7mClient(FixturesClient):
         return fixtures
 
     def fetch_live(self, comp: Competition) -> list[Fixture]:
-        return []
+        """进行中的 NBA 比赛：State 非 0（未开赛）且非 9/11（完场/加时完场）即视为进行中。"""
+        fixtures = []
+        for r in self._rows():
+            if r["state"] in ("", "0") or r["state"] in _FINISHED_STATES:
+                continue
+            if not r["kickoff"]:
+                continue
+            fixtures.append(Fixture(
+                key=fixture_key(comp.key, r["home"], r["away"], r["kickoff"]),
+                competition=comp.key, home=r["home"], away=r["away"],
+                kickoff=r["kickoff"], status="live",
+                home_goals=r["home_goals"], away_goals=r["away_goals"],
+            ))
+        return fixtures
 
     def fetch_lineup(self, comp: Competition, fixture: Fixture) -> Lineup | None:
         return None
