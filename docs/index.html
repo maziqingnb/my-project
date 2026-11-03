@@ -220,7 +220,7 @@ function renderTable(title, cls, items) {
   const rows = items.map(r => `
     <tr>
       <td><strong>${teamName(r.home)}</strong> vs <strong>${teamName(r.away)}</strong><br>
-          <span class="market">${(r.kickoff || "").replace("T", " ").slice(0, 16)}</span></td>
+          <span class="market">${bjDateTime(r.kickoff)}</span></td>
       <td><span class="market">${marketLabel(r)}</span></td>
       <td>${r.pick}</td>
       <td><div class="score"><span>${r.score}</span><div class="bar"><i style="width:${Math.min(r.score, 100)}%"></i></div></div></td>
@@ -284,6 +284,12 @@ function bjDayTime(iso) {
   return { day: bj.slice(5, 10), hm: bj.slice(11, 16) };
 }
 
+// 统一用北京时间展示开赛时间（后端存的是 UTC），避免推荐/历史页与赛程页时区不一致
+function bjDateTime(iso) {
+  const t = bjDayTime(iso);
+  return `${t.day} ${t.hm}`;
+}
+
 function renderSchedule(schedule) {
   const box = document.getElementById("schedule");
   const matches = (schedule && schedule.matches) || [];
@@ -324,7 +330,7 @@ function renderReview(review) {
     const items = (day.items || []).map(it => `
       <tr>
         <td><strong>${teamName(it.home)}</strong> vs <strong>${teamName(it.away)}</strong><br>
-            <span class="market">${(it.kickoff || "").replace("T", " ").slice(0, 16)}</span></td>
+            <span class="market">${bjDateTime(it.kickoff)}</span></td>
         <td><span class="market">${marketLabel(it)} ${it.pick}</span></td>
         <td><span class="outcome ${it.outcome}">${it.outcome_cn}</span>
             <span class="final">${it.home_goals}-${it.away_goals}</span></td>
@@ -355,7 +361,7 @@ function renderHistory(hist) {
       : `<span class="outcome pending">${koTs(r.kickoff) < Date.now() ? "待赛果" : "未开赛"}</span>`;
     return `<tr>
       <td><strong>${teamName(r.home)}</strong> vs <strong>${teamName(r.away)}</strong><br>
-          <span class="market">${(r.kickoff || "").replace("T", " ").slice(0, 16)}</span></td>
+          <span class="market">${bjDateTime(r.kickoff)}</span></td>
       <td><span class="market">${marketLabel(r)}</span></td>
       <td>${r.pick}</td>
       <td><div class="score"><span>${r.score}</span><div class="bar"><i style="width:${Math.min(r.score, 100)}%"></i></div></div></td>
