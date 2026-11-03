@@ -1,11 +1,51 @@
 {
-  "generated_at": "2026-11-03T07:45:28.794326+00:00",
-  "total_missed": 16,
+  "generated_at": "2026-11-03T08:42:34.809197+00:00",
+  "total_missed": 17,
   "days": [
     {
       "date": "2026-11-03",
-      "missed": 8,
+      "missed": 9,
       "items": [
+        {
+          "competition": "afc_cl",
+          "home": "纽卡斯尔喷气机",
+          "away": "上海海港",
+          "kickoff": "2026-11-03T07:45:00",
+          "market": "totals",
+          "sport": "football",
+          "pick": "大球（3.5）",
+          "side": "over",
+          "line": 3.5,
+          "score": 68.1,
+          "confidence": "watch",
+          "outcome": "loss",
+          "outcome_cn": "没中",
+          "home_goals": 0,
+          "away_goals": 2,
+          "book": "盘口 3.25 → 3.5，水位 大0.90/小0.86 → 大0.92/小0.88",
+          "diagnosis": [
+            "盘口 3.25 → 3.5，水位 大0.90/小0.86 → 大0.92/小0.88",
+            "最终总进球 2，相对盘口 3.5 偏小"
+          ],
+          "note": "大球（3.5） · 最终 0-2（总进球 2），未打出",
+          "signals": {
+            "line_desc": "升盘 3.25->3.5（看大）",
+            "over_desc": "大球水位平稳",
+            "line_first": 3.25,
+            "line_last": 3.5,
+            "over_first": 0.9,
+            "over_last": 0.92,
+            "under_first": 0.86,
+            "under_last": 0.88
+          },
+          "reasons": [
+            "大小球 升盘 3.25->3.5（看大）",
+            "大球水位平稳",
+            "主队近2场场均总进球 4.5",
+            "客队近2场场均总进球 3.5",
+            "历史交锋大小球：0次大/1次小（均线 3.25）"
+          ]
+        },
         {
           "competition": "nba",
           "home": "Golden State Warriors",
