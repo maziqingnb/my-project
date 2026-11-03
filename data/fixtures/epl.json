@@ -1,15 +1,5 @@
 [
   {
-    "key": "epl|纽卡斯尔联|埃弗顿|2026-11-02",
-    "competition": "epl",
-    "home": "纽卡斯尔联",
-    "away": "埃弗顿",
-    "kickoff": "2026-11-02T20:00:00",
-    "status": "upcoming",
-    "home_goals": null,
-    "away_goals": null
-  },
-  {
     "key": "epl|埃弗顿|coventrycity|2026-11-06",
     "competition": "epl",
     "home": "埃弗顿",

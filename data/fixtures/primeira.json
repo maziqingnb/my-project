@@ -1,25 +1,5 @@
 [
   {
-    "key": "primeira|本菲卡|艾华卡|2026-11-02",
-    "competition": "primeira",
-    "home": "本菲卡",
-    "away": "艾华卡",
-    "kickoff": "2026-11-02T20:15:00",
-    "status": "upcoming",
-    "home_goals": null,
-    "away_goals": null
-  },
-  {
-    "key": "primeira|吉维森特|吉马良斯|2026-11-02",
-    "competition": "primeira",
-    "home": "吉维森特",
-    "away": "吉马良斯",
-    "kickoff": "2026-11-02T20:15:00",
-    "status": "upcoming",
-    "home_goals": null,
-    "away_goals": null
-  },
-  {
     "key": "primeira|法马利康|阿罗卡|2026-11-06",
     "competition": "primeira",
     "home": "法马利康",

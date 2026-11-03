@@ -1,25 +1,5 @@
 [
   {
-    "key": "sweden|哥德堡盖斯|索尔纳|2026-11-02",
-    "competition": "sweden",
-    "home": "哥德堡盖斯",
-    "away": "索尔纳",
-    "kickoff": "2026-11-02T18:00:00",
-    "status": "upcoming",
-    "home_goals": null,
-    "away_goals": null
-  },
-  {
-    "key": "sweden|米亚尔比|卡尔马|2026-11-02",
-    "competition": "sweden",
-    "home": "米亚尔比",
-    "away": "卡尔马",
-    "kickoff": "2026-11-02T18:00:00",
-    "status": "upcoming",
-    "home_goals": null,
-    "away_goals": null
-  },
-  {
     "key": "sweden|天狼星|哈尔姆斯塔德|2026-11-03",
     "competition": "sweden",
     "home": "天狼星",

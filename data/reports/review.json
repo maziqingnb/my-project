@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-02T23:52:33.462516+00:00",
-  "total_missed": 9,
+  "generated_at": "2026-11-03T00:33:14.643965+00:00",
+  "total_missed": 8,
   "days": [
     {
       "date": "2026-11-02",
-      "missed": 5,
+      "missed": 4,
       "items": [
         {
           "competition": "argentina",
@@ -167,47 +167,6 @@
             "主队近1场 0胜0平1负，场均进1.0/失5.0",
             "客队近1场 0胜1平0负，场均进1.0/失1.0",
             "交手0次：主队0胜0平0负"
-          ]
-        },
-        {
-          "competition": "seriea",
-          "home": "萨索洛",
-          "away": "佛罗伦萨",
-          "kickoff": "2026-11-02T17:30:00",
-          "market": "handicap",
-          "sport": "football",
-          "pick": "客队（让 0.25）",
-          "side": "away",
-          "line": 0.25,
-          "score": 55.0,
-          "confidence": "watch",
-          "outcome": "half_loss",
-          "outcome_cn": "半输",
-          "home_goals": 1,
-          "away_goals": 1,
-          "book": "盘口 平手 → 主受让0.25，水位 主0.91/0.97 → 主0.84/1.05",
-          "diagnosis": [
-            "盘口 平手 → 主受让0.25，水位 主0.91/0.97 → 主0.84/1.05",
-            "最终 1-1，推荐侧相对盘口 -0.25 球（未打穿）"
-          ],
-          "note": "客队（让 0.25） · 最终 1-1（客队净胜 0），未打穿",
-          "signals": {
-            "line_desc": "降盘 0->0.25（主队走弱）",
-            "water_desc": "主队降水 0.91->0.84",
-            "line_first": 0,
-            "line_last": 0.25,
-            "home_water_first": 0.91,
-            "home_water_last": 0.84,
-            "away_water_first": 0.97,
-            "away_water_last": 1.05
-          },
-          "reasons": [
-            "亚盘 降盘 0->0.25（主队走弱）",
-            "主队降水 0.91->0.84",
-            "主队近2场 0胜1平1负，场均进1.5/失3.5",
-            "客队近3场 0胜2平1负，场均进1.3/失1.7",
-            "交手1次：主队0胜1平0负",
-            "历史交锋盘口覆盖：主队0次打穿/客队1次打穿（均线 +0.00）"
           ]
         }
       ]

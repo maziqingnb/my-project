@@ -1,0 +1,32 @@
+[
+  {
+    "fixture_key": "ucl|lask林茨|布拉迪斯拉发|2026-11-03",
+    "competition": "ucl",
+    "home": "LASK林茨",
+    "away": "布拉迪斯拉发",
+    "kickoff": "2026-11-03T20:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-02T20:00:00+00:00",
+    "handicap_line": -1.25,
+    "handicap_home": 0.96,
+    "handicap_away": 0.92,
+    "total_line": 3.25,
+    "over": 1.01,
+    "under": 0.85
+  },
+  {
+    "fixture_key": "ucl|lask林茨|布拉迪斯拉发|2026-11-03",
+    "competition": "ucl",
+    "home": "LASK林茨",
+    "away": "布拉迪斯拉发",
+    "kickoff": "2026-11-03T20:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-03T00:32:45.948031+00:00",
+    "handicap_line": -1.5,
+    "handicap_home": 1.02,
+    "handicap_away": 0.86,
+    "total_line": 3.5,
+    "over": 0.97,
+    "under": 0.91
+  }
+]

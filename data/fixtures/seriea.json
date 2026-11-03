@@ -1,25 +1,5 @@
 [
   {
-    "key": "seriea|萨索洛|佛罗伦萨|2026-11-02",
-    "competition": "seriea",
-    "home": "萨索洛",
-    "away": "佛罗伦萨",
-    "kickoff": "2026-11-02T17:30:00",
-    "status": "upcoming",
-    "home_goals": null,
-    "away_goals": null
-  },
-  {
-    "key": "seriea|亚特兰大|帕尔马|2026-11-02",
-    "competition": "seriea",
-    "home": "亚特兰大",
-    "away": "帕尔马",
-    "kickoff": "2026-11-02T19:45:00",
-    "status": "upcoming",
-    "home_goals": null,
-    "away_goals": null
-  },
-  {
     "key": "seriea|venezia|udinese|2026-11-06",
     "competition": "seriea",
     "home": "Venezia",

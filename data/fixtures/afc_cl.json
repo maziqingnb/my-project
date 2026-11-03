@@ -1,25 +1,5 @@
 [
   {
-    "key": "afc_cl|吉达联合|艾因|2026-11-02",
-    "competition": "afc_cl",
-    "home": "吉达联合",
-    "away": "艾因",
-    "kickoff": "2026-11-02T18:15:00",
-    "status": "upcoming",
-    "home_goals": null,
-    "away_goals": null
-  },
-  {
-    "key": "afc_cl|加拉法|卡达西亚|2026-11-02",
-    "competition": "afc_cl",
-    "home": "加拉法",
-    "away": "卡达西亚",
-    "kickoff": "2026-11-02T18:15:00",
-    "status": "upcoming",
-    "home_goals": null,
-    "away_goals": null
-  },
-  {
     "key": "afc_cl|纽卡斯尔喷气机|上海海港|2026-11-03",
     "competition": "afc_cl",
     "home": "纽卡斯尔喷气机",

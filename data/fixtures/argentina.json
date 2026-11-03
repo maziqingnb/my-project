@@ -1,45 +1,5 @@
 [
   {
-    "key": "argentina|防卫者|阿根廷独立|2026-11-02",
-    "competition": "argentina",
-    "home": "防卫者",
-    "away": "阿根廷独立",
-    "kickoff": "2026-11-02T22:00:00",
-    "status": "upcoming",
-    "home_goals": null,
-    "away_goals": null
-  },
-  {
-    "key": "argentina|普拉腾斯|科尔多瓦中央sde|2026-11-02",
-    "competition": "argentina",
-    "home": "普拉腾斯",
-    "away": "科尔多瓦中央SDE",
-    "kickoff": "2026-11-02T22:00:00",
-    "status": "upcoming",
-    "home_goals": null,
-    "away_goals": null
-  },
-  {
-    "key": "argentina|图库曼竞技|阿根廷青年人|2026-11-03",
-    "competition": "argentina",
-    "home": "图库曼竞技",
-    "away": "阿根廷青年人",
-    "kickoff": "2026-11-03T00:15:00",
-    "status": "upcoming",
-    "home_goals": null,
-    "away_goals": null
-  },
-  {
-    "key": "argentina|门多萨独立|班菲尔德|2026-11-03",
-    "competition": "argentina",
-    "home": "门多萨独立",
-    "away": "班菲尔德",
-    "kickoff": "2026-11-03T00:15:00",
-    "status": "upcoming",
-    "home_goals": null,
-    "away_goals": null
-  },
-  {
     "key": "argentina|阿尔多斯维|河床|2026-11-08",
     "competition": "argentina",
     "home": "阿尔多斯维",

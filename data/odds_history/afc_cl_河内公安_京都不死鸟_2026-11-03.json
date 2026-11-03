@@ -1,0 +1,32 @@
+[
+  {
+    "fixture_key": "afc_cl|河内公安|京都不死鸟|2026-11-03",
+    "competition": "afc_cl",
+    "home": "河内公安",
+    "away": "京都不死鸟",
+    "kickoff": "2026-11-03T12:15:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-02T12:15:00+00:00",
+    "handicap_line": 0.25,
+    "handicap_home": 0.84,
+    "handicap_away": 0.92,
+    "total_line": 2.75,
+    "over": 0.95,
+    "under": 0.81
+  },
+  {
+    "fixture_key": "afc_cl|河内公安|京都不死鸟|2026-11-03",
+    "competition": "afc_cl",
+    "home": "河内公安",
+    "away": "京都不死鸟",
+    "kickoff": "2026-11-03T12:15:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-03T00:33:02.163351+00:00",
+    "handicap_line": 0,
+    "handicap_home": 0.97,
+    "handicap_away": 0.85,
+    "total_line": 2.75,
+    "over": 1,
+    "under": 0.8
+  }
+]

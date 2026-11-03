@@ -1,15 +1,5 @@
 [
   {
-    "key": "ligue1|洛里昂|布雷斯特|2026-11-02",
-    "competition": "ligue1",
-    "home": "洛里昂",
-    "away": "布雷斯特",
-    "kickoff": "2026-11-02T19:45:00",
-    "status": "upcoming",
-    "home_goals": null,
-    "away_goals": null
-  },
-  {
     "key": "ligue1|toulouse|strasbourg|2026-11-06",
     "competition": "ligue1",
     "home": "Toulouse",

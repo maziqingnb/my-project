@@ -1,0 +1,32 @@
+[
+  {
+    "fixture_key": "ucl|顿涅茨克矿工|葡萄牙体育|2026-11-03",
+    "competition": "ucl",
+    "home": "顿涅茨克矿工",
+    "away": "葡萄牙体育",
+    "kickoff": "2026-11-03T17:45:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-02T17:45:00+00:00",
+    "handicap_line": 0.5,
+    "handicap_home": 1,
+    "handicap_away": 0.88,
+    "total_line": 3,
+    "over": 0.98,
+    "under": 0.88
+  },
+  {
+    "fixture_key": "ucl|顿涅茨克矿工|葡萄牙体育|2026-11-03",
+    "competition": "ucl",
+    "home": "顿涅茨克矿工",
+    "away": "葡萄牙体育",
+    "kickoff": "2026-11-03T17:45:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-03T00:32:33.557118+00:00",
+    "handicap_line": 0.5,
+    "handicap_home": 0.87,
+    "handicap_away": 1.01,
+    "total_line": 2.75,
+    "over": 0.9,
+    "under": 0.98
+  }
+]

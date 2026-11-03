@@ -1,0 +1,32 @@
+[
+  {
+    "fixture_key": "ucl|费耶诺德|intermilan|2026-11-03",
+    "competition": "ucl",
+    "home": "费耶诺德",
+    "away": "Inter Milan",
+    "kickoff": "2026-11-03T20:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-02T20:00:00+00:00",
+    "handicap_line": 0.75,
+    "handicap_home": 1.02,
+    "handicap_away": 0.86,
+    "total_line": 3.25,
+    "over": 0.88,
+    "under": 0.98
+  },
+  {
+    "fixture_key": "ucl|费耶诺德|intermilan|2026-11-03",
+    "competition": "ucl",
+    "home": "费耶诺德",
+    "away": "Inter Milan",
+    "kickoff": "2026-11-03T20:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-03T00:32:38.149060+00:00",
+    "handicap_line": 0.5,
+    "handicap_home": 1.03,
+    "handicap_away": 0.85,
+    "total_line": 3.25,
+    "over": 0.84,
+    "under": 1.04
+  }
+]

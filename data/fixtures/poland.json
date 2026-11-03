@@ -1,35 +1,5 @@
 [
   {
-    "key": "poland|拉多麦科|史拉斯科|2026-11-02",
-    "competition": "poland",
-    "home": "拉多麦科",
-    "away": "史拉斯科",
-    "kickoff": "2026-11-02T17:00:00",
-    "status": "upcoming",
-    "home_goals": null,
-    "away_goals": null
-  },
-  {
-    "key": "poland|卢宾扎格勒比|哥罗纳|2026-11-02",
-    "competition": "poland",
-    "home": "卢宾扎格勒比",
-    "away": "哥罗纳",
-    "kickoff": "2026-11-02T17:00:00",
-    "status": "upcoming",
-    "home_goals": null,
-    "away_goals": null
-  },
-  {
-    "key": "poland|琴斯托霍瓦|什切青|2026-11-02",
-    "competition": "poland",
-    "home": "琴斯托霍瓦",
-    "away": "什切青",
-    "kickoff": "2026-11-02T19:30:00",
-    "status": "upcoming",
-    "home_goals": null,
-    "away_goals": null
-  },
-  {
     "key": "poland|莫托路宾|普沃茨克维斯瓦|2026-11-06",
     "competition": "poland",
     "home": "莫托路宾",

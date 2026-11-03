@@ -1,0 +1,32 @@
+[
+  {
+    "fixture_key": "brasileirao|沙佩科恩斯|米拉索|2026-11-03",
+    "competition": "brasileirao",
+    "home": "沙佩科恩斯",
+    "away": "米拉索",
+    "kickoff": "2026-11-03T22:30:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-02T22:30:00+00:00",
+    "handicap_line": 0.25,
+    "handicap_home": 0.91,
+    "handicap_away": 0.97,
+    "total_line": 2.75,
+    "over": 1.03,
+    "under": 0.84
+  },
+  {
+    "fixture_key": "brasileirao|沙佩科恩斯|米拉索|2026-11-03",
+    "competition": "brasileirao",
+    "home": "沙佩科恩斯",
+    "away": "米拉索",
+    "kickoff": "2026-11-03T22:30:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-03T00:32:47.533451+00:00",
+    "handicap_line": 0.25,
+    "handicap_home": 1,
+    "handicap_away": 0.82,
+    "total_line": 2.5,
+    "over": 0.86,
+    "under": 0.94
+  }
+]
