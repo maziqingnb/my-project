@@ -1,11 +1,52 @@
 {
-  "generated_at": "2026-11-04T17:33:24.122624+00:00",
-  "total_missed": 16,
+  "generated_at": "2026-11-04T18:28:52.906338+00:00",
+  "total_missed": 17,
   "days": [
     {
       "date": "2026-11-04",
-      "missed": 1,
+      "missed": 2,
       "items": [
+        {
+          "competition": "afc_cl2",
+          "home": "阿布扎比统一",
+          "away": "哈尔迪亚",
+          "kickoff": "2026-11-04T16:00:00",
+          "market": "handicap",
+          "sport": "football",
+          "pick": "主队（让 1）",
+          "side": "home",
+          "line": -1,
+          "score": 70.0,
+          "confidence": "strong",
+          "outcome": "loss",
+          "outcome_cn": "没中",
+          "home_goals": 1,
+          "away_goals": 2,
+          "book": "盘口 主让1 → 主让1，水位 主0.91/0.85 → 主0.93/0.89",
+          "diagnosis": [
+            "盘口 主让1 → 主让1，水位 主0.91/0.85 → 主0.93/0.89",
+            "最终 1-2，推荐侧相对盘口 -2.00 球（未打穿）"
+          ],
+          "note": "主队（让 1） · 最终 1-2（主队净胜 -1），未打穿",
+          "signals": {
+            "line_desc": "盘口不变",
+            "water_desc": "水位平稳",
+            "line_first": -1,
+            "line_last": -1,
+            "home_water_first": 0.91,
+            "home_water_last": 0.93,
+            "away_water_first": 0.85,
+            "away_water_last": 0.89
+          },
+          "reasons": [
+            "亚盘 盘口不变",
+            "水位平稳",
+            "主队近1场 1胜0平0负，场均进2.0/失1.0",
+            "客队近1场 0胜0平1负，场均进1.0/失2.0",
+            "交手1次：主队1胜0平0负",
+            "历史交锋盘口覆盖：主队1次打穿/客队0次打穿（均线 +0.75）"
+          ]
+        },
         {
           "competition": "afc_cl2",
           "home": "FC首尔",

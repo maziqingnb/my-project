@@ -35,6 +35,39 @@
   {
     "competition": "afc_cl2",
     "cls": "cup",
+    "home": "阿布扎比统一",
+    "away": "哈尔迪亚",
+    "home_goals": 1,
+    "away_goals": 2,
+    "date": "2026-11-04",
+    "handicap_line": -1.0,
+    "total_line": 3.0
+  },
+  {
+    "competition": "afc_cl2",
+    "cls": "cup",
+    "home": "科威特竞技",
+    "away": "纳萨夫",
+    "home_goals": 2,
+    "away_goals": 3,
+    "date": "2026-11-04",
+    "handicap_line": -0.0,
+    "total_line": 2.5
+  },
+  {
+    "competition": "afc_cl2",
+    "cls": "cup",
+    "home": "赖扬",
+    "away": "拿达",
+    "home_goals": 2,
+    "away_goals": 0,
+    "date": "2026-11-04",
+    "handicap_line": -1.25,
+    "total_line": 3.0
+  },
+  {
+    "competition": "afc_cl2",
+    "cls": "cup",
     "home": "东孟加拉",
     "away": "锡卜",
     "home_goals": 0,
