@@ -1,4 +1,25 @@
 {
-  "generated_at": "2026-11-04T14:48:47.790541+00:00",
-  "matches": []
+  "generated_at": "2026-11-04T15:40:19.219998+00:00",
+  "matches": [
+    {
+      "fixture_key": "intl_friendly|中非共和国女足|乍得女足|2026-11-04",
+      "competition": "intl_friendly",
+      "home": "中非共和国女足",
+      "away": "乍得女足",
+      "kickoff": "2026-11-04T15:30:00",
+      "status": "live",
+      "home_goals": 0,
+      "away_goals": 1
+    },
+    {
+      "fixture_key": "europa_league|雷恩|奥林匹亚科斯|2026-11-04",
+      "competition": "europa_league",
+      "home": "雷恩",
+      "away": "奥林匹亚科斯",
+      "kickoff": "2026-11-04T15:30:00",
+      "status": "live",
+      "home_goals": 0,
+      "away_goals": 0
+    }
+  ]
 }

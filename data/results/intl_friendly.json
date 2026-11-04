@@ -24,6 +24,17 @@
   {
     "competition": "intl_friendly",
     "cls": "cup",
+    "home": "圣多美和普林西比女足",
+    "away": "刚果共和国女足",
+    "home_goals": 1,
+    "away_goals": 4,
+    "date": "2026-11-04",
+    "handicap_line": null,
+    "total_line": null
+  },
+  {
+    "competition": "intl_friendly",
+    "cls": "cup",
     "home": "苏格兰U16",
     "away": "葡萄牙U16",
     "home_goals": 1,
