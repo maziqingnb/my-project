@@ -88,5 +88,35 @@
     "total_line": 2.75,
     "over": 0.94,
     "under": 0.94
+  },
+  {
+    "fixture_key": "ucl|波尔图|napoli|2026-11-04",
+    "competition": "ucl",
+    "home": "波尔图",
+    "away": "Napoli",
+    "kickoff": "2026-11-04T20:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-03T20:00:00+00:00",
+    "handicap_line": -0.25,
+    "handicap_home": 0.9,
+    "handicap_away": 0.98,
+    "total_line": 2.75,
+    "over": 1.01,
+    "under": 0.85
+  },
+  {
+    "fixture_key": "ucl|波尔图|napoli|2026-11-04",
+    "competition": "ucl",
+    "home": "波尔图",
+    "away": "Napoli",
+    "kickoff": "2026-11-04T20:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-04T06:52:04.114765+00:00",
+    "handicap_line": -0.5,
+    "handicap_home": 0.92,
+    "handicap_away": 0.97,
+    "total_line": 2.75,
+    "over": 0.86,
+    "under": 1.02
   }
 ]

@@ -88,5 +88,35 @@
     "total_line": 2.5,
     "over": 0.93,
     "under": 0.87
+  },
+  {
+    "fixture_key": "afc_cl2|科威特竞技|纳萨夫|2026-11-04",
+    "competition": "afc_cl2",
+    "home": "科威特竞技",
+    "away": "纳萨夫",
+    "kickoff": "2026-11-04T16:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-03T16:00:00+00:00",
+    "handicap_line": 0,
+    "handicap_home": 0.74,
+    "handicap_away": 1.02,
+    "total_line": 2.5,
+    "over": 0.91,
+    "under": 0.85
+  },
+  {
+    "fixture_key": "afc_cl2|科威特竞技|纳萨夫|2026-11-04",
+    "competition": "afc_cl2",
+    "home": "科威特竞技",
+    "away": "纳萨夫",
+    "kickoff": "2026-11-04T16:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-04T06:52:39.415133+00:00",
+    "handicap_line": 0,
+    "handicap_home": 0.98,
+    "handicap_away": 0.84,
+    "total_line": 2.5,
+    "over": 0.81,
+    "under": 0.99
   }
 ]

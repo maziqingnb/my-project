@@ -223,5 +223,35 @@
     "total_line": 221.0,
     "over": 1.99,
     "under": 1.9
+  },
+  {
+    "fixture_key": "nba|houstonrockets|minnesotatimberwolves|2026-11-05",
+    "competition": "nba",
+    "home": "Houston Rockets",
+    "away": "Minnesota Timberwolves",
+    "kickoff": "2026-11-05T01:30:00Z",
+    "bookmaker": "unibet",
+    "ts": "2026-11-04T06:53:00.457522+00:00",
+    "handicap_line": -8.5,
+    "handicap_home": 1.91,
+    "handicap_away": 1.91,
+    "total_line": null,
+    "over": null,
+    "under": null
+  },
+  {
+    "fixture_key": "nba|houstonrockets|minnesotatimberwolves|2026-11-05",
+    "competition": "nba",
+    "home": "Houston Rockets",
+    "away": "Minnesota Timberwolves",
+    "kickoff": "2026-11-05T01:30:00Z",
+    "bookmaker": "pinnacle",
+    "ts": "2026-11-04T06:53:00.457522+00:00",
+    "handicap_line": -8.5,
+    "handicap_home": 1.97,
+    "handicap_away": 1.92,
+    "total_line": 220.5,
+    "over": 1.93,
+    "under": 1.93
   }
 ]

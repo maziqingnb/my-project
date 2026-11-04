@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T06:31:56.414325+00:00",
+  "generated_at": "2026-11-04T06:53:01.001420+00:00",
   "scope": "16 个联赛 + 5 个杯赛",
   "note": "杯赛与联赛数据分开计算；仅开赛前 6h 内出推荐；命中率只统计强推",
   "total": 2,
@@ -290,6 +290,12 @@
           "handicap_away": 0.86
         },
         {
+          "ts": "2026-11-03T07:45:00+00:00",
+          "handicap_line": -0.5,
+          "handicap_home": 0.9,
+          "handicap_away": 0.86
+        },
+        {
           "ts": "2026-11-04T00:31:42.588957+00:00",
           "handicap_line": -0.5,
           "handicap_home": 0.97,
@@ -306,12 +312,18 @@
           "handicap_line": -0.5,
           "handicap_home": 0.9,
           "handicap_away": 0.92
+        },
+        {
+          "ts": "2026-11-04T06:52:29.402046+00:00",
+          "handicap_line": -0.5,
+          "handicap_home": 0.97,
+          "handicap_away": 0.85
         }
       ],
       "competition_name": "亚冠二级",
       "competition_class": "cup",
       "sport": "football",
-      "lead_hours": 3.028103906944444,
+      "lead_hours": 0.8751660983333333,
       "prematch": false,
       "result": {
         "settled": false
@@ -366,6 +378,12 @@
           "under": 0.9
         },
         {
+          "ts": "2026-11-03T10:00:00+00:00",
+          "total_line": 3,
+          "over": 0.86,
+          "under": 0.9
+        },
+        {
           "ts": "2026-11-04T00:31:43.940097+00:00",
           "total_line": 3.25,
           "over": 0.85,
@@ -382,12 +400,18 @@
           "total_line": 3.5,
           "over": 0.89,
           "under": 0.91
+        },
+        {
+          "ts": "2026-11-04T06:52:31.329627+00:00",
+          "total_line": 3.5,
+          "over": 0.94,
+          "under": 0.86
         }
       ],
       "competition_name": "亚冠二级",
       "competition_class": "cup",
       "sport": "football",
-      "lead_hours": 5.277402944166667,
+      "lead_hours": 3.124630659166667,
       "prematch": false,
       "result": {
         "settled": false
