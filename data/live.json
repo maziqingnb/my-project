@@ -1,45 +1,4 @@
 {
-  "generated_at": "2026-11-04T18:28:51.231647+00:00",
-  "matches": [
-    {
-      "fixture_key": "ucl|aek雅典|realmadrid|2026-11-04",
-      "competition": "ucl",
-      "home": "AEK雅典",
-      "away": "Real Madrid",
-      "kickoff": "2026-11-04T17:45:00",
-      "status": "live",
-      "home_goals": 1,
-      "away_goals": 1
-    },
-    {
-      "fixture_key": "ucl|费内巴切|liverpool|2026-11-04",
-      "competition": "ucl",
-      "home": "费内巴切",
-      "away": "Liverpool",
-      "kickoff": "2026-11-04T17:45:00",
-      "status": "live",
-      "home_goals": 1,
-      "away_goals": 1
-    },
-    {
-      "fixture_key": "afc_cl2|慕哈瑞克|阿布扎比半岛|2026-11-04",
-      "competition": "afc_cl2",
-      "home": "慕哈瑞克",
-      "away": "阿布扎比半岛",
-      "kickoff": "2026-11-04T18:15:00",
-      "status": "live",
-      "home_goals": 0,
-      "away_goals": 0
-    },
-    {
-      "fixture_key": "afc_cl2|布赖代合作|阿尔费萨里安曼|2026-11-04",
-      "competition": "afc_cl2",
-      "home": "布赖代合作",
-      "away": "阿尔费萨里安曼",
-      "kickoff": "2026-11-04T18:15:00",
-      "status": "live",
-      "home_goals": 0,
-      "away_goals": 0
-    }
-  ]
+  "generated_at": "2026-11-04T19:37:14.109068+00:00",
+  "matches": []
 }
