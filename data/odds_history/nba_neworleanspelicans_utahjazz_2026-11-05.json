@@ -163,5 +163,35 @@
     "total_line": 235.0,
     "over": 1.9,
     "under": 1.96
+  },
+  {
+    "fixture_key": "nba|neworleanspelicans|utahjazz|2026-11-05",
+    "competition": "nba",
+    "home": "New Orleans Pelicans",
+    "away": "Utah Jazz",
+    "kickoff": "2026-11-05T01:10:00Z",
+    "bookmaker": "unibet",
+    "ts": "2026-11-04T16:43:58.517951+00:00",
+    "handicap_line": -5.5,
+    "handicap_home": 1.92,
+    "handicap_away": 1.89,
+    "total_line": null,
+    "over": null,
+    "under": null
+  },
+  {
+    "fixture_key": "nba|neworleanspelicans|utahjazz|2026-11-05",
+    "competition": "nba",
+    "home": "New Orleans Pelicans",
+    "away": "Utah Jazz",
+    "kickoff": "2026-11-05T01:10:00Z",
+    "bookmaker": "pinnacle",
+    "ts": "2026-11-04T16:43:58.517951+00:00",
+    "handicap_line": -5.5,
+    "handicap_home": 1.87,
+    "handicap_away": 2.04,
+    "total_line": 234.0,
+    "over": 2.0,
+    "under": 1.89
   }
 ]

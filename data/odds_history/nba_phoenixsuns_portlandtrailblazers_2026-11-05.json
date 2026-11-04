@@ -193,5 +193,35 @@
     "total_line": 227.5,
     "over": 1.89,
     "under": 1.97
+  },
+  {
+    "fixture_key": "nba|phoenixsuns|portlandtrailblazers|2026-11-05",
+    "competition": "nba",
+    "home": "Phoenix Suns",
+    "away": "Portland Trail Blazers",
+    "kickoff": "2026-11-05T02:00:00Z",
+    "bookmaker": "unibet",
+    "ts": "2026-11-04T16:43:58.517951+00:00",
+    "handicap_line": 2.5,
+    "handicap_home": 1.92,
+    "handicap_away": 1.9,
+    "total_line": null,
+    "over": null,
+    "under": null
+  },
+  {
+    "fixture_key": "nba|phoenixsuns|portlandtrailblazers|2026-11-05",
+    "competition": "nba",
+    "home": "Phoenix Suns",
+    "away": "Portland Trail Blazers",
+    "kickoff": "2026-11-05T02:00:00Z",
+    "bookmaker": "pinnacle",
+    "ts": "2026-11-04T16:43:58.517951+00:00",
+    "handicap_line": 3.0,
+    "handicap_home": 1.95,
+    "handicap_away": 1.95,
+    "total_line": 227.5,
+    "over": 1.91,
+    "under": 1.98
   }
 ]

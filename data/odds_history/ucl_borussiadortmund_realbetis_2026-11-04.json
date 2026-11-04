@@ -178,5 +178,35 @@
     "total_line": 3.25,
     "over": 1.03,
     "under": 0.85
+  },
+  {
+    "fixture_key": "ucl|borussiadortmund|realbetis|2026-11-04",
+    "competition": "ucl",
+    "home": "Borussia Dortmund",
+    "away": "Real Betis",
+    "kickoff": "2026-11-04T20:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-03T20:00:00+00:00",
+    "handicap_line": -0.75,
+    "handicap_home": 0.93,
+    "handicap_away": 0.95,
+    "total_line": 3.25,
+    "over": 1.01,
+    "under": 0.85
+  },
+  {
+    "fixture_key": "ucl|borussiadortmund|realbetis|2026-11-04",
+    "competition": "ucl",
+    "home": "Borussia Dortmund",
+    "away": "Real Betis",
+    "kickoff": "2026-11-04T20:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-04T16:43:38.835246+00:00",
+    "handicap_line": -0.75,
+    "handicap_home": 0.82,
+    "handicap_away": 1.07,
+    "total_line": 3.25,
+    "over": 0.98,
+    "under": 0.9
   }
 ]

@@ -163,5 +163,35 @@
     "total_line": 234.5,
     "over": 1.88,
     "under": 1.99
+  },
+  {
+    "fixture_key": "nba|sacramentokings|losangeleslakers|2026-11-05",
+    "competition": "nba",
+    "home": "Sacramento Kings",
+    "away": "Los Angeles Lakers",
+    "kickoff": "2026-11-05T03:10:00Z",
+    "bookmaker": "unibet",
+    "ts": "2026-11-04T16:43:58.517951+00:00",
+    "handicap_line": 12.5,
+    "handicap_home": 1.92,
+    "handicap_away": 1.9,
+    "total_line": null,
+    "over": null,
+    "under": null
+  },
+  {
+    "fixture_key": "nba|sacramentokings|losangeleslakers|2026-11-05",
+    "competition": "nba",
+    "home": "Sacramento Kings",
+    "away": "Los Angeles Lakers",
+    "kickoff": "2026-11-05T03:10:00Z",
+    "bookmaker": "pinnacle",
+    "ts": "2026-11-04T16:43:58.517951+00:00",
+    "handicap_line": 12.0,
+    "handicap_home": 1.95,
+    "handicap_away": 1.95,
+    "total_line": 234.5,
+    "over": 1.97,
+    "under": 1.92
   }
 ]

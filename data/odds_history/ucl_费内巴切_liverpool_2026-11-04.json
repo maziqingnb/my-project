@@ -178,5 +178,35 @@
     "total_line": 3.5,
     "over": 0.91,
     "under": 0.97
+  },
+  {
+    "fixture_key": "ucl|费内巴切|liverpool|2026-11-04",
+    "competition": "ucl",
+    "home": "费内巴切",
+    "away": "Liverpool",
+    "kickoff": "2026-11-04T17:45:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-03T17:45:00+00:00",
+    "handicap_line": 0.75,
+    "handicap_home": 1.03,
+    "handicap_away": 0.85,
+    "total_line": 3.25,
+    "over": 1.03,
+    "under": 0.83
+  },
+  {
+    "fixture_key": "ucl|费内巴切|liverpool|2026-11-04",
+    "competition": "ucl",
+    "home": "费内巴切",
+    "away": "Liverpool",
+    "kickoff": "2026-11-04T17:45:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-04T16:43:32.368889+00:00",
+    "handicap_line": 1,
+    "handicap_home": 1.03,
+    "handicap_away": 0.86,
+    "total_line": 3.25,
+    "over": 0.93,
+    "under": 0.95
   }
 ]
