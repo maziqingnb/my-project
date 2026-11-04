@@ -28,5 +28,20 @@
     "total_line": null,
     "over": null,
     "under": null
+  },
+  {
+    "fixture_key": "intl_friendly|阿联酋u16|印度u17|2026-11-04",
+    "competition": "intl_friendly",
+    "home": "阿联酋U16",
+    "away": "印度U17",
+    "kickoff": "2026-11-04T15:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-04T04:43:34.720151+00:00",
+    "handicap_line": null,
+    "handicap_home": null,
+    "handicap_away": null,
+    "total_line": null,
+    "over": null,
+    "under": null
   }
 ]

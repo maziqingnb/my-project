@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-04T04:27:39.472699+00:00",
+  "generated_at": "2026-11-04T04:43:37.746922+00:00",
   "scope": "16 个联赛 + 5 个杯赛",
   "note": "杯赛与联赛数据分开计算；仅开赛前 6h 内出推荐；命中率只统计强推",
-  "total": 1,
+  "total": 2,
   "stats": {
     "overall": {
       "counts": {
@@ -284,6 +284,12 @@
           "handicap_away": 0.86
         },
         {
+          "ts": "2026-11-03T07:45:00+00:00",
+          "handicap_line": -0.5,
+          "handicap_home": 0.9,
+          "handicap_away": 0.86
+        },
+        {
           "ts": "2026-11-04T00:31:42.588957+00:00",
           "handicap_line": -0.5,
           "handicap_home": 0.97,
@@ -294,12 +300,94 @@
           "handicap_line": -0.5,
           "handicap_home": 0.97,
           "handicap_away": 0.85
+        },
+        {
+          "ts": "2026-11-04T04:43:18.825935+00:00",
+          "handicap_line": -0.5,
+          "handicap_home": 0.9,
+          "handicap_away": 0.92
         }
       ],
       "competition_name": "亚冠二级",
       "competition_class": "cup",
       "sport": "football",
-      "lead_hours": 5.113627943611111,
+      "lead_hours": 3.028103906944444,
+      "prematch": false,
+      "result": {
+        "settled": false
+      }
+    },
+    {
+      "fixture_key": "afc_cl2|fc首尔|越电信|2026-11-04",
+      "competition": "afc_cl2",
+      "home": "FC首尔",
+      "away": "越电信",
+      "kickoff": "2026-11-04T10:00:00",
+      "market": "totals",
+      "pick": "大球（3.5）",
+      "side": "over",
+      "confidence": "strong",
+      "score": 70.0,
+      "line": 3.5,
+      "reasons": [
+        "大小球 升盘 3->3.5（看大）",
+        "大球升水 0.86->0.89",
+        "主队近1场场均总进球 5.0",
+        "客队近1场场均总进球 5.0",
+        "历史交锋大小球：1次大/0次小（均线 2.75）"
+      ],
+      "signals": {
+        "line_desc": "升盘 3->3.5（看大）",
+        "over_desc": "大球升水 0.86->0.89",
+        "line_first": 3,
+        "line_last": 3.5,
+        "over_first": 0.86,
+        "over_last": 0.89,
+        "under_first": 0.9,
+        "under_last": 0.91
+      },
+      "history": [
+        {
+          "ts": "2026-11-03T10:00:00+00:00",
+          "total_line": 3,
+          "over": 0.86,
+          "under": 0.9
+        },
+        {
+          "ts": "2026-11-03T10:00:00+00:00",
+          "total_line": 3,
+          "over": 0.86,
+          "under": 0.9
+        },
+        {
+          "ts": "2026-11-03T10:00:00+00:00",
+          "total_line": 3,
+          "over": 0.86,
+          "under": 0.9
+        },
+        {
+          "ts": "2026-11-04T00:31:43.940097+00:00",
+          "total_line": 3.25,
+          "over": 0.85,
+          "under": 0.95
+        },
+        {
+          "ts": "2026-11-04T02:38:12.527794+00:00",
+          "total_line": 3.25,
+          "over": 0.85,
+          "under": 0.95
+        },
+        {
+          "ts": "2026-11-04T04:43:21.349401+00:00",
+          "total_line": 3.5,
+          "over": 0.89,
+          "under": 0.91
+        }
+      ],
+      "competition_name": "亚冠二级",
+      "competition_class": "cup",
+      "sport": "football",
+      "lead_hours": 5.277402944166667,
       "prematch": false,
       "result": {
         "settled": false
