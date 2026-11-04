@@ -2,6 +2,28 @@
   {
     "competition": "ucl",
     "cls": "cup",
+    "home": "AEK雅典",
+    "away": "Real Madrid",
+    "home_goals": 2,
+    "away_goals": 3,
+    "date": "2026-11-04",
+    "handicap_line": 1.5,
+    "total_line": 3.75
+  },
+  {
+    "competition": "ucl",
+    "cls": "cup",
+    "home": "费内巴切",
+    "away": "Liverpool",
+    "home_goals": 3,
+    "away_goals": 2,
+    "date": "2026-11-04",
+    "handicap_line": 0.75,
+    "total_line": 3.25
+  },
+  {
+    "competition": "ucl",
+    "cls": "cup",
     "home": "顿涅茨克矿工",
     "away": "葡萄牙体育",
     "home_goals": 0,
