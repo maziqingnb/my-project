@@ -2,6 +2,17 @@
   {
     "competition": "afc_cl2",
     "cls": "cup",
+    "home": "墨尔本胜利",
+    "away": "万隆",
+    "home_goals": 1,
+    "away_goals": 2,
+    "date": "2026-11-04",
+    "handicap_line": -0.5,
+    "total_line": 2.5
+  },
+  {
+    "competition": "afc_cl2",
+    "cls": "cup",
     "home": "东孟加拉",
     "away": "锡卜",
     "home_goals": 0,
