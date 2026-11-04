@@ -2,24 +2,13 @@
   {
     "competition": "greeksl",
     "cls": "league",
-    "home": "阿特罗米托斯",
-    "away": "维洛斯NFC",
-    "home_goals": 3,
-    "away_goals": 0,
-    "date": "2026-11-02",
-    "handicap_line": -0.5,
+    "home": "基菲萨",
+    "away": "奥林匹亚科斯",
+    "home_goals": 2,
+    "away_goals": 3,
+    "date": "2026-10-31",
+    "handicap_line": 1.25,
     "total_line": 2.5
-  },
-  {
-    "competition": "greeksl",
-    "cls": "league",
-    "home": "卡拉玛达",
-    "away": "伊拉克里斯",
-    "home_goals": 1,
-    "away_goals": 1,
-    "date": "2026-11-02",
-    "handicap_line": -0.25,
-    "total_line": 2.25
   },
   {
     "competition": "greeksl",
@@ -68,56 +57,23 @@
   {
     "competition": "greeksl",
     "cls": "league",
-    "home": "基菲萨",
-    "away": "奥林匹亚科斯",
-    "home_goals": 2,
-    "away_goals": 3,
-    "date": "2026-10-31",
-    "handicap_line": 1.25,
-    "total_line": 2.5
-  },
-  {
-    "competition": "greeksl",
-    "cls": "league",
-    "home": "奥林匹亚科斯",
-    "away": "卡拉玛达",
-    "home_goals": 5,
-    "away_goals": 0,
-    "date": "2026-10-25",
-    "handicap_line": -2.25,
-    "total_line": 3.0
-  },
-  {
-    "competition": "greeksl",
-    "cls": "league",
-    "home": "维洛斯NFC",
-    "away": "帕纳辛纳科斯",
-    "home_goals": 0,
-    "away_goals": 1,
-    "date": "2026-10-25",
-    "handicap_line": 1.25,
-    "total_line": 2.75
-  },
-  {
-    "competition": "greeksl",
-    "cls": "league",
-    "home": "阿里斯",
-    "away": "阿特罗米托斯",
+    "home": "阿特罗米托斯",
+    "away": "维洛斯NFC",
     "home_goals": 3,
-    "away_goals": 1,
-    "date": "2026-10-25",
-    "handicap_line": -0.75,
+    "away_goals": 0,
+    "date": "2026-11-02",
+    "handicap_line": -0.5,
     "total_line": 2.5
   },
   {
     "competition": "greeksl",
     "cls": "league",
-    "home": "OFI克里特",
-    "away": "塞萨洛尼基",
-    "home_goals": 2,
+    "home": "卡拉玛达",
+    "away": "伊拉克里斯",
+    "home_goals": 1,
     "away_goals": 1,
-    "date": "2026-10-25",
-    "handicap_line": 0.75,
-    "total_line": 2.75
+    "date": "2026-11-02",
+    "handicap_line": -0.25,
+    "total_line": 2.25
   }
 ]

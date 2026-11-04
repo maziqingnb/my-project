@@ -238,5 +238,35 @@
     "total_line": 3.5,
     "over": 0.88,
     "under": 1
+  },
+  {
+    "fixture_key": "ucl|埃因霍温|布鲁日|2026-11-04",
+    "competition": "ucl",
+    "home": "埃因霍温",
+    "away": "布鲁日",
+    "kickoff": "2026-11-04T20:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-03T20:00:00+00:00",
+    "handicap_line": 0,
+    "handicap_home": 0.9,
+    "handicap_away": 0.98,
+    "total_line": 3.5,
+    "over": 0.97,
+    "under": 0.89
+  },
+  {
+    "fixture_key": "ucl|埃因霍温|布鲁日|2026-11-04",
+    "competition": "ucl",
+    "home": "埃因霍温",
+    "away": "布鲁日",
+    "kickoff": "2026-11-04T20:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-04T18:43:54.586300+00:00",
+    "handicap_line": -0.5,
+    "handicap_home": 0.97,
+    "handicap_away": 0.92,
+    "total_line": 3.5,
+    "over": 0.88,
+    "under": 1
   }
 ]

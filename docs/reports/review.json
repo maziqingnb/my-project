@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-04T18:42:03.239533+00:00",
-  "total_missed": 17,
+  "generated_at": "2026-11-04T18:44:07.094997+00:00",
+  "total_missed": 18,
   "days": [
     {
       "date": "2026-11-04",
@@ -92,7 +92,7 @@
     },
     {
       "date": "2026-11-03",
-      "missed": 11,
+      "missed": 12,
       "items": [
         {
           "competition": "ucl",
@@ -486,6 +486,46 @@
             "大球升水 0.9->0.93",
             "主队近1场场均总进球 1.0",
             "客队近0场场均总进球 0.0"
+          ]
+        },
+        {
+          "competition": "argentina",
+          "home": "图库曼竞技",
+          "away": "阿根廷青年人",
+          "kickoff": "2026-11-03T00:15:00",
+          "market": "totals",
+          "sport": "football",
+          "pick": "小球（2）",
+          "side": "under",
+          "line": 2,
+          "score": 72.5,
+          "confidence": "strong",
+          "outcome": "loss",
+          "outcome_cn": "没中",
+          "home_goals": 1,
+          "away_goals": 2,
+          "book": "盘口 2 → 2，水位 大0.90/小0.97 → 大0.90/小0.97",
+          "diagnosis": [
+            "盘口 2 → 2，水位 大0.90/小0.97 → 大0.90/小0.97",
+            "最终总进球 3，相对盘口 2 偏大"
+          ],
+          "note": "小球（2） · 最终 1-2（总进球 3），未打出",
+          "signals": {
+            "line_desc": "盘口不变",
+            "over_desc": "大球水位平稳",
+            "line_first": 2,
+            "line_last": 2,
+            "over_first": 0.9,
+            "over_last": 0.9,
+            "under_first": 0.97,
+            "under_last": 0.97
+          },
+          "reasons": [
+            "大小球 盘口不变",
+            "大球水位平稳",
+            "主队近1场场均总进球 2.0",
+            "客队近2场场均总进球 1.5",
+            "历史交锋大小球：0次大/1次小（均线 2.00）"
           ]
         },
         {

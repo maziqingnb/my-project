@@ -1,90 +1,130 @@
 [
   {
-    "key": "argentina|阿尔多斯维|河床|2026-11-08",
+    "key": "argentina|阿尔多斯维|河床|2026-11-05",
     "competition": "argentina",
     "home": "阿尔多斯维",
     "away": "河床",
-    "kickoff": "2026-11-08T21:00:00",
+    "kickoff": "2026-11-05T18:00:00",
     "status": "upcoming",
     "home_goals": null,
     "away_goals": null
   },
   {
-    "key": "argentina|阿根廷青年人|飓风队|2026-11-08",
-    "competition": "argentina",
-    "home": "阿根廷青年人",
-    "away": "飓风队",
-    "kickoff": "2026-11-08T21:00:00",
-    "status": "upcoming",
-    "home_goals": null,
-    "away_goals": null
-  },
-  {
-    "key": "argentina|班菲尔德|图库曼竞技|2026-11-08",
-    "competition": "argentina",
-    "home": "班菲尔德",
-    "away": "图库曼竞技",
-    "kickoff": "2026-11-08T21:00:00",
-    "status": "upcoming",
-    "home_goals": null,
-    "away_goals": null
-  },
-  {
-    "key": "argentina|巴拉卡斯中央队|竞技俱乐部|2026-11-08",
-    "competition": "argentina",
-    "home": "巴拉卡斯中央队",
-    "away": "竞技俱乐部",
-    "kickoff": "2026-11-08T21:00:00",
-    "status": "upcoming",
-    "home_goals": null,
-    "away_goals": null
-  },
-  {
-    "key": "argentina|博卡青年|防卫者|2026-11-08",
-    "competition": "argentina",
-    "home": "博卡青年",
-    "away": "防卫者",
-    "kickoff": "2026-11-08T21:00:00",
-    "status": "upcoming",
-    "home_goals": null,
-    "away_goals": null
-  },
-  {
-    "key": "argentina|科尔多瓦中央sde|拉努斯|2026-11-08",
-    "competition": "argentina",
-    "home": "科尔多瓦中央SDE",
-    "away": "拉努斯",
-    "kickoff": "2026-11-08T21:00:00",
-    "status": "upcoming",
-    "home_goals": null,
-    "away_goals": null
-  },
-  {
-    "key": "argentina|拉普拉塔体操|贝尔格拉诺|2026-11-08",
+    "key": "argentina|拉普拉塔体操|贝尔格拉诺|2026-11-05",
     "competition": "argentina",
     "home": "拉普拉塔体操",
     "away": "贝尔格拉诺",
-    "kickoff": "2026-11-08T21:00:00",
+    "kickoff": "2026-11-05T22:15:00",
     "status": "upcoming",
     "home_goals": null,
     "away_goals": null
   },
   {
-    "key": "argentina|甘拿斯亚门多萨|门多萨独立|2026-11-08",
+    "key": "argentina|巴拉卡斯中央队|竞技俱乐部|2026-11-06",
     "competition": "argentina",
-    "home": "甘拿斯亚门多萨",
-    "away": "门多萨独立",
-    "kickoff": "2026-11-08T21:00:00",
+    "home": "巴拉卡斯中央队",
+    "away": "竞技俱乐部",
+    "kickoff": "2026-11-06T18:00:00",
     "status": "upcoming",
     "home_goals": null,
     "away_goals": null
   },
   {
-    "key": "argentina|阿根廷独立|利斯特雷|2026-11-08",
+    "key": "argentina|阿根廷独立|利斯特雷|2026-11-06",
     "competition": "argentina",
     "home": "阿根廷独立",
     "away": "利斯特雷",
-    "kickoff": "2026-11-08T21:00:00",
+    "kickoff": "2026-11-06T22:00:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "argentina|圣洛伦索|普拉腾斯|2026-11-06",
+    "competition": "argentina",
+    "home": "圣洛伦索",
+    "away": "普拉腾斯",
+    "kickoff": "2026-11-06T22:00:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "argentina|圣塔菲联|萨斯菲尔德|2026-11-06",
+    "competition": "argentina",
+    "home": "圣塔菲联",
+    "away": "萨斯菲尔德",
+    "kickoff": "2026-11-06T22:00:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "argentina|班菲尔德|图库曼竞技|2026-11-07",
+    "competition": "argentina",
+    "home": "班菲尔德",
+    "away": "图库曼竞技",
+    "kickoff": "2026-11-07T01:00:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "argentina|泰格雷|萨尔米安杜|2026-11-07",
+    "competition": "argentina",
+    "home": "泰格雷",
+    "away": "萨尔米安杜",
+    "kickoff": "2026-11-07T01:00:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "argentina|甘拿斯亚门多萨|门多萨独立|2026-11-07",
+    "competition": "argentina",
+    "home": "甘拿斯亚门多萨",
+    "away": "门多萨独立",
+    "kickoff": "2026-11-07T18:00:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "argentina|塔勒瑞斯|拉普拉塔大学生|2026-11-07",
+    "competition": "argentina",
+    "home": "塔勒瑞斯",
+    "away": "拉普拉塔大学生",
+    "kickoff": "2026-11-07T18:00:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "argentina|阿根廷青年人|飓风队|2026-11-07",
+    "competition": "argentina",
+    "home": "阿根廷青年人",
+    "away": "飓风队",
+    "kickoff": "2026-11-07T20:30:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "argentina|博卡青年|防卫者|2026-11-07",
+    "competition": "argentina",
+    "home": "博卡青年",
+    "away": "防卫者",
+    "kickoff": "2026-11-07T20:30:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "argentina|罗萨里奥中央|里奥夸尔托学生队|2026-11-07",
+    "competition": "argentina",
+    "home": "罗萨里奥中央",
+    "away": "里奥夸尔托学生队",
+    "kickoff": "2026-11-07T20:30:00",
     "status": "upcoming",
     "home_goals": null,
     "away_goals": null
@@ -94,57 +134,17 @@
     "competition": "argentina",
     "home": "科尔多瓦学院",
     "away": "纽维尔老男孩",
-    "kickoff": "2026-11-08T21:00:00",
+    "kickoff": "2026-11-08T01:00:00",
     "status": "upcoming",
     "home_goals": null,
     "away_goals": null
   },
   {
-    "key": "argentina|罗萨里奥中央|里奥夸尔托学生队|2026-11-08",
+    "key": "argentina|科尔多瓦中央sde|拉努斯|2026-11-08",
     "competition": "argentina",
-    "home": "罗萨里奥中央",
-    "away": "里奥夸尔托学生队",
-    "kickoff": "2026-11-08T21:00:00",
-    "status": "upcoming",
-    "home_goals": null,
-    "away_goals": null
-  },
-  {
-    "key": "argentina|圣洛伦索|普拉腾斯|2026-11-08",
-    "competition": "argentina",
-    "home": "圣洛伦索",
-    "away": "普拉腾斯",
-    "kickoff": "2026-11-08T21:00:00",
-    "status": "upcoming",
-    "home_goals": null,
-    "away_goals": null
-  },
-  {
-    "key": "argentina|塔勒瑞斯|拉普拉塔大学生|2026-11-08",
-    "competition": "argentina",
-    "home": "塔勒瑞斯",
-    "away": "拉普拉塔大学生",
-    "kickoff": "2026-11-08T21:00:00",
-    "status": "upcoming",
-    "home_goals": null,
-    "away_goals": null
-  },
-  {
-    "key": "argentina|泰格雷|萨尔米安杜|2026-11-08",
-    "competition": "argentina",
-    "home": "泰格雷",
-    "away": "萨尔米安杜",
-    "kickoff": "2026-11-08T21:00:00",
-    "status": "upcoming",
-    "home_goals": null,
-    "away_goals": null
-  },
-  {
-    "key": "argentina|圣塔菲联|萨斯菲尔德|2026-11-08",
-    "competition": "argentina",
-    "home": "圣塔菲联",
-    "away": "萨斯菲尔德",
-    "kickoff": "2026-11-08T21:00:00",
+    "home": "科尔多瓦中央SDE",
+    "away": "拉努斯",
+    "kickoff": "2026-11-08T22:30:00",
     "status": "upcoming",
     "home_goals": null,
     "away_goals": null

@@ -1,25 +1,5 @@
 [
   {
-    "key": "brasileirao|沙佩科恩斯|米拉索|2026-11-03",
-    "competition": "brasileirao",
-    "home": "沙佩科恩斯",
-    "away": "米拉索",
-    "kickoff": "2026-11-03T22:30:00",
-    "status": "upcoming",
-    "home_goals": null,
-    "away_goals": null
-  },
-  {
-    "key": "brasileirao|巴西国际|科里蒂巴|2026-11-04",
-    "competition": "brasileirao",
-    "home": "巴西国际",
-    "away": "科里蒂巴",
-    "kickoff": "2026-11-04T00:30:00",
-    "status": "upcoming",
-    "home_goals": null,
-    "away_goals": null
-  },
-  {
     "key": "brasileirao|巴拉纳竞技|瓦斯科达伽马|2026-11-04",
     "competition": "brasileirao",
     "home": "巴拉纳竞技",

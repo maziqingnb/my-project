@@ -223,5 +223,35 @@
     "total_line": 228.5,
     "over": 1.97,
     "under": 1.92
+  },
+  {
+    "fixture_key": "nba|memphisgrizzlies|indianapacers|2026-11-05",
+    "competition": "nba",
+    "home": "Memphis Grizzlies",
+    "away": "Indiana Pacers",
+    "kickoff": "2026-11-05T01:10:00Z",
+    "bookmaker": "unibet",
+    "ts": "2026-11-04T18:44:06.608166+00:00",
+    "handicap_line": -5.5,
+    "handicap_home": 1.88,
+    "handicap_away": 1.94,
+    "total_line": null,
+    "over": null,
+    "under": null
+  },
+  {
+    "fixture_key": "nba|memphisgrizzlies|indianapacers|2026-11-05",
+    "competition": "nba",
+    "home": "Memphis Grizzlies",
+    "away": "Indiana Pacers",
+    "kickoff": "2026-11-05T01:10:00Z",
+    "bookmaker": "pinnacle",
+    "ts": "2026-11-04T18:44:06.608166+00:00",
+    "handicap_line": -5.5,
+    "handicap_home": 1.88,
+    "handicap_away": 2.03,
+    "total_line": 228.5,
+    "over": 1.97,
+    "under": 1.92
   }
 ]
