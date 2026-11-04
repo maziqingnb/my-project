@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-04T08:46:36.663321+00:00",
+  "generated_at": "2026-11-04T10:57:35.168967+00:00",
   "scope": "16 个联赛 + 5 个杯赛",
   "note": "杯赛与联赛数据分开计算；仅开赛前 6h 内出推荐；命中率只统计强推",
-  "total": 3,
+  "total": 6,
   "stats": {
     "overall": {
       "counts": {
@@ -301,6 +301,12 @@
           "under": 1.01
         },
         {
+          "ts": "2026-11-03T13:45:00+00:00",
+          "total_line": 2,
+          "over": 0.75,
+          "under": 1.01
+        },
+        {
           "ts": "2026-11-04T00:31:47.131686+00:00",
           "total_line": 2,
           "over": 0.82,
@@ -329,12 +335,18 @@
           "total_line": 2,
           "over": 0.92,
           "under": 0.88
+        },
+        {
+          "ts": "2026-11-04T10:57:15.199972+00:00",
+          "total_line": 2,
+          "over": 0.92,
+          "under": 0.88
         }
       ],
       "competition_name": "亚冠二级",
       "competition_class": "cup",
       "sport": "football",
-      "lead_hours": 4.987171651388889,
+      "lead_hours": 2.7957777855555555,
       "prematch": false,
       "result": {
         "settled": false
@@ -424,6 +436,230 @@
       "competition_class": "cup",
       "sport": "football",
       "lead_hours": 0.8751660983333333,
+      "prematch": false,
+      "result": {
+        "settled": false
+      }
+    },
+    {
+      "fixture_key": "europa_league|雷恩|奥林匹亚科斯|2026-11-04",
+      "competition": "europa_league",
+      "home": "雷恩",
+      "away": "奥林匹亚科斯",
+      "kickoff": "2026-11-04T15:30:00",
+      "market": "totals",
+      "pick": "小球（2.75）",
+      "side": "under",
+      "confidence": "strong",
+      "score": 85.0,
+      "line": 2.75,
+      "reasons": [
+        "大小球 盘口不变",
+        "大球升水 0.94->0.98",
+        "主队近0场场均总进球 0.0",
+        "客队近0场场均总进球 0.0"
+      ],
+      "signals": {
+        "line_desc": "盘口不变",
+        "over_desc": "大球升水 0.94->0.98",
+        "line_first": 2.75,
+        "line_last": 2.75,
+        "over_first": 0.94,
+        "over_last": 0.98,
+        "under_first": 0.86,
+        "under_last": 0.89
+      },
+      "history": [
+        {
+          "ts": "2026-11-03T15:30:00+00:00",
+          "total_line": 2.75,
+          "over": 0.94,
+          "under": 0.86
+        },
+        {
+          "ts": "2026-11-03T15:30:00+00:00",
+          "total_line": 2.75,
+          "over": 0.94,
+          "under": 0.86
+        },
+        {
+          "ts": "2026-11-03T15:30:00+00:00",
+          "total_line": 2.75,
+          "over": 0.94,
+          "under": 0.86
+        },
+        {
+          "ts": "2026-11-03T15:30:00+00:00",
+          "total_line": 2.75,
+          "over": 0.94,
+          "under": 0.86
+        },
+        {
+          "ts": "2026-11-03T15:30:00+00:00",
+          "total_line": 2.75,
+          "over": 0.94,
+          "under": 0.86
+        },
+        {
+          "ts": "2026-11-03T15:30:00+00:00",
+          "total_line": 2.75,
+          "over": 0.94,
+          "under": 0.86
+        },
+        {
+          "ts": "2026-11-04T00:31:59.955958+00:00",
+          "total_line": 2.75,
+          "over": 0.99,
+          "under": 0.88
+        },
+        {
+          "ts": "2026-11-04T02:38:32.013141+00:00",
+          "total_line": 2.75,
+          "over": 0.99,
+          "under": 0.88
+        },
+        {
+          "ts": "2026-11-04T04:43:37.106581+00:00",
+          "total_line": 2.75,
+          "over": 0.99,
+          "under": 0.88
+        },
+        {
+          "ts": "2026-11-04T06:53:00.338643+00:00",
+          "total_line": 2.75,
+          "over": 0.98,
+          "under": 0.89
+        },
+        {
+          "ts": "2026-11-04T08:46:06.601467+00:00",
+          "total_line": 2.75,
+          "over": 0.98,
+          "under": 0.89
+        },
+        {
+          "ts": "2026-11-04T10:57:34.579944+00:00",
+          "total_line": 2.75,
+          "over": 0.98,
+          "under": 0.89
+        }
+      ],
+      "competition_name": "欧洲联赛（欧联杯 / UEFA Europa League）",
+      "competition_class": "cup",
+      "sport": "football",
+      "lead_hours": 4.54039446,
+      "prematch": false,
+      "result": {
+        "settled": false
+      }
+    },
+    {
+      "fixture_key": "afc_cl2|阿布扎比统一|哈尔迪亚|2026-11-04",
+      "competition": "afc_cl2",
+      "home": "阿布扎比统一",
+      "away": "哈尔迪亚",
+      "kickoff": "2026-11-04T16:00:00",
+      "market": "handicap",
+      "pick": "主队（让 1）",
+      "side": "home",
+      "confidence": "strong",
+      "score": 70.0,
+      "line": -1,
+      "reasons": [
+        "亚盘 盘口不变",
+        "水位平稳",
+        "主队近1场 1胜0平0负，场均进2.0/失1.0",
+        "客队近1场 0胜0平1负，场均进1.0/失2.0",
+        "交手1次：主队1胜0平0负",
+        "历史交锋盘口覆盖：主队1次打穿/客队0次打穿（均线 +0.75）"
+      ],
+      "signals": {
+        "line_desc": "盘口不变",
+        "water_desc": "水位平稳",
+        "line_first": -1,
+        "line_last": -1,
+        "home_water_first": 0.91,
+        "home_water_last": 0.93,
+        "away_water_first": 0.85,
+        "away_water_last": 0.89
+      },
+      "history": [
+        {
+          "ts": "2026-11-03T16:00:00+00:00",
+          "handicap_line": -1,
+          "handicap_home": 0.91,
+          "handicap_away": 0.85
+        },
+        {
+          "ts": "2026-11-03T16:00:00+00:00",
+          "handicap_line": -1,
+          "handicap_home": 0.91,
+          "handicap_away": 0.85
+        },
+        {
+          "ts": "2026-11-03T16:00:00+00:00",
+          "handicap_line": -1,
+          "handicap_home": 0.91,
+          "handicap_away": 0.85
+        },
+        {
+          "ts": "2026-11-03T16:00:00+00:00",
+          "handicap_line": -1,
+          "handicap_home": 0.91,
+          "handicap_away": 0.85
+        },
+        {
+          "ts": "2026-11-03T16:00:00+00:00",
+          "handicap_line": -1,
+          "handicap_home": 0.91,
+          "handicap_away": 0.85
+        },
+        {
+          "ts": "2026-11-03T16:00:00+00:00",
+          "handicap_line": -1,
+          "handicap_home": 0.91,
+          "handicap_away": 0.85
+        },
+        {
+          "ts": "2026-11-04T00:31:48.514518+00:00",
+          "handicap_line": -1,
+          "handicap_home": 0.94,
+          "handicap_away": 0.88
+        },
+        {
+          "ts": "2026-11-04T02:38:16.756493+00:00",
+          "handicap_line": -1,
+          "handicap_home": 0.94,
+          "handicap_away": 0.88
+        },
+        {
+          "ts": "2026-11-04T04:43:23.986984+00:00",
+          "handicap_line": -1,
+          "handicap_home": 0.96,
+          "handicap_away": 0.86
+        },
+        {
+          "ts": "2026-11-04T06:52:36.866874+00:00",
+          "handicap_line": -1,
+          "handicap_home": 0.96,
+          "handicap_away": 0.86
+        },
+        {
+          "ts": "2026-11-04T08:45:48.644476+00:00",
+          "handicap_line": -1,
+          "handicap_home": 0.93,
+          "handicap_away": 0.89
+        },
+        {
+          "ts": "2026-11-04T10:57:16.900792+00:00",
+          "handicap_line": -1,
+          "handicap_home": 0.93,
+          "handicap_away": 0.89
+        }
+      ],
+      "competition_name": "亚冠二级",
+      "competition_class": "cup",
+      "sport": "football",
+      "lead_hours": 5.045305335555556,
       "prematch": false,
       "result": {
         "settled": false
@@ -524,6 +760,119 @@
       "competition_class": "cup",
       "sport": "football",
       "lead_hours": 1.2375517575000001,
+      "prematch": false,
+      "result": {
+        "settled": false
+      }
+    },
+    {
+      "fixture_key": "afc_cl2|赖扬|拿达|2026-11-04",
+      "competition": "afc_cl2",
+      "home": "赖扬",
+      "away": "拿达",
+      "kickoff": "2026-11-04T16:00:00",
+      "market": "handicap",
+      "pick": "主队（让 1.25）",
+      "side": "home",
+      "confidence": "strong",
+      "score": 70.0,
+      "line": -1.25,
+      "reasons": [
+        "亚盘 盘口不变",
+        "水位平稳",
+        "主队近1场 1胜0平0负，场均进4.0/失1.0",
+        "客队近1场 0胜0平1负，场均进1.0/失4.0",
+        "交手1次：主队1胜0平0负",
+        "历史交锋盘口覆盖：主队1次打穿/客队0次打穿（均线 +1.00）"
+      ],
+      "signals": {
+        "line_desc": "盘口不变",
+        "water_desc": "水位平稳",
+        "line_first": -1.25,
+        "line_last": -1.25,
+        "home_water_first": 0.88,
+        "home_water_last": 0.88,
+        "away_water_first": 0.88,
+        "away_water_last": 0.94
+      },
+      "history": [
+        {
+          "ts": "2026-11-03T16:00:00+00:00",
+          "handicap_line": -1.25,
+          "handicap_home": 0.88,
+          "handicap_away": 0.88
+        },
+        {
+          "ts": "2026-11-03T16:00:00+00:00",
+          "handicap_line": -1.25,
+          "handicap_home": 0.88,
+          "handicap_away": 0.88
+        },
+        {
+          "ts": "2026-11-03T16:00:00+00:00",
+          "handicap_line": -1.25,
+          "handicap_home": 0.88,
+          "handicap_away": 0.88
+        },
+        {
+          "ts": "2026-11-03T16:00:00+00:00",
+          "handicap_line": -1.25,
+          "handicap_home": 0.88,
+          "handicap_away": 0.88
+        },
+        {
+          "ts": "2026-11-03T16:00:00+00:00",
+          "handicap_line": -1.25,
+          "handicap_home": 0.88,
+          "handicap_away": 0.88
+        },
+        {
+          "ts": "2026-11-03T16:00:00+00:00",
+          "handicap_line": -1.25,
+          "handicap_home": 0.88,
+          "handicap_away": 0.88
+        },
+        {
+          "ts": "2026-11-04T00:31:51.285220+00:00",
+          "handicap_line": -1.25,
+          "handicap_home": 0.91,
+          "handicap_away": 0.91
+        },
+        {
+          "ts": "2026-11-04T02:38:20.202039+00:00",
+          "handicap_line": -1.25,
+          "handicap_home": 0.91,
+          "handicap_away": 0.91
+        },
+        {
+          "ts": "2026-11-04T04:43:28.306882+00:00",
+          "handicap_line": -1.25,
+          "handicap_home": 1,
+          "handicap_away": 0.82
+        },
+        {
+          "ts": "2026-11-04T06:52:41.660885+00:00",
+          "handicap_line": -1.25,
+          "handicap_home": 0.96,
+          "handicap_away": 0.86
+        },
+        {
+          "ts": "2026-11-04T08:45:53.879253+00:00",
+          "handicap_line": -1.25,
+          "handicap_home": 0.88,
+          "handicap_away": 0.94
+        },
+        {
+          "ts": "2026-11-04T10:57:20.923073+00:00",
+          "handicap_line": -1.25,
+          "handicap_home": 0.88,
+          "handicap_away": 0.94
+        }
+      ],
+      "competition_name": "亚冠二级",
+      "competition_class": "cup",
+      "sport": "football",
+      "lead_hours": 5.044188035277777,
       "prematch": false,
       "result": {
         "settled": false

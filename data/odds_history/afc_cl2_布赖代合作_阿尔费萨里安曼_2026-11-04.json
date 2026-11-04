@@ -148,5 +148,35 @@
     "total_line": 2.5,
     "over": 0.81,
     "under": 0.99
+  },
+  {
+    "fixture_key": "afc_cl2|布赖代合作|阿尔费萨里安曼|2026-11-04",
+    "competition": "afc_cl2",
+    "home": "布赖代合作",
+    "away": "阿尔费萨里安曼",
+    "kickoff": "2026-11-04T18:15:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-03T18:15:00+00:00",
+    "handicap_line": -0.75,
+    "handicap_home": 0.88,
+    "handicap_away": 0.88,
+    "total_line": 2.75,
+    "over": 0.96,
+    "under": 0.8
+  },
+  {
+    "fixture_key": "afc_cl2|布赖代合作|阿尔费萨里安曼|2026-11-04",
+    "competition": "afc_cl2",
+    "home": "布赖代合作",
+    "away": "阿尔费萨里安曼",
+    "kickoff": "2026-11-04T18:15:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-04T10:57:26.364940+00:00",
+    "handicap_line": -0.75,
+    "handicap_home": 0.78,
+    "handicap_away": 1.04,
+    "total_line": 2.5,
+    "over": 0.81,
+    "under": 0.99
   }
 ]

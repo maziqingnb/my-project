@@ -148,5 +148,35 @@
     "total_line": 2,
     "over": 0.92,
     "under": 0.88
+  },
+  {
+    "fixture_key": "afc_cl2|阿卡达格|高尔高赫|2026-11-04",
+    "competition": "afc_cl2",
+    "home": "阿卡达格",
+    "away": "高尔高赫",
+    "kickoff": "2026-11-04T13:45:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-03T13:45:00+00:00",
+    "handicap_line": -0.25,
+    "handicap_home": 0.76,
+    "handicap_away": 1,
+    "total_line": 2,
+    "over": 0.75,
+    "under": 1.01
+  },
+  {
+    "fixture_key": "afc_cl2|阿卡达格|高尔高赫|2026-11-04",
+    "competition": "afc_cl2",
+    "home": "阿卡达格",
+    "away": "高尔高赫",
+    "kickoff": "2026-11-04T13:45:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-04T10:57:15.199972+00:00",
+    "handicap_line": -0.5,
+    "handicap_home": 0.98,
+    "handicap_away": 0.84,
+    "total_line": 2,
+    "over": 0.92,
+    "under": 0.88
   }
 ]
