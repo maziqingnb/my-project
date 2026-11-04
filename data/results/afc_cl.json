@@ -13,6 +13,17 @@
   {
     "competition": "afc_cl",
     "cls": "cup",
+    "home": "武里南联",
+    "away": "鹿岛鹿角",
+    "home_goals": 0,
+    "away_goals": 0,
+    "date": "2026-11-04",
+    "handicap_line": 0.5,
+    "total_line": 2.75
+  },
+  {
+    "competition": "afc_cl",
+    "cls": "cup",
     "home": "纽卡斯尔喷气机",
     "away": "上海海港",
     "home_goals": 2,
