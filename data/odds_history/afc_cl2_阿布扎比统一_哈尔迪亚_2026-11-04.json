@@ -1,0 +1,32 @@
+[
+  {
+    "fixture_key": "afc_cl2|阿布扎比统一|哈尔迪亚|2026-11-04",
+    "competition": "afc_cl2",
+    "home": "阿布扎比统一",
+    "away": "哈尔迪亚",
+    "kickoff": "2026-11-04T16:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-03T16:00:00+00:00",
+    "handicap_line": -1,
+    "handicap_home": 0.91,
+    "handicap_away": 0.85,
+    "total_line": 3,
+    "over": 0.91,
+    "under": 0.85
+  },
+  {
+    "fixture_key": "afc_cl2|阿布扎比统一|哈尔迪亚|2026-11-04",
+    "competition": "afc_cl2",
+    "home": "阿布扎比统一",
+    "away": "哈尔迪亚",
+    "kickoff": "2026-11-04T16:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-04T00:31:48.514518+00:00",
+    "handicap_line": -1,
+    "handicap_home": 0.94,
+    "handicap_away": 0.88,
+    "total_line": 3,
+    "over": 0.93,
+    "under": 0.87
+  }
+]

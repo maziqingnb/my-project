@@ -133,5 +133,35 @@
     "total_line": null,
     "over": null,
     "under": null
+  },
+  {
+    "fixture_key": "nba|detroitpistons|philadelphia76ers|2026-11-05",
+    "competition": "nba",
+    "home": "Detroit Pistons",
+    "away": "Philadelphia 76ers",
+    "kickoff": "2026-11-05T00:00:00Z",
+    "bookmaker": "unibet",
+    "ts": "2026-11-04T00:32:00.109539+00:00",
+    "handicap_line": -1.5,
+    "handicap_home": 1.89,
+    "handicap_away": 1.92,
+    "total_line": null,
+    "over": null,
+    "under": null
+  },
+  {
+    "fixture_key": "nba|detroitpistons|philadelphia76ers|2026-11-05",
+    "competition": "nba",
+    "home": "Detroit Pistons",
+    "away": "Philadelphia 76ers",
+    "kickoff": "2026-11-05T00:00:00Z",
+    "bookmaker": "pinnacle",
+    "ts": "2026-11-04T00:32:00.109539+00:00",
+    "handicap_line": -2.5,
+    "handicap_home": 1.99,
+    "handicap_away": 1.91,
+    "total_line": 217.5,
+    "over": 1.98,
+    "under": 1.91
   }
 ]

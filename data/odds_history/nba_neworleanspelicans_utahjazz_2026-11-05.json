@@ -1,0 +1,17 @@
+[
+  {
+    "fixture_key": "nba|neworleanspelicans|utahjazz|2026-11-05",
+    "competition": "nba",
+    "home": "New Orleans Pelicans",
+    "away": "Utah Jazz",
+    "kickoff": "2026-11-05T01:10:00Z",
+    "bookmaker": "unibet",
+    "ts": "2026-11-04T00:32:00.109539+00:00",
+    "handicap_line": -4.5,
+    "handicap_home": 1.85,
+    "handicap_away": 1.97,
+    "total_line": null,
+    "over": null,
+    "under": null
+  }
+]

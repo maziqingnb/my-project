@@ -1,0 +1,17 @@
+[
+  {
+    "fixture_key": "nba|memphisgrizzlies|indianapacers|2026-11-05",
+    "competition": "nba",
+    "home": "Memphis Grizzlies",
+    "away": "Indiana Pacers",
+    "kickoff": "2026-11-05T01:10:00Z",
+    "bookmaker": "unibet",
+    "ts": "2026-11-04T00:32:00.109539+00:00",
+    "handicap_line": -6.5,
+    "handicap_home": 1.92,
+    "handicap_away": 1.89,
+    "total_line": null,
+    "over": null,
+    "under": null
+  }
+]

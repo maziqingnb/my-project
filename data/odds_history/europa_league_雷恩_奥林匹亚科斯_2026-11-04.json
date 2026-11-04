@@ -1,0 +1,32 @@
+[
+  {
+    "fixture_key": "europa_league|雷恩|奥林匹亚科斯|2026-11-04",
+    "competition": "europa_league",
+    "home": "雷恩",
+    "away": "奥林匹亚科斯",
+    "kickoff": "2026-11-04T15:30:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-03T15:30:00+00:00",
+    "handicap_line": -0.25,
+    "handicap_home": 0.88,
+    "handicap_away": 0.94,
+    "total_line": 2.75,
+    "over": 0.94,
+    "under": 0.86
+  },
+  {
+    "fixture_key": "europa_league|雷恩|奥林匹亚科斯|2026-11-04",
+    "competition": "europa_league",
+    "home": "雷恩",
+    "away": "奥林匹亚科斯",
+    "kickoff": "2026-11-04T15:30:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-04T00:31:59.955958+00:00",
+    "handicap_line": -0.25,
+    "handicap_home": 0.93,
+    "handicap_away": 0.95,
+    "total_line": 2.75,
+    "over": 0.99,
+    "under": 0.88
+  }
+]
