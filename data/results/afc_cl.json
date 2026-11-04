@@ -2,6 +2,17 @@
   {
     "competition": "afc_cl",
     "cls": "cup",
+    "home": "浦项制铁",
+    "away": "大阪钢巴",
+    "home_goals": 3,
+    "away_goals": 3,
+    "date": "2026-11-04",
+    "handicap_line": 0.5,
+    "total_line": 2.5
+  },
+  {
+    "competition": "afc_cl",
+    "cls": "cup",
     "home": "纽卡斯尔喷气机",
     "away": "上海海港",
     "home_goals": 2,

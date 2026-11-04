@@ -13,6 +13,17 @@
   {
     "competition": "afc_cl2",
     "cls": "cup",
+    "home": "FC首尔",
+    "away": "越电信",
+    "home_goals": 3,
+    "away_goals": 0,
+    "date": "2026-11-04",
+    "handicap_line": -1.75,
+    "total_line": 3.0
+  },
+  {
+    "competition": "afc_cl2",
+    "cls": "cup",
     "home": "东孟加拉",
     "away": "锡卜",
     "home_goals": 0,
