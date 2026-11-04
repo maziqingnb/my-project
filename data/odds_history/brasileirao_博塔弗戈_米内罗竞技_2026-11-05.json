@@ -268,5 +268,35 @@
     "total_line": 2.75,
     "over": 0.93,
     "under": 0.94
+  },
+  {
+    "fixture_key": "brasileirao|博塔弗戈|米内罗竞技|2026-11-05",
+    "competition": "brasileirao",
+    "home": "博塔弗戈",
+    "away": "米内罗竞技",
+    "kickoff": "2026-11-05T00:30:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-04T00:30:00+00:00",
+    "handicap_line": -0.25,
+    "handicap_home": 0.82,
+    "handicap_away": 1.06,
+    "total_line": 2.75,
+    "over": 0.94,
+    "under": 0.93
+  },
+  {
+    "fixture_key": "brasileirao|博塔弗戈|米内罗竞技|2026-11-05",
+    "competition": "brasileirao",
+    "home": "博塔弗戈",
+    "away": "米内罗竞技",
+    "kickoff": "2026-11-05T00:30:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-04T20:39:51.125793+00:00",
+    "handicap_line": -1,
+    "handicap_home": 0.95,
+    "handicap_away": 0.94,
+    "total_line": 2.75,
+    "over": 0.92,
+    "under": 0.95
   }
 ]

@@ -268,5 +268,35 @@
     "total_line": 2.75,
     "over": 1.05,
     "under": 0.82
+  },
+  {
+    "fixture_key": "brasileirao|巴拉纳竞技|瓦斯科达伽马|2026-11-04",
+    "competition": "brasileirao",
+    "home": "巴拉纳竞技",
+    "away": "瓦斯科达伽马",
+    "kickoff": "2026-11-04T22:30:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-03T22:30:00+00:00",
+    "handicap_line": -0.25,
+    "handicap_home": 0.97,
+    "handicap_away": 0.91,
+    "total_line": 2.75,
+    "over": 0.98,
+    "under": 0.89
+  },
+  {
+    "fixture_key": "brasileirao|巴拉纳竞技|瓦斯科达伽马|2026-11-04",
+    "competition": "brasileirao",
+    "home": "巴拉纳竞技",
+    "away": "瓦斯科达伽马",
+    "kickoff": "2026-11-04T22:30:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-04T20:39:48.752756+00:00",
+    "handicap_line": -0.25,
+    "handicap_home": 0.98,
+    "handicap_away": 0.91,
+    "total_line": 2.75,
+    "over": 1.05,
+    "under": 0.82
   }
 ]

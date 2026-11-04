@@ -268,5 +268,35 @@
     "total_line": 2,
     "over": 0.87,
     "under": 1
+  },
+  {
+    "fixture_key": "brasileirao|圣保罗|科林蒂安|2026-11-05",
+    "competition": "brasileirao",
+    "home": "圣保罗",
+    "away": "科林蒂安",
+    "kickoff": "2026-11-05T00:30:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-04T00:30:00+00:00",
+    "handicap_line": -0.25,
+    "handicap_home": 0.82,
+    "handicap_away": 1.06,
+    "total_line": 2,
+    "over": 0.88,
+    "under": 0.99
+  },
+  {
+    "fixture_key": "brasileirao|圣保罗|科林蒂安|2026-11-05",
+    "competition": "brasileirao",
+    "home": "圣保罗",
+    "away": "科林蒂安",
+    "kickoff": "2026-11-05T00:30:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-04T20:39:52.430813+00:00",
+    "handicap_line": 0,
+    "handicap_home": 0.89,
+    "handicap_away": 1,
+    "total_line": 2,
+    "over": 0.91,
+    "under": 0.96
   }
 ]
