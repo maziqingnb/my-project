@@ -223,5 +223,35 @@
     "total_line": 233.0,
     "over": 1.92,
     "under": 1.97
+  },
+  {
+    "fixture_key": "nba|newyorkknicks|chicagobulls|2026-11-05",
+    "competition": "nba",
+    "home": "New York Knicks",
+    "away": "Chicago Bulls",
+    "kickoff": "2026-11-05T00:40:00Z",
+    "bookmaker": "unibet",
+    "ts": "2026-11-04T18:42:02.791721+00:00",
+    "handicap_line": -12.5,
+    "handicap_home": 1.95,
+    "handicap_away": 1.87,
+    "total_line": null,
+    "over": null,
+    "under": null
+  },
+  {
+    "fixture_key": "nba|newyorkknicks|chicagobulls|2026-11-05",
+    "competition": "nba",
+    "home": "New York Knicks",
+    "away": "Chicago Bulls",
+    "kickoff": "2026-11-05T00:40:00Z",
+    "bookmaker": "pinnacle",
+    "ts": "2026-11-04T18:42:02.791721+00:00",
+    "handicap_line": -12.0,
+    "handicap_home": 1.97,
+    "handicap_away": 1.93,
+    "total_line": 234.0,
+    "over": 1.95,
+    "under": 1.93
   }
 ]

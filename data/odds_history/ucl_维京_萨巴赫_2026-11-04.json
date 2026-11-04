@@ -208,5 +208,35 @@
     "total_line": 3.75,
     "over": 0.97,
     "under": 0.91
+  },
+  {
+    "fixture_key": "ucl|维京|萨巴赫|2026-11-04",
+    "competition": "ucl",
+    "home": "维京",
+    "away": "萨巴赫",
+    "kickoff": "2026-11-04T20:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-03T20:00:00+00:00",
+    "handicap_line": -1,
+    "handicap_home": 1.03,
+    "handicap_away": 0.85,
+    "total_line": 3,
+    "over": 0.89,
+    "under": 0.97
+  },
+  {
+    "fixture_key": "ucl|维京|萨巴赫|2026-11-04",
+    "competition": "ucl",
+    "home": "维京",
+    "away": "萨巴赫",
+    "kickoff": "2026-11-04T20:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-04T18:41:56.586573+00:00",
+    "handicap_line": -1.25,
+    "handicap_home": 1.01,
+    "handicap_away": 0.88,
+    "total_line": 3.75,
+    "over": 0.99,
+    "under": 0.89
   }
 ]
