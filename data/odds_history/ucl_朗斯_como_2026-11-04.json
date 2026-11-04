@@ -118,5 +118,35 @@
     "total_line": 3,
     "over": 0.88,
     "under": 1
+  },
+  {
+    "fixture_key": "ucl|朗斯|como|2026-11-04",
+    "competition": "ucl",
+    "home": "朗斯",
+    "away": "Como",
+    "kickoff": "2026-11-04T20:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-03T20:00:00+00:00",
+    "handicap_line": 0.25,
+    "handicap_home": 0.94,
+    "handicap_away": 0.94,
+    "total_line": 3,
+    "over": 0.84,
+    "under": 1.02
+  },
+  {
+    "fixture_key": "ucl|朗斯|como|2026-11-04",
+    "competition": "ucl",
+    "home": "朗斯",
+    "away": "Como",
+    "kickoff": "2026-11-04T20:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-04T08:45:27.974503+00:00",
+    "handicap_line": 0.5,
+    "handicap_home": 0.95,
+    "handicap_away": 0.94,
+    "total_line": 3,
+    "over": 0.88,
+    "under": 1
   }
 ]

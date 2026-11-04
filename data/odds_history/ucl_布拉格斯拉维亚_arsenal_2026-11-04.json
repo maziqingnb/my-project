@@ -118,5 +118,35 @@
     "total_line": 2.75,
     "over": 0.87,
     "under": 1.01
+  },
+  {
+    "fixture_key": "ucl|布拉格斯拉维亚|arsenal|2026-11-04",
+    "competition": "ucl",
+    "home": "布拉格斯拉维亚",
+    "away": "Arsenal",
+    "kickoff": "2026-11-04T20:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-03T20:00:00+00:00",
+    "handicap_line": 1.75,
+    "handicap_home": 0.92,
+    "handicap_away": 0.96,
+    "total_line": 3.25,
+    "over": 0.9,
+    "under": 0.96
+  },
+  {
+    "fixture_key": "ucl|布拉格斯拉维亚|arsenal|2026-11-04",
+    "competition": "ucl",
+    "home": "布拉格斯拉维亚",
+    "away": "Arsenal",
+    "kickoff": "2026-11-04T20:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-04T08:45:15.649320+00:00",
+    "handicap_line": 1.75,
+    "handicap_home": 0.87,
+    "handicap_away": 1.02,
+    "total_line": 2.75,
+    "over": 0.86,
+    "under": 1.02
   }
 ]

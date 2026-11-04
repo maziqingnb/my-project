@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-04T07:52:09.033052+00:00",
+  "generated_at": "2026-11-04T08:46:07.131711+00:00",
   "scope": "16 个联赛 + 5 个杯赛",
   "note": "杯赛与联赛数据分开计算；仅开赛前 6h 内出推荐；命中率只统计强推",
-  "total": 2,
+  "total": 3,
   "stats": {
     "overall": {
       "counts": {
@@ -241,6 +241,106 @@
   },
   "recommendations": [
     {
+      "fixture_key": "afc_cl2|阿卡达格|高尔高赫|2026-11-04",
+      "competition": "afc_cl2",
+      "home": "阿卡达格",
+      "away": "高尔高赫",
+      "kickoff": "2026-11-04T13:45:00",
+      "market": "totals",
+      "pick": "小球（2）",
+      "side": "under",
+      "confidence": "strong",
+      "score": 90.0,
+      "line": 2,
+      "reasons": [
+        "大小球 盘口不变",
+        "大球升水 0.75->0.92",
+        "主队近1场场均总进球 0.0",
+        "客队近1场场均总进球 0.0",
+        "历史交锋大小球：0次大/1次小（均线 2.25）"
+      ],
+      "signals": {
+        "line_desc": "盘口不变",
+        "over_desc": "大球升水 0.75->0.92",
+        "line_first": 2,
+        "line_last": 2,
+        "over_first": 0.75,
+        "over_last": 0.92,
+        "under_first": 1.01,
+        "under_last": 0.88
+      },
+      "history": [
+        {
+          "ts": "2026-11-03T13:45:00+00:00",
+          "total_line": 2,
+          "over": 0.75,
+          "under": 1.01
+        },
+        {
+          "ts": "2026-11-03T13:45:00+00:00",
+          "total_line": 2,
+          "over": 0.75,
+          "under": 1.01
+        },
+        {
+          "ts": "2026-11-03T13:45:00+00:00",
+          "total_line": 2,
+          "over": 0.75,
+          "under": 1.01
+        },
+        {
+          "ts": "2026-11-03T13:45:00+00:00",
+          "total_line": 2,
+          "over": 0.75,
+          "under": 1.01
+        },
+        {
+          "ts": "2026-11-03T13:45:00+00:00",
+          "total_line": 2,
+          "over": 0.75,
+          "under": 1.01
+        },
+        {
+          "ts": "2026-11-04T00:31:47.131686+00:00",
+          "total_line": 2,
+          "over": 0.82,
+          "under": 0.98
+        },
+        {
+          "ts": "2026-11-04T02:38:14.058687+00:00",
+          "total_line": 2,
+          "over": 0.82,
+          "under": 0.98
+        },
+        {
+          "ts": "2026-11-04T04:43:22.549352+00:00",
+          "total_line": 2,
+          "over": 0.87,
+          "under": 0.93
+        },
+        {
+          "ts": "2026-11-04T06:52:32.893905+00:00",
+          "total_line": 2,
+          "over": 0.88,
+          "under": 0.92
+        },
+        {
+          "ts": "2026-11-04T08:45:46.182055+00:00",
+          "total_line": 2,
+          "over": 0.92,
+          "under": 0.88
+        }
+      ],
+      "competition_name": "亚冠二级",
+      "competition_class": "cup",
+      "sport": "football",
+      "lead_hours": 4.987171651388889,
+      "prematch": false,
+      "result": {
+        "settled": false
+      }
+    },
+    {
       "fixture_key": "afc_cl2|墨尔本胜利|万隆|2026-11-04",
       "competition": "afc_cl2",
       "home": "墨尔本胜利",
@@ -384,6 +484,12 @@
           "under": 0.9
         },
         {
+          "ts": "2026-11-03T10:00:00+00:00",
+          "total_line": 3,
+          "over": 0.86,
+          "under": 0.9
+        },
+        {
           "ts": "2026-11-04T00:31:43.940097+00:00",
           "total_line": 3.25,
           "over": 0.85,
@@ -406,12 +512,18 @@
           "total_line": 3.5,
           "over": 0.94,
           "under": 0.86
+        },
+        {
+          "ts": "2026-11-04T08:45:44.813673+00:00",
+          "total_line": 3.5,
+          "over": 0.99,
+          "under": 0.81
         }
       ],
       "competition_name": "亚冠二级",
       "competition_class": "cup",
       "sport": "football",
-      "lead_hours": 3.124630659166667,
+      "lead_hours": 1.2375517575000001,
       "prematch": false,
       "result": {
         "settled": false
