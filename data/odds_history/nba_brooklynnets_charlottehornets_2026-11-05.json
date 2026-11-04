@@ -433,5 +433,35 @@
     "total_line": 213.0,
     "over": 1.93,
     "under": 1.95
+  },
+  {
+    "fixture_key": "nba|brooklynnets|charlottehornets|2026-11-05",
+    "competition": "nba",
+    "home": "Brooklyn Nets",
+    "away": "Charlotte Hornets",
+    "kickoff": "2026-11-05T00:30:00Z",
+    "bookmaker": "unibet",
+    "ts": "2026-11-04T22:37:26.973290+00:00",
+    "handicap_line": 3.5,
+    "handicap_home": 1.93,
+    "handicap_away": 1.89,
+    "total_line": null,
+    "over": null,
+    "under": null
+  },
+  {
+    "fixture_key": "nba|brooklynnets|charlottehornets|2026-11-05",
+    "competition": "nba",
+    "home": "Brooklyn Nets",
+    "away": "Charlotte Hornets",
+    "kickoff": "2026-11-05T00:30:00Z",
+    "bookmaker": "pinnacle",
+    "ts": "2026-11-04T22:37:26.973290+00:00",
+    "handicap_line": 3.5,
+    "handicap_home": 2.02,
+    "handicap_away": 1.88,
+    "total_line": 213.0,
+    "over": 1.9,
+    "under": 1.99
   }
 ]

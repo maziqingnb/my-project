@@ -268,5 +268,35 @@
     "total_line": 233.5,
     "over": 1.98,
     "under": 1.91
+  },
+  {
+    "fixture_key": "nba|losangelesclippers|miamiheat|2026-11-05",
+    "competition": "nba",
+    "home": "Los Angeles Clippers",
+    "away": "Miami Heat",
+    "kickoff": "2026-11-05T03:40:00Z",
+    "bookmaker": "unibet",
+    "ts": "2026-11-04T22:37:26.973290+00:00",
+    "handicap_line": 6.5,
+    "handicap_home": 1.87,
+    "handicap_away": 1.95,
+    "total_line": null,
+    "over": null,
+    "under": null
+  },
+  {
+    "fixture_key": "nba|losangelesclippers|miamiheat|2026-11-05",
+    "competition": "nba",
+    "home": "Los Angeles Clippers",
+    "away": "Miami Heat",
+    "kickoff": "2026-11-05T03:40:00Z",
+    "bookmaker": "pinnacle",
+    "ts": "2026-11-04T22:37:26.973290+00:00",
+    "handicap_line": 5.5,
+    "handicap_home": 2.01,
+    "handicap_away": 1.9,
+    "total_line": 233.5,
+    "over": 1.98,
+    "under": 1.91
   }
 ]

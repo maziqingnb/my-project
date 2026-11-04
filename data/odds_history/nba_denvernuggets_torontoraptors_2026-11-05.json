@@ -313,5 +313,35 @@
     "total_line": 231.5,
     "over": 1.91,
     "under": 1.98
+  },
+  {
+    "fixture_key": "nba|denvernuggets|torontoraptors|2026-11-05",
+    "competition": "nba",
+    "home": "Denver Nuggets",
+    "away": "Toronto Raptors",
+    "kickoff": "2026-11-05T02:00:00Z",
+    "bookmaker": "unibet",
+    "ts": "2026-11-04T22:37:26.973290+00:00",
+    "handicap_line": -4.5,
+    "handicap_home": 1.94,
+    "handicap_away": 1.88,
+    "total_line": null,
+    "over": null,
+    "under": null
+  },
+  {
+    "fixture_key": "nba|denvernuggets|torontoraptors|2026-11-05",
+    "competition": "nba",
+    "home": "Denver Nuggets",
+    "away": "Toronto Raptors",
+    "kickoff": "2026-11-05T02:00:00Z",
+    "bookmaker": "pinnacle",
+    "ts": "2026-11-04T22:37:26.973290+00:00",
+    "handicap_line": -5.0,
+    "handicap_home": 1.95,
+    "handicap_away": 1.95,
+    "total_line": 231.5,
+    "over": 1.91,
+    "under": 1.98
   }
 ]
