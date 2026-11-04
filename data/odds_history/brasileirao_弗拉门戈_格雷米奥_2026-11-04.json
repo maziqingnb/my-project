@@ -28,5 +28,35 @@
     "total_line": 3.5,
     "over": 1.02,
     "under": 0.85
+  },
+  {
+    "fixture_key": "brasileirao|弗拉门戈|格雷米奥|2026-11-04",
+    "competition": "brasileirao",
+    "home": "弗拉门戈",
+    "away": "格雷米奥",
+    "kickoff": "2026-11-04T22:30:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-03T22:30:00+00:00",
+    "handicap_line": -2,
+    "handicap_home": 0.99,
+    "handicap_away": 0.89,
+    "total_line": 3.25,
+    "over": 0.95,
+    "under": 0.92
+  },
+  {
+    "fixture_key": "brasileirao|弗拉门戈|格雷米奥|2026-11-04",
+    "competition": "brasileirao",
+    "home": "弗拉门戈",
+    "away": "格雷米奥",
+    "kickoff": "2026-11-04T22:30:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-04T02:38:02.429063+00:00",
+    "handicap_line": -2,
+    "handicap_home": 0.84,
+    "handicap_away": 1.04,
+    "total_line": 3.5,
+    "over": 1.02,
+    "under": 0.85
   }
 ]

@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-04T02:32:16.307811+00:00",
+  "generated_at": "2026-11-04T02:38:32.556992+00:00",
   "scope": "16 个联赛 + 5 个杯赛",
   "note": "杯赛与联赛数据分开计算；仅开赛前 6h 内出推荐；命中率只统计强推",
-  "total": 0,
+  "total": 1,
   "stats": {
     "overall": {
       "counts": {
@@ -239,5 +239,71 @@
       }
     }
   },
-  "recommendations": []
+  "recommendations": [
+    {
+      "fixture_key": "afc_cl2|墨尔本胜利|万隆|2026-11-04",
+      "competition": "afc_cl2",
+      "home": "墨尔本胜利",
+      "away": "万隆",
+      "kickoff": "2026-11-04T07:45:00",
+      "market": "handicap",
+      "pick": "客队（受让 0.5）",
+      "side": "away",
+      "confidence": "strong",
+      "score": 85.0,
+      "line": -0.5,
+      "reasons": [
+        "亚盘 盘口不变",
+        "主队升水 0.9->0.97",
+        "主队近1场 0胜0平1负，场均进0.0/失2.0",
+        "客队近1场 1胜0平0负，场均进2.0/失0.0",
+        "交手1次：主队0胜0平1负",
+        "历史交锋盘口覆盖：主队0次打穿/客队1次打穿（均线 -0.25）"
+      ],
+      "signals": {
+        "line_desc": "盘口不变",
+        "water_desc": "主队升水 0.9->0.97",
+        "line_first": -0.5,
+        "line_last": -0.5,
+        "home_water_first": 0.9,
+        "home_water_last": 0.97,
+        "away_water_first": 0.86,
+        "away_water_last": 0.85
+      },
+      "history": [
+        {
+          "ts": "2026-11-03T07:45:00+00:00",
+          "handicap_line": -0.5,
+          "handicap_home": 0.9,
+          "handicap_away": 0.86
+        },
+        {
+          "ts": "2026-11-03T07:45:00+00:00",
+          "handicap_line": -0.5,
+          "handicap_home": 0.9,
+          "handicap_away": 0.86
+        },
+        {
+          "ts": "2026-11-04T00:31:42.588957+00:00",
+          "handicap_line": -0.5,
+          "handicap_home": 0.97,
+          "handicap_away": 0.85
+        },
+        {
+          "ts": "2026-11-04T02:38:10.939403+00:00",
+          "handicap_line": -0.5,
+          "handicap_home": 0.97,
+          "handicap_away": 0.85
+        }
+      ],
+      "competition_name": "亚冠二级",
+      "competition_class": "cup",
+      "sport": "football",
+      "lead_hours": 5.113627943611111,
+      "prematch": false,
+      "result": {
+        "settled": false
+      }
+    }
+  ]
 }

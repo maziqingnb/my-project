@@ -28,5 +28,35 @@
     "total_line": 3,
     "over": 0.93,
     "under": 0.87
+  },
+  {
+    "fixture_key": "afc_cl2|赖扬|拿达|2026-11-04",
+    "competition": "afc_cl2",
+    "home": "赖扬",
+    "away": "拿达",
+    "kickoff": "2026-11-04T16:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-03T16:00:00+00:00",
+    "handicap_line": -1.25,
+    "handicap_home": 0.88,
+    "handicap_away": 0.88,
+    "total_line": 3,
+    "over": 0.91,
+    "under": 0.85
+  },
+  {
+    "fixture_key": "afc_cl2|赖扬|拿达|2026-11-04",
+    "competition": "afc_cl2",
+    "home": "赖扬",
+    "away": "拿达",
+    "kickoff": "2026-11-04T16:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-04T02:38:20.202039+00:00",
+    "handicap_line": -1.25,
+    "handicap_home": 0.91,
+    "handicap_away": 0.91,
+    "total_line": 3,
+    "over": 0.93,
+    "under": 0.87
   }
 ]

@@ -28,5 +28,35 @@
     "total_line": 2.5,
     "over": 0.99,
     "under": 0.81
+  },
+  {
+    "fixture_key": "afc_cl2|墨尔本胜利|万隆|2026-11-04",
+    "competition": "afc_cl2",
+    "home": "墨尔本胜利",
+    "away": "万隆",
+    "kickoff": "2026-11-04T07:45:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-03T07:45:00+00:00",
+    "handicap_line": -0.5,
+    "handicap_home": 0.9,
+    "handicap_away": 0.86,
+    "total_line": 2.5,
+    "over": 1,
+    "under": 0.76
+  },
+  {
+    "fixture_key": "afc_cl2|墨尔本胜利|万隆|2026-11-04",
+    "competition": "afc_cl2",
+    "home": "墨尔本胜利",
+    "away": "万隆",
+    "kickoff": "2026-11-04T07:45:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-04T02:38:10.939403+00:00",
+    "handicap_line": -0.5,
+    "handicap_home": 0.97,
+    "handicap_away": 0.85,
+    "total_line": 2.5,
+    "over": 0.99,
+    "under": 0.81
   }
 ]

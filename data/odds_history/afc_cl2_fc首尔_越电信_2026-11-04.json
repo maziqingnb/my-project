@@ -28,5 +28,35 @@
     "total_line": 3.25,
     "over": 0.85,
     "under": 0.95
+  },
+  {
+    "fixture_key": "afc_cl2|fc首尔|越电信|2026-11-04",
+    "competition": "afc_cl2",
+    "home": "FC首尔",
+    "away": "越电信",
+    "kickoff": "2026-11-04T10:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-03T10:00:00+00:00",
+    "handicap_line": -1.75,
+    "handicap_home": 0.77,
+    "handicap_away": 0.99,
+    "total_line": 3,
+    "over": 0.86,
+    "under": 0.9
+  },
+  {
+    "fixture_key": "afc_cl2|fc首尔|越电信|2026-11-04",
+    "competition": "afc_cl2",
+    "home": "FC首尔",
+    "away": "越电信",
+    "kickoff": "2026-11-04T10:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-04T02:38:12.527794+00:00",
+    "handicap_line": -2.25,
+    "handicap_home": 0.97,
+    "handicap_away": 0.85,
+    "total_line": 3.25,
+    "over": 0.85,
+    "under": 0.95
   }
 ]

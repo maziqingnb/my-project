@@ -28,5 +28,35 @@
     "total_line": 3.75,
     "over": 0.96,
     "under": 0.92
+  },
+  {
+    "fixture_key": "ucl|aek雅典|realmadrid|2026-11-04",
+    "competition": "ucl",
+    "home": "AEK雅典",
+    "away": "Real Madrid",
+    "kickoff": "2026-11-04T17:45:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-03T17:45:00+00:00",
+    "handicap_line": 1.5,
+    "handicap_home": 0.98,
+    "handicap_away": 0.9,
+    "total_line": 3.75,
+    "over": 1.02,
+    "under": 0.84
+  },
+  {
+    "fixture_key": "ucl|aek雅典|realmadrid|2026-11-04",
+    "competition": "ucl",
+    "home": "AEK雅典",
+    "away": "Real Madrid",
+    "kickoff": "2026-11-04T17:45:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-04T02:37:41.628455+00:00",
+    "handicap_line": 2,
+    "handicap_home": 0.94,
+    "handicap_away": 0.94,
+    "total_line": 3.75,
+    "over": 0.94,
+    "under": 0.94
   }
 ]
