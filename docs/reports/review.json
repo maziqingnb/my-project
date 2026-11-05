@@ -1,11 +1,91 @@
 {
-  "generated_at": "2026-11-05T21:14:51.857071+00:00",
-  "total_missed": 32,
+  "generated_at": "2026-11-05T22:01:29.915884+00:00",
+  "total_missed": 34,
   "days": [
     {
       "date": "2026-11-05",
-      "missed": 9,
+      "missed": 11,
       "items": [
+        {
+          "competition": "europa_league",
+          "home": "Celta Vigo",
+          "away": "圣吉罗斯",
+          "kickoff": "2026-11-05T20:00:00",
+          "market": "totals",
+          "sport": "football",
+          "pick": "小球（2.5）",
+          "side": "under",
+          "line": 2.5,
+          "score": 86.2,
+          "confidence": "strong",
+          "outcome": "loss",
+          "outcome_cn": "没中",
+          "home_goals": 1,
+          "away_goals": 2,
+          "book": "盘口 2.75 → 2.5，水位 大0.84/小0.96 → 大1.04/小0.83",
+          "diagnosis": [
+            "盘口 2.75 → 2.5，水位 大0.84/小0.96 → 大1.04/小0.83",
+            "最终总进球 3，相对盘口 2.5 偏大"
+          ],
+          "note": "小球（2.5） · 最终 1-2（总进球 3），未打出",
+          "signals": {
+            "line_desc": "降盘 2.75->2.5（看小）",
+            "over_desc": "大球升水 0.84->1.04",
+            "line_first": 2.75,
+            "line_last": 2.5,
+            "over_first": 0.84,
+            "over_last": 1.04,
+            "under_first": 0.96,
+            "under_last": 0.83,
+            "conflict": false
+          },
+          "reasons": [
+            "大小球 降盘 2.75->2.5（看小）",
+            "大球升水 0.84->1.04",
+            "主队近0场场均总进球 0.0",
+            "客队近0场场均总进球 0.0"
+          ]
+        },
+        {
+          "competition": "europa_league",
+          "home": "格拉茨风暴",
+          "away": "采列",
+          "kickoff": "2026-11-05T20:00:00",
+          "market": "totals",
+          "sport": "football",
+          "pick": "小球（3）",
+          "side": "under",
+          "line": 3,
+          "score": 75.0,
+          "confidence": "strong",
+          "outcome": "loss",
+          "outcome_cn": "没中",
+          "home_goals": 2,
+          "away_goals": 3,
+          "book": "盘口 3 → 3，水位 大0.92/小0.88 → 大0.93/小0.94",
+          "diagnosis": [
+            "盘口 3 → 3，水位 大0.92/小0.88 → 大0.93/小0.94",
+            "最终总进球 5，相对盘口 3 偏大"
+          ],
+          "note": "小球（3） · 最终 2-3（总进球 5），未打出",
+          "signals": {
+            "line_desc": "盘口不变",
+            "over_desc": "大球水位平稳",
+            "line_first": 3,
+            "line_last": 3,
+            "over_first": 0.92,
+            "over_last": 0.93,
+            "under_first": 0.88,
+            "under_last": 0.94,
+            "conflict": false
+          },
+          "reasons": [
+            "大小球 盘口不变",
+            "大球水位平稳",
+            "主队近0场场均总进球 0.0",
+            "客队近0场场均总进球 0.0"
+          ]
+        },
         {
           "competition": "europa_league",
           "home": "奈梅亨",
