@@ -31,8 +31,19 @@ jobs:
         run: python src/main.py live
 
       - name: Commit live scores & reports
-        uses: stefanzweifel/git-auto-commit-action@v5
-        with:
-          commit_message: "data: refresh live scores & settle [skip ci]"
-          file_pattern: "data/ docs/reports/"
-          rebase_stale_commits: true
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/ docs/reports/
+          git diff --cached --quiet && { echo "no changes to commit"; exit 0; }
+          git commit -m "data: refresh live scores & settle [skip ci]"
+          # 并发提交兜底：push 前先 rebase 到最新（冲突以本机新生成数据为准），退避重试
+          for i in 1 2 3 4 5; do
+            git fetch origin main
+            if git rebase -X theirs origin/main && git push origin main; then
+              echo "pushed after attempt $i"; exit 0
+            fi
+            git rebase --abort 2>/dev/null || true
+            sleep $(( (RANDOM % 20) + 5 ))
+          done
+          echo "::error::push failed after 5 retries"; exit 1
