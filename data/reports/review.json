@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-05T22:37:27.599595+00:00",
-  "total_missed": 34,
+  "generated_at": "2026-11-05T22:46:46.869022+00:00",
+  "total_missed": 36,
   "days": [
     {
       "date": "2026-11-05",
-      "missed": 11,
+      "missed": 13,
       "items": [
         {
           "competition": "europa_league",
@@ -42,6 +42,88 @@
           "reasons": [
             "大小球 降盘 2.75->2.5（看小）",
             "大球升水 0.84->1.04",
+            "主队近0场场均总进球 0.0",
+            "客队近0场场均总进球 0.0"
+          ]
+        },
+        {
+          "competition": "europa_league",
+          "home": "阿尔克马尔",
+          "away": "Juventus",
+          "kickoff": "2026-11-05T20:00:00",
+          "market": "totals",
+          "sport": "football",
+          "pick": "小球（2.5）",
+          "side": "under",
+          "line": 2.5,
+          "score": 75.5,
+          "confidence": "strong",
+          "outcome": "loss",
+          "outcome_cn": "没中",
+          "home_goals": 1,
+          "away_goals": 2,
+          "book": "盘口 2.75 → 2.5，水位 大1.00/小0.80 → 大0.83/小1.04",
+          "diagnosis": [
+            "盘口 2.75 → 2.5，水位 大1.00/小0.80 → 大0.83/小1.04",
+            "最终总进球 3，相对盘口 2.5 偏大",
+            "大小球盘口与水位方向背离，不好买，应改走方向（亚盘）"
+          ],
+          "note": "小球（2.5） · 最终 1-2（总进球 3），未打出",
+          "signals": {
+            "line_desc": "降盘 2.75->2.5（看小）",
+            "over_desc": "大球降水 1->0.83",
+            "line_first": 2.75,
+            "line_last": 2.5,
+            "over_first": 1,
+            "over_last": 0.83,
+            "under_first": 0.8,
+            "under_last": 1.04,
+            "conflict": true
+          },
+          "reasons": [
+            "大小球 降盘 2.75->2.5（看小）",
+            "大球降水 1->0.83",
+            "主队近0场场均总进球 0.0",
+            "客队近0场场均总进球 0.0",
+            "大小球盘口与水位方向背离，不好买"
+          ]
+        },
+        {
+          "competition": "europa_league",
+          "home": "杜连斯",
+          "away": "阿拉特亚美尼亚",
+          "kickoff": "2026-11-05T20:00:00",
+          "market": "totals",
+          "sport": "football",
+          "pick": "小球（2.5）",
+          "side": "under",
+          "line": 2.5,
+          "score": 75.0,
+          "confidence": "strong",
+          "outcome": "loss",
+          "outcome_cn": "没中",
+          "home_goals": 3,
+          "away_goals": 2,
+          "book": "盘口 2.5 → 2.5，水位 大0.99/小0.81 → 大0.99/小0.88",
+          "diagnosis": [
+            "盘口 2.5 → 2.5，水位 大0.99/小0.81 → 大0.99/小0.88",
+            "最终总进球 5，相对盘口 2.5 偏大"
+          ],
+          "note": "小球（2.5） · 最终 3-2（总进球 5），未打出",
+          "signals": {
+            "line_desc": "盘口不变",
+            "over_desc": "大球水位平稳",
+            "line_first": 2.5,
+            "line_last": 2.5,
+            "over_first": 0.99,
+            "over_last": 0.99,
+            "under_first": 0.81,
+            "under_last": 0.88,
+            "conflict": false
+          },
+          "reasons": [
+            "大小球 盘口不变",
+            "大球水位平稳",
             "主队近0场场均总进球 0.0",
             "客队近0场场均总进球 0.0"
           ]
