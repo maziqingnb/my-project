@@ -58,5 +58,35 @@
     "total_line": 3,
     "over": 0.98,
     "under": 0.89
+  },
+  {
+    "fixture_key": "europa_league|布拉格斯巴达|bournemouth|2026-11-05",
+    "competition": "europa_league",
+    "home": "布拉格斯巴达",
+    "away": "Bournemouth",
+    "kickoff": "2026-11-05T17:45:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-04T17:45:00+00:00",
+    "handicap_line": 1,
+    "handicap_home": 0.85,
+    "handicap_away": 0.97,
+    "total_line": 3,
+    "over": 0.95,
+    "under": 0.85
+  },
+  {
+    "fixture_key": "europa_league|布拉格斯巴达|bournemouth|2026-11-05",
+    "competition": "europa_league",
+    "home": "布拉格斯巴达",
+    "away": "Bournemouth",
+    "kickoff": "2026-11-05T17:45:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-05T04:46:52.791917+00:00",
+    "handicap_line": 1,
+    "handicap_home": 1.07,
+    "handicap_away": 0.82,
+    "total_line": 3,
+    "over": 0.93,
+    "under": 0.94
   }
 ]

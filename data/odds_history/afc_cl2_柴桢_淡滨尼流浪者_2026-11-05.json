@@ -58,5 +58,35 @@
     "total_line": 3.25,
     "over": 0.92,
     "under": 0.88
+  },
+  {
+    "fixture_key": "afc_cl2|柴桢|淡滨尼流浪者|2026-11-05",
+    "competition": "afc_cl2",
+    "home": "柴桢",
+    "away": "淡滨尼流浪者",
+    "kickoff": "2026-11-05T12:15:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-04T12:15:00+00:00",
+    "handicap_line": -1.25,
+    "handicap_home": 0.97,
+    "handicap_away": 0.85,
+    "total_line": 3.25,
+    "over": 0.92,
+    "under": 0.88
+  },
+  {
+    "fixture_key": "afc_cl2|柴桢|淡滨尼流浪者|2026-11-05",
+    "competition": "afc_cl2",
+    "home": "柴桢",
+    "away": "淡滨尼流浪者",
+    "kickoff": "2026-11-05T12:15:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-05T04:46:42.595012+00:00",
+    "handicap_line": -1,
+    "handicap_home": 0.82,
+    "handicap_away": 1,
+    "total_line": 3.25,
+    "over": 0.96,
+    "under": 0.84
   }
 ]

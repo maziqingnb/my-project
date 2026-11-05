@@ -58,5 +58,35 @@
     "total_line": 2.5,
     "over": 0.88,
     "under": 0.99
+  },
+  {
+    "fixture_key": "argentina|阿尔多斯维|河床|2026-11-05",
+    "competition": "argentina",
+    "home": "阿尔多斯维",
+    "away": "河床",
+    "kickoff": "2026-11-05T18:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-04T18:00:00+00:00",
+    "handicap_line": 1.25,
+    "handicap_home": 0.85,
+    "handicap_away": 1.03,
+    "total_line": 2.5,
+    "over": 0.88,
+    "under": 0.99
+  },
+  {
+    "fixture_key": "argentina|阿尔多斯维|河床|2026-11-05",
+    "competition": "argentina",
+    "home": "阿尔多斯维",
+    "away": "河床",
+    "kickoff": "2026-11-05T18:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-05T04:46:28.552865+00:00",
+    "handicap_line": 1.25,
+    "handicap_home": 0.91,
+    "handicap_away": 0.98,
+    "total_line": 2.5,
+    "over": 0.88,
+    "under": 0.99
   }
 ]

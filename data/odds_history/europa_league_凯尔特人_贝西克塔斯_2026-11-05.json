@@ -58,5 +58,35 @@
     "total_line": 3,
     "over": 0.8,
     "under": 1.07
+  },
+  {
+    "fixture_key": "europa_league|凯尔特人|贝西克塔斯|2026-11-05",
+    "competition": "europa_league",
+    "home": "凯尔特人",
+    "away": "贝西克塔斯",
+    "kickoff": "2026-11-05T20:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-04T20:00:00+00:00",
+    "handicap_line": 0.25,
+    "handicap_home": 0.82,
+    "handicap_away": 1,
+    "total_line": 3,
+    "over": 1,
+    "under": 0.8
+  },
+  {
+    "fixture_key": "europa_league|凯尔特人|贝西克塔斯|2026-11-05",
+    "competition": "europa_league",
+    "home": "凯尔特人",
+    "away": "贝西克塔斯",
+    "kickoff": "2026-11-05T20:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-05T04:47:25.642961+00:00",
+    "handicap_line": 0.25,
+    "handicap_home": 0.99,
+    "handicap_away": 0.9,
+    "total_line": 3,
+    "over": 0.83,
+    "under": 1.04
   }
 ]
