@@ -88,5 +88,35 @@
     "total_line": 2.75,
     "over": 0.92,
     "under": 0.95
+  },
+  {
+    "fixture_key": "europa_league|贝尔谢巴夏普尔|ofi克里特|2026-11-05",
+    "competition": "europa_league",
+    "home": "贝尔谢巴夏普尔",
+    "away": "OFI克里特",
+    "kickoff": "2026-11-05T20:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-04T20:00:00+00:00",
+    "handicap_line": -0.5,
+    "handicap_home": 1,
+    "handicap_away": 0.82,
+    "total_line": 2.75,
+    "over": 0.84,
+    "under": 0.96
+  },
+  {
+    "fixture_key": "europa_league|贝尔谢巴夏普尔|ofi克里特|2026-11-05",
+    "competition": "europa_league",
+    "home": "贝尔谢巴夏普尔",
+    "away": "OFI克里特",
+    "kickoff": "2026-11-05T20:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-05T06:54:35.143937+00:00",
+    "handicap_line": -0.25,
+    "handicap_home": 0.84,
+    "handicap_away": 1.05,
+    "total_line": 2.75,
+    "over": 0.97,
+    "under": 0.9
   }
 ]
