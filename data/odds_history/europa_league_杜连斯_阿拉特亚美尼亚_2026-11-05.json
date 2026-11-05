@@ -118,5 +118,35 @@
     "total_line": 2.5,
     "over": 0.99,
     "under": 0.88
+  },
+  {
+    "fixture_key": "europa_league|杜连斯|阿拉特亚美尼亚|2026-11-05",
+    "competition": "europa_league",
+    "home": "杜连斯",
+    "away": "阿拉特亚美尼亚",
+    "kickoff": "2026-11-05T20:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-04T20:00:00+00:00",
+    "handicap_line": -0.75,
+    "handicap_home": 0.95,
+    "handicap_away": 0.87,
+    "total_line": 2.5,
+    "over": 0.99,
+    "under": 0.81
+  },
+  {
+    "fixture_key": "europa_league|杜连斯|阿拉特亚美尼亚|2026-11-05",
+    "competition": "europa_league",
+    "home": "杜连斯",
+    "away": "阿拉特亚美尼亚",
+    "kickoff": "2026-11-05T20:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-05T08:48:52.280280+00:00",
+    "handicap_line": -0.75,
+    "handicap_home": 0.95,
+    "handicap_away": 0.94,
+    "total_line": 2.5,
+    "over": 0.99,
+    "under": 0.88
   }
 ]

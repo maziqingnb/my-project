@@ -118,5 +118,35 @@
     "total_line": 3.75,
     "over": 0.87,
     "under": 1
+  },
+  {
+    "fixture_key": "europa_league|本菲卡|波兹南莱赫|2026-11-05",
+    "competition": "europa_league",
+    "home": "本菲卡",
+    "away": "波兹南莱赫",
+    "kickoff": "2026-11-05T20:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-04T20:00:00+00:00",
+    "handicap_line": -2,
+    "handicap_home": 0.99,
+    "handicap_away": 0.83,
+    "total_line": 3.5,
+    "over": 0.96,
+    "under": 0.84
+  },
+  {
+    "fixture_key": "europa_league|本菲卡|波兹南莱赫|2026-11-05",
+    "competition": "europa_league",
+    "home": "本菲卡",
+    "away": "波兹南莱赫",
+    "kickoff": "2026-11-05T20:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-05T08:48:49.414932+00:00",
+    "handicap_line": -2.5,
+    "handicap_home": 1.01,
+    "handicap_away": 0.88,
+    "total_line": 3.75,
+    "over": 0.87,
+    "under": 1
   }
 ]

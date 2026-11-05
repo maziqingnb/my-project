@@ -118,5 +118,35 @@
     "total_line": 3,
     "over": 0.86,
     "under": 0.94
+  },
+  {
+    "fixture_key": "afc_cl2|巴吞联|和富大埔|2026-11-05",
+    "competition": "afc_cl2",
+    "home": "巴吞联",
+    "away": "和富大埔",
+    "kickoff": "2026-11-05T12:15:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-04T12:15:00+00:00",
+    "handicap_line": -1.75,
+    "handicap_home": 0.87,
+    "handicap_away": 0.95,
+    "total_line": 3.25,
+    "over": 0.92,
+    "under": 0.88
+  },
+  {
+    "fixture_key": "afc_cl2|巴吞联|和富大埔|2026-11-05",
+    "competition": "afc_cl2",
+    "home": "巴吞联",
+    "away": "和富大埔",
+    "kickoff": "2026-11-05T12:15:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-05T08:48:19.181508+00:00",
+    "handicap_line": -2,
+    "handicap_home": 0.93,
+    "handicap_away": 0.89,
+    "total_line": 3,
+    "over": 0.86,
+    "under": 0.94
   }
 ]

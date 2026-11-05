@@ -118,5 +118,35 @@
     "total_line": 2.5,
     "over": 0.96,
     "under": 0.84
+  },
+  {
+    "fixture_key": "afc_cl2|古晋足协|江原fc|2026-11-05",
+    "competition": "afc_cl2",
+    "home": "古晋足协",
+    "away": "江原FC",
+    "kickoff": "2026-11-05T12:15:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-04T12:15:00+00:00",
+    "handicap_line": 0.75,
+    "handicap_home": 0.83,
+    "handicap_away": 0.99,
+    "total_line": 2.5,
+    "over": 0.95,
+    "under": 0.85
+  },
+  {
+    "fixture_key": "afc_cl2|古晋足协|江原fc|2026-11-05",
+    "competition": "afc_cl2",
+    "home": "古晋足协",
+    "away": "江原FC",
+    "kickoff": "2026-11-05T12:15:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-05T08:48:22.288840+00:00",
+    "handicap_line": 0.75,
+    "handicap_home": 0.9,
+    "handicap_away": 0.92,
+    "total_line": 2.5,
+    "over": 0.98,
+    "under": 0.82
   }
 ]
