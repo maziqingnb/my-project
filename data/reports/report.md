@@ -1,6 +1,6 @@
 # 足球水位分析报告
 
-- 生成时间：2026-11-05T02:45:30.871342+00:00（UTC）
+- 生成时间：2026-11-05T03:35:12.011683+00:00（UTC）
 - 覆盖范围：16 个联赛 + 5 个杯赛；杯赛与联赛数据分开计算；仅开赛前 6h 内出推荐；命中率只统计强推
 - 推荐条数：7
 - 命中率：69.4%（已结算 72 场，命中 50 场）
@@ -10,9 +10,9 @@
 | NBA 美国职业篮球联赛(联赛) | Sacramento Kings vs Los Angeles Lakers | 让分 | 客队（让 12） | 92.0 | 强推 | 待赛果 |
 | NBA 美国职业篮球联赛(联赛) | Los Angeles Clippers vs Miami Heat | 让分 | 客队（让 5.5） | 85.0 | 强推 | 待赛果 |
 | NBA 美国职业篮球联赛(联赛) | Brooklyn Nets vs Charlotte Hornets | 让分 | 客队（让 3.5） | 75.9 | 强推 | 待赛果 |
-| NBA 美国职业篮球联赛(联赛) | New Orleans Pelicans vs Utah Jazz | 总分 | 小分（232.5） | 75.0 | 强推 | 待赛果 |
 | NBA 美国职业篮球联赛(联赛) | Houston Rockets vs Minnesota Timberwolves | 总分 | 小分（220） | 75.0 | 强推 | 待赛果 |
 | NBA 美国职业篮球联赛(联赛) | Denver Nuggets vs Toronto Raptors | 总分 | 大分（231.5） | 75.0 | 强推 | 待赛果 |
+| NBA 美国职业篮球联赛(联赛) | New Orleans Pelicans vs Utah Jazz | 总分 | 小分（232.5） | 75.0 | 强推 | 待赛果 |
 | NBA 美国职业篮球联赛(联赛) | Phoenix Suns vs Portland Trail Blazers | 让分 | 客队（让 3） | 73.3 | 强推 | 待赛果 |
 
 ## 推荐理由
@@ -38,12 +38,6 @@
 - 客队近5场 1胜0平4负，场均进94.6/失105.6
 - 交手2次：主队1胜0平1负
 
-### New Orleans Pelicans vs Utah Jazz — 小分（232.5）（强推 / 75.0 分）
-- 大小球 降盘 235.5->232.5（看小）
-- 大球升水 1.96->2.03
-- 主队近5场场均总进球 242.4
-- 客队近5场场均总进球 223.2
-
 ### Houston Rockets vs Minnesota Timberwolves — 小分（220）（强推 / 75.0 分）
 - 大小球 降盘 221.0->220.0（看小）
 - 大球升水 1.86->2.02
@@ -55,6 +49,12 @@
 - 大球降水 1.94->1.91
 - 主队近5场场均总进球 238.8
 - 客队近5场场均总进球 234.6
+
+### New Orleans Pelicans vs Utah Jazz — 小分（232.5）（强推 / 75.0 分）
+- 大小球 降盘 235.5->232.5（看小）
+- 大球升水 1.96->2.03
+- 主队近5场场均总进球 242.4
+- 客队近5场场均总进球 223.2
 
 ### Phoenix Suns vs Portland Trail Blazers — 客队（让 3）（强推 / 73.3 分）
 - 亚盘 降盘 2.5->3.0（主队走弱）
