@@ -58,5 +58,35 @@
     "total_line": 2.75,
     "over": 0.84,
     "under": 1.04
+  },
+  {
+    "fixture_key": "bundesliga|hamburgersv|borussiamonchengladbach|2026-11-06",
+    "competition": "bundesliga",
+    "home": "Hamburger SV",
+    "away": "Borussia Monchengladbach",
+    "kickoff": "2026-11-06T19:30:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-05T19:30:00+00:00",
+    "handicap_line": -0.25,
+    "handicap_home": 1.03,
+    "handicap_away": 0.85,
+    "total_line": 3,
+    "over": 0.94,
+    "under": 0.92
+  },
+  {
+    "fixture_key": "bundesliga|hamburgersv|borussiamonchengladbach|2026-11-06",
+    "competition": "bundesliga",
+    "home": "Hamburger SV",
+    "away": "Borussia Monchengladbach",
+    "kickoff": "2026-11-06T19:30:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-05T20:37:01.937465+00:00",
+    "handicap_line": 0,
+    "handicap_home": 0.83,
+    "handicap_away": 1.05,
+    "total_line": 2.75,
+    "over": 0.84,
+    "under": 1.04
   }
 ]

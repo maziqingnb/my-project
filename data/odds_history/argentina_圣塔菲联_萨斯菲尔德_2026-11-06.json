@@ -58,5 +58,35 @@
     "total_line": 2.25,
     "over": 0.86,
     "under": 1.01
+  },
+  {
+    "fixture_key": "argentina|圣塔菲联|萨斯菲尔德|2026-11-06",
+    "competition": "argentina",
+    "home": "圣塔菲联",
+    "away": "萨斯菲尔德",
+    "kickoff": "2026-11-06T22:15:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-05T22:15:00+00:00",
+    "handicap_line": 0,
+    "handicap_home": 0.85,
+    "handicap_away": 1.03,
+    "total_line": 2.25,
+    "over": 0.86,
+    "under": 1.01
+  },
+  {
+    "fixture_key": "argentina|圣塔菲联|萨斯菲尔德|2026-11-06",
+    "competition": "argentina",
+    "home": "圣塔菲联",
+    "away": "萨斯菲尔德",
+    "kickoff": "2026-11-06T22:15:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-05T20:37:14.132107+00:00",
+    "handicap_line": 0,
+    "handicap_home": 0.88,
+    "handicap_away": 1,
+    "total_line": 2.25,
+    "over": 0.86,
+    "under": 1.01
   }
 ]
