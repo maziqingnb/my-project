@@ -2,24 +2,35 @@
   {
     "competition": "primeira",
     "cls": "league",
-    "home": "本菲卡",
-    "away": "艾华卡",
-    "home_goals": 1,
-    "away_goals": 0,
-    "date": "2026-11-02",
-    "handicap_line": -2.0,
-    "total_line": 3.25
+    "home": "卡萨比亚",
+    "away": "葡萄牙体育",
+    "home_goals": 0,
+    "away_goals": 2,
+    "date": "2026-10-30",
+    "handicap_line": 1.75,
+    "total_line": 3.0
   },
   {
     "competition": "primeira",
     "cls": "league",
-    "home": "吉维森特",
-    "away": "吉马良斯",
-    "home_goals": 0,
+    "home": "摩里伦斯",
+    "away": "阿马多拉",
+    "home_goals": 2,
+    "away_goals": 1,
+    "date": "2026-10-31",
+    "handicap_line": 0.25,
+    "total_line": 2.5
+  },
+  {
+    "competition": "primeira",
+    "cls": "league",
+    "home": "波尔图",
+    "away": "埃斯托里尔",
+    "home_goals": 4,
     "away_goals": 0,
-    "date": "2026-11-02",
-    "handicap_line": -0.0,
-    "total_line": 2.25
+    "date": "2026-10-31",
+    "handicap_line": -1.75,
+    "total_line": 3.0
   },
   {
     "competition": "primeira",
@@ -68,34 +79,23 @@
   {
     "competition": "primeira",
     "cls": "league",
-    "home": "摩里伦斯",
-    "away": "阿马多拉",
-    "home_goals": 2,
-    "away_goals": 1,
-    "date": "2026-10-31",
-    "handicap_line": 0.25,
-    "total_line": 2.5
-  },
-  {
-    "competition": "primeira",
-    "cls": "league",
-    "home": "波尔图",
-    "away": "埃斯托里尔",
-    "home_goals": 4,
+    "home": "本菲卡",
+    "away": "艾华卡",
+    "home_goals": 1,
     "away_goals": 0,
-    "date": "2026-10-31",
-    "handicap_line": -1.75,
-    "total_line": 3.0
+    "date": "2026-11-02",
+    "handicap_line": -2.0,
+    "total_line": 3.25
   },
   {
     "competition": "primeira",
     "cls": "league",
-    "home": "卡萨比亚",
-    "away": "葡萄牙体育",
+    "home": "吉维森特",
+    "away": "吉马良斯",
     "home_goals": 0,
-    "away_goals": 2,
-    "date": "2026-10-30",
-    "handicap_line": 1.75,
-    "total_line": 3.0
+    "away_goals": 0,
+    "date": "2026-11-02",
+    "handicap_line": -0.0,
+    "total_line": 2.25
   }
 ]

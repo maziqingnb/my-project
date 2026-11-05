@@ -1,25 +1,5 @@
 [
   {
-    "key": "brasileirao|帕尔梅拉斯|瑞模贝雷|2026-11-05",
-    "competition": "brasileirao",
-    "home": "帕尔梅拉斯",
-    "away": "瑞模贝雷",
-    "kickoff": "2026-11-05T22:30:00",
-    "status": "upcoming",
-    "home_goals": null,
-    "away_goals": null
-  },
-  {
-    "key": "brasileirao|克鲁塞罗|巴伊亚|2026-11-06",
-    "competition": "brasileirao",
-    "home": "克鲁塞罗",
-    "away": "巴伊亚",
-    "kickoff": "2026-11-06T00:30:00",
-    "status": "upcoming",
-    "home_goals": null,
-    "away_goals": null
-  },
-  {
     "key": "brasileirao|维多利亚|弗鲁米嫩塞|2026-11-06",
     "competition": "brasileirao",
     "home": "维多利亚",
