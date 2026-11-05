@@ -24,6 +24,50 @@
   {
     "competition": "afc_cl2",
     "cls": "cup",
+    "home": "狮城水手",
+    "away": "阿德莱德联",
+    "home_goals": 5,
+    "away_goals": 0,
+    "date": "2026-11-05",
+    "handicap_line": -0.75,
+    "total_line": 3.0
+  },
+  {
+    "competition": "afc_cl2",
+    "cls": "cup",
+    "home": "巴吞联",
+    "away": "和富大埔",
+    "home_goals": 4,
+    "away_goals": 1,
+    "date": "2026-11-05",
+    "handicap_line": -1.75,
+    "total_line": 3.25
+  },
+  {
+    "competition": "afc_cl2",
+    "cls": "cup",
+    "home": "柴桢",
+    "away": "淡滨尼流浪者",
+    "home_goals": 2,
+    "away_goals": 0,
+    "date": "2026-11-05",
+    "handicap_line": -1.25,
+    "total_line": 3.25
+  },
+  {
+    "competition": "afc_cl2",
+    "cls": "cup",
+    "home": "古晋足协",
+    "away": "江原FC",
+    "home_goals": 2,
+    "away_goals": 0,
+    "date": "2026-11-05",
+    "handicap_line": 0.75,
+    "total_line": 2.5
+  },
+  {
+    "competition": "afc_cl2",
+    "cls": "cup",
     "home": "墨尔本胜利",
     "away": "万隆",
     "home_goals": 1,

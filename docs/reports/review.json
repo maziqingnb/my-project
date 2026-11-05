@@ -1,11 +1,92 @@
 {
-  "generated_at": "2026-11-05T13:05:04.126215+00:00",
-  "total_missed": 28,
+  "generated_at": "2026-11-05T14:25:18.797990+00:00",
+  "total_missed": 30,
   "days": [
     {
       "date": "2026-11-05",
-      "missed": 5,
+      "missed": 7,
       "items": [
+        {
+          "competition": "afc_cl2",
+          "home": "柴桢",
+          "away": "淡滨尼流浪者",
+          "kickoff": "2026-11-05T12:15:00",
+          "market": "totals",
+          "sport": "football",
+          "pick": "大球（3）",
+          "side": "over",
+          "line": 3,
+          "score": 80.0,
+          "confidence": "strong",
+          "outcome": "loss",
+          "outcome_cn": "没中",
+          "home_goals": 2,
+          "away_goals": 0,
+          "book": "盘口 3.25 → 3，水位 大0.92/小0.88 → 大0.81/小0.99",
+          "diagnosis": [
+            "盘口 3.25 → 3，水位 大0.92/小0.88 → 大0.81/小0.99",
+            "最终总进球 2，相对盘口 3 偏小"
+          ],
+          "note": "大球（3） · 最终 2-0（总进球 2），未打出",
+          "signals": {
+            "line_desc": "降盘 3.25->3（看小）",
+            "over_desc": "大球降水 0.92->0.81",
+            "line_first": 3.25,
+            "line_last": 3,
+            "over_first": 0.92,
+            "over_last": 0.81,
+            "under_first": 0.88,
+            "under_last": 0.99
+          },
+          "reasons": [
+            "大小球 降盘 3.25->3（看小）",
+            "大球降水 0.92->0.81",
+            "主队近1场场均总进球 6.0",
+            "客队近1场场均总进球 6.0",
+            "历史交锋大小球：1次大/0次小（均线 2.75）"
+          ]
+        },
+        {
+          "competition": "afc_cl2",
+          "home": "古晋足协",
+          "away": "江原FC",
+          "kickoff": "2026-11-05T12:15:00",
+          "market": "handicap",
+          "sport": "football",
+          "pick": "客队（让 0.75）",
+          "side": "away",
+          "line": 0.75,
+          "score": 75.0,
+          "confidence": "strong",
+          "outcome": "loss",
+          "outcome_cn": "没中",
+          "home_goals": 2,
+          "away_goals": 0,
+          "book": "盘口 主受让0.75 → 主受让0.75，水位 主0.83/0.99 → 主0.86/0.96",
+          "diagnosis": [
+            "盘口 主受让0.75 → 主受让0.75，水位 主0.83/0.99 → 主0.86/0.96",
+            "最终 2-0，推荐侧相对盘口 -2.75 球（未打穿）"
+          ],
+          "note": "客队（让 0.75） · 最终 2-0（客队净胜 -2），未打穿",
+          "signals": {
+            "line_desc": "盘口不变",
+            "water_desc": "主队升水 0.83->0.86",
+            "line_first": 0.75,
+            "line_last": 0.75,
+            "home_water_first": 0.83,
+            "home_water_last": 0.86,
+            "away_water_first": 0.99,
+            "away_water_last": 0.96
+          },
+          "reasons": [
+            "亚盘 盘口不变",
+            "主队升水 0.83->0.86",
+            "主队近1场 0胜0平1负，场均进0.0/失1.0",
+            "客队近1场 1胜0平0负，场均进1.0/失0.0",
+            "交手1次：主队0胜0平1负",
+            "历史交锋盘口覆盖：主队1次打穿/客队0次打穿（均线 -1.00）"
+          ]
+        },
         {
           "competition": "afc_cl2",
           "home": "町田泽维亚",
