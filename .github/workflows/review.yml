@@ -40,3 +40,4 @@ jobs:
         with:
           commit_message: "data: daily review of missed picks [skip ci]"
           file_pattern: "data/ docs/reports/"
+          rebase_stale_commits: true
