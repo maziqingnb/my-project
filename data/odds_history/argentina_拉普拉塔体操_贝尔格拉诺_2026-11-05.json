@@ -1,0 +1,32 @@
+[
+  {
+    "fixture_key": "argentina|拉普拉塔体操|贝尔格拉诺|2026-11-05",
+    "competition": "argentina",
+    "home": "拉普拉塔体操",
+    "away": "贝尔格拉诺",
+    "kickoff": "2026-11-05T22:15:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-04T22:15:00+00:00",
+    "handicap_line": -0.25,
+    "handicap_home": 1.03,
+    "handicap_away": 0.85,
+    "total_line": 2.5,
+    "over": 1.04,
+    "under": 0.83
+  },
+  {
+    "fixture_key": "argentina|拉普拉塔体操|贝尔格拉诺|2026-11-05",
+    "competition": "argentina",
+    "home": "拉普拉塔体操",
+    "away": "贝尔格拉诺",
+    "kickoff": "2026-11-05T22:15:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-05T00:38:19.813434+00:00",
+    "handicap_line": -0.25,
+    "handicap_home": 0.92,
+    "handicap_away": 0.96,
+    "total_line": 2.5,
+    "over": 1.04,
+    "under": 0.83
+  }
+]

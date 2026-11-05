@@ -1,0 +1,32 @@
+[
+  {
+    "fixture_key": "europa_league|利勒斯特罗姆|比尔森胜利|2026-11-05",
+    "competition": "europa_league",
+    "home": "利勒斯特罗姆",
+    "away": "比尔森胜利",
+    "kickoff": "2026-11-05T17:45:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-04T17:45:00+00:00",
+    "handicap_line": 0,
+    "handicap_home": 1.03,
+    "handicap_away": 0.79,
+    "total_line": 3,
+    "over": 0.9,
+    "under": 0.9
+  },
+  {
+    "fixture_key": "europa_league|利勒斯特罗姆|比尔森胜利|2026-11-05",
+    "competition": "europa_league",
+    "home": "利勒斯特罗姆",
+    "away": "比尔森胜利",
+    "kickoff": "2026-11-05T17:45:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-05T00:38:36.422552+00:00",
+    "handicap_line": 0.25,
+    "handicap_home": 0.96,
+    "handicap_away": 0.92,
+    "total_line": 3,
+    "over": 0.94,
+    "under": 0.93
+  }
+]

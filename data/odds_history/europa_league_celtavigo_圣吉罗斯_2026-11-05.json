@@ -1,0 +1,32 @@
+[
+  {
+    "fixture_key": "europa_league|celtavigo|圣吉罗斯|2026-11-05",
+    "competition": "europa_league",
+    "home": "Celta Vigo",
+    "away": "圣吉罗斯",
+    "kickoff": "2026-11-05T20:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-04T20:00:00+00:00",
+    "handicap_line": -0.5,
+    "handicap_home": 1,
+    "handicap_away": 0.82,
+    "total_line": 2.75,
+    "over": 0.84,
+    "under": 0.96
+  },
+  {
+    "fixture_key": "europa_league|celtavigo|圣吉罗斯|2026-11-05",
+    "competition": "europa_league",
+    "home": "Celta Vigo",
+    "away": "圣吉罗斯",
+    "kickoff": "2026-11-05T20:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-05T00:38:53.213355+00:00",
+    "handicap_line": -0.25,
+    "handicap_home": 0.98,
+    "handicap_away": 0.9,
+    "total_line": 2.75,
+    "over": 1.02,
+    "under": 0.85
+  }
+]
