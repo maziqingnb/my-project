@@ -28,5 +28,35 @@
     "total_line": 3,
     "over": 0.95,
     "under": 0.92
+  },
+  {
+    "fixture_key": "europa_league|奈梅亨|奥莫尼亚|2026-11-05",
+    "competition": "europa_league",
+    "home": "奈梅亨",
+    "away": "奥莫尼亚",
+    "kickoff": "2026-11-05T17:45:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-04T17:45:00+00:00",
+    "handicap_line": -0.75,
+    "handicap_home": 0.97,
+    "handicap_away": 0.85,
+    "total_line": 3,
+    "over": 0.9,
+    "under": 0.9
+  },
+  {
+    "fixture_key": "europa_league|奈梅亨|奥莫尼亚|2026-11-05",
+    "competition": "europa_league",
+    "home": "奈梅亨",
+    "away": "奥莫尼亚",
+    "kickoff": "2026-11-05T17:45:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-05T02:45:19.690071+00:00",
+    "handicap_line": -0.75,
+    "handicap_home": 1.04,
+    "handicap_away": 0.84,
+    "total_line": 3,
+    "over": 0.98,
+    "under": 0.89
   }
 ]

@@ -493,5 +493,35 @@
     "total_line": 226.5,
     "over": 1.94,
     "under": 1.94
+  },
+  {
+    "fixture_key": "nba|sanantoniospurs|dallasmavericks|2026-11-05",
+    "competition": "nba",
+    "home": "San Antonio Spurs",
+    "away": "Dallas Mavericks",
+    "kickoff": "2026-11-05T02:44:00Z",
+    "bookmaker": "unibet",
+    "ts": "2026-11-05T02:45:30.526962+00:00",
+    "handicap_line": -12.5,
+    "handicap_home": 1.9,
+    "handicap_away": 1.92,
+    "total_line": null,
+    "over": null,
+    "under": null
+  },
+  {
+    "fixture_key": "nba|sanantoniospurs|dallasmavericks|2026-11-05",
+    "competition": "nba",
+    "home": "San Antonio Spurs",
+    "away": "Dallas Mavericks",
+    "kickoff": "2026-11-05T02:44:00Z",
+    "bookmaker": "pinnacle",
+    "ts": "2026-11-05T02:45:30.526962+00:00",
+    "handicap_line": -12.5,
+    "handicap_home": 2.02,
+    "handicap_away": 1.89,
+    "total_line": 226.5,
+    "over": 1.9,
+    "under": 1.99
   }
 ]

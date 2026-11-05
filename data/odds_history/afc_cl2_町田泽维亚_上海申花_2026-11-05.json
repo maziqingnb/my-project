@@ -28,5 +28,35 @@
     "total_line": 3,
     "over": 0.95,
     "under": 0.85
+  },
+  {
+    "fixture_key": "afc_cl2|町田泽维亚|上海申花|2026-11-05",
+    "competition": "afc_cl2",
+    "home": "町田泽维亚",
+    "away": "上海申花",
+    "kickoff": "2026-11-05T10:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-04T10:00:00+00:00",
+    "handicap_line": -1.5,
+    "handicap_home": 0.98,
+    "handicap_away": 0.84,
+    "total_line": 2.75,
+    "over": 0.78,
+    "under": 1.02
+  },
+  {
+    "fixture_key": "afc_cl2|町田泽维亚|上海申花|2026-11-05",
+    "competition": "afc_cl2",
+    "home": "町田泽维亚",
+    "away": "上海申花",
+    "kickoff": "2026-11-05T10:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-05T02:45:04.812463+00:00",
+    "handicap_line": -1.5,
+    "handicap_home": 0.97,
+    "handicap_away": 0.85,
+    "total_line": 3,
+    "over": 0.95,
+    "under": 0.85
   }
 ]

@@ -493,5 +493,20 @@
     "total_line": 208.5,
     "over": 1.88,
     "under": 1.9
+  },
+  {
+    "fixture_key": "nba|detroitpistons|philadelphia76ers|2026-11-05",
+    "competition": "nba",
+    "home": "Detroit Pistons",
+    "away": "Philadelphia 76ers",
+    "kickoff": "2026-11-05T00:13:00Z",
+    "bookmaker": "unibet",
+    "ts": "2026-11-05T02:45:30.526962+00:00",
+    "handicap_line": 4.5,
+    "handicap_home": 1.68,
+    "handicap_away": 2.1,
+    "total_line": null,
+    "over": null,
+    "under": null
   }
 ]

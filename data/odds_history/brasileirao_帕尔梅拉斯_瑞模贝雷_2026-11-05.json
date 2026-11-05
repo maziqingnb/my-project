@@ -28,5 +28,35 @@
     "total_line": 3,
     "over": 0.89,
     "under": 0.98
+  },
+  {
+    "fixture_key": "brasileirao|帕尔梅拉斯|瑞模贝雷|2026-11-05",
+    "competition": "brasileirao",
+    "home": "帕尔梅拉斯",
+    "away": "瑞模贝雷",
+    "kickoff": "2026-11-05T22:30:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-04T22:30:00+00:00",
+    "handicap_line": -1.75,
+    "handicap_home": 0.89,
+    "handicap_away": 0.99,
+    "total_line": 3,
+    "over": 0.89,
+    "under": 0.98
+  },
+  {
+    "fixture_key": "brasileirao|帕尔梅拉斯|瑞模贝雷|2026-11-05",
+    "competition": "brasileirao",
+    "home": "帕尔梅拉斯",
+    "away": "瑞模贝雷",
+    "kickoff": "2026-11-05T22:30:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-05T02:44:58.139102+00:00",
+    "handicap_line": -1.75,
+    "handicap_home": 0.89,
+    "handicap_away": 0.99,
+    "total_line": 3,
+    "over": 0.89,
+    "under": 0.98
   }
 ]
