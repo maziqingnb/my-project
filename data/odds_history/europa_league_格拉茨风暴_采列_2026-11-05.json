@@ -148,5 +148,35 @@
     "total_line": 3,
     "over": 0.9,
     "under": 0.97
+  },
+  {
+    "fixture_key": "europa_league|格拉茨风暴|采列|2026-11-05",
+    "competition": "europa_league",
+    "home": "格拉茨风暴",
+    "away": "采列",
+    "kickoff": "2026-11-05T20:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-04T20:00:00+00:00",
+    "handicap_line": -1,
+    "handicap_home": 0.96,
+    "handicap_away": 0.86,
+    "total_line": 3,
+    "over": 0.92,
+    "under": 0.88
+  },
+  {
+    "fixture_key": "europa_league|格拉茨风暴|采列|2026-11-05",
+    "competition": "europa_league",
+    "home": "格拉茨风暴",
+    "away": "采列",
+    "kickoff": "2026-11-05T20:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-05T10:51:18.071880+00:00",
+    "handicap_line": -1,
+    "handicap_home": 0.83,
+    "handicap_away": 1.06,
+    "total_line": 3,
+    "over": 0.93,
+    "under": 0.94
   }
 ]

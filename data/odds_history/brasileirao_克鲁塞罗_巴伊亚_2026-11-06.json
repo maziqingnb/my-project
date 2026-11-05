@@ -148,5 +148,35 @@
     "total_line": 3,
     "over": 0.89,
     "under": 0.98
+  },
+  {
+    "fixture_key": "brasileirao|克鲁塞罗|巴伊亚|2026-11-06",
+    "competition": "brasileirao",
+    "home": "克鲁塞罗",
+    "away": "巴伊亚",
+    "kickoff": "2026-11-06T00:30:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-05T00:30:00+00:00",
+    "handicap_line": -0.75,
+    "handicap_home": 0.95,
+    "handicap_away": 0.93,
+    "total_line": 3,
+    "over": 0.89,
+    "under": 0.98
+  },
+  {
+    "fixture_key": "brasileirao|克鲁塞罗|巴伊亚|2026-11-06",
+    "competition": "brasileirao",
+    "home": "克鲁塞罗",
+    "away": "巴伊亚",
+    "kickoff": "2026-11-06T00:30:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-05T10:50:43.901964+00:00",
+    "handicap_line": -0.75,
+    "handicap_home": 0.87,
+    "handicap_away": 1.02,
+    "total_line": 3,
+    "over": 0.89,
+    "under": 0.98
   }
 ]

@@ -148,5 +148,35 @@
     "total_line": 3.25,
     "over": 0.8,
     "under": 1
+  },
+  {
+    "fixture_key": "afc_cl2|狮城水手|阿德莱德联|2026-11-05",
+    "competition": "afc_cl2",
+    "home": "狮城水手",
+    "away": "阿德莱德联",
+    "kickoff": "2026-11-05T11:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-04T11:00:00+00:00",
+    "handicap_line": -0.75,
+    "handicap_home": 0.88,
+    "handicap_away": 0.94,
+    "total_line": 3,
+    "over": 0.89,
+    "under": 0.91
+  },
+  {
+    "fixture_key": "afc_cl2|狮城水手|阿德莱德联|2026-11-05",
+    "competition": "afc_cl2",
+    "home": "狮城水手",
+    "away": "阿德莱德联",
+    "kickoff": "2026-11-05T11:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-05T10:50:48.169498+00:00",
+    "handicap_line": -1.25,
+    "handicap_home": 0.92,
+    "handicap_away": 0.9,
+    "total_line": 3.25,
+    "over": 0.86,
+    "under": 0.94
   }
 ]
