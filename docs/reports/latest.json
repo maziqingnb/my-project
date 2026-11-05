@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T20:37:22.989376+00:00",
+  "generated_at": "2026-11-05T21:14:51.827917+00:00",
   "scope": "16 个联赛 + 5 个杯赛",
   "note": "杯赛与联赛数据分开计算；仅开赛前 6h 内出推荐；命中率只统计强推",
   "total": 7,
@@ -539,144 +539,6 @@
       }
     },
     {
-      "fixture_key": "europa_league|sunderland|萨格勒布迪纳摩|2026-11-05",
-      "competition": "europa_league",
-      "home": "Sunderland",
-      "away": "萨格勒布迪纳摩",
-      "kickoff": "2026-11-05T20:00:00",
-      "market": "totals",
-      "pick": "小球（2.75）",
-      "side": "under",
-      "confidence": "strong",
-      "score": 75.5,
-      "line": 2.75,
-      "reasons": [
-        "大小球 降盘 3->2.75（看小）",
-        "大球降水 0.98->0.8",
-        "主队近0场场均总进球 0.0",
-        "客队近0场场均总进球 0.0",
-        "大小球盘口与水位方向背离，不好买"
-      ],
-      "signals": {
-        "line_desc": "降盘 3->2.75（看小）",
-        "over_desc": "大球降水 0.98->0.8",
-        "line_first": 3,
-        "line_last": 2.75,
-        "over_first": 0.98,
-        "over_last": 0.8,
-        "under_first": 0.82,
-        "under_last": 1.07,
-        "conflict": true
-      },
-      "history": [
-        {
-          "ts": "2026-11-04T20:00:00+00:00",
-          "total_line": 3,
-          "over": 0.98,
-          "under": 0.82
-        },
-        {
-          "ts": "2026-11-04T20:00:00+00:00",
-          "total_line": 3,
-          "over": 0.98,
-          "under": 0.82
-        },
-        {
-          "ts": "2026-11-04T20:00:00+00:00",
-          "total_line": 3,
-          "over": 0.98,
-          "under": 0.82
-        },
-        {
-          "ts": "2026-11-04T20:00:00+00:00",
-          "total_line": 3,
-          "over": 0.98,
-          "under": 0.82
-        },
-        {
-          "ts": "2026-11-04T20:00:00+00:00",
-          "total_line": 3,
-          "over": 0.98,
-          "under": 0.82
-        },
-        {
-          "ts": "2026-11-04T20:00:00+00:00",
-          "total_line": 3,
-          "over": 0.98,
-          "under": 0.82
-        },
-        {
-          "ts": "2026-11-04T20:00:00+00:00",
-          "total_line": 3,
-          "over": 0.98,
-          "under": 0.82
-        },
-        {
-          "ts": "2026-11-04T20:00:00+00:00",
-          "total_line": 3,
-          "over": 0.98,
-          "under": 0.82
-        },
-        {
-          "ts": "2026-11-05T00:38:54.690427+00:00",
-          "total_line": 2.75,
-          "over": 0.84,
-          "under": 1.03
-        },
-        {
-          "ts": "2026-11-05T02:45:29.077787+00:00",
-          "total_line": 2.75,
-          "over": 0.84,
-          "under": 1.03
-        },
-        {
-          "ts": "2026-11-05T04:47:21.280336+00:00",
-          "total_line": 2.75,
-          "over": 0.84,
-          "under": 1.03
-        },
-        {
-          "ts": "2026-11-05T06:54:38.869155+00:00",
-          "total_line": 2.75,
-          "over": 0.84,
-          "under": 1.03
-        },
-        {
-          "ts": "2026-11-05T08:48:57.226732+00:00",
-          "total_line": 2.75,
-          "over": 0.84,
-          "under": 1.03
-        },
-        {
-          "ts": "2026-11-05T10:51:25.908666+00:00",
-          "total_line": 2.75,
-          "over": 0.84,
-          "under": 1.03
-        },
-        {
-          "ts": "2026-11-05T12:50:52.577702+00:00",
-          "total_line": 2.75,
-          "over": 0.84,
-          "under": 1.03
-        },
-        {
-          "ts": "2026-11-05T14:48:02.285493+00:00",
-          "total_line": 2.75,
-          "over": 0.8,
-          "under": 1.07
-        }
-      ],
-      "reliability": 0.6,
-      "competition_name": "欧洲联赛（欧联杯 / UEFA Europa League）",
-      "competition_class": "cup",
-      "sport": "football",
-      "lead_hours": 5.199365140833334,
-      "prematch": false,
-      "result": {
-        "settled": false
-      }
-    },
-    {
       "fixture_key": "europa_league|阿尔克马尔|juventus|2026-11-05",
       "competition": "europa_league",
       "home": "阿尔克马尔",
@@ -815,137 +677,138 @@
       }
     },
     {
-      "fixture_key": "europa_league|杜连斯|阿拉特亚美尼亚|2026-11-05",
+      "fixture_key": "europa_league|sunderland|萨格勒布迪纳摩|2026-11-05",
       "competition": "europa_league",
-      "home": "杜连斯",
-      "away": "阿拉特亚美尼亚",
+      "home": "Sunderland",
+      "away": "萨格勒布迪纳摩",
       "kickoff": "2026-11-05T20:00:00",
       "market": "totals",
-      "pick": "小球（2.5）",
+      "pick": "小球（2.75）",
       "side": "under",
       "confidence": "strong",
-      "score": 75.0,
-      "line": 2.5,
+      "score": 75.5,
+      "line": 2.75,
       "reasons": [
-        "大小球 盘口不变",
-        "大球水位平稳",
+        "大小球 降盘 3->2.75（看小）",
+        "大球降水 0.98->0.8",
         "主队近0场场均总进球 0.0",
-        "客队近0场场均总进球 0.0"
+        "客队近0场场均总进球 0.0",
+        "大小球盘口与水位方向背离，不好买"
       ],
       "signals": {
-        "line_desc": "盘口不变",
-        "over_desc": "大球水位平稳",
-        "line_first": 2.5,
-        "line_last": 2.5,
-        "over_first": 0.99,
-        "over_last": 0.99,
-        "under_first": 0.81,
-        "under_last": 0.88,
-        "conflict": false
+        "line_desc": "降盘 3->2.75（看小）",
+        "over_desc": "大球降水 0.98->0.8",
+        "line_first": 3,
+        "line_last": 2.75,
+        "over_first": 0.98,
+        "over_last": 0.8,
+        "under_first": 0.82,
+        "under_last": 1.07,
+        "conflict": true
       },
       "history": [
         {
           "ts": "2026-11-04T20:00:00+00:00",
-          "total_line": 2.5,
-          "over": 0.99,
-          "under": 0.81
+          "total_line": 3,
+          "over": 0.98,
+          "under": 0.82
         },
         {
           "ts": "2026-11-04T20:00:00+00:00",
-          "total_line": 2.5,
-          "over": 0.99,
-          "under": 0.81
+          "total_line": 3,
+          "over": 0.98,
+          "under": 0.82
         },
         {
           "ts": "2026-11-04T20:00:00+00:00",
-          "total_line": 2.5,
-          "over": 0.99,
-          "under": 0.81
+          "total_line": 3,
+          "over": 0.98,
+          "under": 0.82
         },
         {
           "ts": "2026-11-04T20:00:00+00:00",
-          "total_line": 2.5,
-          "over": 0.99,
-          "under": 0.81
+          "total_line": 3,
+          "over": 0.98,
+          "under": 0.82
         },
         {
           "ts": "2026-11-04T20:00:00+00:00",
-          "total_line": 2.5,
-          "over": 0.99,
-          "under": 0.81
+          "total_line": 3,
+          "over": 0.98,
+          "under": 0.82
         },
         {
           "ts": "2026-11-04T20:00:00+00:00",
-          "total_line": 2.5,
-          "over": 0.99,
-          "under": 0.81
+          "total_line": 3,
+          "over": 0.98,
+          "under": 0.82
         },
         {
           "ts": "2026-11-04T20:00:00+00:00",
-          "total_line": 2.5,
-          "over": 0.99,
-          "under": 0.81
+          "total_line": 3,
+          "over": 0.98,
+          "under": 0.82
         },
         {
           "ts": "2026-11-04T20:00:00+00:00",
-          "total_line": 2.5,
-          "over": 0.99,
-          "under": 0.81
+          "total_line": 3,
+          "over": 0.98,
+          "under": 0.82
         },
         {
-          "ts": "2026-11-05T00:38:50.380368+00:00",
-          "total_line": 2.5,
-          "over": 1.03,
-          "under": 0.84
+          "ts": "2026-11-05T00:38:54.690427+00:00",
+          "total_line": 2.75,
+          "over": 0.84,
+          "under": 1.03
         },
         {
-          "ts": "2026-11-05T02:45:25.339689+00:00",
-          "total_line": 2.5,
-          "over": 1.03,
-          "under": 0.84
+          "ts": "2026-11-05T02:45:29.077787+00:00",
+          "total_line": 2.75,
+          "over": 0.84,
+          "under": 1.03
         },
         {
-          "ts": "2026-11-05T04:47:14.934193+00:00",
-          "total_line": 2.5,
-          "over": 1.02,
-          "under": 0.85
+          "ts": "2026-11-05T04:47:21.280336+00:00",
+          "total_line": 2.75,
+          "over": 0.84,
+          "under": 1.03
         },
         {
-          "ts": "2026-11-05T06:54:33.585155+00:00",
-          "total_line": 2.5,
-          "over": 0.99,
-          "under": 0.88
+          "ts": "2026-11-05T06:54:38.869155+00:00",
+          "total_line": 2.75,
+          "over": 0.84,
+          "under": 1.03
         },
         {
-          "ts": "2026-11-05T08:48:52.280280+00:00",
-          "total_line": 2.5,
-          "over": 0.99,
-          "under": 0.88
+          "ts": "2026-11-05T08:48:57.226732+00:00",
+          "total_line": 2.75,
+          "over": 0.84,
+          "under": 1.03
         },
         {
-          "ts": "2026-11-05T10:51:19.773307+00:00",
-          "total_line": 2.5,
-          "over": 0.99,
-          "under": 0.88
+          "ts": "2026-11-05T10:51:25.908666+00:00",
+          "total_line": 2.75,
+          "over": 0.84,
+          "under": 1.03
         },
         {
-          "ts": "2026-11-05T12:50:44.312164+00:00",
-          "total_line": 2.5,
-          "over": 0.99,
-          "under": 0.88
+          "ts": "2026-11-05T12:50:52.577702+00:00",
+          "total_line": 2.75,
+          "over": 0.84,
+          "under": 1.03
         },
         {
-          "ts": "2026-11-05T14:47:56.710478+00:00",
-          "total_line": 2.5,
-          "over": 0.99,
-          "under": 0.88
+          "ts": "2026-11-05T14:48:02.285493+00:00",
+          "total_line": 2.75,
+          "over": 0.8,
+          "under": 1.07
         }
       ],
-      "reliability": 0.85,
+      "reliability": 0.6,
       "competition_name": "欧洲联赛（欧联杯 / UEFA Europa League）",
       "competition_class": "cup",
       "sport": "football",
-      "lead_hours": 5.2009137561111105,
+      "lead_hours": 5.199365140833334,
       "prematch": false,
       "result": {
         "settled": false
@@ -1083,6 +946,143 @@
       "competition_class": "cup",
       "sport": "football",
       "lead_hours": 5.2016634405555555,
+      "prematch": false,
+      "result": {
+        "settled": false
+      }
+    },
+    {
+      "fixture_key": "europa_league|杜连斯|阿拉特亚美尼亚|2026-11-05",
+      "competition": "europa_league",
+      "home": "杜连斯",
+      "away": "阿拉特亚美尼亚",
+      "kickoff": "2026-11-05T20:00:00",
+      "market": "totals",
+      "pick": "小球（2.5）",
+      "side": "under",
+      "confidence": "strong",
+      "score": 75.0,
+      "line": 2.5,
+      "reasons": [
+        "大小球 盘口不变",
+        "大球水位平稳",
+        "主队近0场场均总进球 0.0",
+        "客队近0场场均总进球 0.0"
+      ],
+      "signals": {
+        "line_desc": "盘口不变",
+        "over_desc": "大球水位平稳",
+        "line_first": 2.5,
+        "line_last": 2.5,
+        "over_first": 0.99,
+        "over_last": 0.99,
+        "under_first": 0.81,
+        "under_last": 0.88,
+        "conflict": false
+      },
+      "history": [
+        {
+          "ts": "2026-11-04T20:00:00+00:00",
+          "total_line": 2.5,
+          "over": 0.99,
+          "under": 0.81
+        },
+        {
+          "ts": "2026-11-04T20:00:00+00:00",
+          "total_line": 2.5,
+          "over": 0.99,
+          "under": 0.81
+        },
+        {
+          "ts": "2026-11-04T20:00:00+00:00",
+          "total_line": 2.5,
+          "over": 0.99,
+          "under": 0.81
+        },
+        {
+          "ts": "2026-11-04T20:00:00+00:00",
+          "total_line": 2.5,
+          "over": 0.99,
+          "under": 0.81
+        },
+        {
+          "ts": "2026-11-04T20:00:00+00:00",
+          "total_line": 2.5,
+          "over": 0.99,
+          "under": 0.81
+        },
+        {
+          "ts": "2026-11-04T20:00:00+00:00",
+          "total_line": 2.5,
+          "over": 0.99,
+          "under": 0.81
+        },
+        {
+          "ts": "2026-11-04T20:00:00+00:00",
+          "total_line": 2.5,
+          "over": 0.99,
+          "under": 0.81
+        },
+        {
+          "ts": "2026-11-04T20:00:00+00:00",
+          "total_line": 2.5,
+          "over": 0.99,
+          "under": 0.81
+        },
+        {
+          "ts": "2026-11-05T00:38:50.380368+00:00",
+          "total_line": 2.5,
+          "over": 1.03,
+          "under": 0.84
+        },
+        {
+          "ts": "2026-11-05T02:45:25.339689+00:00",
+          "total_line": 2.5,
+          "over": 1.03,
+          "under": 0.84
+        },
+        {
+          "ts": "2026-11-05T04:47:14.934193+00:00",
+          "total_line": 2.5,
+          "over": 1.02,
+          "under": 0.85
+        },
+        {
+          "ts": "2026-11-05T06:54:33.585155+00:00",
+          "total_line": 2.5,
+          "over": 0.99,
+          "under": 0.88
+        },
+        {
+          "ts": "2026-11-05T08:48:52.280280+00:00",
+          "total_line": 2.5,
+          "over": 0.99,
+          "under": 0.88
+        },
+        {
+          "ts": "2026-11-05T10:51:19.773307+00:00",
+          "total_line": 2.5,
+          "over": 0.99,
+          "under": 0.88
+        },
+        {
+          "ts": "2026-11-05T12:50:44.312164+00:00",
+          "total_line": 2.5,
+          "over": 0.99,
+          "under": 0.88
+        },
+        {
+          "ts": "2026-11-05T14:47:56.710478+00:00",
+          "total_line": 2.5,
+          "over": 0.99,
+          "under": 0.88
+        }
+      ],
+      "reliability": 0.85,
+      "competition_name": "欧洲联赛（欧联杯 / UEFA Europa League）",
+      "competition_class": "cup",
+      "sport": "football",
+      "lead_hours": 5.2009137561111105,
       "prematch": false,
       "result": {
         "settled": false
