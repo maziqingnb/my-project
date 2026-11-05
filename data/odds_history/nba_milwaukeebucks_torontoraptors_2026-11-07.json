@@ -1,0 +1,17 @@
+[
+  {
+    "fixture_key": "nba|milwaukeebucks|torontoraptors|2026-11-07",
+    "competition": "nba",
+    "home": "Milwaukee Bucks",
+    "away": "Toronto Raptors",
+    "kickoff": "2026-11-07T01:10:00Z",
+    "bookmaker": "unibet",
+    "ts": "2026-11-05T22:37:27.254831+00:00",
+    "handicap_line": 7.5,
+    "handicap_home": 1.87,
+    "handicap_away": 1.94,
+    "total_line": null,
+    "over": null,
+    "under": null
+  }
+]

@@ -1,0 +1,17 @@
+[
+  {
+    "fixture_key": "nba|clevelandcavaliers|philadelphia76ers|2026-11-07",
+    "competition": "nba",
+    "home": "Cleveland Cavaliers",
+    "away": "Philadelphia 76ers",
+    "kickoff": "2026-11-07T00:40:00Z",
+    "bookmaker": "unibet",
+    "ts": "2026-11-05T22:37:27.254831+00:00",
+    "handicap_line": 2.5,
+    "handicap_home": 1.91,
+    "handicap_away": 1.9,
+    "total_line": null,
+    "over": null,
+    "under": null
+  }
+]
