@@ -1,11 +1,50 @@
 {
-  "generated_at": "2026-11-04T23:41:58.992559+00:00",
-  "total_missed": 21,
+  "generated_at": "2026-11-05T00:27:13.806988+00:00",
+  "total_missed": 22,
   "days": [
     {
       "date": "2026-11-04",
-      "missed": 5,
+      "missed": 6,
       "items": [
+        {
+          "competition": "brasileirao",
+          "home": "巴拉纳竞技",
+          "away": "瓦斯科达伽马",
+          "kickoff": "2026-11-04T22:30:00",
+          "market": "totals",
+          "sport": "football",
+          "pick": "小球（2.75）",
+          "side": "under",
+          "line": 2.75,
+          "score": 70.0,
+          "confidence": "strong",
+          "outcome": "loss",
+          "outcome_cn": "没中",
+          "home_goals": 1,
+          "away_goals": 3,
+          "book": "盘口 2.75 → 2.75，水位 大0.98/小0.89 → 大1.05/小0.82",
+          "diagnosis": [
+            "盘口 2.75 → 2.75，水位 大0.98/小0.89 → 大1.05/小0.82",
+            "最终总进球 4，相对盘口 2.75 偏大"
+          ],
+          "note": "小球（2.75） · 最终 1-3（总进球 4），未打出",
+          "signals": {
+            "line_desc": "盘口不变",
+            "over_desc": "大球升水 0.98->1.05",
+            "line_first": 2.75,
+            "line_last": 2.75,
+            "over_first": 0.98,
+            "over_last": 1.05,
+            "under_first": 0.89,
+            "under_last": 0.82
+          },
+          "reasons": [
+            "大小球 盘口不变",
+            "大球升水 0.98->1.05",
+            "主队近1场场均总进球 2.0",
+            "客队近1场场均总进球 5.0"
+          ]
+        },
         {
           "competition": "ucl",
           "home": "朗斯",
