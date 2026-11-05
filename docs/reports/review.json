@@ -1,11 +1,52 @@
 {
-  "generated_at": "2026-11-05T00:38:56.892335+00:00",
-  "total_missed": 22,
+  "generated_at": "2026-11-05T01:45:00.132726+00:00",
+  "total_missed": 23,
   "days": [
     {
       "date": "2026-11-04",
-      "missed": 6,
+      "missed": 7,
       "items": [
+        {
+          "competition": "brasileirao",
+          "home": "弗拉门戈",
+          "away": "格雷米奥",
+          "kickoff": "2026-11-04T22:30:00",
+          "market": "handicap",
+          "sport": "football",
+          "pick": "主队（让 2.25）",
+          "side": "home",
+          "line": -2.25,
+          "score": 80.8,
+          "confidence": "strong",
+          "outcome": "half_loss",
+          "outcome_cn": "半输",
+          "home_goals": 3,
+          "away_goals": 1,
+          "book": "盘口 主让2 → 主让2.25，水位 主0.99/0.89 → 主0.89/1.00",
+          "diagnosis": [
+            "盘口 主让2 → 主让2.25，水位 主0.99/0.89 → 主0.89/1.00",
+            "最终 3-1，推荐侧相对盘口 -0.25 球（未打穿）",
+            "初盘→临场升盘仍推主队：盘口已偏深，注意「升盘陷阱」"
+          ],
+          "note": "主队（让 2.25） · 最终 3-1（主队净胜 2），未打穿",
+          "signals": {
+            "line_desc": "升盘 -2->-2.25（主队走强）",
+            "water_desc": "主队降水 0.99->0.89",
+            "line_first": -2,
+            "line_last": -2.25,
+            "home_water_first": 0.99,
+            "home_water_last": 0.89,
+            "away_water_first": 0.89,
+            "away_water_last": 1
+          },
+          "reasons": [
+            "亚盘 升盘 -2->-2.25（主队走强）",
+            "主队降水 0.99->0.89",
+            "主队近2场 2胜0平0负，场均进3.5/失1.5",
+            "客队近2场 2胜0平0负，场均进1.5/失0.0",
+            "交手0次：主队0胜0平0负"
+          ]
+        },
         {
           "competition": "brasileirao",
           "home": "巴拉纳竞技",
