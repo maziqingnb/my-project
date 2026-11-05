@@ -2,24 +2,35 @@
   {
     "competition": "poland",
     "cls": "league",
-    "home": "克拉科维亚",
-    "away": "莫托路宾",
-    "home_goals": 1,
-    "away_goals": 2,
-    "date": "2026-10-30",
+    "home": "拉多麦科",
+    "away": "史拉斯科",
+    "home_goals": 3,
+    "away_goals": 1,
+    "date": "2026-11-02",
     "handicap_line": -0.25,
-    "total_line": 2.75
+    "total_line": 3.0
   },
   {
     "competition": "poland",
     "cls": "league",
-    "home": "扎布热矿工",
-    "away": "华沙莱吉亚",
-    "home_goals": 0,
+    "home": "卢宾扎格勒比",
+    "away": "哥罗纳",
+    "home_goals": 1,
     "away_goals": 0,
-    "date": "2026-10-30",
-    "handicap_line": -0.25,
+    "date": "2026-11-02",
+    "handicap_line": -0.0,
     "total_line": 2.5
+  },
+  {
+    "competition": "poland",
+    "cls": "league",
+    "home": "琴斯托霍瓦",
+    "away": "什切青",
+    "home_goals": 3,
+    "away_goals": 1,
+    "date": "2026-11-02",
+    "handicap_line": -0.25,
+    "total_line": 3.0
   },
   {
     "competition": "poland",
@@ -68,34 +79,23 @@
   {
     "competition": "poland",
     "cls": "league",
-    "home": "拉多麦科",
-    "away": "史拉斯科",
-    "home_goals": 3,
-    "away_goals": 1,
-    "date": "2026-11-02",
-    "handicap_line": -0.25,
-    "total_line": 3.0
-  },
-  {
-    "competition": "poland",
-    "cls": "league",
-    "home": "卢宾扎格勒比",
-    "away": "哥罗纳",
+    "home": "克拉科维亚",
+    "away": "莫托路宾",
     "home_goals": 1,
-    "away_goals": 0,
-    "date": "2026-11-02",
-    "handicap_line": -0.0,
-    "total_line": 2.5
+    "away_goals": 2,
+    "date": "2026-10-30",
+    "handicap_line": -0.25,
+    "total_line": 2.75
   },
   {
     "competition": "poland",
     "cls": "league",
-    "home": "琴斯托霍瓦",
-    "away": "什切青",
-    "home_goals": 3,
-    "away_goals": 1,
-    "date": "2026-11-02",
+    "home": "扎布热矿工",
+    "away": "华沙莱吉亚",
+    "home_goals": 0,
+    "away_goals": 0,
+    "date": "2026-10-30",
     "handicap_line": -0.25,
-    "total_line": 3.0
+    "total_line": 2.5
   }
 ]

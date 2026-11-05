@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-11-05T11:58:56.996458+00:00",
+  "generated_at": "2026-11-05T13:05:03.890920+00:00",
   "matches": [
     {
-      "fixture_key": "afc_cl2|狮城水手|阿德莱德联|2026-11-05",
+      "fixture_key": "afc_cl2|古晋足协|江原fc|2026-11-05",
       "competition": "afc_cl2",
-      "home": "狮城水手",
-      "away": "阿德莱德联",
-      "kickoff": "2026-11-05T11:30:00",
+      "home": "古晋足协",
+      "away": "江原FC",
+      "kickoff": "2026-11-05T12:15:00",
       "status": "live",
       "home_goals": 2,
       "away_goals": 0
