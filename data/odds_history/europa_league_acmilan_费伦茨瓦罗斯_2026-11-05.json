@@ -208,5 +208,35 @@
     "total_line": 3.25,
     "over": 0.95,
     "under": 0.92
+  },
+  {
+    "fixture_key": "europa_league|acmilan|费伦茨瓦罗斯|2026-11-05",
+    "competition": "europa_league",
+    "home": "AC Milan",
+    "away": "费伦茨瓦罗斯",
+    "kickoff": "2026-11-05T17:45:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-04T17:45:00+00:00",
+    "handicap_line": -1.5,
+    "handicap_home": 0.87,
+    "handicap_away": 0.95,
+    "total_line": 3,
+    "over": 0.86,
+    "under": 0.94
+  },
+  {
+    "fixture_key": "europa_league|acmilan|费伦茨瓦罗斯|2026-11-05",
+    "competition": "europa_league",
+    "home": "AC Milan",
+    "away": "费伦茨瓦罗斯",
+    "kickoff": "2026-11-05T17:45:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-05T14:47:37.754126+00:00",
+    "handicap_line": -1.5,
+    "handicap_home": 0.94,
+    "handicap_away": 0.95,
+    "total_line": 3.25,
+    "over": 0.97,
+    "under": 0.9
   }
 ]

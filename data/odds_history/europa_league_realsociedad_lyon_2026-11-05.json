@@ -208,5 +208,35 @@
     "total_line": 3.25,
     "over": 1.01,
     "under": 0.86
+  },
+  {
+    "fixture_key": "europa_league|realsociedad|lyon|2026-11-05",
+    "competition": "europa_league",
+    "home": "Real Sociedad",
+    "away": "Lyon",
+    "kickoff": "2026-11-05T17:45:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-04T17:45:00+00:00",
+    "handicap_line": -0.5,
+    "handicap_home": 0.96,
+    "handicap_away": 0.86,
+    "total_line": 3,
+    "over": 0.91,
+    "under": 0.89
+  },
+  {
+    "fixture_key": "europa_league|realsociedad|lyon|2026-11-05",
+    "competition": "europa_league",
+    "home": "Real Sociedad",
+    "away": "Lyon",
+    "kickoff": "2026-11-05T17:45:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-05T14:47:32.487850+00:00",
+    "handicap_line": -1,
+    "handicap_home": 0.9,
+    "handicap_away": 0.99,
+    "total_line": 3.25,
+    "over": 1,
+    "under": 0.87
   }
 ]

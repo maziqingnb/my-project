@@ -208,5 +208,35 @@
     "total_line": 3,
     "over": 0.92,
     "under": 0.95
+  },
+  {
+    "fixture_key": "europa_league|安德莱赫特|萨尔茨堡|2026-11-05",
+    "competition": "europa_league",
+    "home": "安德莱赫特",
+    "away": "萨尔茨堡",
+    "kickoff": "2026-11-05T17:45:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-04T17:45:00+00:00",
+    "handicap_line": -0.5,
+    "handicap_home": 0.91,
+    "handicap_away": 0.91,
+    "total_line": 3,
+    "over": 0.96,
+    "under": 0.84
+  },
+  {
+    "fixture_key": "europa_league|安德莱赫特|萨尔茨堡|2026-11-05",
+    "competition": "europa_league",
+    "home": "安德莱赫特",
+    "away": "萨尔茨堡",
+    "kickoff": "2026-11-05T17:45:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-05T14:47:35.301981+00:00",
+    "handicap_line": -0.5,
+    "handicap_home": 1.05,
+    "handicap_away": 0.84,
+    "total_line": 3.25,
+    "over": 1.05,
+    "under": 0.82
   }
 ]
