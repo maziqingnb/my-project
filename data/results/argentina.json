@@ -2,6 +2,17 @@
   {
     "competition": "argentina",
     "cls": "league",
+    "home": "阿尔多斯维",
+    "away": "河床",
+    "home_goals": 0,
+    "away_goals": 2,
+    "date": "2026-11-05",
+    "handicap_line": 1.25,
+    "total_line": 2.5
+  },
+  {
+    "competition": "argentina",
+    "cls": "league",
     "home": "图库曼竞技",
     "away": "阿根廷青年人",
     "home_goals": 1,
