@@ -62,9 +62,15 @@ def recommend_handicap(comp, cfg: dict, results: list[Result],
         h2h_line_signal = (h2hl["home_cover"] - h2hl["away_cover"]) / h2hl["meetings"]
 
     w = cfg["analysis"]["weights"]["handicap"]
+    move_water = w["water_move"] * sig["water_signal"]
+    move_line = w["line_move"] * sig["line_signal"]
+    # 盘口与水位背离时两者都是噪声，按 0.4 折扣，避免两个反向信号互相抵消后残留错误方向
+    if sig.get("conflict"):
+        move_water *= 0.4
+        move_line *= 0.4
+
     combined = (
-        w["water_move"] * sig["water_signal"]
-        + w["line_move"] * sig["line_signal"]
+        move_water + move_line
         + w["form"] * _form_signal(hf, af)
         + w["h2h"] * _h2h_signal(h2h)
         + w["home_away"] * _home_away_signal(ha)
@@ -72,10 +78,29 @@ def recommend_handicap(comp, cfg: dict, results: list[Result],
     )
 
     side = "home" if combined >= 0 else "away"
+    line = sig["line_last"] if sig["line_last"] is not None else 0.0
+
+    # 升盘陷阱：初盘→临场升盘（主队让球加深）后仍买主队，价值已下降——
+    # 市场已把主队看强、盘口加深，再买主队要让更深，复盘里 laliga 主-1.5、primeira 主-2.5
+    # 两场都是「升盘仍买主队」没打穿。让球 ≥0.5 且升盘时按升幅扣分。
+    trap = 0.0
+    if side == "home" and sig["line_signal"] > 0 and line <= -0.5:
+        deepen = (sig["line_first"] or 0.0) - (sig["line_last"] or 0.0)
+        trap = min(0.2, 0.4 * max(0.0, deepen))
+        combined -= trap
+
     score = 50 + 50 * abs(_clamp(combined))
     conf = _confidence(score, cfg["analysis"]["thresholds"])
 
-    line = sig["line_last"] if sig["line_last"] is not None else 0.0
+    # 信号可靠性：水位缺失 / 盘口水位背离 / 升盘陷阱，都会降权（供「大小球改走方向」比较用）
+    reliability = 1.0
+    if sig.get("conflict"):
+        reliability *= 0.7
+    if sig.get("home_water_first") is None or sig.get("home_water_last") is None:
+        reliability *= 0.85
+    if trap > 0:
+        reliability *= 0.85
+
     # line 从主队视角：<=0 主队让球，>0 主队受让；方向侧决定"让"还是"受让"
     if abs(line) < 0.01:
         pick = f"{'主队' if side == 'home' else '客队'}（平手盘）"
@@ -96,6 +121,10 @@ def recommend_handicap(comp, cfg: dict, results: list[Result],
             f"历史交锋盘口覆盖：主队{h2hl['home_cover']}次打穿/客队{h2hl['away_cover']}次打穿"
             f"（均线 {h2hl['avg_line']:+.2f}）"
         )
+    if sig.get("conflict"):
+        reasons.append("盘口与水位方向背离，信号可靠性降低")
+    if trap > 0:
+        reasons.append("升盘后仍买主队，让球线已深，注意诱盘风险")
 
     history = [
         {"ts": s.ts, "handicap_line": s.handicap_line,
@@ -107,11 +136,12 @@ def recommend_handicap(comp, cfg: dict, results: list[Result],
         fixture_key=snaps[-1].fixture_key, competition=comp.key,
         home=home, away=away, kickoff=snaps[-1].kickoff,
         market="handicap", pick=pick, side=side, line=line, confidence=conf,
-        score=round(score, 1), reasons=reasons,
+        score=round(score, 1), reasons=reasons, reliability=round(reliability, 2),
         signals=dict(line_desc=sig["line_desc"], water_desc=sig["water_desc"],
                      line_first=sig["line_first"], line_last=sig["line_last"],
                      home_water_first=sig["home_water_first"], home_water_last=sig["home_water_last"],
-                     away_water_first=sig["away_water_first"], away_water_last=sig["away_water_last"]),
+                     away_water_first=sig["away_water_first"], away_water_last=sig["away_water_last"],
+                     conflict=sig.get("conflict", False)),
         history=history,
     )
 
@@ -142,9 +172,15 @@ def recommend_totals(comp, cfg: dict, results: list[Result],
         defense = (hf["avg_ga"] + af["avg_ga"] - 2.6) / 0.9
 
     w = cfg["analysis"]["weights"]["totals"]
+    move_water = w["water_move"] * sig["over_signal"]
+    move_line = w["line_move"] * sig["line_signal"]
+    # 大小球的水位尤其噪声（复盘多次「大球降水→反而小球」），盘口与水位背离时按 0.4 折扣
+    if sig.get("conflict"):
+        move_water *= 0.4
+        move_line *= 0.4
+
     combined = (
-        w["water_move"] * sig["over_signal"]
-        + w["line_move"] * sig["line_signal"]
+        move_water + move_line
         + w["attacking_form"] * _clamp(attack)
         + w["defensive_form"] * _clamp(defense)
         + w.get("h2h_total", 0.0) * h2h_total_signal
@@ -160,6 +196,16 @@ def recommend_totals(comp, cfg: dict, results: list[Result],
     else:
         pick = f"{'大球' if side == 'over' else '小球'}（{line:g}）"
 
+    # 可靠性：没有大小球水位 / 盘口与水位背离 / 盘口没动，都算「不好买」，
+    # 供 recommend_competition 决定是否改走方向（亚盘）。
+    reliability = 1.0
+    if sig.get("over_first") is None or sig.get("under_first") is None:
+        reliability *= 0.6
+    if sig.get("conflict"):
+        reliability *= 0.6
+    if abs(sig["line_signal"]) < 0.05 and abs(sig["over_signal"]) < 0.05:
+        reliability *= 0.85          # 盘口、水位都几乎没动，纯靠近况猜方向
+
     reasons = [
         f"大小球 {sig['line_desc']}",
         sig["over_desc"],
@@ -170,6 +216,10 @@ def recommend_totals(comp, cfg: dict, results: list[Result],
         reasons.append(
             f"历史交锋大小球：{h2ht['over']}次大/{h2ht['under']}次小（均线 {h2ht['avg_line']:.2f}）"
         )
+    if sig.get("conflict"):
+        reasons.append("大小球盘口与水位方向背离，不好买")
+    elif sig.get("over_first") is None or sig.get("under_first") is None:
+        reasons.append("缺少大小球水位，可靠性降低")
 
     history = [
         {"ts": s.ts, "total_line": s.total_line, "over": s.over, "under": s.under}
@@ -180,20 +230,33 @@ def recommend_totals(comp, cfg: dict, results: list[Result],
         fixture_key=snaps[-1].fixture_key, competition=comp.key,
         home=home, away=away, kickoff=snaps[-1].kickoff,
         market="totals", pick=pick, side=side, line=line, confidence=conf,
-        score=round(score, 1), reasons=reasons,
+        score=round(score, 1), reasons=reasons, reliability=round(reliability, 2),
         signals=dict(line_desc=sig["line_desc"], over_desc=sig["over_desc"],
                      line_first=sig["line_first"], line_last=sig["line_last"],
                      over_first=sig["over_first"], over_last=sig["over_last"],
-                     under_first=sig["under_first"], under_last=sig["under_last"]),
+                     under_first=sig["under_first"], under_last=sig["under_last"],
+                     conflict=sig.get("conflict", False)),
         history=history,
     )
+
+
+def _effective_score(r: Recommendation) -> float:
+    """二选一时用的「有效分」：大小球可靠性低（不好买）时打折，方向（亚盘）天然更稳。
+
+    可靠性每降 0.1 扣 1.5 分——大小球「盘口与水位背离 / 无水位」时，即便原始分略高，
+    也会让位给方向更明确的亚盘。命中率目标：把大小球的噪声推荐压下去，稳住整体 >80%。
+    """
+    if r.market == "totals":
+        return r.score - (1.0 - r.reliability) * 15.0
+    return r.score
 
 
 def recommend_competition(comp, cfg: dict, results: list[Result],
                           odds_by_fixture: dict) -> list[Recommendation]:
     """对某联赛/杯赛的所有场次出推荐（联赛与杯赛各自独立调用、独立口径）。
 
-    同一场比赛若同时有亚盘和大小球两个候选，只保留概率（分数）最高的那个。
+    同一场比赛若同时有亚盘和大小球两个候选，只保留一个：
+    优先分数最高者，但大小球「不好买」（可靠性低）时改走方向（亚盘）。
     """
     recs: list[Recommendation] = []
     for fk, snaps in odds_by_fixture.items():
@@ -205,7 +268,9 @@ def recommend_competition(comp, cfg: dict, results: list[Result],
                 candidates.append(r)
         if not candidates:
             continue
-        # 亚盘 / 大小球二选一：取推荐系数（分数）最高者
-        candidates.sort(key=lambda r: r.score, reverse=True)
+        # 亚盘 / 大小球二选一：取有效分最高者（大小球可靠性低会被打折）；
+        # 同分时方向（亚盘）优先——大小球不可靠时宁可走方向。
+        candidates.sort(key=lambda r: (_effective_score(r), r.market == "handicap"),
+                        reverse=True)
         recs.append(candidates[0])
     return recs

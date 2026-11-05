@@ -153,7 +153,12 @@ def h2h_totals_stats(results: list[Result], home: str, away: str, n: int = 5) ->
 # ---------------------------------------------------------------- 水位/盘口信号
 
 def handicap_signals(snaps: list[OddsSnapshot]) -> Optional[dict]:
-    """亚盘信号：初盘 vs 临场（首条 vs 末条快照）。返回主队视角的方向信号。"""
+    """亚盘信号：初盘 vs 临场（首条 vs 末条快照）。返回主队视角的方向信号。
+
+    信号带量级（不再是 ±1 二值）：盘口按 0.5 球归一、水位按 0.15 归一，
+    避免「升盘 0.25」和「升盘 1.0」被当成同样强。line_signal / water_signal 同号
+    （正=主队被看好）时彼此印证；异号则 conflict=True。
+    """
     h = [s for s in snaps if s.handicap_line is not None]
     if not h:
         return None
@@ -163,31 +168,38 @@ def handicap_signals(snaps: list[OddsSnapshot]) -> Optional[dict]:
     line_desc = "盘口不变"
     if first.handicap_line is not None and last.handicap_line is not None:
         d = first.handicap_line - last.handicap_line   # >0：让球加深，主队被看好
-        if d > 0.05:
-            line_signal, line_desc = 1.0, f"升盘 {first.handicap_line}->{last.handicap_line}（主队走强）"
-        elif d < -0.05:
-            line_signal, line_desc = -1.0, f"降盘 {first.handicap_line}->{last.handicap_line}（主队走弱）"
+        if abs(d) > 0.05:
+            line_signal = _clamp(d / 0.5)
+            line_desc = (f"升盘 {first.handicap_line}->{last.handicap_line}（主队走强）"
+                         if d > 0 else
+                         f"降盘 {first.handicap_line}->{last.handicap_line}（主队走弱）")
 
     water_signal = 0.0
     water_desc = "水位平稳"
     if first.handicap_home and last.handicap_home:
         d = first.handicap_home - last.handicap_home   # >0：主队水位下降 = 降水
-        if d > 0.03:
-            water_signal, water_desc = 1.0, f"主队降水 {first.handicap_home}->{last.handicap_home}"
-        elif d < -0.03:
-            water_signal, water_desc = -1.0, f"主队升水 {first.handicap_home}->{last.handicap_home}"
+        if abs(d) > 0.02:
+            water_signal = _clamp(d / 0.15)
+            water_desc = (f"主队降水 {first.handicap_home}->{last.handicap_home}"
+                          if d > 0 else
+                          f"主队升水 {first.handicap_home}->{last.handicap_home}")
 
+    conflict = bool(line_signal and water_signal and line_signal * water_signal < 0)
     return dict(
         line_first=first.handicap_line, line_last=last.handicap_line,
         home_water_first=first.handicap_home, home_water_last=last.handicap_home,
         away_water_first=first.handicap_away, away_water_last=last.handicap_away,
         line_signal=line_signal, water_signal=water_signal,
-        line_desc=line_desc, water_desc=water_desc,
+        line_desc=line_desc, water_desc=water_desc, conflict=conflict,
     )
 
 
 def totals_signals(snaps: list[OddsSnapshot]) -> Optional[dict]:
-    """大小球信号：初盘 vs 临场，返回"大球"视角的方向信号。"""
+    """大小球信号：初盘 vs 临场，返回"大球"视角的方向信号（带量级）。
+
+    水位变化对大小球尤其噪声大（复盘里多次「大球降水→反而小球」），
+    因此这里额外返回 conflict（盘口方向与水位方向背离）供推荐层降权/改走方向。
+    """
     t = [s for s in snaps if s.total_line is not None]
     if not t:
         return None
@@ -197,24 +209,27 @@ def totals_signals(snaps: list[OddsSnapshot]) -> Optional[dict]:
     line_desc = "盘口不变"
     if first.total_line is not None and last.total_line is not None:
         d = last.total_line - first.total_line       # >0：升盘，看大
-        if d > 0.05:
-            line_signal, line_desc = 1.0, f"升盘 {first.total_line}->{last.total_line}（看大）"
-        elif d < -0.05:
-            line_signal, line_desc = -1.0, f"降盘 {first.total_line}->{last.total_line}（看小）"
+        if abs(d) > 0.05:
+            line_signal = _clamp(d / 0.5)
+            line_desc = (f"升盘 {first.total_line}->{last.total_line}（看大）"
+                         if d > 0 else
+                         f"降盘 {first.total_line}->{last.total_line}（看小）")
 
     over_signal = 0.0
     over_desc = "大球水位平稳"
     if first.over and last.over:
         d = first.over - last.over                   # >0：大球降水，看大
-        if d > 0.03:
-            over_signal, over_desc = 1.0, f"大球降水 {first.over}->{last.over}"
-        elif d < -0.03:
-            over_signal, over_desc = -1.0, f"大球升水 {first.over}->{last.over}"
+        if abs(d) > 0.02:
+            over_signal = _clamp(d / 0.15)
+            over_desc = (f"大球降水 {first.over}->{last.over}"
+                         if d > 0 else
+                         f"大球升水 {first.over}->{last.over}")
 
+    conflict = bool(line_signal and over_signal and line_signal * over_signal < 0)
     return dict(
         line_first=first.total_line, line_last=last.total_line,
         over_first=first.over, over_last=last.over,
         under_first=first.under, under_last=last.under,
         line_signal=line_signal, over_signal=over_signal,
-        line_desc=line_desc, over_desc=over_desc,
+        line_desc=line_desc, over_desc=over_desc, conflict=conflict,
     )

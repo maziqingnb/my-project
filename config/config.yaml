@@ -148,11 +148,11 @@ analysis:
       home_away: 0.10          # 主客场
       h2h_line: 0.10           # 历史交手盘口覆盖（结合过往比赛盘口）
     totals:                    # 大小球推荐权重
-      water_move: 0.30         # 大/小水位变动
-      line_move: 0.20          # 盘口升/降（2.5->3 等）
-      attacking_form: 0.25     # 双方进攻效率
-      defensive_form: 0.15     # 双方防守/失球
-      h2h_total: 0.10          # 历史交手大小球覆盖（结合过往比赛盘口）
+      water_move: 0.10         # 大/小水位变动（复盘显示水位对大小球噪声极大，多次反向，故降权）
+      line_move: 0.25          # 盘口升/降（2.5->3 等，比水位更可靠）
+      attacking_form: 0.30     # 双方进攻效率
+      defensive_form: 0.20     # 双方防守/失球
+      h2h_total: 0.15          # 历史交手大小球覆盖（结合过往比赛盘口）
   thresholds:
     strong: 70                 # 分数 >= 70 -> 强推
     watch: 55                  # 分数 >= 55 -> 可关注，否则观望

@@ -65,14 +65,26 @@ def _state(code):
     return {0: "upcoming", 1: "live", -1: "finished"}.get(code)
 
 
+_BEIJING = timezone(timedelta(hours=8))
+
+
 def _iso(match_time: str) -> str:
     """'20261031103000'（球探网为北京时间 UTC+8）-> UTC 的 '2026-10-31T02:30:00'"""
     t = (match_time or "").strip()
     if len(t) >= 12:
         dt = datetime(int(t[:4]), int(t[4:6]), int(t[6:8]), int(t[8:10]), int(t[10:12]), 0,
-                      tzinfo=timezone(timedelta(hours=8)))
+                      tzinfo=_BEIJING)
         return dt.astimezone(timezone.utc).strftime("%Y-%m-%dT%H:%M:%S")
     return t
+
+
+def _beijing_date(offset_days: int = 0) -> str:
+    """win007 赛程页 `?date=` 按北京时间分页，返回北京时间的日期（可偏移 N 天）。
+
+    之前用 UTC 的 today 拼日期，北京时间(UTC+8)先跨天后会抓错分页，
+    导致进行中比分漏抓、昨日完场结果漏结算。
+    """
+    return (datetime.now(_BEIJING) + timedelta(days=offset_days)).strftime("%Y-%m-%d")
 
 
 def _dt(iso: str):
@@ -250,10 +262,8 @@ class Win007Client(OddsClient, FixturesClient):
     # ------------------------------------------------------------ 赛程/结果
     def _matches(self, days: int) -> list[dict]:
         out: list[dict] = []
-        today = datetime.now(timezone.utc)
         for d in range(days):
-            day = (today + timedelta(days=d)).strftime("%Y-%m-%d")
-            out.extend(self._schedule(day))
+            out.extend(self._schedule(_beijing_date(d)))
         return out
 
     def fetch_upcoming(self, comp: Competition, days: int) -> list[Fixture]:
@@ -273,26 +283,33 @@ class Win007Client(OddsClient, FixturesClient):
         return fixtures
 
     def fetch_live(self, comp: Competition) -> list[Fixture]:
-        """进行中的比赛（含实时比分）。只抓今天赛程页；五大联赛比赛时间都在当天北京时间白天/晚间，
-        进行中状态只会出现在当天的赛程页上。"""
+        """进行中的比赛（含实时比分）。
+
+        抓「北京时间今天 + 昨天」两个分页：晚场（北京时间 23 点后）跨零点仍进行中的
+        场次只挂在昨天那页上，单抓今天会漏。按 scheduleid 去重。
+        """
         fixtures = []
-        for m in self._matches(days=1):
-            if m["comp_key"] != comp.key or m.get("state") != "live":
-                continue
-            fixtures.append(Fixture(
-                key=fixture_key(comp.key, m["home"], m["away"], m["kickoff"]),
-                competition=comp.key, home=m["home"], away=m["away"],
-                kickoff=m["kickoff"], status="live",
-                home_goals=m.get("home_goals"), away_goals=m.get("away_goals"),
-            ))
+        seen: set[str] = set()
+        for offset in (0, -1):
+            for m in self._schedule(_beijing_date(offset)):
+                if m["comp_key"] != comp.key or m.get("state") != "live":
+                    continue
+                if m["scheduleid"] in seen:
+                    continue
+                seen.add(m["scheduleid"])
+                fixtures.append(Fixture(
+                    key=fixture_key(comp.key, m["home"], m["away"], m["kickoff"]),
+                    competition=comp.key, home=m["home"], away=m["away"],
+                    kickoff=m["kickoff"], status="live",
+                    home_goals=m.get("home_goals"), away_goals=m.get("away_goals"),
+                ))
         return fixtures
 
     def fetch_results(self, comp: Competition, days_back: int) -> list[Result]:
-        today = datetime.now(timezone.utc)
         seen: set[str] = set()
         results = []
         for d in range(days_back, -1, -1):       # 从最久到最近，含今天（d=0）以实时结算
-            day = (today - timedelta(days=d)).strftime("%Y-%m-%d")
+            day = _beijing_date(-d)
             for m in self._schedule(day):
                 if m["comp_key"] != comp.key:
                     continue
@@ -323,7 +340,7 @@ class Win007Client(OddsClient, FixturesClient):
         用于给任意联赛/杯赛查球探网 ID，方便往 config.yaml 里「植入」更多联赛。
         day 为 None 时用今天；欧冠/欧联等杯赛要在其比赛日抓才有。
         """
-        day = day or datetime.now(timezone.utc).strftime("%Y-%m-%d")
+        day = day or _beijing_date()
         html = self._fetch(self.base_url.replace("{date}", day))
         m = re.search(r'var sclassDataStr = "(.*?)";', html, re.S)
         if not m:

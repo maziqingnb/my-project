@@ -77,6 +77,8 @@ def _diagnose(r: dict) -> list[str]:
         wd = sig.get("water_desc") or ""
         if "升水" in wd and side == "home":
             pts.append("主队升水（资金偏向客队）却推主队，水位信号与方向背离")
+        if sig.get("conflict"):
+            pts.append("盘口与水位方向背离，信号可靠性低")
     else:
         if hg is not None and ag is not None and line is not None:
             total = hg + ag
@@ -85,6 +87,12 @@ def _diagnose(r: dict) -> list[str]:
         od = sig.get("over_desc") or ""
         if "升水" in od and side == "over":
             pts.append("大球升水（资金偏向小球）却推大球，水位信号与方向背离")
+        # 大小球「不好买」的两类典型：盘口与水位背离、或根本没有水位。
+        # 这类场次应改走方向（亚盘），而不是硬猜大小球。
+        if sig.get("conflict"):
+            pts.append("大小球盘口与水位方向背离，不好买，应改走方向（亚盘）")
+        elif sig.get("over_first") is None or sig.get("under_first") is None:
+            pts.append("当时无大小球水位，只靠盘口/近况猜方向，可靠性低，应改走方向")
     return pts
 
 

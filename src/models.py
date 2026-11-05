@@ -136,6 +136,7 @@ class Recommendation:
     reasons: list = field(default_factory=list)
     signals: dict = field(default_factory=dict)
     history: list = field(default_factory=list)   # 水位快照时间序列（供走势图）
+    reliability: float = 1.0        # 信号可靠性 0-1（水位缺失/盘口与水位背离时降低）
 
 
 def to_dicts(objs) -> list:

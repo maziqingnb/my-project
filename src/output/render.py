@@ -19,7 +19,7 @@ from ..analysis.settle import (settle_dict, hit_rate_stats, group_hit_rates,
 _CONF_CN = {"strong": "强推", "watch": "可关注", "pass": "观望"}
 _HISTORY_FIELDS = ("fixture_key", "competition", "home", "away", "kickoff",
                    "market", "pick", "side", "line", "score", "confidence",
-                   "prematch", "sport", "signals", "reasons")
+                   "prematch", "sport", "signals", "reasons", "reliability")
 
 
 def _parse_ts(s):
