@@ -1,45 +1,5 @@
 [
   {
-    "key": "brasileirao|巴拉纳竞技|瓦斯科达伽马|2026-11-04",
-    "competition": "brasileirao",
-    "home": "巴拉纳竞技",
-    "away": "瓦斯科达伽马",
-    "kickoff": "2026-11-04T22:30:00",
-    "status": "upcoming",
-    "home_goals": null,
-    "away_goals": null
-  },
-  {
-    "key": "brasileirao|弗拉门戈|格雷米奥|2026-11-04",
-    "competition": "brasileirao",
-    "home": "弗拉门戈",
-    "away": "格雷米奥",
-    "kickoff": "2026-11-04T22:30:00",
-    "status": "upcoming",
-    "home_goals": null,
-    "away_goals": null
-  },
-  {
-    "key": "brasileirao|博塔弗戈|米内罗竞技|2026-11-05",
-    "competition": "brasileirao",
-    "home": "博塔弗戈",
-    "away": "米内罗竞技",
-    "kickoff": "2026-11-05T00:30:00",
-    "status": "upcoming",
-    "home_goals": null,
-    "away_goals": null
-  },
-  {
-    "key": "brasileirao|圣保罗|科林蒂安|2026-11-05",
-    "competition": "brasileirao",
-    "home": "圣保罗",
-    "away": "科林蒂安",
-    "kickoff": "2026-11-05T00:30:00",
-    "status": "upcoming",
-    "home_goals": null,
-    "away_goals": null
-  },
-  {
     "key": "brasileirao|帕尔梅拉斯|瑞模贝雷|2026-11-05",
     "competition": "brasileirao",
     "home": "帕尔梅拉斯",

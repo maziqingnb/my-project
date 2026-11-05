@@ -178,5 +178,35 @@
     "total_line": 3.5,
     "over": 0.94,
     "under": 0.93
+  },
+  {
+    "fixture_key": "europa_league|bayerleverkusen|marseille|2026-11-05",
+    "competition": "europa_league",
+    "home": "Bayer Leverkusen",
+    "away": "Marseille",
+    "kickoff": "2026-11-05T20:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-04T20:00:00+00:00",
+    "handicap_line": -1.25,
+    "handicap_home": 0.85,
+    "handicap_away": 0.97,
+    "total_line": 3.25,
+    "over": 0.96,
+    "under": 0.84
+  },
+  {
+    "fixture_key": "europa_league|bayerleverkusen|marseille|2026-11-05",
+    "competition": "europa_league",
+    "home": "Bayer Leverkusen",
+    "away": "Marseille",
+    "kickoff": "2026-11-05T20:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-05T12:50:33.346282+00:00",
+    "handicap_line": -1.5,
+    "handicap_home": 0.83,
+    "handicap_away": 1.06,
+    "total_line": 3.5,
+    "over": 0.96,
+    "under": 0.91
   }
 ]
