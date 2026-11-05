@@ -1,11 +1,52 @@
 {
-  "generated_at": "2026-11-05T11:03:26.123171+00:00",
-  "total_missed": 27,
+  "generated_at": "2026-11-05T11:58:57.249893+00:00",
+  "total_missed": 28,
   "days": [
     {
       "date": "2026-11-05",
-      "missed": 4,
+      "missed": 5,
       "items": [
+        {
+          "competition": "afc_cl2",
+          "home": "町田泽维亚",
+          "away": "上海申花",
+          "kickoff": "2026-11-05T10:00:00",
+          "market": "handicap",
+          "sport": "football",
+          "pick": "主队（让 1.5）",
+          "side": "home",
+          "line": -1.5,
+          "score": 85.0,
+          "confidence": "strong",
+          "outcome": "loss",
+          "outcome_cn": "没中",
+          "home_goals": 2,
+          "away_goals": 1,
+          "book": "盘口 主让1.5 → 主让1.5，水位 主0.98/0.84 → 主0.92/0.90",
+          "diagnosis": [
+            "盘口 主让1.5 → 主让1.5，水位 主0.98/0.84 → 主0.92/0.90",
+            "最终 2-1，推荐侧相对盘口 -0.50 球（未打穿）"
+          ],
+          "note": "主队（让 1.5） · 最终 2-1（主队净胜 1），未打穿",
+          "signals": {
+            "line_desc": "盘口不变",
+            "water_desc": "主队降水 0.98->0.92",
+            "line_first": -1.5,
+            "line_last": -1.5,
+            "home_water_first": 0.98,
+            "home_water_last": 0.92,
+            "away_water_first": 0.84,
+            "away_water_last": 0.9
+          },
+          "reasons": [
+            "亚盘 盘口不变",
+            "主队降水 0.98->0.92",
+            "主队近1场 1胜0平0负，场均进1.0/失0.0",
+            "客队近1场 0胜0平1负，场均进0.0/失1.0",
+            "交手1次：主队1胜0平0负",
+            "历史交锋盘口覆盖：主队1次打穿/客队0次打穿（均线 +0.50）"
+          ]
+        },
         {
           "competition": "nba",
           "home": "Los Angeles Clippers",

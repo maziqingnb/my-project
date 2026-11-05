@@ -1,4 +1,15 @@
 {
-  "generated_at": "2026-11-05T11:03:25.663501+00:00",
-  "matches": []
+  "generated_at": "2026-11-05T11:58:56.996458+00:00",
+  "matches": [
+    {
+      "fixture_key": "afc_cl2|狮城水手|阿德莱德联|2026-11-05",
+      "competition": "afc_cl2",
+      "home": "狮城水手",
+      "away": "阿德莱德联",
+      "kickoff": "2026-11-05T11:30:00",
+      "status": "live",
+      "home_goals": 2,
+      "away_goals": 0
+    }
+  ]
 }
