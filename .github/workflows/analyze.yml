@@ -9,6 +9,12 @@ on:
 permissions:
   contents: write
 
+# 多个工作流（analyze/live/prematch/review）都会向 main 提交 data/ docs/reports/，
+# 并发提交会 push 冲突导致 commit 步骤失败。用同一 concurrency group 串行化，避免互相踩踏。
+concurrency:
+  group: data-commit
+  cancel-in-progress: false
+
 jobs:
   analyze:
     runs-on: ubuntu-latest
