@@ -88,5 +88,35 @@
     "total_line": 229.5,
     "over": 1.99,
     "under": 1.88
+  },
+  {
+    "fixture_key": "nba|sacramentokings|sanantoniospurs|2026-11-07",
+    "competition": "nba",
+    "home": "Sacramento Kings",
+    "away": "San Antonio Spurs",
+    "kickoff": "2026-11-07T03:10:00Z",
+    "bookmaker": "unibet",
+    "ts": "2026-11-06T06:56:08.913626+00:00",
+    "handicap_line": 15.5,
+    "handicap_home": 1.94,
+    "handicap_away": 1.87,
+    "total_line": null,
+    "over": null,
+    "under": null
+  },
+  {
+    "fixture_key": "nba|sacramentokings|sanantoniospurs|2026-11-07",
+    "competition": "nba",
+    "home": "Sacramento Kings",
+    "away": "San Antonio Spurs",
+    "kickoff": "2026-11-07T03:10:00Z",
+    "bookmaker": "pinnacle",
+    "ts": "2026-11-06T06:56:08.913626+00:00",
+    "handicap_line": 15.0,
+    "handicap_home": 1.97,
+    "handicap_away": 1.92,
+    "total_line": 229.5,
+    "over": 1.93,
+    "under": 1.93
   }
 ]

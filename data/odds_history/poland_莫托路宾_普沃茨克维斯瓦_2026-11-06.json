@@ -208,5 +208,35 @@
     "total_line": 2.75,
     "over": 0.8,
     "under": 1
+  },
+  {
+    "fixture_key": "poland|莫托路宾|普沃茨克维斯瓦|2026-11-06",
+    "competition": "poland",
+    "home": "莫托路宾",
+    "away": "普沃茨克维斯瓦",
+    "kickoff": "2026-11-06T17:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-05T17:00:00+00:00",
+    "handicap_line": -0.5,
+    "handicap_home": 0.94,
+    "handicap_away": 0.88,
+    "total_line": 2.75,
+    "over": 0.8,
+    "under": 1
+  },
+  {
+    "fixture_key": "poland|莫托路宾|普沃茨克维斯瓦|2026-11-06",
+    "competition": "poland",
+    "home": "莫托路宾",
+    "away": "普沃茨克维斯瓦",
+    "kickoff": "2026-11-06T17:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-06T06:56:05.645003+00:00",
+    "handicap_line": -0.5,
+    "handicap_home": 0.92,
+    "handicap_away": 0.9,
+    "total_line": 2.75,
+    "over": 0.86,
+    "under": 0.94
   }
 ]

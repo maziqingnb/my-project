@@ -208,5 +208,35 @@
     "total_line": 2,
     "over": 0.8,
     "under": 1.07
+  },
+  {
+    "fixture_key": "argentina|巴拉卡斯中央队|竞技俱乐部|2026-11-06",
+    "competition": "argentina",
+    "home": "巴拉卡斯中央队",
+    "away": "竞技俱乐部",
+    "kickoff": "2026-11-06T18:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-05T18:00:00+00:00",
+    "handicap_line": -0.25,
+    "handicap_home": 0.86,
+    "handicap_away": 1.02,
+    "total_line": 2.25,
+    "over": 1.08,
+    "under": 0.79
+  },
+  {
+    "fixture_key": "argentina|巴拉卡斯中央队|竞技俱乐部|2026-11-06",
+    "competition": "argentina",
+    "home": "巴拉卡斯中央队",
+    "away": "竞技俱乐部",
+    "kickoff": "2026-11-06T18:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-06T06:55:51.805494+00:00",
+    "handicap_line": -0.25,
+    "handicap_home": 1.12,
+    "handicap_away": 0.78,
+    "total_line": 2,
+    "over": 0.82,
+    "under": 1.05
   }
 ]
