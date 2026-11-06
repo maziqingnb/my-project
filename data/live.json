@@ -1,32 +1,12 @@
 {
-  "generated_at": "2026-11-06T18:11:47.473963+00:00",
+  "generated_at": "2026-11-06T19:10:19.755478+00:00",
   "matches": [
-    {
-      "fixture_key": "argentina|巴拉卡斯中央队|竞技俱乐部|2026-11-06",
-      "competition": "argentina",
-      "home": "巴拉卡斯中央队",
-      "away": "竞技俱乐部",
-      "kickoff": "2026-11-06T18:00:00",
-      "status": "live",
-      "home_goals": 0,
-      "away_goals": 0
-    },
-    {
-      "fixture_key": "denmark|锡尔克堡|利恩比|2026-11-06",
-      "competition": "denmark",
-      "home": "锡尔克堡",
-      "away": "利恩比",
-      "kickoff": "2026-11-06T18:00:00",
-      "status": "live",
-      "home_goals": 0,
-      "away_goals": 0
-    },
     {
       "fixture_key": "sweden|哈马比|埃尔夫斯堡|2026-11-06",
       "competition": "sweden",
       "home": "哈马比",
       "away": "埃尔夫斯堡",
-      "kickoff": "2026-11-06T18:00:00",
+      "kickoff": "2026-11-06T18:40:00",
       "status": "live",
       "home_goals": 0,
       "away_goals": 0

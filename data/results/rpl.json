@@ -2,6 +2,17 @@
   {
     "competition": "rpl",
     "cls": "league",
+    "home": "莫斯科火车头",
+    "away": "喀山红宝石",
+    "home_goals": 0,
+    "away_goals": 1,
+    "date": "2026-11-06",
+    "handicap_line": -0.25,
+    "total_line": 2.5
+  },
+  {
+    "competition": "rpl",
+    "cls": "league",
     "home": "苏维埃之翼",
     "away": "圣彼得堡泽尼特",
     "home_goals": 0,

@@ -2,6 +2,17 @@
   {
     "competition": "superlig",
     "cls": "league",
+    "home": "加济安泰普大都会",
+    "away": "卡斯帕萨",
+    "home_goals": 0,
+    "away_goals": 2,
+    "date": "2026-11-06",
+    "handicap_line": -0.0,
+    "total_line": 2.5
+  },
+  {
+    "competition": "superlig",
+    "cls": "league",
     "home": "根克勒比利吉",
     "away": "阿拉尼亚体育",
     "home_goals": 5,
