@@ -2,6 +2,17 @@
   {
     "competition": "ligue1",
     "cls": "league",
+    "home": "Toulouse",
+    "away": "Strasbourg",
+    "home_goals": 3,
+    "away_goals": 1,
+    "date": "2026-11-06",
+    "handicap_line": -0.5,
+    "total_line": 3.0
+  },
+  {
+    "competition": "ligue1",
+    "cls": "league",
     "home": "洛里昂",
     "away": "布雷斯特",
     "home_goals": 0,

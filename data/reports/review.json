@@ -1,11 +1,52 @@
 {
-  "generated_at": "2026-11-06T21:24:58.771145+00:00",
-  "total_missed": 37,
+  "generated_at": "2026-11-06T22:10:36.147601+00:00",
+  "total_missed": 38,
   "days": [
     {
       "date": "2026-11-06",
-      "missed": 1,
+      "missed": 2,
       "items": [
+        {
+          "competition": "ligue1",
+          "home": "Toulouse",
+          "away": "Strasbourg",
+          "kickoff": "2026-11-06T19:45:00",
+          "market": "handicap",
+          "sport": "football",
+          "pick": "客队（受让 0.25）",
+          "side": "away",
+          "line": -0.25,
+          "score": 70.0,
+          "confidence": "strong",
+          "outcome": "loss",
+          "outcome_cn": "没中",
+          "home_goals": 3,
+          "away_goals": 1,
+          "book": "盘口 主让0.25 → 主让0.25，水位 主0.83/1.05 → 主0.93/0.96",
+          "diagnosis": [
+            "盘口 主让0.25 → 主让0.25，水位 主0.83/1.05 → 主0.93/0.96",
+            "最终 3-1，推荐侧相对盘口 -1.75 球（未打穿）"
+          ],
+          "note": "客队（受让 0.25） · 最终 3-1（客队净胜 -2），未打穿",
+          "signals": {
+            "line_desc": "盘口不变",
+            "water_desc": "主队升水 0.83->0.93",
+            "line_first": -0.25,
+            "line_last": -0.25,
+            "home_water_first": 0.83,
+            "home_water_last": 0.93,
+            "away_water_first": 1.05,
+            "away_water_last": 0.96,
+            "conflict": false
+          },
+          "reasons": [
+            "亚盘 盘口不变",
+            "主队升水 0.83->0.93",
+            "主队近1场 0胜0平1负，场均进0.0/失2.0",
+            "客队近1场 1胜0平0负，场均进5.0/失1.0",
+            "交手0次：主队0胜0平0负"
+          ]
+        },
         {
           "competition": "argentina",
           "home": "巴拉卡斯中央队",

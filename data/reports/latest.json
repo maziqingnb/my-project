@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-06T21:24:58.744634+00:00",
+  "generated_at": "2026-11-06T22:10:36.118934+00:00",
   "scope": "16 个联赛 + 5 个杯赛",
   "note": "杯赛与联赛数据分开计算；仅开赛前 6h 内出推荐；命中率只统计强推",
-  "total": 1,
+  "total": 0,
   "stats": {
     "overall": {
       "counts": {
@@ -10,11 +10,11 @@
         "half_win": 2,
         "push": 3,
         "half_loss": 3,
-        "loss": 29
+        "loss": 30
       },
-      "settled": 91,
+      "settled": 92,
       "hit": 59,
-      "rate": 64.8
+      "rate": 64.1
     },
     "by_market": {
       "handicap": {
@@ -23,11 +23,11 @@
           "half_win": 1,
           "push": 2,
           "half_loss": 1,
-          "loss": 9
+          "loss": 10
         },
-        "settled": 36,
+        "settled": 37,
         "hit": 26,
-        "rate": 72.2
+        "rate": 70.3
       },
       "totals": {
         "counts": {
@@ -145,11 +145,11 @@
           "half_win": 1,
           "push": 0,
           "half_loss": 0,
-          "loss": 0
+          "loss": 1
         },
-        "settled": 5,
+        "settled": 6,
         "hit": 5,
-        "rate": 100.0
+        "rate": 83.3
       },
       "nba": {
         "counts": {
@@ -255,200 +255,13 @@
           "half_win": 2,
           "push": 3,
           "half_loss": 3,
-          "loss": 22
+          "loss": 23
         },
-        "settled": 79,
+        "settled": 80,
         "hit": 54,
-        "rate": 68.4
+        "rate": 67.5
       }
     }
   },
-  "recommendations": [
-    {
-      "fixture_key": "ligue1|toulouse|strasbourg|2026-11-06",
-      "competition": "ligue1",
-      "home": "Toulouse",
-      "away": "Strasbourg",
-      "kickoff": "2026-11-06T19:45:00",
-      "market": "handicap",
-      "pick": "客队（受让 0.25）",
-      "side": "away",
-      "confidence": "strong",
-      "score": 70.0,
-      "line": -0.25,
-      "reasons": [
-        "亚盘 盘口不变",
-        "主队升水 0.83->0.93",
-        "主队近1场 0胜0平1负，场均进0.0/失2.0",
-        "客队近1场 1胜0平0负，场均进5.0/失1.0",
-        "交手0次：主队0胜0平0负"
-      ],
-      "signals": {
-        "line_desc": "盘口不变",
-        "water_desc": "主队升水 0.83->0.93",
-        "line_first": -0.25,
-        "line_last": -0.25,
-        "home_water_first": 0.83,
-        "home_water_last": 0.93,
-        "away_water_first": 1.05,
-        "away_water_last": 0.96,
-        "conflict": false
-      },
-      "history": [
-        {
-          "ts": "2026-11-05T16:54:33.773566+00:00",
-          "handicap_line": -0.25,
-          "handicap_home": 0.83,
-          "handicap_away": 1.05
-        },
-        {
-          "ts": "2026-11-05T18:40:44.818125+00:00",
-          "handicap_line": -0.25,
-          "handicap_home": 0.83,
-          "handicap_away": 1.05
-        },
-        {
-          "ts": "2026-11-05T19:45:00+00:00",
-          "handicap_line": -0.5,
-          "handicap_home": 0.96,
-          "handicap_away": 0.92
-        },
-        {
-          "ts": "2026-11-05T19:45:00+00:00",
-          "handicap_line": -0.5,
-          "handicap_home": 0.96,
-          "handicap_away": 0.92
-        },
-        {
-          "ts": "2026-11-05T19:45:00+00:00",
-          "handicap_line": -0.5,
-          "handicap_home": 0.96,
-          "handicap_away": 0.92
-        },
-        {
-          "ts": "2026-11-05T19:45:00+00:00",
-          "handicap_line": -0.5,
-          "handicap_home": 0.96,
-          "handicap_away": 0.92
-        },
-        {
-          "ts": "2026-11-05T19:45:00+00:00",
-          "handicap_line": -0.5,
-          "handicap_home": 0.96,
-          "handicap_away": 0.92
-        },
-        {
-          "ts": "2026-11-05T19:45:00+00:00",
-          "handicap_line": -0.5,
-          "handicap_home": 0.96,
-          "handicap_away": 0.92
-        },
-        {
-          "ts": "2026-11-05T19:45:00+00:00",
-          "handicap_line": -0.5,
-          "handicap_home": 0.96,
-          "handicap_away": 0.92
-        },
-        {
-          "ts": "2026-11-05T19:45:00+00:00",
-          "handicap_line": -0.5,
-          "handicap_home": 0.96,
-          "handicap_away": 0.92
-        },
-        {
-          "ts": "2026-11-05T19:45:00+00:00",
-          "handicap_line": -0.5,
-          "handicap_home": 0.96,
-          "handicap_away": 0.92
-        },
-        {
-          "ts": "2026-11-05T19:45:00+00:00",
-          "handicap_line": -0.5,
-          "handicap_home": 0.96,
-          "handicap_away": 0.92
-        },
-        {
-          "ts": "2026-11-05T19:45:00+00:00",
-          "handicap_line": -0.5,
-          "handicap_home": 0.96,
-          "handicap_away": 0.92
-        },
-        {
-          "ts": "2026-11-05T19:45:00+00:00",
-          "handicap_line": -0.5,
-          "handicap_home": 0.96,
-          "handicap_away": 0.92
-        },
-        {
-          "ts": "2026-11-05T20:37:03.205299+00:00",
-          "handicap_line": -0.25,
-          "handicap_home": 0.83,
-          "handicap_away": 1.05
-        },
-        {
-          "ts": "2026-11-05T22:37:06.822608+00:00",
-          "handicap_line": -0.25,
-          "handicap_home": 0.83,
-          "handicap_away": 1.05
-        },
-        {
-          "ts": "2026-11-06T00:37:35.902905+00:00",
-          "handicap_line": -0.25,
-          "handicap_home": 0.83,
-          "handicap_away": 1.05
-        },
-        {
-          "ts": "2026-11-06T02:43:52.171762+00:00",
-          "handicap_line": -0.25,
-          "handicap_home": 0.83,
-          "handicap_away": 1.05
-        },
-        {
-          "ts": "2026-11-06T04:45:03.908993+00:00",
-          "handicap_line": -0.25,
-          "handicap_home": 0.84,
-          "handicap_away": 1.05
-        },
-        {
-          "ts": "2026-11-06T06:55:43.032196+00:00",
-          "handicap_line": -0.25,
-          "handicap_home": 0.84,
-          "handicap_away": 1.05
-        },
-        {
-          "ts": "2026-11-06T08:44:54.578857+00:00",
-          "handicap_line": -0.25,
-          "handicap_home": 1.02,
-          "handicap_away": 0.87
-        },
-        {
-          "ts": "2026-11-06T10:51:02.575607+00:00",
-          "handicap_line": -0.25,
-          "handicap_home": 0.95,
-          "handicap_away": 0.94
-        },
-        {
-          "ts": "2026-11-06T12:46:59.362763+00:00",
-          "handicap_line": -0.25,
-          "handicap_home": 0.93,
-          "handicap_away": 0.96
-        },
-        {
-          "ts": "2026-11-06T14:43:21.916953+00:00",
-          "handicap_line": -0.25,
-          "handicap_home": 0.93,
-          "handicap_away": 0.96
-        }
-      ],
-      "reliability": 1.0,
-      "competition_name": "法国甲级联赛",
-      "competition_class": "league",
-      "sport": "football",
-      "lead_hours": 5.027245290833333,
-      "prematch": false,
-      "result": {
-        "settled": false
-      }
-    }
-  ]
+  "recommendations": []
 }

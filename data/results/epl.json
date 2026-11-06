@@ -2,6 +2,17 @@
   {
     "competition": "epl",
     "cls": "league",
+    "home": "Everton",
+    "away": "Coventry City",
+    "home_goals": 3,
+    "away_goals": 1,
+    "date": "2026-11-06",
+    "handicap_line": -0.75,
+    "total_line": 2.75
+  },
+  {
+    "competition": "epl",
+    "cls": "league",
     "home": "纽卡斯尔联",
     "away": "埃弗顿",
     "home_goals": 0,

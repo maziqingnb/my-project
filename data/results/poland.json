@@ -13,6 +13,17 @@
   {
     "competition": "poland",
     "cls": "league",
+    "home": "克拉科夫",
+    "away": "克拉科维亚",
+    "home_goals": 2,
+    "away_goals": 1,
+    "date": "2026-11-06",
+    "handicap_line": -0.75,
+    "total_line": 2.75
+  },
+  {
+    "competition": "poland",
+    "cls": "league",
     "home": "拉多麦科",
     "away": "史拉斯科",
     "home_goals": 3,
