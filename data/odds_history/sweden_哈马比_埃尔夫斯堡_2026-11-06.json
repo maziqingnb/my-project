@@ -268,5 +268,35 @@
     "total_line": 3,
     "over": 0.82,
     "under": 1.05
+  },
+  {
+    "fixture_key": "sweden|哈马比|埃尔夫斯堡|2026-11-06",
+    "competition": "sweden",
+    "home": "哈马比",
+    "away": "埃尔夫斯堡",
+    "kickoff": "2026-11-06T18:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-05T18:00:00+00:00",
+    "handicap_line": -1.25,
+    "handicap_home": 0.95,
+    "handicap_away": 0.93,
+    "total_line": 3,
+    "over": 0.99,
+    "under": 0.88
+  },
+  {
+    "fixture_key": "sweden|哈马比|埃尔夫斯堡|2026-11-06",
+    "competition": "sweden",
+    "home": "哈马比",
+    "away": "埃尔夫斯堡",
+    "kickoff": "2026-11-06T18:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-06T10:51:26.988811+00:00",
+    "handicap_line": -1.5,
+    "handicap_home": 0.98,
+    "handicap_away": 0.91,
+    "total_line": 3,
+    "over": 0.83,
+    "under": 1.04
   }
 ]

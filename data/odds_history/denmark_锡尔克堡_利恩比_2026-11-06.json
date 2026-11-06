@@ -268,5 +268,35 @@
     "total_line": 2.75,
     "over": 0.84,
     "under": 1.03
+  },
+  {
+    "fixture_key": "denmark|锡尔克堡|利恩比|2026-11-06",
+    "competition": "denmark",
+    "home": "锡尔克堡",
+    "away": "利恩比",
+    "kickoff": "2026-11-06T18:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-05T18:00:00+00:00",
+    "handicap_line": 0,
+    "handicap_home": 0.84,
+    "handicap_away": 1.04,
+    "total_line": 3,
+    "over": 0.89,
+    "under": 0.98
+  },
+  {
+    "fixture_key": "denmark|锡尔克堡|利恩比|2026-11-06",
+    "competition": "denmark",
+    "home": "锡尔克堡",
+    "away": "利恩比",
+    "kickoff": "2026-11-06T18:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-06T10:51:22.583297+00:00",
+    "handicap_line": 0,
+    "handicap_home": 0.82,
+    "handicap_away": 1.07,
+    "total_line": 2.75,
+    "over": 0.8,
+    "under": 1.07
   }
 ]
