@@ -58,5 +58,35 @@
     "total_line": 2.75,
     "over": 0.93,
     "under": 0.94
+  },
+  {
+    "fixture_key": "sweden|奥尔格里特|瓦斯特拉斯|2026-11-07",
+    "competition": "sweden",
+    "home": "奥尔格里特",
+    "away": "瓦斯特拉斯",
+    "kickoff": "2026-11-07T16:30:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-06T16:30:00+00:00",
+    "handicap_line": 0.25,
+    "handicap_home": 0.8,
+    "handicap_away": 1.08,
+    "total_line": 2.75,
+    "over": 0.94,
+    "under": 0.93
+  },
+  {
+    "fixture_key": "sweden|奥尔格里特|瓦斯特拉斯|2026-11-07",
+    "competition": "sweden",
+    "home": "奥尔格里特",
+    "away": "瓦斯特拉斯",
+    "kickoff": "2026-11-07T16:30:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-06T20:36:45.037618+00:00",
+    "handicap_line": 0.25,
+    "handicap_home": 0.87,
+    "handicap_away": 1.01,
+    "total_line": 2.75,
+    "over": 0.93,
+    "under": 0.94
   }
 ]

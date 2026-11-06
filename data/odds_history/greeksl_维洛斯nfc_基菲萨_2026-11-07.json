@@ -58,5 +58,35 @@
     "total_line": 2.5,
     "over": 0.92,
     "under": 0.88
+  },
+  {
+    "fixture_key": "greeksl|维洛斯nfc|基菲萨|2026-11-07",
+    "competition": "greeksl",
+    "home": "维洛斯NFC",
+    "away": "基菲萨",
+    "kickoff": "2026-11-07T15:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-06T15:00:00+00:00",
+    "handicap_line": 0.25,
+    "handicap_home": 0.76,
+    "handicap_away": 1.06,
+    "total_line": 2.5,
+    "over": 0.92,
+    "under": 0.88
+  },
+  {
+    "fixture_key": "greeksl|维洛斯nfc|基菲萨|2026-11-07",
+    "competition": "greeksl",
+    "home": "维洛斯NFC",
+    "away": "基菲萨",
+    "kickoff": "2026-11-07T15:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-06T20:36:37.151076+00:00",
+    "handicap_line": 0.25,
+    "handicap_home": 0.76,
+    "handicap_away": 1.06,
+    "total_line": 2.5,
+    "over": 0.92,
+    "under": 0.88
   }
 ]
