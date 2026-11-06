@@ -1,35 +1,15 @@
 {
-  "generated_at": "2026-11-06T22:53:53.859746+00:00",
+  "generated_at": "2026-11-06T23:29:50.406939+00:00",
   "matches": [
     {
-      "fixture_key": "argentina|阿根廷独立|利斯特雷|2026-11-06",
-      "competition": "argentina",
-      "home": "阿根廷独立",
-      "away": "利斯特雷",
-      "kickoff": "2026-11-06T22:15:00",
-      "status": "live",
-      "home_goals": 1,
-      "away_goals": 0
-    },
-    {
-      "fixture_key": "argentina|圣洛伦索|普拉腾斯|2026-11-06",
-      "competition": "argentina",
-      "home": "圣洛伦索",
-      "away": "普拉腾斯",
-      "kickoff": "2026-11-06T22:15:00",
+      "fixture_key": "brasileirao|维多利亚|弗鲁米嫩塞|2026-11-06",
+      "competition": "brasileirao",
+      "home": "维多利亚",
+      "away": "弗鲁米嫩塞",
+      "kickoff": "2026-11-06T23:00:00",
       "status": "live",
       "home_goals": 0,
       "away_goals": 1
-    },
-    {
-      "fixture_key": "argentina|圣塔菲联|萨斯菲尔德|2026-11-06",
-      "competition": "argentina",
-      "home": "圣塔菲联",
-      "away": "萨斯菲尔德",
-      "kickoff": "2026-11-06T22:15:00",
-      "status": "live",
-      "home_goals": 2,
-      "away_goals": 0
     }
   ]
 }
