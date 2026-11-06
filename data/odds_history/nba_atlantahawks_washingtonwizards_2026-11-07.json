@@ -118,5 +118,35 @@
     "total_line": 227.5,
     "over": 1.9,
     "under": 1.97
+  },
+  {
+    "fixture_key": "nba|atlantahawks|washingtonwizards|2026-11-07",
+    "competition": "nba",
+    "home": "Atlanta Hawks",
+    "away": "Washington Wizards",
+    "kickoff": "2026-11-07T00:10:00Z",
+    "bookmaker": "unibet",
+    "ts": "2026-11-06T14:44:07.815494+00:00",
+    "handicap_line": -7.5,
+    "handicap_home": 1.94,
+    "handicap_away": 1.87,
+    "total_line": null,
+    "over": null,
+    "under": null
+  },
+  {
+    "fixture_key": "nba|atlantahawks|washingtonwizards|2026-11-07",
+    "competition": "nba",
+    "home": "Atlanta Hawks",
+    "away": "Washington Wizards",
+    "kickoff": "2026-11-07T00:10:00Z",
+    "bookmaker": "pinnacle",
+    "ts": "2026-11-06T14:44:07.815494+00:00",
+    "handicap_line": -7.5,
+    "handicap_home": 1.94,
+    "handicap_away": 1.94,
+    "total_line": 228.5,
+    "over": 1.93,
+    "under": 1.93
   }
 ]

@@ -223,5 +223,35 @@
     "total_line": 231.5,
     "over": 1.93,
     "under": 1.94
+  },
+  {
+    "fixture_key": "nba|neworleanspelicans|minnesotatimberwolves|2026-11-07",
+    "competition": "nba",
+    "home": "New Orleans Pelicans",
+    "away": "Minnesota Timberwolves",
+    "kickoff": "2026-11-07T01:10:00Z",
+    "bookmaker": "unibet",
+    "ts": "2026-11-06T14:44:07.815494+00:00",
+    "handicap_line": 3.5,
+    "handicap_home": 1.96,
+    "handicap_away": 1.85,
+    "total_line": null,
+    "over": null,
+    "under": null
+  },
+  {
+    "fixture_key": "nba|neworleanspelicans|minnesotatimberwolves|2026-11-07",
+    "competition": "nba",
+    "home": "New Orleans Pelicans",
+    "away": "Minnesota Timberwolves",
+    "kickoff": "2026-11-07T01:10:00Z",
+    "bookmaker": "pinnacle",
+    "ts": "2026-11-06T14:44:07.815494+00:00",
+    "handicap_line": 4.5,
+    "handicap_home": 1.88,
+    "handicap_away": 2.02,
+    "total_line": 230.0,
+    "over": 1.89,
+    "under": 2.0
   }
 ]
