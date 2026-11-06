@@ -1,0 +1,32 @@
+[
+  {
+    "fixture_key": "primeira|艾华卡|卡萨比亚|2026-11-07",
+    "competition": "primeira",
+    "home": "艾华卡",
+    "away": "卡萨比亚",
+    "kickoff": "2026-11-07T18:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-06T18:00:00+00:00",
+    "handicap_line": -0.75,
+    "handicap_home": 0.92,
+    "handicap_away": 0.96,
+    "total_line": 2.5,
+    "over": 0.95,
+    "under": 0.91
+  },
+  {
+    "fixture_key": "primeira|艾华卡|卡萨比亚|2026-11-07",
+    "competition": "primeira",
+    "home": "艾华卡",
+    "away": "卡萨比亚",
+    "kickoff": "2026-11-07T18:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-06T16:40:37.897702+00:00",
+    "handicap_line": -0.75,
+    "handicap_home": 1.03,
+    "handicap_away": 0.85,
+    "total_line": 2.5,
+    "over": 0.95,
+    "under": 0.91
+  }
+]

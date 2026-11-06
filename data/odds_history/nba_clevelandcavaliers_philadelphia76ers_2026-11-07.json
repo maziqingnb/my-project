@@ -253,5 +253,35 @@
     "total_line": 229.5,
     "over": 1.88,
     "under": 2.01
+  },
+  {
+    "fixture_key": "nba|clevelandcavaliers|philadelphia76ers|2026-11-07",
+    "competition": "nba",
+    "home": "Cleveland Cavaliers",
+    "away": "Philadelphia 76ers",
+    "kickoff": "2026-11-07T00:40:00Z",
+    "bookmaker": "unibet",
+    "ts": "2026-11-06T16:42:26.029238+00:00",
+    "handicap_line": 2.5,
+    "handicap_home": 1.91,
+    "handicap_away": 1.9,
+    "total_line": null,
+    "over": null,
+    "under": null
+  },
+  {
+    "fixture_key": "nba|clevelandcavaliers|philadelphia76ers|2026-11-07",
+    "competition": "nba",
+    "home": "Cleveland Cavaliers",
+    "away": "Philadelphia 76ers",
+    "kickoff": "2026-11-07T00:40:00Z",
+    "bookmaker": "pinnacle",
+    "ts": "2026-11-06T16:42:26.029238+00:00",
+    "handicap_line": 2.5,
+    "handicap_home": 1.94,
+    "handicap_away": 1.96,
+    "total_line": 230.5,
+    "over": 1.96,
+    "under": 1.93
   }
 ]
