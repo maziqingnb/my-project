@@ -1,0 +1,17 @@
+[
+  {
+    "fixture_key": "nba|charlottehornets|bostonceltics|2026-11-07",
+    "competition": "nba",
+    "home": "Charlotte Hornets",
+    "away": "Boston Celtics",
+    "kickoff": "2026-11-07T00:10:00Z",
+    "bookmaker": "unibet",
+    "ts": "2026-11-06T04:45:34.756788+00:00",
+    "handicap_line": 8.5,
+    "handicap_home": 1.9,
+    "handicap_away": 1.91,
+    "total_line": null,
+    "over": null,
+    "under": null
+  }
+]
