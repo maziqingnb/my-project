@@ -238,5 +238,35 @@
     "total_line": 2.25,
     "over": 0.92,
     "under": 0.94
+  },
+  {
+    "fixture_key": "primeira|法马利康|阿罗卡|2026-11-06",
+    "competition": "primeira",
+    "home": "法马利康",
+    "away": "阿罗卡",
+    "kickoff": "2026-11-06T20:45:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-05T20:45:00+00:00",
+    "handicap_line": -0.5,
+    "handicap_home": 1,
+    "handicap_away": 0.88,
+    "total_line": 2.5,
+    "over": 0.96,
+    "under": 0.9
+  },
+  {
+    "fixture_key": "primeira|法马利康|阿罗卡|2026-11-06",
+    "competition": "primeira",
+    "home": "法马利康",
+    "away": "阿罗卡",
+    "kickoff": "2026-11-06T20:45:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-06T08:44:56.194604+00:00",
+    "handicap_line": -0.25,
+    "handicap_home": 1.05,
+    "handicap_away": 0.83,
+    "total_line": 2.25,
+    "over": 0.93,
+    "under": 0.93
   }
 ]
