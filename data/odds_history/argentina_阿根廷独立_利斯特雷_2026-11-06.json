@@ -298,5 +298,35 @@
     "total_line": 2,
     "over": 1.12,
     "under": 0.76
+  },
+  {
+    "fixture_key": "argentina|阿根廷独立|利斯特雷|2026-11-06",
+    "competition": "argentina",
+    "home": "阿根廷独立",
+    "away": "利斯特雷",
+    "kickoff": "2026-11-06T22:15:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-05T22:15:00+00:00",
+    "handicap_line": -0.75,
+    "handicap_home": 0.83,
+    "handicap_away": 1.05,
+    "total_line": 2,
+    "over": 0.89,
+    "under": 0.98
+  },
+  {
+    "fixture_key": "argentina|阿根廷独立|利斯特雷|2026-11-06",
+    "competition": "argentina",
+    "home": "阿根廷独立",
+    "away": "利斯特雷",
+    "kickoff": "2026-11-06T22:15:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-06T12:47:14.393772+00:00",
+    "handicap_line": -0.75,
+    "handicap_home": 1.01,
+    "handicap_away": 0.88,
+    "total_line": 2,
+    "over": 1.05,
+    "under": 0.82
   }
 ]
