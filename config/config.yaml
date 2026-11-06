@@ -197,6 +197,8 @@ team_name_map:
   考文垂: Coventry City
   桑德兰: Sunderland
   赫尔城: Hull City
+  埃弗顿: Everton
+  纽卡斯尔联: Newcastle United
   # --- 西甲 ---
   皇家马德里: Real Madrid
   巴塞罗那: Barcelona
@@ -214,6 +216,10 @@ team_name_map:
   莱万特: Levante
   马拉加: Malaga
   桑坦德竞技: Racing Santander
+  奥萨苏纳: Osasuna
+  拉科鲁尼亚: Deportivo La Coruna
+  比利亚雷亚尔: Villarreal
+  西班牙人: Espanyol
   # --- 德甲 ---
   拜仁慕尼黑: Bayern Munich
   多特蒙德: Borussia Dortmund
@@ -231,6 +237,8 @@ team_name_map:
   汉堡: Hamburger SV
   门兴格拉德巴赫: Borussia Monchengladbach
   帕德博恩: Paderborn
+  美因茨: Mainz
+  埃尔沃斯贝格: Elversberg
   # --- 意甲 ---
   AC米兰: AC Milan
   国际米兰: Inter Milan
@@ -248,6 +256,10 @@ team_name_map:
   科莫: Como
   威尼斯: Venezia
   弗洛西诺尼: Frosinone
+  亚特兰大: Atalanta
+  佛罗伦萨: Fiorentina
+  帕尔马: Parma
+  萨索洛: Sassuolo
   # --- 法甲 ---
   巴黎FC: Paris FC
   马赛: Marseille
@@ -259,6 +271,14 @@ team_name_map:
   特鲁瓦: Troyes
   勒芒: Le Mans
   昂热: Angers
+  巴黎圣日耳曼: Paris Saint-Germain
+  尼斯: Nice
+  雷恩: Rennes
+  里尔: Lille
+  朗斯: Lens
+  洛里昂: Lorient
+  布雷斯特: Brest
+  勒阿弗尔: Le Havre
   # --- NBA（球探网篮球繁体队名 -> 英文队名，30 队） ---
   洛杉磯湖人: Los Angeles Lakers
   芝加哥公牛: Chicago Bulls

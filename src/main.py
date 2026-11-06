@@ -111,16 +111,19 @@ def _enter_demo_dirs() -> None:
     atexit.register(shutil.rmtree, root, ignore_errors=True)
 
 
-def do_sync(cfg: dict, clients: dict, what: str) -> None:
+def do_sync(cfg: dict, clients: dict, what: str, demo: bool = False) -> None:
     from src.sync import schedules, odds as odds_sync, lineups as lineups_sync
     from src.output.render import build_schedule
+    from src.adapters.football_7m import Football7mClient
 
     fixtures_of = _client_of(clients, "fixtures")
     odds_of = _client_of(clients, "odds")
+    # 7m 全季补全只在真实同步时启用；demo 模式走 mock，保持离线、确定
+    football_7m = None if demo else Football7mClient()
     if what in ("fixtures", "all"):
         schedules.sync_fixtures(cfg, fixtures_of)
         build_schedule(cfg)      # 未开赛赛程提前展示（不含推荐）
-        schedules.sync_results(cfg, fixtures_of)
+        schedules.sync_results(cfg, fixtures_of, football_7m=football_7m)
     if what in ("odds", "all"):
         odds_sync.sync_odds(cfg, odds_of)
     if what in ("lineups", "all"):
@@ -208,12 +211,12 @@ def main() -> None:
 
     if args.cmd == "sync":
         clients = make_clients(cfg, args.demo)
-        do_sync(cfg, clients, args.what)
+        do_sync(cfg, clients, args.what, demo=args.demo)
     elif args.cmd == "analyze":
         if args.demo:
             _enter_demo_dirs()               # 先隔离数据目录，再灌样例数据
             clients = make_clients(cfg, True)
-            do_sync(cfg, clients, "all")
+            do_sync(cfg, clients, "all", demo=True)
         report = do_analyze(cfg, demo=args.demo)
         if args.demo:
             print(f"\n完成（演示数据，未写真实 data/ 与 docs/reports/）：共 {report['total']} 条推荐")
