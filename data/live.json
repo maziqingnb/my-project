@@ -1,15 +1,45 @@
 {
-  "generated_at": "2026-11-06T19:10:19.755478+00:00",
+  "generated_at": "2026-11-06T19:59:15.671526+00:00",
   "matches": [
     {
-      "fixture_key": "sweden|哈马比|埃尔夫斯堡|2026-11-06",
-      "competition": "sweden",
-      "home": "哈马比",
-      "away": "埃尔夫斯堡",
-      "kickoff": "2026-11-06T18:40:00",
+      "fixture_key": "seriea|venezia|udinese|2026-11-06",
+      "competition": "seriea",
+      "home": "Venezia",
+      "away": "Udinese",
+      "kickoff": "2026-11-06T19:45:00",
       "status": "live",
       "home_goals": 0,
       "away_goals": 0
+    },
+    {
+      "fixture_key": "bundesliga|hamburgersv|borussiamonchengladbach|2026-11-06",
+      "competition": "bundesliga",
+      "home": "Hamburger SV",
+      "away": "Borussia Monchengladbach",
+      "kickoff": "2026-11-06T19:30:00",
+      "status": "live",
+      "home_goals": 1,
+      "away_goals": 0
+    },
+    {
+      "fixture_key": "ligue1|toulouse|strasbourg|2026-11-06",
+      "competition": "ligue1",
+      "home": "Toulouse",
+      "away": "Strasbourg",
+      "kickoff": "2026-11-06T19:45:00",
+      "status": "live",
+      "home_goals": 0,
+      "away_goals": 0
+    },
+    {
+      "fixture_key": "poland|克拉科夫|克拉科维亚|2026-11-06",
+      "competition": "poland",
+      "home": "克拉科夫",
+      "away": "克拉科维亚",
+      "kickoff": "2026-11-06T19:30:00",
+      "status": "live",
+      "home_goals": 1,
+      "away_goals": 1
     }
   ]
 }
