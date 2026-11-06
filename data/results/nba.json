@@ -2,6 +2,28 @@
   {
     "competition": "nba",
     "cls": "league",
+    "home": "Phoenix Suns",
+    "away": "Orlando Magic",
+    "home_goals": 117,
+    "away_goals": 104,
+    "date": "2026-11-06",
+    "handicap_line": null,
+    "total_line": null
+  },
+  {
+    "competition": "nba",
+    "cls": "league",
+    "home": "Golden State Warriors",
+    "away": "Miami Heat",
+    "home_goals": 120,
+    "away_goals": 100,
+    "date": "2026-11-06",
+    "handicap_line": null,
+    "total_line": null
+  },
+  {
+    "competition": "nba",
+    "cls": "league",
     "home": "Detroit Pistons",
     "away": "Philadelphia 76ers",
     "home_goals": 106,
