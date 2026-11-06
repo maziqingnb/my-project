@@ -1,22 +1,12 @@
 {
-  "generated_at": "2026-11-06T20:46:04.634298+00:00",
+  "generated_at": "2026-11-06T21:24:58.268102+00:00",
   "matches": [
     {
-      "fixture_key": "epl|everton|coventrycity|2026-11-06",
-      "competition": "epl",
-      "home": "Everton",
-      "away": "Coventry City",
-      "kickoff": "2026-11-06T20:00:00",
-      "status": "live",
-      "home_goals": 0,
-      "away_goals": 0
-    },
-    {
-      "fixture_key": "laliga|sevilla|alaves|2026-11-06",
-      "competition": "laliga",
-      "home": "Sevilla",
-      "away": "Alaves",
-      "kickoff": "2026-11-06T20:00:00",
+      "fixture_key": "primeira|法马利康|阿罗卡|2026-11-06",
+      "competition": "primeira",
+      "home": "法马利康",
+      "away": "阿罗卡",
+      "kickoff": "2026-11-06T20:45:00",
       "status": "live",
       "home_goals": 0,
       "away_goals": 0
