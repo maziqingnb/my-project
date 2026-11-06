@@ -13,5 +13,20 @@
     "total_line": null,
     "over": null,
     "under": null
+  },
+  {
+    "fixture_key": "intl_friendly|加蓬女足|刚果共和国女足|2026-11-07",
+    "competition": "intl_friendly",
+    "home": "加蓬女足",
+    "away": "刚果共和国女足",
+    "kickoff": "2026-11-07T10:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-06T18:40:07.558998+00:00",
+    "handicap_line": null,
+    "handicap_home": null,
+    "handicap_away": null,
+    "total_line": null,
+    "over": null,
+    "under": null
   }
 ]

@@ -253,5 +253,35 @@
     "total_line": 231.0,
     "over": 1.9,
     "under": 1.98
+  },
+  {
+    "fixture_key": "nba|losangeleslakers|portlandtrailblazers|2026-11-07",
+    "competition": "nba",
+    "home": "Los Angeles Lakers",
+    "away": "Portland Trail Blazers",
+    "kickoff": "2026-11-07T03:10:00Z",
+    "bookmaker": "unibet",
+    "ts": "2026-11-06T18:40:08.802709+00:00",
+    "handicap_line": -2.5,
+    "handicap_home": 1.87,
+    "handicap_away": 1.93,
+    "total_line": null,
+    "over": null,
+    "under": null
+  },
+  {
+    "fixture_key": "nba|losangeleslakers|portlandtrailblazers|2026-11-07",
+    "competition": "nba",
+    "home": "Los Angeles Lakers",
+    "away": "Portland Trail Blazers",
+    "kickoff": "2026-11-07T03:10:00Z",
+    "bookmaker": "pinnacle",
+    "ts": "2026-11-06T18:40:08.802709+00:00",
+    "handicap_line": -3.0,
+    "handicap_home": 1.91,
+    "handicap_away": 2.0,
+    "total_line": 231.0,
+    "over": 1.88,
+    "under": 2.0
   }
 ]

@@ -28,5 +28,35 @@
     "total_line": 2.75,
     "over": 0.93,
     "under": 0.83
+  },
+  {
+    "fixture_key": "poland|维德祖罗兹|什切青|2026-11-07",
+    "competition": "poland",
+    "home": "维德祖罗兹",
+    "away": "什切青",
+    "kickoff": "2026-11-07T19:15:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-06T19:15:00+00:00",
+    "handicap_line": -0.25,
+    "handicap_home": 0.87,
+    "handicap_away": 0.95,
+    "total_line": 2.75,
+    "over": 0.9,
+    "under": 0.9
+  },
+  {
+    "fixture_key": "poland|维德祖罗兹|什切青|2026-11-07",
+    "competition": "poland",
+    "home": "维德祖罗兹",
+    "away": "什切青",
+    "kickoff": "2026-11-07T19:15:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-06T18:40:05.513363+00:00",
+    "handicap_line": -0.25,
+    "handicap_home": 0.84,
+    "handicap_away": 0.92,
+    "total_line": 2.75,
+    "over": 0.93,
+    "under": 0.83
   }
 ]
