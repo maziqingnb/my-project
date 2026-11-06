@@ -1,7 +1,54 @@
 {
-  "generated_at": "2026-11-06T20:36:55.587946+00:00",
-  "total_missed": 36,
+  "generated_at": "2026-11-06T20:46:05.028511+00:00",
+  "total_missed": 37,
   "days": [
+    {
+      "date": "2026-11-06",
+      "missed": 1,
+      "items": [
+        {
+          "competition": "argentina",
+          "home": "巴拉卡斯中央队",
+          "away": "竞技俱乐部",
+          "kickoff": "2026-11-06T18:00:00",
+          "market": "handicap",
+          "sport": "football",
+          "pick": "客队（受让 0.25）",
+          "side": "away",
+          "line": -0.25,
+          "score": 73.5,
+          "confidence": "strong",
+          "outcome": "loss",
+          "outcome_cn": "没中",
+          "home_goals": 2,
+          "away_goals": 0,
+          "book": "盘口 主让0.25 → 主让0.25，水位 主0.95/0.93 → 主1.12/0.78",
+          "diagnosis": [
+            "盘口 主让0.25 → 主让0.25，水位 主0.95/0.93 → 主1.12/0.78",
+            "最终 2-0，推荐侧相对盘口 -1.75 球（未打穿）"
+          ],
+          "note": "客队（受让 0.25） · 最终 2-0（客队净胜 -2），未打穿",
+          "signals": {
+            "line_desc": "盘口不变",
+            "water_desc": "主队升水 0.95->1.12",
+            "line_first": -0.25,
+            "line_last": -0.25,
+            "home_water_first": 0.95,
+            "home_water_last": 1.12,
+            "away_water_first": 0.93,
+            "away_water_last": 0.78,
+            "conflict": false
+          },
+          "reasons": [
+            "亚盘 盘口不变",
+            "主队升水 0.95->1.12",
+            "主队近1场 0胜1平0负，场均进2.0/失2.0",
+            "客队近1场 1胜0平0负，场均进2.0/失1.0",
+            "交手0次：主队0胜0平0负"
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-11-05",
       "missed": 13,

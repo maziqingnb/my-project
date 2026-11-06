@@ -2,6 +2,17 @@
   {
     "competition": "argentina",
     "cls": "league",
+    "home": "巴拉卡斯中央队",
+    "away": "竞技俱乐部",
+    "home_goals": 2,
+    "away_goals": 0,
+    "date": "2026-11-06",
+    "handicap_line": -0.25,
+    "total_line": 2.25
+  },
+  {
+    "competition": "argentina",
+    "cls": "league",
     "home": "阿尔多斯维",
     "away": "河床",
     "home_goals": 0,
