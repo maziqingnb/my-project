@@ -88,5 +88,35 @@
     "total_line": 2.5,
     "over": 0.86,
     "under": 1.01
+  },
+  {
+    "fixture_key": "argentina|博卡青年|防卫者|2026-11-07",
+    "competition": "argentina",
+    "home": "博卡青年",
+    "away": "防卫者",
+    "kickoff": "2026-11-07T20:30:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-06T20:30:00+00:00",
+    "handicap_line": -1.25,
+    "handicap_home": 0.92,
+    "handicap_away": 0.96,
+    "total_line": 2.5,
+    "over": 0.86,
+    "under": 1.01
+  },
+  {
+    "fixture_key": "argentina|博卡青年|防卫者|2026-11-07",
+    "competition": "argentina",
+    "home": "博卡青年",
+    "away": "防卫者",
+    "kickoff": "2026-11-07T20:30:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-06T22:28:52.321756+00:00",
+    "handicap_line": -1.25,
+    "handicap_home": 0.98,
+    "handicap_away": 0.9,
+    "total_line": 2.5,
+    "over": 0.86,
+    "under": 1.01
   }
 ]

@@ -88,5 +88,35 @@
     "total_line": 3.5,
     "over": 0.88,
     "under": 0.99
+  },
+  {
+    "fixture_key": "mls|奥兰多城|新英格兰革命|2026-11-07",
+    "competition": "mls",
+    "home": "奥兰多城",
+    "away": "新英格兰革命",
+    "kickoff": "2026-11-07T21:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-06T21:00:00+00:00",
+    "handicap_line": -0.5,
+    "handicap_home": 0.88,
+    "handicap_away": 1,
+    "total_line": 3.5,
+    "over": 0.89,
+    "under": 0.98
+  },
+  {
+    "fixture_key": "mls|奥兰多城|新英格兰革命|2026-11-07",
+    "competition": "mls",
+    "home": "奥兰多城",
+    "away": "新英格兰革命",
+    "kickoff": "2026-11-07T21:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-06T22:29:05.986279+00:00",
+    "handicap_line": -0.5,
+    "handicap_home": 1.03,
+    "handicap_away": 0.85,
+    "total_line": 3.5,
+    "over": 0.88,
+    "under": 0.99
   }
 ]

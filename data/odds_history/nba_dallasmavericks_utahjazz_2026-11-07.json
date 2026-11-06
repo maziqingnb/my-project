@@ -328,5 +328,35 @@
     "total_line": null,
     "over": null,
     "under": null
+  },
+  {
+    "fixture_key": "nba|dallasmavericks|utahjazz|2026-11-07",
+    "competition": "nba",
+    "home": "Dallas Mavericks",
+    "away": "Utah Jazz",
+    "kickoff": "2026-11-07T01:10:00Z",
+    "bookmaker": "pinnacle",
+    "ts": "2026-11-06T22:29:33.141371+00:00",
+    "handicap_line": -7.0,
+    "handicap_home": 2.01,
+    "handicap_away": 1.89,
+    "total_line": 225.5,
+    "over": 1.93,
+    "under": 1.95
+  },
+  {
+    "fixture_key": "nba|dallasmavericks|utahjazz|2026-11-07",
+    "competition": "nba",
+    "home": "Dallas Mavericks",
+    "away": "Utah Jazz",
+    "kickoff": "2026-11-07T01:10:00Z",
+    "bookmaker": "unibet",
+    "ts": "2026-11-06T22:29:33.141371+00:00",
+    "handicap_line": -6.5,
+    "handicap_home": 1.86,
+    "handicap_away": 1.95,
+    "total_line": null,
+    "over": null,
+    "under": null
   }
 ]

@@ -88,5 +88,35 @@
     "total_line": 3,
     "over": 1.03,
     "under": 0.84
+  },
+  {
+    "fixture_key": "superlig|哥兹塔比|伊斯坦布尔巴萨克塞尔|2026-11-07",
+    "competition": "superlig",
+    "home": "哥兹塔比",
+    "away": "伊斯坦布尔巴萨克塞尔",
+    "kickoff": "2026-11-07T16:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-06T16:00:00+00:00",
+    "handicap_line": -0.5,
+    "handicap_home": 1.06,
+    "handicap_away": 0.82,
+    "total_line": 3,
+    "over": 1.03,
+    "under": 0.84
+  },
+  {
+    "fixture_key": "superlig|哥兹塔比|伊斯坦布尔巴萨克塞尔|2026-11-07",
+    "competition": "superlig",
+    "home": "哥兹塔比",
+    "away": "伊斯坦布尔巴萨克塞尔",
+    "kickoff": "2026-11-07T16:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-06T22:28:46.531733+00:00",
+    "handicap_line": -0.5,
+    "handicap_home": 1.06,
+    "handicap_away": 0.82,
+    "total_line": 3,
+    "over": 1.03,
+    "under": 0.84
   }
 ]

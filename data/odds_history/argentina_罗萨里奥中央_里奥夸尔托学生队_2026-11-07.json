@@ -88,5 +88,35 @@
     "total_line": 2.75,
     "over": 0.89,
     "under": 0.98
+  },
+  {
+    "fixture_key": "argentina|罗萨里奥中央|里奥夸尔托学生队|2026-11-07",
+    "competition": "argentina",
+    "home": "罗萨里奥中央",
+    "away": "里奥夸尔托学生队",
+    "kickoff": "2026-11-07T20:30:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-06T20:30:00+00:00",
+    "handicap_line": -1.75,
+    "handicap_home": 0.9,
+    "handicap_away": 0.98,
+    "total_line": 2.75,
+    "over": 0.89,
+    "under": 0.98
+  },
+  {
+    "fixture_key": "argentina|罗萨里奥中央|里奥夸尔托学生队|2026-11-07",
+    "competition": "argentina",
+    "home": "罗萨里奥中央",
+    "away": "里奥夸尔托学生队",
+    "kickoff": "2026-11-07T20:30:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-06T22:28:53.962756+00:00",
+    "handicap_line": -1.75,
+    "handicap_home": 0.9,
+    "handicap_away": 0.98,
+    "total_line": 2.75,
+    "over": 0.89,
+    "under": 0.98
   }
 ]

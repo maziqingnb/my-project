@@ -88,5 +88,35 @@
     "total_line": 3.25,
     "over": 0.91,
     "under": 0.96
+  },
+  {
+    "fixture_key": "mls|辛辛那提|纳什威尔sc|2026-11-07",
+    "competition": "mls",
+    "home": "辛辛那提",
+    "away": "纳什威尔SC",
+    "kickoff": "2026-11-07T21:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-06T21:00:00+00:00",
+    "handicap_line": 0,
+    "handicap_home": 0.83,
+    "handicap_away": 1.05,
+    "total_line": 3.25,
+    "over": 0.92,
+    "under": 0.95
+  },
+  {
+    "fixture_key": "mls|辛辛那提|纳什威尔sc|2026-11-07",
+    "competition": "mls",
+    "home": "辛辛那提",
+    "away": "纳什威尔SC",
+    "kickoff": "2026-11-07T21:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-06T22:29:01.242889+00:00",
+    "handicap_line": 0,
+    "handicap_home": 0.96,
+    "handicap_away": 0.92,
+    "total_line": 3.25,
+    "over": 0.91,
+    "under": 0.96
   }
 ]
