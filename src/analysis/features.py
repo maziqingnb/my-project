@@ -14,6 +14,25 @@ def _clamp(x: float, lo: float = -1.0, hi: float = 1.0) -> float:
     return max(lo, min(hi, x))
 
 
+def _primary_snaps(snaps: list) -> list:
+    """只取一家博彩公司的快照，避免多家盘口混在一起造成假的盘口/水位"变动"。
+
+    数据准确性问题：the-odds-api 会同时返回 pinnacle/bet365/unibet 多家盘口，
+    若直接用首/末两条快照算「变动」，实际是在拿不同公司的盘口互比（各公司水位、
+    让球线本就不同），把「公司差异」误当成「市场变动」。这里优先取 pinnacle
+    （最锐利、代表性最强），否则取快照数最多的那家；足球(win007)全部是 crown，
+    等价于原样返回。返回按 ts 升序。
+    """
+    if not snaps:
+        return []
+    by_book: dict[str, list] = {}
+    for s in snaps:
+        by_book.setdefault(s.bookmaker or "", []).append(s)
+    if "pinnacle" in by_book:
+        return sorted(by_book["pinnacle"], key=lambda s: s.ts)
+    return sorted(max(by_book.values(), key=len), key=lambda s: s.ts)
+
+
 # ---------------------------------------------------------------- 历史战绩
 
 def form_stats(results: list[Result], team: str, n: int = 5) -> dict:
@@ -159,7 +178,7 @@ def handicap_signals(snaps: list[OddsSnapshot]) -> Optional[dict]:
     避免「升盘 0.25」和「升盘 1.0」被当成同样强。line_signal / water_signal 同号
     （正=主队被看好）时彼此印证；异号则 conflict=True。
     """
-    h = [s for s in snaps if s.handicap_line is not None]
+    h = [s for s in _primary_snaps(snaps) if s.handicap_line is not None]
     if not h:
         return None
     first, last = h[0], h[-1]
@@ -200,7 +219,7 @@ def totals_signals(snaps: list[OddsSnapshot]) -> Optional[dict]:
     水位变化对大小球尤其噪声大（复盘里多次「大球降水→反而小球」），
     因此这里额外返回 conflict（盘口方向与水位方向背离）供推荐层降权/改走方向。
     """
-    t = [s for s in snaps if s.total_line is not None]
+    t = [s for s in _primary_snaps(snaps) if s.total_line is not None]
     if not t:
         return None
     first, last = t[0], t[-1]
