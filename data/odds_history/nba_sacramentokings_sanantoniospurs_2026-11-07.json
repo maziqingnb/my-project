@@ -13,5 +13,20 @@
     "total_line": null,
     "over": null,
     "under": null
+  },
+  {
+    "fixture_key": "nba|sacramentokings|sanantoniospurs|2026-11-07",
+    "competition": "nba",
+    "home": "Sacramento Kings",
+    "away": "San Antonio Spurs",
+    "kickoff": "2026-11-07T03:10:00Z",
+    "bookmaker": "unibet",
+    "ts": "2026-11-06T00:37:11.670923+00:00",
+    "handicap_line": 15.5,
+    "handicap_home": 1.93,
+    "handicap_away": 1.88,
+    "total_line": null,
+    "over": null,
+    "under": null
   }
 ]

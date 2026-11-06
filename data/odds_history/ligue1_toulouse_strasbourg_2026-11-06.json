@@ -118,5 +118,35 @@
     "total_line": 3,
     "over": 0.99,
     "under": 0.88
+  },
+  {
+    "fixture_key": "ligue1|toulouse|strasbourg|2026-11-06",
+    "competition": "ligue1",
+    "home": "Toulouse",
+    "away": "Strasbourg",
+    "kickoff": "2026-11-06T19:45:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-05T19:45:00+00:00",
+    "handicap_line": -0.5,
+    "handicap_home": 0.96,
+    "handicap_away": 0.92,
+    "total_line": 3,
+    "over": 0.96,
+    "under": 0.9
+  },
+  {
+    "fixture_key": "ligue1|toulouse|strasbourg|2026-11-06",
+    "competition": "ligue1",
+    "home": "Toulouse",
+    "away": "Strasbourg",
+    "kickoff": "2026-11-06T19:45:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-06T00:36:49.643991+00:00",
+    "handicap_line": -0.25,
+    "handicap_home": 0.83,
+    "handicap_away": 1.05,
+    "total_line": 3,
+    "over": 1.05,
+    "under": 0.82
   }
 ]

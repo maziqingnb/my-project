@@ -118,5 +118,35 @@
     "total_line": 2,
     "over": 1.08,
     "under": 0.79
+  },
+  {
+    "fixture_key": "argentina|圣洛伦索|普拉腾斯|2026-11-06",
+    "competition": "argentina",
+    "home": "圣洛伦索",
+    "away": "普拉腾斯",
+    "kickoff": "2026-11-06T22:15:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-05T22:15:00+00:00",
+    "handicap_line": 0,
+    "handicap_home": 0.78,
+    "handicap_away": 1.11,
+    "total_line": 2,
+    "over": 1.08,
+    "under": 0.79
+  },
+  {
+    "fixture_key": "argentina|圣洛伦索|普拉腾斯|2026-11-06",
+    "competition": "argentina",
+    "home": "圣洛伦索",
+    "away": "普拉腾斯",
+    "kickoff": "2026-11-06T22:15:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-06T00:37:01.230544+00:00",
+    "handicap_line": 0,
+    "handicap_home": 0.85,
+    "handicap_away": 1.03,
+    "total_line": 2,
+    "over": 1.08,
+    "under": 0.79
   }
 ]

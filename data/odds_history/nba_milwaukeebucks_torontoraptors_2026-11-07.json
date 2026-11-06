@@ -13,5 +13,35 @@
     "total_line": null,
     "over": null,
     "under": null
+  },
+  {
+    "fixture_key": "nba|milwaukeebucks|torontoraptors|2026-11-07",
+    "competition": "nba",
+    "home": "Milwaukee Bucks",
+    "away": "Toronto Raptors",
+    "kickoff": "2026-11-07T01:10:00Z",
+    "bookmaker": "unibet",
+    "ts": "2026-11-06T00:37:11.670923+00:00",
+    "handicap_line": 7.5,
+    "handicap_home": 2.08,
+    "handicap_away": 1.76,
+    "total_line": null,
+    "over": null,
+    "under": null
+  },
+  {
+    "fixture_key": "nba|milwaukeebucks|torontoraptors|2026-11-07",
+    "competition": "nba",
+    "home": "Milwaukee Bucks",
+    "away": "Toronto Raptors",
+    "kickoff": "2026-11-07T01:10:00Z",
+    "bookmaker": "pinnacle",
+    "ts": "2026-11-06T00:37:11.670923+00:00",
+    "handicap_line": 7.5,
+    "handicap_home": 2.02,
+    "handicap_away": 1.87,
+    "total_line": 230.5,
+    "over": 1.9,
+    "under": 1.97
   }
 ]

@@ -118,5 +118,35 @@
     "total_line": 2.25,
     "over": 0.84,
     "under": 1.03
+  },
+  {
+    "fixture_key": "brasileirao|维多利亚|弗鲁米嫩塞|2026-11-06",
+    "competition": "brasileirao",
+    "home": "维多利亚",
+    "away": "弗鲁米嫩塞",
+    "kickoff": "2026-11-06T23:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-05T23:00:00+00:00",
+    "handicap_line": 0.25,
+    "handicap_home": 0.85,
+    "handicap_away": 1.03,
+    "total_line": 2.25,
+    "over": 0.84,
+    "under": 1.03
+  },
+  {
+    "fixture_key": "brasileirao|维多利亚|弗鲁米嫩塞|2026-11-06",
+    "competition": "brasileirao",
+    "home": "维多利亚",
+    "away": "弗鲁米嫩塞",
+    "kickoff": "2026-11-06T23:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-06T00:36:56.926949+00:00",
+    "handicap_line": 0,
+    "handicap_home": 1.06,
+    "handicap_away": 0.82,
+    "total_line": 2.25,
+    "over": 0.84,
+    "under": 1.03
   }
 ]

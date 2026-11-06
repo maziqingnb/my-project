@@ -118,5 +118,35 @@
     "total_line": 2.75,
     "over": 0.79,
     "under": 0.97
+  },
+  {
+    "fixture_key": "poland|克拉科夫|克拉科维亚|2026-11-06",
+    "competition": "poland",
+    "home": "克拉科夫",
+    "away": "克拉科维亚",
+    "kickoff": "2026-11-06T19:30:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-05T19:30:00+00:00",
+    "handicap_line": -0.75,
+    "handicap_home": 1,
+    "handicap_away": 0.82,
+    "total_line": 2.75,
+    "over": 0.81,
+    "under": 0.99
+  },
+  {
+    "fixture_key": "poland|克拉科夫|克拉科维亚|2026-11-06",
+    "competition": "poland",
+    "home": "克拉科夫",
+    "away": "克拉科维亚",
+    "kickoff": "2026-11-06T19:30:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-06T00:37:11.544676+00:00",
+    "handicap_line": -0.75,
+    "handicap_home": 0.97,
+    "handicap_away": 0.79,
+    "total_line": 2.75,
+    "over": 0.79,
+    "under": 0.97
   }
 ]

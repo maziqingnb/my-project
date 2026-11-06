@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T18:38:45.456850+00:00",
+  "generated_at": "2026-11-06T00:35:37.635143+00:00",
   "matches": [
     {
       "fixture_key": "nba|phoenixsuns|orlandomagic|2026-11-06",
@@ -1900,6 +1900,26 @@
       "home": "Portland Trail Blazers",
       "away": "Oklahoma City Thunder",
       "kickoff": "2026-11-12T03:00:00"
+    },
+    {
+      "fixture_key": "nba|philadelphia76ers|torontoraptors|2026-11-13",
+      "competition": "nba",
+      "competition_name": "NBA 美国职业篮球联赛",
+      "competition_class": "league",
+      "sport": "basketball",
+      "home": "Philadelphia 76ers",
+      "away": "Toronto Raptors",
+      "kickoff": "2026-11-13T00:00:00"
+    },
+    {
+      "fixture_key": "nba|washingtonwizards|detroitpistons|2026-11-13",
+      "competition": "nba",
+      "competition_name": "NBA 美国职业篮球联赛",
+      "competition_class": "league",
+      "sport": "basketball",
+      "home": "Washington Wizards",
+      "away": "Detroit Pistons",
+      "kickoff": "2026-11-13T00:00:00"
     }
   ]
 }
