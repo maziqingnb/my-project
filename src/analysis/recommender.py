@@ -90,6 +90,10 @@ def recommend_handicap(comp, cfg: dict, results: list[Result],
         combined -= trap
 
     score = 50 + 50 * abs(_clamp(combined))
+    # 篮球市场高度有效，盘口/水位变动基本已定价、无信息优势（历史命中率~硬币），
+    # 整体降分让篮球更难强推，只有信号极强的场次才上架。
+    if comp.sport == "basketball":
+        score -= cfg["analysis"].get("basketball_penalty", 8)
     conf = _confidence(score, cfg["analysis"]["thresholds"])
 
     # 信号可靠性：水位缺失 / 盘口水位背离 / 升盘陷阱，都会降权（供「大小球改走方向」比较用）
@@ -157,19 +161,45 @@ def recommend_totals(comp, cfg: dict, results: list[Result],
     af = F.form_stats(results, away, cfg["analysis"]["form_matches"])
     h2ht = F.h2h_totals_stats(results, home, away, cfg["analysis"]["h2h_matches"])
 
+    # 「大小球不好买就换方向」：双方近况样本太少（合计 < min_totals_form）且历史交手
+    # 大小球也几乎没数据时，大小球只剩水位/盘口噪声（复盘已证对大小球多次反向），
+    # 直接不出大小球推荐，让 recommend_competition 改走方向（亚盘）或观望。
+    # 杯赛小组赛阶段（同口径近况常只有 0-1 场）尤其会触发此分支。
+    if (comp.sport != "basketball"
+            and (hf["played"] + af["played"]) < cfg["analysis"].get("min_totals_form", 4)
+            and h2ht["meetings"] < 2):
+        return None
+
     # 历史交手大小球覆盖：大球次数越多越偏向大球
     h2h_total_signal = 0.0
     if h2ht["meetings"]:
         h2h_total_signal = (h2ht["over"] - h2ht["under"]) / h2ht["meetings"]
 
-    # 进攻：双方场均进球之和；防守：双方场均失球之和（相对 2.6 球的足球基线）。
+    # 进攻：双方场均进球之和；防守：双方场均失球之和（相对每队 1.3 球 / 两队 2.6 球基线）。
     # 篮球（NBA）场均得分 ~110，若套用 2.6 基线，attack/defense 恒被 clamp 到 +1，
     # 会把所有 NBA 总分方向压向「大分」，故篮球只走盘口/水位/历史大小球信号。
+    # 关键：无近况样本时不要把「场均 0 球」当成「极弱」，否则会错误地把大小球压向小球。
     if comp.sport == "basketball":
         attack = defense = 0.0
     else:
-        attack = (hf["avg_gf"] + af["avg_gf"] - 2.6) / 0.9
-        defense = (hf["avg_ga"] + af["avg_ga"] - 2.6) / 0.9
+        n_hf = hf["played"]
+        n_af = af["played"]
+        n_form = int(n_hf > 0) + int(n_af > 0)
+        if n_form == 0:
+            attack = defense = 0.0
+        else:
+            gf_sum = (hf["avg_gf"] if n_hf else 0.0) + (af["avg_gf"] if n_af else 0.0)
+            ga_sum = (hf["avg_ga"] if n_hf else 0.0) + (af["avg_ga"] if n_af else 0.0)
+            baseline = 1.3 * n_form          # 只有一方有近况时按单队基线，不再多扣
+            attack = (gf_sum - baseline) / 0.9
+            defense = (ga_sum - baseline) / 0.9
+        # 近况样本少时，场均进球/失球是噪声（单场 0-0 / 5-0 都会把方向带偏），
+        # 按样本量向 0 收缩（约 4 场才可信一半）。样本不足时大小球得分自然跌到
+        # 强推线以下，让位给方向（亚盘）——落实「大小球不好买就换方向」。
+        n_samples = n_hf + n_af
+        shrink = n_samples / (n_samples + 4.0)
+        attack *= shrink
+        defense *= shrink
 
     w = cfg["analysis"]["weights"]["totals"]
     move_water = w["water_move"] * sig["over_signal"]
@@ -188,6 +218,8 @@ def recommend_totals(comp, cfg: dict, results: list[Result],
 
     side = "over" if combined >= 0 else "under"
     score = 50 + 50 * abs(_clamp(combined))
+    if comp.sport == "basketball":
+        score -= cfg["analysis"].get("basketball_penalty", 8)
     conf = _confidence(score, cfg["analysis"]["thresholds"])
 
     line = sig["line_last"] if sig["line_last"] is not None else 2.5
