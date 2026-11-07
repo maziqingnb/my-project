@@ -1,12 +1,22 @@
 {
-  "generated_at": "2026-11-07T15:56:09.003337+00:00",
+  "generated_at": "2026-11-07T16:09:52.889851+00:00",
   "matches": [
     {
-      "fixture_key": "laliga|espanyol|deportivolacoruna|2026-11-07",
-      "competition": "laliga",
-      "home": "Espanyol",
-      "away": "Deportivo La Coruna",
-      "kickoff": "2026-11-07T15:15:00",
+      "fixture_key": "superlig|加拉塔萨雷|阿美德|2026-11-07",
+      "competition": "superlig",
+      "home": "加拉塔萨雷",
+      "away": "阿美德",
+      "kickoff": "2026-11-07T16:00:00",
+      "status": "live",
+      "home_goals": 1,
+      "away_goals": 0
+    },
+    {
+      "fixture_key": "superlig|哥兹塔比|伊斯坦布尔巴萨克塞尔|2026-11-07",
+      "competition": "superlig",
+      "home": "哥兹塔比",
+      "away": "伊斯坦布尔巴萨克塞尔",
+      "kickoff": "2026-11-07T16:00:00",
       "status": "live",
       "home_goals": 0,
       "away_goals": 0
