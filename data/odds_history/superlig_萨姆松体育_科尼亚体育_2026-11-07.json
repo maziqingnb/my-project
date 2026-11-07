@@ -268,5 +268,35 @@
     "total_line": 2.5,
     "over": 0.96,
     "under": 0.91
+  },
+  {
+    "fixture_key": "superlig|萨姆松体育|科尼亚体育|2026-11-07",
+    "competition": "superlig",
+    "home": "萨姆松体育",
+    "away": "科尼亚体育",
+    "kickoff": "2026-11-07T13:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-06T13:00:00+00:00",
+    "handicap_line": -0.25,
+    "handicap_home": 0.97,
+    "handicap_away": 0.91,
+    "total_line": 2.5,
+    "over": 1,
+    "under": 0.87
+  },
+  {
+    "fixture_key": "superlig|萨姆松体育|科尼亚体育|2026-11-07",
+    "competition": "superlig",
+    "home": "萨姆松体育",
+    "away": "科尼亚体育",
+    "kickoff": "2026-11-07T13:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-07T10:30:37.441339+00:00",
+    "handicap_line": -0.25,
+    "handicap_home": 0.98,
+    "handicap_away": 0.91,
+    "total_line": 2.5,
+    "over": 0.8,
+    "under": 1.07
   }
 ]

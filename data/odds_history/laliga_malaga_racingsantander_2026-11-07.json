@@ -268,5 +268,35 @@
     "total_line": 2.75,
     "over": 0.91,
     "under": 0.97
+  },
+  {
+    "fixture_key": "laliga|malaga|racingsantander|2026-11-07",
+    "competition": "laliga",
+    "home": "Malaga",
+    "away": "Racing Santander",
+    "kickoff": "2026-11-07T13:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-06T13:00:00+00:00",
+    "handicap_line": -0.25,
+    "handicap_home": 1.08,
+    "handicap_away": 0.8,
+    "total_line": 2.75,
+    "over": 0.86,
+    "under": 1
+  },
+  {
+    "fixture_key": "laliga|malaga|racingsantander|2026-11-07",
+    "competition": "laliga",
+    "home": "Malaga",
+    "away": "Racing Santander",
+    "kickoff": "2026-11-07T13:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-07T10:29:47.484330+00:00",
+    "handicap_line": -0.25,
+    "handicap_home": 1.07,
+    "handicap_away": 0.82,
+    "total_line": 3,
+    "over": 1.07,
+    "under": 0.81
   }
 ]

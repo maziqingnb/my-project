@@ -103,5 +103,35 @@
     "total_line": 222.5,
     "over": 2.02,
     "under": 1.87
+  },
+  {
+    "fixture_key": "nba|goldenstatewarriors|orlandomagic|2026-11-08",
+    "competition": "nba",
+    "home": "Golden State Warriors",
+    "away": "Orlando Magic",
+    "kickoff": "2026-11-08T01:40:00Z",
+    "bookmaker": "unibet",
+    "ts": "2026-11-07T10:31:45.004627+00:00",
+    "handicap_line": -6.5,
+    "handicap_home": 1.92,
+    "handicap_away": 1.89,
+    "total_line": null,
+    "over": null,
+    "under": null
+  },
+  {
+    "fixture_key": "nba|goldenstatewarriors|orlandomagic|2026-11-08",
+    "competition": "nba",
+    "home": "Golden State Warriors",
+    "away": "Orlando Magic",
+    "kickoff": "2026-11-08T01:40:00Z",
+    "bookmaker": "pinnacle",
+    "ts": "2026-11-07T10:31:45.004627+00:00",
+    "handicap_line": -6.5,
+    "handicap_home": 1.94,
+    "handicap_away": 1.96,
+    "total_line": 220.5,
+    "over": 1.93,
+    "under": 1.95
   }
 ]

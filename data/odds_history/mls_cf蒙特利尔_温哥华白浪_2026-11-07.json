@@ -268,5 +268,35 @@
     "total_line": 3.25,
     "over": 0.88,
     "under": 0.98
+  },
+  {
+    "fixture_key": "mls|cf蒙特利尔|温哥华白浪|2026-11-07",
+    "competition": "mls",
+    "home": "CF蒙特利尔",
+    "away": "温哥华白浪",
+    "kickoff": "2026-11-07T21:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-06T21:00:00+00:00",
+    "handicap_line": 0.75,
+    "handicap_home": 1.02,
+    "handicap_away": 0.86,
+    "total_line": 3.25,
+    "over": 0.93,
+    "under": 0.94
+  },
+  {
+    "fixture_key": "mls|cf蒙特利尔|温哥华白浪|2026-11-07",
+    "competition": "mls",
+    "home": "CF蒙特利尔",
+    "away": "温哥华白浪",
+    "kickoff": "2026-11-07T21:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-07T10:30:57.803039+00:00",
+    "handicap_line": 0.75,
+    "handicap_home": 1.01,
+    "handicap_away": 0.85,
+    "total_line": 3.25,
+    "over": 0.88,
+    "under": 0.98
   }
 ]

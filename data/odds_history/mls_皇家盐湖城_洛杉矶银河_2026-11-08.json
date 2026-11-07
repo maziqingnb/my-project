@@ -268,5 +268,35 @@
     "total_line": 3.5,
     "over": 1.03,
     "under": 0.83
+  },
+  {
+    "fixture_key": "mls|皇家盐湖城|洛杉矶银河|2026-11-08",
+    "competition": "mls",
+    "home": "皇家盐湖城",
+    "away": "洛杉矶银河",
+    "kickoff": "2026-11-08T00:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-07T00:00:00+00:00",
+    "handicap_line": -0.75,
+    "handicap_home": 0.86,
+    "handicap_away": 1.02,
+    "total_line": 3.5,
+    "over": 1.04,
+    "under": 0.83
+  },
+  {
+    "fixture_key": "mls|皇家盐湖城|洛杉矶银河|2026-11-08",
+    "competition": "mls",
+    "home": "皇家盐湖城",
+    "away": "洛杉矶银河",
+    "kickoff": "2026-11-08T00:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-07T10:31:19.627868+00:00",
+    "handicap_line": -0.75,
+    "handicap_home": 0.96,
+    "handicap_away": 0.9,
+    "total_line": 3.5,
+    "over": 1.03,
+    "under": 0.83
   }
 ]

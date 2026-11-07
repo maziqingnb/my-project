@@ -43,5 +43,20 @@
     "total_line": null,
     "over": null,
     "under": null
+  },
+  {
+    "fixture_key": "nba|portlandtrailblazers|sanantoniospurs|2026-11-08",
+    "competition": "nba",
+    "home": "Portland Trail Blazers",
+    "away": "San Antonio Spurs",
+    "kickoff": "2026-11-08T03:00:00Z",
+    "bookmaker": "unibet",
+    "ts": "2026-11-07T10:31:45.004627+00:00",
+    "handicap_line": 1.5,
+    "handicap_home": 2.5,
+    "handicap_away": 1.53,
+    "total_line": null,
+    "over": null,
+    "under": null
   }
 ]
