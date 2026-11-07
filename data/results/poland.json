@@ -2,6 +2,17 @@
   {
     "competition": "poland",
     "cls": "league",
+    "home": "哥罗纳",
+    "away": "拉多麦科",
+    "home_goals": 0,
+    "away_goals": 2,
+    "date": "2026-11-07",
+    "handicap_line": -0.75,
+    "total_line": 2.75
+  },
+  {
+    "competition": "poland",
+    "cls": "league",
     "home": "莫托路宾",
     "away": "普沃茨克维斯瓦",
     "home_goals": 3,
