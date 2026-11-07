@@ -24,6 +24,28 @@
   {
     "competition": "superlig",
     "cls": "league",
+    "home": "加拉塔萨雷",
+    "away": "阿美德",
+    "home_goals": 4,
+    "away_goals": 3,
+    "date": "2026-11-07",
+    "handicap_line": -1.25,
+    "total_line": 3.25
+  },
+  {
+    "competition": "superlig",
+    "cls": "league",
+    "home": "哥兹塔比",
+    "away": "伊斯坦布尔巴萨克塞尔",
+    "home_goals": 1,
+    "away_goals": 2,
+    "date": "2026-11-07",
+    "handicap_line": -0.5,
+    "total_line": 3.0
+  },
+  {
+    "competition": "superlig",
+    "cls": "league",
     "home": "加济安泰普大都会",
     "away": "卡斯帕萨",
     "home_goals": 0,
