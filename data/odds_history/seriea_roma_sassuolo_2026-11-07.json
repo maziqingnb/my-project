@@ -208,5 +208,35 @@
     "total_line": 3.5,
     "over": 0.94,
     "under": 0.94
+  },
+  {
+    "fixture_key": "seriea|roma|sassuolo|2026-11-07",
+    "competition": "seriea",
+    "home": "Roma",
+    "away": "Sassuolo",
+    "kickoff": "2026-11-07T19:45:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-06T19:45:00+00:00",
+    "handicap_line": -1.5,
+    "handicap_home": 0.98,
+    "handicap_away": 0.9,
+    "total_line": 3.25,
+    "over": 1,
+    "under": 0.88
+  },
+  {
+    "fixture_key": "seriea|roma|sassuolo|2026-11-07",
+    "competition": "seriea",
+    "home": "Roma",
+    "away": "Sassuolo",
+    "kickoff": "2026-11-07T19:45:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-07T06:40:56.047238+00:00",
+    "handicap_line": -1.75,
+    "handicap_home": 0.99,
+    "handicap_away": 0.9,
+    "total_line": 3.5,
+    "over": 0.94,
+    "under": 0.94
   }
 ]

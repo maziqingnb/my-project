@@ -208,5 +208,35 @@
     "total_line": 3.25,
     "over": 0.83,
     "under": 1.03
+  },
+  {
+    "fixture_key": "mls|明尼苏达联|圣何塞地震|2026-11-08",
+    "competition": "mls",
+    "home": "明尼苏达联",
+    "away": "圣何塞地震",
+    "kickoff": "2026-11-08T00:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-07T00:00:00+00:00",
+    "handicap_line": -0.75,
+    "handicap_home": 0.96,
+    "handicap_away": 0.92,
+    "total_line": 3.25,
+    "over": 0.93,
+    "under": 0.94
+  },
+  {
+    "fixture_key": "mls|明尼苏达联|圣何塞地震|2026-11-08",
+    "competition": "mls",
+    "home": "明尼苏达联",
+    "away": "圣何塞地震",
+    "kickoff": "2026-11-08T00:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-07T06:42:24.071880+00:00",
+    "handicap_line": -0.75,
+    "handicap_home": 0.8,
+    "handicap_away": 1.06,
+    "total_line": 3.25,
+    "over": 0.83,
+    "under": 1.03
   }
 ]

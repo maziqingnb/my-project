@@ -208,5 +208,35 @@
     "total_line": 2.25,
     "over": 0.8,
     "under": 1.07
+  },
+  {
+    "fixture_key": "superlig|埃于普体育|科贾埃利体育|2026-11-07",
+    "competition": "superlig",
+    "home": "埃于普体育",
+    "away": "科贾埃利体育",
+    "kickoff": "2026-11-07T10:30:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-06T10:30:00+00:00",
+    "handicap_line": 0.25,
+    "handicap_home": 1.04,
+    "handicap_away": 0.84,
+    "total_line": 2.25,
+    "over": 0.95,
+    "under": 0.92
+  },
+  {
+    "fixture_key": "superlig|埃于普体育|科贾埃利体育|2026-11-07",
+    "competition": "superlig",
+    "home": "埃于普体育",
+    "away": "科贾埃利体育",
+    "kickoff": "2026-11-07T10:30:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-07T06:41:31.438880+00:00",
+    "handicap_line": 0.5,
+    "handicap_home": 0.98,
+    "handicap_away": 0.91,
+    "total_line": 2.25,
+    "over": 0.84,
+    "under": 1.03
   }
 ]

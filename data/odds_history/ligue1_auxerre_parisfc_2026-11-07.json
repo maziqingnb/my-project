@@ -208,5 +208,35 @@
     "total_line": 2.75,
     "over": 0.95,
     "under": 0.93
+  },
+  {
+    "fixture_key": "ligue1|auxerre|parisfc|2026-11-07",
+    "competition": "ligue1",
+    "home": "Auxerre",
+    "away": "Paris FC",
+    "kickoff": "2026-11-07T18:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-06T18:00:00+00:00",
+    "handicap_line": 0.5,
+    "handicap_home": 0.88,
+    "handicap_away": 1,
+    "total_line": 2.75,
+    "over": 0.96,
+    "under": 0.9
+  },
+  {
+    "fixture_key": "ligue1|auxerre|parisfc|2026-11-07",
+    "competition": "ligue1",
+    "home": "Auxerre",
+    "away": "Paris FC",
+    "kickoff": "2026-11-07T18:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-07T06:41:11.706697+00:00",
+    "handicap_line": 0.75,
+    "handicap_home": 0.95,
+    "handicap_away": 0.94,
+    "total_line": 2.75,
+    "over": 0.92,
+    "under": 0.96
   }
 ]
