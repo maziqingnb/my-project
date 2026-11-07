@@ -238,5 +238,35 @@
     "total_line": 2,
     "over": 1.06,
     "under": 0.81
+  },
+  {
+    "fixture_key": "argentina|科尔多瓦学院|纽维尔老男孩|2026-11-08",
+    "competition": "argentina",
+    "home": "科尔多瓦学院",
+    "away": "纽维尔老男孩",
+    "kickoff": "2026-11-08T01:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-07T01:00:00+00:00",
+    "handicap_line": -0.5,
+    "handicap_home": 1,
+    "handicap_away": 0.88,
+    "total_line": 2,
+    "over": 0.87,
+    "under": 1
+  },
+  {
+    "fixture_key": "argentina|科尔多瓦学院|纽维尔老男孩|2026-11-08",
+    "competition": "argentina",
+    "home": "科尔多瓦学院",
+    "away": "纽维尔老男孩",
+    "kickoff": "2026-11-08T01:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-07T08:40:26.445035+00:00",
+    "handicap_line": -0.5,
+    "handicap_home": 0.93,
+    "handicap_away": 0.96,
+    "total_line": 2,
+    "over": 1.06,
+    "under": 0.81
   }
 ]

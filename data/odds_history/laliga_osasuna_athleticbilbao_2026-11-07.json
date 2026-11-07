@@ -238,5 +238,35 @@
     "total_line": 2.25,
     "over": 0.9,
     "under": 0.98
+  },
+  {
+    "fixture_key": "laliga|osasuna|athleticbilbao|2026-11-07",
+    "competition": "laliga",
+    "home": "Osasuna",
+    "away": "Athletic Bilbao",
+    "kickoff": "2026-11-07T17:30:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-06T17:30:00+00:00",
+    "handicap_line": 0.25,
+    "handicap_home": 0.96,
+    "handicap_away": 0.92,
+    "total_line": 2.5,
+    "over": 1.05,
+    "under": 0.81
+  },
+  {
+    "fixture_key": "laliga|osasuna|athleticbilbao|2026-11-07",
+    "competition": "laliga",
+    "home": "Osasuna",
+    "away": "Athletic Bilbao",
+    "kickoff": "2026-11-07T17:30:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-07T08:39:15.095289+00:00",
+    "handicap_line": 0.5,
+    "handicap_home": 0.83,
+    "handicap_away": 1.06,
+    "total_line": 2.25,
+    "over": 0.91,
+    "under": 0.97
   }
 ]

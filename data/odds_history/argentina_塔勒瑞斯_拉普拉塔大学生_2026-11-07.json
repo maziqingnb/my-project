@@ -238,5 +238,35 @@
     "total_line": 2.25,
     "over": 1.04,
     "under": 0.83
+  },
+  {
+    "fixture_key": "argentina|塔勒瑞斯|拉普拉塔大学生|2026-11-07",
+    "competition": "argentina",
+    "home": "塔勒瑞斯",
+    "away": "拉普拉塔大学生",
+    "kickoff": "2026-11-07T18:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-06T18:00:00+00:00",
+    "handicap_line": 0,
+    "handicap_home": 0.9,
+    "handicap_away": 0.98,
+    "total_line": 2.25,
+    "over": 1.04,
+    "under": 0.83
+  },
+  {
+    "fixture_key": "argentina|塔勒瑞斯|拉普拉塔大学生|2026-11-07",
+    "competition": "argentina",
+    "home": "塔勒瑞斯",
+    "away": "拉普拉塔大学生",
+    "kickoff": "2026-11-07T18:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-07T08:40:17.380317+00:00",
+    "handicap_line": 0,
+    "handicap_home": 0.97,
+    "handicap_away": 0.92,
+    "total_line": 2.25,
+    "over": 1.04,
+    "under": 0.83
   }
 ]

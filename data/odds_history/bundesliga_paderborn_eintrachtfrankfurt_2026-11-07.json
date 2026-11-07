@@ -238,5 +238,35 @@
     "total_line": 3.25,
     "over": 0.97,
     "under": 0.91
+  },
+  {
+    "fixture_key": "bundesliga|paderborn|eintrachtfrankfurt|2026-11-07",
+    "competition": "bundesliga",
+    "home": "Paderborn",
+    "away": "Eintracht Frankfurt",
+    "kickoff": "2026-11-07T14:30:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-06T14:30:00+00:00",
+    "handicap_line": 0.25,
+    "handicap_home": 0.92,
+    "handicap_away": 0.96,
+    "total_line": 3.25,
+    "over": 0.94,
+    "under": 0.92
+  },
+  {
+    "fixture_key": "bundesliga|paderborn|eintrachtfrankfurt|2026-11-07",
+    "competition": "bundesliga",
+    "home": "Paderborn",
+    "away": "Eintracht Frankfurt",
+    "kickoff": "2026-11-07T14:30:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-07T08:39:32.775713+00:00",
+    "handicap_line": 0.25,
+    "handicap_home": 0.89,
+    "handicap_away": 1,
+    "total_line": 3.25,
+    "over": 0.99,
+    "under": 0.89
   }
 ]
