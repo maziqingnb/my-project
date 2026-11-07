@@ -283,5 +283,35 @@
     "total_line": 208.0,
     "over": 1.96,
     "under": 1.93
+  },
+  {
+    "fixture_key": "nba|charlottehornets|bostonceltics|2026-11-07",
+    "competition": "nba",
+    "home": "Charlotte Hornets",
+    "away": "Boston Celtics",
+    "kickoff": "2026-11-07T00:11:00Z",
+    "bookmaker": "unibet",
+    "ts": "2026-11-07T00:34:16.204784+00:00",
+    "handicap_line": 18.5,
+    "handicap_home": 1.89,
+    "handicap_away": 1.84,
+    "total_line": null,
+    "over": null,
+    "under": null
+  },
+  {
+    "fixture_key": "nba|charlottehornets|bostonceltics|2026-11-07",
+    "competition": "nba",
+    "home": "Charlotte Hornets",
+    "away": "Boston Celtics",
+    "kickoff": "2026-11-07T00:11:00Z",
+    "bookmaker": "pinnacle",
+    "ts": "2026-11-07T00:34:16.204784+00:00",
+    "handicap_line": 18.5,
+    "handicap_home": 1.86,
+    "handicap_away": 1.93,
+    "total_line": 212.0,
+    "over": 1.91,
+    "under": 1.87
   }
 ]

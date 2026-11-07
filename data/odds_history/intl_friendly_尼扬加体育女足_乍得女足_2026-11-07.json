@@ -58,5 +58,20 @@
     "total_line": null,
     "over": null,
     "under": null
+  },
+  {
+    "fixture_key": "intl_friendly|尼扬加体育女足|乍得女足|2026-11-07",
+    "competition": "intl_friendly",
+    "home": "尼扬加体育女足",
+    "away": "乍得女足",
+    "kickoff": "2026-11-07T12:15:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-07T00:34:15.988170+00:00",
+    "handicap_line": null,
+    "handicap_home": null,
+    "handicap_away": null,
+    "total_line": null,
+    "over": null,
+    "under": null
   }
 ]

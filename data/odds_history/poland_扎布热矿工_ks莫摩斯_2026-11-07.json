@@ -118,5 +118,35 @@
     "total_line": 3,
     "over": 0.96,
     "under": 0.8
+  },
+  {
+    "fixture_key": "poland|扎布热矿工|ks莫摩斯|2026-11-07",
+    "competition": "poland",
+    "home": "扎布热矿工",
+    "away": "KS莫摩斯",
+    "kickoff": "2026-11-07T16:30:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-06T16:30:00+00:00",
+    "handicap_line": -1,
+    "handicap_home": 0.97,
+    "handicap_away": 0.85,
+    "total_line": 3,
+    "over": 0.98,
+    "under": 0.82
+  },
+  {
+    "fixture_key": "poland|扎布热矿工|ks莫摩斯|2026-11-07",
+    "competition": "poland",
+    "home": "扎布热矿工",
+    "away": "KS莫摩斯",
+    "kickoff": "2026-11-07T16:30:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-07T00:34:12.777822+00:00",
+    "handicap_line": -1,
+    "handicap_home": 0.94,
+    "handicap_away": 0.82,
+    "total_line": 3,
+    "over": 0.96,
+    "under": 0.8
   }
 ]

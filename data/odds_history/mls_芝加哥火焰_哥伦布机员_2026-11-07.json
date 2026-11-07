@@ -118,5 +118,35 @@
     "total_line": 3.25,
     "over": 0.94,
     "under": 0.93
+  },
+  {
+    "fixture_key": "mls|芝加哥火焰|哥伦布机员|2026-11-07",
+    "competition": "mls",
+    "home": "芝加哥火焰",
+    "away": "哥伦布机员",
+    "kickoff": "2026-11-07T21:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-06T21:00:00+00:00",
+    "handicap_line": -0.5,
+    "handicap_home": 1.04,
+    "handicap_away": 0.84,
+    "total_line": 3.25,
+    "over": 0.93,
+    "under": 0.94
+  },
+  {
+    "fixture_key": "mls|芝加哥火焰|哥伦布机员|2026-11-07",
+    "competition": "mls",
+    "home": "芝加哥火焰",
+    "away": "哥伦布机员",
+    "kickoff": "2026-11-07T21:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-07T00:33:44.746075+00:00",
+    "handicap_line": -0.5,
+    "handicap_home": 1.02,
+    "handicap_away": 0.86,
+    "total_line": 3.25,
+    "over": 0.94,
+    "under": 0.93
   }
 ]

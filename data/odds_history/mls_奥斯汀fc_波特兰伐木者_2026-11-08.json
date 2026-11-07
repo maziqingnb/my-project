@@ -118,5 +118,35 @@
     "total_line": 3.5,
     "over": 1.03,
     "under": 0.84
+  },
+  {
+    "fixture_key": "mls|奥斯汀fc|波特兰伐木者|2026-11-08",
+    "competition": "mls",
+    "home": "奥斯汀FC",
+    "away": "波特兰伐木者",
+    "kickoff": "2026-11-08T00:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-07T00:00:00+00:00",
+    "handicap_line": 0.75,
+    "handicap_home": 0.94,
+    "handicap_away": 0.94,
+    "total_line": 3.5,
+    "over": 1.02,
+    "under": 0.84
+  },
+  {
+    "fixture_key": "mls|奥斯汀fc|波特兰伐木者|2026-11-08",
+    "competition": "mls",
+    "home": "奥斯汀FC",
+    "away": "波特兰伐木者",
+    "kickoff": "2026-11-08T00:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-07T00:33:53.290182+00:00",
+    "handicap_line": 0.75,
+    "handicap_home": 1.02,
+    "handicap_away": 0.86,
+    "total_line": 3.5,
+    "over": 1.03,
+    "under": 0.84
   }
 ]

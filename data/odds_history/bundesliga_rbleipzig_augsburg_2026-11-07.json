@@ -118,5 +118,35 @@
     "total_line": 3.75,
     "over": 0.87,
     "under": 1.01
+  },
+  {
+    "fixture_key": "bundesliga|rbleipzig|augsburg|2026-11-07",
+    "competition": "bundesliga",
+    "home": "RB Leipzig",
+    "away": "Augsburg",
+    "kickoff": "2026-11-07T14:30:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-06T14:30:00+00:00",
+    "handicap_line": -1.25,
+    "handicap_home": 0.93,
+    "handicap_away": 0.95,
+    "total_line": 3.75,
+    "over": 0.84,
+    "under": 1.02
+  },
+  {
+    "fixture_key": "bundesliga|rbleipzig|augsburg|2026-11-07",
+    "competition": "bundesliga",
+    "home": "RB Leipzig",
+    "away": "Augsburg",
+    "kickoff": "2026-11-07T14:30:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-07T00:33:17.846544+00:00",
+    "handicap_line": -1.25,
+    "handicap_home": 0.91,
+    "handicap_away": 0.97,
+    "total_line": 3.75,
+    "over": 0.87,
+    "under": 1.01
   }
 ]

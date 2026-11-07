@@ -118,5 +118,35 @@
     "total_line": 3,
     "over": 0.98,
     "under": 0.78
+  },
+  {
+    "fixture_key": "poland|史拉斯科|皮亚斯特|2026-11-07",
+    "competition": "poland",
+    "home": "史拉斯科",
+    "away": "皮亚斯特",
+    "kickoff": "2026-11-07T13:45:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-06T13:45:00+00:00",
+    "handicap_line": 0,
+    "handicap_home": 0.92,
+    "handicap_away": 0.9,
+    "total_line": 3,
+    "over": 1,
+    "under": 0.8
+  },
+  {
+    "fixture_key": "poland|史拉斯科|皮亚斯特|2026-11-07",
+    "competition": "poland",
+    "home": "史拉斯科",
+    "away": "皮亚斯特",
+    "kickoff": "2026-11-07T13:45:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-07T00:34:11.521871+00:00",
+    "handicap_line": 0,
+    "handicap_home": 0.89,
+    "handicap_away": 0.87,
+    "total_line": 3,
+    "over": 0.98,
+    "under": 0.78
   }
 ]
