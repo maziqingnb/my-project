@@ -328,5 +328,35 @@
     "total_line": 3.25,
     "over": 1,
     "under": 0.88
+  },
+  {
+    "fixture_key": "laliga|valencia|realmadrid|2026-11-07",
+    "competition": "laliga",
+    "home": "Valencia",
+    "away": "Real Madrid",
+    "kickoff": "2026-11-07T20:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-06T20:00:00+00:00",
+    "handicap_line": 1.5,
+    "handicap_home": 0.85,
+    "handicap_away": 1.03,
+    "total_line": 3.25,
+    "over": 0.84,
+    "under": 1.02
+  },
+  {
+    "fixture_key": "laliga|valencia|realmadrid|2026-11-07",
+    "competition": "laliga",
+    "home": "Valencia",
+    "away": "Real Madrid",
+    "kickoff": "2026-11-07T20:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-07T14:31:52.749771+00:00",
+    "handicap_line": 1.75,
+    "handicap_home": 0.88,
+    "handicap_away": 1.01,
+    "total_line": 3.25,
+    "over": 1,
+    "under": 0.88
   }
 ]
