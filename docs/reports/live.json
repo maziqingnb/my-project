@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-11-07T12:00:42.185435+00:00",
+  "generated_at": "2026-11-07T12:50:06.084098+00:00",
   "matches": [
     {
-      "fixture_key": "poland|哥罗纳|拉多麦科|2026-11-07",
-      "competition": "poland",
-      "home": "哥罗纳",
-      "away": "拉多麦科",
-      "kickoff": "2026-11-07T11:15:00",
+      "fixture_key": "epl|leedsunited|tottenhamhotspur|2026-11-07",
+      "competition": "epl",
+      "home": "Leeds United",
+      "away": "Tottenham Hotspur",
+      "kickoff": "2026-11-07T12:30:00",
       "status": "live",
       "home_goals": 0,
       "away_goals": 0
