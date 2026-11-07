@@ -1,7 +1,54 @@
 {
-  "generated_at": "2026-11-07T18:29:08.898022+00:00",
-  "total_missed": 38,
+  "generated_at": "2026-11-07T19:13:54.577267+00:00",
+  "total_missed": 39,
   "days": [
+    {
+      "date": "2026-11-07",
+      "missed": 1,
+      "items": [
+        {
+          "competition": "sweden",
+          "home": "奥尔格里特",
+          "away": "瓦斯特拉斯",
+          "kickoff": "2026-11-07T16:30:00",
+          "market": "handicap",
+          "sport": "football",
+          "pick": "客队（让 0.25）",
+          "side": "away",
+          "line": 0.25,
+          "score": 75.0,
+          "confidence": "strong",
+          "outcome": "half_loss",
+          "outcome_cn": "半输",
+          "home_goals": 0,
+          "away_goals": 0,
+          "book": "盘口 主受让0.25 → 主受让0.25，水位 主0.80/1.08 → 主1.04/0.85",
+          "diagnosis": [
+            "盘口 主受让0.25 → 主受让0.25，水位 主0.80/1.08 → 主1.04/0.85",
+            "最终 0-0，推荐侧相对盘口 -0.25 球（未打穿）"
+          ],
+          "note": "客队（让 0.25） · 最终 0-0（客队净胜 0），未打穿",
+          "signals": {
+            "line_desc": "盘口不变",
+            "water_desc": "主队升水 0.8->1.04",
+            "line_first": 0.25,
+            "line_last": 0.25,
+            "home_water_first": 0.8,
+            "home_water_last": 1.04,
+            "away_water_first": 1.08,
+            "away_water_last": 0.85,
+            "conflict": false
+          },
+          "reasons": [
+            "亚盘 盘口不变",
+            "主队升水 0.8->1.04",
+            "主队近2场 0胜0平2负，场均进1.0/失2.0",
+            "客队近2场 2胜0平0负，场均进2.0/失0.0",
+            "交手0次：主队0胜0平0负"
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-11-06",
       "missed": 2,

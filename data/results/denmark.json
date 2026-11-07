@@ -2,6 +2,17 @@
   {
     "competition": "denmark",
     "cls": "league",
+    "home": "欧登塞",
+    "away": "维堡",
+    "home_goals": 1,
+    "away_goals": 2,
+    "date": "2026-11-07",
+    "handicap_line": -0.0,
+    "total_line": 3.0
+  },
+  {
+    "competition": "denmark",
+    "cls": "league",
     "home": "锡尔克堡",
     "away": "利恩比",
     "home_goals": 1,

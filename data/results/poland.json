@@ -24,6 +24,17 @@
   {
     "competition": "poland",
     "cls": "league",
+    "home": "扎布热矿工",
+    "away": "KS莫摩斯",
+    "home_goals": 2,
+    "away_goals": 1,
+    "date": "2026-11-07",
+    "handicap_line": -1.0,
+    "total_line": 3.0
+  },
+  {
+    "competition": "poland",
+    "cls": "league",
     "home": "莫托路宾",
     "away": "普沃茨克维斯瓦",
     "home_goals": 3,
