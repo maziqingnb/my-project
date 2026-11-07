@@ -13,6 +13,17 @@
   {
     "competition": "rpl",
     "cls": "league",
+    "home": "格罗兹尼特里克",
+    "away": "罗迪纳莫斯科",
+    "home_goals": 1,
+    "away_goals": 0,
+    "date": "2026-11-07",
+    "handicap_line": -0.75,
+    "total_line": 2.75
+  },
+  {
+    "competition": "rpl",
+    "cls": "league",
     "home": "莫斯科火车头",
     "away": "喀山红宝石",
     "home_goals": 0,
