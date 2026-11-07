@@ -1,52 +1,12 @@
 {
-  "generated_at": "2026-11-07T21:14:42.243317+00:00",
+  "generated_at": "2026-11-07T21:53:51.641523+00:00",
   "matches": [
-    {
-      "fixture_key": "primeira|葡萄牙体育|摩里伦斯|2026-11-07",
-      "competition": "primeira",
-      "home": "葡萄牙体育",
-      "away": "摩里伦斯",
-      "kickoff": "2026-11-07T20:30:00",
-      "status": "live",
-      "home_goals": 0,
-      "away_goals": 0
-    },
-    {
-      "fixture_key": "argentina|阿根廷青年人|飓风队|2026-11-07",
-      "competition": "argentina",
-      "home": "阿根廷青年人",
-      "away": "飓风队",
-      "kickoff": "2026-11-07T20:30:00",
-      "status": "live",
-      "home_goals": 0,
-      "away_goals": 2
-    },
-    {
-      "fixture_key": "argentina|博卡青年|防卫者|2026-11-07",
-      "competition": "argentina",
-      "home": "博卡青年",
-      "away": "防卫者",
-      "kickoff": "2026-11-07T20:30:00",
-      "status": "live",
-      "home_goals": 1,
-      "away_goals": 0
-    },
-    {
-      "fixture_key": "argentina|罗萨里奥中央|里奥夸尔托学生队|2026-11-07",
-      "competition": "argentina",
-      "home": "罗萨里奥中央",
-      "away": "里奥夸尔托学生队",
-      "kickoff": "2026-11-07T20:30:00",
-      "status": "live",
-      "home_goals": 0,
-      "away_goals": 0
-    },
     {
       "fixture_key": "mls|cf蒙特利尔|温哥华白浪|2026-11-07",
       "competition": "mls",
       "home": "CF蒙特利尔",
       "away": "温哥华白浪",
-      "kickoff": "2026-11-07T21:00:00",
+      "kickoff": "2026-11-07T21:10:00",
       "status": "live",
       "home_goals": 0,
       "away_goals": 0
@@ -56,17 +16,17 @@
       "competition": "mls",
       "home": "芝加哥火焰",
       "away": "哥伦布机员",
-      "kickoff": "2026-11-07T21:00:00",
+      "kickoff": "2026-11-07T21:10:00",
       "status": "live",
-      "home_goals": 0,
-      "away_goals": 0
+      "home_goals": 2,
+      "away_goals": 2
     },
     {
       "fixture_key": "mls|华盛顿联|纽约城|2026-11-07",
       "competition": "mls",
       "home": "华盛顿联",
       "away": "纽约城",
-      "kickoff": "2026-11-07T21:00:00",
+      "kickoff": "2026-11-07T21:10:00",
       "status": "live",
       "home_goals": 0,
       "away_goals": 0
@@ -76,7 +36,7 @@
       "competition": "mls",
       "home": "辛辛那提",
       "away": "纳什威尔SC",
-      "kickoff": "2026-11-07T21:00:00",
+      "kickoff": "2026-11-07T21:10:00",
       "status": "live",
       "home_goals": 0,
       "away_goals": 0
@@ -86,9 +46,9 @@
       "competition": "mls",
       "home": "迈阿密国际",
       "away": "夏洛特FC",
-      "kickoff": "2026-11-07T21:00:00",
+      "kickoff": "2026-11-07T21:10:00",
       "status": "live",
-      "home_goals": 0,
+      "home_goals": 2,
       "away_goals": 0
     },
     {
@@ -96,9 +56,9 @@
       "competition": "mls",
       "home": "纽约红牛",
       "away": "亚特兰大联",
-      "kickoff": "2026-11-07T21:00:00",
+      "kickoff": "2026-11-07T21:10:00",
       "status": "live",
-      "home_goals": 0,
+      "home_goals": 1,
       "away_goals": 0
     },
     {
@@ -106,7 +66,7 @@
       "competition": "mls",
       "home": "奥兰多城",
       "away": "新英格兰革命",
-      "kickoff": "2026-11-07T21:00:00",
+      "kickoff": "2026-11-07T21:10:00",
       "status": "live",
       "home_goals": 0,
       "away_goals": 0
@@ -116,9 +76,9 @@
       "competition": "mls",
       "home": "费城联合",
       "away": "多伦多FC",
-      "kickoff": "2026-11-07T21:00:00",
+      "kickoff": "2026-11-07T21:10:00",
       "status": "live",
-      "home_goals": 0,
+      "home_goals": 2,
       "away_goals": 0
     }
   ]
