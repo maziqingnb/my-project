@@ -1,6 +1,16 @@
 {
-  "generated_at": "2026-11-07T19:56:26.473195+00:00",
+  "generated_at": "2026-11-07T20:34:09.520247+00:00",
   "matches": [
+    {
+      "fixture_key": "laliga|valencia|realmadrid|2026-11-07",
+      "competition": "laliga",
+      "home": "Valencia",
+      "away": "Real Madrid",
+      "kickoff": "2026-11-07T20:00:00",
+      "status": "live",
+      "home_goals": 0,
+      "away_goals": 1
+    },
     {
       "fixture_key": "seriea|roma|sassuolo|2026-11-07",
       "competition": "seriea",
@@ -8,17 +18,57 @@
       "away": "Sassuolo",
       "kickoff": "2026-11-07T19:45:00",
       "status": "live",
+      "home_goals": 2,
+      "away_goals": 0
+    },
+    {
+      "fixture_key": "ligue1|parissaintgermain|troyes|2026-11-07",
+      "competition": "ligue1",
+      "home": "Paris Saint-Germain",
+      "away": "Troyes",
+      "kickoff": "2026-11-07T20:05:00",
+      "status": "live",
       "home_goals": 0,
       "away_goals": 0
     },
     {
-      "fixture_key": "poland|维德祖罗兹|什切青|2026-11-07",
-      "competition": "poland",
-      "home": "维德祖罗兹",
-      "away": "什切青",
-      "kickoff": "2026-11-07T19:15:00",
+      "fixture_key": "primeira|葡萄牙体育|摩里伦斯|2026-11-07",
+      "competition": "primeira",
+      "home": "葡萄牙体育",
+      "away": "摩里伦斯",
+      "kickoff": "2026-11-07T20:30:00",
       "status": "live",
-      "home_goals": 1,
+      "home_goals": 0,
+      "away_goals": 0
+    },
+    {
+      "fixture_key": "argentina|阿根廷青年人|飓风队|2026-11-07",
+      "competition": "argentina",
+      "home": "阿根廷青年人",
+      "away": "飓风队",
+      "kickoff": "2026-11-07T20:30:00",
+      "status": "live",
+      "home_goals": 0,
+      "away_goals": 0
+    },
+    {
+      "fixture_key": "argentina|博卡青年|防卫者|2026-11-07",
+      "competition": "argentina",
+      "home": "博卡青年",
+      "away": "防卫者",
+      "kickoff": "2026-11-07T20:30:00",
+      "status": "live",
+      "home_goals": 0,
+      "away_goals": 0
+    },
+    {
+      "fixture_key": "argentina|罗萨里奥中央|里奥夸尔托学生队|2026-11-07",
+      "competition": "argentina",
+      "home": "罗萨里奥中央",
+      "away": "里奥夸尔托学生队",
+      "kickoff": "2026-11-07T20:30:00",
+      "status": "live",
+      "home_goals": 0,
       "away_goals": 0
     }
   ]

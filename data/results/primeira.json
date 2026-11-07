@@ -2,6 +2,17 @@
   {
     "competition": "primeira",
     "cls": "league",
+    "home": "艾华卡",
+    "away": "卡萨比亚",
+    "home_goals": 1,
+    "away_goals": 1,
+    "date": "2026-11-07",
+    "handicap_line": -0.75,
+    "total_line": 2.5
+  },
+  {
+    "competition": "primeira",
+    "cls": "league",
     "home": "法马利康",
     "away": "阿罗卡",
     "home_goals": 1,
