@@ -13,6 +13,17 @@
   {
     "competition": "seriea",
     "cls": "league",
+    "home": "Torino",
+    "away": "Lecce",
+    "home_goals": 1,
+    "away_goals": 1,
+    "date": "2026-11-07",
+    "handicap_line": -0.5,
+    "total_line": 2.25
+  },
+  {
+    "competition": "seriea",
+    "cls": "league",
     "home": "Venezia",
     "away": "Udinese",
     "home_goals": 2,
