@@ -178,5 +178,35 @@
     "total_line": 2.75,
     "over": 0.84,
     "under": 0.92
+  },
+  {
+    "fixture_key": "poland|哥罗纳|拉多麦科|2026-11-07",
+    "competition": "poland",
+    "home": "哥罗纳",
+    "away": "拉多麦科",
+    "kickoff": "2026-11-07T11:15:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-06T11:15:00+00:00",
+    "handicap_line": -0.75,
+    "handicap_home": 0.85,
+    "handicap_away": 0.97,
+    "total_line": 2.75,
+    "over": 0.86,
+    "under": 0.94
+  },
+  {
+    "fixture_key": "poland|哥罗纳|拉多麦科|2026-11-07",
+    "competition": "poland",
+    "home": "哥罗纳",
+    "away": "拉多麦科",
+    "kickoff": "2026-11-07T11:15:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-07T04:40:30.504344+00:00",
+    "handicap_line": -0.75,
+    "handicap_home": 0.9,
+    "handicap_away": 0.92,
+    "total_line": 2.75,
+    "over": 0.86,
+    "under": 0.94
   }
 ]

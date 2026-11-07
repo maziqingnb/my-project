@@ -1,0 +1,32 @@
+[
+  {
+    "fixture_key": "nba|atlantahawks|brooklynnets|2026-11-08",
+    "competition": "nba",
+    "home": "Atlanta Hawks",
+    "away": "Brooklyn Nets",
+    "kickoff": "2026-11-08T00:40:00Z",
+    "bookmaker": "unibet",
+    "ts": "2026-11-07T04:40:35.568157+00:00",
+    "handicap_line": -6.5,
+    "handicap_home": 1.93,
+    "handicap_away": 1.88,
+    "total_line": null,
+    "over": null,
+    "under": null
+  },
+  {
+    "fixture_key": "nba|atlantahawks|brooklynnets|2026-11-08",
+    "competition": "nba",
+    "home": "Atlanta Hawks",
+    "away": "Brooklyn Nets",
+    "kickoff": "2026-11-08T00:40:00Z",
+    "bookmaker": "pinnacle",
+    "ts": "2026-11-07T04:40:35.568157+00:00",
+    "handicap_line": -6.5,
+    "handicap_home": 1.92,
+    "handicap_away": 1.99,
+    "total_line": 224.5,
+    "over": 1.93,
+    "under": 1.95
+  }
+]

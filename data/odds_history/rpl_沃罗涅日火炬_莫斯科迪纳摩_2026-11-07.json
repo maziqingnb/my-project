@@ -178,5 +178,35 @@
     "total_line": 2.5,
     "over": 0.88,
     "under": 0.99
+  },
+  {
+    "fixture_key": "rpl|沃罗涅日火炬|莫斯科迪纳摩|2026-11-07",
+    "competition": "rpl",
+    "home": "沃罗涅日火炬",
+    "away": "莫斯科迪纳摩",
+    "kickoff": "2026-11-07T11:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-06T11:00:00+00:00",
+    "handicap_line": 0.75,
+    "handicap_home": 1.02,
+    "handicap_away": 0.86,
+    "total_line": 2.5,
+    "over": 0.88,
+    "under": 0.99
+  },
+  {
+    "fixture_key": "rpl|沃罗涅日火炬|莫斯科迪纳摩|2026-11-07",
+    "competition": "rpl",
+    "home": "沃罗涅日火炬",
+    "away": "莫斯科迪纳摩",
+    "kickoff": "2026-11-07T11:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-07T04:39:26.642073+00:00",
+    "handicap_line": 0.75,
+    "handicap_home": 1.03,
+    "handicap_away": 0.86,
+    "total_line": 2.5,
+    "over": 0.88,
+    "under": 0.99
   }
 ]
