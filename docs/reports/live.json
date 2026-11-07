@@ -1,4 +1,15 @@
 {
-  "generated_at": "2026-11-07T10:05:49.409492+00:00",
-  "matches": []
+  "generated_at": "2026-11-07T10:47:54.607048+00:00",
+  "matches": [
+    {
+      "fixture_key": "superlig|埃于普体育|科贾埃利体育|2026-11-07",
+      "competition": "superlig",
+      "home": "埃于普体育",
+      "away": "科贾埃利体育",
+      "kickoff": "2026-11-07T10:30:00",
+      "status": "live",
+      "home_goals": 0,
+      "away_goals": 1
+    }
+  ]
 }
