@@ -1,0 +1,32 @@
+[
+  {
+    "fixture_key": "ligue1|rennes|lille|2026-11-08",
+    "competition": "ligue1",
+    "home": "Rennes",
+    "away": "Lille",
+    "kickoff": "2026-11-08T14:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-07T14:00:00+00:00",
+    "handicap_line": -0.5,
+    "handicap_home": 1.02,
+    "handicap_away": 0.86,
+    "total_line": 3,
+    "over": 0.95,
+    "under": 0.91
+  },
+  {
+    "fixture_key": "ligue1|rennes|lille|2026-11-08",
+    "competition": "ligue1",
+    "home": "Rennes",
+    "away": "Lille",
+    "kickoff": "2026-11-08T14:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-07T16:26:50.100922+00:00",
+    "handicap_line": -0.25,
+    "handicap_home": 0.92,
+    "handicap_away": 0.96,
+    "total_line": 2.75,
+    "over": 0.92,
+    "under": 0.95
+  }
+]

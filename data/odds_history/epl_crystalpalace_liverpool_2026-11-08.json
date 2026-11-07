@@ -1,0 +1,32 @@
+[
+  {
+    "fixture_key": "epl|crystalpalace|liverpool|2026-11-08",
+    "competition": "epl",
+    "home": "Crystal Palace",
+    "away": "Liverpool",
+    "kickoff": "2026-11-08T14:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-07T14:00:00+00:00",
+    "handicap_line": 0.75,
+    "handicap_home": 0.9,
+    "handicap_away": 0.98,
+    "total_line": 3,
+    "over": 0.92,
+    "under": 0.94
+  },
+  {
+    "fixture_key": "epl|crystalpalace|liverpool|2026-11-08",
+    "competition": "epl",
+    "home": "Crystal Palace",
+    "away": "Liverpool",
+    "kickoff": "2026-11-08T14:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-07T16:26:00.684503+00:00",
+    "handicap_line": 1,
+    "handicap_home": 0.94,
+    "handicap_away": 0.94,
+    "total_line": 3,
+    "over": 0.91,
+    "under": 0.97
+  }
+]

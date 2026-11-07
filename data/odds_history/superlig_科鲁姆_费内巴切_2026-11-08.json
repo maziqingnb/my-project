@@ -1,0 +1,32 @@
+[
+  {
+    "fixture_key": "superlig|科鲁姆|费内巴切|2026-11-08",
+    "competition": "superlig",
+    "home": "科鲁姆",
+    "away": "费内巴切",
+    "kickoff": "2026-11-08T13:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-07T13:00:00+00:00",
+    "handicap_line": 0.75,
+    "handicap_home": 0.86,
+    "handicap_away": 1.02,
+    "total_line": 3,
+    "over": 1.02,
+    "under": 0.85
+  },
+  {
+    "fixture_key": "superlig|科鲁姆|费内巴切|2026-11-08",
+    "competition": "superlig",
+    "home": "科鲁姆",
+    "away": "费内巴切",
+    "kickoff": "2026-11-08T13:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-07T16:27:32.093632+00:00",
+    "handicap_line": 0.75,
+    "handicap_home": 0.9,
+    "handicap_away": 0.98,
+    "total_line": 3,
+    "over": 1.02,
+    "under": 0.85
+  }
+]
