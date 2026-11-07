@@ -58,5 +58,35 @@
     "total_line": 2.75,
     "over": 0.99,
     "under": 0.88
+  },
+  {
+    "fixture_key": "denmark|哥本哈根|布隆德比|2026-11-08",
+    "competition": "denmark",
+    "home": "哥本哈根",
+    "away": "布隆德比",
+    "kickoff": "2026-11-08T11:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-07T11:00:00+00:00",
+    "handicap_line": -0.75,
+    "handicap_home": 0.95,
+    "handicap_away": 0.93,
+    "total_line": 3,
+    "over": 0.99,
+    "under": 0.88
+  },
+  {
+    "fixture_key": "denmark|哥本哈根|布隆德比|2026-11-08",
+    "competition": "denmark",
+    "home": "哥本哈根",
+    "away": "布隆德比",
+    "kickoff": "2026-11-08T11:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-07T20:26:13.564590+00:00",
+    "handicap_line": -0.75,
+    "handicap_home": 0.96,
+    "handicap_away": 0.92,
+    "total_line": 2.75,
+    "over": 0.99,
+    "under": 0.88
   }
 ]

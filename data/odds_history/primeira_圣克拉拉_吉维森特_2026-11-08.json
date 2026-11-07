@@ -58,5 +58,35 @@
     "total_line": 2,
     "over": 0.87,
     "under": 0.99
+  },
+  {
+    "fixture_key": "primeira|圣克拉拉|吉维森特|2026-11-08",
+    "competition": "primeira",
+    "home": "圣克拉拉",
+    "away": "吉维森特",
+    "kickoff": "2026-11-08T15:30:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-07T15:30:00+00:00",
+    "handicap_line": -0.25,
+    "handicap_home": 0.95,
+    "handicap_away": 0.93,
+    "total_line": 2,
+    "over": 0.87,
+    "under": 0.99
+  },
+  {
+    "fixture_key": "primeira|圣克拉拉|吉维森特|2026-11-08",
+    "competition": "primeira",
+    "home": "圣克拉拉",
+    "away": "吉维森特",
+    "kickoff": "2026-11-08T15:30:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-07T20:24:19.158924+00:00",
+    "handicap_line": -0.25,
+    "handicap_home": 0.95,
+    "handicap_away": 0.93,
+    "total_line": 2,
+    "over": 0.87,
+    "under": 0.99
   }
 ]

@@ -58,5 +58,35 @@
     "total_line": 2.5,
     "over": 0.99,
     "under": 0.81
+  },
+  {
+    "fixture_key": "greeksl|ofi克里特|阿特罗米托斯|2026-11-08",
+    "competition": "greeksl",
+    "home": "OFI克里特",
+    "away": "阿特罗米托斯",
+    "kickoff": "2026-11-08T16:30:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-07T16:30:00+00:00",
+    "handicap_line": -0.5,
+    "handicap_home": 1.05,
+    "handicap_away": 0.77,
+    "total_line": 2.5,
+    "over": 0.99,
+    "under": 0.81
+  },
+  {
+    "fixture_key": "greeksl|ofi克里特|阿特罗米托斯|2026-11-08",
+    "competition": "greeksl",
+    "home": "OFI克里特",
+    "away": "阿特罗米托斯",
+    "kickoff": "2026-11-08T16:30:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-07T20:26:10.315928+00:00",
+    "handicap_line": -0.5,
+    "handicap_home": 1.05,
+    "handicap_away": 0.77,
+    "total_line": 2.5,
+    "over": 0.99,
+    "under": 0.81
   }
 ]

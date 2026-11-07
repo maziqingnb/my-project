@@ -58,5 +58,35 @@
     "total_line": 3,
     "over": 0.78,
     "under": 0.98
+  },
+  {
+    "fixture_key": "poland|波兹南莱赫|卢宾扎格勒比|2026-11-08",
+    "competition": "poland",
+    "home": "波兹南莱赫",
+    "away": "卢宾扎格勒比",
+    "kickoff": "2026-11-08T19:15:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-07T19:15:00+00:00",
+    "handicap_line": -1.25,
+    "handicap_home": 1,
+    "handicap_away": 0.82,
+    "total_line": 3,
+    "over": 0.8,
+    "under": 1
+  },
+  {
+    "fixture_key": "poland|波兹南莱赫|卢宾扎格勒比|2026-11-08",
+    "competition": "poland",
+    "home": "波兹南莱赫",
+    "away": "卢宾扎格勒比",
+    "kickoff": "2026-11-08T19:15:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-07T20:26:30.488940+00:00",
+    "handicap_line": -1.25,
+    "handicap_home": 1.04,
+    "handicap_away": 0.72,
+    "total_line": 3,
+    "over": 0.78,
+    "under": 0.98
   }
 ]

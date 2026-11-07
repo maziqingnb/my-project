@@ -58,5 +58,20 @@
     "total_line": 3.5,
     "over": 0.95,
     "under": 0.92
+  },
+  {
+    "fixture_key": "superlig|贝西克塔斯|根克勒比利吉|2026-11-08",
+    "competition": "superlig",
+    "home": "贝西克塔斯",
+    "away": "根克勒比利吉",
+    "kickoff": "2026-11-08T18:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-07T20:26:02.656463+00:00",
+    "handicap_line": -1.75,
+    "handicap_home": 1.0,
+    "handicap_away": 0.88,
+    "total_line": 3.25,
+    "over": null,
+    "under": null
   }
 ]

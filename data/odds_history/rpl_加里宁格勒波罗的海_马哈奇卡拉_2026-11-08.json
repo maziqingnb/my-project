@@ -58,5 +58,35 @@
     "total_line": 2.25,
     "over": 1.08,
     "under": 0.79
+  },
+  {
+    "fixture_key": "rpl|加里宁格勒波罗的海|马哈奇卡拉|2026-11-08",
+    "competition": "rpl",
+    "home": "加里宁格勒波罗的海",
+    "away": "马哈奇卡拉",
+    "kickoff": "2026-11-08T17:45:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-07T17:45:00+00:00",
+    "handicap_line": -0.75,
+    "handicap_home": 1.05,
+    "handicap_away": 0.83,
+    "total_line": 2,
+    "over": 0.88,
+    "under": 0.99
+  },
+  {
+    "fixture_key": "rpl|加里宁格勒波罗的海|马哈奇卡拉|2026-11-08",
+    "competition": "rpl",
+    "home": "加里宁格勒波罗的海",
+    "away": "马哈奇卡拉",
+    "kickoff": "2026-11-08T17:45:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-07T20:25:26.557644+00:00",
+    "handicap_line": -0.75,
+    "handicap_home": 0.93,
+    "handicap_away": 0.95,
+    "total_line": 2.25,
+    "over": 1.08,
+    "under": 0.79
   }
 ]
