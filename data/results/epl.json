@@ -13,6 +13,28 @@
   {
     "competition": "epl",
     "cls": "league",
+    "home": "Arsenal",
+    "away": "Hull City",
+    "home_goals": 1,
+    "away_goals": 0,
+    "date": "2026-11-07",
+    "handicap_line": -2.0,
+    "total_line": 3.0
+  },
+  {
+    "competition": "epl",
+    "cls": "league",
+    "home": "Fulham",
+    "away": "Newcastle United",
+    "home_goals": 1,
+    "away_goals": 1,
+    "date": "2026-11-07",
+    "handicap_line": -0.25,
+    "total_line": 2.75
+  },
+  {
+    "competition": "epl",
+    "cls": "league",
     "home": "Everton",
     "away": "Coventry City",
     "home_goals": 3,
