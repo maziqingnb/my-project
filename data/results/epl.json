@@ -2,6 +2,17 @@
   {
     "competition": "epl",
     "cls": "league",
+    "home": "Leeds United",
+    "away": "Tottenham Hotspur",
+    "home_goals": 1,
+    "away_goals": 0,
+    "date": "2026-11-07",
+    "handicap_line": -0.25,
+    "total_line": 2.5
+  },
+  {
+    "competition": "epl",
+    "cls": "league",
     "home": "Everton",
     "away": "Coventry City",
     "home_goals": 3,

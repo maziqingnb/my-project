@@ -1,34 +1,74 @@
 {
-  "generated_at": "2026-11-07T14:25:43.495009+00:00",
+  "generated_at": "2026-11-07T15:11:56.342502+00:00",
   "matches": [
     {
-      "fixture_key": "seriea|cagliari|frosinone|2026-11-07",
-      "competition": "seriea",
-      "home": "Cagliari",
-      "away": "Frosinone",
-      "kickoff": "2026-11-07T14:00:00",
+      "fixture_key": "epl|arsenal|hullcity|2026-11-07",
+      "competition": "epl",
+      "home": "Arsenal",
+      "away": "Hull City",
+      "kickoff": "2026-11-07T15:00:00",
       "status": "live",
       "home_goals": 0,
       "away_goals": 0
     },
     {
-      "fixture_key": "seriea|torino|lecce|2026-11-07",
-      "competition": "seriea",
-      "home": "Torino",
-      "away": "Lecce",
-      "kickoff": "2026-11-07T14:15:00",
+      "fixture_key": "epl|fulham|newcastleunited|2026-11-07",
+      "competition": "epl",
+      "home": "Fulham",
+      "away": "Newcastle United",
+      "kickoff": "2026-11-07T15:00:00",
       "status": "live",
       "home_goals": 0,
       "away_goals": 0
     },
     {
-      "fixture_key": "poland|史拉斯科|皮亚斯特|2026-11-07",
-      "competition": "poland",
-      "home": "史拉斯科",
-      "away": "皮亚斯特",
-      "kickoff": "2026-11-07T13:45:00",
+      "fixture_key": "bundesliga|borussiadortmund|elversberg|2026-11-07",
+      "competition": "bundesliga",
+      "home": "Borussia Dortmund",
+      "away": "Elversberg",
+      "kickoff": "2026-11-07T14:30:00",
       "status": "live",
       "home_goals": 0,
+      "away_goals": 0
+    },
+    {
+      "fixture_key": "bundesliga|mainz|bayernmunich|2026-11-07",
+      "competition": "bundesliga",
+      "home": "Mainz",
+      "away": "Bayern Munich",
+      "kickoff": "2026-11-07T14:30:00",
+      "status": "live",
+      "home_goals": 1,
+      "away_goals": 1
+    },
+    {
+      "fixture_key": "bundesliga|paderborn|eintrachtfrankfurt|2026-11-07",
+      "competition": "bundesliga",
+      "home": "Paderborn",
+      "away": "Eintracht Frankfurt",
+      "kickoff": "2026-11-07T14:30:00",
+      "status": "live",
+      "home_goals": 0,
+      "away_goals": 1
+    },
+    {
+      "fixture_key": "bundesliga|rbleipzig|augsburg|2026-11-07",
+      "competition": "bundesliga",
+      "home": "RB Leipzig",
+      "away": "Augsburg",
+      "kickoff": "2026-11-07T14:30:00",
+      "status": "live",
+      "home_goals": 2,
+      "away_goals": 1
+    },
+    {
+      "fixture_key": "greeksl|维洛斯nfc|基菲萨|2026-11-07",
+      "competition": "greeksl",
+      "home": "维洛斯NFC",
+      "away": "基菲萨",
+      "kickoff": "2026-11-07T15:00:00",
+      "status": "live",
+      "home_goals": 1,
       "away_goals": 0
     }
   ]

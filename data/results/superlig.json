@@ -13,6 +13,17 @@
   {
     "competition": "superlig",
     "cls": "league",
+    "home": "萨姆松体育",
+    "away": "科尼亚体育",
+    "home_goals": 1,
+    "away_goals": 0,
+    "date": "2026-11-07",
+    "handicap_line": -0.25,
+    "total_line": 2.5
+  },
+  {
+    "competition": "superlig",
+    "cls": "league",
     "home": "加济安泰普大都会",
     "away": "卡斯帕萨",
     "home_goals": 0,
