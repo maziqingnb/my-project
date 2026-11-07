@@ -2,6 +2,72 @@
   {
     "competition": "mls",
     "cls": "league",
+    "home": "CF蒙特利尔",
+    "away": "温哥华白浪",
+    "home_goals": 0,
+    "away_goals": 2,
+    "date": "2026-11-07",
+    "handicap_line": 0.75,
+    "total_line": 3.25
+  },
+  {
+    "competition": "mls",
+    "cls": "league",
+    "home": "华盛顿联",
+    "away": "纽约城",
+    "home_goals": 0,
+    "away_goals": 1,
+    "date": "2026-11-07",
+    "handicap_line": 0.25,
+    "total_line": 2.75
+  },
+  {
+    "competition": "mls",
+    "cls": "league",
+    "home": "辛辛那提",
+    "away": "纳什威尔SC",
+    "home_goals": 0,
+    "away_goals": 2,
+    "date": "2026-11-07",
+    "handicap_line": -0.0,
+    "total_line": 3.25
+  },
+  {
+    "competition": "mls",
+    "cls": "league",
+    "home": "迈阿密国际",
+    "away": "夏洛特FC",
+    "home_goals": 3,
+    "away_goals": 3,
+    "date": "2026-11-07",
+    "handicap_line": -1.25,
+    "total_line": 4.0
+  },
+  {
+    "competition": "mls",
+    "cls": "league",
+    "home": "纽约红牛",
+    "away": "亚特兰大联",
+    "home_goals": 3,
+    "away_goals": 0,
+    "date": "2026-11-07",
+    "handicap_line": -0.5,
+    "total_line": 3.5
+  },
+  {
+    "competition": "mls",
+    "cls": "league",
+    "home": "奥兰多城",
+    "away": "新英格兰革命",
+    "home_goals": 1,
+    "away_goals": 0,
+    "date": "2026-11-07",
+    "handicap_line": -0.5,
+    "total_line": 3.5
+  },
+  {
+    "competition": "mls",
+    "cls": "league",
     "home": "新英格兰革命",
     "away": "迈阿密国际",
     "home_goals": 1,
