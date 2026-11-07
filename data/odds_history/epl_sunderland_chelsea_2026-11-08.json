@@ -28,5 +28,35 @@
     "total_line": 2.5,
     "over": 0.81,
     "under": 1.07
+  },
+  {
+    "fixture_key": "epl|sunderland|chelsea|2026-11-08",
+    "competition": "epl",
+    "home": "Sunderland",
+    "away": "Chelsea",
+    "kickoff": "2026-11-08T14:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-07T14:00:00+00:00",
+    "handicap_line": 0.25,
+    "handicap_home": 1,
+    "handicap_away": 0.88,
+    "total_line": 2.5,
+    "over": 0.91,
+    "under": 0.95
+  },
+  {
+    "fixture_key": "epl|sunderland|chelsea|2026-11-08",
+    "competition": "epl",
+    "home": "Sunderland",
+    "away": "Chelsea",
+    "kickoff": "2026-11-08T14:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-07T18:27:50.669913+00:00",
+    "handicap_line": 0.5,
+    "handicap_home": 0.91,
+    "handicap_away": 0.97,
+    "total_line": 2.5,
+    "over": 0.81,
+    "under": 1.07
   }
 ]
