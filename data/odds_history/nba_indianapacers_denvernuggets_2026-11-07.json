@@ -1,0 +1,17 @@
+[
+  {
+    "fixture_key": "nba|indianapacers|denvernuggets|2026-11-07",
+    "competition": "nba",
+    "home": "Indiana Pacers",
+    "away": "Denver Nuggets",
+    "kickoff": "2026-11-07T22:10:00Z",
+    "bookmaker": "unibet",
+    "ts": "2026-11-07T02:38:16.623784+00:00",
+    "handicap_line": 6.5,
+    "handicap_home": 1.87,
+    "handicap_away": 1.94,
+    "total_line": null,
+    "over": null,
+    "under": null
+  }
+]

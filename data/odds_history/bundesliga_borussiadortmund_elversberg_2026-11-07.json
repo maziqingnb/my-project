@@ -148,5 +148,35 @@
     "total_line": 3.5,
     "over": 1.03,
     "under": 0.85
+  },
+  {
+    "fixture_key": "bundesliga|borussiadortmund|elversberg|2026-11-07",
+    "competition": "bundesliga",
+    "home": "Borussia Dortmund",
+    "away": "Elversberg",
+    "kickoff": "2026-11-07T14:30:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-06T14:30:00+00:00",
+    "handicap_line": -1.75,
+    "handicap_home": 0.96,
+    "handicap_away": 0.92,
+    "total_line": 3.75,
+    "over": 1.02,
+    "under": 0.84
+  },
+  {
+    "fixture_key": "bundesliga|borussiadortmund|elversberg|2026-11-07",
+    "competition": "bundesliga",
+    "home": "Borussia Dortmund",
+    "away": "Elversberg",
+    "kickoff": "2026-11-07T14:30:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-07T02:37:17.041164+00:00",
+    "handicap_line": -1.75,
+    "handicap_home": 1.04,
+    "handicap_away": 0.84,
+    "total_line": 3.5,
+    "over": 1,
+    "under": 0.88
   }
 ]

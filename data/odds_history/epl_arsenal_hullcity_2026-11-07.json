@@ -148,5 +148,35 @@
     "total_line": 3,
     "over": 0.89,
     "under": 0.99
+  },
+  {
+    "fixture_key": "epl|arsenal|hullcity|2026-11-07",
+    "competition": "epl",
+    "home": "Arsenal",
+    "away": "Hull City",
+    "kickoff": "2026-11-07T15:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-06T15:00:00+00:00",
+    "handicap_line": -2,
+    "handicap_home": 0.85,
+    "handicap_away": 1.03,
+    "total_line": 3,
+    "over": 0.83,
+    "under": 1.03
+  },
+  {
+    "fixture_key": "epl|arsenal|hullcity|2026-11-07",
+    "competition": "epl",
+    "home": "Arsenal",
+    "away": "Hull City",
+    "kickoff": "2026-11-07T15:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-07T02:37:02.370712+00:00",
+    "handicap_line": -2,
+    "handicap_home": 0.83,
+    "handicap_away": 1.05,
+    "total_line": 3,
+    "over": 0.89,
+    "under": 0.99
   }
 ]
