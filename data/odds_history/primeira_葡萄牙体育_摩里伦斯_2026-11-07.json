@@ -298,5 +298,35 @@
     "total_line": 3.25,
     "over": 0.81,
     "under": 1.05
+  },
+  {
+    "fixture_key": "primeira|葡萄牙体育|摩里伦斯|2026-11-07",
+    "competition": "primeira",
+    "home": "葡萄牙体育",
+    "away": "摩里伦斯",
+    "kickoff": "2026-11-07T20:30:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-06T20:30:00+00:00",
+    "handicap_line": -2,
+    "handicap_home": 0.97,
+    "handicap_away": 0.91,
+    "total_line": 3.25,
+    "over": 0.95,
+    "under": 0.91
+  },
+  {
+    "fixture_key": "primeira|葡萄牙体育|摩里伦斯|2026-11-07",
+    "competition": "primeira",
+    "home": "葡萄牙体育",
+    "away": "摩里伦斯",
+    "kickoff": "2026-11-07T20:30:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-07T12:33:16.536007+00:00",
+    "handicap_line": -2.25,
+    "handicap_home": 0.95,
+    "handicap_away": 0.94,
+    "total_line": 3.25,
+    "over": 0.92,
+    "under": 0.94
   }
 ]

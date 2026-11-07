@@ -298,5 +298,35 @@
     "total_line": 4,
     "over": 0.84,
     "under": 1.02
+  },
+  {
+    "fixture_key": "mls|迈阿密国际|夏洛特fc|2026-11-07",
+    "competition": "mls",
+    "home": "迈阿密国际",
+    "away": "夏洛特FC",
+    "kickoff": "2026-11-07T21:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-06T21:00:00+00:00",
+    "handicap_line": -1.25,
+    "handicap_home": 0.93,
+    "handicap_away": 0.95,
+    "total_line": 4,
+    "over": 1.01,
+    "under": 0.86
+  },
+  {
+    "fixture_key": "mls|迈阿密国际|夏洛特fc|2026-11-07",
+    "competition": "mls",
+    "home": "迈阿密国际",
+    "away": "夏洛特FC",
+    "kickoff": "2026-11-07T21:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-07T12:33:57.601802+00:00",
+    "handicap_line": -1.5,
+    "handicap_home": 0.91,
+    "handicap_away": 0.95,
+    "total_line": 4,
+    "over": 0.81,
+    "under": 1.05
   }
 ]

@@ -298,5 +298,35 @@
     "total_line": 2.25,
     "over": 0.83,
     "under": 1.05
+  },
+  {
+    "fixture_key": "seriea|parma|bologna|2026-11-07",
+    "competition": "seriea",
+    "home": "Parma",
+    "away": "Bologna",
+    "kickoff": "2026-11-07T17:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-06T17:00:00+00:00",
+    "handicap_line": 0.5,
+    "handicap_home": 1.03,
+    "handicap_away": 0.85,
+    "total_line": 2.25,
+    "over": 0.93,
+    "under": 0.95
+  },
+  {
+    "fixture_key": "seriea|parma|bologna|2026-11-07",
+    "competition": "seriea",
+    "home": "Parma",
+    "away": "Bologna",
+    "kickoff": "2026-11-07T17:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-07T12:32:50.970953+00:00",
+    "handicap_line": 0.75,
+    "handicap_home": 0.92,
+    "handicap_away": 0.97,
+    "total_line": 2.25,
+    "over": 0.92,
+    "under": 0.96
   }
 ]

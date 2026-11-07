@@ -298,5 +298,35 @@
     "total_line": 3.5,
     "over": 0.92,
     "under": 0.96
+  },
+  {
+    "fixture_key": "bundesliga|stuttgart|werderbremen|2026-11-07",
+    "competition": "bundesliga",
+    "home": "Stuttgart",
+    "away": "Werder Bremen",
+    "kickoff": "2026-11-07T17:30:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-06T17:30:00+00:00",
+    "handicap_line": -1.25,
+    "handicap_home": 0.98,
+    "handicap_away": 0.9,
+    "total_line": 3.5,
+    "over": 0.84,
+    "under": 1.02
+  },
+  {
+    "fixture_key": "bundesliga|stuttgart|werderbremen|2026-11-07",
+    "competition": "bundesliga",
+    "home": "Stuttgart",
+    "away": "Werder Bremen",
+    "kickoff": "2026-11-07T17:30:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-07T12:33:06.564221+00:00",
+    "handicap_line": -0.5,
+    "handicap_home": 0.89,
+    "handicap_away": 1,
+    "total_line": 3.5,
+    "over": 0.92,
+    "under": 0.96
   }
 ]

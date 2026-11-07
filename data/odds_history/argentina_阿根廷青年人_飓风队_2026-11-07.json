@@ -298,5 +298,35 @@
     "total_line": 2,
     "over": 1.02,
     "under": 0.85
+  },
+  {
+    "fixture_key": "argentina|阿根廷青年人|飓风队|2026-11-07",
+    "competition": "argentina",
+    "home": "阿根廷青年人",
+    "away": "飓风队",
+    "kickoff": "2026-11-07T20:30:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-06T20:30:00+00:00",
+    "handicap_line": -0.5,
+    "handicap_home": 0.82,
+    "handicap_away": 1.06,
+    "total_line": 2,
+    "over": 0.94,
+    "under": 0.93
+  },
+  {
+    "fixture_key": "argentina|阿根廷青年人|飓风队|2026-11-07",
+    "competition": "argentina",
+    "home": "阿根廷青年人",
+    "away": "飓风队",
+    "kickoff": "2026-11-07T20:30:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-07T12:33:35.569822+00:00",
+    "handicap_line": -0.5,
+    "handicap_home": 1.12,
+    "handicap_away": 0.78,
+    "total_line": 2,
+    "over": 1.04,
+    "under": 0.83
   }
 ]

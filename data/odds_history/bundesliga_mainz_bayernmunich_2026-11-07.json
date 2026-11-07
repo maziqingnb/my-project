@@ -298,5 +298,35 @@
     "total_line": 4,
     "over": 0.98,
     "under": 0.9
+  },
+  {
+    "fixture_key": "bundesliga|mainz|bayernmunich|2026-11-07",
+    "competition": "bundesliga",
+    "home": "Mainz",
+    "away": "Bayern Munich",
+    "kickoff": "2026-11-07T14:30:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-06T14:30:00+00:00",
+    "handicap_line": 1.5,
+    "handicap_home": 1.03,
+    "handicap_away": 0.85,
+    "total_line": 4.25,
+    "over": 0.98,
+    "under": 0.88
+  },
+  {
+    "fixture_key": "bundesliga|mainz|bayernmunich|2026-11-07",
+    "competition": "bundesliga",
+    "home": "Mainz",
+    "away": "Bayern Munich",
+    "kickoff": "2026-11-07T14:30:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-07T12:32:57.910913+00:00",
+    "handicap_line": 1.75,
+    "handicap_home": 1.05,
+    "handicap_away": 0.84,
+    "total_line": 4,
+    "over": 0.93,
+    "under": 0.95
   }
 ]

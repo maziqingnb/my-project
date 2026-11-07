@@ -298,5 +298,35 @@
     "total_line": 3.5,
     "over": 0.87,
     "under": 1.01
+  },
+  {
+    "fixture_key": "ligue1|parissaintgermain|troyes|2026-11-07",
+    "competition": "ligue1",
+    "home": "Paris Saint-Germain",
+    "away": "Troyes",
+    "kickoff": "2026-11-07T20:05:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-06T20:05:00+00:00",
+    "handicap_line": -2.5,
+    "handicap_home": 1.01,
+    "handicap_away": 0.87,
+    "total_line": 3.75,
+    "over": 0.87,
+    "under": 0.99
+  },
+  {
+    "fixture_key": "ligue1|parissaintgermain|troyes|2026-11-07",
+    "competition": "ligue1",
+    "home": "Paris Saint-Germain",
+    "away": "Troyes",
+    "kickoff": "2026-11-07T20:05:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-07T12:33:11.231961+00:00",
+    "handicap_line": -2,
+    "handicap_home": 0.85,
+    "handicap_away": 1.04,
+    "total_line": 3.5,
+    "over": 0.95,
+    "under": 0.93
   }
 ]
