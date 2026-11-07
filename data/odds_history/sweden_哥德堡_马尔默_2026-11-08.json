@@ -88,5 +88,35 @@
     "total_line": 2.75,
     "over": 0.85,
     "under": 1.02
+  },
+  {
+    "fixture_key": "sweden|哥德堡|马尔默|2026-11-08",
+    "competition": "sweden",
+    "home": "哥德堡",
+    "away": "马尔默",
+    "kickoff": "2026-11-08T13:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-07T13:00:00+00:00",
+    "handicap_line": -0.25,
+    "handicap_home": 1.07,
+    "handicap_away": 0.81,
+    "total_line": 2.75,
+    "over": 0.85,
+    "under": 1.02
+  },
+  {
+    "fixture_key": "sweden|哥德堡|马尔默|2026-11-08",
+    "competition": "sweden",
+    "home": "哥德堡",
+    "away": "马尔默",
+    "kickoff": "2026-11-08T13:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-07T22:24:58.052353+00:00",
+    "handicap_line": 0,
+    "handicap_home": 0.82,
+    "handicap_away": 1.06,
+    "total_line": 2.75,
+    "over": 0.85,
+    "under": 1.02
   }
 ]

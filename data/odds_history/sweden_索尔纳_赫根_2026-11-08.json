@@ -88,5 +88,35 @@
     "total_line": 3.25,
     "over": 1.04,
     "under": 0.83
+  },
+  {
+    "fixture_key": "sweden|索尔纳|赫根|2026-11-08",
+    "competition": "sweden",
+    "home": "索尔纳",
+    "away": "赫根",
+    "kickoff": "2026-11-08T15:30:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-07T15:30:00+00:00",
+    "handicap_line": 0.75,
+    "handicap_home": 0.88,
+    "handicap_away": 1,
+    "total_line": 3.25,
+    "over": 1.06,
+    "under": 0.81
+  },
+  {
+    "fixture_key": "sweden|索尔纳|赫根|2026-11-08",
+    "competition": "sweden",
+    "home": "索尔纳",
+    "away": "赫根",
+    "kickoff": "2026-11-08T15:30:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-07T22:25:04.734572+00:00",
+    "handicap_line": 0.75,
+    "handicap_home": 1,
+    "handicap_away": 0.88,
+    "total_line": 3.25,
+    "over": 1.04,
+    "under": 0.83
   }
 ]

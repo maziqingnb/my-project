@@ -208,5 +208,35 @@
     "total_line": 222.5,
     "over": 1.95,
     "under": 1.92
+  },
+  {
+    "fixture_key": "nba|oklahomacitythunder|washingtonwizards|2026-11-08",
+    "competition": "nba",
+    "home": "Oklahoma City Thunder",
+    "away": "Washington Wizards",
+    "kickoff": "2026-11-08T01:10:00Z",
+    "bookmaker": "unibet",
+    "ts": "2026-11-07T22:25:11.047995+00:00",
+    "handicap_line": -12.5,
+    "handicap_home": 1.92,
+    "handicap_away": 1.88,
+    "total_line": null,
+    "over": null,
+    "under": null
+  },
+  {
+    "fixture_key": "nba|oklahomacitythunder|washingtonwizards|2026-11-08",
+    "competition": "nba",
+    "home": "Oklahoma City Thunder",
+    "away": "Washington Wizards",
+    "kickoff": "2026-11-08T01:10:00Z",
+    "bookmaker": "pinnacle",
+    "ts": "2026-11-07T22:25:11.047995+00:00",
+    "handicap_line": -11.0,
+    "handicap_home": 1.88,
+    "handicap_away": 2.01,
+    "total_line": 223.5,
+    "over": 1.93,
+    "under": 1.94
   }
 ]

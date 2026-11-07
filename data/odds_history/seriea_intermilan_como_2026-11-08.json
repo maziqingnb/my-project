@@ -88,5 +88,35 @@
     "total_line": 3.25,
     "over": 1.05,
     "under": 0.83
+  },
+  {
+    "fixture_key": "seriea|intermilan|como|2026-11-08",
+    "competition": "seriea",
+    "home": "Inter Milan",
+    "away": "Como",
+    "kickoff": "2026-11-08T17:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-07T17:00:00+00:00",
+    "handicap_line": -0.75,
+    "handicap_home": 0.95,
+    "handicap_away": 0.93,
+    "total_line": 3.25,
+    "over": 0.96,
+    "under": 0.92
+  },
+  {
+    "fixture_key": "seriea|intermilan|como|2026-11-08",
+    "competition": "seriea",
+    "home": "Inter Milan",
+    "away": "Como",
+    "kickoff": "2026-11-08T17:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-07T22:24:10.623550+00:00",
+    "handicap_line": -0.5,
+    "handicap_home": 0.95,
+    "handicap_away": 0.93,
+    "total_line": 3.25,
+    "over": 1.05,
+    "under": 0.83
   }
 ]

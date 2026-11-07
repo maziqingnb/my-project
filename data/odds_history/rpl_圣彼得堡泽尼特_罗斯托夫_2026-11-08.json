@@ -88,5 +88,35 @@
     "total_line": 2.75,
     "over": 1.02,
     "under": 0.85
+  },
+  {
+    "fixture_key": "rpl|圣彼得堡泽尼特|罗斯托夫|2026-11-08",
+    "competition": "rpl",
+    "home": "圣彼得堡泽尼特",
+    "away": "罗斯托夫",
+    "kickoff": "2026-11-08T15:30:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-07T15:30:00+00:00",
+    "handicap_line": -1.25,
+    "handicap_home": 0.9,
+    "handicap_away": 0.98,
+    "total_line": 2.75,
+    "over": 1.02,
+    "under": 0.85
+  },
+  {
+    "fixture_key": "rpl|圣彼得堡泽尼特|罗斯托夫|2026-11-08",
+    "competition": "rpl",
+    "home": "圣彼得堡泽尼特",
+    "away": "罗斯托夫",
+    "kickoff": "2026-11-08T15:30:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-07T22:24:36.256195+00:00",
+    "handicap_line": -1.25,
+    "handicap_home": 0.84,
+    "handicap_away": 1.04,
+    "total_line": 2.75,
+    "over": 1.02,
+    "under": 0.85
   }
 ]
