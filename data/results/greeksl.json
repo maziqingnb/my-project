@@ -13,6 +13,17 @@
   {
     "competition": "greeksl",
     "cls": "league",
+    "home": "阿里斯",
+    "away": "帕纳多里高斯",
+    "home_goals": 3,
+    "away_goals": 0,
+    "date": "2026-11-07",
+    "handicap_line": -1.25,
+    "total_line": 2.75
+  },
+  {
+    "competition": "greeksl",
+    "cls": "league",
     "home": "阿特罗米托斯",
     "away": "维洛斯NFC",
     "home_goals": 3,

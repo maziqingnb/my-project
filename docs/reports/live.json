@@ -1,4 +1,25 @@
 {
-  "generated_at": "2026-11-07T19:13:54.052119+00:00",
-  "matches": []
+  "generated_at": "2026-11-07T19:56:26.473195+00:00",
+  "matches": [
+    {
+      "fixture_key": "seriea|roma|sassuolo|2026-11-07",
+      "competition": "seriea",
+      "home": "Roma",
+      "away": "Sassuolo",
+      "kickoff": "2026-11-07T19:45:00",
+      "status": "live",
+      "home_goals": 0,
+      "away_goals": 0
+    },
+    {
+      "fixture_key": "poland|维德祖罗兹|什切青|2026-11-07",
+      "competition": "poland",
+      "home": "维德祖罗兹",
+      "away": "什切青",
+      "kickoff": "2026-11-07T19:15:00",
+      "status": "live",
+      "home_goals": 1,
+      "away_goals": 0
+    }
+  ]
 }

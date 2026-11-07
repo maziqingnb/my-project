@@ -24,6 +24,17 @@
   {
     "competition": "argentina",
     "cls": "league",
+    "home": "塔勒瑞斯",
+    "away": "拉普拉塔大学生",
+    "home_goals": 1,
+    "away_goals": 1,
+    "date": "2026-11-07",
+    "handicap_line": -0.0,
+    "total_line": 2.25
+  },
+  {
+    "competition": "argentina",
+    "cls": "league",
     "home": "巴拉卡斯中央队",
     "away": "竞技俱乐部",
     "home_goals": 2,
