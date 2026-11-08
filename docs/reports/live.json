@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-08T22:35:09.677090+00:00",
+  "generated_at": "2026-11-08T23:14:12.829990+00:00",
   "matches": [
     {
       "fixture_key": "argentina|科尔多瓦中央sde|拉努斯|2026-11-08",
@@ -8,8 +8,8 @@
       "away": "拉努斯",
       "kickoff": "2026-11-08T22:30:00",
       "status": "live",
-      "home_goals": 0,
-      "away_goals": 0
+      "home_goals": 1,
+      "away_goals": 1
     }
   ]
 }
