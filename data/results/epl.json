@@ -46,6 +46,17 @@
   {
     "competition": "epl",
     "cls": "league",
+    "home": "Manchester United",
+    "away": "Aston Villa",
+    "home_goals": 4,
+    "away_goals": 4,
+    "date": "2026-11-08",
+    "handicap_line": -0.25,
+    "total_line": 3.0
+  },
+  {
+    "competition": "epl",
+    "cls": "league",
     "home": "Leeds United",
     "away": "Tottenham Hotspur",
     "home_goals": 1,

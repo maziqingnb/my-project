@@ -35,6 +35,17 @@
   {
     "competition": "seriea",
     "cls": "league",
+    "home": "Inter Milan",
+    "away": "Como",
+    "home_goals": 2,
+    "away_goals": 0,
+    "date": "2026-11-08",
+    "handicap_line": -0.75,
+    "total_line": 3.25
+  },
+  {
+    "competition": "seriea",
+    "cls": "league",
     "home": "Cagliari",
     "away": "Frosinone",
     "home_goals": 1,

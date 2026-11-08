@@ -35,6 +35,17 @@
   {
     "competition": "greeksl",
     "cls": "league",
+    "home": "OFI克里特",
+    "away": "阿特罗米托斯",
+    "home_goals": 0,
+    "away_goals": 0,
+    "date": "2026-11-08",
+    "handicap_line": -0.5,
+    "total_line": 2.5
+  },
+  {
+    "competition": "greeksl",
+    "cls": "league",
     "home": "维洛斯NFC",
     "away": "基菲萨",
     "home_goals": 1,

@@ -1,42 +1,22 @@
 {
-  "generated_at": "2026-11-08T18:20:40.035196+00:00",
+  "generated_at": "2026-11-08T19:13:34.895719+00:00",
   "matches": [
     {
-      "fixture_key": "laliga|celtavigo|levante|2026-11-08",
-      "competition": "laliga",
-      "home": "Celta Vigo",
-      "away": "Levante",
-      "kickoff": "2026-11-08T17:30:00",
+      "fixture_key": "bundesliga|hoffenheim|schalke04|2026-11-08",
+      "competition": "bundesliga",
+      "home": "Hoffenheim",
+      "away": "Schalke 04",
+      "kickoff": "2026-11-08T18:30:00",
       "status": "live",
-      "home_goals": 0,
+      "home_goals": 2,
       "away_goals": 0
     },
     {
-      "fixture_key": "primeira|吉马良斯|波尔图|2026-11-08",
-      "competition": "primeira",
-      "home": "吉马良斯",
-      "away": "波尔图",
-      "kickoff": "2026-11-08T18:00:00",
-      "status": "live",
-      "home_goals": 0,
-      "away_goals": 0
-    },
-    {
-      "fixture_key": "rpl|加里宁格勒波罗的海|马哈奇卡拉|2026-11-08",
-      "competition": "rpl",
-      "home": "加里宁格勒波罗的海",
-      "away": "马哈奇卡拉",
-      "kickoff": "2026-11-08T17:45:00",
-      "status": "live",
-      "home_goals": 0,
-      "away_goals": 1
-    },
-    {
-      "fixture_key": "superlig|贝西克塔斯|根克勒比利吉|2026-11-08",
-      "competition": "superlig",
-      "home": "贝西克塔斯",
-      "away": "根克勒比利吉",
-      "kickoff": "2026-11-08T18:00:00",
+      "fixture_key": "greeksl|奥林匹亚科斯|塞萨洛尼基|2026-11-08",
+      "competition": "greeksl",
+      "home": "奥林匹亚科斯",
+      "away": "塞萨洛尼基",
+      "kickoff": "2026-11-08T19:00:00",
       "status": "live",
       "home_goals": 0,
       "away_goals": 0
