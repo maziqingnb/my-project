@@ -208,5 +208,35 @@
     "total_line": 3.25,
     "over": 1.06,
     "under": 0.74
+  },
+  {
+    "fixture_key": "poland|比亚韦斯托克雅盖隆|gks卡托威斯|2026-11-08",
+    "competition": "poland",
+    "home": "比亚韦斯托克雅盖隆",
+    "away": "GKS卡托威斯",
+    "kickoff": "2026-11-08T13:45:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-07T13:45:00+00:00",
+    "handicap_line": -0.25,
+    "handicap_home": 0.93,
+    "handicap_away": 0.89,
+    "total_line": 3.25,
+    "over": 0.96,
+    "under": 0.84
+  },
+  {
+    "fixture_key": "poland|比亚韦斯托克雅盖隆|gks卡托威斯|2026-11-08",
+    "competition": "poland",
+    "home": "比亚韦斯托克雅盖隆",
+    "away": "GKS卡托威斯",
+    "kickoff": "2026-11-08T13:45:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-08T06:47:49.861465+00:00",
+    "handicap_line": -0.25,
+    "handicap_home": 0.7,
+    "handicap_away": 1.13,
+    "total_line": 3.25,
+    "over": 1,
+    "under": 0.8
   }
 ]

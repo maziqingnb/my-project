@@ -208,5 +208,35 @@
     "total_line": 3,
     "over": 1.09,
     "under": 0.77
+  },
+  {
+    "fixture_key": "greeksl|aek雅典|莱瓦贾科斯|2026-11-08",
+    "competition": "greeksl",
+    "home": "AEK雅典",
+    "away": "莱瓦贾科斯",
+    "kickoff": "2026-11-08T15:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-07T15:00:00+00:00",
+    "handicap_line": -2,
+    "handicap_home": 0.8,
+    "handicap_away": 1.02,
+    "total_line": 3.25,
+    "over": 0.98,
+    "under": 0.82
+  },
+  {
+    "fixture_key": "greeksl|aek雅典|莱瓦贾科斯|2026-11-08",
+    "competition": "greeksl",
+    "home": "AEK雅典",
+    "away": "莱瓦贾科斯",
+    "kickoff": "2026-11-08T15:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-08T06:47:18.223546+00:00",
+    "handicap_line": -2,
+    "handicap_home": 1.31,
+    "handicap_away": 0.64,
+    "total_line": 3,
+    "over": 1.19,
+    "under": 0.7
   }
 ]

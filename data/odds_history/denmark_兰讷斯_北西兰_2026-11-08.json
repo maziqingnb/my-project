@@ -208,5 +208,35 @@
     "total_line": 3.25,
     "over": 0.91,
     "under": 0.96
+  },
+  {
+    "fixture_key": "denmark|兰讷斯|北西兰|2026-11-08",
+    "competition": "denmark",
+    "home": "兰讷斯",
+    "away": "北西兰",
+    "kickoff": "2026-11-08T15:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-07T15:00:00+00:00",
+    "handicap_line": 0.75,
+    "handicap_home": 1.01,
+    "handicap_away": 0.87,
+    "total_line": 3.5,
+    "over": 1.03,
+    "under": 0.84
+  },
+  {
+    "fixture_key": "denmark|兰讷斯|北西兰|2026-11-08",
+    "competition": "denmark",
+    "home": "兰讷斯",
+    "away": "北西兰",
+    "kickoff": "2026-11-08T15:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-08T06:47:34.262898+00:00",
+    "handicap_line": 0.75,
+    "handicap_home": 0.96,
+    "handicap_away": 0.93,
+    "total_line": 3.25,
+    "over": 0.91,
+    "under": 0.96
   }
 ]

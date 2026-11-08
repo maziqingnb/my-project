@@ -208,5 +208,35 @@
     "total_line": 2.25,
     "over": 0.84,
     "under": 1.02
+  },
+  {
+    "fixture_key": "greeksl|特里波利斯|卡拉玛达|2026-11-08",
+    "competition": "greeksl",
+    "home": "特里波利斯",
+    "away": "卡拉玛达",
+    "kickoff": "2026-11-08T15:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-07T15:00:00+00:00",
+    "handicap_line": -0.5,
+    "handicap_home": 1,
+    "handicap_away": 0.82,
+    "total_line": 2.25,
+    "over": 0.81,
+    "under": 0.99
+  },
+  {
+    "fixture_key": "greeksl|特里波利斯|卡拉玛达|2026-11-08",
+    "competition": "greeksl",
+    "home": "特里波利斯",
+    "away": "卡拉玛达",
+    "kickoff": "2026-11-08T15:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-08T06:47:20.673260+00:00",
+    "handicap_line": -0.5,
+    "handicap_home": 1.03,
+    "handicap_away": 0.85,
+    "total_line": 2.25,
+    "over": 0.84,
+    "under": 1.02
   }
 ]

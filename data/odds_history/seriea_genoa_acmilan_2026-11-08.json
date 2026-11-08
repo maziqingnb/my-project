@@ -208,5 +208,35 @@
     "total_line": 2.25,
     "over": 0.88,
     "under": 1
+  },
+  {
+    "fixture_key": "seriea|genoa|acmilan|2026-11-08",
+    "competition": "seriea",
+    "home": "Genoa",
+    "away": "AC Milan",
+    "kickoff": "2026-11-08T14:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-07T14:00:00+00:00",
+    "handicap_line": 0.75,
+    "handicap_home": 0.83,
+    "handicap_away": 1.05,
+    "total_line": 2.5,
+    "over": 1.05,
+    "under": 0.83
+  },
+  {
+    "fixture_key": "seriea|genoa|acmilan|2026-11-08",
+    "competition": "seriea",
+    "home": "Genoa",
+    "away": "AC Milan",
+    "kickoff": "2026-11-08T14:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-08T06:46:17.141619+00:00",
+    "handicap_line": 0.5,
+    "handicap_home": 0.92,
+    "handicap_away": 0.97,
+    "total_line": 2.25,
+    "over": 0.93,
+    "under": 0.95
   }
 ]
