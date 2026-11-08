@@ -2,6 +2,17 @@
   {
     "competition": "ligue1",
     "cls": "league",
+    "home": "Rennes",
+    "away": "Lille",
+    "home_goals": 1,
+    "away_goals": 2,
+    "date": "2026-11-08",
+    "handicap_line": -0.5,
+    "total_line": 3.0
+  },
+  {
+    "competition": "ligue1",
+    "cls": "league",
     "home": "Auxerre",
     "away": "Paris FC",
     "home_goals": 0,

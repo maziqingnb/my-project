@@ -13,6 +13,28 @@
   {
     "competition": "seriea",
     "cls": "league",
+    "home": "Genoa",
+    "away": "AC Milan",
+    "home_goals": 1,
+    "away_goals": 2,
+    "date": "2026-11-08",
+    "handicap_line": 0.75,
+    "total_line": 2.5
+  },
+  {
+    "competition": "seriea",
+    "cls": "league",
+    "home": "Monza",
+    "away": "Atalanta",
+    "home_goals": 0,
+    "away_goals": 1,
+    "date": "2026-11-08",
+    "handicap_line": 0.25,
+    "total_line": 3.0
+  },
+  {
+    "competition": "seriea",
+    "cls": "league",
     "home": "Cagliari",
     "away": "Frosinone",
     "home_goals": 1,

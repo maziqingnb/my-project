@@ -2,6 +2,50 @@
   {
     "competition": "epl",
     "cls": "league",
+    "home": "Brighton",
+    "away": "Brentford",
+    "home_goals": 2,
+    "away_goals": 0,
+    "date": "2026-11-08",
+    "handicap_line": -0.5,
+    "total_line": 2.75
+  },
+  {
+    "competition": "epl",
+    "cls": "league",
+    "home": "Crystal Palace",
+    "away": "Liverpool",
+    "home_goals": 1,
+    "away_goals": 3,
+    "date": "2026-11-08",
+    "handicap_line": 0.75,
+    "total_line": 3.0
+  },
+  {
+    "competition": "epl",
+    "cls": "league",
+    "home": "Ipswich Town",
+    "away": "Bournemouth",
+    "home_goals": 1,
+    "away_goals": 2,
+    "date": "2026-11-08",
+    "handicap_line": 0.25,
+    "total_line": 2.75
+  },
+  {
+    "competition": "epl",
+    "cls": "league",
+    "home": "Sunderland",
+    "away": "Chelsea",
+    "home_goals": 1,
+    "away_goals": 0,
+    "date": "2026-11-08",
+    "handicap_line": 0.25,
+    "total_line": 2.5
+  },
+  {
+    "competition": "epl",
+    "cls": "league",
     "home": "Leeds United",
     "away": "Tottenham Hotspur",
     "home_goals": 1,
