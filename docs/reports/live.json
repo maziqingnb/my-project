@@ -1,45 +1,65 @@
 {
-  "generated_at": "2026-11-08T16:25:40.364872+00:00",
+  "generated_at": "2026-11-08T17:09:26.772379+00:00",
   "matches": [
     {
-      "fixture_key": "ligue1|angers|nice|2026-11-08",
-      "competition": "ligue1",
-      "home": "Angers",
-      "away": "Nice",
-      "kickoff": "2026-11-08T16:15:00",
+      "fixture_key": "epl|manchesterunited|astonvilla|2026-11-08",
+      "competition": "epl",
+      "home": "Manchester United",
+      "away": "Aston Villa",
+      "kickoff": "2026-11-08T16:30:00",
+      "status": "live",
+      "home_goals": 1,
+      "away_goals": 2
+    },
+    {
+      "fixture_key": "seriea|intermilan|como|2026-11-08",
+      "competition": "seriea",
+      "home": "Inter Milan",
+      "away": "Como",
+      "kickoff": "2026-11-08T17:00:00",
+      "status": "live",
+      "home_goals": 0,
+      "away_goals": 0
+    },
+    {
+      "fixture_key": "bundesliga|freiburg|unionberlin|2026-11-08",
+      "competition": "bundesliga",
+      "home": "Freiburg",
+      "away": "Union Berlin",
+      "kickoff": "2026-11-08T16:30:00",
+      "status": "live",
+      "home_goals": 0,
+      "away_goals": 0
+    },
+    {
+      "fixture_key": "greeksl|ofi克里特|阿特罗米托斯|2026-11-08",
+      "competition": "greeksl",
+      "home": "OFI克里特",
+      "away": "阿特罗米托斯",
+      "kickoff": "2026-11-08T16:30:00",
+      "status": "live",
+      "home_goals": 0,
+      "away_goals": 0
+    },
+    {
+      "fixture_key": "denmark|中日德兰|桑德捷斯基|2026-11-08",
+      "competition": "denmark",
+      "home": "中日德兰",
+      "away": "桑德捷斯基",
+      "kickoff": "2026-11-08T17:00:00",
       "status": "live",
       "home_goals": 0,
       "away_goals": 1
     },
     {
-      "fixture_key": "ligue1|brest|lyon|2026-11-08",
-      "competition": "ligue1",
-      "home": "Brest",
-      "away": "Lyon",
-      "kickoff": "2026-11-08T16:15:00",
+      "fixture_key": "poland|华沙莱吉亚|琴斯托霍瓦|2026-11-08",
+      "competition": "poland",
+      "home": "华沙莱吉亚",
+      "away": "琴斯托霍瓦",
+      "kickoff": "2026-11-08T16:30:00",
       "status": "live",
       "home_goals": 0,
-      "away_goals": 0
-    },
-    {
-      "fixture_key": "ligue1|lehavre|lorient|2026-11-08",
-      "competition": "ligue1",
-      "home": "Le Havre",
-      "away": "Lorient",
-      "kickoff": "2026-11-08T16:15:00",
-      "status": "live",
-      "home_goals": 0,
-      "away_goals": 0
-    },
-    {
-      "fixture_key": "ligue1|lemans|monaco|2026-11-08",
-      "competition": "ligue1",
-      "home": "Le Mans",
-      "away": "Monaco",
-      "kickoff": "2026-11-08T16:15:00",
-      "status": "live",
-      "home_goals": 0,
-      "away_goals": 0
+      "away_goals": 1
     }
   ]
 }

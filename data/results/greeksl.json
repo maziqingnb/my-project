@@ -2,6 +2,28 @@
   {
     "competition": "greeksl",
     "cls": "league",
+    "home": "AEK雅典",
+    "away": "莱瓦贾科斯",
+    "home_goals": 2,
+    "away_goals": 1,
+    "date": "2026-11-08",
+    "handicap_line": -2.0,
+    "total_line": 3.25
+  },
+  {
+    "competition": "greeksl",
+    "cls": "league",
+    "home": "特里波利斯",
+    "away": "卡拉玛达",
+    "home_goals": 1,
+    "away_goals": 1,
+    "date": "2026-11-08",
+    "handicap_line": -0.5,
+    "total_line": 2.25
+  },
+  {
+    "competition": "greeksl",
+    "cls": "league",
     "home": "维洛斯NFC",
     "away": "基菲萨",
     "home_goals": 1,
