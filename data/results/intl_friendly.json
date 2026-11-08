@@ -3,6 +3,28 @@
     "competition": "intl_friendly",
     "cls": "cup",
     "home": "加蓬女足",
+    "away": "刚果共和国女足",
+    "home_goals": 3,
+    "away_goals": 6,
+    "date": "2026-11-07",
+    "handicap_line": null,
+    "total_line": null
+  },
+  {
+    "competition": "intl_friendly",
+    "cls": "cup",
+    "home": "圣多美和普林西比女足",
+    "away": "中非共和国女足",
+    "home_goals": 0,
+    "away_goals": 9,
+    "date": "2026-11-07",
+    "handicap_line": null,
+    "total_line": null
+  },
+  {
+    "competition": "intl_friendly",
+    "cls": "cup",
+    "home": "加蓬女足",
     "away": "尼扬加体育女足",
     "home_goals": 2,
     "away_goals": 5,

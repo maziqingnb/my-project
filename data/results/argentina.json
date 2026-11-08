@@ -2,6 +2,17 @@
   {
     "competition": "argentina",
     "cls": "league",
+    "home": "科尔多瓦学院",
+    "away": "纽维尔老男孩",
+    "home_goals": 2,
+    "away_goals": 2,
+    "date": "2026-11-08",
+    "handicap_line": -0.5,
+    "total_line": 2.0
+  },
+  {
+    "competition": "argentina",
+    "cls": "league",
     "home": "班菲尔德",
     "away": "图库曼竞技",
     "home_goals": 2,
