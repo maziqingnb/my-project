@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-11-08T22:02:21.134121+00:00",
+  "generated_at": "2026-11-08T22:35:10.401078+00:00",
   "scope": "16 个联赛 + 5 个杯赛",
   "note": "杯赛与联赛数据分开计算；仅开赛前 6h 内出推荐；命中率只统计强推",
-  "total": 1,
+  "total": 0,
   "stats": {
     "overall": {
       "counts": {
         "win": 69,
         "half_win": 3,
-        "push": 4,
+        "push": 5,
         "half_loss": 4,
         "loss": 33
       },
@@ -21,7 +21,7 @@
         "counts": {
           "win": 29,
           "half_win": 2,
-          "push": 3,
+          "push": 4,
           "half_loss": 2,
           "loss": 13
         },
@@ -203,7 +203,7 @@
         "counts": {
           "win": 0,
           "half_win": 0,
-          "push": 2,
+          "push": 3,
           "half_loss": 0,
           "loss": 1
         },
@@ -289,7 +289,7 @@
         "counts": {
           "win": 65,
           "half_win": 3,
-          "push": 4,
+          "push": 5,
           "half_loss": 4,
           "loss": 26
         },
@@ -299,192 +299,5 @@
       }
     }
   },
-  "recommendations": [
-    {
-      "fixture_key": "primeira|里奥阿维|布拉加|2026-11-08",
-      "competition": "primeira",
-      "home": "里奥阿维",
-      "away": "布拉加",
-      "kickoff": "2026-11-08T20:30:00",
-      "market": "handicap",
-      "pick": "客队（让 1）",
-      "side": "away",
-      "confidence": "strong",
-      "score": 72.0,
-      "line": 1,
-      "reasons": [
-        "亚盘 盘口不变",
-        "主队升水 0.94->1.06",
-        "主队近1场 0胜0平1负，场均进1.0/失2.0",
-        "客队近1场 1胜0平0负，场均进3.0/失0.0",
-        "交手0次：主队0胜0平0负"
-      ],
-      "signals": {
-        "line_desc": "盘口不变",
-        "water_desc": "主队升水 0.94->1.06",
-        "line_first": 1,
-        "line_last": 1,
-        "home_water_first": 0.94,
-        "home_water_last": 1.06,
-        "away_water_first": 0.94,
-        "away_water_last": 0.83,
-        "conflict": false
-      },
-      "history": [
-        {
-          "ts": "2026-11-07T16:27:14.607295+00:00",
-          "handicap_line": 1,
-          "handicap_home": 0.94,
-          "handicap_away": 0.94
-        },
-        {
-          "ts": "2026-11-07T18:28:28.616139+00:00",
-          "handicap_line": 1,
-          "handicap_home": 0.94,
-          "handicap_away": 0.94
-        },
-        {
-          "ts": "2026-11-07T20:24:54.529832+00:00",
-          "handicap_line": 1,
-          "handicap_home": 0.94,
-          "handicap_away": 0.94
-        },
-        {
-          "ts": "2026-11-07T20:30:00+00:00",
-          "handicap_line": 1,
-          "handicap_home": 0.92,
-          "handicap_away": 0.96
-        },
-        {
-          "ts": "2026-11-07T20:30:00+00:00",
-          "handicap_line": 1,
-          "handicap_home": 0.92,
-          "handicap_away": 0.96
-        },
-        {
-          "ts": "2026-11-07T20:30:00+00:00",
-          "handicap_line": 1,
-          "handicap_home": 0.92,
-          "handicap_away": 0.96
-        },
-        {
-          "ts": "2026-11-07T20:30:00+00:00",
-          "handicap_line": 1,
-          "handicap_home": 0.92,
-          "handicap_away": 0.96
-        },
-        {
-          "ts": "2026-11-07T20:30:00+00:00",
-          "handicap_line": 1,
-          "handicap_home": 0.92,
-          "handicap_away": 0.96
-        },
-        {
-          "ts": "2026-11-07T20:30:00+00:00",
-          "handicap_line": 1,
-          "handicap_home": 0.92,
-          "handicap_away": 0.96
-        },
-        {
-          "ts": "2026-11-07T20:30:00+00:00",
-          "handicap_line": 1,
-          "handicap_home": 0.92,
-          "handicap_away": 0.96
-        },
-        {
-          "ts": "2026-11-07T20:30:00+00:00",
-          "handicap_line": 1,
-          "handicap_home": 0.92,
-          "handicap_away": 0.96
-        },
-        {
-          "ts": "2026-11-07T20:30:00+00:00",
-          "handicap_line": 1,
-          "handicap_home": 0.92,
-          "handicap_away": 0.96
-        },
-        {
-          "ts": "2026-11-07T20:30:00+00:00",
-          "handicap_line": 1,
-          "handicap_home": 0.92,
-          "handicap_away": 0.96
-        },
-        {
-          "ts": "2026-11-07T20:30:00+00:00",
-          "handicap_line": 1,
-          "handicap_home": 0.92,
-          "handicap_away": 0.96
-        },
-        {
-          "ts": "2026-11-07T20:30:00+00:00",
-          "handicap_line": 1,
-          "handicap_home": 0.92,
-          "handicap_away": 0.96
-        },
-        {
-          "ts": "2026-11-07T22:24:32.344302+00:00",
-          "handicap_line": 1,
-          "handicap_home": 0.94,
-          "handicap_away": 0.94
-        },
-        {
-          "ts": "2026-11-08T00:36:53.383523+00:00",
-          "handicap_line": 1,
-          "handicap_home": 0.94,
-          "handicap_away": 0.94
-        },
-        {
-          "ts": "2026-11-08T02:40:43.913000+00:00",
-          "handicap_line": 1,
-          "handicap_home": 0.97,
-          "handicap_away": 0.91
-        },
-        {
-          "ts": "2026-11-08T04:41:36.455283+00:00",
-          "handicap_line": 1,
-          "handicap_home": 0.97,
-          "handicap_away": 0.92
-        },
-        {
-          "ts": "2026-11-08T06:46:56.252764+00:00",
-          "handicap_line": 1,
-          "handicap_home": 0.99,
-          "handicap_away": 0.9
-        },
-        {
-          "ts": "2026-11-08T08:39:36.043769+00:00",
-          "handicap_line": 1,
-          "handicap_home": 0.99,
-          "handicap_away": 0.9
-        },
-        {
-          "ts": "2026-11-08T10:30:19.549235+00:00",
-          "handicap_line": 1,
-          "handicap_home": 1.01,
-          "handicap_away": 0.88
-        },
-        {
-          "ts": "2026-11-08T12:32:41.675200+00:00",
-          "handicap_line": 1,
-          "handicap_home": 1.06,
-          "handicap_away": 0.83
-        },
-        {
-          "ts": "2026-11-08T14:30:56.381674+00:00",
-          "handicap_line": 1,
-          "handicap_home": 1.06,
-          "handicap_away": 0.83
-        }
-      ],
-      "reliability": 1.0,
-      "competition_name": "葡萄牙超级联赛",
-      "competition_class": "league",
-      "sport": "football",
-      "lead_hours": 5.984338423888889,
-      "prematch": false,
-      "result": {
-        "settled": false
-      }
-    }
-  ]
+  "recommendations": []
 }
