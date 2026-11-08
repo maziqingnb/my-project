@@ -1,94 +1,44 @@
 {
-  "generated_at": "2026-11-08T16:06:59.496377+00:00",
+  "generated_at": "2026-11-08T16:25:40.364872+00:00",
   "matches": [
     {
-      "fixture_key": "laliga|realsociedad|rayovallecano|2026-11-08",
-      "competition": "laliga",
-      "home": "Real Sociedad",
-      "away": "Rayo Vallecano",
-      "kickoff": "2026-11-08T15:15:00",
+      "fixture_key": "ligue1|angers|nice|2026-11-08",
+      "competition": "ligue1",
+      "home": "Angers",
+      "away": "Nice",
+      "kickoff": "2026-11-08T16:15:00",
+      "status": "live",
+      "home_goals": 0,
+      "away_goals": 1
+    },
+    {
+      "fixture_key": "ligue1|brest|lyon|2026-11-08",
+      "competition": "ligue1",
+      "home": "Brest",
+      "away": "Lyon",
+      "kickoff": "2026-11-08T16:15:00",
       "status": "live",
       "home_goals": 0,
       "away_goals": 0
     },
     {
-      "fixture_key": "primeira|葡萄牙国民|维塞乌|2026-11-08",
-      "competition": "primeira",
-      "home": "葡萄牙国民",
-      "away": "维塞乌",
-      "kickoff": "2026-11-08T15:30:00",
+      "fixture_key": "ligue1|lehavre|lorient|2026-11-08",
+      "competition": "ligue1",
+      "home": "Le Havre",
+      "away": "Lorient",
+      "kickoff": "2026-11-08T16:15:00",
       "status": "live",
       "home_goals": 0,
       "away_goals": 0
     },
     {
-      "fixture_key": "primeira|圣克拉拉|吉维森特|2026-11-08",
-      "competition": "primeira",
-      "home": "圣克拉拉",
-      "away": "吉维森特",
-      "kickoff": "2026-11-08T15:30:00",
-      "status": "live",
-      "home_goals": 1,
-      "away_goals": 0
-    },
-    {
-      "fixture_key": "rpl|圣彼得堡泽尼特|罗斯托夫|2026-11-08",
-      "competition": "rpl",
-      "home": "圣彼得堡泽尼特",
-      "away": "罗斯托夫",
-      "kickoff": "2026-11-08T15:30:00",
-      "status": "live",
-      "home_goals": 1,
-      "away_goals": 0
-    },
-    {
-      "fixture_key": "superlig|阿拉尼亚体育|特拉布宗体育|2026-11-08",
-      "competition": "superlig",
-      "home": "阿拉尼亚体育",
-      "away": "特拉布宗体育",
-      "kickoff": "2026-11-08T15:30:00",
+      "fixture_key": "ligue1|lemans|monaco|2026-11-08",
+      "competition": "ligue1",
+      "home": "Le Mans",
+      "away": "Monaco",
+      "kickoff": "2026-11-08T16:15:00",
       "status": "live",
       "home_goals": 0,
-      "away_goals": 2
-    },
-    {
-      "fixture_key": "greeksl|伊拉克里斯|帕纳辛纳科斯|2026-11-08",
-      "competition": "greeksl",
-      "home": "伊拉克里斯",
-      "away": "帕纳辛纳科斯",
-      "kickoff": "2026-11-08T15:30:00",
-      "status": "live",
-      "home_goals": 1,
-      "away_goals": 0
-    },
-    {
-      "fixture_key": "sweden|索尔纳|赫根|2026-11-08",
-      "competition": "sweden",
-      "home": "索尔纳",
-      "away": "赫根",
-      "kickoff": "2026-11-08T15:30:00",
-      "status": "live",
-      "home_goals": 1,
-      "away_goals": 0
-    },
-    {
-      "fixture_key": "sweden|布洛马波卡纳|米亚尔比|2026-11-08",
-      "competition": "sweden",
-      "home": "布洛马波卡纳",
-      "away": "米亚尔比",
-      "kickoff": "2026-11-08T15:30:00",
-      "status": "live",
-      "home_goals": 0,
-      "away_goals": 0
-    },
-    {
-      "fixture_key": "sweden|卡尔马|天狼星|2026-11-08",
-      "competition": "sweden",
-      "home": "卡尔马",
-      "away": "天狼星",
-      "kickoff": "2026-11-08T15:30:00",
-      "status": "live",
-      "home_goals": 1,
       "away_goals": 0
     }
   ]
