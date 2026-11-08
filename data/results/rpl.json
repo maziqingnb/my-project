@@ -24,6 +24,17 @@
   {
     "competition": "rpl",
     "cls": "league",
+    "home": "圣彼得堡泽尼特",
+    "away": "罗斯托夫",
+    "home_goals": 2,
+    "away_goals": 2,
+    "date": "2026-11-08",
+    "handicap_line": -1.25,
+    "total_line": 2.75
+  },
+  {
+    "competition": "rpl",
+    "cls": "league",
     "home": "沃罗涅日火炬",
     "away": "莫斯科迪纳摩",
     "home_goals": 1,

@@ -1,7 +1,95 @@
 {
-  "generated_at": "2026-11-08T17:09:43.811667+00:00",
-  "total_missed": 39,
+  "generated_at": "2026-11-08T17:45:53.438507+00:00",
+  "total_missed": 41,
   "days": [
+    {
+      "date": "2026-11-08",
+      "missed": 2,
+      "items": [
+        {
+          "competition": "sweden",
+          "home": "索尔纳",
+          "away": "赫根",
+          "kickoff": "2026-11-08T15:30:00",
+          "market": "handicap",
+          "sport": "football",
+          "pick": "客队（让 1）",
+          "side": "away",
+          "line": 1,
+          "score": 75.8,
+          "confidence": "strong",
+          "outcome": "loss",
+          "outcome_cn": "没中",
+          "home_goals": 3,
+          "away_goals": 2,
+          "book": "盘口 主受让0.75 → 主受让1，水位 主0.88/1.00 → 主1.04/0.85",
+          "diagnosis": [
+            "盘口 主受让0.75 → 主受让1，水位 主0.88/1.00 → 主1.04/0.85",
+            "最终 3-2，推荐侧相对盘口 -2.00 球（未打穿）"
+          ],
+          "note": "客队（让 1） · 最终 3-2（客队净胜 -1），未打穿",
+          "signals": {
+            "line_desc": "降盘 0.75->1（主队走弱）",
+            "water_desc": "主队升水 0.88->1.04",
+            "line_first": 0.75,
+            "line_last": 1,
+            "home_water_first": 0.88,
+            "home_water_last": 1.04,
+            "away_water_first": 1,
+            "away_water_last": 0.85,
+            "conflict": false
+          },
+          "reasons": [
+            "亚盘 降盘 0.75->1（主队走弱）",
+            "主队升水 0.88->1.04",
+            "主队近1场 0胜0平1负，场均进1.0/失2.0",
+            "客队近2场 1胜1平0负，场均进0.5/失0.0",
+            "交手0次：主队0胜0平0负"
+          ]
+        },
+        {
+          "competition": "greeksl",
+          "home": "伊拉克里斯",
+          "away": "帕纳辛纳科斯",
+          "kickoff": "2026-11-08T15:30:00",
+          "market": "handicap",
+          "sport": "football",
+          "pick": "客队（让 1.5）",
+          "side": "away",
+          "line": 1.5,
+          "score": 71.0,
+          "confidence": "strong",
+          "outcome": "loss",
+          "outcome_cn": "没中",
+          "home_goals": 1,
+          "away_goals": 2,
+          "book": "盘口 主受让1.25 → 主受让1.5，水位 主0.94/0.88 → 主1.00/0.88",
+          "diagnosis": [
+            "盘口 主受让1.25 → 主受让1.5，水位 主0.94/0.88 → 主1.00/0.88",
+            "最终 1-2，推荐侧相对盘口 -0.50 球（未打穿）"
+          ],
+          "note": "客队（让 1.5） · 最终 1-2（客队净胜 1），未打穿",
+          "signals": {
+            "line_desc": "降盘 1.25->1.5（主队走弱）",
+            "water_desc": "主队升水 0.94->1",
+            "line_first": 1.25,
+            "line_last": 1.5,
+            "home_water_first": 0.94,
+            "home_water_last": 1,
+            "away_water_first": 0.88,
+            "away_water_last": 0.88,
+            "conflict": false
+          },
+          "reasons": [
+            "亚盘 降盘 1.25->1.5（主队走弱）",
+            "主队升水 0.94->1",
+            "主队近1场 0胜1平0负，场均进1.0/失1.0",
+            "客队近1场 1胜0平0负，场均进2.0/失0.0",
+            "交手0次：主队0胜0平0负"
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-11-07",
       "missed": 1,

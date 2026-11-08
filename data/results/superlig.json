@@ -24,6 +24,17 @@
   {
     "competition": "superlig",
     "cls": "league",
+    "home": "阿拉尼亚体育",
+    "away": "特拉布宗体育",
+    "home_goals": 0,
+    "away_goals": 2,
+    "date": "2026-11-08",
+    "handicap_line": 0.75,
+    "total_line": 2.75
+  },
+  {
+    "competition": "superlig",
+    "cls": "league",
     "home": "埃于普体育",
     "away": "科贾埃利体育",
     "home_goals": 0,
