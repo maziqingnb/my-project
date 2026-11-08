@@ -46,6 +46,17 @@
   {
     "competition": "seriea",
     "cls": "league",
+    "home": "Fiorentina",
+    "away": "Juventus",
+    "home_goals": 2,
+    "away_goals": 2,
+    "date": "2026-11-08",
+    "handicap_line": 0.5,
+    "total_line": 2.75
+  },
+  {
+    "competition": "seriea",
+    "cls": "league",
     "home": "Cagliari",
     "away": "Frosinone",
     "home_goals": 1,

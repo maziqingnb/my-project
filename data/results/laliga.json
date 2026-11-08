@@ -46,6 +46,17 @@
   {
     "competition": "laliga",
     "cls": "league",
+    "home": "Atletico Madrid",
+    "away": "Barcelona",
+    "home_goals": 1,
+    "away_goals": 2,
+    "date": "2026-11-08",
+    "handicap_line": 0.5,
+    "total_line": 3.5
+  },
+  {
+    "competition": "laliga",
+    "cls": "league",
     "home": "Malaga",
     "away": "Racing Santander",
     "home_goals": 1,

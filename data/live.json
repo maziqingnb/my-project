@@ -1,25 +1,4 @@
 {
-  "generated_at": "2026-11-08T21:16:36.704996+00:00",
-  "matches": [
-    {
-      "fixture_key": "primeira|阿马多拉|本菲卡|2026-11-08",
-      "competition": "primeira",
-      "home": "阿马多拉",
-      "away": "本菲卡",
-      "kickoff": "2026-11-08T20:30:00",
-      "status": "live",
-      "home_goals": 0,
-      "away_goals": 1
-    },
-    {
-      "fixture_key": "primeira|里奥阿维|布拉加|2026-11-08",
-      "competition": "primeira",
-      "home": "里奥阿维",
-      "away": "布拉加",
-      "kickoff": "2026-11-08T20:30:00",
-      "status": "live",
-      "home_goals": 0,
-      "away_goals": 0
-    }
-  ]
+  "generated_at": "2026-11-08T21:56:14.451915+00:00",
+  "matches": []
 }

@@ -57,6 +57,17 @@
   {
     "competition": "ligue1",
     "cls": "league",
+    "home": "Lens",
+    "away": "Marseille",
+    "home_goals": 1,
+    "away_goals": 2,
+    "date": "2026-11-08",
+    "handicap_line": -0.25,
+    "total_line": 3.25
+  },
+  {
+    "competition": "ligue1",
+    "cls": "league",
     "home": "Auxerre",
     "away": "Paris FC",
     "home_goals": 0,
