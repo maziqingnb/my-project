@@ -1,32 +1,32 @@
 {
-  "generated_at": "2026-11-08T19:58:25.630037+00:00",
+  "generated_at": "2026-11-08T20:36:38.771012+00:00",
   "matches": [
     {
-      "fixture_key": "seriea|fiorentina|juventus|2026-11-08",
-      "competition": "seriea",
-      "home": "Fiorentina",
-      "away": "Juventus",
-      "kickoff": "2026-11-08T19:45:00",
+      "fixture_key": "laliga|atleticomadrid|barcelona|2026-11-08",
+      "competition": "laliga",
+      "home": "Atletico Madrid",
+      "away": "Barcelona",
+      "kickoff": "2026-11-08T20:00:00",
       "status": "live",
       "home_goals": 1,
       "away_goals": 0
     },
     {
-      "fixture_key": "ligue1|lens|marseille|2026-11-08",
-      "competition": "ligue1",
-      "home": "Lens",
-      "away": "Marseille",
-      "kickoff": "2026-11-08T19:45:00",
+      "fixture_key": "primeira|阿马多拉|本菲卡|2026-11-08",
+      "competition": "primeira",
+      "home": "阿马多拉",
+      "away": "本菲卡",
+      "kickoff": "2026-11-08T20:30:00",
       "status": "live",
       "home_goals": 0,
-      "away_goals": 1
+      "away_goals": 0
     },
     {
-      "fixture_key": "poland|波兹南莱赫|卢宾扎格勒比|2026-11-08",
-      "competition": "poland",
-      "home": "波兹南莱赫",
-      "away": "卢宾扎格勒比",
-      "kickoff": "2026-11-08T19:15:00",
+      "fixture_key": "primeira|里奥阿维|布拉加|2026-11-08",
+      "competition": "primeira",
+      "home": "里奥阿维",
+      "away": "布拉加",
+      "kickoff": "2026-11-08T20:30:00",
       "status": "live",
       "home_goals": 0,
       "away_goals": 0
