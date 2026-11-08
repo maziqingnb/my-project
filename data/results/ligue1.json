@@ -13,6 +13,50 @@
   {
     "competition": "ligue1",
     "cls": "league",
+    "home": "Angers",
+    "away": "Nice",
+    "home_goals": 0,
+    "away_goals": 2,
+    "date": "2026-11-08",
+    "handicap_line": 0.25,
+    "total_line": 2.75
+  },
+  {
+    "competition": "ligue1",
+    "cls": "league",
+    "home": "Brest",
+    "away": "Lyon",
+    "home_goals": 2,
+    "away_goals": 0,
+    "date": "2026-11-08",
+    "handicap_line": -0.0,
+    "total_line": 2.75
+  },
+  {
+    "competition": "ligue1",
+    "cls": "league",
+    "home": "Le Havre",
+    "away": "Lorient",
+    "home_goals": 0,
+    "away_goals": 2,
+    "date": "2026-11-08",
+    "handicap_line": -0.0,
+    "total_line": 2.5
+  },
+  {
+    "competition": "ligue1",
+    "cls": "league",
+    "home": "Le Mans",
+    "away": "Monaco",
+    "home_goals": 1,
+    "away_goals": 1,
+    "date": "2026-11-08",
+    "handicap_line": 0.75,
+    "total_line": 3.0
+  },
+  {
+    "competition": "ligue1",
+    "cls": "league",
     "home": "Auxerre",
     "away": "Paris FC",
     "home_goals": 0,

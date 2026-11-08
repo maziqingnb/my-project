@@ -1,11 +1,52 @@
 {
-  "generated_at": "2026-11-08T17:58:19.119440+00:00",
-  "total_missed": 41,
+  "generated_at": "2026-11-08T18:20:40.702978+00:00",
+  "total_missed": 42,
   "days": [
     {
       "date": "2026-11-08",
-      "missed": 2,
+      "missed": 3,
       "items": [
+        {
+          "competition": "ligue1",
+          "home": "Le Mans",
+          "away": "Monaco",
+          "kickoff": "2026-11-08T16:15:00",
+          "market": "handicap",
+          "sport": "football",
+          "pick": "客队（让 0.75）",
+          "side": "away",
+          "line": 0.75,
+          "score": 70.0,
+          "confidence": "strong",
+          "outcome": "loss",
+          "outcome_cn": "没中",
+          "home_goals": 1,
+          "away_goals": 1,
+          "book": "盘口 主受让0.75 → 主受让0.75，水位 主0.91/0.97 → 主1.06/0.83",
+          "diagnosis": [
+            "盘口 主受让0.75 → 主受让0.75，水位 主0.91/0.97 → 主1.06/0.83",
+            "最终 1-1，推荐侧相对盘口 -0.75 球（未打穿）"
+          ],
+          "note": "客队（让 0.75） · 最终 1-1（客队净胜 0），未打穿",
+          "signals": {
+            "line_desc": "盘口不变",
+            "water_desc": "主队升水 0.91->1.06",
+            "line_first": 0.75,
+            "line_last": 0.75,
+            "home_water_first": 0.91,
+            "home_water_last": 1.06,
+            "away_water_first": 0.97,
+            "away_water_last": 0.83,
+            "conflict": false
+          },
+          "reasons": [
+            "亚盘 盘口不变",
+            "主队升水 0.91->1.06",
+            "主队近1场 0胜0平1负，场均进0.0/失2.0",
+            "客队近1场 0胜0平1负，场均进1.0/失3.0",
+            "交手0次：主队0胜0平0负"
+          ]
+        },
         {
           "competition": "sweden",
           "home": "索尔纳",

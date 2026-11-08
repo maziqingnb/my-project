@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-08T17:58:19.095124+00:00",
+  "generated_at": "2026-11-08T18:20:40.665377+00:00",
   "scope": "16 个联赛 + 5 个杯赛",
   "note": "杯赛与联赛数据分开计算；仅开赛前 6h 内出推荐；命中率只统计强推",
   "total": 2,
@@ -10,11 +10,11 @@
         "half_win": 3,
         "push": 3,
         "half_loss": 4,
-        "loss": 32
+        "loss": 33
       },
-      "settled": 106,
+      "settled": 107,
       "hit": 70,
-      "rate": 66.0
+      "rate": 65.4
     },
     "by_market": {
       "handicap": {
@@ -23,11 +23,11 @@
           "half_win": 2,
           "push": 2,
           "half_loss": 2,
-          "loss": 12
+          "loss": 13
         },
-        "settled": 45,
+        "settled": 46,
         "hit": 31,
-        "rate": 68.9
+        "rate": 67.4
       },
       "totals": {
         "counts": {
@@ -169,11 +169,11 @@
           "half_win": 2,
           "push": 0,
           "half_loss": 0,
-          "loss": 1
+          "loss": 2
         },
-        "settled": 7,
+        "settled": 8,
         "hit": 6,
-        "rate": 85.7
+        "rate": 75.0
       },
       "nba": {
         "counts": {
@@ -291,11 +291,11 @@
           "half_win": 3,
           "push": 3,
           "half_loss": 4,
-          "loss": 25
+          "loss": 26
         },
-        "settled": 95,
+        "settled": 96,
         "hit": 66,
-        "rate": 69.5
+        "rate": 68.8
       }
     }
   },
