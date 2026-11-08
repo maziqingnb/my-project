@@ -1,16 +1,6 @@
 {
-  "generated_at": "2026-11-08T20:36:38.771012+00:00",
+  "generated_at": "2026-11-08T21:16:36.704996+00:00",
   "matches": [
-    {
-      "fixture_key": "laliga|atleticomadrid|barcelona|2026-11-08",
-      "competition": "laliga",
-      "home": "Atletico Madrid",
-      "away": "Barcelona",
-      "kickoff": "2026-11-08T20:00:00",
-      "status": "live",
-      "home_goals": 1,
-      "away_goals": 0
-    },
     {
       "fixture_key": "primeira|阿马多拉|本菲卡|2026-11-08",
       "competition": "primeira",
@@ -19,7 +9,7 @@
       "kickoff": "2026-11-08T20:30:00",
       "status": "live",
       "home_goals": 0,
-      "away_goals": 0
+      "away_goals": 1
     },
     {
       "fixture_key": "primeira|里奥阿维|布拉加|2026-11-08",
