@@ -148,5 +148,35 @@
     "total_line": 2.5,
     "over": 0.85,
     "under": 1.02
+  },
+  {
+    "fixture_key": "superlig|里泽体育|埃尔祖鲁姆体育|2026-11-08",
+    "competition": "superlig",
+    "home": "里泽体育",
+    "away": "埃尔祖鲁姆体育",
+    "kickoff": "2026-11-08T10:30:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-07T10:30:00+00:00",
+    "handicap_line": -0.5,
+    "handicap_home": 0.95,
+    "handicap_away": 0.93,
+    "total_line": 2.5,
+    "over": 0.85,
+    "under": 1.02
+  },
+  {
+    "fixture_key": "superlig|里泽体育|埃尔祖鲁姆体育|2026-11-08",
+    "competition": "superlig",
+    "home": "里泽体育",
+    "away": "埃尔祖鲁姆体育",
+    "kickoff": "2026-11-08T10:30:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-08T02:40:53.793859+00:00",
+    "handicap_line": -0.5,
+    "handicap_home": 0.91,
+    "handicap_away": 0.97,
+    "total_line": 2.5,
+    "over": 0.85,
+    "under": 1.02
   }
 ]

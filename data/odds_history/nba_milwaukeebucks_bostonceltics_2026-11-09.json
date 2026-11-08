@@ -1,0 +1,32 @@
+[
+  {
+    "fixture_key": "nba|milwaukeebucks|bostonceltics|2026-11-09",
+    "competition": "nba",
+    "home": "Milwaukee Bucks",
+    "away": "Boston Celtics",
+    "kickoff": "2026-11-09T01:10:00Z",
+    "bookmaker": "unibet",
+    "ts": "2026-11-08T02:41:30.648683+00:00",
+    "handicap_line": 12.5,
+    "handicap_home": 1.91,
+    "handicap_away": 1.9,
+    "total_line": null,
+    "over": null,
+    "under": null
+  },
+  {
+    "fixture_key": "nba|milwaukeebucks|bostonceltics|2026-11-09",
+    "competition": "nba",
+    "home": "Milwaukee Bucks",
+    "away": "Boston Celtics",
+    "kickoff": "2026-11-09T01:10:00Z",
+    "bookmaker": "pinnacle",
+    "ts": "2026-11-08T02:41:30.648683+00:00",
+    "handicap_line": 12.5,
+    "handicap_home": 2.0,
+    "handicap_away": 1.9,
+    "total_line": 223.5,
+    "over": 2.01,
+    "under": 1.88
+  }
+]

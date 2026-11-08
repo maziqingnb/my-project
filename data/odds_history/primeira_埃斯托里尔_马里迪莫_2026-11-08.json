@@ -133,5 +133,35 @@
     "total_line": 2.5,
     "over": 0.92,
     "under": 0.94
+  },
+  {
+    "fixture_key": "primeira|埃斯托里尔|马里迪莫|2026-11-08",
+    "competition": "primeira",
+    "home": "埃斯托里尔",
+    "away": "马里迪莫",
+    "kickoff": "2026-11-08T15:30:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-07T15:30:00+00:00",
+    "handicap_line": -0.25,
+    "handicap_home": 0.82,
+    "handicap_away": 1.06,
+    "total_line": 2.5,
+    "over": 0.92,
+    "under": 0.94
+  },
+  {
+    "fixture_key": "primeira|埃斯托里尔|马里迪莫|2026-11-08",
+    "competition": "primeira",
+    "home": "埃斯托里尔",
+    "away": "马里迪莫",
+    "kickoff": "2026-11-08T15:30:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-08T02:40:38.678393+00:00",
+    "handicap_line": -0.25,
+    "handicap_home": 0.82,
+    "handicap_away": 1.06,
+    "total_line": 2.5,
+    "over": 0.92,
+    "under": 0.94
   }
 ]

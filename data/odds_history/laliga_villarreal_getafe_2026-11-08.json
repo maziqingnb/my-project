@@ -148,5 +148,35 @@
     "total_line": 2.75,
     "over": 1.03,
     "under": 0.85
+  },
+  {
+    "fixture_key": "laliga|villarreal|getafe|2026-11-08",
+    "competition": "laliga",
+    "home": "Villarreal",
+    "away": "Getafe",
+    "kickoff": "2026-11-08T17:30:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-07T17:30:00+00:00",
+    "handicap_line": -1,
+    "handicap_home": 0.94,
+    "handicap_away": 0.94,
+    "total_line": 2.5,
+    "over": 0.93,
+    "under": 0.93
+  },
+  {
+    "fixture_key": "laliga|villarreal|getafe|2026-11-08",
+    "competition": "laliga",
+    "home": "Villarreal",
+    "away": "Getafe",
+    "kickoff": "2026-11-08T17:30:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-08T02:40:07.581447+00:00",
+    "handicap_line": -1.25,
+    "handicap_home": 1,
+    "handicap_away": 0.88,
+    "total_line": 2.75,
+    "over": 1.03,
+    "under": 0.85
   }
 ]

@@ -148,5 +148,35 @@
     "total_line": 2.75,
     "over": 0.99,
     "under": 0.88
+  },
+  {
+    "fixture_key": "sweden|布洛马波卡纳|米亚尔比|2026-11-08",
+    "competition": "sweden",
+    "home": "布洛马波卡纳",
+    "away": "米亚尔比",
+    "kickoff": "2026-11-08T15:30:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-07T15:30:00+00:00",
+    "handicap_line": 0,
+    "handicap_home": 0.91,
+    "handicap_away": 0.97,
+    "total_line": 2.75,
+    "over": 0.99,
+    "under": 0.88
+  },
+  {
+    "fixture_key": "sweden|布洛马波卡纳|米亚尔比|2026-11-08",
+    "competition": "sweden",
+    "home": "布洛马波卡纳",
+    "away": "米亚尔比",
+    "kickoff": "2026-11-08T15:30:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-08T02:41:23.042992+00:00",
+    "handicap_line": -0.25,
+    "handicap_home": 1.03,
+    "handicap_away": 0.85,
+    "total_line": 2.75,
+    "over": 1.08,
+    "under": 0.79
   }
 ]

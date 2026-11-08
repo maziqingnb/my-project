@@ -148,5 +148,35 @@
     "total_line": 3.75,
     "over": 1.01,
     "under": 0.87
+  },
+  {
+    "fixture_key": "laliga|atleticomadrid|barcelona|2026-11-08",
+    "competition": "laliga",
+    "home": "Atletico Madrid",
+    "away": "Barcelona",
+    "kickoff": "2026-11-08T20:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-07T20:00:00+00:00",
+    "handicap_line": 0.5,
+    "handicap_home": 0.99,
+    "handicap_away": 0.89,
+    "total_line": 3.5,
+    "over": 0.88,
+    "under": 0.98
+  },
+  {
+    "fixture_key": "laliga|atleticomadrid|barcelona|2026-11-08",
+    "competition": "laliga",
+    "home": "Atletico Madrid",
+    "away": "Barcelona",
+    "kickoff": "2026-11-08T20:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-08T02:40:09.084855+00:00",
+    "handicap_line": 0.5,
+    "handicap_home": 0.95,
+    "handicap_away": 0.93,
+    "total_line": 3.75,
+    "over": 1.01,
+    "under": 0.87
   }
 ]
