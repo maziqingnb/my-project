@@ -1,15 +1,4 @@
 {
-  "generated_at": "2026-11-08T12:04:14.805425+00:00",
-  "matches": [
-    {
-      "fixture_key": "seriea|napoli|lazio|2026-11-08",
-      "competition": "seriea",
-      "home": "Napoli",
-      "away": "Lazio",
-      "kickoff": "2026-11-08T11:30:00",
-      "status": "live",
-      "home_goals": 0,
-      "away_goals": 1
-    }
-  ]
+  "generated_at": "2026-11-08T12:53:30.944915+00:00",
+  "matches": []
 }

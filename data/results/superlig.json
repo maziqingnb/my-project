@@ -2,6 +2,17 @@
   {
     "competition": "superlig",
     "cls": "league",
+    "home": "里泽体育",
+    "away": "埃尔祖鲁姆体育",
+    "home_goals": 2,
+    "away_goals": 1,
+    "date": "2026-11-08",
+    "handicap_line": -0.5,
+    "total_line": 2.5
+  },
+  {
+    "competition": "superlig",
+    "cls": "league",
     "home": "埃于普体育",
     "away": "科贾埃利体育",
     "home_goals": 0,
