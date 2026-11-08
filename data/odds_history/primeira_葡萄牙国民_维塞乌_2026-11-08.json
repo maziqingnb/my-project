@@ -238,5 +238,35 @@
     "total_line": 2.25,
     "over": 0.83,
     "under": 1.03
+  },
+  {
+    "fixture_key": "primeira|葡萄牙国民|维塞乌|2026-11-08",
+    "competition": "primeira",
+    "home": "葡萄牙国民",
+    "away": "维塞乌",
+    "kickoff": "2026-11-08T15:30:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-07T15:30:00+00:00",
+    "handicap_line": 0,
+    "handicap_home": 1.08,
+    "handicap_away": 0.8,
+    "total_line": 2.5,
+    "over": 0.97,
+    "under": 0.89
+  },
+  {
+    "fixture_key": "primeira|葡萄牙国民|维塞乌|2026-11-08",
+    "competition": "primeira",
+    "home": "葡萄牙国民",
+    "away": "维塞乌",
+    "kickoff": "2026-11-08T15:30:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-08T10:30:11.401050+00:00",
+    "handicap_line": 0,
+    "handicap_home": 1.11,
+    "handicap_away": 0.79,
+    "total_line": 2.25,
+    "over": 0.83,
+    "under": 1.03
   }
 ]

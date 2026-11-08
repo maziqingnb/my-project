@@ -268,5 +268,35 @@
     "total_line": 2.75,
     "over": 0.78,
     "under": 1.02
+  },
+  {
+    "fixture_key": "poland|华沙莱吉亚|琴斯托霍瓦|2026-11-08",
+    "competition": "poland",
+    "home": "华沙莱吉亚",
+    "away": "琴斯托霍瓦",
+    "kickoff": "2026-11-08T16:30:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-07T16:30:00+00:00",
+    "handicap_line": -0.5,
+    "handicap_home": 0.85,
+    "handicap_away": 0.97,
+    "total_line": 2.75,
+    "over": 0.8,
+    "under": 1
+  },
+  {
+    "fixture_key": "poland|华沙莱吉亚|琴斯托霍瓦|2026-11-08",
+    "competition": "poland",
+    "home": "华沙莱吉亚",
+    "away": "琴斯托霍瓦",
+    "kickoff": "2026-11-08T16:30:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-08T10:31:04.424643+00:00",
+    "handicap_line": -0.5,
+    "handicap_home": 0.85,
+    "handicap_away": 0.97,
+    "total_line": 2.75,
+    "over": 0.8,
+    "under": 1
   }
 ]
