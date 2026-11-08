@@ -118,5 +118,35 @@
     "total_line": 2.25,
     "over": 0.94,
     "under": 0.93
+  },
+  {
+    "fixture_key": "argentina|科尔多瓦中央sde|拉努斯|2026-11-08",
+    "competition": "argentina",
+    "home": "科尔多瓦中央SDE",
+    "away": "拉努斯",
+    "kickoff": "2026-11-08T22:30:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-07T22:30:00+00:00",
+    "handicap_line": 0.75,
+    "handicap_home": 0.98,
+    "handicap_away": 0.9,
+    "total_line": 2.25,
+    "over": 0.94,
+    "under": 0.93
+  },
+  {
+    "fixture_key": "argentina|科尔多瓦中央sde|拉努斯|2026-11-08",
+    "competition": "argentina",
+    "home": "科尔多瓦中央SDE",
+    "away": "拉努斯",
+    "kickoff": "2026-11-08T22:30:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-08T00:37:08.604130+00:00",
+    "handicap_line": 0.75,
+    "handicap_home": 0.98,
+    "handicap_away": 0.9,
+    "total_line": 2.25,
+    "over": 0.94,
+    "under": 0.93
   }
 ]

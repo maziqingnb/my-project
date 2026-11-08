@@ -118,5 +118,35 @@
     "total_line": 2.5,
     "over": 0.9,
     "under": 0.96
+  },
+  {
+    "fixture_key": "primeira|吉马良斯|波尔图|2026-11-08",
+    "competition": "primeira",
+    "home": "吉马良斯",
+    "away": "波尔图",
+    "kickoff": "2026-11-08T18:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-07T18:00:00+00:00",
+    "handicap_line": 0.75,
+    "handicap_home": 0.99,
+    "handicap_away": 0.89,
+    "total_line": 2.5,
+    "over": 0.84,
+    "under": 1.02
+  },
+  {
+    "fixture_key": "primeira|吉马良斯|波尔图|2026-11-08",
+    "competition": "primeira",
+    "home": "吉马良斯",
+    "away": "波尔图",
+    "kickoff": "2026-11-08T18:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-08T00:36:50.686034+00:00",
+    "handicap_line": 1,
+    "handicap_home": 0.81,
+    "handicap_away": 1.07,
+    "total_line": 2.5,
+    "over": 0.9,
+    "under": 0.96
   }
 ]
