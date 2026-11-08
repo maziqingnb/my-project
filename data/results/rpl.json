@@ -13,6 +13,17 @@
   {
     "competition": "rpl",
     "cls": "league",
+    "home": "莫斯科斯巴达",
+    "away": "阿克伦陶里亚蒂",
+    "home_goals": 2,
+    "away_goals": 1,
+    "date": "2026-11-08",
+    "handicap_line": -1.75,
+    "total_line": 3.25
+  },
+  {
+    "competition": "rpl",
+    "cls": "league",
     "home": "沃罗涅日火炬",
     "away": "莫斯科迪纳摩",
     "home_goals": 1,
