@@ -298,5 +298,35 @@
     "total_line": 2.5,
     "over": 0.91,
     "under": 0.97
+  },
+  {
+    "fixture_key": "ligue1|lemans|monaco|2026-11-08",
+    "competition": "ligue1",
+    "home": "Le Mans",
+    "away": "Monaco",
+    "kickoff": "2026-11-08T16:15:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-07T16:15:00+00:00",
+    "handicap_line": 0.75,
+    "handicap_home": 0.91,
+    "handicap_away": 0.97,
+    "total_line": 3,
+    "over": 0.96,
+    "under": 0.9
+  },
+  {
+    "fixture_key": "ligue1|lemans|monaco|2026-11-08",
+    "competition": "ligue1",
+    "home": "Le Mans",
+    "away": "Monaco",
+    "kickoff": "2026-11-08T16:15:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-08T12:32:21.732442+00:00",
+    "handicap_line": 0.75,
+    "handicap_home": 1.11,
+    "handicap_away": 0.79,
+    "total_line": 2.5,
+    "over": 0.96,
+    "under": 0.92
   }
 ]

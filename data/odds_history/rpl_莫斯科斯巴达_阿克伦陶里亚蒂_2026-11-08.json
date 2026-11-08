@@ -298,5 +298,35 @@
     "total_line": 3.25,
     "over": 0.85,
     "under": 1.02
+  },
+  {
+    "fixture_key": "rpl|莫斯科斯巴达|阿克伦陶里亚蒂|2026-11-08",
+    "competition": "rpl",
+    "home": "莫斯科斯巴达",
+    "away": "阿克伦陶里亚蒂",
+    "kickoff": "2026-11-08T13:15:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-07T13:15:00+00:00",
+    "handicap_line": -1.75,
+    "handicap_home": 0.9,
+    "handicap_away": 0.98,
+    "total_line": 3.25,
+    "over": 0.88,
+    "under": 0.99
+  },
+  {
+    "fixture_key": "rpl|莫斯科斯巴达|阿克伦陶里亚蒂|2026-11-08",
+    "competition": "rpl",
+    "home": "莫斯科斯巴达",
+    "away": "阿克伦陶里亚蒂",
+    "kickoff": "2026-11-08T13:15:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-08T12:32:43.754322+00:00",
+    "handicap_line": -1.75,
+    "handicap_home": 0.91,
+    "handicap_away": 0.98,
+    "total_line": 3.25,
+    "over": 0.84,
+    "under": 1.03
   }
 ]

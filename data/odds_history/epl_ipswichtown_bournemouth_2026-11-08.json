@@ -268,5 +268,35 @@
     "total_line": 2.75,
     "over": 0.97,
     "under": 0.92
+  },
+  {
+    "fixture_key": "epl|ipswichtown|bournemouth|2026-11-08",
+    "competition": "epl",
+    "home": "Ipswich Town",
+    "away": "Bournemouth",
+    "kickoff": "2026-11-08T14:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-07T14:00:00+00:00",
+    "handicap_line": 0.25,
+    "handicap_home": 1.06,
+    "handicap_away": 0.82,
+    "total_line": 2.75,
+    "over": 0.82,
+    "under": 1.04
+  },
+  {
+    "fixture_key": "epl|ipswichtown|bournemouth|2026-11-08",
+    "competition": "epl",
+    "home": "Ipswich Town",
+    "away": "Bournemouth",
+    "kickoff": "2026-11-08T14:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-08T12:31:31.536865+00:00",
+    "handicap_line": 0.5,
+    "handicap_home": 0.94,
+    "handicap_away": 0.95,
+    "total_line": 2.75,
+    "over": 0.96,
+    "under": 0.93
   }
 ]

@@ -298,5 +298,35 @@
     "total_line": 3.5,
     "over": 0.96,
     "under": 0.9
+  },
+  {
+    "fixture_key": "primeira|阿马多拉|本菲卡|2026-11-08",
+    "competition": "primeira",
+    "home": "阿马多拉",
+    "away": "本菲卡",
+    "kickoff": "2026-11-08T20:30:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-07T20:30:00+00:00",
+    "handicap_line": 1.75,
+    "handicap_home": 0.92,
+    "handicap_away": 0.96,
+    "total_line": 3.25,
+    "over": 0.92,
+    "under": 0.94
+  },
+  {
+    "fixture_key": "primeira|阿马多拉|本菲卡|2026-11-08",
+    "competition": "primeira",
+    "home": "阿马多拉",
+    "away": "本菲卡",
+    "kickoff": "2026-11-08T20:30:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-08T12:32:39.655578+00:00",
+    "handicap_line": 2,
+    "handicap_home": 0.85,
+    "handicap_away": 1.04,
+    "total_line": 3.5,
+    "over": 0.96,
+    "under": 0.9
   }
 ]
