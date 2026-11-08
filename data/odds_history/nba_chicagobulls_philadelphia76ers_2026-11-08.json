@@ -208,5 +208,35 @@
     "total_line": 238.0,
     "over": 1.93,
     "under": 1.96
+  },
+  {
+    "fixture_key": "nba|chicagobulls|philadelphia76ers|2026-11-08",
+    "competition": "nba",
+    "home": "Chicago Bulls",
+    "away": "Philadelphia 76ers",
+    "kickoff": "2026-11-08T20:40:00Z",
+    "bookmaker": "unibet",
+    "ts": "2026-11-08T14:31:27.794085+00:00",
+    "handicap_line": 9.5,
+    "handicap_home": 1.91,
+    "handicap_away": 1.9,
+    "total_line": null,
+    "over": null,
+    "under": null
+  },
+  {
+    "fixture_key": "nba|chicagobulls|philadelphia76ers|2026-11-08",
+    "competition": "nba",
+    "home": "Chicago Bulls",
+    "away": "Philadelphia 76ers",
+    "kickoff": "2026-11-08T20:40:00Z",
+    "bookmaker": "pinnacle",
+    "ts": "2026-11-08T14:31:27.794085+00:00",
+    "handicap_line": 8.5,
+    "handicap_home": 1.98,
+    "handicap_away": 1.93,
+    "total_line": 238.0,
+    "over": 1.97,
+    "under": 1.91
   }
 ]

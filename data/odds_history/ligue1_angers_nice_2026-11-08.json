@@ -328,5 +328,35 @@
     "total_line": 2.75,
     "over": 0.99,
     "under": 0.89
+  },
+  {
+    "fixture_key": "ligue1|angers|nice|2026-11-08",
+    "competition": "ligue1",
+    "home": "Angers",
+    "away": "Nice",
+    "kickoff": "2026-11-08T16:15:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-07T16:15:00+00:00",
+    "handicap_line": 0.25,
+    "handicap_home": 0.98,
+    "handicap_away": 0.9,
+    "total_line": 2.75,
+    "over": 0.96,
+    "under": 0.9
+  },
+  {
+    "fixture_key": "ligue1|angers|nice|2026-11-08",
+    "competition": "ligue1",
+    "home": "Angers",
+    "away": "Nice",
+    "kickoff": "2026-11-08T16:15:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-08T14:30:36.602775+00:00",
+    "handicap_line": 0.5,
+    "handicap_home": 0.88,
+    "handicap_away": 1.01,
+    "total_line": 2.75,
+    "over": 1,
+    "under": 0.88
   }
 ]

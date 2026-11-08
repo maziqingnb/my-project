@@ -298,5 +298,35 @@
     "total_line": 3,
     "over": 0.82,
     "under": 1.07
+  },
+  {
+    "fixture_key": "epl|manchesterunited|astonvilla|2026-11-08",
+    "competition": "epl",
+    "home": "Manchester United",
+    "away": "Aston Villa",
+    "kickoff": "2026-11-08T16:30:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-07T16:30:00+00:00",
+    "handicap_line": -0.25,
+    "handicap_home": 0.94,
+    "handicap_away": 0.94,
+    "total_line": 3,
+    "over": 0.97,
+    "under": 0.89
+  },
+  {
+    "fixture_key": "epl|manchesterunited|astonvilla|2026-11-08",
+    "competition": "epl",
+    "home": "Manchester United",
+    "away": "Aston Villa",
+    "kickoff": "2026-11-08T16:30:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-08T14:30:20.263932+00:00",
+    "handicap_line": -0.25,
+    "handicap_home": 0.92,
+    "handicap_away": 0.97,
+    "total_line": 3,
+    "over": 0.89,
+    "under": 1
   }
 ]
