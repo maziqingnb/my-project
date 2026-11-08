@@ -178,5 +178,35 @@
     "total_line": 2.75,
     "over": 1.03,
     "under": 0.85
+  },
+  {
+    "fixture_key": "seriea|fiorentina|juventus|2026-11-08",
+    "competition": "seriea",
+    "home": "Fiorentina",
+    "away": "Juventus",
+    "kickoff": "2026-11-08T19:45:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-07T19:45:00+00:00",
+    "handicap_line": 0.5,
+    "handicap_home": 0.92,
+    "handicap_away": 0.96,
+    "total_line": 2.75,
+    "over": 1.01,
+    "under": 0.87
+  },
+  {
+    "fixture_key": "seriea|fiorentina|juventus|2026-11-08",
+    "competition": "seriea",
+    "home": "Fiorentina",
+    "away": "Juventus",
+    "kickoff": "2026-11-08T19:45:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-08T04:41:07.186145+00:00",
+    "handicap_line": 0.25,
+    "handicap_home": 1.03,
+    "handicap_away": 0.86,
+    "total_line": 2.5,
+    "over": 0.85,
+    "under": 1.03
   }
 ]

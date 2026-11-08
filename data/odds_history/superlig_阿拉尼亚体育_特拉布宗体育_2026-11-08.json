@@ -178,5 +178,35 @@
     "total_line": 2.75,
     "over": 0.9,
     "under": 0.97
+  },
+  {
+    "fixture_key": "superlig|阿拉尼亚体育|特拉布宗体育|2026-11-08",
+    "competition": "superlig",
+    "home": "阿拉尼亚体育",
+    "away": "特拉布宗体育",
+    "kickoff": "2026-11-08T15:30:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-07T15:30:00+00:00",
+    "handicap_line": 0.75,
+    "handicap_home": 0.83,
+    "handicap_away": 1.05,
+    "total_line": 2.75,
+    "over": 0.96,
+    "under": 0.91
+  },
+  {
+    "fixture_key": "superlig|阿拉尼亚体育|特拉布宗体育|2026-11-08",
+    "competition": "superlig",
+    "home": "阿拉尼亚体育",
+    "away": "特拉布宗体育",
+    "kickoff": "2026-11-08T15:30:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-08T04:41:50.609590+00:00",
+    "handicap_line": 0.75,
+    "handicap_home": 1.07,
+    "handicap_away": 0.82,
+    "total_line": 2.75,
+    "over": 0.9,
+    "under": 0.97
   }
 ]

@@ -298,5 +298,35 @@
     "total_line": 229.0,
     "over": 1.98,
     "under": 1.9
+  },
+  {
+    "fixture_key": "nba|portlandtrailblazers|sanantoniospurs|2026-11-08",
+    "competition": "nba",
+    "home": "Portland Trail Blazers",
+    "away": "San Antonio Spurs",
+    "kickoff": "2026-11-08T03:12:00Z",
+    "bookmaker": "unibet",
+    "ts": "2026-11-08T04:42:29.342514+00:00",
+    "handicap_line": 17.5,
+    "handicap_home": 1.82,
+    "handicap_away": 1.91,
+    "total_line": null,
+    "over": null,
+    "under": null
+  },
+  {
+    "fixture_key": "nba|portlandtrailblazers|sanantoniospurs|2026-11-08",
+    "competition": "nba",
+    "home": "Portland Trail Blazers",
+    "away": "San Antonio Spurs",
+    "kickoff": "2026-11-08T03:12:00Z",
+    "bookmaker": "pinnacle",
+    "ts": "2026-11-08T04:42:29.342514+00:00",
+    "handicap_line": 15.5,
+    "handicap_home": 1.91,
+    "handicap_away": 1.88,
+    "total_line": 223.0,
+    "over": 1.92,
+    "under": 1.87
   }
 ]

@@ -178,5 +178,35 @@
     "total_line": 3,
     "over": 1.03,
     "under": 0.84
+  },
+  {
+    "fixture_key": "denmark|奥胡斯|霍森斯|2026-11-08",
+    "competition": "denmark",
+    "home": "奥胡斯",
+    "away": "霍森斯",
+    "kickoff": "2026-11-08T13:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-07T13:00:00+00:00",
+    "handicap_line": -1,
+    "handicap_home": 1,
+    "handicap_away": 0.88,
+    "total_line": 3,
+    "over": 0.96,
+    "under": 0.91
+  },
+  {
+    "fixture_key": "denmark|奥胡斯|霍森斯|2026-11-08",
+    "competition": "denmark",
+    "home": "奥胡斯",
+    "away": "霍森斯",
+    "kickoff": "2026-11-08T13:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-08T04:42:06.163263+00:00",
+    "handicap_line": -0.75,
+    "handicap_home": 0.85,
+    "handicap_away": 1.04,
+    "total_line": 3,
+    "over": 0.95,
+    "under": 0.92
   }
 ]

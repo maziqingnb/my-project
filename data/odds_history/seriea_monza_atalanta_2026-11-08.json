@@ -178,5 +178,35 @@
     "total_line": 3.25,
     "over": 1.01,
     "under": 0.87
+  },
+  {
+    "fixture_key": "seriea|monza|atalanta|2026-11-08",
+    "competition": "seriea",
+    "home": "Monza",
+    "away": "Atalanta",
+    "kickoff": "2026-11-08T14:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-07T14:00:00+00:00",
+    "handicap_line": 0.25,
+    "handicap_home": 1.06,
+    "handicap_away": 0.82,
+    "total_line": 3,
+    "over": 1,
+    "under": 0.88
+  },
+  {
+    "fixture_key": "seriea|monza|atalanta|2026-11-08",
+    "competition": "seriea",
+    "home": "Monza",
+    "away": "Atalanta",
+    "kickoff": "2026-11-08T14:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-08T04:41:04.045804+00:00",
+    "handicap_line": 0.25,
+    "handicap_home": 1.06,
+    "handicap_away": 0.83,
+    "total_line": 3.25,
+    "over": 1.01,
+    "under": 0.87
   }
 ]
