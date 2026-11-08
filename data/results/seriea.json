@@ -2,6 +2,17 @@
   {
     "competition": "seriea",
     "cls": "league",
+    "home": "Napoli",
+    "away": "Lazio",
+    "home_goals": 1,
+    "away_goals": 1,
+    "date": "2026-11-08",
+    "handicap_line": -0.5,
+    "total_line": 2.5
+  },
+  {
+    "competition": "seriea",
+    "cls": "league",
     "home": "Cagliari",
     "away": "Frosinone",
     "home_goals": 1,

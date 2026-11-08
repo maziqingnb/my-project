@@ -2,6 +2,17 @@
   {
     "competition": "rpl",
     "cls": "league",
+    "home": "苏维埃之翼",
+    "away": "奥伦堡加索维克",
+    "home_goals": 2,
+    "away_goals": 0,
+    "date": "2026-11-08",
+    "handicap_line": -0.25,
+    "total_line": 2.5
+  },
+  {
+    "competition": "rpl",
+    "cls": "league",
     "home": "沃罗涅日火炬",
     "away": "莫斯科迪纳摩",
     "home_goals": 1,

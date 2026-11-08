@@ -1,4 +1,65 @@
 {
-  "generated_at": "2026-11-08T12:53:30.944915+00:00",
-  "matches": []
+  "generated_at": "2026-11-08T13:42:30.393740+00:00",
+  "matches": [
+    {
+      "fixture_key": "laliga|elche|realbetis|2026-11-08",
+      "competition": "laliga",
+      "home": "Elche",
+      "away": "Real Betis",
+      "kickoff": "2026-11-08T13:00:00",
+      "status": "live",
+      "home_goals": 0,
+      "away_goals": 0
+    },
+    {
+      "fixture_key": "rpl|莫斯科斯巴达|阿克伦陶里亚蒂|2026-11-08",
+      "competition": "rpl",
+      "home": "莫斯科斯巴达",
+      "away": "阿克伦陶里亚蒂",
+      "kickoff": "2026-11-08T13:15:00",
+      "status": "live",
+      "home_goals": 0,
+      "away_goals": 0
+    },
+    {
+      "fixture_key": "superlig|科鲁姆|费内巴切|2026-11-08",
+      "competition": "superlig",
+      "home": "科鲁姆",
+      "away": "费内巴切",
+      "kickoff": "2026-11-08T13:00:00",
+      "status": "live",
+      "home_goals": 0,
+      "away_goals": 2
+    },
+    {
+      "fixture_key": "denmark|奥胡斯|霍森斯|2026-11-08",
+      "competition": "denmark",
+      "home": "奥胡斯",
+      "away": "霍森斯",
+      "kickoff": "2026-11-08T13:00:00",
+      "status": "live",
+      "home_goals": 0,
+      "away_goals": 0
+    },
+    {
+      "fixture_key": "sweden|哥德堡|马尔默|2026-11-08",
+      "competition": "sweden",
+      "home": "哥德堡",
+      "away": "马尔默",
+      "kickoff": "2026-11-08T13:00:00",
+      "status": "live",
+      "home_goals": 0,
+      "away_goals": 0
+    },
+    {
+      "fixture_key": "sweden|哈尔姆斯塔德|尤尔加登|2026-11-08",
+      "competition": "sweden",
+      "home": "哈尔姆斯塔德",
+      "away": "尤尔加登",
+      "kickoff": "2026-11-08T13:00:00",
+      "status": "live",
+      "home_goals": 1,
+      "away_goals": 0
+    }
+  ]
 }
