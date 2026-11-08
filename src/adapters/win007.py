@@ -21,6 +21,7 @@ from __future__ import annotations
 
 import json
 import re
+from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
@@ -211,14 +212,22 @@ class Win007Client(OddsClient, FixturesClient):
     def fetch_odds(self, comp: Competition) -> list[OddsSnapshot]:
         snaps: list[OddsSnapshot] = []
         now = datetime.now(timezone.utc)
+        pending: list[dict] = []
         for m in self._matches(days=self.days):
             if m["comp_key"] != comp.key:
                 continue
             ko = _dt(m["kickoff"])
             if not ko or ko < now:                # 只取未开赛场次
                 continue
-            ana = self._analysis(m["scheduleid"])
-            snaps.extend(self._snapshots(comp, m, ana))
+            pending.append(m)
+        if not pending:
+            return snaps
+        # 赔率详情页（分析页）HTTP 是整轮赔率同步的主要耗时，逐场串行抓会拖到 ~30 分钟，
+        # 导致临场水位更新慢。这里用线程池并行抓取，把整轮同步压到几分钟。
+        # 单场抓取失败 _analysis 内部已兜底返回 None（回退用赛程页盘口），不会拖垮整轮。
+        with ThreadPoolExecutor(max_workers=6) as ex:
+            for m, ana in ex.map(lambda m: (m, self._analysis(m["scheduleid"])), pending):
+                snaps.extend(self._snapshots(comp, m, ana))
         return snaps
 
     def _snapshots(self, comp: Competition, m: dict, ana: dict | None) -> list[OddsSnapshot]:

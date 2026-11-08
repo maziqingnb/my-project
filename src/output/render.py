@@ -34,6 +34,19 @@ def _parse_ts(s):
     return dt if dt.tzinfo else dt.replace(tzinfo=timezone.utc)
 
 
+def _has_kicked_off(kickoff, now: datetime | None = None) -> bool:
+    """开赛时间是否已过（用于「首推冻结」只锁定已开赛场次）。
+
+    未开赛的场次要随临场水位/盘口变动实时刷新（可关注 -> 强推），
+    开赛后（或已开赛）才冻结首推口径，避免赛后近况/收盘盘把「强推」重算成「可关注」。
+    """
+    ko = _parse_ts(kickoff)
+    if not ko:
+        return False
+    now = now or datetime.now(timezone.utc)
+    return ko < now
+
+
 def _lead_hours(kickoff, history):
     """最新一条水位快照距开赛还有多少小时（负数=已开赛），无数据返回 None。"""
     ko = _parse_ts(kickoff)
@@ -87,12 +100,15 @@ def _update_history(items: list[dict], results_by_comp: dict) -> dict:
         by_id[rec.get("id") or rec.get("fixture_key")] = rec
 
     # 合并本次推荐：同一场比赛只保留「首次推荐」的口径。
-    # 分数/方向/理由/信号在首次上架时冻结，之后每次 analyze 重算只用来补赛果结算，
-    # 不再覆盖推荐本身——否则赛后会因近况/交手、收盘盘变化把「强推」重算成「可关注」。
+    # 未开赛的场次随临场水位/盘口刷新（可关注 -> 强推）；开赛后冻结，之后每次 analyze
+    # 重算只用来补赛果结算，不再覆盖推荐本身——否则赛后会因近况/交手、收盘盘变化
+    # 把「强推」重算成「可关注」。
+    now_dt = datetime.now(timezone.utc)
     for item in items:
         rid = item.get("fixture_key")
-        if rid in by_id:
-            continue            # 已冻结，跳过本次重算（结算在下方统一补）
+        kicked_off = _has_kicked_off(item.get("kickoff"), now_dt)
+        if rid in by_id and kicked_off:
+            continue            # 已开赛：锁定首推口径，跳过本次重算（结算在下方统一补）
         by_id[rid] = {**_record(item), "id": rid}
 
     # 对账本里所有记录重结算（赛果陆续到位后自动补上）
@@ -159,6 +175,7 @@ def render_report(cfg: dict, recs, results_by_comp: dict | None = None,
     prematch_hours = float(analysis_cfg.get("prematch_hours", 2))
     publish_hours = float(analysis_cfg.get("publish_hours", 6))
     frozen_by_id = {} if demo else _frozen_map()
+    now = datetime.now(timezone.utc)
 
     items = []
     for r in recs:
@@ -172,10 +189,11 @@ def render_report(cfg: dict, recs, results_by_comp: dict | None = None,
         item["lead_hours"] = _lead_hours(item.get("kickoff"), item.get("history"))
         item["prematch"] = _is_prematch(item.get("kickoff"), item.get("history"),
                                         prematch_hours)
-        # 已发布过的场次：锁定首推口径，本次只重算赛果结算（lead_hours 仍按最新快照算，
+        # 已开赛的场次：锁定首推口径，本次只重算赛果结算（lead_hours 仍按最新快照算，
         # 用于决定是否还留在看板，不冻结）。
+        # 未开赛的场次：不冻结，让「可关注」随临场水位升到「强推」上架。
         frozen = frozen_by_id.get(r.fixture_key)
-        if frozen:
+        if frozen and _has_kicked_off(item.get("kickoff"), now):
             for k in _HISTORY_FIELDS:
                 if k != "fixture_key" and k in frozen:
                     item[k] = frozen[k]
