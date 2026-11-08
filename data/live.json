@@ -1,4 +1,75 @@
 {
-  "generated_at": "2026-11-07T23:45:12.696595+00:00",
-  "matches": []
+  "generated_at": "2026-11-08T00:20:17.831775+00:00",
+  "matches": [
+    {
+      "fixture_key": "mls|奥斯汀fc|波特兰伐木者|2026-11-08",
+      "competition": "mls",
+      "home": "奥斯汀FC",
+      "away": "波特兰伐木者",
+      "kickoff": "2026-11-08T00:10:00",
+      "status": "live",
+      "home_goals": 0,
+      "away_goals": 1
+    },
+    {
+      "fixture_key": "mls|达拉斯fc|科罗拉多急流|2026-11-08",
+      "competition": "mls",
+      "home": "达拉斯FC",
+      "away": "科罗拉多急流",
+      "kickoff": "2026-11-08T00:10:00",
+      "status": "live",
+      "home_goals": 0,
+      "away_goals": 0
+    },
+    {
+      "fixture_key": "mls|休斯敦迪纳摩|圣路易斯城|2026-11-08",
+      "competition": "mls",
+      "home": "休斯敦迪纳摩",
+      "away": "圣路易斯城",
+      "kickoff": "2026-11-08T00:10:00",
+      "status": "live",
+      "home_goals": 0,
+      "away_goals": 0
+    },
+    {
+      "fixture_key": "mls|明尼苏达联|圣何塞地震|2026-11-08",
+      "competition": "mls",
+      "home": "明尼苏达联",
+      "away": "圣何塞地震",
+      "kickoff": "2026-11-08T00:10:00",
+      "status": "live",
+      "home_goals": 0,
+      "away_goals": 0
+    },
+    {
+      "fixture_key": "mls|皇家盐湖城|洛杉矶银河|2026-11-08",
+      "competition": "mls",
+      "home": "皇家盐湖城",
+      "away": "洛杉矶银河",
+      "kickoff": "2026-11-08T00:10:00",
+      "status": "live",
+      "home_goals": 1,
+      "away_goals": 0
+    },
+    {
+      "fixture_key": "mls|圣地亚哥|堪萨斯城竞技|2026-11-08",
+      "competition": "mls",
+      "home": "圣地亚哥",
+      "away": "堪萨斯城竞技",
+      "kickoff": "2026-11-08T00:10:00",
+      "status": "live",
+      "home_goals": 0,
+      "away_goals": 0
+    },
+    {
+      "fixture_key": "mls|西雅图海湾人|洛杉矶fc|2026-11-08",
+      "competition": "mls",
+      "home": "西雅图海湾人",
+      "away": "洛杉矶FC",
+      "kickoff": "2026-11-08T00:10:00",
+      "status": "live",
+      "home_goals": 1,
+      "away_goals": 0
+    }
+  ]
 }
