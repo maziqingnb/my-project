@@ -238,5 +238,35 @@
     "total_line": 2.5,
     "over": 1.01,
     "under": 0.86
+  },
+  {
+    "fixture_key": "rpl|苏维埃之翼|奥伦堡加索维克|2026-11-08",
+    "competition": "rpl",
+    "home": "苏维埃之翼",
+    "away": "奥伦堡加索维克",
+    "kickoff": "2026-11-08T11:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-07T11:00:00+00:00",
+    "handicap_line": -0.25,
+    "handicap_home": 1.08,
+    "handicap_away": 0.8,
+    "total_line": 2.5,
+    "over": 0.87,
+    "under": 1
+  },
+  {
+    "fixture_key": "rpl|苏维埃之翼|奥伦堡加索维克|2026-11-08",
+    "competition": "rpl",
+    "home": "苏维埃之翼",
+    "away": "奥伦堡加索维克",
+    "kickoff": "2026-11-08T11:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-08T08:39:38.481532+00:00",
+    "handicap_line": 0,
+    "handicap_home": 0.83,
+    "handicap_away": 1.06,
+    "total_line": 2.5,
+    "over": 0.99,
+    "under": 0.88
   }
 ]

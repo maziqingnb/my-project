@@ -58,5 +58,35 @@
     "total_line": 219.0,
     "over": 1.87,
     "under": 2.02
+  },
+  {
+    "fixture_key": "nba|dallasmavericks|brooklynnets|2026-11-09",
+    "competition": "nba",
+    "home": "Dallas Mavericks",
+    "away": "Brooklyn Nets",
+    "kickoff": "2026-11-09T00:40:00Z",
+    "bookmaker": "unibet",
+    "ts": "2026-11-08T08:40:36.841270+00:00",
+    "handicap_line": -8.5,
+    "handicap_home": 1.73,
+    "handicap_away": 2.12,
+    "total_line": null,
+    "over": null,
+    "under": null
+  },
+  {
+    "fixture_key": "nba|dallasmavericks|brooklynnets|2026-11-09",
+    "competition": "nba",
+    "home": "Dallas Mavericks",
+    "away": "Brooklyn Nets",
+    "kickoff": "2026-11-09T00:40:00Z",
+    "bookmaker": "pinnacle",
+    "ts": "2026-11-08T08:40:36.841270+00:00",
+    "handicap_line": -9.0,
+    "handicap_home": 1.88,
+    "handicap_away": 2.04,
+    "total_line": 219.5,
+    "over": 1.95,
+    "under": 1.93
   }
 ]

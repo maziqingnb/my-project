@@ -238,5 +238,35 @@
     "total_line": 2.75,
     "over": 0.81,
     "under": 1.07
+  },
+  {
+    "fixture_key": "laliga|elche|realbetis|2026-11-08",
+    "competition": "laliga",
+    "home": "Elche",
+    "away": "Real Betis",
+    "kickoff": "2026-11-08T13:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-07T13:00:00+00:00",
+    "handicap_line": 0.5,
+    "handicap_home": 0.89,
+    "handicap_away": 0.99,
+    "total_line": 2.75,
+    "over": 0.85,
+    "under": 1.01
+  },
+  {
+    "fixture_key": "laliga|elche|realbetis|2026-11-08",
+    "competition": "laliga",
+    "home": "Elche",
+    "away": "Real Betis",
+    "kickoff": "2026-11-08T13:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-08T08:38:47.276880+00:00",
+    "handicap_line": 0.5,
+    "handicap_home": 0.95,
+    "handicap_away": 0.94,
+    "total_line": 2.75,
+    "over": 0.85,
+    "under": 1.03
   }
 ]
