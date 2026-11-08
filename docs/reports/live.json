@@ -1,85 +1,45 @@
 {
-  "generated_at": "2026-11-08T14:30:02.725220+00:00",
+  "generated_at": "2026-11-08T15:15:12.781824+00:00",
   "matches": [
     {
-      "fixture_key": "epl|brighton|brentford|2026-11-08",
-      "competition": "epl",
-      "home": "Brighton",
-      "away": "Brentford",
-      "kickoff": "2026-11-08T14:00:00",
-      "status": "live",
-      "home_goals": 1,
-      "away_goals": 0
-    },
-    {
-      "fixture_key": "epl|crystalpalace|liverpool|2026-11-08",
-      "competition": "epl",
-      "home": "Crystal Palace",
-      "away": "Liverpool",
-      "kickoff": "2026-11-08T14:00:00",
-      "status": "live",
-      "home_goals": 0,
-      "away_goals": 0
-    },
-    {
-      "fixture_key": "epl|ipswichtown|bournemouth|2026-11-08",
-      "competition": "epl",
-      "home": "Ipswich Town",
-      "away": "Bournemouth",
-      "kickoff": "2026-11-08T14:00:00",
+      "fixture_key": "bundesliga|fckoln|bayerleverkusen|2026-11-08",
+      "competition": "bundesliga",
+      "home": "FC Koln",
+      "away": "Bayer Leverkusen",
+      "kickoff": "2026-11-08T14:30:00",
       "status": "live",
       "home_goals": 0,
       "away_goals": 1
     },
     {
-      "fixture_key": "epl|sunderland|chelsea|2026-11-08",
-      "competition": "epl",
-      "home": "Sunderland",
-      "away": "Chelsea",
-      "kickoff": "2026-11-08T14:00:00",
+      "fixture_key": "greeksl|aek雅典|莱瓦贾科斯|2026-11-08",
+      "competition": "greeksl",
+      "home": "AEK雅典",
+      "away": "莱瓦贾科斯",
+      "kickoff": "2026-11-08T15:00:00",
       "status": "live",
       "home_goals": 0,
       "away_goals": 0
     },
     {
-      "fixture_key": "seriea|genoa|acmilan|2026-11-08",
-      "competition": "seriea",
-      "home": "Genoa",
-      "away": "AC Milan",
-      "kickoff": "2026-11-08T14:00:00",
-      "status": "live",
-      "home_goals": 0,
-      "away_goals": 2
-    },
-    {
-      "fixture_key": "seriea|monza|atalanta|2026-11-08",
-      "competition": "seriea",
-      "home": "Monza",
-      "away": "Atalanta",
-      "kickoff": "2026-11-08T14:00:00",
+      "fixture_key": "greeksl|特里波利斯|卡拉玛达|2026-11-08",
+      "competition": "greeksl",
+      "home": "特里波利斯",
+      "away": "卡拉玛达",
+      "kickoff": "2026-11-08T15:00:00",
       "status": "live",
       "home_goals": 0,
       "away_goals": 0
     },
     {
-      "fixture_key": "ligue1|rennes|lille|2026-11-08",
-      "competition": "ligue1",
-      "home": "Rennes",
-      "away": "Lille",
-      "kickoff": "2026-11-08T14:00:00",
+      "fixture_key": "denmark|兰讷斯|北西兰|2026-11-08",
+      "competition": "denmark",
+      "home": "兰讷斯",
+      "away": "北西兰",
+      "kickoff": "2026-11-08T15:00:00",
       "status": "live",
       "home_goals": 0,
-      "away_goals": 0
-    },
-    {
-      "fixture_key": "poland|比亚韦斯托克雅盖隆|gks卡托威斯|2026-11-08",
-      "competition": "poland",
-      "home": "比亚韦斯托克雅盖隆",
-      "away": "GKS卡托威斯",
-      "kickoff": "2026-11-08T13:45:00",
-      "status": "live",
-      "home_goals": 0,
-      "away_goals": 0
+      "away_goals": 1
     }
   ]
 }
