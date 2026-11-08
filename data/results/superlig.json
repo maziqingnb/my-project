@@ -35,6 +35,17 @@
   {
     "competition": "superlig",
     "cls": "league",
+    "home": "贝西克塔斯",
+    "away": "根克勒比利吉",
+    "home_goals": 3,
+    "away_goals": 0,
+    "date": "2026-11-08",
+    "handicap_line": -1.75,
+    "total_line": 3.25
+  },
+  {
+    "competition": "superlig",
+    "cls": "league",
     "home": "埃于普体育",
     "away": "科贾埃利体育",
     "home_goals": 0,

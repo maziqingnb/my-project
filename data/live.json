@@ -1,22 +1,32 @@
 {
-  "generated_at": "2026-11-08T19:13:34.895719+00:00",
+  "generated_at": "2026-11-08T19:58:25.630037+00:00",
   "matches": [
     {
-      "fixture_key": "bundesliga|hoffenheim|schalke04|2026-11-08",
-      "competition": "bundesliga",
-      "home": "Hoffenheim",
-      "away": "Schalke 04",
-      "kickoff": "2026-11-08T18:30:00",
+      "fixture_key": "seriea|fiorentina|juventus|2026-11-08",
+      "competition": "seriea",
+      "home": "Fiorentina",
+      "away": "Juventus",
+      "kickoff": "2026-11-08T19:45:00",
       "status": "live",
-      "home_goals": 2,
+      "home_goals": 1,
       "away_goals": 0
     },
     {
-      "fixture_key": "greeksl|奥林匹亚科斯|塞萨洛尼基|2026-11-08",
-      "competition": "greeksl",
-      "home": "奥林匹亚科斯",
-      "away": "塞萨洛尼基",
-      "kickoff": "2026-11-08T19:00:00",
+      "fixture_key": "ligue1|lens|marseille|2026-11-08",
+      "competition": "ligue1",
+      "home": "Lens",
+      "away": "Marseille",
+      "kickoff": "2026-11-08T19:45:00",
+      "status": "live",
+      "home_goals": 0,
+      "away_goals": 1
+    },
+    {
+      "fixture_key": "poland|波兹南莱赫|卢宾扎格勒比|2026-11-08",
+      "competition": "poland",
+      "home": "波兹南莱赫",
+      "away": "卢宾扎格勒比",
+      "kickoff": "2026-11-08T19:15:00",
       "status": "live",
       "home_goals": 0,
       "away_goals": 0
