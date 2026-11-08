@@ -1,25 +1,15 @@
 {
-  "generated_at": "2026-11-08T11:22:43.077798+00:00",
+  "generated_at": "2026-11-08T12:04:14.805425+00:00",
   "matches": [
     {
-      "fixture_key": "rpl|苏维埃之翼|奥伦堡加索维克|2026-11-08",
-      "competition": "rpl",
-      "home": "苏维埃之翼",
-      "away": "奥伦堡加索维克",
-      "kickoff": "2026-11-08T11:00:00",
-      "status": "live",
-      "home_goals": 1,
-      "away_goals": 0
-    },
-    {
-      "fixture_key": "denmark|哥本哈根|布隆德比|2026-11-08",
-      "competition": "denmark",
-      "home": "哥本哈根",
-      "away": "布隆德比",
-      "kickoff": "2026-11-08T11:00:00",
+      "fixture_key": "seriea|napoli|lazio|2026-11-08",
+      "competition": "seriea",
+      "home": "Napoli",
+      "away": "Lazio",
+      "kickoff": "2026-11-08T11:30:00",
       "status": "live",
       "home_goals": 0,
-      "away_goals": 0
+      "away_goals": 1
     }
   ]
 }
