@@ -568,5 +568,20 @@
     "total_line": 215.5,
     "over": 1.88,
     "under": 1.9
+  },
+  {
+    "fixture_key": "nba|milwaukeebucks|bostonceltics|2026-11-09",
+    "competition": "nba",
+    "home": "Milwaukee Bucks",
+    "away": "Boston Celtics",
+    "kickoff": "2026-11-09T01:12:00Z",
+    "bookmaker": "unibet",
+    "ts": "2026-11-09T03:14:52.033517+00:00",
+    "handicap_line": 20.5,
+    "handicap_home": 2.08,
+    "handicap_away": 1.68,
+    "total_line": null,
+    "over": null,
+    "under": null
   }
 ]

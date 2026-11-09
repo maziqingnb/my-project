@@ -568,5 +568,35 @@
     "total_line": 226.5,
     "over": 1.96,
     "under": 1.93
+  },
+  {
+    "fixture_key": "nba|losangelesclippers|neworleanspelicans|2026-11-09",
+    "competition": "nba",
+    "home": "Los Angeles Clippers",
+    "away": "New Orleans Pelicans",
+    "kickoff": "2026-11-09T02:12:00Z",
+    "bookmaker": "unibet",
+    "ts": "2026-11-09T03:14:52.033517+00:00",
+    "handicap_line": -4.5,
+    "handicap_home": 1.9,
+    "handicap_away": 1.83,
+    "total_line": null,
+    "over": null,
+    "under": null
+  },
+  {
+    "fixture_key": "nba|losangelesclippers|neworleanspelicans|2026-11-09",
+    "competition": "nba",
+    "home": "Los Angeles Clippers",
+    "away": "New Orleans Pelicans",
+    "kickoff": "2026-11-09T02:12:00Z",
+    "bookmaker": "pinnacle",
+    "ts": "2026-11-09T03:14:52.033517+00:00",
+    "handicap_line": -4.5,
+    "handicap_home": 1.92,
+    "handicap_away": 1.87,
+    "total_line": 232.0,
+    "over": 1.88,
+    "under": 1.9
   }
 ]
