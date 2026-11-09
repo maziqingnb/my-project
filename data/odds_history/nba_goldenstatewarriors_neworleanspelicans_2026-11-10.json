@@ -28,5 +28,20 @@
     "total_line": null,
     "over": null,
     "under": null
+  },
+  {
+    "fixture_key": "nba|goldenstatewarriors|neworleanspelicans|2026-11-10",
+    "competition": "nba",
+    "home": "Golden State Warriors",
+    "away": "New Orleans Pelicans",
+    "kickoff": "2026-11-10T03:10:00Z",
+    "bookmaker": "unibet",
+    "ts": "2026-11-09T07:08:46.716319+00:00",
+    "handicap_line": -10.5,
+    "handicap_home": 2.12,
+    "handicap_away": 1.72,
+    "total_line": null,
+    "over": null,
+    "under": null
   }
 ]
