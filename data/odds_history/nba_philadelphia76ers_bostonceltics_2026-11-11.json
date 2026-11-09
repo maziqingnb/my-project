@@ -253,5 +253,20 @@
     "total_line": null,
     "over": null,
     "under": null
+  },
+  {
+    "fixture_key": "nba|philadelphia76ers|bostonceltics|2026-11-11",
+    "competition": "nba",
+    "home": "Philadelphia 76ers",
+    "away": "Boston Celtics",
+    "kickoff": "2026-11-11T01:10:00Z",
+    "bookmaker": "unibet",
+    "ts": "2026-11-09T19:46:58.198897+00:00",
+    "handicap_line": -0.5,
+    "handicap_home": 2.05,
+    "handicap_away": 1.78,
+    "total_line": null,
+    "over": null,
+    "under": null
   }
 ]

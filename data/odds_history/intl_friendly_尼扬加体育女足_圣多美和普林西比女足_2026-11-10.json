@@ -43,5 +43,20 @@
     "total_line": null,
     "over": null,
     "under": null
+  },
+  {
+    "fixture_key": "intl_friendly|尼扬加体育女足|圣多美和普林西比女足|2026-11-10",
+    "competition": "intl_friendly",
+    "home": "尼扬加体育女足",
+    "away": "圣多美和普林西比女足",
+    "kickoff": "2026-11-10T15:30:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-09T19:47:00.314018+00:00",
+    "handicap_line": null,
+    "handicap_home": null,
+    "handicap_away": null,
+    "total_line": null,
+    "over": null,
+    "under": null
   }
 ]
