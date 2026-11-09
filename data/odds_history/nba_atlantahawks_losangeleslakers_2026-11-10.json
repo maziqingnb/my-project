@@ -283,5 +283,35 @@
     "total_line": 235.5,
     "over": 1.88,
     "under": 1.99
+  },
+  {
+    "fixture_key": "nba|atlantahawks|losangeleslakers|2026-11-10",
+    "competition": "nba",
+    "home": "Atlanta Hawks",
+    "away": "Los Angeles Lakers",
+    "kickoff": "2026-11-10T00:10:00Z",
+    "bookmaker": "unibet",
+    "ts": "2026-11-09T16:30:16.852133+00:00",
+    "handicap_line": -0.5,
+    "handicap_home": 1.85,
+    "handicap_away": 1.96,
+    "total_line": null,
+    "over": null,
+    "under": null
+  },
+  {
+    "fixture_key": "nba|atlantahawks|losangeleslakers|2026-11-10",
+    "competition": "nba",
+    "home": "Atlanta Hawks",
+    "away": "Los Angeles Lakers",
+    "kickoff": "2026-11-10T00:10:00Z",
+    "bookmaker": "pinnacle",
+    "ts": "2026-11-09T16:30:16.852133+00:00",
+    "handicap_line": -1.5,
+    "handicap_home": 1.91,
+    "handicap_away": 1.98,
+    "total_line": 235.5,
+    "over": 1.89,
+    "under": 1.98
   }
 ]
