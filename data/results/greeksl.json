@@ -13,13 +13,13 @@
   {
     "competition": "greeksl",
     "cls": "league",
-    "home": "特里波利斯",
-    "away": "卡拉玛达",
-    "home_goals": 1,
-    "away_goals": 1,
+    "home": "OFI克里特",
+    "away": "阿特罗米托斯",
+    "home_goals": 0,
+    "away_goals": 0,
     "date": "2026-11-08",
     "handicap_line": -0.5,
-    "total_line": 2.25
+    "total_line": 2.5
   },
   {
     "competition": "greeksl",
@@ -35,17 +35,6 @@
   {
     "competition": "greeksl",
     "cls": "league",
-    "home": "OFI克里特",
-    "away": "阿特罗米托斯",
-    "home_goals": 0,
-    "away_goals": 0,
-    "date": "2026-11-08",
-    "handicap_line": -0.5,
-    "total_line": 2.5
-  },
-  {
-    "competition": "greeksl",
-    "cls": "league",
     "home": "奥林匹亚科斯",
     "away": "塞萨洛尼基",
     "home_goals": 1,
@@ -53,6 +42,17 @@
     "date": "2026-11-08",
     "handicap_line": -0.75,
     "total_line": 2.75
+  },
+  {
+    "competition": "greeksl",
+    "cls": "league",
+    "home": "特里波利斯",
+    "away": "卡拉玛达",
+    "home_goals": 1,
+    "away_goals": 1,
+    "date": "2026-11-08",
+    "handicap_line": -0.5,
+    "total_line": 2.25
   },
   {
     "competition": "greeksl",
@@ -79,17 +79,6 @@
   {
     "competition": "greeksl",
     "cls": "league",
-    "home": "阿特罗米托斯",
-    "away": "维洛斯NFC",
-    "home_goals": 3,
-    "away_goals": 0,
-    "date": "2026-11-02",
-    "handicap_line": -0.5,
-    "total_line": 2.5
-  },
-  {
-    "competition": "greeksl",
-    "cls": "league",
     "home": "卡拉玛达",
     "away": "伊拉克里斯",
     "home_goals": 1,
@@ -101,24 +90,13 @@
   {
     "competition": "greeksl",
     "cls": "league",
-    "home": "莱瓦贾科斯",
-    "away": "阿里斯",
+    "home": "阿特罗米托斯",
+    "away": "维洛斯NFC",
     "home_goals": 3,
     "away_goals": 0,
-    "date": "2026-11-01",
-    "handicap_line": 0.5,
-    "total_line": 2.25
-  },
-  {
-    "competition": "greeksl",
-    "cls": "league",
-    "home": "帕纳多里高斯",
-    "away": "OFI克里特",
-    "home_goals": 0,
-    "away_goals": 1,
-    "date": "2026-11-01",
-    "handicap_line": -0.0,
-    "total_line": 2.25
+    "date": "2026-11-02",
+    "handicap_line": -0.5,
+    "total_line": 2.5
   },
   {
     "competition": "greeksl",
@@ -134,6 +112,17 @@
   {
     "competition": "greeksl",
     "cls": "league",
+    "home": "帕纳多里高斯",
+    "away": "OFI克里特",
+    "home_goals": 0,
+    "away_goals": 1,
+    "date": "2026-11-01",
+    "handicap_line": 0.0,
+    "total_line": 2.25
+  },
+  {
+    "competition": "greeksl",
+    "cls": "league",
     "home": "帕纳辛纳科斯",
     "away": "AEK雅典",
     "home_goals": 2,
@@ -141,6 +130,17 @@
     "date": "2026-11-01",
     "handicap_line": -0.25,
     "total_line": 2.5
+  },
+  {
+    "competition": "greeksl",
+    "cls": "league",
+    "home": "莱瓦贾科斯",
+    "away": "阿里斯",
+    "home_goals": 3,
+    "away_goals": 0,
+    "date": "2026-11-01",
+    "handicap_line": 0.5,
+    "total_line": 2.25
   },
   {
     "competition": "greeksl",

@@ -2,6 +2,28 @@
   {
     "competition": "laliga",
     "cls": "league",
+    "home": "Atletico Madrid",
+    "away": "Barcelona",
+    "home_goals": 1,
+    "away_goals": 2,
+    "date": "2026-11-08",
+    "handicap_line": 0.5,
+    "total_line": 3.5
+  },
+  {
+    "competition": "laliga",
+    "cls": "league",
+    "home": "Celta Vigo",
+    "away": "Levante",
+    "home_goals": 0,
+    "away_goals": 0,
+    "date": "2026-11-08",
+    "handicap_line": -0.5,
+    "total_line": 2.5
+  },
+  {
+    "competition": "laliga",
+    "cls": "league",
     "home": "Elche",
     "away": "Real Betis",
     "home_goals": 0,
@@ -24,17 +46,6 @@
   {
     "competition": "laliga",
     "cls": "league",
-    "home": "Celta Vigo",
-    "away": "Levante",
-    "home_goals": 0,
-    "away_goals": 0,
-    "date": "2026-11-08",
-    "handicap_line": -0.5,
-    "total_line": 2.5
-  },
-  {
-    "competition": "laliga",
-    "cls": "league",
     "home": "Villarreal",
     "away": "Getafe",
     "home_goals": 2,
@@ -46,13 +57,13 @@
   {
     "competition": "laliga",
     "cls": "league",
-    "home": "Atletico Madrid",
-    "away": "Barcelona",
-    "home_goals": 1,
-    "away_goals": 2,
-    "date": "2026-11-08",
-    "handicap_line": 0.5,
-    "total_line": 3.5
+    "home": "Espanyol",
+    "away": "Deportivo La Coruna",
+    "home_goals": 0,
+    "away_goals": 0,
+    "date": "2026-11-07",
+    "handicap_line": -0.25,
+    "total_line": 2.5
   },
   {
     "competition": "laliga",
@@ -64,17 +75,6 @@
     "date": "2026-11-07",
     "handicap_line": -0.25,
     "total_line": 2.75
-  },
-  {
-    "competition": "laliga",
-    "cls": "league",
-    "home": "Espanyol",
-    "away": "Deportivo La Coruna",
-    "home_goals": 0,
-    "away_goals": 0,
-    "date": "2026-11-07",
-    "handicap_line": -0.25,
-    "total_line": 2.5
   },
   {
     "competition": "laliga",
@@ -123,12 +123,34 @@
   {
     "competition": "laliga",
     "cls": "league",
+    "home": "Athletic Bilbao",
+    "away": "Real Sociedad",
+    "home_goals": 2,
+    "away_goals": 1,
+    "date": "2026-11-01",
+    "handicap_line": -0.5,
+    "total_line": 2.5
+  },
+  {
+    "competition": "laliga",
+    "cls": "league",
+    "home": "Elche",
+    "away": "Valencia",
+    "home_goals": 0,
+    "away_goals": 1,
+    "date": "2026-11-01",
+    "handicap_line": 0.0,
+    "total_line": 2.5
+  },
+  {
+    "competition": "laliga",
+    "cls": "league",
     "home": "Getafe",
     "away": "Sevilla",
     "home_goals": 3,
     "away_goals": 1,
     "date": "2026-11-01",
-    "handicap_line": -0.0,
+    "handicap_line": 0.0,
     "total_line": 2.0
   },
   {
@@ -145,24 +167,13 @@
   {
     "competition": "laliga",
     "cls": "league",
-    "home": "Elche",
-    "away": "Valencia",
-    "home_goals": 0,
+    "home": "Barcelona",
+    "away": "Alaves",
+    "home_goals": 6,
     "away_goals": 1,
-    "date": "2026-11-01",
-    "handicap_line": -0.0,
-    "total_line": 2.5
-  },
-  {
-    "competition": "laliga",
-    "cls": "league",
-    "home": "Athletic Bilbao",
-    "away": "Real Sociedad",
-    "home_goals": 2,
-    "away_goals": 1,
-    "date": "2026-11-01",
-    "handicap_line": -0.5,
-    "total_line": 2.5
+    "date": "2026-10-31",
+    "handicap_line": -2.5,
+    "total_line": 4.0
   },
   {
     "competition": "laliga",
@@ -196,17 +207,6 @@
     "date": "2026-10-31",
     "handicap_line": -1.25,
     "total_line": 3.0
-  },
-  {
-    "competition": "laliga",
-    "cls": "league",
-    "home": "Barcelona",
-    "away": "Alaves",
-    "home_goals": 6,
-    "away_goals": 1,
-    "date": "2026-10-31",
-    "handicap_line": -2.5,
-    "total_line": 4.0
   },
   {
     "competition": "laliga",

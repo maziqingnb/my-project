@@ -2,17 +2,6 @@
   {
     "competition": "afc_cl",
     "cls": "cup",
-    "home": "浦项制铁",
-    "away": "大阪钢巴",
-    "home_goals": 3,
-    "away_goals": 3,
-    "date": "2026-11-04",
-    "handicap_line": 0.5,
-    "total_line": 2.5
-  },
-  {
-    "competition": "afc_cl",
-    "cls": "cup",
     "home": "武里南联",
     "away": "鹿岛鹿角",
     "home_goals": 0,
@@ -24,13 +13,13 @@
   {
     "competition": "afc_cl",
     "cls": "cup",
-    "home": "纽卡斯尔喷气机",
-    "away": "上海海港",
-    "home_goals": 2,
-    "away_goals": 4,
-    "date": "2026-11-03",
-    "handicap_line": 0.25,
-    "total_line": 3.25
+    "home": "浦项制铁",
+    "away": "大阪钢巴",
+    "home_goals": 3,
+    "away_goals": 3,
+    "date": "2026-11-04",
+    "handicap_line": 0.5,
+    "total_line": 2.5
   },
   {
     "competition": "afc_cl",
@@ -40,19 +29,30 @@
     "home_goals": 2,
     "away_goals": 0,
     "date": "2026-11-03",
-    "handicap_line": -0.0,
+    "handicap_line": 0.0,
     "total_line": 2.75
   },
   {
     "competition": "afc_cl",
     "cls": "cup",
-    "home": "神户胜利船",
-    "away": "拉查布里府",
-    "home_goals": 3,
-    "away_goals": 2,
+    "home": "利雅得新月",
+    "away": "迪拜青年国民",
+    "home_goals": 2,
+    "away_goals": 0,
     "date": "2026-11-03",
-    "handicap_line": -2.0,
-    "total_line": 3.25
+    "handicap_line": -1.25,
+    "total_line": 3.0
+  },
+  {
+    "competition": "afc_cl",
+    "cls": "cup",
+    "home": "德黑兰独立",
+    "away": "艾沙姆",
+    "home_goals": 1,
+    "away_goals": 0,
+    "date": "2026-11-03",
+    "handicap_line": -0.25,
+    "total_line": 2.25
   },
   {
     "competition": "afc_cl",
@@ -63,6 +63,17 @@
     "away_goals": 0,
     "date": "2026-11-03",
     "handicap_line": -1.0,
+    "total_line": 2.75
+  },
+  {
+    "competition": "afc_cl",
+    "cls": "cup",
+    "home": "河内公安",
+    "away": "京都不死鸟",
+    "home_goals": 0,
+    "away_goals": 0,
+    "date": "2026-11-03",
+    "handicap_line": 0.25,
     "total_line": 2.75
   },
   {
@@ -79,35 +90,46 @@
   {
     "competition": "afc_cl",
     "cls": "cup",
-    "home": "河内公安",
-    "away": "京都不死鸟",
-    "home_goals": 0,
-    "away_goals": 0,
+    "home": "神户胜利船",
+    "away": "拉查布里府",
+    "home_goals": 3,
+    "away_goals": 2,
+    "date": "2026-11-03",
+    "handicap_line": -2.0,
+    "total_line": 3.25
+  },
+  {
+    "competition": "afc_cl",
+    "cls": "cup",
+    "home": "纽卡斯尔喷气机",
+    "away": "上海海港",
+    "home_goals": 2,
+    "away_goals": 4,
     "date": "2026-11-03",
     "handicap_line": 0.25,
-    "total_line": 2.75
+    "total_line": 3.25
   },
   {
     "competition": "afc_cl",
     "cls": "cup",
-    "home": "德黑兰独立",
-    "away": "艾沙姆",
+    "home": "加拉法",
+    "away": "卡达西亚",
+    "home_goals": 0,
+    "away_goals": 5,
+    "date": "2026-11-02",
+    "handicap_line": 1.25,
+    "total_line": 3.25
+  },
+  {
+    "competition": "afc_cl",
+    "cls": "cup",
+    "home": "吉达联合",
+    "away": "艾因",
     "home_goals": 1,
-    "away_goals": 0,
-    "date": "2026-11-03",
+    "away_goals": 4,
+    "date": "2026-11-02",
     "handicap_line": -0.25,
-    "total_line": 2.25
-  },
-  {
-    "competition": "afc_cl",
-    "cls": "cup",
-    "home": "利雅得新月",
-    "away": "迪拜青年国民",
-    "home_goals": 2,
-    "away_goals": 0,
-    "date": "2026-11-03",
-    "handicap_line": -1.25,
-    "total_line": 3.0
+    "total_line": 2.75
   },
   {
     "competition": "afc_cl",
@@ -134,17 +156,6 @@
   {
     "competition": "afc_cl",
     "cls": "cup",
-    "home": "迪拜青年国民",
-    "away": "巴格达空军",
-    "home_goals": 4,
-    "away_goals": 3,
-    "date": "2026-11-02",
-    "handicap_line": -1.75,
-    "total_line": 3.25
-  },
-  {
-    "competition": "afc_cl",
-    "cls": "cup",
     "home": "萨德",
     "away": "吉达国民",
     "home_goals": 0,
@@ -156,34 +167,12 @@
   {
     "competition": "afc_cl",
     "cls": "cup",
-    "home": "吉达联合",
-    "away": "艾因",
-    "home_goals": 1,
-    "away_goals": 4,
+    "home": "迪拜青年国民",
+    "away": "巴格达空军",
+    "home_goals": 4,
+    "away_goals": 3,
     "date": "2026-11-02",
-    "handicap_line": -0.25,
-    "total_line": 2.75
-  },
-  {
-    "competition": "afc_cl",
-    "cls": "cup",
-    "home": "加拉法",
-    "away": "卡达西亚",
-    "home_goals": 0,
-    "away_goals": 5,
-    "date": "2026-11-02",
-    "handicap_line": 1.25,
-    "total_line": 3.25
-  },
-  {
-    "competition": "afc_cl",
-    "cls": "cup",
-    "home": "鹿岛鹿角",
-    "away": "浦项制铁",
-    "home_goals": 3,
-    "away_goals": 0,
-    "date": "2026-10-28",
-    "handicap_line": -1.5,
+    "handicap_line": -1.75,
     "total_line": 3.25
   },
   {
@@ -196,5 +185,16 @@
     "date": "2026-10-28",
     "handicap_line": -0.75,
     "total_line": 2.75
+  },
+  {
+    "competition": "afc_cl",
+    "cls": "cup",
+    "home": "鹿岛鹿角",
+    "away": "浦项制铁",
+    "home_goals": 3,
+    "away_goals": 0,
+    "date": "2026-10-28",
+    "handicap_line": -1.5,
+    "total_line": 3.25
   }
 ]

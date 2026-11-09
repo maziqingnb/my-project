@@ -2,12 +2,12 @@
   {
     "competition": "primeira",
     "cls": "league",
-    "home": "葡萄牙国民",
-    "away": "维塞乌",
+    "home": "吉马良斯",
+    "away": "波尔图",
     "home_goals": 1,
-    "away_goals": 0,
+    "away_goals": 2,
     "date": "2026-11-08",
-    "handicap_line": -0.0,
+    "handicap_line": 0.75,
     "total_line": 2.5
   },
   {
@@ -24,12 +24,23 @@
   {
     "competition": "primeira",
     "cls": "league",
-    "home": "吉马良斯",
-    "away": "波尔图",
+    "home": "葡萄牙国民",
+    "away": "维塞乌",
     "home_goals": 1,
-    "away_goals": 2,
+    "away_goals": 0,
     "date": "2026-11-08",
-    "handicap_line": 0.75,
+    "handicap_line": 0.0,
+    "total_line": 2.5
+  },
+  {
+    "competition": "primeira",
+    "cls": "league",
+    "home": "里奥阿维",
+    "away": "布拉加",
+    "home_goals": 0,
+    "away_goals": 1,
+    "date": "2026-11-08",
+    "handicap_line": 1.0,
     "total_line": 2.5
   },
   {
@@ -42,17 +53,6 @@
     "date": "2026-11-08",
     "handicap_line": 1.75,
     "total_line": 3.25
-  },
-  {
-    "competition": "primeira",
-    "cls": "league",
-    "home": "里奥阿维",
-    "away": "布拉加",
-    "home_goals": 0,
-    "away_goals": 1,
-    "date": "2026-11-08",
-    "handicap_line": 1.0,
-    "total_line": 2.5
   },
   {
     "competition": "primeira",
@@ -90,6 +90,17 @@
   {
     "competition": "primeira",
     "cls": "league",
+    "home": "吉维森特",
+    "away": "吉马良斯",
+    "home_goals": 0,
+    "away_goals": 0,
+    "date": "2026-11-02",
+    "handicap_line": 0.0,
+    "total_line": 2.25
+  },
+  {
+    "competition": "primeira",
+    "cls": "league",
     "home": "本菲卡",
     "away": "艾华卡",
     "home_goals": 1,
@@ -101,24 +112,13 @@
   {
     "competition": "primeira",
     "cls": "league",
-    "home": "吉维森特",
-    "away": "吉马良斯",
-    "home_goals": 0,
-    "away_goals": 0,
-    "date": "2026-11-02",
-    "handicap_line": -0.0,
-    "total_line": 2.25
-  },
-  {
-    "competition": "primeira",
-    "cls": "league",
-    "home": "阿罗卡",
-    "away": "葡萄牙国民",
-    "home_goals": 1,
+    "home": "布拉加",
+    "away": "法马利康",
+    "home_goals": 3,
     "away_goals": 0,
     "date": "2026-11-01",
-    "handicap_line": -0.5,
-    "total_line": 2.5
+    "handicap_line": -0.75,
+    "total_line": 2.25
   },
   {
     "competition": "primeira",
@@ -134,6 +134,17 @@
   {
     "competition": "primeira",
     "cls": "league",
+    "home": "阿罗卡",
+    "away": "葡萄牙国民",
+    "home_goals": 1,
+    "away_goals": 0,
+    "date": "2026-11-01",
+    "handicap_line": -0.5,
+    "total_line": 2.5
+  },
+  {
+    "competition": "primeira",
+    "cls": "league",
     "home": "马里迪莫",
     "away": "圣克拉拉",
     "home_goals": 0,
@@ -141,17 +152,6 @@
     "date": "2026-11-01",
     "handicap_line": 0.25,
     "total_line": 2.0
-  },
-  {
-    "competition": "primeira",
-    "cls": "league",
-    "home": "布拉加",
-    "away": "法马利康",
-    "home_goals": 3,
-    "away_goals": 0,
-    "date": "2026-11-01",
-    "handicap_line": -0.75,
-    "total_line": 2.25
   },
   {
     "competition": "primeira",

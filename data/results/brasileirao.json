@@ -57,23 +57,23 @@
   {
     "competition": "brasileirao",
     "cls": "league",
-    "home": "巴西国际",
-    "away": "科里蒂巴",
-    "home_goals": 1,
-    "away_goals": 0,
-    "date": "2026-11-04",
-    "handicap_line": -1.0,
-    "total_line": 2.75
-  },
-  {
-    "competition": "brasileirao",
-    "cls": "league",
     "home": "巴拉纳竞技",
     "away": "瓦斯科达伽马",
     "home_goals": 1,
     "away_goals": 3,
     "date": "2026-11-04",
     "handicap_line": -0.25,
+    "total_line": 2.75
+  },
+  {
+    "competition": "brasileirao",
+    "cls": "league",
+    "home": "巴西国际",
+    "away": "科里蒂巴",
+    "home_goals": 1,
+    "away_goals": 0,
+    "date": "2026-11-04",
+    "handicap_line": -1.0,
     "total_line": 2.75
   },
   {
@@ -128,7 +128,7 @@
     "home_goals": 2,
     "away_goals": 0,
     "date": "2026-10-30",
-    "handicap_line": -0.0,
+    "handicap_line": 0.0,
     "total_line": 2.5
   },
   {
@@ -167,23 +167,23 @@
   {
     "competition": "brasileirao",
     "cls": "league",
-    "home": "米内罗竞技",
-    "away": "克鲁塞罗",
-    "home_goals": 0,
-    "away_goals": 1,
-    "date": "2026-10-29",
-    "handicap_line": -0.0,
-    "total_line": 2.75
-  },
-  {
-    "competition": "brasileirao",
-    "cls": "league",
     "home": "瓦斯科达伽马",
     "away": "弗拉门戈",
     "home_goals": 1,
     "away_goals": 4,
     "date": "2026-10-29",
     "handicap_line": 0.5,
+    "total_line": 2.75
+  },
+  {
+    "competition": "brasileirao",
+    "cls": "league",
+    "home": "米内罗竞技",
+    "away": "克鲁塞罗",
+    "home_goals": 0,
+    "away_goals": 1,
+    "date": "2026-10-29",
+    "handicap_line": 0.0,
     "total_line": 2.75
   },
   {
@@ -216,7 +216,7 @@
     "home_goals": 0,
     "away_goals": 0,
     "date": "2026-10-28",
-    "handicap_line": -0.0,
+    "handicap_line": 0.0,
     "total_line": 2.5
   }
 ]

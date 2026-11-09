@@ -35,17 +35,6 @@
   {
     "competition": "epl",
     "cls": "league",
-    "home": "Sunderland",
-    "away": "Chelsea",
-    "home_goals": 1,
-    "away_goals": 0,
-    "date": "2026-11-08",
-    "handicap_line": 0.25,
-    "total_line": 2.5
-  },
-  {
-    "competition": "epl",
-    "cls": "league",
     "home": "Manchester United",
     "away": "Aston Villa",
     "home_goals": 4,
@@ -57,12 +46,12 @@
   {
     "competition": "epl",
     "cls": "league",
-    "home": "Leeds United",
-    "away": "Tottenham Hotspur",
+    "home": "Sunderland",
+    "away": "Chelsea",
     "home_goals": 1,
     "away_goals": 0,
-    "date": "2026-11-07",
-    "handicap_line": -0.25,
+    "date": "2026-11-08",
+    "handicap_line": 0.25,
     "total_line": 2.5
   },
   {
@@ -86,6 +75,17 @@
     "date": "2026-11-07",
     "handicap_line": -0.25,
     "total_line": 2.75
+  },
+  {
+    "competition": "epl",
+    "cls": "league",
+    "home": "Leeds United",
+    "away": "Tottenham Hotspur",
+    "home_goals": 1,
+    "away_goals": 0,
+    "date": "2026-11-07",
+    "handicap_line": -0.25,
+    "total_line": 2.5
   },
   {
     "competition": "epl",
@@ -134,13 +134,13 @@
   {
     "competition": "epl",
     "cls": "league",
-    "home": "Chelsea",
-    "away": "Manchester United",
-    "home_goals": 2,
-    "away_goals": 0,
+    "home": "Aston Villa",
+    "away": "Fulham",
+    "home_goals": 1,
+    "away_goals": 1,
     "date": "2026-10-31",
     "handicap_line": -0.5,
-    "total_line": 3.0
+    "total_line": 2.75
   },
   {
     "competition": "epl",
@@ -167,12 +167,23 @@
   {
     "competition": "epl",
     "cls": "league",
+    "home": "Chelsea",
+    "away": "Manchester United",
+    "home_goals": 2,
+    "away_goals": 0,
+    "date": "2026-10-31",
+    "handicap_line": -0.5,
+    "total_line": 3.0
+  },
+  {
+    "competition": "epl",
+    "cls": "league",
     "home": "Coventry City",
     "away": "Sunderland",
     "home_goals": 3,
     "away_goals": 1,
     "date": "2026-10-31",
-    "handicap_line": -0.0,
+    "handicap_line": 0.0,
     "total_line": 2.5
   },
   {
@@ -183,7 +194,7 @@
     "home_goals": 2,
     "away_goals": 2,
     "date": "2026-10-31",
-    "handicap_line": -0.0,
+    "handicap_line": 0.0,
     "total_line": 2.75
   },
   {
@@ -206,17 +217,6 @@
     "away_goals": 0,
     "date": "2026-10-31",
     "handicap_line": -0.75,
-    "total_line": 2.75
-  },
-  {
-    "competition": "epl",
-    "cls": "league",
-    "home": "Aston Villa",
-    "away": "Fulham",
-    "home_goals": 1,
-    "away_goals": 1,
-    "date": "2026-10-31",
-    "handicap_line": -0.5,
     "total_line": 2.75
   }
 ]

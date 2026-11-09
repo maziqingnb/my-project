@@ -2,6 +2,28 @@
   {
     "competition": "denmark",
     "cls": "league",
+    "home": "中日德兰",
+    "away": "桑德捷斯基",
+    "home_goals": 2,
+    "away_goals": 2,
+    "date": "2026-11-08",
+    "handicap_line": -1.5,
+    "total_line": 3.5
+  },
+  {
+    "competition": "denmark",
+    "cls": "league",
+    "home": "兰讷斯",
+    "away": "北西兰",
+    "home_goals": 1,
+    "away_goals": 6,
+    "date": "2026-11-08",
+    "handicap_line": 0.75,
+    "total_line": 3.5
+  },
+  {
+    "competition": "denmark",
+    "cls": "league",
     "home": "哥本哈根",
     "away": "布隆德比",
     "home_goals": 1,
@@ -24,34 +46,12 @@
   {
     "competition": "denmark",
     "cls": "league",
-    "home": "兰讷斯",
-    "away": "北西兰",
-    "home_goals": 1,
-    "away_goals": 6,
-    "date": "2026-11-08",
-    "handicap_line": 0.75,
-    "total_line": 3.5
-  },
-  {
-    "competition": "denmark",
-    "cls": "league",
-    "home": "中日德兰",
-    "away": "桑德捷斯基",
-    "home_goals": 2,
-    "away_goals": 2,
-    "date": "2026-11-08",
-    "handicap_line": -1.5,
-    "total_line": 3.5
-  },
-  {
-    "competition": "denmark",
-    "cls": "league",
     "home": "欧登塞",
     "away": "维堡",
     "home_goals": 1,
     "away_goals": 2,
     "date": "2026-11-07",
-    "handicap_line": -0.0,
+    "handicap_line": 0.0,
     "total_line": 3.0
   },
   {
@@ -62,7 +62,7 @@
     "home_goals": 1,
     "away_goals": 0,
     "date": "2026-11-06",
-    "handicap_line": -0.0,
+    "handicap_line": 0.0,
     "total_line": 3.0
   },
   {
@@ -75,28 +75,6 @@
     "date": "2026-11-02",
     "handicap_line": 1.25,
     "total_line": 3.25
-  },
-  {
-    "competition": "denmark",
-    "cls": "league",
-    "home": "欧登塞",
-    "away": "锡尔克堡",
-    "home_goals": 4,
-    "away_goals": 1,
-    "date": "2026-11-01",
-    "handicap_line": -0.5,
-    "total_line": 3.0
-  },
-  {
-    "competition": "denmark",
-    "cls": "league",
-    "home": "维堡",
-    "away": "霍森斯",
-    "home_goals": 1,
-    "away_goals": 0,
-    "date": "2026-11-01",
-    "handicap_line": -1.0,
-    "total_line": 3.0
   },
   {
     "competition": "denmark",
@@ -118,6 +96,28 @@
     "away_goals": 0,
     "date": "2026-11-01",
     "handicap_line": -0.5,
+    "total_line": 3.0
+  },
+  {
+    "competition": "denmark",
+    "cls": "league",
+    "home": "欧登塞",
+    "away": "锡尔克堡",
+    "home_goals": 4,
+    "away_goals": 1,
+    "date": "2026-11-01",
+    "handicap_line": -0.5,
+    "total_line": 3.0
+  },
+  {
+    "competition": "denmark",
+    "cls": "league",
+    "home": "维堡",
+    "away": "霍森斯",
+    "home_goals": 1,
+    "away_goals": 0,
+    "date": "2026-11-01",
+    "handicap_line": -1.0,
     "total_line": 3.0
   },
   {

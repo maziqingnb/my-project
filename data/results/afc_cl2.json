@@ -2,35 +2,13 @@
   {
     "competition": "afc_cl2",
     "cls": "cup",
-    "home": "町田泽维亚",
-    "away": "上海申花",
+    "home": "古晋足协",
+    "away": "江原FC",
     "home_goals": 2,
-    "away_goals": 1,
-    "date": "2026-11-05",
-    "handicap_line": -1.5,
-    "total_line": 2.75
-  },
-  {
-    "competition": "afc_cl2",
-    "cls": "cup",
-    "home": "杰志",
-    "away": "金边皇冠",
-    "home_goals": 2,
-    "away_goals": 1,
-    "date": "2026-11-05",
-    "handicap_line": -0.25,
-    "total_line": 3.0
-  },
-  {
-    "competition": "afc_cl2",
-    "cls": "cup",
-    "home": "狮城水手",
-    "away": "阿德莱德联",
-    "home_goals": 5,
     "away_goals": 0,
     "date": "2026-11-05",
-    "handicap_line": -0.75,
-    "total_line": 3.0
+    "handicap_line": 0.75,
+    "total_line": 2.5
   },
   {
     "competition": "afc_cl2",
@@ -46,6 +24,17 @@
   {
     "competition": "afc_cl2",
     "cls": "cup",
+    "home": "杰志",
+    "away": "金边皇冠",
+    "home_goals": 2,
+    "away_goals": 1,
+    "date": "2026-11-05",
+    "handicap_line": -0.25,
+    "total_line": 3.0
+  },
+  {
+    "competition": "afc_cl2",
+    "cls": "cup",
     "home": "柴桢",
     "away": "淡滨尼流浪者",
     "home_goals": 2,
@@ -57,13 +46,35 @@
   {
     "competition": "afc_cl2",
     "cls": "cup",
-    "home": "古晋足协",
-    "away": "江原FC",
-    "home_goals": 2,
+    "home": "狮城水手",
+    "away": "阿德莱德联",
+    "home_goals": 5,
     "away_goals": 0,
     "date": "2026-11-05",
-    "handicap_line": 0.75,
-    "total_line": 2.5
+    "handicap_line": -0.75,
+    "total_line": 3.0
+  },
+  {
+    "competition": "afc_cl2",
+    "cls": "cup",
+    "home": "町田泽维亚",
+    "away": "上海申花",
+    "home_goals": 2,
+    "away_goals": 1,
+    "date": "2026-11-05",
+    "handicap_line": -1.5,
+    "total_line": 2.75
+  },
+  {
+    "competition": "afc_cl2",
+    "cls": "cup",
+    "home": "FC首尔",
+    "away": "越电信",
+    "home_goals": 3,
+    "away_goals": 0,
+    "date": "2026-11-04",
+    "handicap_line": -1.75,
+    "total_line": 3.0
   },
   {
     "competition": "afc_cl2",
@@ -79,12 +90,45 @@
   {
     "competition": "afc_cl2",
     "cls": "cup",
-    "home": "FC首尔",
-    "away": "越电信",
+    "home": "布赖代合作",
+    "away": "阿尔费萨里安曼",
     "home_goals": 3,
+    "away_goals": 1,
+    "date": "2026-11-04",
+    "handicap_line": -0.75,
+    "total_line": 2.75
+  },
+  {
+    "competition": "afc_cl2",
+    "cls": "cup",
+    "home": "慕哈瑞克",
+    "away": "阿布扎比半岛",
+    "home_goals": 0,
+    "away_goals": 3,
+    "date": "2026-11-04",
+    "handicap_line": 0.75,
+    "total_line": 2.5
+  },
+  {
+    "competition": "afc_cl2",
+    "cls": "cup",
+    "home": "科威特竞技",
+    "away": "纳萨夫",
+    "home_goals": 2,
+    "away_goals": 3,
+    "date": "2026-11-04",
+    "handicap_line": 0.0,
+    "total_line": 2.5
+  },
+  {
+    "competition": "afc_cl2",
+    "cls": "cup",
+    "home": "赖扬",
+    "away": "拿达",
+    "home_goals": 2,
     "away_goals": 0,
     "date": "2026-11-04",
-    "handicap_line": -1.75,
+    "handicap_line": -1.25,
     "total_line": 3.0
   },
   {
@@ -112,50 +156,6 @@
   {
     "competition": "afc_cl2",
     "cls": "cup",
-    "home": "科威特竞技",
-    "away": "纳萨夫",
-    "home_goals": 2,
-    "away_goals": 3,
-    "date": "2026-11-04",
-    "handicap_line": -0.0,
-    "total_line": 2.5
-  },
-  {
-    "competition": "afc_cl2",
-    "cls": "cup",
-    "home": "赖扬",
-    "away": "拿达",
-    "home_goals": 2,
-    "away_goals": 0,
-    "date": "2026-11-04",
-    "handicap_line": -1.25,
-    "total_line": 3.0
-  },
-  {
-    "competition": "afc_cl2",
-    "cls": "cup",
-    "home": "慕哈瑞克",
-    "away": "阿布扎比半岛",
-    "home_goals": 0,
-    "away_goals": 3,
-    "date": "2026-11-04",
-    "handicap_line": 0.75,
-    "total_line": 2.5
-  },
-  {
-    "competition": "afc_cl2",
-    "cls": "cup",
-    "home": "布赖代合作",
-    "away": "阿尔费萨里安曼",
-    "home_goals": 3,
-    "away_goals": 1,
-    "date": "2026-11-04",
-    "handicap_line": -0.75,
-    "total_line": 2.75
-  },
-  {
-    "competition": "afc_cl2",
-    "cls": "cup",
     "home": "东孟加拉",
     "away": "锡卜",
     "home_goals": 0,
@@ -172,40 +172,18 @@
     "home_goals": 0,
     "away_goals": 3,
     "date": "2026-11-03",
-    "handicap_line": -0.0,
+    "handicap_line": 0.0,
     "total_line": 2.25
   },
   {
     "competition": "afc_cl2",
     "cls": "cup",
-    "home": "阿德莱德联",
-    "away": "狮城水手",
+    "home": "上海申花",
+    "away": "町田泽维亚",
     "home_goals": 0,
-    "away_goals": 2,
+    "away_goals": 1,
     "date": "2026-10-29",
-    "handicap_line": -0.75,
-    "total_line": 2.75
-  },
-  {
-    "competition": "afc_cl2",
-    "cls": "cup",
-    "home": "淡滨尼流浪者",
-    "away": "柴桢",
-    "home_goals": 1,
-    "away_goals": 5,
-    "date": "2026-10-29",
-    "handicap_line": 0.25,
-    "total_line": 2.75
-  },
-  {
-    "competition": "afc_cl2",
-    "cls": "cup",
-    "home": "江原FC",
-    "away": "古晋足协",
-    "home_goals": 1,
-    "away_goals": 0,
-    "date": "2026-10-29",
-    "handicap_line": -1.0,
+    "handicap_line": 0.5,
     "total_line": 2.5
   },
   {
@@ -222,13 +200,24 @@
   {
     "competition": "afc_cl2",
     "cls": "cup",
-    "home": "上海申花",
-    "away": "町田泽维亚",
-    "home_goals": 0,
-    "away_goals": 1,
+    "home": "江原FC",
+    "away": "古晋足协",
+    "home_goals": 1,
+    "away_goals": 0,
     "date": "2026-10-29",
-    "handicap_line": 0.5,
+    "handicap_line": -1.0,
     "total_line": 2.5
+  },
+  {
+    "competition": "afc_cl2",
+    "cls": "cup",
+    "home": "淡滨尼流浪者",
+    "away": "柴桢",
+    "home_goals": 1,
+    "away_goals": 5,
+    "date": "2026-10-29",
+    "handicap_line": 0.25,
+    "total_line": 2.75
   },
   {
     "competition": "afc_cl2",
@@ -244,12 +233,12 @@
   {
     "competition": "afc_cl2",
     "cls": "cup",
-    "home": "越电信",
-    "away": "FC首尔",
+    "home": "阿德莱德联",
+    "away": "狮城水手",
     "home_goals": 0,
-    "away_goals": 5,
-    "date": "2026-10-28",
-    "handicap_line": 0.5,
+    "away_goals": 2,
+    "date": "2026-10-29",
+    "handicap_line": -0.75,
     "total_line": 2.75
   },
   {
@@ -266,35 +255,13 @@
   {
     "competition": "afc_cl2",
     "cls": "cup",
-    "home": "纳萨夫",
-    "away": "科威特竞技",
-    "home_goals": 0,
-    "away_goals": 1,
-    "date": "2026-10-28",
-    "handicap_line": -0.5,
-    "total_line": 2.5
-  },
-  {
-    "competition": "afc_cl2",
-    "cls": "cup",
-    "home": "高尔高赫",
-    "away": "阿卡达格",
-    "home_goals": 0,
-    "away_goals": 0,
-    "date": "2026-10-28",
-    "handicap_line": -0.75,
-    "total_line": 2.25
-  },
-  {
-    "competition": "afc_cl2",
-    "cls": "cup",
-    "home": "阿布扎比半岛",
-    "away": "慕哈瑞克",
-    "home_goals": 4,
+    "home": "哈尔迪亚",
+    "away": "阿布扎比统一",
+    "home_goals": 1,
     "away_goals": 2,
     "date": "2026-10-28",
-    "handicap_line": -0.75,
-    "total_line": 2.25
+    "handicap_line": 0.75,
+    "total_line": 2.75
   },
   {
     "competition": "afc_cl2",
@@ -310,12 +277,23 @@
   {
     "competition": "afc_cl2",
     "cls": "cup",
-    "home": "哈尔迪亚",
-    "away": "阿布扎比统一",
-    "home_goals": 1,
-    "away_goals": 2,
+    "home": "纳萨夫",
+    "away": "科威特竞技",
+    "home_goals": 0,
+    "away_goals": 1,
     "date": "2026-10-28",
-    "handicap_line": 0.75,
+    "handicap_line": -0.5,
+    "total_line": 2.5
+  },
+  {
+    "competition": "afc_cl2",
+    "cls": "cup",
+    "home": "越电信",
+    "away": "FC首尔",
+    "home_goals": 0,
+    "away_goals": 5,
+    "date": "2026-10-28",
+    "handicap_line": 0.5,
     "total_line": 2.75
   },
   {
@@ -326,7 +304,29 @@
     "home_goals": 0,
     "away_goals": 2,
     "date": "2026-10-28",
-    "handicap_line": -0.0,
+    "handicap_line": 0.0,
     "total_line": 2.5
+  },
+  {
+    "competition": "afc_cl2",
+    "cls": "cup",
+    "home": "阿布扎比半岛",
+    "away": "慕哈瑞克",
+    "home_goals": 4,
+    "away_goals": 2,
+    "date": "2026-10-28",
+    "handicap_line": -0.75,
+    "total_line": 2.25
+  },
+  {
+    "competition": "afc_cl2",
+    "cls": "cup",
+    "home": "高尔高赫",
+    "away": "阿卡达格",
+    "home_goals": 0,
+    "away_goals": 0,
+    "date": "2026-10-28",
+    "handicap_line": -0.75,
+    "total_line": 2.25
   }
 ]

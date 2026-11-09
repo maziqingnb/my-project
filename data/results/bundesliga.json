@@ -101,17 +101,6 @@
   {
     "competition": "bundesliga",
     "cls": "league",
-    "home": "Union Berlin",
-    "away": "FC Koln",
-    "home_goals": 1,
-    "away_goals": 1,
-    "date": "2026-11-01",
-    "handicap_line": -0.0,
-    "total_line": 2.75
-  },
-  {
-    "competition": "bundesliga",
-    "cls": "league",
     "home": "Eintracht Frankfurt",
     "away": "Hamburger SV",
     "home_goals": 3,
@@ -119,6 +108,17 @@
     "date": "2026-11-01",
     "handicap_line": -1.0,
     "total_line": 3.25
+  },
+  {
+    "competition": "bundesliga",
+    "cls": "league",
+    "home": "Union Berlin",
+    "away": "FC Koln",
+    "home_goals": 1,
+    "away_goals": 1,
+    "date": "2026-11-01",
+    "handicap_line": 0.0,
+    "total_line": 2.75
   },
   {
     "competition": "bundesliga",
@@ -141,6 +141,17 @@
     "date": "2026-10-31",
     "handicap_line": -0.75,
     "total_line": 3.75
+  },
+  {
+    "competition": "bundesliga",
+    "cls": "league",
+    "home": "Bayern Munich",
+    "away": "Borussia Dortmund",
+    "home_goals": 2,
+    "away_goals": 2,
+    "date": "2026-10-31",
+    "handicap_line": -1.75,
+    "total_line": 4.0
   },
   {
     "competition": "bundesliga",
@@ -174,17 +185,6 @@
     "date": "2026-10-31",
     "handicap_line": 0.25,
     "total_line": 3.25
-  },
-  {
-    "competition": "bundesliga",
-    "cls": "league",
-    "home": "Bayern Munich",
-    "away": "Borussia Dortmund",
-    "home_goals": 2,
-    "away_goals": 2,
-    "date": "2026-10-31",
-    "handicap_line": -1.75,
-    "total_line": 4.0
   },
   {
     "competition": "bundesliga",

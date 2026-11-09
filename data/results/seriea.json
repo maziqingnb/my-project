@@ -2,13 +2,13 @@
   {
     "competition": "seriea",
     "cls": "league",
-    "home": "Napoli",
-    "away": "Lazio",
-    "home_goals": 1,
-    "away_goals": 1,
+    "home": "Fiorentina",
+    "away": "Juventus",
+    "home_goals": 2,
+    "away_goals": 2,
     "date": "2026-11-08",
-    "handicap_line": -0.5,
-    "total_line": 2.5
+    "handicap_line": 0.5,
+    "total_line": 2.75
   },
   {
     "competition": "seriea",
@@ -24,17 +24,6 @@
   {
     "competition": "seriea",
     "cls": "league",
-    "home": "Monza",
-    "away": "Atalanta",
-    "home_goals": 0,
-    "away_goals": 1,
-    "date": "2026-11-08",
-    "handicap_line": 0.25,
-    "total_line": 3.0
-  },
-  {
-    "competition": "seriea",
-    "cls": "league",
     "home": "Inter Milan",
     "away": "Como",
     "home_goals": 2,
@@ -46,13 +35,24 @@
   {
     "competition": "seriea",
     "cls": "league",
-    "home": "Fiorentina",
-    "away": "Juventus",
-    "home_goals": 2,
-    "away_goals": 2,
+    "home": "Monza",
+    "away": "Atalanta",
+    "home_goals": 0,
+    "away_goals": 1,
     "date": "2026-11-08",
-    "handicap_line": 0.5,
-    "total_line": 2.75
+    "handicap_line": 0.25,
+    "total_line": 3.0
+  },
+  {
+    "competition": "seriea",
+    "cls": "league",
+    "home": "Napoli",
+    "away": "Lazio",
+    "home_goals": 1,
+    "away_goals": 1,
+    "date": "2026-11-08",
+    "handicap_line": -0.5,
+    "total_line": 2.5
   },
   {
     "competition": "seriea",
@@ -62,19 +62,8 @@
     "home_goals": 1,
     "away_goals": 0,
     "date": "2026-11-07",
-    "handicap_line": -0.0,
+    "handicap_line": 0.0,
     "total_line": 3.0
-  },
-  {
-    "competition": "seriea",
-    "cls": "league",
-    "home": "Torino",
-    "away": "Lecce",
-    "home_goals": 1,
-    "away_goals": 1,
-    "date": "2026-11-07",
-    "handicap_line": -0.5,
-    "total_line": 2.25
   },
   {
     "competition": "seriea",
@@ -101,6 +90,17 @@
   {
     "competition": "seriea",
     "cls": "league",
+    "home": "Torino",
+    "away": "Lecce",
+    "home_goals": 1,
+    "away_goals": 1,
+    "date": "2026-11-07",
+    "handicap_line": -0.5,
+    "total_line": 2.25
+  },
+  {
+    "competition": "seriea",
+    "cls": "league",
     "home": "Venezia",
     "away": "Udinese",
     "home_goals": 2,
@@ -112,23 +112,23 @@
   {
     "competition": "seriea",
     "cls": "league",
-    "home": "萨索洛",
-    "away": "佛罗伦萨",
-    "home_goals": 2,
-    "away_goals": 4,
-    "date": "2026-11-02",
-    "handicap_line": -0.0,
-    "total_line": 2.75
-  },
-  {
-    "competition": "seriea",
-    "cls": "league",
     "home": "亚特兰大",
     "away": "帕尔马",
     "home_goals": 0,
     "away_goals": 3,
     "date": "2026-11-02",
     "handicap_line": -1.25,
+    "total_line": 2.75
+  },
+  {
+    "competition": "seriea",
+    "cls": "league",
+    "home": "萨索洛",
+    "away": "佛罗伦萨",
+    "home_goals": 2,
+    "away_goals": 4,
+    "date": "2026-11-02",
+    "handicap_line": 0.0,
     "total_line": 2.75
   },
   {
@@ -156,6 +156,17 @@
   {
     "competition": "seriea",
     "cls": "league",
+    "home": "Juventus",
+    "away": "Napoli",
+    "home_goals": 2,
+    "away_goals": 0,
+    "date": "2026-11-01",
+    "handicap_line": -0.5,
+    "total_line": 2.5
+  },
+  {
+    "competition": "seriea",
+    "cls": "league",
     "home": "Lazio",
     "away": "Cagliari",
     "home_goals": 2,
@@ -172,19 +183,19 @@
     "home_goals": 1,
     "away_goals": 2,
     "date": "2026-11-01",
-    "handicap_line": -0.0,
+    "handicap_line": 0.0,
     "total_line": 2.25
   },
   {
     "competition": "seriea",
     "cls": "league",
-    "home": "Juventus",
-    "away": "Napoli",
-    "home_goals": 2,
-    "away_goals": 0,
-    "date": "2026-11-01",
-    "handicap_line": -0.5,
-    "total_line": 2.5
+    "home": "AC Milan",
+    "away": "Inter Milan",
+    "home_goals": 3,
+    "away_goals": 1,
+    "date": "2026-10-31",
+    "handicap_line": 0.25,
+    "total_line": 2.75
   },
   {
     "competition": "seriea",
@@ -211,12 +222,12 @@
   {
     "competition": "seriea",
     "cls": "league",
-    "home": "AC Milan",
-    "away": "Inter Milan",
-    "home_goals": 3,
-    "away_goals": 1,
-    "date": "2026-10-31",
-    "handicap_line": 0.25,
+    "home": "佛罗伦萨",
+    "away": "亚特兰大",
+    "home_goals": 2,
+    "away_goals": 2,
+    "date": "2026-10-29",
+    "handicap_line": -0.25,
     "total_line": 2.75
   },
   {
@@ -233,17 +244,6 @@
   {
     "competition": "seriea",
     "cls": "league",
-    "home": "佛罗伦萨",
-    "away": "亚特兰大",
-    "home_goals": 2,
-    "away_goals": 2,
-    "date": "2026-10-29",
-    "handicap_line": -0.25,
-    "total_line": 2.75
-  },
-  {
-    "competition": "seriea",
-    "cls": "league",
     "home": "AC Milan",
     "away": "Bologna",
     "home_goals": 2,
@@ -251,28 +251,6 @@
     "date": "2026-10-28",
     "handicap_line": -1.0,
     "total_line": 2.5
-  },
-  {
-    "competition": "seriea",
-    "cls": "league",
-    "home": "帕尔马",
-    "away": "Udinese",
-    "home_goals": 0,
-    "away_goals": 0,
-    "date": "2026-10-28",
-    "handicap_line": 0.25,
-    "total_line": 2.25
-  },
-  {
-    "competition": "seriea",
-    "cls": "league",
-    "home": "Venezia",
-    "away": "Inter Milan",
-    "home_goals": 0,
-    "away_goals": 2,
-    "date": "2026-10-28",
-    "handicap_line": 1.5,
-    "total_line": 3.5
   },
   {
     "competition": "seriea",
@@ -295,5 +273,27 @@
     "date": "2026-10-28",
     "handicap_line": 0.5,
     "total_line": 2.75
+  },
+  {
+    "competition": "seriea",
+    "cls": "league",
+    "home": "帕尔马",
+    "away": "Udinese",
+    "home_goals": 0,
+    "away_goals": 0,
+    "date": "2026-10-28",
+    "handicap_line": 0.25,
+    "total_line": 2.25
+  },
+  {
+    "competition": "seriea",
+    "cls": "league",
+    "home": "Venezia",
+    "away": "Inter Milan",
+    "home_goals": 0,
+    "away_goals": 2,
+    "date": "2026-10-28",
+    "handicap_line": 1.5,
+    "total_line": 3.5
   }
 ]

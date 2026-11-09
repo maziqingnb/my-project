@@ -2,17 +2,6 @@
   {
     "competition": "argentina",
     "cls": "league",
-    "home": "科尔多瓦学院",
-    "away": "纽维尔老男孩",
-    "home_goals": 2,
-    "away_goals": 2,
-    "date": "2026-11-08",
-    "handicap_line": -0.5,
-    "total_line": 2.0
-  },
-  {
-    "competition": "argentina",
-    "cls": "league",
     "home": "科尔多瓦中央SDE",
     "away": "拉努斯",
     "home_goals": 1,
@@ -24,55 +13,11 @@
   {
     "competition": "argentina",
     "cls": "league",
-    "home": "班菲尔德",
-    "away": "图库曼竞技",
+    "home": "科尔多瓦学院",
+    "away": "纽维尔老男孩",
     "home_goals": 2,
     "away_goals": 2,
-    "date": "2026-11-07",
-    "handicap_line": -0.25,
-    "total_line": 2.25
-  },
-  {
-    "competition": "argentina",
-    "cls": "league",
-    "home": "泰格雷",
-    "away": "萨尔米安杜",
-    "home_goals": 1,
-    "away_goals": 0,
-    "date": "2026-11-07",
-    "handicap_line": -0.5,
-    "total_line": 2.0
-  },
-  {
-    "competition": "argentina",
-    "cls": "league",
-    "home": "塔勒瑞斯",
-    "away": "拉普拉塔大学生",
-    "home_goals": 1,
-    "away_goals": 1,
-    "date": "2026-11-07",
-    "handicap_line": -0.0,
-    "total_line": 2.25
-  },
-  {
-    "competition": "argentina",
-    "cls": "league",
-    "home": "甘拿斯亚门多萨",
-    "away": "门多萨独立",
-    "home_goals": 1,
-    "away_goals": 1,
-    "date": "2026-11-07",
-    "handicap_line": -0.0,
-    "total_line": 2.25
-  },
-  {
-    "competition": "argentina",
-    "cls": "league",
-    "home": "阿根廷青年人",
-    "away": "飓风队",
-    "home_goals": 0,
-    "away_goals": 2,
-    "date": "2026-11-07",
+    "date": "2026-11-08",
     "handicap_line": -0.5,
     "total_line": 2.0
   },
@@ -90,6 +35,50 @@
   {
     "competition": "argentina",
     "cls": "league",
+    "home": "塔勒瑞斯",
+    "away": "拉普拉塔大学生",
+    "home_goals": 1,
+    "away_goals": 1,
+    "date": "2026-11-07",
+    "handicap_line": 0.0,
+    "total_line": 2.25
+  },
+  {
+    "competition": "argentina",
+    "cls": "league",
+    "home": "泰格雷",
+    "away": "萨尔米安杜",
+    "home_goals": 1,
+    "away_goals": 0,
+    "date": "2026-11-07",
+    "handicap_line": -0.5,
+    "total_line": 2.0
+  },
+  {
+    "competition": "argentina",
+    "cls": "league",
+    "home": "班菲尔德",
+    "away": "图库曼竞技",
+    "home_goals": 2,
+    "away_goals": 2,
+    "date": "2026-11-07",
+    "handicap_line": -0.25,
+    "total_line": 2.25
+  },
+  {
+    "competition": "argentina",
+    "cls": "league",
+    "home": "甘拿斯亚门多萨",
+    "away": "门多萨独立",
+    "home_goals": 1,
+    "away_goals": 1,
+    "date": "2026-11-07",
+    "handicap_line": 0.0,
+    "total_line": 2.25
+  },
+  {
+    "competition": "argentina",
+    "cls": "league",
     "home": "罗萨里奥中央",
     "away": "里奥夸尔托学生队",
     "home_goals": 2,
@@ -97,6 +86,39 @@
     "date": "2026-11-07",
     "handicap_line": -1.75,
     "total_line": 2.75
+  },
+  {
+    "competition": "argentina",
+    "cls": "league",
+    "home": "阿根廷青年人",
+    "away": "飓风队",
+    "home_goals": 0,
+    "away_goals": 2,
+    "date": "2026-11-07",
+    "handicap_line": -0.5,
+    "total_line": 2.0
+  },
+  {
+    "competition": "argentina",
+    "cls": "league",
+    "home": "圣塔菲联",
+    "away": "萨斯菲尔德",
+    "home_goals": 2,
+    "away_goals": 0,
+    "date": "2026-11-06",
+    "handicap_line": 0.0,
+    "total_line": 2.25
+  },
+  {
+    "competition": "argentina",
+    "cls": "league",
+    "home": "圣洛伦索",
+    "away": "普拉腾斯",
+    "home_goals": 0,
+    "away_goals": 2,
+    "date": "2026-11-06",
+    "handicap_line": 0.0,
+    "total_line": 2.0
   },
   {
     "competition": "argentina",
@@ -123,24 +145,13 @@
   {
     "competition": "argentina",
     "cls": "league",
-    "home": "圣洛伦索",
-    "away": "普拉腾斯",
-    "home_goals": 0,
-    "away_goals": 2,
-    "date": "2026-11-06",
-    "handicap_line": -0.0,
-    "total_line": 2.0
-  },
-  {
-    "competition": "argentina",
-    "cls": "league",
-    "home": "圣塔菲联",
-    "away": "萨斯菲尔德",
+    "home": "拉普拉塔体操",
+    "away": "贝尔格拉诺",
     "home_goals": 2,
-    "away_goals": 0,
-    "date": "2026-11-06",
-    "handicap_line": -0.0,
-    "total_line": 2.25
+    "away_goals": 1,
+    "date": "2026-11-05",
+    "handicap_line": -0.25,
+    "total_line": 2.5
   },
   {
     "competition": "argentina",
@@ -156,23 +167,12 @@
   {
     "competition": "argentina",
     "cls": "league",
-    "home": "拉普拉塔体操",
-    "away": "贝尔格拉诺",
-    "home_goals": 2,
-    "away_goals": 1,
-    "date": "2026-11-05",
-    "handicap_line": -0.25,
-    "total_line": 2.5
-  },
-  {
-    "competition": "argentina",
-    "cls": "league",
     "home": "图库曼竞技",
     "away": "阿根廷青年人",
     "home_goals": 1,
     "away_goals": 2,
     "date": "2026-11-03",
-    "handicap_line": -0.0,
+    "handicap_line": 0.0,
     "total_line": 2.0
   },
   {
@@ -189,17 +189,6 @@
   {
     "competition": "argentina",
     "cls": "league",
-    "home": "防卫者",
-    "away": "阿根廷独立",
-    "home_goals": 1,
-    "away_goals": 1,
-    "date": "2026-11-02",
-    "handicap_line": -0.25,
-    "total_line": 2.25
-  },
-  {
-    "competition": "argentina",
-    "cls": "league",
     "home": "普拉腾斯",
     "away": "科尔多瓦中央SDE",
     "home_goals": 2,
@@ -211,13 +200,13 @@
   {
     "competition": "argentina",
     "cls": "league",
-    "home": "拉普拉塔大学生",
-    "away": "科尔多瓦学院",
-    "home_goals": 3,
-    "away_goals": 3,
-    "date": "2026-11-01",
+    "home": "防卫者",
+    "away": "阿根廷独立",
+    "home_goals": 1,
+    "away_goals": 1,
+    "date": "2026-11-02",
     "handicap_line": -0.25,
-    "total_line": 2.0
+    "total_line": 2.25
   },
   {
     "competition": "argentina",
@@ -233,12 +222,23 @@
   {
     "competition": "argentina",
     "cls": "league",
-    "home": "贝尔格拉诺",
-    "away": "巴拉卡斯中央队",
-    "home_goals": 2,
-    "away_goals": 2,
+    "home": "拉努斯",
+    "away": "甘拿斯亚门多萨",
+    "home_goals": 1,
+    "away_goals": 1,
     "date": "2026-11-01",
-    "handicap_line": -0.5,
+    "handicap_line": -1.0,
+    "total_line": 2.25
+  },
+  {
+    "competition": "argentina",
+    "cls": "league",
+    "home": "拉普拉塔大学生",
+    "away": "科尔多瓦学院",
+    "home_goals": 3,
+    "away_goals": 3,
+    "date": "2026-11-01",
+    "handicap_line": -0.25,
     "total_line": 2.0
   },
   {
@@ -255,13 +255,24 @@
   {
     "competition": "argentina",
     "cls": "league",
-    "home": "拉努斯",
-    "away": "甘拿斯亚门多萨",
-    "home_goals": 1,
-    "away_goals": 1,
+    "home": "贝尔格拉诺",
+    "away": "巴拉卡斯中央队",
+    "home_goals": 2,
+    "away_goals": 2,
     "date": "2026-11-01",
-    "handicap_line": -1.0,
-    "total_line": 2.25
+    "handicap_line": -0.5,
+    "total_line": 2.0
+  },
+  {
+    "competition": "argentina",
+    "cls": "league",
+    "home": "利斯特雷",
+    "away": "塔勒瑞斯",
+    "home_goals": 0,
+    "away_goals": 3,
+    "date": "2026-10-31",
+    "handicap_line": -0.25,
+    "total_line": 2.0
   },
   {
     "competition": "argentina",
@@ -284,17 +295,6 @@
     "date": "2026-10-31",
     "handicap_line": 0.5,
     "total_line": 2.25
-  },
-  {
-    "competition": "argentina",
-    "cls": "league",
-    "home": "利斯特雷",
-    "away": "塔勒瑞斯",
-    "home_goals": 0,
-    "away_goals": 3,
-    "date": "2026-10-31",
-    "handicap_line": -0.25,
-    "total_line": 2.0
   },
   {
     "competition": "argentina",
