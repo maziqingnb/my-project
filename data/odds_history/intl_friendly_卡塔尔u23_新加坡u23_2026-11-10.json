@@ -81,6 +81,21 @@
     "away": "新加坡U23",
     "kickoff": "2026-11-10T08:00:00",
     "bookmaker": "crown",
+    "ts": "2026-11-09T08:00:00+00:00",
+    "handicap_line": -1.5,
+    "handicap_home": 0.94,
+    "handicap_away": 0.82,
+    "total_line": 2.75,
+    "over": 0.78,
+    "under": 0.98
+  },
+  {
+    "fixture_key": "intl_friendly|卡塔尔u23|新加坡u23|2026-11-10",
+    "competition": "intl_friendly",
+    "home": "卡塔尔U23",
+    "away": "新加坡U23",
+    "kickoff": "2026-11-10T08:00:00",
+    "bookmaker": "crown",
     "ts": "2026-11-09T16:30:18.176083+00:00",
     "handicap_line": -1.5,
     "handicap_home": 0.6,
@@ -148,5 +163,20 @@
     "total_line": 3.0,
     "over": 0.76,
     "under": 1.0
+  },
+  {
+    "fixture_key": "intl_friendly|卡塔尔u23|新加坡u23|2026-11-10",
+    "competition": "intl_friendly",
+    "home": "卡塔尔U23",
+    "away": "新加坡U23",
+    "kickoff": "2026-11-10T08:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-09T21:40:27.122466+00:00",
+    "handicap_line": -1.75,
+    "handicap_home": 0.96,
+    "handicap_away": 0.86,
+    "total_line": 3.0,
+    "over": 0.86,
+    "under": 0.94
   }
 ]

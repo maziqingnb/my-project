@@ -73,5 +73,20 @@
     "total_line": null,
     "over": null,
     "under": null
+  },
+  {
+    "fixture_key": "intl_friendly|加蓬女足|乍得女足|2026-11-10",
+    "competition": "intl_friendly",
+    "home": "加蓬女足",
+    "away": "乍得女足",
+    "kickoff": "2026-11-10T10:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-09T21:40:27.122524+00:00",
+    "handicap_line": null,
+    "handicap_home": null,
+    "handicap_away": null,
+    "total_line": null,
+    "over": null,
+    "under": null
   }
 ]
