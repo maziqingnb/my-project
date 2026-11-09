@@ -538,5 +538,35 @@
     "total_line": 236.5,
     "over": 1.95,
     "under": 1.93
+  },
+  {
+    "fixture_key": "nba|sacramentokings|miamiheat|2026-11-09",
+    "competition": "nba",
+    "home": "Sacramento Kings",
+    "away": "Miami Heat",
+    "kickoff": "2026-11-09T02:10:00Z",
+    "bookmaker": "unibet",
+    "ts": "2026-11-09T02:05:59.880864+00:00",
+    "handicap_line": 11.5,
+    "handicap_home": 1.9,
+    "handicap_away": 1.91,
+    "total_line": null,
+    "over": null,
+    "under": null
+  },
+  {
+    "fixture_key": "nba|sacramentokings|miamiheat|2026-11-09",
+    "competition": "nba",
+    "home": "Sacramento Kings",
+    "away": "Miami Heat",
+    "kickoff": "2026-11-09T02:10:00Z",
+    "bookmaker": "pinnacle",
+    "ts": "2026-11-09T02:05:59.880864+00:00",
+    "handicap_line": 12.0,
+    "handicap_home": 1.9,
+    "handicap_away": 2.0,
+    "total_line": 236.0,
+    "over": 2.03,
+    "under": 1.87
   }
 ]
