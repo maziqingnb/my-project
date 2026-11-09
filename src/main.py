@@ -115,15 +115,17 @@ def do_sync(cfg: dict, clients: dict, what: str, demo: bool = False) -> None:
     from src.sync import schedules, odds as odds_sync, lineups as lineups_sync
     from src.output.render import build_schedule
     from src.adapters.football_7m import Football7mClient
+    from src.adapters.espn import EspnClient
 
     fixtures_of = _client_of(clients, "fixtures")
     odds_of = _client_of(clients, "odds")
-    # 7m 全季补全只在真实同步时启用；demo 模式走 mock，保持离线、确定
+    # 7m 全季补全 + ESPN 全季补全只在真实同步时启用；demo 模式走 mock，保持离线、确定
     football_7m = None if demo else Football7mClient()
+    espn = None if demo else EspnClient()
     if what in ("fixtures", "all"):
         schedules.sync_fixtures(cfg, fixtures_of)
         build_schedule(cfg)      # 未开赛赛程提前展示（不含推荐）
-        schedules.sync_results(cfg, fixtures_of, football_7m=football_7m)
+        schedules.sync_results(cfg, fixtures_of, football_7m=football_7m, espn=espn)
     if what in ("odds", "all"):
         odds_sync.sync_odds(cfg, odds_of)
     if what in ("lineups", "all"):
@@ -131,24 +133,25 @@ def do_sync(cfg: dict, clients: dict, what: str, demo: bool = False) -> None:
 
 
 def load_results(cfg: dict) -> dict[str, list[Result]]:
-    out = {}
-    for comp in cfg["competitions"]:
-        raw = read_json(C.RESULTS_DIR / f"{comp.key}.json", default=[]) or []
-        out[comp.key] = [Result(**r) for r in raw]
-    return out
+    from src import db
+    conn = db.connect()
+    try:
+        return {comp.key: db.load_results(conn, comp.key) for comp in cfg["competitions"]}
+    finally:
+        conn.close()
 
 
 def load_odds_history() -> dict[str, list[OddsSnapshot]]:
     """读取所有水位历史，按联赛 key 分组。"""
+    from src import db
     by_comp: dict[str, list[OddsSnapshot]] = {}
-    if not C.ODDS_DIR.exists():
-        return by_comp
-    for f in C.ODDS_DIR.glob("*.json"):
-        raw = read_json(f, default=[]) or []
-        for r in raw:
-            snap = OddsSnapshot(**r)
+    conn = db.connect()
+    try:
+        for snap in db.load_odds(conn):
             by_comp.setdefault(snap.competition, []).append(snap)
-    return by_comp
+        return by_comp
+    finally:
+        conn.close()
 
 
 def do_analyze(cfg: dict, demo: bool = False) -> dict:

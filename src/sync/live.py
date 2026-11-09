@@ -3,24 +3,32 @@
 输出 data/live.json（并镜像到 docs/reports/live.json 供看板读取），
 结构：{"generated_at": ISO, "matches": [{competition, home, away, kickoff,
 home_goals, away_goals, status, fixture_key}]}
+
+量小、每轮整体重建，继续用 JSON；仅把跨联赛抓取并行化。
 """
 from __future__ import annotations
 
 from datetime import datetime, timezone
 
 from .. import config as C
-from ..models import to_dicts
+from ..concurrency import pmap
 from ..storage import write_json
 
 
+def _workers(cfg: dict) -> int:
+    return int((cfg.get("sync") or {}).get("max_workers", 8))
+
+
 def sync_live_scores(cfg: dict, client_of) -> dict:
-    matches = []
-    for comp in cfg["competitions"]:
+    def _one(comp):
         try:
-            live = client_of(comp).fetch_live(comp)
+            return comp, client_of(comp).fetch_live(comp)
         except Exception as exc:      # 单个联赛失败（如站点超时）不应中断整轮
             print(f"[进行中] {comp.name}: 跳过（{exc}）")
-            continue
+            return comp, []
+
+    matches = []
+    for comp, live in pmap(_one, cfg["competitions"], max_workers=_workers(cfg)):
         for f in live:
             matches.append({
                 "fixture_key": f.key,

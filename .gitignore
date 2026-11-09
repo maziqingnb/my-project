@@ -8,3 +8,8 @@ venv/
 .idea/
 .vscode/
 .DS_Store
+
+# SQLite 运行时库不入库：git 持久化走导出的 JSON（data/results、data/odds_history）
+data/app.db
+data/app.db-wal
+data/app.db-shm

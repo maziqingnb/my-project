@@ -21,6 +21,8 @@ from __future__ import annotations
 
 import json
 import re
+import threading
+import time
 from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
@@ -35,6 +37,28 @@ _HEADERS = {
                    "AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.0 Mobile/15E148 Safari/604.1"),
     "Referer": "https://m.ewin007.com/",
 }
+
+# 全局并发上限：无论上层（跨联赛线程池 + 日期分页线程池 + 分析页线程池）怎么嵌套，
+# 对 win007 的实际网络请求最多同时 N 个，避免并发过高触发 443 反爬。本机实测 6
+# 并发稳定，这里留到 4 更保守，配合 _fetch 的退避重试兜底。
+_WIN007_SEMAPHORE = threading.Semaphore(4)
+
+# 请求间隔限速（全局）：win007 对「短时间内大量请求」会 443（本机实测），即便并发
+# 只有 4 也偶尔触发。强制两次请求起点间隔 >= _MIN_INTERVAL，把整体速率压到 ~5 req/s，
+# 与旧串行（~3 req/s）相当但总请求数少得多（win007 只回近 1 周，抓 10 天而非 60 天）。
+_MIN_INTERVAL = 0.2
+_RATE_LOCK = threading.Lock()
+_LAST_REQUEST = 0.0
+
+
+def _throttle() -> None:
+    global _LAST_REQUEST
+    with _RATE_LOCK:
+        now = time.monotonic()
+        wait = _MIN_INTERVAL - (now - _LAST_REQUEST)
+        if wait > 0:
+            time.sleep(wait)
+        _LAST_REQUEST = time.monotonic()
 
 
 def _num(s):
@@ -116,10 +140,24 @@ class Win007Client(OddsClient, FixturesClient):
     def _fetch(self, url: str) -> str:
         if Path(url).exists():
             return Path(url).read_text(encoding="utf-8", errors="ignore")
-        r = requests.get(url, headers=_HEADERS, timeout=30)
-        r.raise_for_status()
-        r.encoding = r.apparent_encoding or "utf-8"
-        return r.text
+        # win007 对并发/过快请求会返回 443（反爬），并发同步时偶发。加退避重试，
+        # 把瞬时 443/429/5xx/超时挡掉，避免一个分页失败拖垮整轮（上层已逐联赛兜底）。
+        last_exc = None
+        for attempt in range(4):
+            try:
+                with _WIN007_SEMAPHORE:
+                    _throttle()
+                    r = requests.get(url, headers=_HEADERS, timeout=30)
+                if r.status_code in (429, 443, 500, 502, 503, 504):
+                    raise requests.HTTPError(f"{r.status_code} for {url}", response=r)
+                r.raise_for_status()
+                r.encoding = r.apparent_encoding or "utf-8"
+                return r.text
+            except (requests.RequestException, requests.HTTPError) as exc:
+                last_exc = exc
+                if attempt < 3:
+                    time.sleep(0.5 * (2 ** attempt))   # 0.5s / 1s / 2s 退避
+        raise last_exc
 
     def _schedule(self, day: str) -> list[dict]:
         if day in self._schedule_cache:
@@ -270,9 +308,12 @@ class Win007Client(OddsClient, FixturesClient):
 
     # ------------------------------------------------------------ 赛程/结果
     def _matches(self, days: int) -> list[dict]:
+        # 并发抓多个日期分页：结果同步里 days_back=30 即 30 个分页，
+        # 串行要 30 次往返，并行后整轮同步最耗时的部分被压到几分钟。
+        from ..concurrency import pmap
         out: list[dict] = []
-        for d in range(days):
-            out.extend(self._schedule(_beijing_date(d)))
+        for rows in pmap(self._schedule, [_beijing_date(d) for d in range(days)]):
+            out.extend(rows)
         return out
 
     def fetch_upcoming(self, comp: Competition, days: int) -> list[Fixture]:
@@ -315,14 +356,17 @@ class Win007Client(OddsClient, FixturesClient):
         return fixtures
 
     def fetch_results(self, comp: Competition, days_back: int) -> list[Result]:
+        from ..concurrency import pmap
+        # 并发抓 days_back+1 个日期分页（从最久到最近，含今天 d=0 以实时结算）。
+        # 一场比赛只挂在唯一一个日期分页上，抓完汇总后按 scheduleid 去重即可。
+        days = [_beijing_date(-d) for d in range(days_back, -1, -1)]
         seen: set[str] = set()
         results = []
-        for d in range(days_back, -1, -1):       # 从最久到最近，含今天（d=0）以实时结算
-            day = _beijing_date(-d)
-            for m in self._schedule(day):
+        for rows in pmap(self._schedule, days):
+            for m in rows:
                 if m["comp_key"] != comp.key:
                     continue
-                if m.get("state") != "finished":            # 只有「完场」才计入结果，进行中/未开赛/未知状态一律不算
+                if m.get("state") != "finished":            # 只有「完场」才计入结果
                     continue
                 if m["home_goals"] is None or m["away_goals"] is None:
                     continue
@@ -337,6 +381,7 @@ class Win007Client(OddsClient, FixturesClient):
                     handicap_line=m["handicap_line"],   # 完场时盘口 = 该场最终让球线
                     total_line=m["total_line"],         # 完场时大小球线
                 ))
+        results.sort(key=lambda r: r.date, reverse=True)
         return results
 
     def fetch_lineup(self, comp: Competition, fixture: Fixture) -> Lineup | None:
