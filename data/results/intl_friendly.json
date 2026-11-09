@@ -13,6 +13,17 @@
   {
     "competition": "intl_friendly",
     "cls": "cup",
+    "home": "哥斯达黎加女足U19",
+    "away": "古巴女足U19",
+    "home_goals": 3,
+    "away_goals": 1,
+    "date": "2026-11-09",
+    "handicap_line": null,
+    "total_line": null
+  },
+  {
+    "competition": "intl_friendly",
+    "cls": "cup",
     "home": "科特迪瓦U17",
     "away": "塔吉克斯坦U17",
     "home_goals": 1,
