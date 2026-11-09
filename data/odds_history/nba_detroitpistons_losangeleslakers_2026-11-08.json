@@ -523,5 +523,35 @@
     "total_line": 210.0,
     "over": 1.9,
     "under": 1.88
+  },
+  {
+    "fixture_key": "nba|detroitpistons|losangeleslakers|2026-11-08",
+    "competition": "nba",
+    "home": "Detroit Pistons",
+    "away": "Los Angeles Lakers",
+    "kickoff": "2026-11-08T23:11:00Z",
+    "bookmaker": "unibet",
+    "ts": "2026-11-09T00:59:18.842757+00:00",
+    "handicap_line": 0.5,
+    "handicap_home": 1.79,
+    "handicap_away": 1.95,
+    "total_line": null,
+    "over": null,
+    "under": null
+  },
+  {
+    "fixture_key": "nba|detroitpistons|losangeleslakers|2026-11-08",
+    "competition": "nba",
+    "home": "Detroit Pistons",
+    "away": "Los Angeles Lakers",
+    "kickoff": "2026-11-08T23:11:00Z",
+    "bookmaker": "pinnacle",
+    "ts": "2026-11-09T00:59:18.842757+00:00",
+    "handicap_line": -1.0,
+    "handicap_home": 1.86,
+    "handicap_away": 1.88,
+    "total_line": 222.5,
+    "over": 1.83,
+    "under": 1.9
   }
 ]
