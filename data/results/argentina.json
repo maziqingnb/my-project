@@ -13,6 +13,17 @@
   {
     "competition": "argentina",
     "cls": "league",
+    "home": "科尔多瓦中央SDE",
+    "away": "拉努斯",
+    "home_goals": 1,
+    "away_goals": 1,
+    "date": "2026-11-08",
+    "handicap_line": 0.75,
+    "total_line": 2.25
+  },
+  {
+    "competition": "argentina",
+    "cls": "league",
     "home": "班菲尔德",
     "away": "图库曼竞技",
     "home_goals": 2,
