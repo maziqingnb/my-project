@@ -1,15 +1,4 @@
 {
-  "generated_at": "2026-11-09T20:33:40.263979+00:00",
-  "matches": [
-    {
-      "fixture_key": "intl_friendly|哥斯达黎加女足u19|古巴女足u19|2026-11-09",
-      "competition": "intl_friendly",
-      "home": "哥斯达黎加女足U19",
-      "away": "古巴女足U19",
-      "kickoff": "2026-11-09T20:00:00",
-      "status": "live",
-      "home_goals": 2,
-      "away_goals": 0
-    }
-  ]
+  "generated_at": "2026-11-09T21:28:25.761992+00:00",
+  "matches": []
 }
