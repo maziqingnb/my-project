@@ -2,6 +2,61 @@
   {
     "competition": "nba",
     "cls": "league",
+    "home": "Minnesota Timberwolves",
+    "away": "Utah Jazz",
+    "home_goals": 115,
+    "away_goals": 100,
+    "date": "2026-11-09",
+    "handicap_line": null,
+    "total_line": null
+  },
+  {
+    "competition": "nba",
+    "cls": "league",
+    "home": "Dallas Mavericks",
+    "away": "Brooklyn Nets",
+    "home_goals": 130,
+    "away_goals": 93,
+    "date": "2026-11-09",
+    "handicap_line": null,
+    "total_line": null
+  },
+  {
+    "competition": "nba",
+    "cls": "league",
+    "home": "Milwaukee Bucks",
+    "away": "Boston Celtics",
+    "home_goals": 97,
+    "away_goals": 117,
+    "date": "2026-11-09",
+    "handicap_line": null,
+    "total_line": null
+  },
+  {
+    "competition": "nba",
+    "cls": "league",
+    "home": "Sacramento Kings",
+    "away": "Miami Heat",
+    "home_goals": 108,
+    "away_goals": 114,
+    "date": "2026-11-09",
+    "handicap_line": null,
+    "total_line": null
+  },
+  {
+    "competition": "nba",
+    "cls": "league",
+    "home": "Los Angeles Clippers",
+    "away": "New Orleans Pelicans",
+    "home_goals": 139,
+    "away_goals": 123,
+    "date": "2026-11-09",
+    "handicap_line": null,
+    "total_line": null
+  },
+  {
+    "competition": "nba",
+    "cls": "league",
     "home": "Atlanta Hawks",
     "away": "Brooklyn Nets",
     "home_goals": 124,
@@ -61,6 +116,28 @@
     "away": "San Antonio Spurs",
     "home_goals": 103,
     "away_goals": 125,
+    "date": "2026-11-08",
+    "handicap_line": null,
+    "total_line": null
+  },
+  {
+    "competition": "nba",
+    "cls": "league",
+    "home": "Chicago Bulls",
+    "away": "Philadelphia 76ers",
+    "home_goals": 121,
+    "away_goals": 127,
+    "date": "2026-11-08",
+    "handicap_line": null,
+    "total_line": null
+  },
+  {
+    "competition": "nba",
+    "cls": "league",
+    "home": "Detroit Pistons",
+    "away": "Los Angeles Lakers",
+    "home_goals": 116,
+    "away_goals": 121,
     "date": "2026-11-08",
     "handicap_line": null,
     "total_line": null
