@@ -28,5 +28,35 @@
     "total_line": null,
     "over": null,
     "under": null
+  },
+  {
+    "fixture_key": "nba|charlottehornets|clevelandcavaliers|2026-11-10",
+    "competition": "nba",
+    "home": "Charlotte Hornets",
+    "away": "Cleveland Cavaliers",
+    "kickoff": "2026-11-10T00:10:00Z",
+    "bookmaker": "pinnacle",
+    "ts": "2026-11-09T04:29:39.873067+00:00",
+    "handicap_line": 8.5,
+    "handicap_home": 1.96,
+    "handicap_away": 1.93,
+    "total_line": 216.5,
+    "over": 1.99,
+    "under": 1.88
+  },
+  {
+    "fixture_key": "nba|charlottehornets|clevelandcavaliers|2026-11-10",
+    "competition": "nba",
+    "home": "Charlotte Hornets",
+    "away": "Cleveland Cavaliers",
+    "kickoff": "2026-11-10T00:10:00Z",
+    "bookmaker": "unibet",
+    "ts": "2026-11-09T04:29:39.873067+00:00",
+    "handicap_line": 8.5,
+    "handicap_home": 1.91,
+    "handicap_away": 1.9,
+    "total_line": null,
+    "over": null,
+    "under": null
   }
 ]
