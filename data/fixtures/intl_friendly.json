@@ -1,15 +1,5 @@
 [
   {
-    "key": "intl_friendly|乌兹别克斯坦u17|厄瓜多尔u17|2026-11-09",
-    "competition": "intl_friendly",
-    "home": "乌兹别克斯坦U17",
-    "away": "厄瓜多尔U17",
-    "kickoff": "2026-11-09T13:00:00",
-    "status": "upcoming",
-    "home_goals": null,
-    "away_goals": null
-  },
-  {
     "key": "intl_friendly|卡塔尔u23|新加坡u23|2026-11-10",
     "competition": "intl_friendly",
     "home": "卡塔尔U23",
@@ -74,7 +64,7 @@
     "competition": "intl_friendly",
     "home": "荷属圣马丁岛",
     "away": "安圭拉",
-    "kickoff": "2026-11-11T00:00:00",
+    "kickoff": "2026-11-11T00:30:00",
     "status": "upcoming",
     "home_goals": null,
     "away_goals": null
