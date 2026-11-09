@@ -1,10 +1,20 @@
 [
   {
-    "key": "brasileirao|维多利亚|弗鲁米嫩塞|2026-11-06",
+    "key": "brasileirao|米拉索|米内罗竞技|2026-11-14",
     "competition": "brasileirao",
-    "home": "维多利亚",
-    "away": "弗鲁米嫩塞",
-    "kickoff": "2026-11-06T23:00:00",
+    "home": "米拉索",
+    "away": "米内罗竞技",
+    "kickoff": "2026-11-14T21:30:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "brasileirao|沙佩科恩斯|瓦斯科达伽马|2026-11-14",
+    "competition": "brasileirao",
+    "home": "沙佩科恩斯",
+    "away": "瓦斯科达伽马",
+    "kickoff": "2026-11-14T23:30:00",
     "status": "upcoming",
     "home_goals": null,
     "away_goals": null

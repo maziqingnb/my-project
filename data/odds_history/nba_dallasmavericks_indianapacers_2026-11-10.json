@@ -163,5 +163,35 @@
     "total_line": 222.5,
     "over": 1.89,
     "under": 1.98
+  },
+  {
+    "fixture_key": "nba|dallasmavericks|indianapacers|2026-11-10",
+    "competition": "nba",
+    "home": "Dallas Mavericks",
+    "away": "Indiana Pacers",
+    "kickoff": "2026-11-10T01:10:00Z",
+    "bookmaker": "unibet",
+    "ts": "2026-11-09T12:50:33.040842+00:00",
+    "handicap_line": -3.5,
+    "handicap_home": 2.0,
+    "handicap_away": 1.81,
+    "total_line": null,
+    "over": null,
+    "under": null
+  },
+  {
+    "fixture_key": "nba|dallasmavericks|indianapacers|2026-11-10",
+    "competition": "nba",
+    "home": "Dallas Mavericks",
+    "away": "Indiana Pacers",
+    "kickoff": "2026-11-10T01:10:00Z",
+    "bookmaker": "pinnacle",
+    "ts": "2026-11-09T12:50:33.040842+00:00",
+    "handicap_line": -2.5,
+    "handicap_home": 1.89,
+    "handicap_away": 1.98,
+    "total_line": 222.5,
+    "over": 1.9,
+    "under": 1.97
   }
 ]

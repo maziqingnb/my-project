@@ -1,1615 +1,15 @@
 {
-  "generated_at": "2026-11-06T00:35:37.635143+00:00",
+  "generated_at": "2026-11-09T12:50:01.254355+00:00",
   "matches": [
     {
-      "fixture_key": "nba|phoenixsuns|orlandomagic|2026-11-06",
-      "competition": "nba",
-      "competition_name": "NBA 美国职业篮球联赛",
-      "competition_class": "league",
-      "sport": "basketball",
-      "home": "Phoenix Suns",
-      "away": "Orlando Magic",
-      "kickoff": "2026-11-06T02:00:00"
-    },
-    {
-      "fixture_key": "nba|goldenstatewarriors|miamiheat|2026-11-06",
-      "competition": "nba",
-      "competition_name": "NBA 美国职业篮球联赛",
-      "competition_class": "league",
-      "sport": "basketball",
-      "home": "Golden State Warriors",
-      "away": "Miami Heat",
-      "kickoff": "2026-11-06T03:00:00"
-    },
-    {
-      "fixture_key": "rpl|莫斯科火车头|喀山红宝石|2026-11-06",
-      "competition": "rpl",
-      "competition_name": "俄罗斯超级联赛",
-      "competition_class": "league",
-      "sport": "football",
-      "home": "莫斯科火车头",
-      "away": "喀山红宝石",
-      "kickoff": "2026-11-06T16:30:00"
-    },
-    {
-      "fixture_key": "superlig|加济安泰普大都会|卡斯帕萨|2026-11-06",
-      "competition": "superlig",
-      "competition_name": "土耳其超级联赛",
-      "competition_class": "league",
-      "sport": "football",
-      "home": "加济安泰普大都会",
-      "away": "卡斯帕萨",
-      "kickoff": "2026-11-06T17:00:00"
-    },
-    {
-      "fixture_key": "poland|莫托路宾|普沃茨克维斯瓦|2026-11-06",
-      "competition": "poland",
-      "competition_name": "波兰超级联赛",
-      "competition_class": "league",
-      "sport": "football",
-      "home": "莫托路宾",
-      "away": "普沃茨克维斯瓦",
-      "kickoff": "2026-11-06T17:00:00"
-    },
-    {
-      "fixture_key": "argentina|巴拉卡斯中央队|竞技俱乐部|2026-11-06",
-      "competition": "argentina",
-      "competition_name": "阿根廷甲级联赛",
-      "competition_class": "league",
-      "sport": "football",
-      "home": "巴拉卡斯中央队",
-      "away": "竞技俱乐部",
-      "kickoff": "2026-11-06T18:00:00"
-    },
-    {
-      "fixture_key": "denmark|锡尔克堡|利恩比|2026-11-06",
-      "competition": "denmark",
-      "competition_name": "丹麦超级联赛",
-      "competition_class": "league",
-      "sport": "football",
-      "home": "锡尔克堡",
-      "away": "利恩比",
-      "kickoff": "2026-11-06T18:00:00"
-    },
-    {
-      "fixture_key": "sweden|哈马比|埃尔夫斯堡|2026-11-06",
-      "competition": "sweden",
-      "competition_name": "瑞典超级联赛",
-      "competition_class": "league",
-      "sport": "football",
-      "home": "哈马比",
-      "away": "埃尔夫斯堡",
-      "kickoff": "2026-11-06T18:00:00"
-    },
-    {
-      "fixture_key": "bundesliga|hamburgersv|borussiamonchengladbach|2026-11-06",
-      "competition": "bundesliga",
-      "competition_name": "德国甲级联赛",
-      "competition_class": "league",
-      "sport": "football",
-      "home": "Hamburger SV",
-      "away": "Borussia Monchengladbach",
-      "kickoff": "2026-11-06T19:30:00"
-    },
-    {
-      "fixture_key": "poland|克拉科夫|克拉科维亚|2026-11-06",
-      "competition": "poland",
-      "competition_name": "波兰超级联赛",
-      "competition_class": "league",
-      "sport": "football",
-      "home": "克拉科夫",
-      "away": "克拉科维亚",
-      "kickoff": "2026-11-06T19:30:00"
-    },
-    {
-      "fixture_key": "seriea|venezia|udinese|2026-11-06",
-      "competition": "seriea",
-      "competition_name": "意大利甲级联赛",
-      "competition_class": "league",
-      "sport": "football",
-      "home": "Venezia",
-      "away": "Udinese",
-      "kickoff": "2026-11-06T19:45:00"
-    },
-    {
-      "fixture_key": "ligue1|toulouse|strasbourg|2026-11-06",
-      "competition": "ligue1",
-      "competition_name": "法国甲级联赛",
-      "competition_class": "league",
-      "sport": "football",
-      "home": "Toulouse",
-      "away": "Strasbourg",
-      "kickoff": "2026-11-06T19:45:00"
-    },
-    {
-      "fixture_key": "epl|埃弗顿|coventrycity|2026-11-06",
-      "competition": "epl",
-      "competition_name": "英格兰超级联赛",
-      "competition_class": "league",
-      "sport": "football",
-      "home": "埃弗顿",
-      "away": "Coventry City",
-      "kickoff": "2026-11-06T20:00:00"
-    },
-    {
-      "fixture_key": "laliga|sevilla|alaves|2026-11-06",
-      "competition": "laliga",
-      "competition_name": "西班牙甲级联赛",
-      "competition_class": "league",
-      "sport": "football",
-      "home": "Sevilla",
-      "away": "Alaves",
-      "kickoff": "2026-11-06T20:00:00"
-    },
-    {
-      "fixture_key": "primeira|法马利康|阿罗卡|2026-11-06",
-      "competition": "primeira",
-      "competition_name": "葡萄牙超级联赛",
-      "competition_class": "league",
-      "sport": "football",
-      "home": "法马利康",
-      "away": "阿罗卡",
-      "kickoff": "2026-11-06T20:45:00"
-    },
-    {
-      "fixture_key": "argentina|阿根廷独立|利斯特雷|2026-11-06",
-      "competition": "argentina",
-      "competition_name": "阿根廷甲级联赛",
-      "competition_class": "league",
-      "sport": "football",
-      "home": "阿根廷独立",
-      "away": "利斯特雷",
-      "kickoff": "2026-11-06T22:15:00"
-    },
-    {
-      "fixture_key": "argentina|圣洛伦索|普拉腾斯|2026-11-06",
-      "competition": "argentina",
-      "competition_name": "阿根廷甲级联赛",
-      "competition_class": "league",
-      "sport": "football",
-      "home": "圣洛伦索",
-      "away": "普拉腾斯",
-      "kickoff": "2026-11-06T22:15:00"
-    },
-    {
-      "fixture_key": "argentina|圣塔菲联|萨斯菲尔德|2026-11-06",
-      "competition": "argentina",
-      "competition_name": "阿根廷甲级联赛",
-      "competition_class": "league",
-      "sport": "football",
-      "home": "圣塔菲联",
-      "away": "萨斯菲尔德",
-      "kickoff": "2026-11-06T22:15:00"
-    },
-    {
-      "fixture_key": "brasileirao|维多利亚|弗鲁米嫩塞|2026-11-06",
-      "competition": "brasileirao",
-      "competition_name": "巴西甲级联赛",
-      "competition_class": "league",
-      "sport": "football",
-      "home": "维多利亚",
-      "away": "弗鲁米嫩塞",
-      "kickoff": "2026-11-06T23:00:00"
-    },
-    {
-      "fixture_key": "nba|charlottehornets|bostonceltics|2026-11-07",
-      "competition": "nba",
-      "competition_name": "NBA 美国职业篮球联赛",
-      "competition_class": "league",
-      "sport": "basketball",
-      "home": "Charlotte Hornets",
-      "away": "Boston Celtics",
-      "kickoff": "2026-11-07T00:00:00"
-    },
-    {
-      "fixture_key": "nba|atlantahawks|washingtonwizards|2026-11-07",
-      "competition": "nba",
-      "competition_name": "NBA 美国职业篮球联赛",
-      "competition_class": "league",
-      "sport": "basketball",
-      "home": "Atlanta Hawks",
-      "away": "Washington Wizards",
-      "kickoff": "2026-11-07T00:00:00"
-    },
-    {
-      "fixture_key": "nba|clevelandcavaliers|philadelphia76ers|2026-11-07",
-      "competition": "nba",
-      "competition_name": "NBA 美国职业篮球联赛",
-      "competition_class": "league",
-      "sport": "basketball",
-      "home": "Cleveland Cavaliers",
-      "away": "Philadelphia 76ers",
-      "kickoff": "2026-11-07T00:30:00"
-    },
-    {
-      "fixture_key": "argentina|班菲尔德|图库曼竞技|2026-11-07",
-      "competition": "argentina",
-      "competition_name": "阿根廷甲级联赛",
-      "competition_class": "league",
-      "sport": "football",
-      "home": "班菲尔德",
-      "away": "图库曼竞技",
-      "kickoff": "2026-11-07T01:00:00"
-    },
-    {
-      "fixture_key": "argentina|泰格雷|萨尔米安杜|2026-11-07",
-      "competition": "argentina",
-      "competition_name": "阿根廷甲级联赛",
-      "competition_class": "league",
-      "sport": "football",
-      "home": "泰格雷",
-      "away": "萨尔米安杜",
-      "kickoff": "2026-11-07T01:00:00"
-    },
-    {
-      "fixture_key": "nba|memphisgrizzlies|oklahomacitythunder|2026-11-07",
-      "competition": "nba",
-      "competition_name": "NBA 美国职业篮球联赛",
-      "competition_class": "league",
-      "sport": "basketball",
-      "home": "Memphis Grizzlies",
-      "away": "Oklahoma City Thunder",
-      "kickoff": "2026-11-07T01:00:00"
-    },
-    {
-      "fixture_key": "nba|neworleanspelicans|minnesotatimberwolves|2026-11-07",
-      "competition": "nba",
-      "competition_name": "NBA 美国职业篮球联赛",
-      "competition_class": "league",
-      "sport": "basketball",
-      "home": "New Orleans Pelicans",
-      "away": "Minnesota Timberwolves",
-      "kickoff": "2026-11-07T01:00:00"
-    },
-    {
-      "fixture_key": "nba|milwaukeebucks|torontoraptors|2026-11-07",
-      "competition": "nba",
-      "competition_name": "NBA 美国职业篮球联赛",
-      "competition_class": "league",
-      "sport": "basketball",
-      "home": "Milwaukee Bucks",
-      "away": "Toronto Raptors",
-      "kickoff": "2026-11-07T01:00:00"
-    },
-    {
-      "fixture_key": "nba|dallasmavericks|utahjazz|2026-11-07",
-      "competition": "nba",
-      "competition_name": "NBA 美国职业篮球联赛",
-      "competition_class": "league",
-      "sport": "basketball",
-      "home": "Dallas Mavericks",
-      "away": "Utah Jazz",
-      "kickoff": "2026-11-07T01:00:00"
-    },
-    {
-      "fixture_key": "nba|losangeleslakers|portlandtrailblazers|2026-11-07",
-      "competition": "nba",
-      "competition_name": "NBA 美国职业篮球联赛",
-      "competition_class": "league",
-      "sport": "basketball",
-      "home": "Los Angeles Lakers",
-      "away": "Portland Trail Blazers",
-      "kickoff": "2026-11-07T03:00:00"
-    },
-    {
-      "fixture_key": "nba|sacramentokings|sanantoniospurs|2026-11-07",
-      "competition": "nba",
-      "competition_name": "NBA 美国职业篮球联赛",
-      "competition_class": "league",
-      "sport": "basketball",
-      "home": "Sacramento Kings",
-      "away": "San Antonio Spurs",
-      "kickoff": "2026-11-07T03:00:00"
-    },
-    {
-      "fixture_key": "intl_friendly|加蓬女足|刚果共和国女足|2026-11-07",
+      "fixture_key": "intl_friendly|乌兹别克斯坦u17|厄瓜多尔u17|2026-11-09",
       "competition": "intl_friendly",
       "competition_name": "国家队友谊赛",
       "competition_class": "cup",
       "sport": "football",
-      "home": "加蓬女足",
-      "away": "刚果共和国女足",
-      "kickoff": "2026-11-07T10:00:00"
-    },
-    {
-      "fixture_key": "superlig|埃于普体育|科贾埃利体育|2026-11-07",
-      "competition": "superlig",
-      "competition_name": "土耳其超级联赛",
-      "competition_class": "league",
-      "sport": "football",
-      "home": "埃于普体育",
-      "away": "科贾埃利体育",
-      "kickoff": "2026-11-07T10:30:00"
-    },
-    {
-      "fixture_key": "rpl|沃罗涅日火炬|莫斯科迪纳摩|2026-11-07",
-      "competition": "rpl",
-      "competition_name": "俄罗斯超级联赛",
-      "competition_class": "league",
-      "sport": "football",
-      "home": "沃罗涅日火炬",
-      "away": "莫斯科迪纳摩",
-      "kickoff": "2026-11-07T11:00:00"
-    },
-    {
-      "fixture_key": "poland|哥罗纳|拉多麦科|2026-11-07",
-      "competition": "poland",
-      "competition_name": "波兰超级联赛",
-      "competition_class": "league",
-      "sport": "football",
-      "home": "哥罗纳",
-      "away": "拉多麦科",
-      "kickoff": "2026-11-07T11:15:00"
-    },
-    {
-      "fixture_key": "intl_friendly|尼扬加体育女足|乍得女足|2026-11-07",
-      "competition": "intl_friendly",
-      "competition_name": "国家队友谊赛",
-      "competition_class": "cup",
-      "sport": "football",
-      "home": "尼扬加体育女足",
-      "away": "乍得女足",
-      "kickoff": "2026-11-07T12:15:00"
-    },
-    {
-      "fixture_key": "epl|leedsunited|tottenhamhotspur|2026-11-07",
-      "competition": "epl",
-      "competition_name": "英格兰超级联赛",
-      "competition_class": "league",
-      "sport": "football",
-      "home": "Leeds United",
-      "away": "Tottenham Hotspur",
-      "kickoff": "2026-11-07T12:30:00"
-    },
-    {
-      "fixture_key": "laliga|malaga|racingsantander|2026-11-07",
-      "competition": "laliga",
-      "competition_name": "西班牙甲级联赛",
-      "competition_class": "league",
-      "sport": "football",
-      "home": "Malaga",
-      "away": "Racing Santander",
-      "kickoff": "2026-11-07T13:00:00"
-    },
-    {
-      "fixture_key": "superlig|萨姆松体育|科尼亚体育|2026-11-07",
-      "competition": "superlig",
-      "competition_name": "土耳其超级联赛",
-      "competition_class": "league",
-      "sport": "football",
-      "home": "萨姆松体育",
-      "away": "科尼亚体育",
-      "kickoff": "2026-11-07T13:00:00"
-    },
-    {
-      "fixture_key": "rpl|格罗兹尼特里克|罗迪纳莫斯科|2026-11-07",
-      "competition": "rpl",
-      "competition_name": "俄罗斯超级联赛",
-      "competition_class": "league",
-      "sport": "football",
-      "home": "格罗兹尼特里克",
-      "away": "罗迪纳莫斯科",
-      "kickoff": "2026-11-07T13:30:00"
-    },
-    {
-      "fixture_key": "poland|史拉斯科|皮亚斯特|2026-11-07",
-      "competition": "poland",
-      "competition_name": "波兰超级联赛",
-      "competition_class": "league",
-      "sport": "football",
-      "home": "史拉斯科",
-      "away": "皮亚斯特",
-      "kickoff": "2026-11-07T13:45:00"
-    },
-    {
-      "fixture_key": "seriea|cagliari|frosinone|2026-11-07",
-      "competition": "seriea",
-      "competition_name": "意大利甲级联赛",
-      "competition_class": "league",
-      "sport": "football",
-      "home": "Cagliari",
-      "away": "Frosinone",
-      "kickoff": "2026-11-07T14:00:00"
-    },
-    {
-      "fixture_key": "seriea|torino|lecce|2026-11-07",
-      "competition": "seriea",
-      "competition_name": "意大利甲级联赛",
-      "competition_class": "league",
-      "sport": "football",
-      "home": "Torino",
-      "away": "Lecce",
-      "kickoff": "2026-11-07T14:00:00"
-    },
-    {
-      "fixture_key": "bundesliga|borussiadortmund|埃尔沃斯贝格|2026-11-07",
-      "competition": "bundesliga",
-      "competition_name": "德国甲级联赛",
-      "competition_class": "league",
-      "sport": "football",
-      "home": "Borussia Dortmund",
-      "away": "埃尔沃斯贝格",
-      "kickoff": "2026-11-07T14:30:00"
-    },
-    {
-      "fixture_key": "bundesliga|美因茨|bayernmunich|2026-11-07",
-      "competition": "bundesliga",
-      "competition_name": "德国甲级联赛",
-      "competition_class": "league",
-      "sport": "football",
-      "home": "美因茨",
-      "away": "Bayern Munich",
-      "kickoff": "2026-11-07T14:30:00"
-    },
-    {
-      "fixture_key": "bundesliga|paderborn|eintrachtfrankfurt|2026-11-07",
-      "competition": "bundesliga",
-      "competition_name": "德国甲级联赛",
-      "competition_class": "league",
-      "sport": "football",
-      "home": "Paderborn",
-      "away": "Eintracht Frankfurt",
-      "kickoff": "2026-11-07T14:30:00"
-    },
-    {
-      "fixture_key": "bundesliga|rbleipzig|augsburg|2026-11-07",
-      "competition": "bundesliga",
-      "competition_name": "德国甲级联赛",
-      "competition_class": "league",
-      "sport": "football",
-      "home": "RB Leipzig",
-      "away": "Augsburg",
-      "kickoff": "2026-11-07T14:30:00"
-    },
-    {
-      "fixture_key": "epl|arsenal|hullcity|2026-11-07",
-      "competition": "epl",
-      "competition_name": "英格兰超级联赛",
-      "competition_class": "league",
-      "sport": "football",
-      "home": "Arsenal",
-      "away": "Hull City",
-      "kickoff": "2026-11-07T15:00:00"
-    },
-    {
-      "fixture_key": "epl|fulham|纽卡斯尔联|2026-11-07",
-      "competition": "epl",
-      "competition_name": "英格兰超级联赛",
-      "competition_class": "league",
-      "sport": "football",
-      "home": "Fulham",
-      "away": "纽卡斯尔联",
-      "kickoff": "2026-11-07T15:00:00"
-    },
-    {
-      "fixture_key": "greeksl|维洛斯nfc|基菲萨|2026-11-07",
-      "competition": "greeksl",
-      "competition_name": "希腊超级联赛",
-      "competition_class": "league",
-      "sport": "football",
-      "home": "维洛斯NFC",
-      "away": "基菲萨",
-      "kickoff": "2026-11-07T15:00:00"
-    },
-    {
-      "fixture_key": "laliga|西班牙人|拉科鲁尼亚|2026-11-07",
-      "competition": "laliga",
-      "competition_name": "西班牙甲级联赛",
-      "competition_class": "league",
-      "sport": "football",
-      "home": "西班牙人",
-      "away": "拉科鲁尼亚",
-      "kickoff": "2026-11-07T15:15:00"
-    },
-    {
-      "fixture_key": "primeira|葡萄牙国民|维塞乌|2026-11-07",
-      "competition": "primeira",
-      "competition_name": "葡萄牙超级联赛",
-      "competition_class": "league",
-      "sport": "football",
-      "home": "葡萄牙国民",
-      "away": "维塞乌",
-      "kickoff": "2026-11-07T15:30:00"
-    },
-    {
-      "fixture_key": "superlig|加拉塔萨雷|阿美德|2026-11-07",
-      "competition": "superlig",
-      "competition_name": "土耳其超级联赛",
-      "competition_class": "league",
-      "sport": "football",
-      "home": "加拉塔萨雷",
-      "away": "阿美德",
-      "kickoff": "2026-11-07T16:00:00"
-    },
-    {
-      "fixture_key": "superlig|哥兹塔比|伊斯坦布尔巴萨克塞尔|2026-11-07",
-      "competition": "superlig",
-      "competition_name": "土耳其超级联赛",
-      "competition_class": "league",
-      "sport": "football",
-      "home": "哥兹塔比",
-      "away": "伊斯坦布尔巴萨克塞尔",
-      "kickoff": "2026-11-07T16:00:00"
-    },
-    {
-      "fixture_key": "rpl|克拉斯诺达尔|莫斯科中央陆军|2026-11-07",
-      "competition": "rpl",
-      "competition_name": "俄罗斯超级联赛",
-      "competition_class": "league",
-      "sport": "football",
-      "home": "克拉斯诺达尔",
-      "away": "莫斯科中央陆军",
-      "kickoff": "2026-11-07T16:30:00"
-    },
-    {
-      "fixture_key": "sweden|代格福什|哥德堡盖斯|2026-11-07",
-      "competition": "sweden",
-      "competition_name": "瑞典超级联赛",
-      "competition_class": "league",
-      "sport": "football",
-      "home": "代格福什",
-      "away": "哥德堡盖斯",
-      "kickoff": "2026-11-07T16:30:00"
-    },
-    {
-      "fixture_key": "sweden|奥尔格里特|瓦斯特拉斯|2026-11-07",
-      "competition": "sweden",
-      "competition_name": "瑞典超级联赛",
-      "competition_class": "league",
-      "sport": "football",
-      "home": "奥尔格里特",
-      "away": "瓦斯特拉斯",
-      "kickoff": "2026-11-07T16:30:00"
-    },
-    {
-      "fixture_key": "poland|扎布热矿工|ks莫摩斯|2026-11-07",
-      "competition": "poland",
-      "competition_name": "波兰超级联赛",
-      "competition_class": "league",
-      "sport": "football",
-      "home": "扎布热矿工",
-      "away": "KS莫摩斯",
-      "kickoff": "2026-11-07T16:30:00"
-    },
-    {
-      "fixture_key": "seriea|帕尔马|bologna|2026-11-07",
-      "competition": "seriea",
-      "competition_name": "意大利甲级联赛",
-      "competition_class": "league",
-      "sport": "football",
-      "home": "帕尔马",
-      "away": "Bologna",
-      "kickoff": "2026-11-07T17:00:00"
-    },
-    {
-      "fixture_key": "denmark|欧登塞|维堡|2026-11-07",
-      "competition": "denmark",
-      "competition_name": "丹麦超级联赛",
-      "competition_class": "league",
-      "sport": "football",
-      "home": "欧登塞",
-      "away": "维堡",
-      "kickoff": "2026-11-07T17:00:00"
-    },
-    {
-      "fixture_key": "epl|nottinghamforest|manchestercity|2026-11-07",
-      "competition": "epl",
-      "competition_name": "英格兰超级联赛",
-      "competition_class": "league",
-      "sport": "football",
-      "home": "Nottingham Forest",
-      "away": "Manchester City",
-      "kickoff": "2026-11-07T17:30:00"
-    },
-    {
-      "fixture_key": "laliga|奥萨苏纳|athleticbilbao|2026-11-07",
-      "competition": "laliga",
-      "competition_name": "西班牙甲级联赛",
-      "competition_class": "league",
-      "sport": "football",
-      "home": "奥萨苏纳",
-      "away": "Athletic Bilbao",
-      "kickoff": "2026-11-07T17:30:00"
-    },
-    {
-      "fixture_key": "bundesliga|stuttgart|werderbremen|2026-11-07",
-      "competition": "bundesliga",
-      "competition_name": "德国甲级联赛",
-      "competition_class": "league",
-      "sport": "football",
-      "home": "Stuttgart",
-      "away": "Werder Bremen",
-      "kickoff": "2026-11-07T17:30:00"
-    },
-    {
-      "fixture_key": "greeksl|阿里斯|帕纳多里高斯|2026-11-07",
-      "competition": "greeksl",
-      "competition_name": "希腊超级联赛",
-      "competition_class": "league",
-      "sport": "football",
-      "home": "阿里斯",
-      "away": "帕纳多里高斯",
-      "kickoff": "2026-11-07T17:30:00"
-    },
-    {
-      "fixture_key": "ligue1|auxerre|parisfc|2026-11-07",
-      "competition": "ligue1",
-      "competition_name": "法国甲级联赛",
-      "competition_class": "league",
-      "sport": "football",
-      "home": "Auxerre",
-      "away": "Paris FC",
-      "kickoff": "2026-11-07T18:00:00"
-    },
-    {
-      "fixture_key": "primeira|艾华卡|卡萨比亚|2026-11-07",
-      "competition": "primeira",
-      "competition_name": "葡萄牙超级联赛",
-      "competition_class": "league",
-      "sport": "football",
-      "home": "艾华卡",
-      "away": "卡萨比亚",
-      "kickoff": "2026-11-07T18:00:00"
-    },
-    {
-      "fixture_key": "argentina|甘拿斯亚门多萨|门多萨独立|2026-11-07",
-      "competition": "argentina",
-      "competition_name": "阿根廷甲级联赛",
-      "competition_class": "league",
-      "sport": "football",
-      "home": "甘拿斯亚门多萨",
-      "away": "门多萨独立",
-      "kickoff": "2026-11-07T18:00:00"
-    },
-    {
-      "fixture_key": "argentina|塔勒瑞斯|拉普拉塔大学生|2026-11-07",
-      "competition": "argentina",
-      "competition_name": "阿根廷甲级联赛",
-      "competition_class": "league",
-      "sport": "football",
-      "home": "塔勒瑞斯",
-      "away": "拉普拉塔大学生",
-      "kickoff": "2026-11-07T18:00:00"
-    },
-    {
-      "fixture_key": "poland|维德祖罗兹|什切青|2026-11-07",
-      "competition": "poland",
-      "competition_name": "波兰超级联赛",
-      "competition_class": "league",
-      "sport": "football",
-      "home": "维德祖罗兹",
-      "away": "什切青",
-      "kickoff": "2026-11-07T19:15:00"
-    },
-    {
-      "fixture_key": "seriea|roma|萨索洛|2026-11-07",
-      "competition": "seriea",
-      "competition_name": "意大利甲级联赛",
-      "competition_class": "league",
-      "sport": "football",
-      "home": "Roma",
-      "away": "萨索洛",
-      "kickoff": "2026-11-07T19:45:00"
-    },
-    {
-      "fixture_key": "laliga|valencia|realmadrid|2026-11-07",
-      "competition": "laliga",
-      "competition_name": "西班牙甲级联赛",
-      "competition_class": "league",
-      "sport": "football",
-      "home": "Valencia",
-      "away": "Real Madrid",
-      "kickoff": "2026-11-07T20:00:00"
-    },
-    {
-      "fixture_key": "ligue1|巴黎圣日耳曼|troyes|2026-11-07",
-      "competition": "ligue1",
-      "competition_name": "法国甲级联赛",
-      "competition_class": "league",
-      "sport": "football",
-      "home": "巴黎圣日耳曼",
-      "away": "Troyes",
-      "kickoff": "2026-11-07T20:05:00"
-    },
-    {
-      "fixture_key": "primeira|葡萄牙体育|摩里伦斯|2026-11-07",
-      "competition": "primeira",
-      "competition_name": "葡萄牙超级联赛",
-      "competition_class": "league",
-      "sport": "football",
-      "home": "葡萄牙体育",
-      "away": "摩里伦斯",
-      "kickoff": "2026-11-07T20:30:00"
-    },
-    {
-      "fixture_key": "argentina|阿根廷青年人|飓风队|2026-11-07",
-      "competition": "argentina",
-      "competition_name": "阿根廷甲级联赛",
-      "competition_class": "league",
-      "sport": "football",
-      "home": "阿根廷青年人",
-      "away": "飓风队",
-      "kickoff": "2026-11-07T20:30:00"
-    },
-    {
-      "fixture_key": "argentina|博卡青年|防卫者|2026-11-07",
-      "competition": "argentina",
-      "competition_name": "阿根廷甲级联赛",
-      "competition_class": "league",
-      "sport": "football",
-      "home": "博卡青年",
-      "away": "防卫者",
-      "kickoff": "2026-11-07T20:30:00"
-    },
-    {
-      "fixture_key": "argentina|罗萨里奥中央|里奥夸尔托学生队|2026-11-07",
-      "competition": "argentina",
-      "competition_name": "阿根廷甲级联赛",
-      "competition_class": "league",
-      "sport": "football",
-      "home": "罗萨里奥中央",
-      "away": "里奥夸尔托学生队",
-      "kickoff": "2026-11-07T20:30:00"
-    },
-    {
-      "fixture_key": "mls|cf蒙特利尔|温哥华白浪|2026-11-07",
-      "competition": "mls",
-      "competition_name": "美国职业大联盟",
-      "competition_class": "league",
-      "sport": "football",
-      "home": "CF蒙特利尔",
-      "away": "温哥华白浪",
-      "kickoff": "2026-11-07T21:00:00"
-    },
-    {
-      "fixture_key": "mls|芝加哥火焰|哥伦布机员|2026-11-07",
-      "competition": "mls",
-      "competition_name": "美国职业大联盟",
-      "competition_class": "league",
-      "sport": "football",
-      "home": "芝加哥火焰",
-      "away": "哥伦布机员",
-      "kickoff": "2026-11-07T21:00:00"
-    },
-    {
-      "fixture_key": "mls|华盛顿联|纽约城|2026-11-07",
-      "competition": "mls",
-      "competition_name": "美国职业大联盟",
-      "competition_class": "league",
-      "sport": "football",
-      "home": "华盛顿联",
-      "away": "纽约城",
-      "kickoff": "2026-11-07T21:00:00"
-    },
-    {
-      "fixture_key": "mls|辛辛那提|纳什威尔sc|2026-11-07",
-      "competition": "mls",
-      "competition_name": "美国职业大联盟",
-      "competition_class": "league",
-      "sport": "football",
-      "home": "辛辛那提",
-      "away": "纳什威尔SC",
-      "kickoff": "2026-11-07T21:00:00"
-    },
-    {
-      "fixture_key": "mls|迈阿密国际|夏洛特fc|2026-11-07",
-      "competition": "mls",
-      "competition_name": "美国职业大联盟",
-      "competition_class": "league",
-      "sport": "football",
-      "home": "迈阿密国际",
-      "away": "夏洛特FC",
-      "kickoff": "2026-11-07T21:00:00"
-    },
-    {
-      "fixture_key": "mls|纽约红牛|亚特兰大联|2026-11-07",
-      "competition": "mls",
-      "competition_name": "美国职业大联盟",
-      "competition_class": "league",
-      "sport": "football",
-      "home": "纽约红牛",
-      "away": "亚特兰大联",
-      "kickoff": "2026-11-07T21:00:00"
-    },
-    {
-      "fixture_key": "mls|奥兰多城|新英格兰革命|2026-11-07",
-      "competition": "mls",
-      "competition_name": "美国职业大联盟",
-      "competition_class": "league",
-      "sport": "football",
-      "home": "奥兰多城",
-      "away": "新英格兰革命",
-      "kickoff": "2026-11-07T21:00:00"
-    },
-    {
-      "fixture_key": "mls|费城联合|多伦多fc|2026-11-07",
-      "competition": "mls",
-      "competition_name": "美国职业大联盟",
-      "competition_class": "league",
-      "sport": "football",
-      "home": "费城联合",
-      "away": "多伦多FC",
-      "kickoff": "2026-11-07T21:00:00"
-    },
-    {
-      "fixture_key": "nba|indianapacers|denvernuggets|2026-11-07",
-      "competition": "nba",
-      "competition_name": "NBA 美国职业篮球联赛",
-      "competition_class": "league",
-      "sport": "basketball",
-      "home": "Indiana Pacers",
-      "away": "Denver Nuggets",
-      "kickoff": "2026-11-07T22:00:00"
-    },
-    {
-      "fixture_key": "mls|奥斯汀fc|波特兰伐木者|2026-11-08",
-      "competition": "mls",
-      "competition_name": "美国职业大联盟",
-      "competition_class": "league",
-      "sport": "football",
-      "home": "奥斯汀FC",
-      "away": "波特兰伐木者",
-      "kickoff": "2026-11-08T00:00:00"
-    },
-    {
-      "fixture_key": "mls|达拉斯fc|科罗拉多急流|2026-11-08",
-      "competition": "mls",
-      "competition_name": "美国职业大联盟",
-      "competition_class": "league",
-      "sport": "football",
-      "home": "达拉斯FC",
-      "away": "科罗拉多急流",
-      "kickoff": "2026-11-08T00:00:00"
-    },
-    {
-      "fixture_key": "mls|休斯敦迪纳摩|圣路易斯城|2026-11-08",
-      "competition": "mls",
-      "competition_name": "美国职业大联盟",
-      "competition_class": "league",
-      "sport": "football",
-      "home": "休斯敦迪纳摩",
-      "away": "圣路易斯城",
-      "kickoff": "2026-11-08T00:00:00"
-    },
-    {
-      "fixture_key": "mls|明尼苏达联|圣何塞地震|2026-11-08",
-      "competition": "mls",
-      "competition_name": "美国职业大联盟",
-      "competition_class": "league",
-      "sport": "football",
-      "home": "明尼苏达联",
-      "away": "圣何塞地震",
-      "kickoff": "2026-11-08T00:00:00"
-    },
-    {
-      "fixture_key": "mls|皇家盐湖城|洛杉矶银河|2026-11-08",
-      "competition": "mls",
-      "competition_name": "美国职业大联盟",
-      "competition_class": "league",
-      "sport": "football",
-      "home": "皇家盐湖城",
-      "away": "洛杉矶银河",
-      "kickoff": "2026-11-08T00:00:00"
-    },
-    {
-      "fixture_key": "mls|圣地亚哥|堪萨斯城竞技|2026-11-08",
-      "competition": "mls",
-      "competition_name": "美国职业大联盟",
-      "competition_class": "league",
-      "sport": "football",
-      "home": "圣地亚哥",
-      "away": "堪萨斯城竞技",
-      "kickoff": "2026-11-08T00:00:00"
-    },
-    {
-      "fixture_key": "mls|西雅图海湾人|洛杉矶fc|2026-11-08",
-      "competition": "mls",
-      "competition_name": "美国职业大联盟",
-      "competition_class": "league",
-      "sport": "football",
-      "home": "西雅图海湾人",
-      "away": "洛杉矶FC",
-      "kickoff": "2026-11-08T00:00:00"
-    },
-    {
-      "fixture_key": "nba|atlantahawks|brooklynnets|2026-11-08",
-      "competition": "nba",
-      "competition_name": "NBA 美国职业篮球联赛",
-      "competition_class": "league",
-      "sport": "basketball",
-      "home": "Atlanta Hawks",
-      "away": "Brooklyn Nets",
-      "kickoff": "2026-11-08T00:30:00"
-    },
-    {
-      "fixture_key": "argentina|科尔多瓦学院|纽维尔老男孩|2026-11-08",
-      "competition": "argentina",
-      "competition_name": "阿根廷甲级联赛",
-      "competition_class": "league",
-      "sport": "football",
-      "home": "科尔多瓦学院",
-      "away": "纽维尔老男孩",
-      "kickoff": "2026-11-08T01:00:00"
-    },
-    {
-      "fixture_key": "nba|clevelandcavaliers|newyorkknicks|2026-11-08",
-      "competition": "nba",
-      "competition_name": "NBA 美国职业篮球联赛",
-      "competition_class": "league",
-      "sport": "basketball",
-      "home": "Cleveland Cavaliers",
-      "away": "New York Knicks",
-      "kickoff": "2026-11-08T01:00:00"
-    },
-    {
-      "fixture_key": "nba|oklahomacitythunder|washingtonwizards|2026-11-08",
-      "competition": "nba",
-      "competition_name": "NBA 美国职业篮球联赛",
-      "competition_class": "league",
-      "sport": "basketball",
-      "home": "Oklahoma City Thunder",
-      "away": "Washington Wizards",
-      "kickoff": "2026-11-08T01:00:00"
-    },
-    {
-      "fixture_key": "nba|goldenstatewarriors|orlandomagic|2026-11-08",
-      "competition": "nba",
-      "competition_name": "NBA 美国职业篮球联赛",
-      "competition_class": "league",
-      "sport": "basketball",
-      "home": "Golden State Warriors",
-      "away": "Orlando Magic",
-      "kickoff": "2026-11-08T01:30:00"
-    },
-    {
-      "fixture_key": "nba|phoenixsuns|houstonrockets|2026-11-08",
-      "competition": "nba",
-      "competition_name": "NBA 美国职业篮球联赛",
-      "competition_class": "league",
-      "sport": "basketball",
-      "home": "Phoenix Suns",
-      "away": "Houston Rockets",
-      "kickoff": "2026-11-08T02:00:00"
-    },
-    {
-      "fixture_key": "nba|portlandtrailblazers|sanantoniospurs|2026-11-08",
-      "competition": "nba",
-      "competition_name": "NBA 美国职业篮球联赛",
-      "competition_class": "league",
-      "sport": "basketball",
-      "home": "Portland Trail Blazers",
-      "away": "San Antonio Spurs",
-      "kickoff": "2026-11-08T03:00:00"
-    },
-    {
-      "fixture_key": "superlig|里泽体育|埃尔祖鲁姆体育|2026-11-08",
-      "competition": "superlig",
-      "competition_name": "土耳其超级联赛",
-      "competition_class": "league",
-      "sport": "football",
-      "home": "里泽体育",
-      "away": "埃尔祖鲁姆体育",
-      "kickoff": "2026-11-08T10:30:00"
-    },
-    {
-      "fixture_key": "rpl|苏维埃之翼|奥伦堡加索维克|2026-11-08",
-      "competition": "rpl",
-      "competition_name": "俄罗斯超级联赛",
-      "competition_class": "league",
-      "sport": "football",
-      "home": "苏维埃之翼",
-      "away": "奥伦堡加索维克",
-      "kickoff": "2026-11-08T11:00:00"
-    },
-    {
-      "fixture_key": "denmark|哥本哈根|布隆德比|2026-11-08",
-      "competition": "denmark",
-      "competition_name": "丹麦超级联赛",
-      "competition_class": "league",
-      "sport": "football",
-      "home": "哥本哈根",
-      "away": "布隆德比",
-      "kickoff": "2026-11-08T11:00:00"
-    },
-    {
-      "fixture_key": "seriea|napoli|lazio|2026-11-08",
-      "competition": "seriea",
-      "competition_name": "意大利甲级联赛",
-      "competition_class": "league",
-      "sport": "football",
-      "home": "Napoli",
-      "away": "Lazio",
-      "kickoff": "2026-11-08T11:30:00"
-    },
-    {
-      "fixture_key": "laliga|elche|realbetis|2026-11-08",
-      "competition": "laliga",
-      "competition_name": "西班牙甲级联赛",
-      "competition_class": "league",
-      "sport": "football",
-      "home": "Elche",
-      "away": "Real Betis",
-      "kickoff": "2026-11-08T13:00:00"
-    },
-    {
-      "fixture_key": "superlig|科鲁姆|费内巴切|2026-11-08",
-      "competition": "superlig",
-      "competition_name": "土耳其超级联赛",
-      "competition_class": "league",
-      "sport": "football",
-      "home": "科鲁姆",
-      "away": "费内巴切",
-      "kickoff": "2026-11-08T13:00:00"
-    },
-    {
-      "fixture_key": "denmark|奥胡斯|霍森斯|2026-11-08",
-      "competition": "denmark",
-      "competition_name": "丹麦超级联赛",
-      "competition_class": "league",
-      "sport": "football",
-      "home": "奥胡斯",
-      "away": "霍森斯",
-      "kickoff": "2026-11-08T13:00:00"
-    },
-    {
-      "fixture_key": "sweden|哥德堡|马尔默|2026-11-08",
-      "competition": "sweden",
-      "competition_name": "瑞典超级联赛",
-      "competition_class": "league",
-      "sport": "football",
-      "home": "哥德堡",
-      "away": "马尔默",
-      "kickoff": "2026-11-08T13:00:00"
-    },
-    {
-      "fixture_key": "sweden|哈尔姆斯塔德|尤尔加登|2026-11-08",
-      "competition": "sweden",
-      "competition_name": "瑞典超级联赛",
-      "competition_class": "league",
-      "sport": "football",
-      "home": "哈尔姆斯塔德",
-      "away": "尤尔加登",
-      "kickoff": "2026-11-08T13:00:00"
-    },
-    {
-      "fixture_key": "rpl|莫斯科斯巴达|阿克伦陶里亚蒂|2026-11-08",
-      "competition": "rpl",
-      "competition_name": "俄罗斯超级联赛",
-      "competition_class": "league",
-      "sport": "football",
-      "home": "莫斯科斯巴达",
-      "away": "阿克伦陶里亚蒂",
-      "kickoff": "2026-11-08T13:15:00"
-    },
-    {
-      "fixture_key": "poland|比亚韦斯托克雅盖隆|gks卡托威斯|2026-11-08",
-      "competition": "poland",
-      "competition_name": "波兰超级联赛",
-      "competition_class": "league",
-      "sport": "football",
-      "home": "比亚韦斯托克雅盖隆",
-      "away": "GKS卡托威斯",
-      "kickoff": "2026-11-08T13:45:00"
-    },
-    {
-      "fixture_key": "epl|brighton|brentford|2026-11-08",
-      "competition": "epl",
-      "competition_name": "英格兰超级联赛",
-      "competition_class": "league",
-      "sport": "football",
-      "home": "Brighton",
-      "away": "Brentford",
-      "kickoff": "2026-11-08T14:00:00"
-    },
-    {
-      "fixture_key": "epl|crystalpalace|liverpool|2026-11-08",
-      "competition": "epl",
-      "competition_name": "英格兰超级联赛",
-      "competition_class": "league",
-      "sport": "football",
-      "home": "Crystal Palace",
-      "away": "Liverpool",
-      "kickoff": "2026-11-08T14:00:00"
-    },
-    {
-      "fixture_key": "epl|ipswichtown|bournemouth|2026-11-08",
-      "competition": "epl",
-      "competition_name": "英格兰超级联赛",
-      "competition_class": "league",
-      "sport": "football",
-      "home": "Ipswich Town",
-      "away": "Bournemouth",
-      "kickoff": "2026-11-08T14:00:00"
-    },
-    {
-      "fixture_key": "epl|sunderland|chelsea|2026-11-08",
-      "competition": "epl",
-      "competition_name": "英格兰超级联赛",
-      "competition_class": "league",
-      "sport": "football",
-      "home": "Sunderland",
-      "away": "Chelsea",
-      "kickoff": "2026-11-08T14:00:00"
-    },
-    {
-      "fixture_key": "seriea|genoa|acmilan|2026-11-08",
-      "competition": "seriea",
-      "competition_name": "意大利甲级联赛",
-      "competition_class": "league",
-      "sport": "football",
-      "home": "Genoa",
-      "away": "AC Milan",
-      "kickoff": "2026-11-08T14:00:00"
-    },
-    {
-      "fixture_key": "seriea|monza|亚特兰大|2026-11-08",
-      "competition": "seriea",
-      "competition_name": "意大利甲级联赛",
-      "competition_class": "league",
-      "sport": "football",
-      "home": "Monza",
-      "away": "亚特兰大",
-      "kickoff": "2026-11-08T14:00:00"
-    },
-    {
-      "fixture_key": "ligue1|雷恩|里尔|2026-11-08",
-      "competition": "ligue1",
-      "competition_name": "法国甲级联赛",
-      "competition_class": "league",
-      "sport": "football",
-      "home": "雷恩",
-      "away": "里尔",
-      "kickoff": "2026-11-08T14:00:00"
-    },
-    {
-      "fixture_key": "bundesliga|fckoln|bayerleverkusen|2026-11-08",
-      "competition": "bundesliga",
-      "competition_name": "德国甲级联赛",
-      "competition_class": "league",
-      "sport": "football",
-      "home": "FC Koln",
-      "away": "Bayer Leverkusen",
-      "kickoff": "2026-11-08T14:30:00"
-    },
-    {
-      "fixture_key": "greeksl|aek雅典|莱瓦贾科斯|2026-11-08",
-      "competition": "greeksl",
-      "competition_name": "希腊超级联赛",
-      "competition_class": "league",
-      "sport": "football",
-      "home": "AEK雅典",
-      "away": "莱瓦贾科斯",
-      "kickoff": "2026-11-08T15:00:00"
-    },
-    {
-      "fixture_key": "greeksl|特里波利斯|卡拉玛达|2026-11-08",
-      "competition": "greeksl",
-      "competition_name": "希腊超级联赛",
-      "competition_class": "league",
-      "sport": "football",
-      "home": "特里波利斯",
-      "away": "卡拉玛达",
-      "kickoff": "2026-11-08T15:00:00"
-    },
-    {
-      "fixture_key": "denmark|兰讷斯|北西兰|2026-11-08",
-      "competition": "denmark",
-      "competition_name": "丹麦超级联赛",
-      "competition_class": "league",
-      "sport": "football",
-      "home": "兰讷斯",
-      "away": "北西兰",
-      "kickoff": "2026-11-08T15:00:00"
-    },
-    {
-      "fixture_key": "laliga|realsociedad|rayovallecano|2026-11-08",
-      "competition": "laliga",
-      "competition_name": "西班牙甲级联赛",
-      "competition_class": "league",
-      "sport": "football",
-      "home": "Real Sociedad",
-      "away": "Rayo Vallecano",
-      "kickoff": "2026-11-08T15:15:00"
-    },
-    {
-      "fixture_key": "primeira|埃斯托里尔|马里迪莫|2026-11-08",
-      "competition": "primeira",
-      "competition_name": "葡萄牙超级联赛",
-      "competition_class": "league",
-      "sport": "football",
-      "home": "埃斯托里尔",
-      "away": "马里迪莫",
-      "kickoff": "2026-11-08T15:30:00"
-    },
-    {
-      "fixture_key": "primeira|圣克拉拉|吉维森特|2026-11-08",
-      "competition": "primeira",
-      "competition_name": "葡萄牙超级联赛",
-      "competition_class": "league",
-      "sport": "football",
-      "home": "圣克拉拉",
-      "away": "吉维森特",
-      "kickoff": "2026-11-08T15:30:00"
-    },
-    {
-      "fixture_key": "rpl|圣彼得堡泽尼特|罗斯托夫|2026-11-08",
-      "competition": "rpl",
-      "competition_name": "俄罗斯超级联赛",
-      "competition_class": "league",
-      "sport": "football",
-      "home": "圣彼得堡泽尼特",
-      "away": "罗斯托夫",
-      "kickoff": "2026-11-08T15:30:00"
-    },
-    {
-      "fixture_key": "superlig|阿拉尼亚体育|特拉布宗体育|2026-11-08",
-      "competition": "superlig",
-      "competition_name": "土耳其超级联赛",
-      "competition_class": "league",
-      "sport": "football",
-      "home": "阿拉尼亚体育",
-      "away": "特拉布宗体育",
-      "kickoff": "2026-11-08T15:30:00"
-    },
-    {
-      "fixture_key": "greeksl|伊拉克里斯|帕纳辛纳科斯|2026-11-08",
-      "competition": "greeksl",
-      "competition_name": "希腊超级联赛",
-      "competition_class": "league",
-      "sport": "football",
-      "home": "伊拉克里斯",
-      "away": "帕纳辛纳科斯",
-      "kickoff": "2026-11-08T15:30:00"
-    },
-    {
-      "fixture_key": "sweden|索尔纳|赫根|2026-11-08",
-      "competition": "sweden",
-      "competition_name": "瑞典超级联赛",
-      "competition_class": "league",
-      "sport": "football",
-      "home": "索尔纳",
-      "away": "赫根",
-      "kickoff": "2026-11-08T15:30:00"
-    },
-    {
-      "fixture_key": "sweden|布洛马波卡纳|米亚尔比|2026-11-08",
-      "competition": "sweden",
-      "competition_name": "瑞典超级联赛",
-      "competition_class": "league",
-      "sport": "football",
-      "home": "布洛马波卡纳",
-      "away": "米亚尔比",
-      "kickoff": "2026-11-08T15:30:00"
-    },
-    {
-      "fixture_key": "sweden|卡尔马|天狼星|2026-11-08",
-      "competition": "sweden",
-      "competition_name": "瑞典超级联赛",
-      "competition_class": "league",
-      "sport": "football",
-      "home": "卡尔马",
-      "away": "天狼星",
-      "kickoff": "2026-11-08T15:30:00"
-    },
-    {
-      "fixture_key": "ligue1|angers|尼斯|2026-11-08",
-      "competition": "ligue1",
-      "competition_name": "法国甲级联赛",
-      "competition_class": "league",
-      "sport": "football",
-      "home": "Angers",
-      "away": "尼斯",
-      "kickoff": "2026-11-08T16:15:00"
-    },
-    {
-      "fixture_key": "ligue1|布雷斯特|lyon|2026-11-08",
-      "competition": "ligue1",
-      "competition_name": "法国甲级联赛",
-      "competition_class": "league",
-      "sport": "football",
-      "home": "布雷斯特",
-      "away": "Lyon",
-      "kickoff": "2026-11-08T16:15:00"
-    },
-    {
-      "fixture_key": "ligue1|勒阿弗尔|洛里昂|2026-11-08",
-      "competition": "ligue1",
-      "competition_name": "法国甲级联赛",
-      "competition_class": "league",
-      "sport": "football",
-      "home": "勒阿弗尔",
-      "away": "洛里昂",
-      "kickoff": "2026-11-08T16:15:00"
-    },
-    {
-      "fixture_key": "ligue1|lemans|monaco|2026-11-08",
-      "competition": "ligue1",
-      "competition_name": "法国甲级联赛",
-      "competition_class": "league",
-      "sport": "football",
-      "home": "Le Mans",
-      "away": "Monaco",
-      "kickoff": "2026-11-08T16:15:00"
-    },
-    {
-      "fixture_key": "epl|manchesterunited|astonvilla|2026-11-08",
-      "competition": "epl",
-      "competition_name": "英格兰超级联赛",
-      "competition_class": "league",
-      "sport": "football",
-      "home": "Manchester United",
-      "away": "Aston Villa",
-      "kickoff": "2026-11-08T16:30:00"
-    },
-    {
-      "fixture_key": "bundesliga|freiburg|unionberlin|2026-11-08",
-      "competition": "bundesliga",
-      "competition_name": "德国甲级联赛",
-      "competition_class": "league",
-      "sport": "football",
-      "home": "Freiburg",
-      "away": "Union Berlin",
-      "kickoff": "2026-11-08T16:30:00"
-    },
-    {
-      "fixture_key": "greeksl|ofi克里特|阿特罗米托斯|2026-11-08",
-      "competition": "greeksl",
-      "competition_name": "希腊超级联赛",
-      "competition_class": "league",
-      "sport": "football",
-      "home": "OFI克里特",
-      "away": "阿特罗米托斯",
-      "kickoff": "2026-11-08T16:30:00"
-    },
-    {
-      "fixture_key": "poland|华沙莱吉亚|琴斯托霍瓦|2026-11-08",
-      "competition": "poland",
-      "competition_name": "波兰超级联赛",
-      "competition_class": "league",
-      "sport": "football",
-      "home": "华沙莱吉亚",
-      "away": "琴斯托霍瓦",
-      "kickoff": "2026-11-08T16:30:00"
-    },
-    {
-      "fixture_key": "seriea|intermilan|como|2026-11-08",
-      "competition": "seriea",
-      "competition_name": "意大利甲级联赛",
-      "competition_class": "league",
-      "sport": "football",
-      "home": "Inter Milan",
-      "away": "Como",
-      "kickoff": "2026-11-08T17:00:00"
-    },
-    {
-      "fixture_key": "denmark|中日德兰|桑德捷斯基|2026-11-08",
-      "competition": "denmark",
-      "competition_name": "丹麦超级联赛",
-      "competition_class": "league",
-      "sport": "football",
-      "home": "中日德兰",
-      "away": "桑德捷斯基",
-      "kickoff": "2026-11-08T17:00:00"
-    },
-    {
-      "fixture_key": "laliga|celtavigo|levante|2026-11-08",
-      "competition": "laliga",
-      "competition_name": "西班牙甲级联赛",
-      "competition_class": "league",
-      "sport": "football",
-      "home": "Celta Vigo",
-      "away": "Levante",
-      "kickoff": "2026-11-08T17:30:00"
-    },
-    {
-      "fixture_key": "laliga|比利亚雷亚尔|getafe|2026-11-08",
-      "competition": "laliga",
-      "competition_name": "西班牙甲级联赛",
-      "competition_class": "league",
-      "sport": "football",
-      "home": "比利亚雷亚尔",
-      "away": "Getafe",
-      "kickoff": "2026-11-08T17:30:00"
-    },
-    {
-      "fixture_key": "rpl|加里宁格勒波罗的海|马哈奇卡拉|2026-11-08",
-      "competition": "rpl",
-      "competition_name": "俄罗斯超级联赛",
-      "competition_class": "league",
-      "sport": "football",
-      "home": "加里宁格勒波罗的海",
-      "away": "马哈奇卡拉",
-      "kickoff": "2026-11-08T17:45:00"
-    },
-    {
-      "fixture_key": "primeira|吉马良斯|波尔图|2026-11-08",
-      "competition": "primeira",
-      "competition_name": "葡萄牙超级联赛",
-      "competition_class": "league",
-      "sport": "football",
-      "home": "吉马良斯",
-      "away": "波尔图",
-      "kickoff": "2026-11-08T18:00:00"
-    },
-    {
-      "fixture_key": "superlig|贝西克塔斯|根克勒比利吉|2026-11-08",
-      "competition": "superlig",
-      "competition_name": "土耳其超级联赛",
-      "competition_class": "league",
-      "sport": "football",
-      "home": "贝西克塔斯",
-      "away": "根克勒比利吉",
-      "kickoff": "2026-11-08T18:00:00"
-    },
-    {
-      "fixture_key": "bundesliga|hoffenheim|schalke04|2026-11-08",
-      "competition": "bundesliga",
-      "competition_name": "德国甲级联赛",
-      "competition_class": "league",
-      "sport": "football",
-      "home": "Hoffenheim",
-      "away": "Schalke 04",
-      "kickoff": "2026-11-08T18:30:00"
-    },
-    {
-      "fixture_key": "greeksl|奥林匹亚科斯|塞萨洛尼基|2026-11-08",
-      "competition": "greeksl",
-      "competition_name": "希腊超级联赛",
-      "competition_class": "league",
-      "sport": "football",
-      "home": "奥林匹亚科斯",
-      "away": "塞萨洛尼基",
-      "kickoff": "2026-11-08T19:00:00"
-    },
-    {
-      "fixture_key": "poland|波兹南莱赫|卢宾扎格勒比|2026-11-08",
-      "competition": "poland",
-      "competition_name": "波兰超级联赛",
-      "competition_class": "league",
-      "sport": "football",
-      "home": "波兹南莱赫",
-      "away": "卢宾扎格勒比",
-      "kickoff": "2026-11-08T19:15:00"
-    },
-    {
-      "fixture_key": "seriea|佛罗伦萨|juventus|2026-11-08",
-      "competition": "seriea",
-      "competition_name": "意大利甲级联赛",
-      "competition_class": "league",
-      "sport": "football",
-      "home": "佛罗伦萨",
-      "away": "Juventus",
-      "kickoff": "2026-11-08T19:45:00"
-    },
-    {
-      "fixture_key": "ligue1|朗斯|marseille|2026-11-08",
-      "competition": "ligue1",
-      "competition_name": "法国甲级联赛",
-      "competition_class": "league",
-      "sport": "football",
-      "home": "朗斯",
-      "away": "Marseille",
-      "kickoff": "2026-11-08T19:45:00"
-    },
-    {
-      "fixture_key": "laliga|atleticomadrid|barcelona|2026-11-08",
-      "competition": "laliga",
-      "competition_name": "西班牙甲级联赛",
-      "competition_class": "league",
-      "sport": "football",
-      "home": "Atletico Madrid",
-      "away": "Barcelona",
-      "kickoff": "2026-11-08T20:00:00"
-    },
-    {
-      "fixture_key": "primeira|阿马多拉|本菲卡|2026-11-08",
-      "competition": "primeira",
-      "competition_name": "葡萄牙超级联赛",
-      "competition_class": "league",
-      "sport": "football",
-      "home": "阿马多拉",
-      "away": "本菲卡",
-      "kickoff": "2026-11-08T20:30:00"
-    },
-    {
-      "fixture_key": "primeira|里奥阿维|布拉加|2026-11-08",
-      "competition": "primeira",
-      "competition_name": "葡萄牙超级联赛",
-      "competition_class": "league",
-      "sport": "football",
-      "home": "里奥阿维",
-      "away": "布拉加",
-      "kickoff": "2026-11-08T20:30:00"
-    },
-    {
-      "fixture_key": "nba|chicagobulls|philadelphia76ers|2026-11-08",
-      "competition": "nba",
-      "competition_name": "NBA 美国职业篮球联赛",
-      "competition_class": "league",
-      "sport": "basketball",
-      "home": "Chicago Bulls",
-      "away": "Philadelphia 76ers",
-      "kickoff": "2026-11-08T20:30:00"
-    },
-    {
-      "fixture_key": "argentina|科尔多瓦中央sde|拉努斯|2026-11-08",
-      "competition": "argentina",
-      "competition_name": "阿根廷甲级联赛",
-      "competition_class": "league",
-      "sport": "football",
-      "home": "科尔多瓦中央SDE",
-      "away": "拉努斯",
-      "kickoff": "2026-11-08T22:30:00"
-    },
-    {
-      "fixture_key": "nba|detroitpistons|losangeleslakers|2026-11-08",
-      "competition": "nba",
-      "competition_name": "NBA 美国职业篮球联赛",
-      "competition_class": "league",
-      "sport": "basketball",
-      "home": "Detroit Pistons",
-      "away": "Los Angeles Lakers",
-      "kickoff": "2026-11-08T23:00:00"
-    },
-    {
-      "fixture_key": "nba|minnesotatimberwolves|utahjazz|2026-11-09",
-      "competition": "nba",
-      "competition_name": "NBA 美国职业篮球联赛",
-      "competition_class": "league",
-      "sport": "basketball",
-      "home": "Minnesota Timberwolves",
-      "away": "Utah Jazz",
-      "kickoff": "2026-11-09T00:00:00"
-    },
-    {
-      "fixture_key": "nba|dallasmavericks|brooklynnets|2026-11-09",
-      "competition": "nba",
-      "competition_name": "NBA 美国职业篮球联赛",
-      "competition_class": "league",
-      "sport": "basketball",
-      "home": "Dallas Mavericks",
-      "away": "Brooklyn Nets",
-      "kickoff": "2026-11-09T00:30:00"
-    },
-    {
-      "fixture_key": "nba|milwaukeebucks|bostonceltics|2026-11-09",
-      "competition": "nba",
-      "competition_name": "NBA 美国职业篮球联赛",
-      "competition_class": "league",
-      "sport": "basketball",
-      "home": "Milwaukee Bucks",
-      "away": "Boston Celtics",
-      "kickoff": "2026-11-09T01:00:00"
-    },
-    {
-      "fixture_key": "nba|sacramentokings|miamiheat|2026-11-09",
-      "competition": "nba",
-      "competition_name": "NBA 美国职业篮球联赛",
-      "competition_class": "league",
-      "sport": "basketball",
-      "home": "Sacramento Kings",
-      "away": "Miami Heat",
-      "kickoff": "2026-11-09T02:00:00"
-    },
-    {
-      "fixture_key": "nba|losangelesclippers|neworleanspelicans|2026-11-09",
-      "competition": "nba",
-      "competition_name": "NBA 美国职业篮球联赛",
-      "competition_class": "league",
-      "sport": "basketball",
-      "home": "Los Angeles Clippers",
-      "away": "New Orleans Pelicans",
-      "kickoff": "2026-11-09T02:00:00"
-    },
-    {
-      "fixture_key": "nba|charlottehornets|clevelandcavaliers|2026-11-10",
-      "competition": "nba",
-      "competition_name": "NBA 美国职业篮球联赛",
-      "competition_class": "league",
-      "sport": "basketball",
-      "home": "Charlotte Hornets",
-      "away": "Cleveland Cavaliers",
-      "kickoff": "2026-11-10T00:00:00"
+      "home": "乌兹别克斯坦U17",
+      "away": "厄瓜多尔U17",
+      "kickoff": "2026-11-09T13:00:00"
     },
     {
       "fixture_key": "nba|atlantahawks|losangeleslakers|2026-11-10",
@@ -1619,6 +19,16 @@
       "sport": "basketball",
       "home": "Atlanta Hawks",
       "away": "Los Angeles Lakers",
+      "kickoff": "2026-11-10T00:00:00"
+    },
+    {
+      "fixture_key": "nba|charlottehornets|clevelandcavaliers|2026-11-10",
+      "competition": "nba",
+      "competition_name": "NBA 美国职业篮球联赛",
+      "competition_class": "league",
+      "sport": "basketball",
+      "home": "Charlotte Hornets",
+      "away": "Cleveland Cavaliers",
       "kickoff": "2026-11-10T00:00:00"
     },
     {
@@ -1719,7 +129,7 @@
       "sport": "football",
       "home": "刚果共和国女足",
       "away": "中非共和国女足",
-      "kickoff": "2026-11-10T12:15:00"
+      "kickoff": "2026-11-10T12:00:00"
     },
     {
       "fixture_key": "intl_friendly|尼扬加体育女足|圣多美和普林西比女足|2026-11-10",
@@ -1730,6 +140,16 @@
       "home": "尼扬加体育女足",
       "away": "圣多美和普林西比女足",
       "kickoff": "2026-11-10T15:30:00"
+    },
+    {
+      "fixture_key": "intl_friendly|比利时女足u16|苏格兰女足u16|2026-11-10",
+      "competition": "intl_friendly",
+      "competition_name": "国家队友谊赛",
+      "competition_class": "cup",
+      "sport": "football",
+      "home": "比利时女足U16",
+      "away": "苏格兰女足U16",
+      "kickoff": "2026-11-10T16:00:00"
     },
     {
       "fixture_key": "intl_friendly|荷属圣马丁岛|安圭拉|2026-11-11",
@@ -1762,16 +182,6 @@
       "kickoff": "2026-11-11T01:00:00"
     },
     {
-      "fixture_key": "nba|utahjazz|miamiheat|2026-11-11",
-      "competition": "nba",
-      "competition_name": "NBA 美国职业篮球联赛",
-      "competition_class": "league",
-      "sport": "basketball",
-      "home": "Utah Jazz",
-      "away": "Miami Heat",
-      "kickoff": "2026-11-11T02:00:00"
-    },
-    {
       "fixture_key": "nba|phoenixsuns|losangelesclippers|2026-11-11",
       "competition": "nba",
       "competition_name": "NBA 美国职业篮球联赛",
@@ -1779,6 +189,16 @@
       "sport": "basketball",
       "home": "Phoenix Suns",
       "away": "Los Angeles Clippers",
+      "kickoff": "2026-11-11T02:00:00"
+    },
+    {
+      "fixture_key": "nba|utahjazz|miamiheat|2026-11-11",
+      "competition": "nba",
+      "competition_name": "NBA 美国职业篮球联赛",
+      "competition_class": "league",
+      "sport": "basketball",
+      "home": "Utah Jazz",
+      "away": "Miami Heat",
       "kickoff": "2026-11-11T02:00:00"
     },
     {
@@ -1802,6 +222,86 @@
       "kickoff": "2026-11-11T04:00:00"
     },
     {
+      "fixture_key": "intl_friendly|韩国u19|塔吉克斯坦u19|2026-11-11",
+      "competition": "intl_friendly",
+      "competition_name": "国家队友谊赛",
+      "competition_class": "cup",
+      "sport": "football",
+      "home": "韩国U19",
+      "away": "塔吉克斯坦U19",
+      "kickoff": "2026-11-11T07:30:00"
+    },
+    {
+      "fixture_key": "intl_friendly|中国u19|越南u19|2026-11-11",
+      "competition": "intl_friendly",
+      "competition_name": "国家队友谊赛",
+      "competition_class": "cup",
+      "sport": "football",
+      "home": "中国U19",
+      "away": "越南U19",
+      "kickoff": "2026-11-11T11:35:00"
+    },
+    {
+      "fixture_key": "intl_friendly|越南|中国台湾|2026-11-11",
+      "competition": "intl_friendly",
+      "competition_name": "国家队友谊赛",
+      "competition_class": "cup",
+      "sport": "football",
+      "home": "越南",
+      "away": "中国台湾",
+      "kickoff": "2026-11-11T12:00:00"
+    },
+    {
+      "fixture_key": "intl_friendly|捷克u16|奥地利u16|2026-11-11",
+      "competition": "intl_friendly",
+      "competition_name": "国家队友谊赛",
+      "competition_class": "cup",
+      "sport": "football",
+      "home": "捷克U16",
+      "away": "奥地利U16",
+      "kickoff": "2026-11-11T13:00:00"
+    },
+    {
+      "fixture_key": "intl_friendly|瑞士u18|瑞典u18|2026-11-11",
+      "competition": "intl_friendly",
+      "competition_name": "国家队友谊赛",
+      "competition_class": "cup",
+      "sport": "football",
+      "home": "瑞士U18",
+      "away": "瑞典U18",
+      "kickoff": "2026-11-11T14:00:00"
+    },
+    {
+      "fixture_key": "intl_friendly|英格兰u18|荷兰u18|2026-11-11",
+      "competition": "intl_friendly",
+      "competition_name": "国家队友谊赛",
+      "competition_class": "cup",
+      "sport": "football",
+      "home": "英格兰U18",
+      "away": "荷兰U18",
+      "kickoff": "2026-11-11T14:00:00"
+    },
+    {
+      "fixture_key": "intl_friendly|哥斯达黎加u16|加拿大u16|2026-11-11",
+      "competition": "intl_friendly",
+      "competition_name": "国家队友谊赛",
+      "competition_class": "cup",
+      "sport": "football",
+      "home": "哥斯达黎加U16",
+      "away": "加拿大U16",
+      "kickoff": "2026-11-11T16:00:00"
+    },
+    {
+      "fixture_key": "nba|torontoraptors|bostonceltics|2026-11-12",
+      "competition": "nba",
+      "competition_name": "NBA 美国职业篮球联赛",
+      "competition_class": "league",
+      "sport": "basketball",
+      "home": "Toronto Raptors",
+      "away": "Boston Celtics",
+      "kickoff": "2026-11-12T00:00:00"
+    },
+    {
       "fixture_key": "nba|indianapacers|washingtonwizards|2026-11-12",
       "competition": "nba",
       "competition_name": "NBA 美国职业篮球联赛",
@@ -1822,23 +322,13 @@
       "kickoff": "2026-11-12T00:00:00"
     },
     {
-      "fixture_key": "nba|torontoraptors|bostonceltics|2026-11-12",
+      "fixture_key": "nba|memphisgrizzlies|denvernuggets|2026-11-12",
       "competition": "nba",
       "competition_name": "NBA 美国职业篮球联赛",
       "competition_class": "league",
       "sport": "basketball",
-      "home": "Toronto Raptors",
-      "away": "Boston Celtics",
-      "kickoff": "2026-11-12T00:00:00"
-    },
-    {
-      "fixture_key": "nba|milwaukeebucks|losangeleslakers|2026-11-12",
-      "competition": "nba",
-      "competition_name": "NBA 美国职业篮球联赛",
-      "competition_class": "league",
-      "sport": "basketball",
-      "home": "Milwaukee Bucks",
-      "away": "Los Angeles Lakers",
+      "home": "Memphis Grizzlies",
+      "away": "Denver Nuggets",
       "kickoff": "2026-11-12T01:00:00"
     },
     {
@@ -1852,16 +342,6 @@
       "kickoff": "2026-11-12T01:00:00"
     },
     {
-      "fixture_key": "nba|memphisgrizzlies|denvernuggets|2026-11-12",
-      "competition": "nba",
-      "competition_name": "NBA 美国职业篮球联赛",
-      "competition_class": "league",
-      "sport": "basketball",
-      "home": "Memphis Grizzlies",
-      "away": "Denver Nuggets",
-      "kickoff": "2026-11-12T01:00:00"
-    },
-    {
       "fixture_key": "nba|chicagobulls|sanantoniospurs|2026-11-12",
       "competition": "nba",
       "competition_name": "NBA 美国职业篮球联赛",
@@ -1869,6 +349,16 @@
       "sport": "basketball",
       "home": "Chicago Bulls",
       "away": "San Antonio Spurs",
+      "kickoff": "2026-11-12T01:00:00"
+    },
+    {
+      "fixture_key": "nba|milwaukeebucks|losangeleslakers|2026-11-12",
+      "competition": "nba",
+      "competition_name": "NBA 美国职业篮球联赛",
+      "competition_class": "league",
+      "sport": "basketball",
+      "home": "Milwaukee Bucks",
+      "away": "Los Angeles Lakers",
       "kickoff": "2026-11-12T01:00:00"
     },
     {
@@ -1902,6 +392,86 @@
       "kickoff": "2026-11-12T03:00:00"
     },
     {
+      "fixture_key": "intl_friendly|新西兰|印度|2026-11-12",
+      "competition": "intl_friendly",
+      "competition_name": "国家队友谊赛",
+      "competition_class": "cup",
+      "sport": "football",
+      "home": "新西兰",
+      "away": "印度",
+      "kickoff": "2026-11-12T06:00:00"
+    },
+    {
+      "fixture_key": "intl_friendly|泰国u23|卡塔尔u23|2026-11-12",
+      "competition": "intl_friendly",
+      "competition_name": "国家队友谊赛",
+      "competition_class": "cup",
+      "sport": "football",
+      "home": "泰国U23",
+      "away": "卡塔尔U23",
+      "kickoff": "2026-11-12T08:00:00"
+    },
+    {
+      "fixture_key": "intl_friendly|新加坡u23|越南u23|2026-11-12",
+      "competition": "intl_friendly",
+      "competition_name": "国家队友谊赛",
+      "competition_class": "cup",
+      "sport": "football",
+      "home": "新加坡U23",
+      "away": "越南U23",
+      "kickoff": "2026-11-12T12:00:00"
+    },
+    {
+      "fixture_key": "intl_friendly|苏格兰u21|乌克兰u21|2026-11-12",
+      "competition": "intl_friendly",
+      "competition_name": "国家队友谊赛",
+      "competition_class": "cup",
+      "sport": "football",
+      "home": "苏格兰U21",
+      "away": "乌克兰U21",
+      "kickoff": "2026-11-12T13:00:00"
+    },
+    {
+      "fixture_key": "intl_friendly|乌兹别克斯坦|俄罗斯|2026-11-12",
+      "competition": "intl_friendly",
+      "competition_name": "国家队友谊赛",
+      "competition_class": "cup",
+      "sport": "football",
+      "home": "乌兹别克斯坦",
+      "away": "俄罗斯",
+      "kickoff": "2026-11-12T15:00:00"
+    },
+    {
+      "fixture_key": "intl_friendly|法国u20|丹麦u20|2026-11-12",
+      "competition": "intl_friendly",
+      "competition_name": "国家队友谊赛",
+      "competition_class": "cup",
+      "sport": "football",
+      "home": "法国U20",
+      "away": "丹麦U20",
+      "kickoff": "2026-11-12T16:00:00"
+    },
+    {
+      "fixture_key": "intl_friendly|立陶宛|苏里南|2026-11-12",
+      "competition": "intl_friendly",
+      "competition_name": "国家队友谊赛",
+      "competition_class": "cup",
+      "sport": "football",
+      "home": "立陶宛",
+      "away": "苏里南",
+      "kickoff": "2026-11-12T17:00:00"
+    },
+    {
+      "fixture_key": "intl_friendly|马耳他|斯威士兰|2026-11-12",
+      "competition": "intl_friendly",
+      "competition_name": "国家队友谊赛",
+      "competition_class": "cup",
+      "sport": "football",
+      "home": "马耳他",
+      "away": "斯威士兰",
+      "kickoff": "2026-11-12T17:30:00"
+    },
+    {
       "fixture_key": "nba|philadelphia76ers|torontoraptors|2026-11-13",
       "competition": "nba",
       "competition_name": "NBA 美国职业篮球联赛",
@@ -1920,6 +490,666 @@
       "home": "Washington Wizards",
       "away": "Detroit Pistons",
       "kickoff": "2026-11-13T00:00:00"
+    },
+    {
+      "fixture_key": "intl_friendly|美国u19|日本u19|2026-11-13",
+      "competition": "intl_friendly",
+      "competition_name": "国家队友谊赛",
+      "competition_class": "cup",
+      "sport": "football",
+      "home": "美国U19",
+      "away": "日本U19",
+      "kickoff": "2026-11-13T01:00:00"
+    },
+    {
+      "fixture_key": "nba|minnesotatimberwolves|dallasmavericks|2026-11-13",
+      "competition": "nba",
+      "competition_name": "NBA 美国职业篮球联赛",
+      "competition_class": "league",
+      "sport": "basketball",
+      "home": "Minnesota Timberwolves",
+      "away": "Dallas Mavericks",
+      "kickoff": "2026-11-13T01:00:00"
+    },
+    {
+      "fixture_key": "nba|phoenixsuns|charlottehornets|2026-11-13",
+      "competition": "nba",
+      "competition_name": "NBA 美国职业篮球联赛",
+      "competition_class": "league",
+      "sport": "basketball",
+      "home": "Phoenix Suns",
+      "away": "Charlotte Hornets",
+      "kickoff": "2026-11-13T02:00:00"
+    },
+    {
+      "fixture_key": "intl_friendly|比利时女足u16|苏格兰女足u16|2026-11-13",
+      "competition": "intl_friendly",
+      "competition_name": "国家队友谊赛",
+      "competition_class": "cup",
+      "sport": "football",
+      "home": "比利时女足U16",
+      "away": "苏格兰女足U16",
+      "kickoff": "2026-11-13T11:00:00"
+    },
+    {
+      "fixture_key": "intl_friendly|捷克u18|波兰u18|2026-11-13",
+      "competition": "intl_friendly",
+      "competition_name": "国家队友谊赛",
+      "competition_class": "cup",
+      "sport": "football",
+      "home": "捷克U18",
+      "away": "波兰U18",
+      "kickoff": "2026-11-13T11:00:00"
+    },
+    {
+      "fixture_key": "intl_friendly|新加坡|巴拉圭|2026-11-13",
+      "competition": "intl_friendly",
+      "competition_name": "国家队友谊赛",
+      "competition_class": "cup",
+      "sport": "football",
+      "home": "新加坡",
+      "away": "巴拉圭",
+      "kickoff": "2026-11-13T12:00:00"
+    },
+    {
+      "fixture_key": "intl_friendly|科威特|叙利亚|2026-11-13",
+      "competition": "intl_friendly",
+      "competition_name": "国家队友谊赛",
+      "competition_class": "cup",
+      "sport": "football",
+      "home": "科威特",
+      "away": "叙利亚",
+      "kickoff": "2026-11-13T14:00:00"
+    },
+    {
+      "fixture_key": "intl_friendly|阿联酋|洪都拉斯|2026-11-13",
+      "competition": "intl_friendly",
+      "competition_name": "国家队友谊赛",
+      "competition_class": "cup",
+      "sport": "football",
+      "home": "阿联酋",
+      "away": "洪都拉斯",
+      "kickoff": "2026-11-13T14:10:00"
+    },
+    {
+      "fixture_key": "intl_friendly|韩国|沙特阿拉伯|2026-11-13",
+      "competition": "intl_friendly",
+      "competition_name": "国家队友谊赛",
+      "competition_class": "cup",
+      "sport": "football",
+      "home": "韩国",
+      "away": "沙特阿拉伯",
+      "kickoff": "2026-11-13T14:30:00"
+    },
+    {
+      "fixture_key": "intl_friendly|卡塔尔|澳大利亚|2026-11-13",
+      "competition": "intl_friendly",
+      "competition_name": "国家队友谊赛",
+      "competition_class": "cup",
+      "sport": "football",
+      "home": "卡塔尔",
+      "away": "澳大利亚",
+      "kickoff": "2026-11-13T14:45:00"
+    },
+    {
+      "fixture_key": "intl_friendly|挪威u21|波兰u21|2026-11-13",
+      "competition": "intl_friendly",
+      "competition_name": "国家队友谊赛",
+      "competition_class": "cup",
+      "sport": "football",
+      "home": "挪威U21",
+      "away": "波兰U21",
+      "kickoff": "2026-11-13T16:30:00"
+    },
+    {
+      "fixture_key": "intl_friendly|德国u21|比利时u21|2026-11-13",
+      "competition": "intl_friendly",
+      "competition_name": "国家队友谊赛",
+      "competition_class": "cup",
+      "sport": "football",
+      "home": "德国U21",
+      "away": "比利时U21",
+      "kickoff": "2026-11-13T17:00:00"
+    },
+    {
+      "fixture_key": "intl_friendly|法国u21|意大利u21|2026-11-13",
+      "competition": "intl_friendly",
+      "competition_name": "国家队友谊赛",
+      "competition_class": "cup",
+      "sport": "football",
+      "home": "法国U21",
+      "away": "意大利U21",
+      "kickoff": "2026-11-13T17:30:00"
+    },
+    {
+      "fixture_key": "intl_friendly|西班牙u21|日本u21|2026-11-13",
+      "competition": "intl_friendly",
+      "competition_name": "国家队友谊赛",
+      "competition_class": "cup",
+      "sport": "football",
+      "home": "西班牙U21",
+      "away": "日本U21",
+      "kickoff": "2026-11-13T18:00:00"
+    },
+    {
+      "fixture_key": "intl_friendly|阿尔巴尼亚u21|卢森堡u21|2026-11-13",
+      "competition": "intl_friendly",
+      "competition_name": "国家队友谊赛",
+      "competition_class": "cup",
+      "sport": "football",
+      "home": "阿尔巴尼亚U21",
+      "away": "卢森堡U21",
+      "kickoff": "2026-11-13T18:00:00"
+    },
+    {
+      "fixture_key": "intl_friendly|智利u20|墨西哥u20|2026-11-13",
+      "competition": "intl_friendly",
+      "competition_name": "国家队友谊赛",
+      "competition_class": "cup",
+      "sport": "football",
+      "home": "智利U20",
+      "away": "墨西哥U20",
+      "kickoff": "2026-11-13T18:00:00"
+    },
+    {
+      "fixture_key": "intl_friendly|约旦|印度尼西亚|2026-11-13",
+      "competition": "intl_friendly",
+      "competition_name": "国家队友谊赛",
+      "competition_class": "cup",
+      "sport": "football",
+      "home": "约旦",
+      "away": "印度尼西亚",
+      "kickoff": "2026-11-13T19:00:00"
+    },
+    {
+      "fixture_key": "intl_friendly|英格兰u21|葡萄牙u21|2026-11-13",
+      "competition": "intl_friendly",
+      "competition_name": "国家队友谊赛",
+      "competition_class": "cup",
+      "sport": "football",
+      "home": "英格兰U21",
+      "away": "葡萄牙U21",
+      "kickoff": "2026-11-13T19:30:00"
+    },
+    {
+      "fixture_key": "intl_friendly|阿根廷|乌拉圭|2026-11-13",
+      "competition": "intl_friendly",
+      "competition_name": "国家队友谊赛",
+      "competition_class": "cup",
+      "sport": "football",
+      "home": "阿根廷",
+      "away": "乌拉圭",
+      "kickoff": "2026-11-13T23:00:00"
+    },
+    {
+      "fixture_key": "intl_friendly|巴西u20|秘鲁u20|2026-11-13",
+      "competition": "intl_friendly",
+      "competition_name": "国家队友谊赛",
+      "competition_class": "cup",
+      "sport": "football",
+      "home": "巴西U20",
+      "away": "秘鲁U20",
+      "kickoff": "2026-11-13T23:00:00"
+    },
+    {
+      "fixture_key": "intl_friendly|哥伦比亚|智利|2026-11-14",
+      "competition": "intl_friendly",
+      "competition_name": "国家队友谊赛",
+      "competition_class": "cup",
+      "sport": "football",
+      "home": "哥伦比亚",
+      "away": "智利",
+      "kickoff": "2026-11-14T00:00:00"
+    },
+    {
+      "fixture_key": "intl_friendly|厄瓜多尔|哥斯达黎加|2026-11-14",
+      "competition": "intl_friendly",
+      "competition_name": "国家队友谊赛",
+      "competition_class": "cup",
+      "sport": "football",
+      "home": "厄瓜多尔",
+      "away": "哥斯达黎加",
+      "kickoff": "2026-11-14T00:00:00"
+    },
+    {
+      "fixture_key": "nba|orlandomagic|milwaukeebucks|2026-11-14",
+      "competition": "nba",
+      "competition_name": "NBA 美国职业篮球联赛",
+      "competition_class": "league",
+      "sport": "basketball",
+      "home": "Orlando Magic",
+      "away": "Milwaukee Bucks",
+      "kickoff": "2026-11-14T00:00:00"
+    },
+    {
+      "fixture_key": "nba|indianapacers|newyorkknicks|2026-11-14",
+      "competition": "nba",
+      "competition_name": "NBA 美国职业篮球联赛",
+      "competition_class": "league",
+      "sport": "basketball",
+      "home": "Indiana Pacers",
+      "away": "New York Knicks",
+      "kickoff": "2026-11-14T00:00:00"
+    },
+    {
+      "fixture_key": "intl_friendly|秘鲁|玻利维亚|2026-11-14",
+      "competition": "intl_friendly",
+      "competition_name": "国家队友谊赛",
+      "competition_class": "cup",
+      "sport": "football",
+      "home": "秘鲁",
+      "away": "玻利维亚",
+      "kickoff": "2026-11-14T01:00:00"
+    },
+    {
+      "fixture_key": "nba|neworleanspelicans|memphisgrizzlies|2026-11-14",
+      "competition": "nba",
+      "competition_name": "NBA 美国职业篮球联赛",
+      "competition_class": "league",
+      "sport": "basketball",
+      "home": "New Orleans Pelicans",
+      "away": "Memphis Grizzlies",
+      "kickoff": "2026-11-14T01:00:00"
+    },
+    {
+      "fixture_key": "nba|miamiheat|clevelandcavaliers|2026-11-14",
+      "competition": "nba",
+      "competition_name": "NBA 美国职业篮球联赛",
+      "competition_class": "league",
+      "sport": "basketball",
+      "home": "Miami Heat",
+      "away": "Cleveland Cavaliers",
+      "kickoff": "2026-11-14T01:00:00"
+    },
+    {
+      "fixture_key": "nba|chicagobulls|atlantahawks|2026-11-14",
+      "competition": "nba",
+      "competition_name": "NBA 美国职业篮球联赛",
+      "competition_class": "league",
+      "sport": "basketball",
+      "home": "Chicago Bulls",
+      "away": "Atlanta Hawks",
+      "kickoff": "2026-11-14T01:00:00"
+    },
+    {
+      "fixture_key": "nba|houstonrockets|utahjazz|2026-11-14",
+      "competition": "nba",
+      "competition_name": "NBA 美国职业篮球联赛",
+      "competition_class": "league",
+      "sport": "basketball",
+      "home": "Houston Rockets",
+      "away": "Utah Jazz",
+      "kickoff": "2026-11-14T01:30:00"
+    },
+    {
+      "fixture_key": "nba|sanantoniospurs|goldenstatewarriors|2026-11-14",
+      "competition": "nba",
+      "competition_name": "NBA 美国职业篮球联赛",
+      "competition_class": "league",
+      "sport": "basketball",
+      "home": "San Antonio Spurs",
+      "away": "Golden State Warriors",
+      "kickoff": "2026-11-14T02:30:00"
+    },
+    {
+      "fixture_key": "nba|sacramentokings|portlandtrailblazers|2026-11-14",
+      "competition": "nba",
+      "competition_name": "NBA 美国职业篮球联赛",
+      "competition_class": "league",
+      "sport": "basketball",
+      "home": "Sacramento Kings",
+      "away": "Portland Trail Blazers",
+      "kickoff": "2026-11-14T03:00:00"
+    },
+    {
+      "fixture_key": "nba|losangelesclippers|oklahomacitythunder|2026-11-14",
+      "competition": "nba",
+      "competition_name": "NBA 美国职业篮球联赛",
+      "competition_class": "league",
+      "sport": "basketball",
+      "home": "Los Angeles Clippers",
+      "away": "Oklahoma City Thunder",
+      "kickoff": "2026-11-14T03:30:00"
+    },
+    {
+      "fixture_key": "intl_friendly|巴林|也门|2026-11-14",
+      "competition": "intl_friendly",
+      "competition_name": "国家队友谊赛",
+      "competition_class": "cup",
+      "sport": "football",
+      "home": "巴林",
+      "away": "也门",
+      "kickoff": "2026-11-14T07:00:00"
+    },
+    {
+      "fixture_key": "intl_friendly|南韩u21|墨西哥u23|2026-11-14",
+      "competition": "intl_friendly",
+      "competition_name": "国家队友谊赛",
+      "competition_class": "cup",
+      "sport": "football",
+      "home": "南韩U21",
+      "away": "墨西哥U23",
+      "kickoff": "2026-11-14T07:00:00"
+    },
+    {
+      "fixture_key": "intl_friendly|越南u19|韩国u19|2026-11-14",
+      "competition": "intl_friendly",
+      "competition_name": "国家队友谊赛",
+      "competition_class": "cup",
+      "sport": "football",
+      "home": "越南U19",
+      "away": "韩国U19",
+      "kickoff": "2026-11-14T07:30:00"
+    },
+    {
+      "fixture_key": "intl_friendly|泰国u23|新加坡u23|2026-11-14",
+      "competition": "intl_friendly",
+      "competition_name": "国家队友谊赛",
+      "competition_class": "cup",
+      "sport": "football",
+      "home": "泰国U23",
+      "away": "新加坡U23",
+      "kickoff": "2026-11-14T08:00:00"
+    },
+    {
+      "fixture_key": "intl_friendly|土耳其u16|德国u16|2026-11-14",
+      "competition": "intl_friendly",
+      "competition_name": "国家队友谊赛",
+      "competition_class": "cup",
+      "sport": "football",
+      "home": "土耳其U16",
+      "away": "德国U16",
+      "kickoff": "2026-11-14T09:00:00"
+    },
+    {
+      "fixture_key": "intl_friendly|荷兰u18|瑞士u18|2026-11-14",
+      "competition": "intl_friendly",
+      "competition_name": "国家队友谊赛",
+      "competition_class": "cup",
+      "sport": "football",
+      "home": "荷兰U18",
+      "away": "瑞士U18",
+      "kickoff": "2026-11-14T10:00:00"
+    },
+    {
+      "fixture_key": "intl_friendly|日本|巴西|2026-11-14",
+      "competition": "intl_friendly",
+      "competition_name": "国家队友谊赛",
+      "competition_class": "cup",
+      "sport": "football",
+      "home": "日本",
+      "away": "巴西",
+      "kickoff": "2026-11-14T10:15:00"
+    },
+    {
+      "fixture_key": "intl_friendly|瑞典u18|英格兰u18|2026-11-14",
+      "competition": "intl_friendly",
+      "competition_name": "国家队友谊赛",
+      "competition_class": "cup",
+      "sport": "football",
+      "home": "瑞典U18",
+      "away": "英格兰U18",
+      "kickoff": "2026-11-14T11:00:00"
+    },
+    {
+      "fixture_key": "intl_friendly|奥地利u16|捷克u16|2026-11-14",
+      "competition": "intl_friendly",
+      "competition_name": "国家队友谊赛",
+      "competition_class": "cup",
+      "sport": "football",
+      "home": "奥地利U16",
+      "away": "捷克U16",
+      "kickoff": "2026-11-14T11:00:00"
+    },
+    {
+      "fixture_key": "intl_friendly|中国u19|塔吉克斯坦u19|2026-11-14",
+      "competition": "intl_friendly",
+      "competition_name": "国家队友谊赛",
+      "competition_class": "cup",
+      "sport": "football",
+      "home": "中国U19",
+      "away": "塔吉克斯坦U19",
+      "kickoff": "2026-11-14T11:35:00"
+    },
+    {
+      "fixture_key": "intl_friendly|越南u23|卡塔尔u23|2026-11-14",
+      "competition": "intl_friendly",
+      "competition_name": "国家队友谊赛",
+      "competition_class": "cup",
+      "sport": "football",
+      "home": "越南U23",
+      "away": "卡塔尔U23",
+      "kickoff": "2026-11-14T12:00:00"
+    },
+    {
+      "fixture_key": "intl_friendly|中国台湾|吉尔吉斯斯坦|2026-11-14",
+      "competition": "intl_friendly",
+      "competition_name": "国家队友谊赛",
+      "competition_class": "cup",
+      "sport": "football",
+      "home": "中国台湾",
+      "away": "吉尔吉斯斯坦",
+      "kickoff": "2026-11-14T12:00:00"
+    },
+    {
+      "fixture_key": "intl_friendly|中国|马来西亚|2026-11-14",
+      "competition": "intl_friendly",
+      "competition_name": "国家队友谊赛",
+      "competition_class": "cup",
+      "sport": "football",
+      "home": "中国",
+      "away": "马来西亚",
+      "kickoff": "2026-11-14T13:00:00"
+    },
+    {
+      "fixture_key": "intl_friendly|土耳其u18|德国u18|2026-11-14",
+      "competition": "intl_friendly",
+      "competition_name": "国家队友谊赛",
+      "competition_class": "cup",
+      "sport": "football",
+      "home": "土耳其U18",
+      "away": "德国U18",
+      "kickoff": "2026-11-14T13:00:00"
+    },
+    {
+      "fixture_key": "intl_friendly|加拿大u16|美国u16|2026-11-14",
+      "competition": "intl_friendly",
+      "competition_name": "国家队友谊赛",
+      "competition_class": "cup",
+      "sport": "football",
+      "home": "加拿大U16",
+      "away": "美国U16",
+      "kickoff": "2026-11-14T16:00:00"
+    },
+    {
+      "fixture_key": "intl_friendly|巴斯克|委内瑞拉|2026-11-14",
+      "competition": "intl_friendly",
+      "competition_name": "国家队友谊赛",
+      "competition_class": "cup",
+      "sport": "football",
+      "home": "巴斯克",
+      "away": "委内瑞拉",
+      "kickoff": "2026-11-14T19:00:00"
+    },
+    {
+      "fixture_key": "intl_friendly|巴拉圭u19|日本u19|2026-11-14",
+      "competition": "intl_friendly",
+      "competition_name": "国家队友谊赛",
+      "competition_class": "cup",
+      "sport": "football",
+      "home": "巴拉圭U19",
+      "away": "日本U19",
+      "kickoff": "2026-11-14T20:00:00"
+    },
+    {
+      "fixture_key": "brasileirao|米拉索|米内罗竞技|2026-11-14",
+      "competition": "brasileirao",
+      "competition_name": "巴西甲级联赛",
+      "competition_class": "league",
+      "sport": "football",
+      "home": "米拉索",
+      "away": "米内罗竞技",
+      "kickoff": "2026-11-14T21:30:00"
+    },
+    {
+      "fixture_key": "brasileirao|沙佩科恩斯|瓦斯科达伽马|2026-11-14",
+      "competition": "brasileirao",
+      "competition_name": "巴西甲级联赛",
+      "competition_class": "league",
+      "sport": "football",
+      "home": "沙佩科恩斯",
+      "away": "瓦斯科达伽马",
+      "kickoff": "2026-11-14T23:30:00"
+    },
+    {
+      "fixture_key": "nba|neworleanspelicans|denvernuggets|2026-11-15",
+      "competition": "nba",
+      "competition_name": "NBA 美国职业篮球联赛",
+      "competition_class": "league",
+      "sport": "basketball",
+      "home": "New Orleans Pelicans",
+      "away": "Denver Nuggets",
+      "kickoff": "2026-11-15T00:00:00"
+    },
+    {
+      "fixture_key": "nba|clevelandcavaliers|dallasmavericks|2026-11-15",
+      "competition": "nba",
+      "competition_name": "NBA 美国职业篮球联赛",
+      "competition_class": "league",
+      "sport": "basketball",
+      "home": "Cleveland Cavaliers",
+      "away": "Dallas Mavericks",
+      "kickoff": "2026-11-15T00:30:00"
+    },
+    {
+      "fixture_key": "nba|memphisgrizzlies|brooklynnets|2026-11-15",
+      "competition": "nba",
+      "competition_name": "NBA 美国职业篮球联赛",
+      "competition_class": "league",
+      "sport": "basketball",
+      "home": "Memphis Grizzlies",
+      "away": "Brooklyn Nets",
+      "kickoff": "2026-11-15T01:00:00"
+    },
+    {
+      "fixture_key": "nba|miamiheat|detroitpistons|2026-11-15",
+      "competition": "nba",
+      "competition_name": "NBA 美国职业篮球联赛",
+      "competition_class": "league",
+      "sport": "basketball",
+      "home": "Miami Heat",
+      "away": "Detroit Pistons",
+      "kickoff": "2026-11-15T01:00:00"
+    },
+    {
+      "fixture_key": "nba|minnesotatimberwolves|chicagobulls|2026-11-15",
+      "competition": "nba",
+      "competition_name": "NBA 美国职业篮球联赛",
+      "competition_class": "league",
+      "sport": "basketball",
+      "home": "Minnesota Timberwolves",
+      "away": "Chicago Bulls",
+      "kickoff": "2026-11-15T01:00:00"
+    },
+    {
+      "fixture_key": "intl_friendly|新西兰|印度|2026-11-15",
+      "competition": "intl_friendly",
+      "competition_name": "国家队友谊赛",
+      "competition_class": "cup",
+      "sport": "football",
+      "home": "新西兰",
+      "away": "印度",
+      "kickoff": "2026-11-15T03:00:00"
+    },
+    {
+      "fixture_key": "nba|philadelphia76ers|indianapacers|2026-11-15",
+      "competition": "nba",
+      "competition_name": "NBA 美国职业篮球联赛",
+      "competition_class": "league",
+      "sport": "basketball",
+      "home": "Philadelphia 76ers",
+      "away": "Indiana Pacers",
+      "kickoff": "2026-11-15T18:00:00"
+    },
+    {
+      "fixture_key": "nba|phoenixsuns|losangeleslakers|2026-11-15",
+      "competition": "nba",
+      "competition_name": "NBA 美国职业篮球联赛",
+      "competition_class": "league",
+      "sport": "basketball",
+      "home": "Phoenix Suns",
+      "away": "Los Angeles Lakers",
+      "kickoff": "2026-11-15T21:00:00"
+    },
+    {
+      "fixture_key": "nba|losangelesclippers|charlottehornets|2026-11-15",
+      "competition": "nba",
+      "competition_name": "NBA 美国职业篮球联赛",
+      "competition_class": "league",
+      "sport": "basketball",
+      "home": "Los Angeles Clippers",
+      "away": "Charlotte Hornets",
+      "kickoff": "2026-11-15T21:30:00"
+    },
+    {
+      "fixture_key": "nba|utahjazz|sanantoniospurs|2026-11-15",
+      "competition": "nba",
+      "competition_name": "NBA 美国职业篮球联赛",
+      "competition_class": "league",
+      "sport": "basketball",
+      "home": "Utah Jazz",
+      "away": "San Antonio Spurs",
+      "kickoff": "2026-11-15T22:00:00"
+    },
+    {
+      "fixture_key": "nba|torontoraptors|newyorkknicks|2026-11-15",
+      "competition": "nba",
+      "competition_name": "NBA 美国职业篮球联赛",
+      "competition_class": "league",
+      "sport": "basketball",
+      "home": "Toronto Raptors",
+      "away": "New York Knicks",
+      "kickoff": "2026-11-15T23:00:00"
+    },
+    {
+      "fixture_key": "nba|bostonceltics|dallasmavericks|2026-11-15",
+      "competition": "nba",
+      "competition_name": "NBA 美国职业篮球联赛",
+      "competition_class": "league",
+      "sport": "basketball",
+      "home": "Boston Celtics",
+      "away": "Dallas Mavericks",
+      "kickoff": "2026-11-15T23:00:00"
+    },
+    {
+      "fixture_key": "nba|washingtonwizards|houstonrockets|2026-11-16",
+      "competition": "nba",
+      "competition_name": "NBA 美国职业篮球联赛",
+      "competition_class": "league",
+      "sport": "basketball",
+      "home": "Washington Wizards",
+      "away": "Houston Rockets",
+      "kickoff": "2026-11-16T00:00:00"
+    },
+    {
+      "fixture_key": "nba|milwaukeebucks|atlantahawks|2026-11-16",
+      "competition": "nba",
+      "competition_name": "NBA 美国职业篮球联赛",
+      "competition_class": "league",
+      "sport": "basketball",
+      "home": "Milwaukee Bucks",
+      "away": "Atlanta Hawks",
+      "kickoff": "2026-11-16T01:00:00"
+    },
+    {
+      "fixture_key": "nba|sacramentokings|oklahomacitythunder|2026-11-16",
+      "competition": "nba",
+      "competition_name": "NBA 美国职业篮球联赛",
+      "competition_class": "league",
+      "sport": "basketball",
+      "home": "Sacramento Kings",
+      "away": "Oklahoma City Thunder",
+      "kickoff": "2026-11-16T02:00:00"
     }
   ]
 }
