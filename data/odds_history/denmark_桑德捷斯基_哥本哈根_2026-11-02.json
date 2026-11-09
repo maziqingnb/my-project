@@ -21,13 +21,13 @@
     "away": "哥本哈根",
     "kickoff": "2026-11-02T18:00:00",
     "bookmaker": "crown",
-    "ts": "2026-11-02T16:14:14.343004+00:00",
+    "ts": "2026-11-01T18:00:00+00:00",
     "handicap_line": 1.25,
-    "handicap_home": 0.93,
-    "handicap_away": 0.96,
-    "total_line": 3,
-    "over": 0.95,
-    "under": 0.92
+    "handicap_home": 1.05,
+    "handicap_away": 0.83,
+    "total_line": 3.25,
+    "over": 1.02,
+    "under": 0.85
   },
   {
     "fixture_key": "denmark|桑德捷斯基|哥本哈根|2026-11-02",
@@ -43,6 +43,21 @@
     "total_line": 3.25,
     "over": 1.02,
     "under": 0.85
+  },
+  {
+    "fixture_key": "denmark|桑德捷斯基|哥本哈根|2026-11-02",
+    "competition": "denmark",
+    "home": "桑德捷斯基",
+    "away": "哥本哈根",
+    "kickoff": "2026-11-02T18:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-02T16:14:14.343004+00:00",
+    "handicap_line": 1.25,
+    "handicap_home": 0.93,
+    "handicap_away": 0.96,
+    "total_line": 3.0,
+    "over": 0.95,
+    "under": 0.92
   },
   {
     "fixture_key": "denmark|桑德捷斯基|哥本哈根|2026-11-02",
@@ -55,24 +70,9 @@
     "handicap_line": 1.25,
     "handicap_home": 0.93,
     "handicap_away": 0.96,
-    "total_line": 3,
+    "total_line": 3.0,
     "over": 0.95,
     "under": 0.92
-  },
-  {
-    "fixture_key": "denmark|桑德捷斯基|哥本哈根|2026-11-02",
-    "competition": "denmark",
-    "home": "桑德捷斯基",
-    "away": "哥本哈根",
-    "kickoff": "2026-11-02T18:00:00",
-    "bookmaker": "crown",
-    "ts": "2026-11-01T18:00:00+00:00",
-    "handicap_line": 1.25,
-    "handicap_home": 1.05,
-    "handicap_away": 0.83,
-    "total_line": 3.25,
-    "over": 1.02,
-    "under": 0.85
   },
   {
     "fixture_key": "denmark|桑德捷斯基|哥本哈根|2026-11-02",
@@ -85,7 +85,7 @@
     "handicap_line": 1.25,
     "handicap_home": 0.96,
     "handicap_away": 0.93,
-    "total_line": 3,
+    "total_line": 3.0,
     "over": 0.91,
     "under": 0.96
   }

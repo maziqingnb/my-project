@@ -223,5 +223,35 @@
     "total_line": 228.5,
     "over": 2.01,
     "under": 1.86
+  },
+  {
+    "fixture_key": "nba|phoenixsuns|sanantoniospurs|2026-11-10",
+    "competition": "nba",
+    "home": "Phoenix Suns",
+    "away": "San Antonio Spurs",
+    "kickoff": "2026-11-10T02:10:00Z",
+    "bookmaker": "unibet",
+    "ts": "2026-11-09T09:50:48.078582+00:00",
+    "handicap_line": 8.5,
+    "handicap_home": 1.94,
+    "handicap_away": 1.87,
+    "total_line": null,
+    "over": null,
+    "under": null
+  },
+  {
+    "fixture_key": "nba|phoenixsuns|sanantoniospurs|2026-11-10",
+    "competition": "nba",
+    "home": "Phoenix Suns",
+    "away": "San Antonio Spurs",
+    "kickoff": "2026-11-10T02:10:00Z",
+    "bookmaker": "pinnacle",
+    "ts": "2026-11-09T09:50:48.078582+00:00",
+    "handicap_line": 8.5,
+    "handicap_home": 1.95,
+    "handicap_away": 1.93,
+    "total_line": 227.5,
+    "over": 1.93,
+    "under": 1.93
   }
 ]
