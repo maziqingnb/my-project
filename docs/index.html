@@ -84,6 +84,17 @@
   .outcome.loss { background: var(--loss); }
   .outcome.pending { background: var(--bg); color: var(--muted); border: 1px solid var(--border); }
   .final { font-size: 13px; font-weight: 700; margin-left: 4px; white-space: nowrap; }
+
+  /* 筛选栏 / 分页 */
+  .filters { display: flex; gap: 8px; margin: 0 0 16px; flex-wrap: wrap; }
+  .filters input, .filters select { padding: 8px 12px; border: 1px solid var(--border); border-radius: 8px;
+    background: var(--card); color: var(--ink); font-size: 13px; font-family: inherit; }
+  .filters input { flex: 1; min-width: 160px; }
+  .pager { display: flex; gap: 8px; align-items: center; margin-top: 10px; font-size: 13px; }
+  .pager button { padding: 6px 12px; border: 1px solid var(--border); border-radius: 6px;
+    background: var(--card); color: var(--ink); cursor: pointer; font-family: inherit; }
+  .pager button:disabled { opacity: .4; cursor: default; }
+  .pager .pageinfo { color: var(--muted); }
 </style>
 </head>
 <body>
@@ -96,6 +107,13 @@
     <button class="tab" id="tab-history" onclick="switchTab('history')">📜 历史</button>
   </div>
   <div class="meta" id="meta">加载中…</div>
+  <div class="filters tab-panel" data-tab="rec" id="filters">
+    <input id="search" placeholder="🔍 搜索球队（中/英）…" oninput="applyFilters()">
+    <select id="leagueFilter" onchange="applyFilters()"><option value="">全部联赛/杯赛</option></select>
+    <select id="marketFilter" onchange="applyFilters()">
+      <option value="">全部盘口</option><option value="handicap">亚盘/让分</option><option value="totals">大小球/总分</option>
+    </select>
+  </div>
   <div id="live" class="tab-panel" data-tab="rec"></div>
   <div id="schedule" class="tab-panel" data-tab="schedule"></div>
   <div id="history" class="tab-panel" data-tab="history"></div>
@@ -140,6 +158,18 @@ const COMP = { epl: "英超", laliga: "西甲", seriea: "意甲", bundesliga: "�
   afc_cl: "亚冠精英", afc_cl2: "亚冠二级", intl_friendly: "国家队友谊赛", europa_league: "欧联杯",
   nba: "NBA" };
 const OUTCOME_CN = { win: "中", half_win: "半赢", push: "走盘", half_loss: "半输", loss: "没中" };
+
+// 全局状态：当前推荐页强推 + 历史账本（历史页懒加载后缓存）
+let allPicks = [];
+let latestHist = null;
+
+function byKickoff(a, b) {
+  const now = Date.now();
+  const ta = koTs(a.kickoff), tb = koTs(b.kickoff);
+  const ua = ta >= now ? 0 : 1, ub = tb >= now ? 0 : 1;
+  if (ua !== ub) return ua - ub;            // 未开赛的排前面
+  return ua === 0 ? ta - tb : tb - ta;      // 未开赛按开赛时间升序，已开赛按时间降序
+}
 
 function koTs(s) {
   if (!s) return 0;
@@ -383,6 +413,8 @@ function renderReview(review) {
 }
 
 let histSub = "football";   // 历史页当前子标签：football | basketball
+const HIST_PAGE_SIZE = 50;  // 历史账本每页条数（账本越滚越大，分页避免 DOM 卡顿）
+let histPage = { football: 1, basketball: 1 };
 
 function setHistSub(sport) {
   histSub = sport;
@@ -393,14 +425,24 @@ function setHistSub(sport) {
     p.style.display = (p.dataset.sport === sport) ? "" : "none");
 }
 
-function historyTable(title, records) {
+function setHistPage(sport, page) {
+  histPage[sport] = page;
+  if (latestHist) renderHistory(latestHist);
+}
+
+function historyTable(title, records, sport) {
   if (!records.length) return `<div class="empty">暂无该分类的历史推荐。</div>`;
   // 已结算排前、未结算排后；同组内按开赛时间降序
-  const rows = [...records].sort((a, b) => {
+  const sorted = [...records].sort((a, b) => {
     const sa = a.settled ? 0 : 1, sb = b.settled ? 0 : 1;
     if (sa !== sb) return sa - sb;
     return koTs(b.kickoff) - koTs(a.kickoff);
-  }).map(r => {
+  });
+  const pages = Math.max(1, Math.ceil(sorted.length / HIST_PAGE_SIZE));
+  const page = Math.min(histPage[sport] || 1, pages);
+  histPage[sport] = page;
+  const slice = sorted.slice((page - 1) * HIST_PAGE_SIZE, page * HIST_PAGE_SIZE);
+  const rows = slice.map(r => {
     const res = r.settled
       ? `<span class="outcome ${r.outcome}">${r.outcome_cn}</span>
          <span class="final">${r.home_goals}-${r.away_goals}</span>`
@@ -415,8 +457,15 @@ function historyTable(title, records) {
       <td>${res}</td>
     </tr>`;
   }).join("");
-  return `<div class="subhead">${title} · ${records.length} 条</div>
-    <div class="tablewrap"><table><thead><tr><th>比赛</th><th>盘口</th><th>推荐</th><th>系数</th><th>信心</th><th>赛果</th></tr></thead><tbody>${rows}</tbody></table></div>`;
+  const pager = pages > 1
+    ? `<div class="pager">
+         <button ${page <= 1 ? "disabled" : ""} onclick="setHistPage('${sport}', ${page - 1})">‹ 上一页</button>
+         <span class="pageinfo">第 ${page} / ${pages} 页 · 共 ${sorted.length} 条</span>
+         <button ${page >= pages ? "disabled" : ""} onclick="setHistPage('${sport}', ${page + 1})">下一页 ›</button>
+       </div>`
+    : "";
+  return `<div class="subhead">${title} · ${sorted.length} 条</div>
+    <div class="tablewrap"><table><thead><tr><th>比赛</th><th>盘口</th><th>推荐</th><th>系数</th><th>信心</th><th>赛果</th></tr></thead><tbody>${rows}</tbody></table></div>${pager}`;
 }
 
 function renderHistory(hist) {
@@ -437,20 +486,55 @@ function renderHistory(hist) {
     <h2>📜 历史推荐 <span class="tag league">全量账本</span></h2>
     <div class="market">共 ${records.length} 条（已结算 ${settled}）· 累计命中率 ${rateText(overall)}</div>
     <div class="tabs" style="margin-top:12px">${sub("⚽ 足球", "football")}${sub("🏀 篮球", "basketball")}</div>
-    <div class="hist-panel" data-sport="football" style="${histSub === "football" ? "" : "display:none"}">${historyTable("⚽ 足球历史", football)}</div>
-    <div class="hist-panel" data-sport="basketball" style="${histSub === "basketball" ? "" : "display:none"}">${historyTable("🏀 篮球历史", bball)}</div>
+    <div class="hist-panel" data-sport="football" style="${histSub === "football" ? "" : "display:none"}">${historyTable("⚽ 足球历史", football, "football")}</div>
+    <div class="hist-panel" data-sport="basketball" style="${histSub === "basketball" ? "" : "display:none"}">${historyTable("🏀 篮球历史", bball, "basketball")}</div>
   </section>`;
 }
+
+function populateLeagueFilter() {
+  const sel = document.getElementById("leagueFilter");
+  const cur = sel.value;
+  const keys = [...new Set(allPicks.map(r => r.competition))].sort();
+  sel.innerHTML = '<option value="">全部联赛/杯赛</option>' +
+    keys.map(k => `<option value="${k}">${COMP[k] || k}</option>`).join("");
+  sel.value = cur;
+}
+
+function filteredPicks() {
+  const q = (document.getElementById("search").value || "").trim().toLowerCase();
+  const lk = document.getElementById("leagueFilter").value;
+  const mk = document.getElementById("marketFilter").value;
+  return allPicks.filter(r => {
+    if (lk && r.competition !== lk) return false;
+    if (mk && r.market !== mk) return false;
+    if (q && !(String(r.home || "").toLowerCase().includes(q) || String(r.away || "").toLowerCase().includes(q))) return false;
+    return true;
+  });
+}
+
+function renderRecommendationView() {
+  const picks = filteredPicks();
+  const bball = picks.filter(r => r.sport === "basketball").sort(byKickoff);
+  const league = picks.filter(r => r.sport !== "basketball" && r.competition_class === "league").sort(byKickoff);
+  const cup = picks.filter(r => r.sport !== "basketball" && r.competition_class === "cup").sort(byKickoff);
+  document.getElementById("content").innerHTML = (league.length + cup.length)
+    ? renderTable("🏆 杯赛", "cup", cup) + renderTable("⚽ 联赛", "league", league)
+    : `<div class="empty">${allPicks.length ? "没有符合筛选的推荐。" : "暂无足球推荐，请等待下一次同步与分析。"}</div>`;
+  renderBasketball(bball, latestHist);
+}
+
+function applyFilters() { renderRecommendationView(); }
 
 switchTab("rec");        // 默认显示「推荐」，赛程在单独标签页
 
 let latestData = null;   // 缓存 latest.json，供「进行中」板块交叉引用推荐
 
-// 给请求加时间戳，绕过 GitHub Pages 的 CDN 缓存，让刷新真正拿到新数据
-const bust = p => p + "?_=" + Date.now();
+// 版本化缓存键：按秒级窗口分桶，CDN 在该窗口内共享缓存（更快），窗口过后才拿新数据。
+// 配合 _headers 的 Cache-Control（live 15s / latest 30s / 其余 300s），既快又不失新鲜。
+const bust = (p, sec = 60) => p + "?_=" + Math.floor(Date.now() / (sec * 1000));
 
 function loadLive() {
-  return fetch(bust("./reports/live.json"))
+  return fetch(bust("./reports/live.json", 15))
     .then(r => r.ok ? r.json() : null)
     .catch(() => null)
     .then(live => renderLive(live, latestData));
@@ -458,38 +542,26 @@ function loadLive() {
 
 function loadAll() {
   return Promise.all([
-    fetch(bust("./reports/latest.json")).then(r => { if (!r.ok) throw new Error(r.status); return r.json(); }),
-    fetch(bust("./reports/history.json")).then(r => r.ok ? r.json() : null).catch(() => null),
-    fetch(bust("./reports/live.json")).then(r => r.ok ? r.json() : null).catch(() => null),
-    fetch(bust("./reports/review.json")).then(r => r.ok ? r.json() : null).catch(() => null),
-    fetch(bust("./reports/schedule.json")).then(r => r.ok ? r.json() : null).catch(() => null)
+    fetch(bust("./reports/latest.json", 30)).then(r => { if (!r.ok) throw new Error(r.status); return r.json(); }),
+    fetch(bust("./reports/history.json", 300)).then(r => r.ok ? r.json() : null).catch(() => null),
+    fetch(bust("./reports/live.json", 15)).then(r => r.ok ? r.json() : null).catch(() => null),
+    fetch(bust("./reports/review.json", 300)).then(r => r.ok ? r.json() : null).catch(() => null),
+    fetch(bust("./reports/schedule.json", 300)).then(r => r.ok ? r.json() : null).catch(() => null)
   ]).then(([d, hist, live, review, schedule]) => {
     latestData = d;
-    const now = Date.now();
-    const byKickoff = (a, b) => {
-      const ta = koTs(a.kickoff), tb = koTs(b.kickoff);
-      const ua = ta >= now ? 0 : 1, ub = tb >= now ? 0 : 1;
-      if (ua !== ub) return ua - ub;            // 未开赛的排前面
-      return ua === 0 ? ta - tb : tb - ta;      // 未开赛按开赛时间升序，已开赛按时间降序
-    };
     const picks = (d.recommendations || []).filter(r => r.confidence === "strong");
     const nPrematch = picks.filter(r => r.prematch === true).length;
     document.getElementById("meta").textContent =
       `生成时间 ${d.generated_at}（UTC） · ${d.scope} · 强推 ${picks.length} / 临场 ${nPrematch} · 本期共 ${d.total} 条`;
+    allPicks = picks;
+    latestHist = hist;
     renderStats(hist || { stats: d.stats, total: d.total });
     renderLive(live, d);
     renderSchedule(schedule);
     renderReview(review);
     renderHistory(hist);
-
-    // 足球（联赛+杯赛）与篮球分开：篮球走独立「🏀 篮球」标签页，推荐页只放足球
-    const bball = picks.filter(r => r.sport === "basketball").sort(byKickoff);
-    const league = picks.filter(r => r.sport !== "basketball" && r.competition_class === "league").sort(byKickoff);
-    const cup = picks.filter(r => r.sport !== "basketball" && r.competition_class === "cup").sort(byKickoff);
-    document.getElementById("content").innerHTML = (league.length + cup.length)
-      ? renderTable("🏆 杯赛", "cup", cup) + renderTable("⚽ 联赛", "league", league)
-      : `<div class="empty">暂无足球推荐，请等待下一次同步与分析。</div>`;
-    renderBasketball(bball, hist);
+    populateLeagueFilter();
+    renderRecommendationView();
   });
 }
 

@@ -1,0 +1,20 @@
+# 缓存规则（Cloudflare Pages / Netlify 会读取；GitHub Pages 忽略此文件）
+# 前端用「版本化缓存键」（_ 秒级窗口），配合这里的 Cache-Control 让 CDN 共享缓存。
+
+/index.html
+  Cache-Control: public, max-age=60
+
+/reports/latest.json
+  Cache-Control: public, max-age=30
+
+/reports/live.json
+  Cache-Control: public, max-age=15
+
+/reports/history.json
+  Cache-Control: public, max-age=300
+
+/reports/review.json
+  Cache-Control: public, max-age=300
+
+/reports/schedule.json
+  Cache-Control: public, max-age=300

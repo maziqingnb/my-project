@@ -27,17 +27,17 @@
 ## 架构
 
 ```
-the-odds-api（赔率）  API-Football（赛程/结果/阵容）
+win007/7m/ESPN（赛程/赔率/全季赛果）  the-odds-api（NBA 赔率）
         │                       │
         └──────┬────────────────┘
                ▼
       GitHub Actions 定时任务（每 6 小时）
-               │  同步 -> 存 JSON -> 分析 -> 渲染
+               │  同步(并发) -> 存 SQLite -> 分析 -> 导出 JSON
                ▼
-        data/（水位历史、结果）  docs/reports/（推荐结果）
+        data/app.db（SQLite） + data/（JSON，入库）  docs/reports/（推荐结果）
                │
                ▼
-        GitHub Pages 看板（docs/index.html）
+        GitHub Pages / Cloudflare Pages 看板（docs/index.html）
 ```
 
 ## 目录结构
@@ -101,6 +101,27 @@ export API_FOOTBALL_KEY="你的key"
 3. 推送后，`.github/workflows/analyze.yml` 会每 6 小时自动同步+分析并提交数据；
    没配 key 时会自动回退到演示数据，保证流程可用。
 4. 在 **Settings → Pages** 里把 Source 设为 `main` 分支的 `/docs` 目录，即可访问看板。
+
+## 看板部署与自定义域名
+
+看板是纯静态的（`docs/index.html` + `docs/reports/*.json`），两种免费托管都支持 CDN + 自定义域名：
+
+### 方式 A：GitHub Pages（最省事，已在用）
+
+1. Settings → Pages → Source 设为 `main` 分支 `/docs` 目录（已在用）。
+2. 在 Pages 的 **Custom domain** 填你买的域名（如 `odds.example.com`），按提示在域名商处加 DNS：CNAME 指向 `<用户名>.github.io`（子域名）或 A 记录指向 GitHub 的 4 个 IP（裸域）。
+3. GitHub 自动签发 HTTPS，勾选 Enforce HTTPS。
+
+### 方式 B：Cloudflare Pages（CDN 更快，推荐）
+
+1. 注册 Cloudflare → Pages → 新建项目 → 连接本 GitHub 仓库。
+2. 构建命令**留空**，构建输出目录填 `docs`。
+3. 项目已带 `docs/_headers`（缓存规则），Pages 自动读取，CDN 按规则缓存报告 JSON。
+4. 在「自定义域」填入你的域名，Cloudflare 自动配 DNS + HTTPS。
+
+> 域名需自行购买（约 ¥50/年）。前端用「版本化缓存键」（秒级窗口）+ `_headers` 控制缓存：
+> `live.json` 15s / `latest.json` 30s / 其余 300s，既让 CDN 共享缓存、又不失新鲜。
+> GitHub Pages 会忽略 `_headers`（由 GitHub 自己的 10 分钟缓存兜底），换到 Cloudflare Pages 才生效。
 
 ## 推荐逻辑（透明、可调）
 
