@@ -553,5 +553,35 @@
     "total_line": 227.5,
     "over": 1.95,
     "under": 1.92
+  },
+  {
+    "fixture_key": "nba|utahjazz|miamiheat|2026-11-11",
+    "competition": "nba",
+    "home": "Utah Jazz",
+    "away": "Miami Heat",
+    "kickoff": "2026-11-11T02:10:00Z",
+    "bookmaker": "unibet",
+    "ts": "2026-11-10T19:42:40.756212+00:00",
+    "handicap_line": 9.5,
+    "handicap_home": 1.93,
+    "handicap_away": 1.88,
+    "total_line": null,
+    "over": null,
+    "under": null
+  },
+  {
+    "fixture_key": "nba|utahjazz|miamiheat|2026-11-11",
+    "competition": "nba",
+    "home": "Utah Jazz",
+    "away": "Miami Heat",
+    "kickoff": "2026-11-11T02:10:00Z",
+    "bookmaker": "pinnacle",
+    "ts": "2026-11-10T19:42:40.756212+00:00",
+    "handicap_line": 9.0,
+    "handicap_home": 1.97,
+    "handicap_away": 1.91,
+    "total_line": 227.5,
+    "over": 1.88,
+    "under": 1.99
   }
 ]
