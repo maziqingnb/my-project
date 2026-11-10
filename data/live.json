@@ -1,4 +1,15 @@
 {
-  "generated_at": "2026-11-10T11:31:01.661377+00:00",
-  "matches": []
+  "generated_at": "2026-11-10T12:22:11.961894+00:00",
+  "matches": [
+    {
+      "fixture_key": "intl_friendly|越南u23|泰国u23|2026-11-10",
+      "competition": "intl_friendly",
+      "home": "越南U23",
+      "away": "泰国U23",
+      "kickoff": "2026-11-10T12:00:00",
+      "status": "live",
+      "home_goals": 0,
+      "away_goals": 0
+    }
+  ]
 }
