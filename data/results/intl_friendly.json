@@ -46,6 +46,17 @@
   {
     "competition": "intl_friendly",
     "cls": "cup",
+    "home": "比利时女足U16",
+    "away": "苏格兰女足U16",
+    "home_goals": 2,
+    "away_goals": 1,
+    "date": "2026-11-10",
+    "handicap_line": null,
+    "total_line": null
+  },
+  {
+    "competition": "intl_friendly",
+    "cls": "cup",
     "home": "越南U23",
     "away": "泰国U23",
     "home_goals": 3,
