@@ -673,5 +673,35 @@
     "total_line": 223.0,
     "over": 1.93,
     "under": 1.93
+  },
+  {
+    "fixture_key": "nba|goldenstatewarriors|neworleanspelicans|2026-11-10",
+    "competition": "nba",
+    "home": "Golden State Warriors",
+    "away": "New Orleans Pelicans",
+    "kickoff": "2026-11-10T03:12:00Z",
+    "bookmaker": "unibet",
+    "ts": "2026-11-10T04:42:57.805477+00:00",
+    "handicap_line": -34.5,
+    "handicap_home": 1.81,
+    "handicap_away": 1.92,
+    "total_line": null,
+    "over": null,
+    "under": null
+  },
+  {
+    "fixture_key": "nba|goldenstatewarriors|neworleanspelicans|2026-11-10",
+    "competition": "nba",
+    "home": "Golden State Warriors",
+    "away": "New Orleans Pelicans",
+    "kickoff": "2026-11-10T03:12:00Z",
+    "bookmaker": "pinnacle",
+    "ts": "2026-11-10T04:42:57.805477+00:00",
+    "handicap_line": -29.5,
+    "handicap_home": 1.88,
+    "handicap_away": 1.9,
+    "total_line": 226.0,
+    "over": 1.89,
+    "under": 1.89
   }
 ]
