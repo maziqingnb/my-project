@@ -1573,5 +1573,20 @@
     "total_line": null,
     "over": null,
     "under": null
+  },
+  {
+    "fixture_key": "nba|goldenstatewarriors|denvernuggets|2026-12-26",
+    "competition": "nba",
+    "home": "Golden State Warriors",
+    "away": "Denver Nuggets",
+    "kickoff": "2026-12-26T03:30:00Z",
+    "bookmaker": "unibet",
+    "ts": "2026-11-10T00:31:54.207222+00:00",
+    "handicap_line": 2.0,
+    "handicap_home": 1.9,
+    "handicap_away": 1.92,
+    "total_line": null,
+    "over": null,
+    "under": null
   }
 ]

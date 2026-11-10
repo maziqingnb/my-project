@@ -13,5 +13,20 @@
     "total_line": null,
     "over": null,
     "under": null
+  },
+  {
+    "fixture_key": "nba|newyorkknicks|milwaukeebucks|2026-11-11",
+    "competition": "nba",
+    "home": "New York Knicks",
+    "away": "Milwaukee Bucks",
+    "kickoff": "2026-11-11T00:40:00Z",
+    "bookmaker": "unibet",
+    "ts": "2026-11-10T00:31:54.207222+00:00",
+    "handicap_line": -15.5,
+    "handicap_home": 1.93,
+    "handicap_away": 1.88,
+    "total_line": null,
+    "over": null,
+    "under": null
   }
 ]
