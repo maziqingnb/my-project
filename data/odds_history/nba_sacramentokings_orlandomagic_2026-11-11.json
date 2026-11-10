@@ -538,5 +538,35 @@
     "total_line": 223.5,
     "over": 1.93,
     "under": 1.94
+  },
+  {
+    "fixture_key": "nba|sacramentokings|orlandomagic|2026-11-11",
+    "competition": "nba",
+    "home": "Sacramento Kings",
+    "away": "Orlando Magic",
+    "kickoff": "2026-11-11T03:10:00Z",
+    "bookmaker": "unibet",
+    "ts": "2026-11-10T18:38:12.082705+00:00",
+    "handicap_line": 5.5,
+    "handicap_home": 1.92,
+    "handicap_away": 1.88,
+    "total_line": null,
+    "over": null,
+    "under": null
+  },
+  {
+    "fixture_key": "nba|sacramentokings|orlandomagic|2026-11-11",
+    "competition": "nba",
+    "home": "Sacramento Kings",
+    "away": "Orlando Magic",
+    "kickoff": "2026-11-11T03:10:00Z",
+    "bookmaker": "pinnacle",
+    "ts": "2026-11-10T18:38:12.082705+00:00",
+    "handicap_line": 6.0,
+    "handicap_home": 1.96,
+    "handicap_away": 1.93,
+    "total_line": 223.5,
+    "over": 1.93,
+    "under": 1.94
   }
 ]
