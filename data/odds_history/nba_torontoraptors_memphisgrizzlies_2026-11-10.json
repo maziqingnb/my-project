@@ -688,5 +688,35 @@
     "total_line": null,
     "over": null,
     "under": null
+  },
+  {
+    "fixture_key": "nba|torontoraptors|memphisgrizzlies|2026-11-10",
+    "competition": "nba",
+    "home": "Toronto Raptors",
+    "away": "Memphis Grizzlies",
+    "kickoff": "2026-11-10T00:35:00Z",
+    "bookmaker": "pinnacle",
+    "ts": "2026-11-10T02:41:47.735518+00:00",
+    "handicap_line": 7.0,
+    "handicap_home": 1.87,
+    "handicap_away": 1.87,
+    "total_line": 230.5,
+    "over": 1.84,
+    "under": 1.89
+  },
+  {
+    "fixture_key": "nba|torontoraptors|memphisgrizzlies|2026-11-10",
+    "competition": "nba",
+    "home": "Toronto Raptors",
+    "away": "Memphis Grizzlies",
+    "kickoff": "2026-11-10T00:35:00Z",
+    "bookmaker": "unibet",
+    "ts": "2026-11-10T02:41:47.735518+00:00",
+    "handicap_line": 8.5,
+    "handicap_home": 1.79,
+    "handicap_away": 1.95,
+    "total_line": null,
+    "over": null,
+    "under": null
   }
 ]

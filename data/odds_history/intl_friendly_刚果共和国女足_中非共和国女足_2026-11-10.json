@@ -163,5 +163,20 @@
     "total_line": null,
     "over": null,
     "under": null
+  },
+  {
+    "fixture_key": "intl_friendly|刚果共和国女足|中非共和国女足|2026-11-10",
+    "competition": "intl_friendly",
+    "home": "刚果共和国女足",
+    "away": "中非共和国女足",
+    "kickoff": "2026-11-10T12:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-10T02:41:49.706824+00:00",
+    "handicap_line": null,
+    "handicap_home": null,
+    "handicap_away": null,
+    "total_line": null,
+    "over": null,
+    "under": null
   }
 ]
