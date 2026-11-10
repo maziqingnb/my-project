@@ -298,5 +298,20 @@
     "total_line": null,
     "over": null,
     "under": null
+  },
+  {
+    "fixture_key": "intl_friendly|比利时女足u16|苏格兰女足u16|2026-11-10",
+    "competition": "intl_friendly",
+    "home": "比利时女足U16",
+    "away": "苏格兰女足U16",
+    "kickoff": "2026-11-10T16:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-10T12:14:52.734666+00:00",
+    "handicap_line": null,
+    "handicap_home": null,
+    "handicap_away": null,
+    "total_line": null,
+    "over": null,
+    "under": null
   }
 ]
