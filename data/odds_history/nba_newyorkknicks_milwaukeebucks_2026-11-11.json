@@ -283,5 +283,35 @@
     "total_line": 219.5,
     "over": 1.93,
     "under": 1.93
+  },
+  {
+    "fixture_key": "nba|newyorkknicks|milwaukeebucks|2026-11-11",
+    "competition": "nba",
+    "home": "New York Knicks",
+    "away": "Milwaukee Bucks",
+    "kickoff": "2026-11-11T00:40:00Z",
+    "bookmaker": "unibet",
+    "ts": "2026-11-10T10:21:45.806731+00:00",
+    "handicap_line": -15.5,
+    "handicap_home": 1.91,
+    "handicap_away": 1.9,
+    "total_line": null,
+    "over": null,
+    "under": null
+  },
+  {
+    "fixture_key": "nba|newyorkknicks|milwaukeebucks|2026-11-11",
+    "competition": "nba",
+    "home": "New York Knicks",
+    "away": "Milwaukee Bucks",
+    "kickoff": "2026-11-11T00:40:00Z",
+    "bookmaker": "pinnacle",
+    "ts": "2026-11-10T10:21:45.806731+00:00",
+    "handicap_line": -16.0,
+    "handicap_home": 1.97,
+    "handicap_away": 1.92,
+    "total_line": 220.0,
+    "over": 1.91,
+    "under": 1.96
   }
 ]
