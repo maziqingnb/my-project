@@ -88,5 +88,20 @@
     "total_line": null,
     "over": null,
     "under": null
+  },
+  {
+    "fixture_key": "intl_friendly|瑞士u18|瑞典u18|2026-11-11",
+    "competition": "intl_friendly",
+    "home": "瑞士U18",
+    "away": "瑞典U18",
+    "kickoff": "2026-11-11T14:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-10T21:31:56.046080+00:00",
+    "handicap_line": null,
+    "handicap_home": null,
+    "handicap_away": null,
+    "total_line": null,
+    "over": null,
+    "under": null
   }
 ]
