@@ -2,6 +2,17 @@
   {
     "competition": "intl_friendly",
     "cls": "cup",
+    "home": "东海岸海湾",
+    "away": "汤加",
+    "home_goals": 11,
+    "away_goals": 0,
+    "date": "2026-11-10",
+    "handicap_line": null,
+    "total_line": null
+  },
+  {
+    "competition": "intl_friendly",
+    "cls": "cup",
     "home": "乌兹别克斯坦U17",
     "away": "厄瓜多尔U17",
     "home_goals": 1,
