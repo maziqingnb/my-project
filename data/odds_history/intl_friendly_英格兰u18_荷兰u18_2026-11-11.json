@@ -103,5 +103,20 @@
     "total_line": null,
     "over": null,
     "under": null
+  },
+  {
+    "fixture_key": "intl_friendly|英格兰u18|荷兰u18|2026-11-11",
+    "competition": "intl_friendly",
+    "home": "英格兰U18",
+    "away": "荷兰U18",
+    "kickoff": "2026-11-11T14:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-10T22:31:13.755671+00:00",
+    "handicap_line": null,
+    "handicap_home": null,
+    "handicap_away": null,
+    "total_line": null,
+    "over": null,
+    "under": null
   }
 ]
