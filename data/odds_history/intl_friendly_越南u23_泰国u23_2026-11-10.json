@@ -186,6 +186,21 @@
     "away": "泰国U23",
     "kickoff": "2026-11-10T12:00:00",
     "bookmaker": "crown",
+    "ts": "2026-11-09T12:00:00+00:00",
+    "handicap_line": -0.25,
+    "handicap_home": 0.86,
+    "handicap_away": 0.9,
+    "total_line": 2.75,
+    "over": 0.91,
+    "under": 0.85
+  },
+  {
+    "fixture_key": "intl_friendly|越南u23|泰国u23|2026-11-10",
+    "competition": "intl_friendly",
+    "home": "越南U23",
+    "away": "泰国U23",
+    "kickoff": "2026-11-10T12:00:00",
+    "bookmaker": "crown",
     "ts": "2026-11-09T16:30:19.299223+00:00",
     "handicap_line": -0.5,
     "handicap_home": 0.71,
@@ -358,5 +373,20 @@
     "total_line": 2.5,
     "over": 0.95,
     "under": 0.85
+  },
+  {
+    "fixture_key": "intl_friendly|越南u23|泰国u23|2026-11-10",
+    "competition": "intl_friendly",
+    "home": "越南U23",
+    "away": "泰国U23",
+    "kickoff": "2026-11-10T12:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-10T03:41:01.582127+00:00",
+    "handicap_line": -0.5,
+    "handicap_home": 0.97,
+    "handicap_away": 0.85,
+    "total_line": 2.5,
+    "over": 0.99,
+    "under": 0.81
   }
 ]
