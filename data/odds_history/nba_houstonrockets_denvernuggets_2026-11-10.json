@@ -763,5 +763,35 @@
     "total_line": 224.0,
     "over": 1.93,
     "under": 1.95
+  },
+  {
+    "fixture_key": "nba|houstonrockets|denvernuggets|2026-11-10",
+    "competition": "nba",
+    "home": "Houston Rockets",
+    "away": "Denver Nuggets",
+    "kickoff": "2026-11-10T01:41:00Z",
+    "bookmaker": "unibet",
+    "ts": "2026-11-10T01:54:23.522159+00:00",
+    "handicap_line": -6.5,
+    "handicap_home": 1.88,
+    "handicap_away": 1.85,
+    "total_line": null,
+    "over": null,
+    "under": null
+  },
+  {
+    "fixture_key": "nba|houstonrockets|denvernuggets|2026-11-10",
+    "competition": "nba",
+    "home": "Houston Rockets",
+    "away": "Denver Nuggets",
+    "kickoff": "2026-11-10T01:41:00Z",
+    "bookmaker": "pinnacle",
+    "ts": "2026-11-10T01:54:23.522159+00:00",
+    "handicap_line": -5.0,
+    "handicap_home": 1.95,
+    "handicap_away": 1.95,
+    "total_line": 225.0,
+    "over": 1.93,
+    "under": 1.96
   }
 ]
