@@ -24,6 +24,17 @@
   {
     "competition": "intl_friendly",
     "cls": "cup",
+    "home": "越南U23",
+    "away": "泰国U23",
+    "home_goals": 3,
+    "away_goals": 0,
+    "date": "2026-11-10",
+    "handicap_line": -0.25,
+    "total_line": 2.75
+  },
+  {
+    "competition": "intl_friendly",
+    "cls": "cup",
     "home": "乌兹别克斯坦U17",
     "away": "厄瓜多尔U17",
     "home_goals": 1,
