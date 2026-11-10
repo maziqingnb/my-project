@@ -13,6 +13,17 @@
   {
     "competition": "intl_friendly",
     "cls": "cup",
+    "home": "卡塔尔U23",
+    "away": "新加坡U23",
+    "home_goals": 0,
+    "away_goals": 0,
+    "date": "2026-11-10",
+    "handicap_line": -1.5,
+    "total_line": 2.75
+  },
+  {
+    "competition": "intl_friendly",
+    "cls": "cup",
     "home": "乌兹别克斯坦U17",
     "away": "厄瓜多尔U17",
     "home_goals": 1,
