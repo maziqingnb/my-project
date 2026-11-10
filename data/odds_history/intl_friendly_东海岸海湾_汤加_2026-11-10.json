@@ -28,5 +28,20 @@
     "total_line": null,
     "over": null,
     "under": null
+  },
+  {
+    "fixture_key": "intl_friendly|东海岸海湾|汤加|2026-11-10",
+    "competition": "intl_friendly",
+    "home": "东海岸海湾",
+    "away": "汤加",
+    "kickoff": "2026-11-10T06:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-10T05:44:12.301049+00:00",
+    "handicap_line": null,
+    "handicap_home": null,
+    "handicap_away": null,
+    "total_line": null,
+    "over": null,
+    "under": null
   }
 ]
