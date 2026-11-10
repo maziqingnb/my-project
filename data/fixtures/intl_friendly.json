@@ -1,45 +1,5 @@
 [
   {
-    "key": "intl_friendly|加蓬女足|乍得女足|2026-11-10",
-    "competition": "intl_friendly",
-    "home": "加蓬女足",
-    "away": "乍得女足",
-    "kickoff": "2026-11-10T14:30:00",
-    "status": "upcoming",
-    "home_goals": null,
-    "away_goals": null
-  },
-  {
-    "key": "intl_friendly|尼扬加体育女足|圣多美和普林西比女足|2026-11-10",
-    "competition": "intl_friendly",
-    "home": "尼扬加体育女足",
-    "away": "圣多美和普林西比女足",
-    "kickoff": "2026-11-10T15:30:00",
-    "status": "upcoming",
-    "home_goals": null,
-    "away_goals": null
-  },
-  {
-    "key": "intl_friendly|比利时女足u16|苏格兰女足u16|2026-11-10",
-    "competition": "intl_friendly",
-    "home": "比利时女足U16",
-    "away": "苏格兰女足U16",
-    "kickoff": "2026-11-10T16:00:00",
-    "status": "upcoming",
-    "home_goals": null,
-    "away_goals": null
-  },
-  {
-    "key": "intl_friendly|荷属圣马丁岛|安圭拉|2026-11-11",
-    "competition": "intl_friendly",
-    "home": "荷属圣马丁岛",
-    "away": "安圭拉",
-    "kickoff": "2026-11-11T00:30:00",
-    "status": "upcoming",
-    "home_goals": null,
-    "away_goals": null
-  },
-  {
     "key": "intl_friendly|韩国u19|塔吉克斯坦u19|2026-11-11",
     "competition": "intl_friendly",
     "home": "韩国U19",
@@ -65,6 +25,16 @@
     "home": "越南",
     "away": "中国台湾",
     "kickoff": "2026-11-11T12:00:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "intl_friendly|约旦u20|印度尼西亚u20|2026-11-11",
+    "competition": "intl_friendly",
+    "home": "约旦U20",
+    "away": "印度尼西亚U20",
+    "kickoff": "2026-11-11T12:30:00",
     "status": "upcoming",
     "home_goals": null,
     "away_goals": null
@@ -124,7 +94,7 @@
     "competition": "intl_friendly",
     "home": "哥斯达黎加U17",
     "away": "加拿大U17",
-    "kickoff": "2026-11-11T16:00:00",
+    "kickoff": "2026-11-11T16:30:00",
     "status": "upcoming",
     "home_goals": null,
     "away_goals": null
@@ -174,16 +144,6 @@
     "competition": "intl_friendly",
     "home": "塞尔维亚U21",
     "away": "北马其顿U21",
-    "kickoff": "2026-11-12T13:00:00",
-    "status": "upcoming",
-    "home_goals": null,
-    "away_goals": null
-  },
-  {
-    "key": "intl_friendly|约旦u20|印度尼西亚u20|2026-11-12",
-    "competition": "intl_friendly",
-    "home": "约旦U20",
-    "away": "印度尼西亚U20",
     "kickoff": "2026-11-12T13:00:00",
     "status": "upcoming",
     "home_goals": null,
@@ -815,6 +775,146 @@
     "home": "英格兰U21",
     "away": "法国U21",
     "kickoff": "2026-11-16T19:30:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "intl_friendly|马来西亚|也门|2026-11-17",
+    "competition": "intl_friendly",
+    "home": "马来西亚",
+    "away": "也门",
+    "kickoff": "2026-11-17T06:00:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "intl_friendly|塔吉克斯坦u19|越南u19|2026-11-17",
+    "competition": "intl_friendly",
+    "home": "塔吉克斯坦U19",
+    "away": "越南U19",
+    "kickoff": "2026-11-17T07:30:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "intl_friendly|新加坡|巴西|2026-11-17",
+    "competition": "intl_friendly",
+    "home": "新加坡",
+    "away": "巴西",
+    "kickoff": "2026-11-17T10:00:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "intl_friendly|中国u19|韩国u19|2026-11-17",
+    "competition": "intl_friendly",
+    "home": "中国U19",
+    "away": "韩国U19",
+    "kickoff": "2026-11-17T11:35:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "intl_friendly|中国|巴林|2026-11-17",
+    "competition": "intl_friendly",
+    "home": "中国",
+    "away": "巴林",
+    "kickoff": "2026-11-17T12:00:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "intl_friendly|吉尔吉斯斯坦|越南|2026-11-17",
+    "competition": "intl_friendly",
+    "home": "吉尔吉斯斯坦",
+    "away": "越南",
+    "kickoff": "2026-11-17T12:00:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "intl_friendly|日本|乌拉圭|2026-11-17",
+    "competition": "intl_friendly",
+    "home": "日本",
+    "away": "乌拉圭",
+    "kickoff": "2026-11-17T13:00:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "intl_friendly|韩国|卡塔尔|2026-11-17",
+    "competition": "intl_friendly",
+    "home": "韩国",
+    "away": "卡塔尔",
+    "kickoff": "2026-11-17T14:00:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "intl_friendly|约旦|澳大利亚|2026-11-17",
+    "competition": "intl_friendly",
+    "home": "约旦",
+    "away": "澳大利亚",
+    "kickoff": "2026-11-17T16:00:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "intl_friendly|俄罗斯|委内瑞拉|2026-11-17",
+    "competition": "intl_friendly",
+    "home": "俄罗斯",
+    "away": "委内瑞拉",
+    "kickoff": "2026-11-17T17:00:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "intl_friendly|克罗地亚u21|德国u21|2026-11-17",
+    "competition": "intl_friendly",
+    "home": "克罗地亚U21",
+    "away": "德国U21",
+    "kickoff": "2026-11-17T17:00:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "intl_friendly|阿根廷|哥斯达黎加|2026-11-17",
+    "competition": "intl_friendly",
+    "home": "阿根廷",
+    "away": "哥斯达黎加",
+    "kickoff": "2026-11-17T21:00:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "intl_friendly|智利|哥伦比亚|2026-11-17",
+    "competition": "intl_friendly",
+    "home": "智利",
+    "away": "哥伦比亚",
+    "kickoff": "2026-11-17T21:00:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "intl_friendly|厄瓜多尔|玻利维亚|2026-11-17",
+    "competition": "intl_friendly",
+    "home": "厄瓜多尔",
+    "away": "玻利维亚",
+    "kickoff": "2026-11-17T23:30:00",
     "status": "upcoming",
     "home_goals": null,
     "away_goals": null
