@@ -313,5 +313,20 @@
     "total_line": null,
     "over": null,
     "under": null
+  },
+  {
+    "fixture_key": "intl_friendly|荷属圣马丁岛|安圭拉|2026-11-11",
+    "competition": "intl_friendly",
+    "home": "荷属圣马丁岛",
+    "away": "安圭拉",
+    "kickoff": "2026-11-11T00:30:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-10T12:50:28.582997+00:00",
+    "handicap_line": null,
+    "handicap_home": null,
+    "handicap_away": null,
+    "total_line": null,
+    "over": null,
+    "under": null
   }
 ]

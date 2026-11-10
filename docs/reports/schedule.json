@@ -1,16 +1,6 @@
 {
-  "generated_at": "2026-11-10T06:50:49.474286+00:00",
+  "generated_at": "2026-11-10T12:49:58.139723+00:00",
   "matches": [
-    {
-      "fixture_key": "intl_friendly|卡塔尔u23|新加坡u23|2026-11-10",
-      "competition": "intl_friendly",
-      "competition_name": "国家队友谊赛",
-      "competition_class": "cup",
-      "sport": "football",
-      "home": "卡塔尔U23",
-      "away": "新加坡U23",
-      "kickoff": "2026-11-10T08:00:00"
-    },
     {
       "fixture_key": "intl_friendly|加蓬女足|乍得女足|2026-11-10",
       "competition": "intl_friendly",
@@ -19,27 +9,7 @@
       "sport": "football",
       "home": "加蓬女足",
       "away": "乍得女足",
-      "kickoff": "2026-11-10T10:00:00"
-    },
-    {
-      "fixture_key": "intl_friendly|越南u23|泰国u23|2026-11-10",
-      "competition": "intl_friendly",
-      "competition_name": "国家队友谊赛",
-      "competition_class": "cup",
-      "sport": "football",
-      "home": "越南U23",
-      "away": "泰国U23",
-      "kickoff": "2026-11-10T12:00:00"
-    },
-    {
-      "fixture_key": "intl_friendly|刚果共和国女足|中非共和国女足|2026-11-10",
-      "competition": "intl_friendly",
-      "competition_name": "国家队友谊赛",
-      "competition_class": "cup",
-      "sport": "football",
-      "home": "刚果共和国女足",
-      "away": "中非共和国女足",
-      "kickoff": "2026-11-10T12:00:00"
+      "kickoff": "2026-11-10T14:30:00"
     },
     {
       "fixture_key": "intl_friendly|尼扬加体育女足|圣多美和普林西比女足|2026-11-10",
