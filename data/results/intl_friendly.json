@@ -13,6 +13,17 @@
   {
     "competition": "intl_friendly",
     "cls": "cup",
+    "home": "刚果共和国女足",
+    "away": "中非共和国女足",
+    "home_goals": 1,
+    "away_goals": 1,
+    "date": "2026-11-10",
+    "handicap_line": null,
+    "total_line": null
+  },
+  {
+    "competition": "intl_friendly",
+    "cls": "cup",
     "home": "卡塔尔U23",
     "away": "新加坡U23",
     "home_goals": 0,
