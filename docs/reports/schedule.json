@@ -1,16 +1,6 @@
 {
-  "generated_at": "2026-11-10T18:33:25.021713+00:00",
+  "generated_at": "2026-11-11T00:32:59.399349+00:00",
   "matches": [
-    {
-      "fixture_key": "nba|newyorkknicks|milwaukeebucks|2026-11-11",
-      "competition": "nba",
-      "competition_name": "NBA 美国职业篮球联赛",
-      "competition_class": "league",
-      "sport": "basketball",
-      "home": "New York Knicks",
-      "away": "Milwaukee Bucks",
-      "kickoff": "2026-11-11T00:30:00"
-    },
     {
       "fixture_key": "nba|philadelphia76ers|bostonceltics|2026-11-11",
       "competition": "nba",
@@ -1409,7 +1399,7 @@
       "sport": "football",
       "home": "俄罗斯",
       "away": "委内瑞拉",
-      "kickoff": "2026-11-17T17:00:00"
+      "kickoff": "2026-11-17T16:00:00"
     },
     {
       "fixture_key": "intl_friendly|克罗地亚u21|德国u21|2026-11-17",
@@ -1450,6 +1440,16 @@
       "home": "厄瓜多尔",
       "away": "玻利维亚",
       "kickoff": "2026-11-17T23:30:00"
+    },
+    {
+      "fixture_key": "nba|torontoraptors|newyorkknicks|2026-11-18",
+      "competition": "nba",
+      "competition_name": "NBA 美国职业篮球联赛",
+      "competition_class": "league",
+      "sport": "basketball",
+      "home": "Toronto Raptors",
+      "away": "New York Knicks",
+      "kickoff": "2026-11-18T00:30:00"
     }
   ]
 }
