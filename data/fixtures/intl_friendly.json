@@ -40,16 +40,6 @@
     "away_goals": null
   },
   {
-    "key": "intl_friendly|塔希提群岛|库克群岛|2026-11-13",
-    "competition": "intl_friendly",
-    "home": "塔希提群岛",
-    "away": "库克群岛",
-    "kickoff": "2026-11-13T04:00:00",
-    "status": "upcoming",
-    "home_goals": null,
-    "away_goals": null
-  },
-  {
     "key": "intl_friendly|新加坡|巴拉圭|2026-11-13",
     "competition": "intl_friendly",
     "home": "新加坡",
@@ -160,11 +150,21 @@
     "away_goals": null
   },
   {
+    "key": "intl_friendly|塔希提群岛|库克群岛|2026-11-14",
+    "competition": "intl_friendly",
+    "home": "塔希提群岛",
+    "away": "库克群岛",
+    "kickoff": "2026-11-14T05:30:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
     "key": "intl_friendly|巴林|也门|2026-11-14",
     "competition": "intl_friendly",
     "home": "巴林",
     "away": "也门",
-    "kickoff": "2026-11-14T07:00:00",
+    "kickoff": "2026-11-14T06:00:00",
     "status": "upcoming",
     "home_goals": null,
     "away_goals": null
@@ -180,21 +180,21 @@
     "away_goals": null
   },
   {
-    "key": "intl_friendly|中国台湾|吉尔吉斯斯坦|2026-11-14",
+    "key": "intl_friendly|中国|马来西亚|2026-11-14",
     "competition": "intl_friendly",
-    "home": "中国台湾",
-    "away": "吉尔吉斯斯坦",
+    "home": "中国",
+    "away": "马来西亚",
     "kickoff": "2026-11-14T12:00:00",
     "status": "upcoming",
     "home_goals": null,
     "away_goals": null
   },
   {
-    "key": "intl_friendly|中国|马来西亚|2026-11-14",
+    "key": "intl_friendly|中国台湾|吉尔吉斯斯坦|2026-11-14",
     "competition": "intl_friendly",
-    "home": "中国",
-    "away": "马来西亚",
-    "kickoff": "2026-11-14T13:00:00",
+    "home": "中国台湾",
+    "away": "吉尔吉斯斯坦",
+    "kickoff": "2026-11-14T12:00:00",
     "status": "upcoming",
     "home_goals": null,
     "away_goals": null

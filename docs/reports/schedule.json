@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-11T12:48:38.200309+00:00",
+  "generated_at": "2026-11-11T18:40:44.272656+00:00",
   "matches": [
     {
       "fixture_key": "nba|torontoraptors|bostonceltics|2026-11-12",
@@ -180,16 +180,6 @@
       "home": "Phoenix Suns",
       "away": "Charlotte Hornets",
       "kickoff": "2026-11-13T02:00:00"
-    },
-    {
-      "fixture_key": "intl_friendly|塔希提群岛|库克群岛|2026-11-13",
-      "competition": "intl_friendly",
-      "competition_name": "国家队友谊赛",
-      "competition_class": "cup",
-      "sport": "football",
-      "home": "塔希提群岛",
-      "away": "库克群岛",
-      "kickoff": "2026-11-13T04:00:00"
     },
     {
       "fixture_key": "intl_friendly|新加坡|巴拉圭|2026-11-13",
@@ -392,6 +382,16 @@
       "kickoff": "2026-11-14T03:30:00"
     },
     {
+      "fixture_key": "intl_friendly|塔希提群岛|库克群岛|2026-11-14",
+      "competition": "intl_friendly",
+      "competition_name": "国家队友谊赛",
+      "competition_class": "cup",
+      "sport": "football",
+      "home": "塔希提群岛",
+      "away": "库克群岛",
+      "kickoff": "2026-11-14T05:30:00"
+    },
+    {
       "fixture_key": "intl_friendly|巴林|也门|2026-11-14",
       "competition": "intl_friendly",
       "competition_name": "国家队友谊赛",
@@ -399,7 +399,7 @@
       "sport": "football",
       "home": "巴林",
       "away": "也门",
-      "kickoff": "2026-11-14T07:00:00"
+      "kickoff": "2026-11-14T06:00:00"
     },
     {
       "fixture_key": "intl_friendly|日本|巴西|2026-11-14",
@@ -412,6 +412,16 @@
       "kickoff": "2026-11-14T10:15:00"
     },
     {
+      "fixture_key": "intl_friendly|中国|马来西亚|2026-11-14",
+      "competition": "intl_friendly",
+      "competition_name": "国家队友谊赛",
+      "competition_class": "cup",
+      "sport": "football",
+      "home": "中国",
+      "away": "马来西亚",
+      "kickoff": "2026-11-14T12:00:00"
+    },
+    {
       "fixture_key": "intl_friendly|中国台湾|吉尔吉斯斯坦|2026-11-14",
       "competition": "intl_friendly",
       "competition_name": "国家队友谊赛",
@@ -420,16 +430,6 @@
       "home": "中国台湾",
       "away": "吉尔吉斯斯坦",
       "kickoff": "2026-11-14T12:00:00"
-    },
-    {
-      "fixture_key": "intl_friendly|中国|马来西亚|2026-11-14",
-      "competition": "intl_friendly",
-      "competition_name": "国家队友谊赛",
-      "competition_class": "cup",
-      "sport": "football",
-      "home": "中国",
-      "away": "马来西亚",
-      "kickoff": "2026-11-14T13:00:00"
     },
     {
       "fixture_key": "intl_friendly|巴勒斯坦|伊朗|2026-11-14",
@@ -930,6 +930,66 @@
       "home": "Los Angeles Lakers",
       "away": "Charlotte Hornets",
       "kickoff": "2026-11-18T04:00:00"
+    },
+    {
+      "fixture_key": "brasileirao|科里蒂巴|桑托斯|2026-11-18",
+      "competition": "brasileirao",
+      "competition_name": "巴西甲级联赛",
+      "competition_class": "league",
+      "sport": "football",
+      "home": "科里蒂巴",
+      "away": "桑托斯",
+      "kickoff": "2026-11-18T22:30:00"
+    },
+    {
+      "fixture_key": "brasileirao|瑞模贝雷|沙佩科恩斯|2026-11-18",
+      "competition": "brasileirao",
+      "competition_name": "巴西甲级联赛",
+      "competition_class": "league",
+      "sport": "football",
+      "home": "瑞模贝雷",
+      "away": "沙佩科恩斯",
+      "kickoff": "2026-11-18T23:00:00"
+    },
+    {
+      "fixture_key": "brasileirao|克鲁塞罗|帕尔梅拉斯|2026-11-18",
+      "competition": "brasileirao",
+      "competition_name": "巴西甲级联赛",
+      "competition_class": "league",
+      "sport": "football",
+      "home": "克鲁塞罗",
+      "away": "帕尔梅拉斯",
+      "kickoff": "2026-11-18T23:30:00"
+    },
+    {
+      "fixture_key": "brasileirao|弗拉门戈|巴拉纳竞技|2026-11-18",
+      "competition": "brasileirao",
+      "competition_name": "巴西甲级联赛",
+      "competition_class": "league",
+      "sport": "football",
+      "home": "弗拉门戈",
+      "away": "巴拉纳竞技",
+      "kickoff": "2026-11-18T23:30:00"
+    },
+    {
+      "fixture_key": "brasileirao|科林蒂安|博塔弗戈|2026-11-19",
+      "competition": "brasileirao",
+      "competition_name": "巴西甲级联赛",
+      "competition_class": "league",
+      "sport": "football",
+      "home": "科林蒂安",
+      "away": "博塔弗戈",
+      "kickoff": "2026-11-19T00:30:00"
+    },
+    {
+      "fixture_key": "brasileirao|格雷米奥|巴伊亚|2026-11-19",
+      "competition": "brasileirao",
+      "competition_name": "巴西甲级联赛",
+      "competition_class": "league",
+      "sport": "football",
+      "home": "格雷米奥",
+      "away": "巴伊亚",
+      "kickoff": "2026-11-19T00:30:00"
     }
   ]
 }
