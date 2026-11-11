@@ -1,15 +1,4 @@
 {
-  "generated_at": "2026-11-11T14:53:38.329897+00:00",
-  "matches": [
-    {
-      "fixture_key": "nba|portlandtrailblazers|oklahomacitythunder|2026-11-11",
-      "competition": "nba",
-      "home": "Portland Trail Blazers",
-      "away": "Oklahoma City Thunder",
-      "kickoff": "2026-11-11T04:00:00",
-      "status": "live",
-      "home_goals": 0,
-      "away_goals": 0
-    }
-  ]
+  "generated_at": "2026-11-11T15:12:29.893426+00:00",
+  "matches": []
 }
