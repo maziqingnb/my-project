@@ -13,5 +13,35 @@
     "total_line": null,
     "over": null,
     "under": null
+  },
+  {
+    "fixture_key": "nba|torontoraptors|bostonceltics|2026-11-12",
+    "competition": "nba",
+    "home": "Toronto Raptors",
+    "away": "Boston Celtics",
+    "kickoff": "2026-11-12T00:10:00Z",
+    "bookmaker": "unibet",
+    "ts": "2026-11-11T05:49:17.638731+00:00",
+    "handicap_line": 6.5,
+    "handicap_home": 1.92,
+    "handicap_away": 1.89,
+    "total_line": null,
+    "over": null,
+    "under": null
+  },
+  {
+    "fixture_key": "nba|torontoraptors|bostonceltics|2026-11-12",
+    "competition": "nba",
+    "home": "Toronto Raptors",
+    "away": "Boston Celtics",
+    "kickoff": "2026-11-12T00:10:00Z",
+    "bookmaker": "pinnacle",
+    "ts": "2026-11-11T05:49:17.638731+00:00",
+    "handicap_line": 7.0,
+    "handicap_home": 1.98,
+    "handicap_away": 1.91,
+    "total_line": 216.0,
+    "over": 1.93,
+    "under": 1.93
   }
 ]
