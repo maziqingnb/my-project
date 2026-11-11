@@ -1,6 +1,16 @@
 {
-  "generated_at": "2026-11-11T06:43:10.535247+00:00",
+  "generated_at": "2026-11-11T07:59:28.301270+00:00",
   "matches": [
+    {
+      "fixture_key": "intl_friendly|韩国u19|塔吉克斯坦u19|2026-11-11",
+      "competition": "intl_friendly",
+      "home": "韩国U19",
+      "away": "塔吉克斯坦U19",
+      "kickoff": "2026-11-11T07:30:00",
+      "status": "live",
+      "home_goals": 0,
+      "away_goals": 0
+    },
     {
       "fixture_key": "nba|portlandtrailblazers|oklahomacitythunder|2026-11-11",
       "competition": "nba",
