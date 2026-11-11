@@ -223,5 +223,35 @@
     "total_line": null,
     "over": null,
     "under": null
+  },
+  {
+    "fixture_key": "nba|chicagobulls|sanantoniospurs|2026-11-12",
+    "competition": "nba",
+    "home": "Chicago Bulls",
+    "away": "San Antonio Spurs",
+    "kickoff": "2026-11-12T01:10:00Z",
+    "bookmaker": "pinnacle",
+    "ts": "2026-11-11T10:25:58.684776+00:00",
+    "handicap_line": 15.5,
+    "handicap_home": 1.93,
+    "handicap_away": 1.96,
+    "total_line": 240.5,
+    "over": 1.93,
+    "under": 1.93
+  },
+  {
+    "fixture_key": "nba|chicagobulls|sanantoniospurs|2026-11-12",
+    "competition": "nba",
+    "home": "Chicago Bulls",
+    "away": "San Antonio Spurs",
+    "kickoff": "2026-11-12T01:10:00Z",
+    "bookmaker": "unibet",
+    "ts": "2026-11-11T10:25:58.684776+00:00",
+    "handicap_line": 15.5,
+    "handicap_home": 1.91,
+    "handicap_away": 1.89,
+    "total_line": null,
+    "over": null,
+    "under": null
   }
 ]
