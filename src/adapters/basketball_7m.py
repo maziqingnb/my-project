@@ -28,6 +28,16 @@ _HEADERS = {
 
 _FINISHED_STATES = {"9", "11"}   # 9=完场 11=加时完场
 
+# 7m 篮球 State_arr 状态码（已实测）：0=未开赛 9=完场 11=加时完场；5=延期/推迟
+# （比分全 0 且开赛时间早已过去，例如波特兰vs雷霆 12:00 场延期后仍挂 state=5）。
+# 「非 0/9/11 就当进行中」的旧逻辑会把延期的场次永远挂在「进行中」板块，故明确排除。
+_NOT_LIVE_STATES = {"", "0", "5", "9", "11"}
+
+# 进行中的比赛最多只能开赛这么久（NBA 单场最长 ~3.5 小时，留 4 小时余量）。叠加
+# 时间窗判断，把「开赛时间早已过去但状态没更新（延期/腰斩）」的场次挡掉，避免
+# 早上的比赛到晚上还赖在「实时」板块。
+_LIVE_WINDOW_HOURS = 4
+
 
 def _bj_to_utc(s: str) -> str:
     """'YYYY,MM,DD,HH,MM,SS'（北京时间 UTC+8）-> UTC ISO 字符串。"""
@@ -167,12 +177,27 @@ class Basketball7mClient(FixturesClient):
         return fixtures
 
     def fetch_live(self, comp: Competition) -> list[Fixture]:
-        """进行中的 NBA 比赛：State 非 0（未开赛）且非 9/11（完场/加时完场）即视为进行中。"""
+        """进行中的 NBA 比赛：状态为「真正进行中」且开赛时间在合理窗口内。
+
+        旧逻辑「非 0/9/11 就当进行中」会把延期（state=5）的场次误判成进行中；
+        现在先排除延期/完场/未开赛状态，再用「开赛已到且距开赛不超过 4 小时」兜底。
+        """
+        now = datetime.now(timezone.utc)
         fixtures = []
         for r in self._rows():
-            if r["state"] in ("", "0") or r["state"] in _FINISHED_STATES:
+            if r["state"] in _NOT_LIVE_STATES:
                 continue
             if not r["kickoff"]:
+                continue
+            try:
+                ko = datetime.fromisoformat(r["kickoff"].replace("Z", "+00:00"))
+            except (ValueError, TypeError):
+                continue
+            if ko.tzinfo is None:
+                ko = ko.replace(tzinfo=timezone.utc)
+            if ko > now:                              # 还没开赛
+                continue
+            if (now - ko) > timedelta(hours=_LIVE_WINDOW_HOURS):  # 早已结束/延期未更新
                 continue
             fixtures.append(Fixture(
                 key=fixture_key(comp.key, r["home"], r["away"], r["kickoff"]),
