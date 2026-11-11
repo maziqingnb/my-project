@@ -88,5 +88,20 @@
     "total_line": null,
     "over": null,
     "under": null
+  },
+  {
+    "fixture_key": "intl_friendly|埃及u17|俄罗斯u17|2026-11-11",
+    "competition": "intl_friendly",
+    "home": "埃及U17",
+    "away": "俄罗斯U17",
+    "kickoff": "2026-11-11T15:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-11T06:59:49.401511+00:00",
+    "handicap_line": null,
+    "handicap_home": null,
+    "handicap_away": null,
+    "total_line": null,
+    "over": null,
+    "under": null
   }
 ]
