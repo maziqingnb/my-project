@@ -291,6 +291,21 @@
     "away": "越南U19",
     "kickoff": "2026-11-11T11:35:00",
     "bookmaker": "crown",
+    "ts": "2026-11-10T11:35:00+00:00",
+    "handicap_line": -0.75,
+    "handicap_home": 0.82,
+    "handicap_away": 0.94,
+    "total_line": 2.5,
+    "over": 0.9,
+    "under": 0.86
+  },
+  {
+    "fixture_key": "intl_friendly|中国u19|越南u19|2026-11-11",
+    "competition": "intl_friendly",
+    "home": "中国U19",
+    "away": "越南U19",
+    "kickoff": "2026-11-11T11:35:00",
+    "bookmaker": "crown",
     "ts": "2026-11-10T16:41:27.225150+00:00",
     "handicap_line": -0.75,
     "handicap_home": 0.82,
@@ -568,5 +583,20 @@
     "total_line": 2.5,
     "over": 0.92,
     "under": 0.94
+  },
+  {
+    "fixture_key": "intl_friendly|中国u19|越南u19|2026-11-11",
+    "competition": "intl_friendly",
+    "home": "中国U19",
+    "away": "越南U19",
+    "kickoff": "2026-11-11T11:35:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-11T09:22:59.603701+00:00",
+    "handicap_line": -1.0,
+    "handicap_home": 0.91,
+    "handicap_away": 0.91,
+    "total_line": 2.75,
+    "over": 1.0,
+    "under": 0.8
   }
 ]
