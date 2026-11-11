@@ -238,5 +238,20 @@
     "total_line": null,
     "over": null,
     "under": null
+  },
+  {
+    "fixture_key": "intl_friendly|哥斯达黎加u17|加拿大u17|2026-11-11",
+    "competition": "intl_friendly",
+    "home": "哥斯达黎加U17",
+    "away": "加拿大U17",
+    "kickoff": "2026-11-11T16:30:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-11T06:52:24.736289+00:00",
+    "handicap_line": null,
+    "handicap_home": null,
+    "handicap_away": null,
+    "total_line": null,
+    "over": null,
+    "under": null
   }
 ]

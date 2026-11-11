@@ -10,6 +10,16 @@
     "away_goals": null
   },
   {
+    "key": "intl_friendly|葡萄牙女足u16|爱尔兰女足u16|2026-11-11",
+    "competition": "intl_friendly",
+    "home": "葡萄牙女足U16",
+    "away": "爱尔兰女足U16",
+    "kickoff": "2026-11-11T11:00:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
     "key": "intl_friendly|中国u19|越南u19|2026-11-11",
     "competition": "intl_friendly",
     "home": "中国U19",
@@ -80,6 +90,36 @@
     "away_goals": null
   },
   {
+    "key": "intl_friendly|古巴女足u19|瓜地马拉女足u19|2026-11-11",
+    "competition": "intl_friendly",
+    "home": "古巴女足U19",
+    "away": "瓜地马拉女足U19",
+    "kickoff": "2026-11-11T14:30:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "intl_friendly|萨尔瓦多女足u19|伯利兹女足u19|2026-11-11",
+    "competition": "intl_friendly",
+    "home": "萨尔瓦多女足U19",
+    "away": "伯利兹女足U19",
+    "kickoff": "2026-11-11T14:30:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "intl_friendly|埃及u17|俄罗斯u17|2026-11-11",
+    "competition": "intl_friendly",
+    "home": "埃及U17",
+    "away": "俄罗斯U17",
+    "kickoff": "2026-11-11T15:00:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
     "key": "intl_friendly|哥斯达黎加u16|加拿大u16|2026-11-11",
     "competition": "intl_friendly",
     "home": "哥斯达黎加U16",
@@ -100,6 +140,26 @@
     "away_goals": null
   },
   {
+    "key": "intl_friendly|巴拿马女足u19|洪都拉斯女足u19|2026-11-11",
+    "competition": "intl_friendly",
+    "home": "巴拿马女足U19",
+    "away": "洪都拉斯女足U19",
+    "kickoff": "2026-11-11T20:00:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "intl_friendly|尼加拉瓜女足u19|哥斯达黎加女足u19|2026-11-11",
+    "competition": "intl_friendly",
+    "home": "尼加拉瓜女足U19",
+    "away": "哥斯达黎加女足U19",
+    "kickoff": "2026-11-11T20:00:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
     "key": "intl_friendly|新西兰|印度|2026-11-12",
     "competition": "intl_friendly",
     "home": "新西兰",
@@ -115,6 +175,26 @@
     "home": "泰国U23",
     "away": "卡塔尔U23",
     "kickoff": "2026-11-12T08:00:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "intl_friendly|哈萨克斯坦u21|白俄罗斯u21|2026-11-12",
+    "competition": "intl_friendly",
+    "home": "哈萨克斯坦U21",
+    "away": "白俄罗斯U21",
+    "kickoff": "2026-11-12T09:00:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "intl_friendly|乌兹别克斯坦u17|厄瓜多尔u17|2026-11-12",
+    "competition": "intl_friendly",
+    "home": "乌兹别克斯坦U17",
+    "away": "厄瓜多尔U17",
+    "kickoff": "2026-11-12T10:00:00",
     "status": "upcoming",
     "home_goals": null,
     "away_goals": null
@@ -160,6 +240,16 @@
     "away_goals": null
   },
   {
+    "key": "intl_friendly|葡萄牙u18|挪威u18|2026-11-12",
+    "competition": "intl_friendly",
+    "home": "葡萄牙U18",
+    "away": "挪威U18",
+    "kickoff": "2026-11-12T15:00:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
     "key": "intl_friendly|法国u20|丹麦u20|2026-11-12",
     "competition": "intl_friendly",
     "home": "法国U20",
@@ -190,10 +280,20 @@
     "away_goals": null
   },
   {
-    "key": "intl_friendly|哥伦比亚u19|巴拉圭u19|2026-11-12",
+    "key": "intl_friendly|哥伦比亚u19|巴拉圭u20|2026-11-12",
     "competition": "intl_friendly",
     "home": "哥伦比亚U19",
-    "away": "巴拉圭U19",
+    "away": "巴拉圭U20",
+    "kickoff": "2026-11-12T18:00:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "intl_friendly|哥伦比亚u20|巴拉圭u20|2026-11-12",
+    "competition": "intl_friendly",
+    "home": "哥伦比亚U20",
+    "away": "巴拉圭U20",
     "kickoff": "2026-11-12T18:00:00",
     "status": "upcoming",
     "home_goals": null,
@@ -215,6 +315,16 @@
     "home": "美国U19",
     "away": "日本U19",
     "kickoff": "2026-11-13T01:00:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "intl_friendly|塔希提群岛|库克群岛|2026-11-13",
+    "competition": "intl_friendly",
+    "home": "塔希提群岛",
+    "away": "库克群岛",
+    "kickoff": "2026-11-13T04:00:00",
     "status": "upcoming",
     "home_goals": null,
     "away_goals": null
@@ -250,10 +360,30 @@
     "away_goals": null
   },
   {
+    "key": "intl_friendly|葡萄牙女足u16|爱尔兰女足u16|2026-11-13",
+    "competition": "intl_friendly",
+    "home": "葡萄牙女足U16",
+    "away": "爱尔兰女足U16",
+    "kickoff": "2026-11-13T11:30:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
     "key": "intl_friendly|新加坡|巴拉圭|2026-11-13",
     "competition": "intl_friendly",
     "home": "新加坡",
     "away": "巴拉圭",
+    "kickoff": "2026-11-13T12:00:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "intl_friendly|吉尔吉斯坦u23|俄罗斯u21|2026-11-13",
+    "competition": "intl_friendly",
+    "home": "吉尔吉斯坦U23",
+    "away": "俄罗斯U21",
     "kickoff": "2026-11-13T12:00:00",
     "status": "upcoming",
     "home_goals": null,
@@ -294,6 +424,26 @@
     "competition": "intl_friendly",
     "home": "韩国",
     "away": "沙特阿拉伯",
+    "kickoff": "2026-11-13T14:30:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "intl_friendly|伯利兹女足u19|洪都拉斯女足u19|2026-11-13",
+    "competition": "intl_friendly",
+    "home": "伯利兹女足U19",
+    "away": "洪都拉斯女足U19",
+    "kickoff": "2026-11-13T14:30:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "intl_friendly|尼加拉瓜女足u19|古巴女足u19|2026-11-13",
+    "competition": "intl_friendly",
+    "home": "尼加拉瓜女足U19",
+    "away": "古巴女足U19",
     "kickoff": "2026-11-13T14:30:00",
     "status": "upcoming",
     "home_goals": null,
@@ -395,6 +545,26 @@
     "home": "英格兰U21",
     "away": "葡萄牙U21",
     "kickoff": "2026-11-13T19:30:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "intl_friendly|巴拿马女足u19|萨尔瓦多女足u19|2026-11-13",
+    "competition": "intl_friendly",
+    "home": "巴拿马女足U19",
+    "away": "萨尔瓦多女足U19",
+    "kickoff": "2026-11-13T20:00:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "intl_friendly|哥斯达黎加女足u19|瓜地马拉女足u19|2026-11-13",
+    "competition": "intl_friendly",
+    "home": "哥斯达黎加女足U19",
+    "away": "瓜地马拉女足U19",
+    "kickoff": "2026-11-13T20:00:00",
     "status": "upcoming",
     "home_goals": null,
     "away_goals": null
@@ -694,6 +864,16 @@
     "competition": "intl_friendly",
     "home": "坦桑尼亚U17",
     "away": "塔吉克斯坦U17",
+    "kickoff": "2026-11-15T13:00:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "intl_friendly|法国u20|丹麦u20|2026-11-15",
+    "competition": "intl_friendly",
+    "home": "法国U20",
+    "away": "丹麦U20",
     "kickoff": "2026-11-15T13:00:00",
     "status": "upcoming",
     "home_goals": null,
