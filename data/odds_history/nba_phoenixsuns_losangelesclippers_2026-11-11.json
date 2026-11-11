@@ -673,5 +673,35 @@
     "total_line": 223.5,
     "over": 1.91,
     "under": 1.98
+  },
+  {
+    "fixture_key": "nba|phoenixsuns|losangelesclippers|2026-11-11",
+    "competition": "nba",
+    "home": "Phoenix Suns",
+    "away": "Los Angeles Clippers",
+    "kickoff": "2026-11-11T02:11:00Z",
+    "bookmaker": "unibet",
+    "ts": "2026-11-11T02:40:42.902876+00:00",
+    "handicap_line": -10.5,
+    "handicap_home": 1.9,
+    "handicap_away": 1.83,
+    "total_line": null,
+    "over": null,
+    "under": null
+  },
+  {
+    "fixture_key": "nba|phoenixsuns|losangelesclippers|2026-11-11",
+    "competition": "nba",
+    "home": "Phoenix Suns",
+    "away": "Los Angeles Clippers",
+    "kickoff": "2026-11-11T02:11:00Z",
+    "bookmaker": "pinnacle",
+    "ts": "2026-11-11T02:40:42.902876+00:00",
+    "handicap_line": -3.5,
+    "handicap_home": 1.93,
+    "handicap_away": 1.92,
+    "total_line": 219.5,
+    "over": 1.94,
+    "under": 1.91
   }
 ]

@@ -1168,5 +1168,35 @@
     "total_line": 218.0,
     "over": 1.97,
     "under": 1.92
+  },
+  {
+    "fixture_key": "nba|philadelphia76ers|bostonceltics|2026-11-11",
+    "competition": "nba",
+    "home": "Philadelphia 76ers",
+    "away": "Boston Celtics",
+    "kickoff": "2026-11-11T01:14:00Z",
+    "bookmaker": "unibet",
+    "ts": "2026-11-11T02:40:42.902876+00:00",
+    "handicap_line": 4.5,
+    "handicap_home": 1.88,
+    "handicap_away": 1.85,
+    "total_line": null,
+    "over": null,
+    "under": null
+  },
+  {
+    "fixture_key": "nba|philadelphia76ers|bostonceltics|2026-11-11",
+    "competition": "nba",
+    "home": "Philadelphia 76ers",
+    "away": "Boston Celtics",
+    "kickoff": "2026-11-11T01:14:00Z",
+    "bookmaker": "pinnacle",
+    "ts": "2026-11-11T02:40:42.902876+00:00",
+    "handicap_line": 8.5,
+    "handicap_home": 1.86,
+    "handicap_away": 1.93,
+    "total_line": 222.0,
+    "over": 1.87,
+    "under": 1.91
   }
 ]
