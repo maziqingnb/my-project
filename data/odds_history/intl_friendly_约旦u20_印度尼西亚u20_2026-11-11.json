@@ -178,5 +178,20 @@
     "total_line": null,
     "over": null,
     "under": null
+  },
+  {
+    "fixture_key": "intl_friendly|约旦u20|印度尼西亚u20|2026-11-11",
+    "competition": "intl_friendly",
+    "home": "约旦U20",
+    "away": "印度尼西亚U20",
+    "kickoff": "2026-11-11T12:30:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-11T04:49:07.535607+00:00",
+    "handicap_line": null,
+    "handicap_home": null,
+    "handicap_away": null,
+    "total_line": null,
+    "over": null,
+    "under": null
   }
 ]
