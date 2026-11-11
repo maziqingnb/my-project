@@ -519,7 +519,7 @@ function renderRecommendationView() {
   const cup = picks.filter(r => r.sport !== "basketball" && r.competition_class === "cup").sort(byKickoff);
   document.getElementById("content").innerHTML = (league.length + cup.length)
     ? renderTable("🏆 杯赛", "cup", cup) + renderTable("⚽ 联赛", "league", league)
-    : `<div class="empty">${allPicks.length ? "没有符合筛选的推荐。" : "暂无足球推荐，请等待下一次同步与分析。"}</div>`;
+    : `<div class="empty">${allPicks.length ? "没有符合筛选的推荐。" : "暂无足球推荐——推荐只在开赛前 6 小时内上架，请到「📅 赛程」查看近期赛事，或在临场时段回来刷新。"}</div>`;
   renderBasketball(bball, latestHist);
 }
 

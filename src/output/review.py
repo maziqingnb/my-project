@@ -6,13 +6,31 @@
 from __future__ import annotations
 
 from collections import defaultdict
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 
 from .. import config as C
 from ..models import market_cn
 from ..storage import read_json, write_json
 
 _MISSED = ("loss", "half_loss")
+
+_BEIJING = timezone(timedelta(hours=8))
+
+
+def _bj_day(kickoff: str) -> str:
+    """把 UTC 开赛时间折算成北京时间日期，复盘按北京时间分组。
+
+    看板其它板块（推荐/历史/赛程）都按北京时间展示，复盘若按 UTC 日期分组会出现
+    「凌晨场次归到前一天」的错位。用户在北京时区，按北京日期分组更直观。
+    """
+    s = (kickoff or "").replace("Z", "+00:00")
+    try:
+        dt = datetime.fromisoformat(s)
+    except (ValueError, TypeError):
+        return (kickoff or "")[:10]
+    if dt.tzinfo is None:
+        dt = dt.replace(tzinfo=timezone.utc)
+    return dt.astimezone(_BEIJING).strftime("%Y-%m-%d")
 
 
 def _fmt_w(v):
@@ -150,7 +168,7 @@ def build_daily_review() -> dict:
 
     by_day: dict[str, list[dict]] = defaultdict(list)
     for r in missed:
-        by_day[(r.get("kickoff") or "")[:10]].append(r)
+        by_day[_bj_day(r.get("kickoff"))].append(r)
 
     days = []
     for day in sorted(by_day.keys(), reverse=True):

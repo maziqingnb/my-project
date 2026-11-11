@@ -9,6 +9,7 @@
 """
 from __future__ import annotations
 
+from datetime import datetime, timedelta
 from typing import Optional
 
 from ..models import norm_team, Recommendation, Result
@@ -74,21 +75,43 @@ def settle(market: str, side: str, line: Optional[float],
     return _combine(legs)
 
 
+def _day_candidates(day: str) -> list[str]:
+    """返回要尝试的日期（当天 + 前后各 1 天）。
+
+    推荐的开赛时间是 UTC，而 7m/win007 的结果日期按北京时间落库；跨零点（北京时间
+    凌晨场次）或临时改期时，推荐侧的 UTC 日期与结果侧日期会差 1 天，导致结算落空。
+    同一联赛两队连踢两天的概率极低，前后各放宽 1 天是安全的兜底。
+    """
+    day = (day or "")[:10]
+    out = [day] if day else []
+    try:
+        d = datetime.strptime(day, "%Y-%m-%d")
+    except ValueError:
+        return out
+    for delta in (timedelta(days=1), timedelta(days=-1)):
+        cand = (d + delta).strftime("%Y-%m-%d")
+        if cand not in out:
+            out.append(cand)
+    return out
+
+
 def find_result(results: list[Result], comp_key: str, home: str, away: str,
                 day: str) -> Optional[tuple[int, int]]:
     """按 联赛+日期+主客队 找最终比分，返回 (主进球, 客进球) 或 None。
 
     主客顺序与推荐一致时直接返回；若结果里顺序颠倒则交换比分。
+    日期按「当天 + 前后各 1 天」兜底，避免 UTC/北京日期边界导致漏结算。
     """
     h, a = norm_team(home), norm_team(away)
+    days = _day_candidates(day)
     for r in results:
-        if r.competition != comp_key or (r.date or "")[:10] != day:
+        if r.competition != comp_key or (r.date or "")[:10] not in days:
             continue
         rh, ra = norm_team(r.home), norm_team(r.away)
         if rh == h and ra == a:
             return r.home_goals, r.away_goals
     for r in results:
-        if r.competition != comp_key or (r.date or "")[:10] != day:
+        if r.competition != comp_key or (r.date or "")[:10] not in days:
             continue
         rh, ra = norm_team(r.home), norm_team(r.away)
         if rh == a and ra == h:

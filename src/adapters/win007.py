@@ -50,6 +50,16 @@ _MIN_INTERVAL = 0.2
 _RATE_LOCK = threading.Lock()
 _LAST_REQUEST = 0.0
 
+# 国家队友谊赛（win007_id=1366）会混入大量青年队（U16~U23）与女足友谊赛：
+# 这些比赛通常没有盘口、也不在投注范围内，只会占满赛程页、拖慢赔率抓取
+# （每场还要多抓一次分析页）。在解析层统一剔除。俱乐部联赛里不会出现这类队名，
+# 所以可以全局安全应用。
+_YOUTH_OR_WOMEN_RE = re.compile(r"u1[6-9]|u2[0-3]|女足|女子", re.IGNORECASE)
+
+
+def _is_youth_or_women(name: str) -> bool:
+    return bool(_YOUTH_OR_WOMEN_RE.search(name or ""))
+
 
 def _throttle() -> None:
     global _LAST_REQUEST
@@ -182,6 +192,8 @@ class Win007Client(OddsClient, FixturesClient):
             home = self._map(p[5])
             away = self._map(p[6])
             if not home or not away:
+                continue
+            if _is_youth_or_women(home) or _is_youth_or_women(away):
                 continue
             handicap = _num(p[24])
             out.append({
