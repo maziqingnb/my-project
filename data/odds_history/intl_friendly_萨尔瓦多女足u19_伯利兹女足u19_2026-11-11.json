@@ -193,5 +193,20 @@
     "total_line": null,
     "over": null,
     "under": null
+  },
+  {
+    "fixture_key": "intl_friendly|萨尔瓦多女足u19|伯利兹女足u19|2026-11-11",
+    "competition": "intl_friendly",
+    "home": "萨尔瓦多女足U19",
+    "away": "伯利兹女足U19",
+    "kickoff": "2026-11-11T14:30:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-11T13:45:34.859467+00:00",
+    "handicap_line": null,
+    "handicap_home": null,
+    "handicap_away": null,
+    "total_line": null,
+    "over": null,
+    "under": null
   }
 ]
