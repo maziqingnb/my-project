@@ -208,5 +208,20 @@
     "total_line": null,
     "over": null,
     "under": null
+  },
+  {
+    "fixture_key": "intl_friendly|巴拿马女足u19|洪都拉斯女足u19|2026-11-11",
+    "competition": "intl_friendly",
+    "home": "巴拿马女足U19",
+    "away": "洪都拉斯女足U19",
+    "kickoff": "2026-11-11T20:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-11T14:45:14.816367+00:00",
+    "handicap_line": null,
+    "handicap_home": null,
+    "handicap_away": null,
+    "total_line": null,
+    "over": null,
+    "under": null
   }
 ]
