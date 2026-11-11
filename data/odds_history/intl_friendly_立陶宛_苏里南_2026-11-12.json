@@ -1,0 +1,32 @@
+[
+  {
+    "fixture_key": "intl_friendly|立陶宛|苏里南|2026-11-12",
+    "competition": "intl_friendly",
+    "home": "立陶宛",
+    "away": "苏里南",
+    "kickoff": "2026-11-12T17:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-11T16:45:26.146436+00:00",
+    "handicap_line": 0.0,
+    "handicap_home": 0.95,
+    "handicap_away": 0.87,
+    "total_line": 2.0,
+    "over": 0.77,
+    "under": 1.03
+  },
+  {
+    "fixture_key": "intl_friendly|立陶宛|苏里南|2026-11-12",
+    "competition": "intl_friendly",
+    "home": "立陶宛",
+    "away": "苏里南",
+    "kickoff": "2026-11-12T17:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-11T17:00:00+00:00",
+    "handicap_line": -0.25,
+    "handicap_home": 0.94,
+    "handicap_away": 0.88,
+    "total_line": 2.25,
+    "over": 0.92,
+    "under": 0.88
+  }
+]
