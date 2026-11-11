@@ -523,5 +523,35 @@
     "total_line": null,
     "over": null,
     "under": null
+  },
+  {
+    "fixture_key": "nba|indianapacers|washingtonwizards|2026-11-12",
+    "competition": "nba",
+    "home": "Indiana Pacers",
+    "away": "Washington Wizards",
+    "kickoff": "2026-11-12T00:10:00Z",
+    "bookmaker": "pinnacle",
+    "ts": "2026-11-11T18:43:46.671433+00:00",
+    "handicap_line": -3.0,
+    "handicap_home": 1.98,
+    "handicap_away": 1.93,
+    "total_line": 228.0,
+    "over": 1.93,
+    "under": 1.95
+  },
+  {
+    "fixture_key": "nba|indianapacers|washingtonwizards|2026-11-12",
+    "competition": "nba",
+    "home": "Indiana Pacers",
+    "away": "Washington Wizards",
+    "kickoff": "2026-11-12T00:10:00Z",
+    "bookmaker": "unibet",
+    "ts": "2026-11-11T18:43:46.671433+00:00",
+    "handicap_line": -2.5,
+    "handicap_home": 1.89,
+    "handicap_away": 1.91,
+    "total_line": null,
+    "over": null,
+    "under": null
   }
 ]
