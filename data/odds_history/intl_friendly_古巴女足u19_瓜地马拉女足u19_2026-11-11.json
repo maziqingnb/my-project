@@ -178,5 +178,20 @@
     "total_line": null,
     "over": null,
     "under": null
+  },
+  {
+    "fixture_key": "intl_friendly|古巴女足u19|瓜地马拉女足u19|2026-11-11",
+    "competition": "intl_friendly",
+    "home": "古巴女足U19",
+    "away": "瓜地马拉女足U19",
+    "kickoff": "2026-11-11T14:30:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-11T12:49:43.340628+00:00",
+    "handicap_line": null,
+    "handicap_home": null,
+    "handicap_away": null,
+    "total_line": null,
+    "over": null,
+    "under": null
   }
 ]

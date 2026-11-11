@@ -178,5 +178,20 @@
     "total_line": null,
     "over": null,
     "under": null
+  },
+  {
+    "fixture_key": "intl_friendly|尼加拉瓜女足u19|哥斯达黎加女足u19|2026-11-11",
+    "competition": "intl_friendly",
+    "home": "尼加拉瓜女足U19",
+    "away": "哥斯达黎加女足U19",
+    "kickoff": "2026-11-11T20:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-11T12:49:45.615368+00:00",
+    "handicap_line": null,
+    "handicap_home": null,
+    "handicap_away": null,
+    "total_line": null,
+    "over": null,
+    "under": null
   }
 ]

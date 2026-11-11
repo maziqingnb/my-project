@@ -343,5 +343,20 @@
     "total_line": null,
     "over": null,
     "under": null
+  },
+  {
+    "fixture_key": "intl_friendly|捷克u16|奥地利u16|2026-11-11",
+    "competition": "intl_friendly",
+    "home": "捷克U16",
+    "away": "奥地利U16",
+    "kickoff": "2026-11-11T13:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-11T12:49:43.340493+00:00",
+    "handicap_line": null,
+    "handicap_home": null,
+    "handicap_away": null,
+    "total_line": null,
+    "over": null,
+    "under": null
   }
 ]
