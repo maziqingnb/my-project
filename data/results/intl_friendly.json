@@ -13,6 +13,17 @@
   {
     "competition": "intl_friendly",
     "cls": "cup",
+    "home": "韩国U19",
+    "away": "塔吉克斯坦U19",
+    "home_goals": 1,
+    "away_goals": 1,
+    "date": "2026-11-11",
+    "handicap_line": -1.25,
+    "total_line": 2.5
+  },
+  {
+    "competition": "intl_friendly",
+    "cls": "cup",
     "home": "东海岸海湾",
     "away": "汤加",
     "home_goals": 11,
