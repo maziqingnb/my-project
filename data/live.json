@@ -1,16 +1,6 @@
 {
-  "generated_at": "2026-11-11T12:44:15.454121+00:00",
+  "generated_at": "2026-11-11T13:59:03.162779+00:00",
   "matches": [
-    {
-      "fixture_key": "intl_friendly|越南|中国台湾|2026-11-11",
-      "competition": "intl_friendly",
-      "home": "越南",
-      "away": "中国台湾",
-      "kickoff": "2026-11-11T12:00:00",
-      "status": "live",
-      "home_goals": 1,
-      "away_goals": 0
-    },
     {
       "fixture_key": "nba|portlandtrailblazers|oklahomacitythunder|2026-11-11",
       "competition": "nba",
