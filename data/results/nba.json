@@ -35,6 +35,17 @@
   {
     "competition": "nba",
     "cls": "league",
+    "home": "Portland Trail Blazers",
+    "away": "Oklahoma City Thunder",
+    "home_goals": 123,
+    "away_goals": 103,
+    "date": "2026-11-11",
+    "handicap_line": null,
+    "total_line": null
+  },
+  {
+    "competition": "nba",
+    "cls": "league",
     "home": "Sacramento Kings",
     "away": "Orlando Magic",
     "home_goals": 100,
