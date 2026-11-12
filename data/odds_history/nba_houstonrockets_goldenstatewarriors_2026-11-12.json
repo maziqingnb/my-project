@@ -793,5 +793,35 @@
     "total_line": null,
     "over": null,
     "under": null
+  },
+  {
+    "fixture_key": "nba|houstonrockets|goldenstatewarriors|2026-11-12",
+    "competition": "nba",
+    "home": "Houston Rockets",
+    "away": "Golden State Warriors",
+    "kickoff": "2026-11-12T02:42:48Z",
+    "bookmaker": "pinnacle",
+    "ts": "2026-11-12T03:43:19.834610+00:00",
+    "handicap_line": -7.0,
+    "handicap_home": 1.87,
+    "handicap_away": 1.92,
+    "total_line": 218.0,
+    "over": 1.88,
+    "under": 1.89
+  },
+  {
+    "fixture_key": "nba|houstonrockets|goldenstatewarriors|2026-11-12",
+    "competition": "nba",
+    "home": "Houston Rockets",
+    "away": "Golden State Warriors",
+    "kickoff": "2026-11-12T02:42:48Z",
+    "bookmaker": "unibet",
+    "ts": "2026-11-12T03:43:19.834610+00:00",
+    "handicap_line": -7.5,
+    "handicap_home": 1.82,
+    "handicap_away": 1.92,
+    "total_line": null,
+    "over": null,
+    "under": null
   }
 ]

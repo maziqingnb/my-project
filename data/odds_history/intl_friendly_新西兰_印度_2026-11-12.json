@@ -186,6 +186,21 @@
     "away": "印度",
     "kickoff": "2026-11-12T06:00:00",
     "bookmaker": "crown",
+    "ts": "2026-11-11T06:00:00+00:00",
+    "handicap_line": -1.5,
+    "handicap_home": 0.97,
+    "handicap_away": 0.85,
+    "total_line": 2.75,
+    "over": 0.88,
+    "under": 0.92
+  },
+  {
+    "fixture_key": "intl_friendly|新西兰|印度|2026-11-12",
+    "competition": "intl_friendly",
+    "home": "新西兰",
+    "away": "印度",
+    "kickoff": "2026-11-12T06:00:00",
+    "bookmaker": "crown",
     "ts": "2026-11-11T16:45:24.745601+00:00",
     "handicap_line": -1.75,
     "handicap_home": 0.95,
@@ -358,5 +373,20 @@
     "total_line": 2.75,
     "over": 0.86,
     "under": 0.94
+  },
+  {
+    "fixture_key": "intl_friendly|新西兰|印度|2026-11-12",
+    "competition": "intl_friendly",
+    "home": "新西兰",
+    "away": "印度",
+    "kickoff": "2026-11-12T06:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-12T03:43:21.154895+00:00",
+    "handicap_line": -1.75,
+    "handicap_home": 0.9,
+    "handicap_away": 0.92,
+    "total_line": 2.75,
+    "over": 0.8,
+    "under": 1.0
   }
 ]
