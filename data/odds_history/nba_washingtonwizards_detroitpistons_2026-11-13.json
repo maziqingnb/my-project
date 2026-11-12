@@ -223,5 +223,35 @@
     "total_line": 221.0,
     "over": 1.98,
     "under": 1.88
+  },
+  {
+    "fixture_key": "nba|washingtonwizards|detroitpistons|2026-11-13",
+    "competition": "nba",
+    "home": "Washington Wizards",
+    "away": "Detroit Pistons",
+    "kickoff": "2026-11-13T00:10:00Z",
+    "bookmaker": "unibet",
+    "ts": "2026-11-12T11:28:07.910814+00:00",
+    "handicap_line": 10.5,
+    "handicap_home": 1.85,
+    "handicap_away": 1.96,
+    "total_line": null,
+    "over": null,
+    "under": null
+  },
+  {
+    "fixture_key": "nba|washingtonwizards|detroitpistons|2026-11-13",
+    "competition": "nba",
+    "home": "Washington Wizards",
+    "away": "Detroit Pistons",
+    "kickoff": "2026-11-13T00:10:00Z",
+    "bookmaker": "pinnacle",
+    "ts": "2026-11-12T11:28:07.910814+00:00",
+    "handicap_line": 10.5,
+    "handicap_home": 1.91,
+    "handicap_away": 1.98,
+    "total_line": 220.5,
+    "over": 1.91,
+    "under": 1.96
   }
 ]
