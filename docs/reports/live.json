@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-12T17:45:25.454778+00:00",
+  "generated_at": "2026-11-12T18:42:10.070439+00:00",
   "matches": [
     {
       "fixture_key": "intl_friendly|立陶宛|苏里南|2026-11-12",
@@ -18,8 +18,8 @@
       "away": "斯威士兰",
       "kickoff": "2026-11-12T17:30:00",
       "status": "live",
-      "home_goals": 0,
-      "away_goals": 0
+      "home_goals": 1,
+      "away_goals": 1
     }
   ]
 }
