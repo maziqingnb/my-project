@@ -351,6 +351,21 @@
     "away": "俄罗斯",
     "kickoff": "2026-11-12T15:00:00",
     "bookmaker": "crown",
+    "ts": "2026-11-11T15:00:00+00:00",
+    "handicap_line": 0.5,
+    "handicap_home": 0.85,
+    "handicap_away": 0.97,
+    "total_line": 2.25,
+    "over": 0.92,
+    "under": 0.88
+  },
+  {
+    "fixture_key": "intl_friendly|乌兹别克斯坦|俄罗斯|2026-11-12",
+    "competition": "intl_friendly",
+    "home": "乌兹别克斯坦",
+    "away": "俄罗斯",
+    "kickoff": "2026-11-12T15:00:00",
+    "bookmaker": "crown",
     "ts": "2026-11-11T16:45:24.745681+00:00",
     "handicap_line": 0.25,
     "handicap_home": 1.03,
@@ -688,5 +703,20 @@
     "total_line": 2.25,
     "over": 0.86,
     "under": 0.94
+  },
+  {
+    "fixture_key": "intl_friendly|乌兹别克斯坦|俄罗斯|2026-11-12",
+    "competition": "intl_friendly",
+    "home": "乌兹别克斯坦",
+    "away": "俄罗斯",
+    "kickoff": "2026-11-12T15:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-12T14:46:45.878800+00:00",
+    "handicap_line": 0.75,
+    "handicap_home": 1.02,
+    "handicap_away": 0.8,
+    "total_line": 2.5,
+    "over": 0.88,
+    "under": 0.92
   }
 ]
