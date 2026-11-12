@@ -7,8 +7,8 @@
     "home_goals": 2,
     "away_goals": 3,
     "date": "2026-11-12",
-    "handicap_line": null,
-    "total_line": null
+    "handicap_line": 0.5,
+    "total_line": 2.25
   },
   {
     "competition": "intl_friendly",

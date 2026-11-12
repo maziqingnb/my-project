@@ -1,4 +1,25 @@
 {
-  "generated_at": "2026-11-12T17:01:19.548713+00:00",
-  "matches": []
+  "generated_at": "2026-11-12T17:45:25.454778+00:00",
+  "matches": [
+    {
+      "fixture_key": "intl_friendly|立陶宛|苏里南|2026-11-12",
+      "competition": "intl_friendly",
+      "home": "立陶宛",
+      "away": "苏里南",
+      "kickoff": "2026-11-12T17:00:00",
+      "status": "live",
+      "home_goals": 0,
+      "away_goals": 0
+    },
+    {
+      "fixture_key": "intl_friendly|马耳他|斯威士兰|2026-11-12",
+      "competition": "intl_friendly",
+      "home": "马耳他",
+      "away": "斯威士兰",
+      "kickoff": "2026-11-12T17:30:00",
+      "status": "live",
+      "home_goals": 0,
+      "away_goals": 0
+    }
+  ]
 }
