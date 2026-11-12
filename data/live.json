@@ -1,4 +1,15 @@
 {
-  "generated_at": "2026-11-12T14:57:20.470215+00:00",
-  "matches": []
+  "generated_at": "2026-11-12T16:01:48.039375+00:00",
+  "matches": [
+    {
+      "fixture_key": "intl_friendly|乌兹别克斯坦|俄罗斯|2026-11-12",
+      "competition": "intl_friendly",
+      "home": "乌兹别克斯坦",
+      "away": "俄罗斯",
+      "kickoff": "2026-11-12T15:00:00",
+      "status": "live",
+      "home_goals": 1,
+      "away_goals": 0
+    }
+  ]
 }
