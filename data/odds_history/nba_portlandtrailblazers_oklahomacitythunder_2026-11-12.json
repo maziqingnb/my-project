@@ -478,5 +478,35 @@
     "total_line": 224.0,
     "over": 1.91,
     "under": 1.98
+  },
+  {
+    "fixture_key": "nba|portlandtrailblazers|oklahomacitythunder|2026-11-12",
+    "competition": "nba",
+    "home": "Portland Trail Blazers",
+    "away": "Oklahoma City Thunder",
+    "kickoff": "2026-11-12T03:10:00Z",
+    "bookmaker": "unibet",
+    "ts": "2026-11-12T00:12:19.567957+00:00",
+    "handicap_line": -2.5,
+    "handicap_home": 1.85,
+    "handicap_away": 1.96,
+    "total_line": null,
+    "over": null,
+    "under": null
+  },
+  {
+    "fixture_key": "nba|portlandtrailblazers|oklahomacitythunder|2026-11-12",
+    "competition": "nba",
+    "home": "Portland Trail Blazers",
+    "away": "Oklahoma City Thunder",
+    "kickoff": "2026-11-12T03:10:00Z",
+    "bookmaker": "pinnacle",
+    "ts": "2026-11-12T00:12:19.567957+00:00",
+    "handicap_line": -2.5,
+    "handicap_home": 1.91,
+    "handicap_away": 2.0,
+    "total_line": 224.0,
+    "over": 1.88,
+    "under": 2.0
   }
 ]
