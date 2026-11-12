@@ -67,7 +67,7 @@ def fetch_live_matches(cfg: dict) -> list[Fixture]:
     try:
         doc = _run_scraper(
             (cfg.get("sources") or {}).get("leisu_browser"),
-            int((cfg.get("sync") or {}).get("leisu_wait_ms", 4000)),
+            int((cfg.get("sync") or {}).get("leisu_wait_ms", 15000)),
         )
     except Exception as exc:
         print(f"[雷速] 抓取失败（{exc}）")

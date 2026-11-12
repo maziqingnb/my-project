@@ -179,7 +179,7 @@ sources:
   # 雷速体育（免 key，无头浏览器方案，秒级比分，比 ESPN 更快）。需要环境装 node + puppeteer-core + 浏览器。
   # GitHub Actions 上配 LEISU_BROWSER=/usr/bin/chromium（或用 Playwright 的 chromium）。
   leisu: true
-  leisu_browser: ""            # 留空用默认路径（本地 Edge / Actions Chromium）
+  leisu_browser: "C:/Program Files (x86)/Microsoft/Edge/Application/msedge.exe"   # 本地 Edge（Actions 上由 LEISU_BROWSER 覆盖）
 
 # 队名映射：球探网中文队名 -> 英文队名（the-odds-api / API-Football 用）。
 # 默认数据源是球探网(win007)时赔率与结果都是中文、自洽，本映射只在切换英文源时用于对齐；

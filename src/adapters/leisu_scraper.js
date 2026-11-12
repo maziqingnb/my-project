@@ -30,7 +30,7 @@ function score(m) {
 }
 
 async function main() {
-  const waitMs = parseInt(process.argv[2] || '4000', 10);
+  const waitMs = parseInt(process.argv[2] || '15000', 10);
   const browser = await puppeteer.launch({
     executablePath: BROWSER,
     headless: 'new',
@@ -40,15 +40,32 @@ async function main() {
     const page = await browser.newPage();
     await page.setUserAgent('Mozilla/5.0 (iPhone; CPU iPhone OS 16_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.0 Mobile/15E148 Safari/604.1');
     await page.goto('https://m.leisu.com/live', { waitUntil: 'networkidle2', timeout: 60000 }).catch(() => {});
-    await new Promise(r => setTimeout(r, 3000));
 
-    // 点「赛程」tab，触发 today_list 接口拉全量赛程（含队名/联赛）
-    await page.evaluate(() => {
-      const els = Array.from(document.querySelectorAll('div,span,a,li,p'));
-      const tab = els.find(e => (e.textContent || '').trim() === '赛程');
-      if (tab) tab.click();
-    }).catch(() => {});
-    await new Promise(r => setTimeout(r, waitMs));
+    // 点「赛程」tab，触发 today_list 接口拉全量赛程（含队名/联赛）。tab 可能较晚才渲染，
+    // 循环点击直到 matches 出现或超时（默认最多 ~15s）。
+    const deadline = Date.now() + waitMs;
+    let matchCount = 0;
+    while (Date.now() < deadline) {
+      await page.evaluate(() => {
+        const els = Array.from(document.querySelectorAll('div,span,a,li,p'));
+        const tab = els.find(e => (e.textContent || '').trim() === '赛程');
+        if (tab) tab.click();
+      }).catch(() => {});
+      await new Promise(r => setTimeout(r, 2500));
+      matchCount = await page.evaluate(() => {
+        const ftb = (window.$nuxt && window.$nuxt.$store.state.mod_live.ftb) || {};
+        let n = 0;
+        (function walk(o) {
+          for (const k of Object.keys(o)) {
+            const v = o[k];
+            if (k === 'matches' && Array.isArray(v)) n += v.length;
+            if (v && typeof v === 'object') walk(v);
+          }
+        })(ftb);
+        return n;
+      });
+      if (matchCount > 0) break;
+    }
 
     const data = await page.evaluate(() => {
       const ftb = (window.$nuxt && window.$nuxt.$store.state.mod_live.ftb) || {};
