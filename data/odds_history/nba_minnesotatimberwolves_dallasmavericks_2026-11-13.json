@@ -13,5 +13,35 @@
     "total_line": null,
     "over": null,
     "under": null
+  },
+  {
+    "fixture_key": "nba|minnesotatimberwolves|dallasmavericks|2026-11-13",
+    "competition": "nba",
+    "home": "Minnesota Timberwolves",
+    "away": "Dallas Mavericks",
+    "kickoff": "2026-11-13T01:10:00Z",
+    "bookmaker": "unibet",
+    "ts": "2026-11-12T02:42:32.512189+00:00",
+    "handicap_line": -4.5,
+    "handicap_home": 1.88,
+    "handicap_away": 1.93,
+    "total_line": null,
+    "over": null,
+    "under": null
+  },
+  {
+    "fixture_key": "nba|minnesotatimberwolves|dallasmavericks|2026-11-13",
+    "competition": "nba",
+    "home": "Minnesota Timberwolves",
+    "away": "Dallas Mavericks",
+    "kickoff": "2026-11-13T01:10:00Z",
+    "bookmaker": "pinnacle",
+    "ts": "2026-11-12T02:42:32.512189+00:00",
+    "handicap_line": -5.0,
+    "handicap_home": 1.92,
+    "handicap_away": 1.99,
+    "total_line": 224.5,
+    "over": 1.91,
+    "under": 1.98
   }
 ]

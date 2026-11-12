@@ -733,5 +733,35 @@
     "total_line": null,
     "over": null,
     "under": null
+  },
+  {
+    "fixture_key": "nba|newyorkknicks|clevelandcavaliers|2026-11-12",
+    "competition": "nba",
+    "home": "New York Knicks",
+    "away": "Cleveland Cavaliers",
+    "kickoff": "2026-11-12T00:13:00Z",
+    "bookmaker": "pinnacle",
+    "ts": "2026-11-12T02:42:32.512189+00:00",
+    "handicap_line": -1.0,
+    "handicap_home": 1.88,
+    "handicap_away": 1.86,
+    "total_line": 227.0,
+    "over": 1.85,
+    "under": 1.88
+  },
+  {
+    "fixture_key": "nba|newyorkknicks|clevelandcavaliers|2026-11-12",
+    "competition": "nba",
+    "home": "New York Knicks",
+    "away": "Cleveland Cavaliers",
+    "kickoff": "2026-11-12T00:13:00Z",
+    "bookmaker": "unibet",
+    "ts": "2026-11-12T02:42:32.512189+00:00",
+    "handicap_line": 5.5,
+    "handicap_home": 1.95,
+    "handicap_away": 1.79,
+    "total_line": null,
+    "over": null,
+    "under": null
   }
 ]
