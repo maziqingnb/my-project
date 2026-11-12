@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-11-12T12:42:38.801673+00:00",
+  "generated_at": "2026-11-12T12:51:25.460964+00:00",
   "scope": "16 个联赛 + 5 个杯赛",
   "note": "杯赛与联赛数据分开计算；仅开赛前 6h 内出推荐；命中率只统计强推",
   "total": 1,
   "stats": {
     "overall": {
       "counts": {
-        "win": 67,
+        "win": 66,
         "half_win": 3,
         "push": 5,
         "half_loss": 4,
         "loss": 26
       },
-      "settled": 100,
-      "hit": 70,
-      "rate": 70.0
+      "settled": 99,
+      "hit": 69,
+      "rate": 69.7
     },
     "by_market": {
       "handicap": {
@@ -31,15 +31,15 @@
       },
       "totals": {
         "counts": {
-          "win": 40,
+          "win": 39,
           "half_win": 1,
           "push": 1,
           "half_loss": 2,
           "loss": 16
         },
-        "settled": 59,
-        "hit": 41,
-        "rate": 69.5
+        "settled": 58,
+        "hit": 40,
+        "rate": 69.0
       }
     },
     "by_competition": {
@@ -129,15 +129,15 @@
       },
       "europa_league": {
         "counts": {
-          "win": 9,
+          "win": 8,
           "half_win": 0,
           "push": 1,
           "half_loss": 0,
           "loss": 6
         },
-        "settled": 15,
-        "hit": 9,
-        "rate": 60.0
+        "settled": 14,
+        "hit": 8,
+        "rate": 57.1
       },
       "greeksl": {
         "counts": {
@@ -299,15 +299,15 @@
       },
       "football": {
         "counts": {
-          "win": 67,
+          "win": 66,
           "half_win": 3,
           "push": 5,
           "half_loss": 4,
           "loss": 25
         },
-        "settled": 99,
-        "hit": 70,
-        "rate": 70.7
+        "settled": 98,
+        "hit": 69,
+        "rate": 70.4
       }
     }
   },
@@ -346,6 +346,12 @@
         {
           "ts": "2026-11-11T16:45:26.146503+00:00",
           "handicap_line": -1.0,
+          "handicap_home": 0.97,
+          "handicap_away": 0.85
+        },
+        {
+          "ts": "2026-11-11T17:30:00+00:00",
+          "handicap_line": -0.75,
           "handicap_home": 0.97,
           "handicap_away": 0.85
         },
@@ -594,13 +600,19 @@
           "handicap_line": -1.0,
           "handicap_home": 0.76,
           "handicap_away": 1.06
+        },
+        {
+          "ts": "2026-11-12T12:51:23.664500+00:00",
+          "handicap_line": -1.0,
+          "handicap_home": 0.76,
+          "handicap_away": 1.06
         }
       ],
       "reliability": 1.0,
       "competition_name": "国家队友谊赛",
       "competition_class": "cup",
       "sport": "football",
-      "lead_hours": 5.065774628333333,
+      "lead_hours": 4.643426527777778,
       "prematch": false,
       "result": {
         "settled": false

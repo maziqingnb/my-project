@@ -387,6 +387,17 @@
   {
     "competition": "europa_league",
     "cls": "cup",
+    "home": "Hoffenheim",
+    "away": "Lyon",
+    "home_goals": 3,
+    "away_goals": 0,
+    "date": "2026-10-22",
+    "handicap_line": null,
+    "total_line": null
+  },
+  {
+    "competition": "europa_league",
+    "cls": "cup",
     "home": "Juventus",
     "away": "Rennes",
     "home_goals": 2,
@@ -585,6 +596,17 @@
   {
     "competition": "europa_league",
     "cls": "cup",
+    "home": "Hoffenheim",
+    "away": "Besiktas",
+    "home_goals": 2,
+    "away_goals": 3,
+    "date": "2026-10-15",
+    "handicap_line": null,
+    "total_line": null
+  },
+  {
+    "competition": "europa_league",
+    "cls": "cup",
     "home": "Lech Poznan",
     "away": "Bayer Leverkusen",
     "home_goals": 0,
@@ -765,6 +787,17 @@
     "away": "Torreense",
     "home_goals": 1,
     "away_goals": 2,
+    "date": "2026-09-17",
+    "handicap_line": null,
+    "total_line": null
+  },
+  {
+    "competition": "europa_league",
+    "cls": "cup",
+    "home": "OFI Crete",
+    "away": "Hoffenheim",
+    "home_goals": 2,
+    "away_goals": 0,
     "date": "2026-09-17",
     "handicap_line": null,
     "total_line": null
