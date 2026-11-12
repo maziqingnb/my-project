@@ -1,7 +1,54 @@
 {
-  "generated_at": "2026-11-12T18:42:42.760177+00:00",
-  "total_missed": 42,
+  "generated_at": "2026-11-12T19:37:50.045724+00:00",
+  "total_missed": 43,
   "days": [
+    {
+      "date": "2026-11-13",
+      "missed": 1,
+      "items": [
+        {
+          "competition": "intl_friendly",
+          "home": "马耳他",
+          "away": "斯威士兰",
+          "kickoff": "2026-11-12T17:30:00",
+          "market": "handicap",
+          "sport": "football",
+          "pick": "主队（让 1）",
+          "side": "home",
+          "line": -1.0,
+          "score": 70.0,
+          "confidence": "strong",
+          "outcome": "loss",
+          "outcome_cn": "没中",
+          "home_goals": 1,
+          "away_goals": 1,
+          "book": "盘口 主让1 → 主让1，水位 主0.97/0.85 → 主0.76/1.06",
+          "diagnosis": [
+            "盘口 主让1 → 主让1，水位 主0.97/0.85 → 主0.76/1.06",
+            "最终 1-1，推荐侧相对盘口 -1.00 球（未打穿）"
+          ],
+          "note": "主队（让 1） · 最终 1-1（主队净胜 0），未打穿",
+          "signals": {
+            "line_desc": "盘口不变",
+            "water_desc": "主队降水 0.97->0.76",
+            "line_first": -1.0,
+            "line_last": -1.0,
+            "home_water_first": 0.97,
+            "home_water_last": 0.76,
+            "away_water_first": 0.85,
+            "away_water_last": 1.06,
+            "conflict": false
+          },
+          "reasons": [
+            "亚盘 盘口不变",
+            "主队降水 0.97->0.76",
+            "主队近1场 1胜0平0负，场均进2.0/失0.0",
+            "客队近0场 0胜0平0负，场均进0.0/失0.0",
+            "交手0次：主队0胜0平0负"
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-11-09",
       "missed": 1,

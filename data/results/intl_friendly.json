@@ -24,6 +24,28 @@
   {
     "competition": "intl_friendly",
     "cls": "cup",
+    "home": "立陶宛",
+    "away": "苏里南",
+    "home_goals": 0,
+    "away_goals": 0,
+    "date": "2026-11-12",
+    "handicap_line": -0.25,
+    "total_line": 2.25
+  },
+  {
+    "competition": "intl_friendly",
+    "cls": "cup",
+    "home": "马耳他",
+    "away": "斯威士兰",
+    "home_goals": 1,
+    "away_goals": 1,
+    "date": "2026-11-12",
+    "handicap_line": -0.75,
+    "total_line": 2.25
+  },
+  {
+    "competition": "intl_friendly",
+    "cls": "cup",
     "home": "荷属圣马丁岛",
     "away": "安圭拉",
     "home_goals": 5,
