@@ -448,5 +448,35 @@
     "total_line": null,
     "over": null,
     "under": null
+  },
+  {
+    "fixture_key": "nba|philadelphia76ers|torontoraptors|2026-11-13",
+    "competition": "nba",
+    "home": "Philadelphia 76ers",
+    "away": "Toronto Raptors",
+    "kickoff": "2026-11-13T00:10:00Z",
+    "bookmaker": "pinnacle",
+    "ts": "2026-11-12T19:46:21.318852+00:00",
+    "handicap_line": -7.0,
+    "handicap_home": 1.92,
+    "handicap_away": 1.97,
+    "total_line": 223.5,
+    "over": 1.91,
+    "under": 1.96
+  },
+  {
+    "fixture_key": "nba|philadelphia76ers|torontoraptors|2026-11-13",
+    "competition": "nba",
+    "home": "Philadelphia 76ers",
+    "away": "Toronto Raptors",
+    "kickoff": "2026-11-13T00:10:00Z",
+    "bookmaker": "unibet",
+    "ts": "2026-11-12T19:46:21.318852+00:00",
+    "handicap_line": -7.5,
+    "handicap_home": 1.94,
+    "handicap_away": 1.87,
+    "total_line": null,
+    "over": null,
+    "under": null
   }
 ]
