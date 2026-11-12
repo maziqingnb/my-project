@@ -19,8 +19,15 @@ def _workers(cfg: dict) -> int:
     return int((cfg.get("sync") or {}).get("max_workers", 8))
 
 
-def sync_live_scores(cfg: dict, client_of, espn=None) -> dict:
+def sync_live_scores(cfg: dict, client_of, espn=None, leisu=None) -> dict:
+    """leisu: 预抓一次的雷速进行中比赛（dict[comp_key -> list[Fixture]]），无头浏览器
+    只跑一趟；有雷速数据的联赛优先用它（秒级），否则回退 ESPN，再回退 win007。"""
+    leisu_by_comp = leisu or {}
+
     def _one(comp):
+        live = leisu_by_comp.get(comp.key)
+        if live:
+            return comp, live
         # ESPN 实时比分（秒级）远快于 win007 移动版赛程页；足球优先用 ESPN，无数据/失败
         # 再回退 win007（篮球及 ESPN 未覆盖的联赛如亚冠二级/波甲仍走 win007）。
         if espn is not None and getattr(comp, "sport", "football") == "football":

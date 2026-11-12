@@ -27,8 +27,22 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
+      # 雷速体育（免 key、秒级比分）用无头浏览器抓取：装 node + puppeteer-core + Chromium。
+      # 若某步失败不中断整轮——Python 侧 fetch_live_matches 会自动回退 ESPN/win007。
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Install puppeteer-core
+        run: npm install --no-audit --no-fund || true
+
+      - name: Install Chromium for Leisu
+        run: sudo apt-get update && (sudo apt-get install -y chromium-browser || sudo apt-get install -y chromium) || true
+
       - name: Sync live scores & settle
         run: python src/main.py live
+        env:
+          LEISU_BROWSER: /usr/bin/chromium-browser
 
       - name: Commit live scores & reports
         run: |

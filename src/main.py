@@ -232,7 +232,19 @@ def main() -> None:
         from src.adapters.espn import EspnClient
         fixtures_of = _client_of(clients, "fixtures")
         espn = EspnClient()
-        sync_live_scores(cfg, fixtures_of, espn=espn)
+        # 雷速（无头浏览器）只跑一趟抓全部进行中比赛，按联赛分组；失败则空、自动回退 ESPN
+        leisu = None
+        if (cfg.get("sources") or {}).get("leisu"):
+            from src.adapters.leisu import fetch_live_matches
+            try:
+                leisu_list = fetch_live_matches(cfg)
+                leisu = {}
+                for f in leisu_list:
+                    leisu.setdefault(f.competition, []).append(f)
+                print(f"[雷速] 进行中 {len(leisu_list)} 场")
+            except Exception as exc:
+                print(f"[雷速] 跳过（{exc}）")
+        sync_live_scores(cfg, fixtures_of, espn=espn, leisu=leisu)
         schedules.sync_recent_results(cfg, fixtures_of, days_back=1, espn=espn)
         do_analyze(cfg)
     elif args.cmd == "review":
