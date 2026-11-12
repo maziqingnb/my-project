@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-12T05:10:47.429586+00:00",
+  "generated_at": "2026-11-12T05:51:29.717903+00:00",
   "scope": "16 个联赛 + 5 个杯赛",
   "note": "杯赛与联赛数据分开计算；仅开赛前 6h 内出推荐；命中率只统计强推",
   "total": 1,
@@ -314,7 +314,7 @@
       "line": -1.75,
       "reasons": [
         "亚盘 升盘 -1.5->-1.75（主队走强）",
-        "主队降水 0.97->0.77",
+        "主队降水 0.97->0.78",
         "主队近2场 1胜1平0负，场均进2.5/失1.0",
         "客队近3场 0胜1平2负，场均进0.7/失3.7",
         "交手0次：主队0胜0平0负",
@@ -322,16 +322,22 @@
       ],
       "signals": {
         "line_desc": "升盘 -1.5->-1.75（主队走强）",
-        "water_desc": "主队降水 0.97->0.77",
+        "water_desc": "主队降水 0.97->0.78",
         "line_first": -1.5,
         "line_last": -1.75,
         "home_water_first": 0.97,
-        "home_water_last": 0.77,
+        "home_water_last": 0.78,
         "away_water_first": 0.85,
-        "away_water_last": 1.05,
+        "away_water_last": 1.04,
         "conflict": false
       },
       "history": [
+        {
+          "ts": "2026-11-11T06:00:00+00:00",
+          "handicap_line": -1.5,
+          "handicap_home": 0.97,
+          "handicap_away": 0.85
+        },
         {
           "ts": "2026-11-11T06:00:00+00:00",
           "handicap_line": -1.5,
@@ -499,13 +505,19 @@
           "handicap_line": -1.75,
           "handicap_home": 0.77,
           "handicap_away": 1.05
+        },
+        {
+          "ts": "2026-11-12T05:51:26.771357+00:00",
+          "handicap_line": -1.75,
+          "handicap_home": 0.78,
+          "handicap_away": 1.04
         }
       ],
       "reliability": 0.85,
       "competition_name": "国家队友谊赛",
       "competition_class": "cup",
       "sport": "football",
-      "lead_hours": 1.1754836225,
+      "lead_hours": 0.14256351194444444,
       "prematch": true,
       "result": {
         "settled": false
