@@ -2,6 +2,17 @@
   {
     "competition": "intl_friendly",
     "cls": "cup",
+    "home": "新西兰",
+    "away": "印度",
+    "home_goals": 5,
+    "away_goals": 0,
+    "date": "2026-11-12",
+    "handicap_line": -1.5,
+    "total_line": 2.75
+  },
+  {
+    "competition": "intl_friendly",
+    "cls": "cup",
     "home": "荷属圣马丁岛",
     "away": "安圭拉",
     "home_goals": 5,
