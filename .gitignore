@@ -13,3 +13,6 @@ venv/
 data/app.db
 data/app.db-wal
 data/app.db-shm
+
+# Node（雷速无头浏览器抓取依赖），本地 npm install 生成，不入库
+node_modules/
