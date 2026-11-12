@@ -90,18 +90,29 @@ def sync_results(cfg: dict, client_of, days_back: int = 10, season_days: int = 9
         conn.close()
 
 
-def sync_recent_results(cfg: dict, client_of, days_back: int = 1) -> None:
+def sync_recent_results(cfg: dict, client_of, days_back: int = 1, espn=None) -> None:
     """只同步最近 N 天（含今天）结果并合并进结果库，不覆盖历史。
 
     供「进行中/实时结算」工作流高频调用：只抓少量页面，把今天刚完场的
     结果补进结果库，从而让推荐在赛果一出就结算命中。去重交给 SQLite UNIQUE。
+
+    win007 把「完场」状态标得比 ESPN 慢几分钟，故足球额外用 ESPN（18 联赛、只抓
+    近 2 天）先补一份——队名已映射到 win007 规范名，norm_team 后与推荐对齐，未映射
+    的次级联赛队名留英文（与 win007 中文并存、各归各，不影响已映射联赛的结算）。
     """
     def _one(comp):
+        results: list = []
         try:
-            return comp, client_of(comp).fetch_results(comp, days_back)
+            results = list(client_of(comp).fetch_results(comp, days_back))
         except Exception as exc:
-            print(f"[结果合并] {comp.name}: 跳过（{exc}）")
-            return comp, []
+            print(f"[结果合并] {comp.name}: win007 跳过（{exc}）")
+        if espn is not None and getattr(comp, "sport", "football") == "football":
+            try:
+                # 多抓 1 天覆盖 UTC 跨零点（南美/MLS 晚场）；用 live_leagues 覆盖全部 18 联赛
+                results.extend(espn.fetch_results(comp, days_back + 1, leagues=espn.live_leagues))
+            except Exception as exc:
+                print(f"[结果合并·ESPN] {comp.name}: 跳过（{exc}）")
+        return comp, results
 
     pairs = pmap(_one, cfg["competitions"], max_workers=_workers(cfg))
     conn = db.connect()

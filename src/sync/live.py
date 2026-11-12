@@ -19,8 +19,17 @@ def _workers(cfg: dict) -> int:
     return int((cfg.get("sync") or {}).get("max_workers", 8))
 
 
-def sync_live_scores(cfg: dict, client_of) -> dict:
+def sync_live_scores(cfg: dict, client_of, espn=None) -> dict:
     def _one(comp):
+        # ESPN 实时比分（秒级）远快于 win007 移动版赛程页；足球优先用 ESPN，无数据/失败
+        # 再回退 win007（篮球及 ESPN 未覆盖的联赛如亚冠二级/波甲仍走 win007）。
+        if espn is not None and getattr(comp, "sport", "football") == "football":
+            try:
+                live = espn.fetch_live(comp)
+                if live:
+                    return comp, live
+            except Exception as exc:
+                print(f"[进行中·ESPN] {comp.name}: 跳过（{exc}）")
         try:
             return comp, client_of(comp).fetch_live(comp)
         except Exception as exc:      # 单个联赛失败（如站点超时）不应中断整轮

@@ -229,9 +229,11 @@ def main() -> None:
         clients = make_clients(cfg, False)
         from src.sync.live import sync_live_scores
         from src.sync import schedules
+        from src.adapters.espn import EspnClient
         fixtures_of = _client_of(clients, "fixtures")
-        sync_live_scores(cfg, fixtures_of)
-        schedules.sync_recent_results(cfg, fixtures_of, days_back=1)
+        espn = EspnClient()
+        sync_live_scores(cfg, fixtures_of, espn=espn)
+        schedules.sync_recent_results(cfg, fixtures_of, days_back=1, espn=espn)
         do_analyze(cfg)
     elif args.cmd == "review":
         from src.output.review import build_daily_review

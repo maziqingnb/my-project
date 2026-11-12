@@ -23,7 +23,7 @@ from datetime import datetime, timedelta, timezone
 
 import requests
 
-from ..models import Competition, Fixture, Result, Lineup
+from ..models import Competition, Fixture, Result, Lineup, fixture_key
 from .base import FixturesClient
 
 _HEADERS = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"}
@@ -249,15 +249,69 @@ ESPN_TEAM_MAP = {
     "Yemen": "也门",
 }
 
+# 实时比分的联赛覆盖（比 ESPN_LEAGUES 更全）：ESPN 的 scoreboard 更新到秒级，远快于
+# win007 移动版赛程页（实测 win007 比分滞后数分钟，雷速 4-0 时它可能还 1-0）。这里把
+# 五大联赛 + 全部杯赛 + 次级联赛的 slug 都列上，只有 ESPN 没有的（亚冠二级、波甲）
+# 才回退 win007。波兰超（波甲）ESPN slug 已失效（HTTP 400），故不在此表。
+ESPN_LIVE_LEAGUES = {
+    "epl": "eng.1", "laliga": "esp.1", "seriea": "ita.1",
+    "bundesliga": "ger.1", "ligue1": "fra.1",
+    "ucl": "uefa.champions", "europa_league": "uefa.europa", "afc_cl": "afc.champions",
+    "intl_friendly": "fifa.friendly",
+    "primeira": "por.1", "rpl": "rus.1", "superlig": "tur.1",
+    "brasileirao": "bra.1", "argentina": "arg.1", "mls": "usa.1",
+    "greeksl": "gre.1", "denmark": "den.1", "sweden": "swe.1",
+}
+
+# ESPN 英文队名 -> config team_name_map 的英文规范名（即 win007 映射后的队名）。
+# 只列与 config 值写法不同的五大联赛球队；已在 ESPN_TEAM_MAP 里的（AS Roma、
+# Atlético Madrid、Internazionale、VfB Stuttgart、Stade Rennais、AFC Bournemouth、
+# Sporting CP）不重复。这样 ESPN 实时比分的队名能跟推荐（win007）对齐，settle 匹配得上。
+ESPN_LIVE_TEAM_MAP = {
+    # 英超
+    "Brighton & Hove Albion": "Brighton",
+    # 西甲
+    "Alavés": "Alaves", "Athletic Club": "Athletic Bilbao",
+    "Deportivo": "Deportivo La Coruna", "Málaga": "Malaga",
+    # 德甲
+    "1. FC Union Berlin": "Union Berlin", "Borussia Mönchengladbach": "Borussia Monchengladbach",
+    "FC Augsburg": "Augsburg", "FC Cologne": "FC Koln", "Hamburg SV": "Hamburger SV",
+    "SC Freiburg": "Freiburg", "SC Paderborn 07": "Paderborn",
+    "SV Elversberg": "Elversberg", "TSG Hoffenheim": "Hoffenheim",
+    # 法甲
+    "AJ Auxerre": "Auxerre", "AS Monaco": "Monaco", "Le Havre AC": "Le Havre",
+}
+
 _FINISHED = {"STATUS_FULL_TIME", "STATUS_FINAL", "STATUS_POSTPONED"}
+
+
+def _norm_iso(iso: str) -> str:
+    """ESPN 日期形如 '2026-11-08T14:00Z' -> 统一成 win007 的秒级 '2026-11-08T14:00:00'，
+    便于 fixture_key 只用日期前缀就能对齐。"""
+    s = (iso or "").strip().replace("Z", "")
+    if len(s) == 16:            # YYYY-MM-DDTHH:MM -> 补秒
+        s += ":00"
+    return s
+
+
+def _espn_score(score) -> int | None:
+    """ESPN 比分可能是字符串 '2'、数字 2、或空/None（未开赛/未进球）。"""
+    if score is None or score == "":
+        return None
+    try:
+        return int(float(score))
+    except (ValueError, TypeError):
+        return None
 
 
 class EspnClient(FixturesClient):
     name = "espn"
 
-    def __init__(self, team_map: dict | None = None, leagues: dict | None = None):
-        self.team_map = team_map or ESPN_TEAM_MAP
+    def __init__(self, team_map: dict | None = None, leagues: dict | None = None,
+                 live_leagues: dict | None = None):
+        self.team_map = {**ESPN_TEAM_MAP, **ESPN_LIVE_TEAM_MAP, **(team_map or {})}
         self.leagues = leagues or ESPN_LEAGUES
+        self.live_leagues = live_leagues or ESPN_LIVE_LEAGUES
 
     def _scoreboard(self, slug: str, day: str) -> list[dict]:
         url = f"https://site.api.espn.com/apis/site/v2/sports/soccer/{slug}/scoreboard?dates={day}"
@@ -272,8 +326,10 @@ class EspnClient(FixturesClient):
     def _map(self, name: str) -> str:
         return self.team_map.get(name, name)
 
-    def fetch_results(self, comp: Competition, days_back: int) -> list[Result]:
-        slug = self.leagues.get(comp.key)
+    def fetch_results(self, comp: Competition, days_back: int, leagues: dict | None = None) -> list[Result]:
+        # leagues 允许调用方传入不同的联赛->slug 映射（如实时结算用 ESPN_LIVE_LEAGUES 覆盖
+        # 全部 18 联赛），默认仍用 ESPN_LEAGUES（只补 7m 覆盖不到的 7 个杯赛/南美/MLS）。
+        slug = (leagues or self.leagues).get(comp.key)
         if not slug:
             return []
         days = [(datetime.now(timezone.utc) - timedelta(days=i)).strftime("%Y%m%d")
@@ -318,7 +374,49 @@ class EspnClient(FixturesClient):
         return []
 
     def fetch_live(self, comp: Competition) -> list[Fixture]:
-        return []
+        """进行中的比赛（含实时比分），来自 ESPN scoreboard（秒级更新，快于 win007）。
+
+        抓「UTC 今天 + 昨天」两页：晚场跨零点（UTC 视角）仍进行中的场次会挂在昨天
+        那页。按 event id 去重。状态用 `status.type.state == "in"` 判定（pre=未开赛、
+        in=进行中、post=已结束），比按 name 白名单更稳（半场/暂停等都是 in）。
+        """
+        slug = self.live_leagues.get(comp.key)
+        if not slug:
+            return []
+        now = datetime.now(timezone.utc)
+        days = [(now - timedelta(days=i)).strftime("%Y%m%d") for i in range(2)]
+        seen: set[str] = set()
+        fixtures: list[Fixture] = []
+        for day in days:
+            for e in self._scoreboard(slug, day):
+                c = (e.get("competitions") or [{}])[0]
+                state = (c.get("status", {}).get("type", {}) or {}).get("state")
+                if state != "in":
+                    continue
+                eid = e.get("id")
+                if eid is not None and eid in seen:
+                    continue
+                if eid is not None:
+                    seen.add(eid)
+                home = away = None
+                hg = ag = None
+                for t in c.get("competitors", []):
+                    name = (t.get("team", {}) or {}).get("displayName") or ""
+                    if t.get("homeAway") == "home":
+                        home, hg = self._map(name), _espn_score(t.get("score"))
+                    else:
+                        away, ag = self._map(name), _espn_score(t.get("score"))
+                if not home or not away:
+                    continue
+                ko = _norm_iso(e.get("date") or "")
+                fixtures.append(Fixture(
+                    key=fixture_key(comp.key, home, away, ko),
+                    competition=comp.key, home=home, away=away,
+                    kickoff=ko, status="live",
+                    home_goals=hg, away_goals=ag,
+                ))
+        fixtures.sort(key=lambda f: f.kickoff)
+        return fixtures
 
     def fetch_lineup(self, comp: Competition, fixture: Fixture) -> Lineup | None:
         return None
