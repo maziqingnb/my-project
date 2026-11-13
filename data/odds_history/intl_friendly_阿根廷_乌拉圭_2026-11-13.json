@@ -471,6 +471,21 @@
     "away": "乌拉圭",
     "kickoff": "2026-11-13T23:00:00",
     "bookmaker": "crown",
+    "ts": "2026-11-12T23:00:00+00:00",
+    "handicap_line": -1.0,
+    "handicap_home": 0.97,
+    "handicap_away": 0.85,
+    "total_line": 2.5,
+    "over": 1.02,
+    "under": 0.78
+  },
+  {
+    "fixture_key": "intl_friendly|阿根廷|乌拉圭|2026-11-13",
+    "competition": "intl_friendly",
+    "home": "阿根廷",
+    "away": "乌拉圭",
+    "kickoff": "2026-11-13T23:00:00",
+    "bookmaker": "crown",
     "ts": "2026-11-12T23:33:53.913160+00:00",
     "handicap_line": -1.0,
     "handicap_home": 1.07,
@@ -718,5 +733,20 @@
     "total_line": 2.5,
     "over": 1.02,
     "under": 0.78
+  },
+  {
+    "fixture_key": "intl_friendly|阿根廷|乌拉圭|2026-11-13",
+    "competition": "intl_friendly",
+    "home": "阿根廷",
+    "away": "乌拉圭",
+    "kickoff": "2026-11-13T23:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-13T15:39:12.186247+00:00",
+    "handicap_line": -1.0,
+    "handicap_home": 1.02,
+    "handicap_away": 0.8,
+    "total_line": 2.5,
+    "over": 1.0,
+    "under": 0.8
   }
 ]
