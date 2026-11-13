@@ -2,6 +2,17 @@
   {
     "competition": "intl_friendly",
     "cls": "cup",
+    "home": "新加坡",
+    "away": "巴拉圭",
+    "home_goals": 1,
+    "away_goals": 4,
+    "date": "2026-11-13",
+    "handicap_line": 2.5,
+    "total_line": 3.5
+  },
+  {
+    "competition": "intl_friendly",
+    "cls": "cup",
     "home": "曼格雷联",
     "away": "汤加",
     "home_goals": 1,
