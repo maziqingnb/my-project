@@ -238,5 +238,35 @@
     "total_line": 3.0,
     "over": 1.05,
     "under": 0.82
+  },
+  {
+    "fixture_key": "brasileirao|沙佩科恩斯|瓦斯科达伽马|2026-11-14",
+    "competition": "brasileirao",
+    "home": "沙佩科恩斯",
+    "away": "瓦斯科达伽马",
+    "kickoff": "2026-11-14T23:30:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-13T23:30:00+00:00",
+    "handicap_line": 1.0,
+    "handicap_home": 0.86,
+    "handicap_away": 1.02,
+    "total_line": 3.0,
+    "over": 1.05,
+    "under": 0.82
+  },
+  {
+    "fixture_key": "brasileirao|沙佩科恩斯|瓦斯科达伽马|2026-11-14",
+    "competition": "brasileirao",
+    "home": "沙佩科恩斯",
+    "away": "瓦斯科达伽马",
+    "kickoff": "2026-11-14T23:30:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-13T23:31:58.220197+00:00",
+    "handicap_line": 1.25,
+    "handicap_home": 0.96,
+    "handicap_away": 0.92,
+    "total_line": 3.0,
+    "over": 1.0,
+    "under": 0.87
   }
 ]
