@@ -28,5 +28,20 @@
     "total_line": null,
     "over": null,
     "under": null
+  },
+  {
+    "fixture_key": "nba|orlandomagic|milwaukeebucks|2026-11-14",
+    "competition": "nba",
+    "home": "Orlando Magic",
+    "away": "Milwaukee Bucks",
+    "kickoff": "2026-11-14T00:10:00Z",
+    "bookmaker": "unibet",
+    "ts": "2026-11-13T00:46:57.176923+00:00",
+    "handicap_line": -8.5,
+    "handicap_home": 1.87,
+    "handicap_away": 1.94,
+    "total_line": null,
+    "over": null,
+    "under": null
   }
 ]

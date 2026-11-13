@@ -28,5 +28,20 @@
     "total_line": null,
     "over": null,
     "under": null
+  },
+  {
+    "fixture_key": "nba|miamiheat|clevelandcavaliers|2026-11-14",
+    "competition": "nba",
+    "home": "Miami Heat",
+    "away": "Cleveland Cavaliers",
+    "kickoff": "2026-11-14T01:10:00Z",
+    "bookmaker": "unibet",
+    "ts": "2026-11-13T00:46:57.176923+00:00",
+    "handicap_line": -1.5,
+    "handicap_home": 1.84,
+    "handicap_away": 1.98,
+    "total_line": null,
+    "over": null,
+    "under": null
   }
 ]
