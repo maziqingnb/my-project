@@ -24,12 +24,34 @@
   {
     "competition": "intl_friendly",
     "cls": "cup",
+    "home": "沙特阿拉伯",
+    "away": "韩国",
+    "home_goals": 3,
+    "away_goals": 2,
+    "date": "2026-11-13",
+    "handicap_line": null,
+    "total_line": null
+  },
+  {
+    "competition": "intl_friendly",
+    "cls": "cup",
     "home": "阿联酋",
     "away": "洪都拉斯",
     "home_goals": 3,
     "away_goals": 1,
     "date": "2026-11-13",
     "handicap_line": -0.25,
+    "total_line": 2.25
+  },
+  {
+    "competition": "intl_friendly",
+    "cls": "cup",
+    "home": "韩国",
+    "away": "沙特阿拉伯",
+    "home_goals": 2,
+    "away_goals": 3,
+    "date": "2026-11-13",
+    "handicap_line": -0.75,
     "total_line": 2.25
   },
   {
