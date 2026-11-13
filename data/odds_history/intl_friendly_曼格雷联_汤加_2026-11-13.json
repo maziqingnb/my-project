@@ -13,5 +13,20 @@
     "total_line": null,
     "over": null,
     "under": null
+  },
+  {
+    "fixture_key": "intl_friendly|曼格雷联|汤加|2026-11-13",
+    "competition": "intl_friendly",
+    "home": "曼格雷联",
+    "away": "汤加",
+    "kickoff": "2026-11-13T05:30:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-13T04:49:08.228637+00:00",
+    "handicap_line": null,
+    "handicap_home": null,
+    "handicap_away": null,
+    "total_line": null,
+    "over": null,
+    "under": null
   }
 ]

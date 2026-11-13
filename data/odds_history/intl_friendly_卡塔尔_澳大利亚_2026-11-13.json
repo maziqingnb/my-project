@@ -201,6 +201,21 @@
     "away": "澳大利亚",
     "kickoff": "2026-11-13T14:45:00",
     "bookmaker": "crown",
+    "ts": "2026-11-12T14:45:00+00:00",
+    "handicap_line": 0.25,
+    "handicap_home": 0.92,
+    "handicap_away": 0.9,
+    "total_line": 2.25,
+    "over": 0.9,
+    "under": 0.9
+  },
+  {
+    "fixture_key": "intl_friendly|卡塔尔|澳大利亚|2026-11-13",
+    "competition": "intl_friendly",
+    "home": "卡塔尔",
+    "away": "澳大利亚",
+    "kickoff": "2026-11-13T14:45:00",
+    "bookmaker": "crown",
     "ts": "2026-11-12T17:01:38.939905+00:00",
     "handicap_line": 0.25,
     "handicap_home": 1.02,
@@ -388,5 +403,20 @@
     "total_line": 2.25,
     "over": 0.88,
     "under": 0.92
+  },
+  {
+    "fixture_key": "intl_friendly|卡塔尔|澳大利亚|2026-11-13",
+    "competition": "intl_friendly",
+    "home": "卡塔尔",
+    "away": "澳大利亚",
+    "kickoff": "2026-11-13T14:45:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-13T04:49:10.923906+00:00",
+    "handicap_line": 0.25,
+    "handicap_home": 1.04,
+    "handicap_away": 0.78,
+    "total_line": 2.25,
+    "over": 0.9,
+    "under": 0.9
   }
 ]
