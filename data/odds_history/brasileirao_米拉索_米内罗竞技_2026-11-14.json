@@ -1,0 +1,32 @@
+[
+  {
+    "fixture_key": "brasileirao|米拉索|米内罗竞技|2026-11-14",
+    "competition": "brasileirao",
+    "home": "米拉索",
+    "away": "米内罗竞技",
+    "kickoff": "2026-11-14T21:30:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-13T16:44:37.353807+00:00",
+    "handicap_line": -0.5,
+    "handicap_home": 0.97,
+    "handicap_away": 0.91,
+    "total_line": 2.5,
+    "over": 0.88,
+    "under": 0.99
+  },
+  {
+    "fixture_key": "brasileirao|米拉索|米内罗竞技|2026-11-14",
+    "competition": "brasileirao",
+    "home": "米拉索",
+    "away": "米内罗竞技",
+    "kickoff": "2026-11-14T21:30:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-13T21:30:00+00:00",
+    "handicap_line": -0.5,
+    "handicap_home": 1.04,
+    "handicap_away": 0.84,
+    "total_line": 2.5,
+    "over": 0.88,
+    "under": 0.99
+  }
+]
