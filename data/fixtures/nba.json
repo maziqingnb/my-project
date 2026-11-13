@@ -1,25 +1,5 @@
 [
   {
-    "key": "nba|washingtonwizards|detroitpistons|2026-11-13",
-    "competition": "nba",
-    "home": "Washington Wizards",
-    "away": "Detroit Pistons",
-    "kickoff": "2026-11-13T00:00:00",
-    "status": "upcoming",
-    "home_goals": null,
-    "away_goals": null
-  },
-  {
-    "key": "nba|philadelphia76ers|torontoraptors|2026-11-13",
-    "competition": "nba",
-    "home": "Philadelphia 76ers",
-    "away": "Toronto Raptors",
-    "kickoff": "2026-11-13T00:00:00",
-    "status": "upcoming",
-    "home_goals": null,
-    "away_goals": null
-  },
-  {
     "key": "nba|minnesotatimberwolves|dallasmavericks|2026-11-13",
     "competition": "nba",
     "home": "Minnesota Timberwolves",

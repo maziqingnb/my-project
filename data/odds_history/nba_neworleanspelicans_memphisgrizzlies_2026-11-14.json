@@ -13,5 +13,20 @@
     "total_line": null,
     "over": null,
     "under": null
+  },
+  {
+    "fixture_key": "nba|neworleanspelicans|memphisgrizzlies|2026-11-14",
+    "competition": "nba",
+    "home": "New Orleans Pelicans",
+    "away": "Memphis Grizzlies",
+    "kickoff": "2026-11-14T01:10:00Z",
+    "bookmaker": "unibet",
+    "ts": "2026-11-13T00:39:30.385561+00:00",
+    "handicap_line": 3.5,
+    "handicap_home": 1.98,
+    "handicap_away": 1.82,
+    "total_line": null,
+    "over": null,
+    "under": null
   }
 ]

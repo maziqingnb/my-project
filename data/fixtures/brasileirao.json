@@ -78,5 +78,35 @@
     "status": "upcoming",
     "home_goals": null,
     "away_goals": null
+  },
+  {
+    "key": "brasileirao|瓦斯科达伽马|巴西国际|2026-11-19",
+    "competition": "brasileirao",
+    "home": "瓦斯科达伽马",
+    "away": "巴西国际",
+    "kickoff": "2026-11-19T22:30:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "brasileirao|维多利亚|布拉干蒂诺rb|2026-11-19",
+    "competition": "brasileirao",
+    "home": "维多利亚",
+    "away": "布拉干蒂诺RB",
+    "kickoff": "2026-11-19T22:30:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "brasileirao|圣保罗|弗鲁米嫩塞|2026-11-20",
+    "competition": "brasileirao",
+    "home": "圣保罗",
+    "away": "弗鲁米嫩塞",
+    "kickoff": "2026-11-20T00:30:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
   }
 ]
