@@ -2863,5 +2863,20 @@
     "total_line": null,
     "over": null,
     "under": null
+  },
+  {
+    "fixture_key": "nba|losangeleslakers|philadelphia76ers|2026-12-25",
+    "competition": "nba",
+    "home": "Los Angeles Lakers",
+    "away": "Philadelphia 76ers",
+    "kickoff": "2026-12-25T22:00:00Z",
+    "bookmaker": "unibet",
+    "ts": "2026-11-13T09:26:22.288965+00:00",
+    "handicap_line": -1.0,
+    "handicap_home": 1.91,
+    "handicap_away": 1.91,
+    "total_line": null,
+    "over": null,
+    "under": null
   }
 ]

@@ -1,0 +1,32 @@
+[
+  {
+    "fixture_key": "intl_friendly|佩特罗鲁|afc金属布佐|2026-11-13",
+    "competition": "intl_friendly",
+    "home": "佩特罗鲁",
+    "away": "AFC金属布佐",
+    "kickoff": "2026-11-13T10:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-12T10:00:00+00:00",
+    "handicap_line": -1.0,
+    "handicap_home": 0.98,
+    "handicap_away": 0.72,
+    "total_line": 2.5,
+    "over": 0.9,
+    "under": 0.8
+  },
+  {
+    "fixture_key": "intl_friendly|佩特罗鲁|afc金属布佐|2026-11-13",
+    "competition": "intl_friendly",
+    "home": "佩特罗鲁",
+    "away": "AFC金属布佐",
+    "kickoff": "2026-11-13T10:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-13T09:26:23.668856+00:00",
+    "handicap_line": -1.0,
+    "handicap_home": 0.97,
+    "handicap_away": 0.73,
+    "total_line": 2.5,
+    "over": 0.72,
+    "under": 0.98
+  }
+]
