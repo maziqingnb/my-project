@@ -2,6 +2,50 @@
   {
     "competition": "nba",
     "cls": "league",
+    "home": "Minnesota Timberwolves",
+    "away": "Dallas Mavericks",
+    "home_goals": 133,
+    "away_goals": 94,
+    "date": "2026-11-13",
+    "handicap_line": null,
+    "total_line": null
+  },
+  {
+    "competition": "nba",
+    "cls": "league",
+    "home": "Philadelphia 76ers",
+    "away": "Toronto Raptors",
+    "home_goals": 123,
+    "away_goals": 112,
+    "date": "2026-11-13",
+    "handicap_line": null,
+    "total_line": null
+  },
+  {
+    "competition": "nba",
+    "cls": "league",
+    "home": "Phoenix Suns",
+    "away": "Charlotte Hornets",
+    "home_goals": 101,
+    "away_goals": 96,
+    "date": "2026-11-13",
+    "handicap_line": null,
+    "total_line": null
+  },
+  {
+    "competition": "nba",
+    "cls": "league",
+    "home": "Washington Wizards",
+    "away": "Detroit Pistons",
+    "home_goals": 140,
+    "away_goals": 144,
+    "date": "2026-11-13",
+    "handicap_line": null,
+    "total_line": null
+  },
+  {
+    "competition": "nba",
+    "cls": "league",
     "home": "Chicago Bulls",
     "away": "San Antonio Spurs",
     "home_goals": 119,
