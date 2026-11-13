@@ -2,6 +2,17 @@
   {
     "competition": "intl_friendly",
     "cls": "cup",
+    "home": "曼格雷联",
+    "away": "汤加",
+    "home_goals": 1,
+    "away_goals": 1,
+    "date": "2026-11-13",
+    "handicap_line": null,
+    "total_line": null
+  },
+  {
+    "competition": "intl_friendly",
+    "cls": "cup",
     "home": "乌兹别克斯坦",
     "away": "俄罗斯",
     "home_goals": 2,
