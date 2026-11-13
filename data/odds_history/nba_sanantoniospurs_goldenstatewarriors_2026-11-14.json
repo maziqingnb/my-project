@@ -268,5 +268,35 @@
     "total_line": 220.5,
     "over": 1.92,
     "under": 1.95
+  },
+  {
+    "fixture_key": "nba|sanantoniospurs|goldenstatewarriors|2026-11-14",
+    "competition": "nba",
+    "home": "San Antonio Spurs",
+    "away": "Golden State Warriors",
+    "kickoff": "2026-11-14T02:40:00Z",
+    "bookmaker": "unibet",
+    "ts": "2026-11-13T11:24:55.013583+00:00",
+    "handicap_line": -12.5,
+    "handicap_home": 1.87,
+    "handicap_away": 1.94,
+    "total_line": null,
+    "over": null,
+    "under": null
+  },
+  {
+    "fixture_key": "nba|sanantoniospurs|goldenstatewarriors|2026-11-14",
+    "competition": "nba",
+    "home": "San Antonio Spurs",
+    "away": "Golden State Warriors",
+    "kickoff": "2026-11-14T02:40:00Z",
+    "bookmaker": "pinnacle",
+    "ts": "2026-11-13T11:24:55.013583+00:00",
+    "handicap_line": -12.5,
+    "handicap_home": 1.94,
+    "handicap_away": 1.94,
+    "total_line": 220.5,
+    "over": 1.97,
+    "under": 1.89
   }
 ]
