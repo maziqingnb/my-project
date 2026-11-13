@@ -1,1 +1,12 @@
-[]
+[
+  {
+    "key": "ligue1|troyes|lehavre|2026-11-20",
+    "competition": "ligue1",
+    "home": "Troyes",
+    "away": "Le Havre",
+    "kickoff": "2026-11-20T19:45:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  }
+]

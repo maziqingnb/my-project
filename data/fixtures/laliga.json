@@ -1,1 +1,12 @@
-[]
+[
+  {
+    "key": "laliga|athleticbilbao|espanyol|2026-11-20",
+    "competition": "laliga",
+    "home": "Athletic Bilbao",
+    "away": "Espanyol",
+    "kickoff": "2026-11-20T20:00:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  }
+]

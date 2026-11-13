@@ -1,1 +1,12 @@
-[]
+[
+  {
+    "key": "argentina|萨斯菲尔德|贝尔格拉诺|2026-11-20",
+    "competition": "argentina",
+    "home": "萨斯菲尔德",
+    "away": "贝尔格拉诺",
+    "kickoff": "2026-11-20T23:00:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  }
+]

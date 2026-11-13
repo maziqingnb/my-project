@@ -1,1 +1,12 @@
-[]
+[
+  {
+    "key": "bundesliga|bayernmunich|fckoln|2026-11-20",
+    "competition": "bundesliga",
+    "home": "Bayern Munich",
+    "away": "FC Koln",
+    "kickoff": "2026-11-20T19:30:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  }
+]

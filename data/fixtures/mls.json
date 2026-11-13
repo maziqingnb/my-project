@@ -8,5 +8,15 @@
     "status": "upcoming",
     "home_goals": null,
     "away_goals": null
+  },
+  {
+    "key": "mls|西雅图海湾人|皇家盐湖城|2026-11-20",
+    "competition": "mls",
+    "home": "西雅图海湾人",
+    "away": "皇家盐湖城",
+    "kickoff": "2026-11-20T03:00:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
   }
 ]

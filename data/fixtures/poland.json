@@ -1,1 +1,22 @@
-[]
+[
+  {
+    "key": "poland|皮亚斯特|哥罗纳|2026-11-20",
+    "competition": "poland",
+    "home": "皮亚斯特",
+    "away": "哥罗纳",
+    "kickoff": "2026-11-20T17:00:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "poland|什切青|史拉斯科|2026-11-20",
+    "competition": "poland",
+    "home": "什切青",
+    "away": "史拉斯科",
+    "kickoff": "2026-11-20T19:30:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  }
+]

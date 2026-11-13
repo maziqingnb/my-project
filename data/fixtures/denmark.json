@@ -1,1 +1,12 @@
-[]
+[
+  {
+    "key": "denmark|奥胡斯|利恩比|2026-11-20",
+    "competition": "denmark",
+    "home": "奥胡斯",
+    "away": "利恩比",
+    "kickoff": "2026-11-20T18:00:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  }
+]
