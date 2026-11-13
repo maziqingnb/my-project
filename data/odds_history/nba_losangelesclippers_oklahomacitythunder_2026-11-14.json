@@ -328,5 +328,35 @@
     "total_line": 222.5,
     "over": 1.93,
     "under": 1.93
+  },
+  {
+    "fixture_key": "nba|losangelesclippers|oklahomacitythunder|2026-11-14",
+    "competition": "nba",
+    "home": "Los Angeles Clippers",
+    "away": "Oklahoma City Thunder",
+    "kickoff": "2026-11-14T03:40:00Z",
+    "bookmaker": "unibet",
+    "ts": "2026-11-13T12:52:19.479031+00:00",
+    "handicap_line": 7.5,
+    "handicap_home": 1.84,
+    "handicap_away": 1.97,
+    "total_line": null,
+    "over": null,
+    "under": null
+  },
+  {
+    "fixture_key": "nba|losangelesclippers|oklahomacitythunder|2026-11-14",
+    "competition": "nba",
+    "home": "Los Angeles Clippers",
+    "away": "Oklahoma City Thunder",
+    "kickoff": "2026-11-14T03:40:00Z",
+    "bookmaker": "pinnacle",
+    "ts": "2026-11-13T12:52:19.479031+00:00",
+    "handicap_line": 7.0,
+    "handicap_home": 1.87,
+    "handicap_away": 2.03,
+    "total_line": 222.5,
+    "over": 1.93,
+    "under": 1.93
   }
 ]

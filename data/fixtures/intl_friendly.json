@@ -1,15 +1,5 @@
 [
   {
-    "key": "intl_friendly|新加坡|巴拉圭|2026-11-13",
-    "competition": "intl_friendly",
-    "home": "新加坡",
-    "away": "巴拉圭",
-    "kickoff": "2026-11-13T12:00:00",
-    "status": "upcoming",
-    "home_goals": null,
-    "away_goals": null
-  },
-  {
     "key": "intl_friendly|科威特|叙利亚|2026-11-13",
     "competition": "intl_friendly",
     "home": "科威特",
@@ -60,16 +50,6 @@
     "away_goals": null
   },
   {
-    "key": "intl_friendly|约旦|印度尼西亚|2026-11-13",
-    "competition": "intl_friendly",
-    "home": "约旦",
-    "away": "印度尼西亚",
-    "kickoff": "2026-11-13T18:00:00",
-    "status": "upcoming",
-    "home_goals": null,
-    "away_goals": null
-  },
-  {
     "key": "intl_friendly|阿根廷|乌拉圭|2026-11-13",
     "competition": "intl_friendly",
     "home": "阿根廷",
@@ -114,7 +94,7 @@
     "competition": "intl_friendly",
     "home": "塔希提群岛",
     "away": "库克群岛",
-    "kickoff": "2026-11-14T05:30:00",
+    "kickoff": "2026-11-14T04:00:00",
     "status": "upcoming",
     "home_goals": null,
     "away_goals": null

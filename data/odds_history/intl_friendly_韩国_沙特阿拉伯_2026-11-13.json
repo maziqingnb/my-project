@@ -321,6 +321,21 @@
     "away": "沙特阿拉伯",
     "kickoff": "2026-11-13T14:30:00",
     "bookmaker": "crown",
+    "ts": "2026-11-12T14:30:00+00:00",
+    "handicap_line": -0.75,
+    "handicap_home": 0.94,
+    "handicap_away": 0.88,
+    "total_line": 2.25,
+    "over": 0.84,
+    "under": 0.96
+  },
+  {
+    "fixture_key": "intl_friendly|韩国|沙特阿拉伯|2026-11-13",
+    "competition": "intl_friendly",
+    "home": "韩国",
+    "away": "沙特阿拉伯",
+    "kickoff": "2026-11-13T14:30:00",
+    "bookmaker": "crown",
     "ts": "2026-11-12T17:01:38.221877+00:00",
     "handicap_line": -0.5,
     "handicap_home": 0.84,
@@ -628,5 +643,20 @@
     "total_line": 2.25,
     "over": 0.9,
     "under": 0.9
+  },
+  {
+    "fixture_key": "intl_friendly|韩国|沙特阿拉伯|2026-11-13",
+    "competition": "intl_friendly",
+    "home": "韩国",
+    "away": "沙特阿拉伯",
+    "kickoff": "2026-11-13T14:30:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-13T12:52:22.494060+00:00",
+    "handicap_line": -0.75,
+    "handicap_home": 1.02,
+    "handicap_away": 0.8,
+    "total_line": 2.25,
+    "over": 0.93,
+    "under": 0.87
   }
 ]

@@ -471,6 +471,21 @@
     "away": "玻利维亚",
     "kickoff": "2026-11-14T01:00:00",
     "bookmaker": "crown",
+    "ts": "2026-11-13T01:00:00+00:00",
+    "handicap_line": -1.0,
+    "handicap_home": 1.04,
+    "handicap_away": 0.78,
+    "total_line": 2.25,
+    "over": 0.81,
+    "under": 0.99
+  },
+  {
+    "fixture_key": "intl_friendly|秘鲁|玻利维亚|2026-11-14",
+    "competition": "intl_friendly",
+    "home": "秘鲁",
+    "away": "玻利维亚",
+    "kickoff": "2026-11-14T01:00:00",
+    "bookmaker": "crown",
     "ts": "2026-11-13T01:57:41.610004+00:00",
     "handicap_line": -1.0,
     "handicap_home": 0.91,
@@ -628,5 +643,20 @@
     "total_line": 2.25,
     "over": 0.81,
     "under": 0.99
+  },
+  {
+    "fixture_key": "intl_friendly|秘鲁|玻利维亚|2026-11-14",
+    "competition": "intl_friendly",
+    "home": "秘鲁",
+    "away": "玻利维亚",
+    "kickoff": "2026-11-14T01:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-13T12:52:29.888223+00:00",
+    "handicap_line": -1.0,
+    "handicap_home": 0.94,
+    "handicap_away": 0.88,
+    "total_line": 2.25,
+    "over": 0.8,
+    "under": 1.0
   }
 ]

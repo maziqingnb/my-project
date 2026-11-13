@@ -1,16 +1,6 @@
 {
-  "generated_at": "2026-11-13T06:56:11.348331+00:00",
+  "generated_at": "2026-11-13T12:51:36.653378+00:00",
   "matches": [
-    {
-      "fixture_key": "intl_friendly|新加坡|巴拉圭|2026-11-13",
-      "competition": "intl_friendly",
-      "competition_name": "国家队友谊赛",
-      "competition_class": "cup",
-      "sport": "football",
-      "home": "新加坡",
-      "away": "巴拉圭",
-      "kickoff": "2026-11-13T12:00:00"
-    },
     {
       "fixture_key": "intl_friendly|科威特|叙利亚|2026-11-13",
       "competition": "intl_friendly",
@@ -62,16 +52,6 @@
       "kickoff": "2026-11-13T15:00:00"
     },
     {
-      "fixture_key": "intl_friendly|约旦|印度尼西亚|2026-11-13",
-      "competition": "intl_friendly",
-      "competition_name": "国家队友谊赛",
-      "competition_class": "cup",
-      "sport": "football",
-      "home": "约旦",
-      "away": "印度尼西亚",
-      "kickoff": "2026-11-13T18:00:00"
-    },
-    {
       "fixture_key": "intl_friendly|阿根廷|乌拉圭|2026-11-13",
       "competition": "intl_friendly",
       "competition_name": "国家队友谊赛",
@@ -119,7 +99,7 @@
       "sport": "football",
       "home": "塔希提群岛",
       "away": "库克群岛",
-      "kickoff": "2026-11-14T05:30:00"
+      "kickoff": "2026-11-14T04:00:00"
     },
     {
       "fixture_key": "intl_friendly|巴林|也门|2026-11-14",
