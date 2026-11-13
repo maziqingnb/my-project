@@ -43,5 +43,20 @@
     "total_line": null,
     "over": null,
     "under": null
+  },
+  {
+    "fixture_key": "intl_friendly|巴斯克|委内瑞拉|2026-11-14",
+    "competition": "intl_friendly",
+    "home": "巴斯克",
+    "away": "委内瑞拉",
+    "kickoff": "2026-11-14T19:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-13T18:40:45.936479+00:00",
+    "handicap_line": null,
+    "handicap_home": null,
+    "handicap_away": null,
+    "total_line": null,
+    "over": null,
+    "under": null
   }
 ]
