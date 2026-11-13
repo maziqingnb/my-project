@@ -43,5 +43,20 @@
     "total_line": null,
     "over": null,
     "under": null
+  },
+  {
+    "fixture_key": "intl_friendly|中国台湾|吉尔吉斯斯坦|2026-11-13",
+    "competition": "intl_friendly",
+    "home": "中国台湾",
+    "away": "吉尔吉斯斯坦",
+    "kickoff": "2026-11-13T12:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-13T05:50:57.994310+00:00",
+    "handicap_line": null,
+    "handicap_home": null,
+    "handicap_away": null,
+    "total_line": null,
+    "over": null,
+    "under": null
   }
 ]
