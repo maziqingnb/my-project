@@ -46,6 +46,17 @@
   {
     "competition": "intl_friendly",
     "cls": "cup",
+    "home": "日本",
+    "away": "巴西",
+    "home_goals": 3,
+    "away_goals": 2,
+    "date": "2026-11-14",
+    "handicap_line": 0.5,
+    "total_line": 2.75
+  },
+  {
+    "competition": "intl_friendly",
+    "cls": "cup",
     "home": "秘鲁",
     "away": "玻利维亚",
     "home_goals": 2,
