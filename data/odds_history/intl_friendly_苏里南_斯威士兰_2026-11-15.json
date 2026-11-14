@@ -21,6 +21,21 @@
     "away": "斯威士兰",
     "kickoff": "2026-11-15T17:00:00",
     "bookmaker": "crown",
+    "ts": "2026-11-14T17:00:00+00:00",
+    "handicap_line": -1.25,
+    "handicap_home": 0.84,
+    "handicap_away": 0.98,
+    "total_line": 2.5,
+    "over": 0.82,
+    "under": 0.98
+  },
+  {
+    "fixture_key": "intl_friendly|苏里南|斯威士兰|2026-11-15",
+    "competition": "intl_friendly",
+    "home": "苏里南",
+    "away": "斯威士兰",
+    "kickoff": "2026-11-15T17:00:00",
+    "bookmaker": "crown",
     "ts": "2026-11-14T17:06:37.838054+00:00",
     "handicap_line": null,
     "handicap_home": null,
@@ -118,5 +133,20 @@
     "total_line": null,
     "over": null,
     "under": null
+  },
+  {
+    "fixture_key": "intl_friendly|苏里南|斯威士兰|2026-11-15",
+    "competition": "intl_friendly",
+    "home": "苏里南",
+    "away": "斯威士兰",
+    "kickoff": "2026-11-15T17:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-14T23:02:18.219136+00:00",
+    "handicap_line": -1.25,
+    "handicap_home": 0.84,
+    "handicap_away": 0.98,
+    "total_line": 2.5,
+    "over": 0.82,
+    "under": 0.98
   }
 ]
