@@ -1,36 +1,6 @@
 {
-  "generated_at": "2026-11-14T06:41:26.671525+00:00",
+  "generated_at": "2026-11-14T12:29:17.175043+00:00",
   "matches": [
-    {
-      "fixture_key": "intl_friendly|日本|巴西|2026-11-14",
-      "competition": "intl_friendly",
-      "competition_name": "国家队友谊赛",
-      "competition_class": "cup",
-      "sport": "football",
-      "home": "日本",
-      "away": "巴西",
-      "kickoff": "2026-11-14T10:15:00"
-    },
-    {
-      "fixture_key": "intl_friendly|中国|马来西亚|2026-11-14",
-      "competition": "intl_friendly",
-      "competition_name": "国家队友谊赛",
-      "competition_class": "cup",
-      "sport": "football",
-      "home": "中国",
-      "away": "马来西亚",
-      "kickoff": "2026-11-14T12:00:00"
-    },
-    {
-      "fixture_key": "intl_friendly|中国台湾|吉尔吉斯斯坦|2026-11-14",
-      "competition": "intl_friendly",
-      "competition_name": "国家队友谊赛",
-      "competition_class": "cup",
-      "sport": "football",
-      "home": "中国台湾",
-      "away": "吉尔吉斯斯坦",
-      "kickoff": "2026-11-14T12:00:00"
-    },
     {
       "fixture_key": "intl_friendly|巴勒斯坦|伊朗|2026-11-14",
       "competition": "intl_friendly",
@@ -40,6 +10,16 @@
       "home": "巴勒斯坦",
       "away": "伊朗",
       "kickoff": "2026-11-14T15:00:00"
+    },
+    {
+      "fixture_key": "intl_friendly|巴斯克|委内瑞拉|2026-11-14",
+      "competition": "intl_friendly",
+      "competition_name": "国家队友谊赛",
+      "competition_class": "cup",
+      "sport": "football",
+      "home": "巴斯克",
+      "away": "委内瑞拉",
+      "kickoff": "2026-11-14T19:00:00"
     },
     {
       "fixture_key": "brasileirao|米拉索|米内罗竞技|2026-11-14",
@@ -342,13 +322,13 @@
       "kickoff": "2026-11-17T12:00:00"
     },
     {
-      "fixture_key": "intl_friendly|吉尔吉斯斯坦|越南|2026-11-17",
+      "fixture_key": "intl_friendly|越南|吉尔吉斯斯坦|2026-11-17",
       "competition": "intl_friendly",
       "competition_name": "国家队友谊赛",
       "competition_class": "cup",
       "sport": "football",
-      "home": "吉尔吉斯斯坦",
-      "away": "越南",
+      "home": "越南",
+      "away": "吉尔吉斯斯坦",
       "kickoff": "2026-11-17T12:00:00"
     },
     {
@@ -372,13 +352,13 @@
       "kickoff": "2026-11-17T13:10:00"
     },
     {
-      "fixture_key": "intl_friendly|韩国|卡塔尔|2026-11-17",
+      "fixture_key": "intl_friendly|卡塔尔|韩国|2026-11-17",
       "competition": "intl_friendly",
       "competition_name": "国家队友谊赛",
       "competition_class": "cup",
       "sport": "football",
-      "home": "韩国",
-      "away": "卡塔尔",
+      "home": "卡塔尔",
+      "away": "韩国",
       "kickoff": "2026-11-17T14:00:00"
     },
     {
@@ -530,6 +510,16 @@
       "home": "Los Angeles Lakers",
       "away": "Charlotte Hornets",
       "kickoff": "2026-11-18T04:00:00"
+    },
+    {
+      "fixture_key": "intl_friendly|西斯普林斯|汤加|2026-11-18",
+      "competition": "intl_friendly",
+      "competition_name": "国家队友谊赛",
+      "competition_class": "cup",
+      "sport": "football",
+      "home": "西斯普林斯",
+      "away": "汤加",
+      "kickoff": "2026-11-18T06:00:00"
     },
     {
       "fixture_key": "brasileirao|科里蒂巴|桑托斯|2026-11-18",
