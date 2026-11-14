@@ -103,5 +103,35 @@
     "total_line": 235.5,
     "over": 2.0,
     "under": 1.87
+  },
+  {
+    "fixture_key": "nba|neworleanspelicans|denvernuggets|2026-11-15",
+    "competition": "nba",
+    "home": "New Orleans Pelicans",
+    "away": "Denver Nuggets",
+    "kickoff": "2026-11-15T00:10:00Z",
+    "bookmaker": "unibet",
+    "ts": "2026-11-14T08:41:05.101326+00:00",
+    "handicap_line": 12.5,
+    "handicap_home": 1.84,
+    "handicap_away": 1.97,
+    "total_line": null,
+    "over": null,
+    "under": null
+  },
+  {
+    "fixture_key": "nba|neworleanspelicans|denvernuggets|2026-11-15",
+    "competition": "nba",
+    "home": "New Orleans Pelicans",
+    "away": "Denver Nuggets",
+    "kickoff": "2026-11-15T00:10:00Z",
+    "bookmaker": "pinnacle",
+    "ts": "2026-11-14T08:41:05.101326+00:00",
+    "handicap_line": 11.5,
+    "handicap_home": 2.02,
+    "handicap_away": 1.87,
+    "total_line": 234.5,
+    "over": 1.93,
+    "under": 1.93
   }
 ]
