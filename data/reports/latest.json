@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-14T23:35:41.965028+00:00",
+  "generated_at": "2026-11-14T23:59:05.299185+00:00",
   "scope": "16 个联赛 + 5 个杯赛",
   "note": "杯赛与联赛数据分开计算；仅开赛前 6h 内出推荐；命中率只统计强推",
   "total": 1,
@@ -302,7 +302,7 @@
       "line": 3.25,
       "reasons": [
         "大小球 升盘 2.75->3.25（看大）",
-        "大球升水 0.7->0.93",
+        "大球升水 0.7->0.87",
         "主队近3场场均总进球 4.0",
         "客队近4场场均总进球 4.5",
         "历史交锋大小球：1次大/0次小（均线 2.75）",
@@ -310,16 +310,22 @@
       ],
       "signals": {
         "line_desc": "升盘 2.75->3.25（看大）",
-        "over_desc": "大球升水 0.7->0.93",
+        "over_desc": "大球升水 0.7->0.87",
         "line_first": 2.75,
         "line_last": 3.25,
         "over_first": 0.7,
-        "over_last": 0.93,
+        "over_last": 0.87,
         "under_first": 1.0,
-        "under_last": 0.87,
+        "under_last": 0.93,
         "conflict": true
       },
       "history": [
+        {
+          "ts": "2026-11-14T03:00:00+00:00",
+          "total_line": 2.75,
+          "over": 0.7,
+          "under": 1.0
+        },
         {
           "ts": "2026-11-14T03:00:00+00:00",
           "total_line": 2.75,
@@ -427,13 +433,19 @@
           "total_line": 3.25,
           "over": 0.93,
           "under": 0.87
+        },
+        {
+          "ts": "2026-11-14T23:59:02.234185+00:00",
+          "total_line": 3.25,
+          "over": 0.87,
+          "under": 0.93
         }
       ],
       "reliability": 0.6,
       "competition_name": "国家队友谊赛",
       "competition_class": "cup",
       "sport": "football",
-      "lead_hours": 3.961606135833333,
+      "lead_hours": 3.0160460597222225,
       "prematch": false,
       "result": {
         "settled": false
