@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T23:27:50.603975+00:00",
+  "generated_at": "2026-11-14T00:10:42.614798+00:00",
   "matches": [
     {
       "fixture_key": "intl_friendly|阿根廷|乌拉圭|2026-11-13",
@@ -7,6 +7,26 @@
       "home": "阿根廷",
       "away": "乌拉圭",
       "kickoff": "2026-11-13T23:00:00",
+      "status": "live",
+      "home_goals": 0,
+      "away_goals": 0
+    },
+    {
+      "fixture_key": "intl_friendly|哥伦比亚|智利|2026-11-14",
+      "competition": "intl_friendly",
+      "home": "哥伦比亚",
+      "away": "智利",
+      "kickoff": "2026-11-14T00:00:00",
+      "status": "live",
+      "home_goals": 0,
+      "away_goals": 0
+    },
+    {
+      "fixture_key": "intl_friendly|厄瓜多尔|哥斯达黎加|2026-11-14",
+      "competition": "intl_friendly",
+      "home": "厄瓜多尔",
+      "away": "哥斯达黎加",
+      "kickoff": "2026-11-14T00:00:00",
       "status": "live",
       "home_goals": 0,
       "away_goals": 0
