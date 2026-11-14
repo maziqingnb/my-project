@@ -163,5 +163,20 @@
     "total_line": null,
     "over": null,
     "under": null
+  },
+  {
+    "fixture_key": "intl_friendly|塔希提群岛|库克群岛|2026-11-14",
+    "competition": "intl_friendly",
+    "home": "塔希提群岛",
+    "away": "库克群岛",
+    "kickoff": "2026-11-14T04:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-14T01:53:02.098434+00:00",
+    "handicap_line": null,
+    "handicap_home": null,
+    "handicap_away": null,
+    "total_line": null,
+    "over": null,
+    "under": null
   }
 ]
