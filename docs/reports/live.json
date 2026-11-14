@@ -1,4 +1,15 @@
 {
-  "generated_at": "2026-11-14T05:49:20.405680+00:00",
-  "matches": []
+  "generated_at": "2026-11-14T06:36:44.103537+00:00",
+  "matches": [
+    {
+      "fixture_key": "intl_friendly|巴林|也门|2026-11-14",
+      "competition": "intl_friendly",
+      "home": "巴林",
+      "away": "也门",
+      "kickoff": "2026-11-14T06:10:00",
+      "status": "live",
+      "home_goals": 0,
+      "away_goals": 1
+    }
+  ]
 }
