@@ -306,6 +306,21 @@
     "away": "巴西",
     "kickoff": "2026-11-14T10:15:00",
     "bookmaker": "crown",
+    "ts": "2026-11-13T10:15:00+00:00",
+    "handicap_line": 0.5,
+    "handicap_home": 0.98,
+    "handicap_away": 0.84,
+    "total_line": 2.75,
+    "over": 0.89,
+    "under": 0.91
+  },
+  {
+    "fixture_key": "intl_friendly|日本|巴西|2026-11-14",
+    "competition": "intl_friendly",
+    "home": "日本",
+    "away": "巴西",
+    "kickoff": "2026-11-14T10:15:00",
+    "bookmaker": "crown",
     "ts": "2026-11-13T16:44:43.510600+00:00",
     "handicap_line": 0.5,
     "handicap_home": 0.92,
@@ -598,5 +613,20 @@
     "total_line": 3.25,
     "over": 0.96,
     "under": 0.84
+  },
+  {
+    "fixture_key": "intl_friendly|日本|巴西|2026-11-14",
+    "competition": "intl_friendly",
+    "home": "日本",
+    "away": "巴西",
+    "kickoff": "2026-11-14T10:15:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-14T09:36:56.957392+00:00",
+    "handicap_line": 0.5,
+    "handicap_home": 0.88,
+    "handicap_away": 0.94,
+    "total_line": 3.25,
+    "over": 1.0,
+    "under": 0.8
   }
 ]
