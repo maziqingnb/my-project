@@ -1,4 +1,15 @@
 {
-  "generated_at": "2026-11-14T21:06:47.608859+00:00",
-  "matches": []
+  "generated_at": "2026-11-14T21:42:39.264043+00:00",
+  "matches": [
+    {
+      "fixture_key": "brasileirao|米拉索|米内罗竞技|2026-11-14",
+      "competition": "brasileirao",
+      "home": "米拉索",
+      "away": "米内罗竞技",
+      "kickoff": "2026-11-14T21:30:00",
+      "status": "live",
+      "home_goals": 0,
+      "away_goals": 0
+    }
+  ]
 }
