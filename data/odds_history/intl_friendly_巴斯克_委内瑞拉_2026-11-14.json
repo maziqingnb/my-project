@@ -66,6 +66,21 @@
     "away": "委内瑞拉",
     "kickoff": "2026-11-14T19:00:00",
     "bookmaker": "crown",
+    "ts": "2026-11-13T19:00:00+00:00",
+    "handicap_line": -1.0,
+    "handicap_home": 0.92,
+    "handicap_away": 0.78,
+    "total_line": 2.5,
+    "over": 0.78,
+    "under": 0.92
+  },
+  {
+    "fixture_key": "intl_friendly|巴斯克|委内瑞拉|2026-11-14",
+    "competition": "intl_friendly",
+    "home": "巴斯克",
+    "away": "委内瑞拉",
+    "kickoff": "2026-11-14T19:00:00",
+    "bookmaker": "crown",
     "ts": "2026-11-13T19:45:34.733014+00:00",
     "handicap_line": null,
     "handicap_home": null,
@@ -178,5 +193,20 @@
     "total_line": null,
     "over": null,
     "under": null
+  },
+  {
+    "fixture_key": "intl_friendly|巴斯克|委内瑞拉|2026-11-14",
+    "competition": "intl_friendly",
+    "home": "巴斯克",
+    "away": "委内瑞拉",
+    "kickoff": "2026-11-14T19:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-14T12:08:55.132747+00:00",
+    "handicap_line": -1.0,
+    "handicap_home": 0.9,
+    "handicap_away": 0.8,
+    "total_line": 2.5,
+    "over": 0.78,
+    "under": 0.92
   }
 ]
