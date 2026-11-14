@@ -853,5 +853,35 @@
     "total_line": 224.5,
     "over": 1.91,
     "under": 1.87
+  },
+  {
+    "fixture_key": "nba|sacramentokings|portlandtrailblazers|2026-11-14",
+    "competition": "nba",
+    "home": "Sacramento Kings",
+    "away": "Portland Trail Blazers",
+    "kickoff": "2026-11-14T03:11:00Z",
+    "bookmaker": "unibet",
+    "ts": "2026-11-14T04:43:02.289618+00:00",
+    "handicap_line": 12.5,
+    "handicap_home": 1.89,
+    "handicap_away": 1.84,
+    "total_line": null,
+    "over": null,
+    "under": null
+  },
+  {
+    "fixture_key": "nba|sacramentokings|portlandtrailblazers|2026-11-14",
+    "competition": "nba",
+    "home": "Sacramento Kings",
+    "away": "Portland Trail Blazers",
+    "kickoff": "2026-11-14T03:11:00Z",
+    "bookmaker": "pinnacle",
+    "ts": "2026-11-14T04:43:02.289618+00:00",
+    "handicap_line": 11.5,
+    "handicap_home": 1.92,
+    "handicap_away": 1.87,
+    "total_line": 233.0,
+    "over": 1.86,
+    "under": 1.92
   }
 ]
