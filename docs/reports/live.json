@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-14T19:08:02.422988+00:00",
+  "generated_at": "2026-11-14T19:50:28.011073+00:00",
   "matches": [
     {
       "fixture_key": "intl_friendly|巴斯克|委内瑞拉|2026-11-14",
@@ -8,7 +8,7 @@
       "away": "委内瑞拉",
       "kickoff": "2026-11-14T19:00:00",
       "status": "live",
-      "home_goals": 0,
+      "home_goals": 1,
       "away_goals": 0
     }
   ]
