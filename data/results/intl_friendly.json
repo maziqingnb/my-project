@@ -24,6 +24,28 @@
   {
     "competition": "intl_friendly",
     "cls": "cup",
+    "home": "塔希提群岛",
+    "away": "库克群岛",
+    "home_goals": 4,
+    "away_goals": 0,
+    "date": "2026-11-14",
+    "handicap_line": null,
+    "total_line": null
+  },
+  {
+    "competition": "intl_friendly",
+    "cls": "cup",
+    "home": "巴林",
+    "away": "也门",
+    "home_goals": 3,
+    "away_goals": 1,
+    "date": "2026-11-14",
+    "handicap_line": -0.75,
+    "total_line": 2.25
+  },
+  {
+    "competition": "intl_friendly",
+    "cls": "cup",
     "home": "秘鲁",
     "away": "玻利维亚",
     "home_goals": 2,
