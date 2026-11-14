@@ -1,4 +1,15 @@
 {
-  "generated_at": "2026-11-14T10:16:10.105665+00:00",
-  "matches": []
+  "generated_at": "2026-11-14T11:01:29.961573+00:00",
+  "matches": [
+    {
+      "fixture_key": "intl_friendly|日本|巴西|2026-11-14",
+      "competition": "intl_friendly",
+      "home": "日本",
+      "away": "巴西",
+      "kickoff": "2026-11-14T10:15:00",
+      "status": "live",
+      "home_goals": 2,
+      "away_goals": 1
+    }
+  ]
 }
