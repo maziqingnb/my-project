@@ -276,6 +276,21 @@
     "away": "吉尔吉斯斯坦",
     "kickoff": "2026-11-14T12:00:00",
     "bookmaker": "crown",
+    "ts": "2026-11-13T12:00:00+00:00",
+    "handicap_line": 2.0,
+    "handicap_home": 0.85,
+    "handicap_away": 0.97,
+    "total_line": 3.25,
+    "over": 0.95,
+    "under": 0.85
+  },
+  {
+    "fixture_key": "intl_friendly|中国台湾|吉尔吉斯斯坦|2026-11-14",
+    "competition": "intl_friendly",
+    "home": "中国台湾",
+    "away": "吉尔吉斯斯坦",
+    "kickoff": "2026-11-14T12:00:00",
+    "bookmaker": "crown",
     "ts": "2026-11-13T16:44:43.510638+00:00",
     "handicap_line": 2.0,
     "handicap_home": 0.92,
@@ -538,5 +553,20 @@
     "total_line": 3.25,
     "over": 0.88,
     "under": 0.92
+  },
+  {
+    "fixture_key": "intl_friendly|中国台湾|吉尔吉斯斯坦|2026-11-14",
+    "competition": "intl_friendly",
+    "home": "中国台湾",
+    "away": "吉尔吉斯斯坦",
+    "kickoff": "2026-11-14T12:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-14T07:52:19.231890+00:00",
+    "handicap_line": 2.25,
+    "handicap_home": 0.99,
+    "handicap_away": 0.83,
+    "total_line": 3.25,
+    "over": 0.82,
+    "under": 0.98
   }
 ]
