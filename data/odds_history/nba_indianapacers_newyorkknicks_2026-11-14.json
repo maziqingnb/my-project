@@ -853,5 +853,20 @@
     "total_line": 217.5,
     "over": 1.95,
     "under": 1.89
+  },
+  {
+    "fixture_key": "nba|indianapacers|newyorkknicks|2026-11-14",
+    "competition": "nba",
+    "home": "Indiana Pacers",
+    "away": "New York Knicks",
+    "kickoff": "2026-11-14T00:13:00Z",
+    "bookmaker": "pinnacle",
+    "ts": "2026-11-14T02:41:29.212965+00:00",
+    "handicap_line": -5.5,
+    "handicap_home": 1.9,
+    "handicap_away": 1.84,
+    "total_line": 224.5,
+    "over": 1.92,
+    "under": 1.81
   }
 ]

@@ -838,5 +838,35 @@
     "total_line": 241.0,
     "over": 1.88,
     "under": 1.91
+  },
+  {
+    "fixture_key": "nba|chicagobulls|atlantahawks|2026-11-14",
+    "competition": "nba",
+    "home": "Chicago Bulls",
+    "away": "Atlanta Hawks",
+    "kickoff": "2026-11-14T01:11:00Z",
+    "bookmaker": "unibet",
+    "ts": "2026-11-14T02:41:29.212965+00:00",
+    "handicap_line": 3.5,
+    "handicap_home": 1.8,
+    "handicap_away": 1.93,
+    "total_line": null,
+    "over": null,
+    "under": null
+  },
+  {
+    "fixture_key": "nba|chicagobulls|atlantahawks|2026-11-14",
+    "competition": "nba",
+    "home": "Chicago Bulls",
+    "away": "Atlanta Hawks",
+    "kickoff": "2026-11-14T01:11:00Z",
+    "bookmaker": "pinnacle",
+    "ts": "2026-11-14T02:41:29.212965+00:00",
+    "handicap_line": 4.0,
+    "handicap_home": 1.89,
+    "handicap_away": 1.96,
+    "total_line": 225.0,
+    "over": 1.91,
+    "under": 1.94
   }
 ]
