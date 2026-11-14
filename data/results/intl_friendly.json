@@ -2,6 +2,28 @@
   {
     "competition": "intl_friendly",
     "cls": "cup",
+    "home": "中国",
+    "away": "马来西亚",
+    "home_goals": 2,
+    "away_goals": 0,
+    "date": "2026-11-14",
+    "handicap_line": -1.0,
+    "total_line": 2.75
+  },
+  {
+    "competition": "intl_friendly",
+    "cls": "cup",
+    "home": "中国台湾",
+    "away": "吉尔吉斯斯坦",
+    "home_goals": 0,
+    "away_goals": 0,
+    "date": "2026-11-14",
+    "handicap_line": 2.0,
+    "total_line": 3.25
+  },
+  {
+    "competition": "intl_friendly",
+    "cls": "cup",
     "home": "厄瓜多尔",
     "away": "哥斯达黎加",
     "home_goals": 2,

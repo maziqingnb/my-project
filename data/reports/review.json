@@ -1,7 +1,54 @@
 {
-  "generated_at": "2026-11-14T13:24:06.565064+00:00",
-  "total_missed": 43,
+  "generated_at": "2026-11-14T14:14:18.156687+00:00",
+  "total_missed": 44,
   "days": [
+    {
+      "date": "2026-11-14",
+      "missed": 1,
+      "items": [
+        {
+          "competition": "intl_friendly",
+          "home": "中国台湾",
+          "away": "吉尔吉斯斯坦",
+          "kickoff": "2026-11-14T12:00:00",
+          "market": "handicap",
+          "sport": "football",
+          "pick": "客队（让 2.25）",
+          "side": "away",
+          "line": 2.25,
+          "score": 77.0,
+          "confidence": "strong",
+          "outcome": "loss",
+          "outcome_cn": "没中",
+          "home_goals": 0,
+          "away_goals": 0,
+          "book": "盘口 主受让2 → 主受让2.25，水位 主0.85/0.97 → 主0.97/0.85",
+          "diagnosis": [
+            "盘口 主受让2 → 主受让2.25，水位 主0.85/0.97 → 主0.97/0.85",
+            "最终 0-0，推荐侧相对盘口 -2.25 球（未打穿）"
+          ],
+          "note": "客队（让 2.25） · 最终 0-0（客队净胜 0），未打穿",
+          "signals": {
+            "line_desc": "降盘 2.0->2.25（主队走弱）",
+            "water_desc": "主队升水 0.85->0.97",
+            "line_first": 2.0,
+            "line_last": 2.25,
+            "home_water_first": 0.85,
+            "home_water_last": 0.97,
+            "away_water_first": 0.97,
+            "away_water_last": 0.85,
+            "conflict": false
+          },
+          "reasons": [
+            "亚盘 降盘 2.0->2.25（主队走弱）",
+            "主队升水 0.85->0.97",
+            "主队近1场 0胜0平1负，场均进0.0/失2.0",
+            "客队近2场 2胜0平0负，场均进4.0/失0.5",
+            "交手0次：主队0胜0平0负"
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-11-13",
       "missed": 1,
