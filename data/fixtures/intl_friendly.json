@@ -1,25 +1,5 @@
 [
   {
-    "key": "intl_friendly|塔希提群岛|库克群岛|2026-11-14",
-    "competition": "intl_friendly",
-    "home": "塔希提群岛",
-    "away": "库克群岛",
-    "kickoff": "2026-11-14T04:00:00",
-    "status": "upcoming",
-    "home_goals": null,
-    "away_goals": null
-  },
-  {
-    "key": "intl_friendly|巴林|也门|2026-11-14",
-    "competition": "intl_friendly",
-    "home": "巴林",
-    "away": "也门",
-    "kickoff": "2026-11-14T06:00:00",
-    "status": "upcoming",
-    "home_goals": null,
-    "away_goals": null
-  },
-  {
     "key": "intl_friendly|日本|巴西|2026-11-14",
     "competition": "intl_friendly",
     "home": "日本",
@@ -60,21 +40,21 @@
     "away_goals": null
   },
   {
-    "key": "intl_friendly|巴斯克|委内瑞拉|2026-11-14",
-    "competition": "intl_friendly",
-    "home": "巴斯克",
-    "away": "委内瑞拉",
-    "kickoff": "2026-11-14T19:00:00",
-    "status": "upcoming",
-    "home_goals": null,
-    "away_goals": null
-  },
-  {
     "key": "intl_friendly|新西兰|印度|2026-11-15",
     "competition": "intl_friendly",
     "home": "新西兰",
     "away": "印度",
     "kickoff": "2026-11-15T03:00:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "intl_friendly|苏里南|斯威士兰|2026-11-15",
+    "competition": "intl_friendly",
+    "home": "苏里南",
+    "away": "斯威士兰",
+    "kickoff": "2026-11-15T17:00:00",
     "status": "upcoming",
     "home_goals": null,
     "away_goals": null
