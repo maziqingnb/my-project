@@ -8,5 +8,45 @@
     "status": "upcoming",
     "home_goals": null,
     "away_goals": null
+  },
+  {
+    "key": "laliga|alaves|deportivolacoruna|2026-11-21",
+    "competition": "laliga",
+    "home": "Alaves",
+    "away": "Deportivo La Coruna",
+    "kickoff": "2026-11-21T13:00:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "laliga|rayovallecano|valencia|2026-11-21",
+    "competition": "laliga",
+    "home": "Rayo Vallecano",
+    "away": "Valencia",
+    "kickoff": "2026-11-21T15:15:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "laliga|sevilla|realbetis|2026-11-21",
+    "competition": "laliga",
+    "home": "Sevilla",
+    "away": "Real Betis",
+    "kickoff": "2026-11-21T17:30:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "laliga|realmadrid|celtavigo|2026-11-21",
+    "competition": "laliga",
+    "home": "Real Madrid",
+    "away": "Celta Vigo",
+    "kickoff": "2026-11-21T20:00:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
   }
 ]

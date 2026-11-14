@@ -8,5 +8,55 @@
     "status": "upcoming",
     "home_goals": null,
     "away_goals": null
+  },
+  {
+    "key": "ligue1|nice|parissaintgermain|2026-11-21",
+    "competition": "ligue1",
+    "home": "Nice",
+    "away": "Paris Saint-Germain",
+    "kickoff": "2026-11-21T16:15:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "ligue1|lens|toulouse|2026-11-21",
+    "competition": "ligue1",
+    "home": "Lens",
+    "away": "Toulouse",
+    "kickoff": "2026-11-21T19:45:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "ligue1|lille|lyon|2026-11-21",
+    "competition": "ligue1",
+    "home": "Lille",
+    "away": "Lyon",
+    "kickoff": "2026-11-21T19:45:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "ligue1|monaco|auxerre|2026-11-21",
+    "competition": "ligue1",
+    "home": "Monaco",
+    "away": "Auxerre",
+    "kickoff": "2026-11-21T19:45:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "ligue1|strasbourg|brest|2026-11-21",
+    "competition": "ligue1",
+    "home": "Strasbourg",
+    "away": "Brest",
+    "kickoff": "2026-11-21T19:45:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
   }
 ]

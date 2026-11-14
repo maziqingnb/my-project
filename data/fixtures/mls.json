@@ -18,5 +18,35 @@
     "status": "upcoming",
     "home_goals": null,
     "away_goals": null
+  },
+  {
+    "key": "mls|新英格兰革命|费城联合|2026-11-21",
+    "competition": "mls",
+    "home": "新英格兰革命",
+    "away": "费城联合",
+    "kickoff": "2026-11-21T19:00:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "mls|达拉斯fc|波特兰伐木者|2026-11-21",
+    "competition": "mls",
+    "home": "达拉斯FC",
+    "away": "波特兰伐木者",
+    "kickoff": "2026-11-21T21:00:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "mls|迈阿密国际|哥伦布机员|2026-11-21",
+    "competition": "mls",
+    "home": "迈阿密国际",
+    "away": "哥伦布机员",
+    "kickoff": "2026-11-21T23:00:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
   }
 ]

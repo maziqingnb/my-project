@@ -1,25 +1,5 @@
 [
   {
-    "key": "brasileirao|米拉索|米内罗竞技|2026-11-14",
-    "competition": "brasileirao",
-    "home": "米拉索",
-    "away": "米内罗竞技",
-    "kickoff": "2026-11-14T21:30:00",
-    "status": "upcoming",
-    "home_goals": null,
-    "away_goals": null
-  },
-  {
-    "key": "brasileirao|沙佩科恩斯|瓦斯科达伽马|2026-11-14",
-    "competition": "brasileirao",
-    "home": "沙佩科恩斯",
-    "away": "瓦斯科达伽马",
-    "kickoff": "2026-11-14T23:30:00",
-    "status": "upcoming",
-    "home_goals": null,
-    "away_goals": null
-  },
-  {
     "key": "brasileirao|科里蒂巴|桑托斯|2026-11-18",
     "competition": "brasileirao",
     "home": "科里蒂巴",
@@ -105,6 +85,36 @@
     "home": "圣保罗",
     "away": "弗鲁米嫩塞",
     "kickoff": "2026-11-20T00:30:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "brasileirao|帕尔梅拉斯|弗拉门戈|2026-11-21",
+    "competition": "brasileirao",
+    "home": "帕尔梅拉斯",
+    "away": "弗拉门戈",
+    "kickoff": "2026-11-21T19:30:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "brasileirao|巴伊亚|科里蒂巴|2026-11-21",
+    "competition": "brasileirao",
+    "home": "巴伊亚",
+    "away": "科里蒂巴",
+    "kickoff": "2026-11-21T20:30:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "brasileirao|沙佩科恩斯|克鲁塞罗|2026-11-22",
+    "competition": "brasileirao",
+    "home": "沙佩科恩斯",
+    "away": "克鲁塞罗",
+    "kickoff": "2026-11-22T00:00:00",
     "status": "upcoming",
     "home_goals": null,
     "away_goals": null

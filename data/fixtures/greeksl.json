@@ -1,1 +1,12 @@
-[]
+[
+  {
+    "key": "greeksl|卡拉玛达|aek雅典|2026-11-21",
+    "competition": "greeksl",
+    "home": "卡拉玛达",
+    "away": "AEK雅典",
+    "kickoff": "2026-11-21T17:30:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  }
+]

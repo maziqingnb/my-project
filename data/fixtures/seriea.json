@@ -1,1 +1,42 @@
-[]
+[
+  {
+    "key": "seriea|como|cagliari|2026-11-21",
+    "competition": "seriea",
+    "home": "Como",
+    "away": "Cagliari",
+    "kickoff": "2026-11-21T14:00:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "seriea|lazio|lecce|2026-11-21",
+    "competition": "seriea",
+    "home": "Lazio",
+    "away": "Lecce",
+    "kickoff": "2026-11-21T14:00:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "seriea|parma|roma|2026-11-21",
+    "competition": "seriea",
+    "home": "Parma",
+    "away": "Roma",
+    "kickoff": "2026-11-21T17:00:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "seriea|napoli|torino|2026-11-21",
+    "competition": "seriea",
+    "home": "Napoli",
+    "away": "Torino",
+    "kickoff": "2026-11-21T19:45:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  }
+]

@@ -1,1 +1,42 @@
-[]
+[
+  {
+    "key": "superlig|根克勒比利吉|加济安泰普大都会|2026-11-21",
+    "competition": "superlig",
+    "home": "根克勒比利吉",
+    "away": "加济安泰普大都会",
+    "kickoff": "2026-11-21T10:30:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "superlig|阿美德|里泽体育|2026-11-21",
+    "competition": "superlig",
+    "home": "阿美德",
+    "away": "里泽体育",
+    "kickoff": "2026-11-21T13:00:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "superlig|加拉塔萨雷|萨姆松体育|2026-11-21",
+    "competition": "superlig",
+    "home": "加拉塔萨雷",
+    "away": "萨姆松体育",
+    "kickoff": "2026-11-21T13:00:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "superlig|科贾埃利体育|费内巴切|2026-11-21",
+    "competition": "superlig",
+    "home": "科贾埃利体育",
+    "away": "费内巴切",
+    "kickoff": "2026-11-21T16:00:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  }
+]

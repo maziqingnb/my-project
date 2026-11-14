@@ -18,5 +18,35 @@
     "status": "upcoming",
     "home_goals": null,
     "away_goals": null
+  },
+  {
+    "key": "poland|克拉科维亚|比亚韦斯托克雅盖隆|2026-11-21",
+    "competition": "poland",
+    "home": "克拉科维亚",
+    "away": "比亚韦斯托克雅盖隆",
+    "kickoff": "2026-11-21T13:45:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "poland|卢宾扎格勒比|扎布热矿工|2026-11-21",
+    "competition": "poland",
+    "home": "卢宾扎格勒比",
+    "away": "扎布热矿工",
+    "kickoff": "2026-11-21T16:30:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "poland|拉多麦科|克拉科夫|2026-11-21",
+    "competition": "poland",
+    "home": "拉多麦科",
+    "away": "克拉科夫",
+    "kickoff": "2026-11-21T19:15:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
   }
 ]

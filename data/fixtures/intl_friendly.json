@@ -1,25 +1,5 @@
 [
   {
-    "key": "intl_friendly|巴勒斯坦|伊朗|2026-11-14",
-    "competition": "intl_friendly",
-    "home": "巴勒斯坦",
-    "away": "伊朗",
-    "kickoff": "2026-11-14T15:00:00",
-    "status": "upcoming",
-    "home_goals": null,
-    "away_goals": null
-  },
-  {
-    "key": "intl_friendly|巴斯克|委内瑞拉|2026-11-14",
-    "competition": "intl_friendly",
-    "home": "巴斯克",
-    "away": "委内瑞拉",
-    "kickoff": "2026-11-14T19:00:00",
-    "status": "upcoming",
-    "home_goals": null,
-    "away_goals": null
-  },
-  {
     "key": "intl_friendly|新西兰|印度|2026-11-15",
     "competition": "intl_friendly",
     "home": "新西兰",

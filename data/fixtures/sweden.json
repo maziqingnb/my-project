@@ -1,1 +1,32 @@
-[]
+[
+  {
+    "key": "sweden|索尔纳|代格福什|2026-11-21",
+    "competition": "sweden",
+    "home": "索尔纳",
+    "away": "代格福什",
+    "kickoff": "2026-11-21T14:00:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "sweden|米亚尔比|马尔默|2026-11-21",
+    "competition": "sweden",
+    "home": "米亚尔比",
+    "away": "马尔默",
+    "kickoff": "2026-11-21T14:00:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "sweden|哥德堡盖斯|瓦斯特拉斯|2026-11-21",
+    "competition": "sweden",
+    "home": "哥德堡盖斯",
+    "away": "瓦斯特拉斯",
+    "kickoff": "2026-11-21T16:30:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  }
+]
