@@ -43,5 +43,35 @@
     "total_line": 232.0,
     "over": 1.93,
     "under": 1.93
+  },
+  {
+    "fixture_key": "nba|clevelandcavaliers|dallasmavericks|2026-11-15",
+    "competition": "nba",
+    "home": "Cleveland Cavaliers",
+    "away": "Dallas Mavericks",
+    "kickoff": "2026-11-15T00:40:00Z",
+    "bookmaker": "unibet",
+    "ts": "2026-11-14T06:45:25.023053+00:00",
+    "handicap_line": -2.5,
+    "handicap_home": 1.93,
+    "handicap_away": 1.88,
+    "total_line": null,
+    "over": null,
+    "under": null
+  },
+  {
+    "fixture_key": "nba|clevelandcavaliers|dallasmavericks|2026-11-15",
+    "competition": "nba",
+    "home": "Cleveland Cavaliers",
+    "away": "Dallas Mavericks",
+    "kickoff": "2026-11-15T00:40:00Z",
+    "bookmaker": "pinnacle",
+    "ts": "2026-11-14T06:45:25.023053+00:00",
+    "handicap_line": -2.5,
+    "handicap_home": 1.98,
+    "handicap_away": 1.91,
+    "total_line": 232.0,
+    "over": 1.93,
+    "under": 1.93
   }
 ]
