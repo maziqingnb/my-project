@@ -1,0 +1,17 @@
+[
+  {
+    "fixture_key": "nba|clevelandcavaliers|dallasmavericks|2026-11-15",
+    "competition": "nba",
+    "home": "Cleveland Cavaliers",
+    "away": "Dallas Mavericks",
+    "kickoff": "2026-11-15T00:40:00Z",
+    "bookmaker": "unibet",
+    "ts": "2026-11-14T05:41:43.169081+00:00",
+    "handicap_line": -2.5,
+    "handicap_home": 1.93,
+    "handicap_away": 1.88,
+    "total_line": null,
+    "over": null,
+    "under": null
+  }
+]

@@ -1,0 +1,17 @@
+[
+  {
+    "fixture_key": "nba|minnesotatimberwolves|chicagobulls|2026-11-15",
+    "competition": "nba",
+    "home": "Minnesota Timberwolves",
+    "away": "Chicago Bulls",
+    "kickoff": "2026-11-15T01:10:00Z",
+    "bookmaker": "unibet",
+    "ts": "2026-11-14T05:41:43.169081+00:00",
+    "handicap_line": -13.5,
+    "handicap_home": 1.87,
+    "handicap_away": 1.93,
+    "total_line": null,
+    "over": null,
+    "under": null
+  }
+]
