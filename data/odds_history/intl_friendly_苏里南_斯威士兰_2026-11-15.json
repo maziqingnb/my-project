@@ -73,5 +73,20 @@
     "total_line": null,
     "over": null,
     "under": null
+  },
+  {
+    "fixture_key": "intl_friendly|苏里南|斯威士兰|2026-11-15",
+    "competition": "intl_friendly",
+    "home": "苏里南",
+    "away": "斯威士兰",
+    "kickoff": "2026-11-15T17:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-14T20:02:20.786729+00:00",
+    "handicap_line": null,
+    "handicap_home": null,
+    "handicap_away": null,
+    "total_line": null,
+    "over": null,
+    "under": null
   }
 ]
