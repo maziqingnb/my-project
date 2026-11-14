@@ -1,26 +1,6 @@
 {
-  "generated_at": "2026-11-13T18:37:52.424051+00:00",
+  "generated_at": "2026-11-14T00:32:45.088481+00:00",
   "matches": [
-    {
-      "fixture_key": "nba|indianapacers|newyorkknicks|2026-11-14",
-      "competition": "nba",
-      "competition_name": "NBA 美国职业篮球联赛",
-      "competition_class": "league",
-      "sport": "basketball",
-      "home": "Indiana Pacers",
-      "away": "New York Knicks",
-      "kickoff": "2026-11-14T00:00:00"
-    },
-    {
-      "fixture_key": "nba|orlandomagic|milwaukeebucks|2026-11-14",
-      "competition": "nba",
-      "competition_name": "NBA 美国职业篮球联赛",
-      "competition_class": "league",
-      "sport": "basketball",
-      "home": "Orlando Magic",
-      "away": "Milwaukee Bucks",
-      "kickoff": "2026-11-14T00:00:00"
-    },
     {
       "fixture_key": "nba|miamiheat|clevelandcavaliers|2026-11-14",
       "competition": "nba",
@@ -990,6 +970,46 @@
       "home": "萨斯菲尔德",
       "away": "贝尔格拉诺",
       "kickoff": "2026-11-20T23:00:00"
+    },
+    {
+      "fixture_key": "nba|atlantahawks|charlottehornets|2026-11-21",
+      "competition": "nba",
+      "competition_name": "NBA 美国职业篮球联赛",
+      "competition_class": "league",
+      "sport": "basketball",
+      "home": "Atlanta Hawks",
+      "away": "Charlotte Hornets",
+      "kickoff": "2026-11-21T00:00:00"
+    },
+    {
+      "fixture_key": "nba|brooklynnets|orlandomagic|2026-11-21",
+      "competition": "nba",
+      "competition_name": "NBA 美国职业篮球联赛",
+      "competition_class": "league",
+      "sport": "basketball",
+      "home": "Brooklyn Nets",
+      "away": "Orlando Magic",
+      "kickoff": "2026-11-21T00:30:00"
+    },
+    {
+      "fixture_key": "nba|clevelandcavaliers|indianapacers|2026-11-21",
+      "competition": "nba",
+      "competition_name": "NBA 美国职业篮球联赛",
+      "competition_class": "league",
+      "sport": "basketball",
+      "home": "Cleveland Cavaliers",
+      "away": "Indiana Pacers",
+      "kickoff": "2026-11-21T00:30:00"
+    },
+    {
+      "fixture_key": "nba|detroitpistons|torontoraptors|2026-11-21",
+      "competition": "nba",
+      "competition_name": "NBA 美国职业篮球联赛",
+      "competition_class": "league",
+      "sport": "basketball",
+      "home": "Detroit Pistons",
+      "away": "Toronto Raptors",
+      "kickoff": "2026-11-21T00:30:00"
     }
   ]
 }

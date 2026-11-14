@@ -763,5 +763,35 @@
     "total_line": 219.5,
     "over": 1.99,
     "under": 1.9
+  },
+  {
+    "fixture_key": "nba|indianapacers|newyorkknicks|2026-11-14",
+    "competition": "nba",
+    "home": "Indiana Pacers",
+    "away": "New York Knicks",
+    "kickoff": "2026-11-14T00:13:00Z",
+    "bookmaker": "unibet",
+    "ts": "2026-11-14T00:33:10.964670+00:00",
+    "handicap_line": 6.5,
+    "handicap_home": 1.89,
+    "handicap_away": 1.84,
+    "total_line": null,
+    "over": null,
+    "under": null
+  },
+  {
+    "fixture_key": "nba|indianapacers|newyorkknicks|2026-11-14",
+    "competition": "nba",
+    "home": "Indiana Pacers",
+    "away": "New York Knicks",
+    "kickoff": "2026-11-14T00:13:00Z",
+    "bookmaker": "pinnacle",
+    "ts": "2026-11-14T00:33:10.964670+00:00",
+    "handicap_line": 10.0,
+    "handicap_home": 1.88,
+    "handicap_away": 1.9,
+    "total_line": 226.0,
+    "over": 1.88,
+    "under": 1.91
   }
 ]
