@@ -13,6 +13,17 @@
   {
     "competition": "intl_friendly",
     "cls": "cup",
+    "home": "苏里南",
+    "away": "斯威士兰",
+    "home_goals": 4,
+    "away_goals": 0,
+    "date": "2026-11-15",
+    "handicap_line": -1.25,
+    "total_line": 2.5
+  },
+  {
+    "competition": "intl_friendly",
+    "cls": "cup",
     "home": "中国",
     "away": "马来西亚",
     "home_goals": 2,
