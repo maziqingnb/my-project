@@ -48,5 +48,35 @@
     "status": "upcoming",
     "home_goals": null,
     "away_goals": null
+  },
+  {
+    "key": "poland|琴斯托霍瓦|维德祖罗兹|2026-11-22",
+    "competition": "poland",
+    "home": "琴斯托霍瓦",
+    "away": "维德祖罗兹",
+    "kickoff": "2026-11-22T11:15:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "poland|gks卡托威斯|波兹南莱赫|2026-11-22",
+    "competition": "poland",
+    "home": "GKS卡托威斯",
+    "away": "波兹南莱赫",
+    "kickoff": "2026-11-22T13:45:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "poland|普沃茨克维斯瓦|华沙莱吉亚|2026-11-22",
+    "competition": "poland",
+    "home": "普沃茨克维斯瓦",
+    "away": "华沙莱吉亚",
+    "kickoff": "2026-11-22T16:30:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
   }
 ]

@@ -58,5 +58,35 @@
     "status": "upcoming",
     "home_goals": null,
     "away_goals": null
+  },
+  {
+    "key": "ligue1|parisfc|angers|2026-11-22",
+    "competition": "ligue1",
+    "home": "Paris FC",
+    "away": "Angers",
+    "kickoff": "2026-11-22T14:00:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "ligue1|lorient|rennes|2026-11-22",
+    "competition": "ligue1",
+    "home": "Lorient",
+    "away": "Rennes",
+    "kickoff": "2026-11-22T16:15:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "ligue1|marseille|lemans|2026-11-22",
+    "competition": "ligue1",
+    "home": "Marseille",
+    "away": "Le Mans",
+    "kickoff": "2026-11-22T19:45:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
   }
 ]

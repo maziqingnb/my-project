@@ -118,5 +118,35 @@
     "status": "upcoming",
     "home_goals": null,
     "away_goals": null
+  },
+  {
+    "key": "brasileirao|巴拉纳竞技|瑞模贝雷|2026-11-22",
+    "competition": "brasileirao",
+    "home": "巴拉纳竞技",
+    "away": "瑞模贝雷",
+    "kickoff": "2026-11-22T19:00:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "brasileirao|弗鲁米嫩塞|米拉索|2026-11-22",
+    "competition": "brasileirao",
+    "home": "弗鲁米嫩塞",
+    "away": "米拉索",
+    "kickoff": "2026-11-22T21:30:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "brasileirao|布拉干蒂诺rb|瓦斯科达伽马|2026-11-22",
+    "competition": "brasileirao",
+    "home": "布拉干蒂诺RB",
+    "away": "瓦斯科达伽马",
+    "kickoff": "2026-11-22T22:30:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
   }
 ]

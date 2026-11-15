@@ -28,5 +28,35 @@
     "status": "upcoming",
     "home_goals": null,
     "away_goals": null
+  },
+  {
+    "key": "sweden|赫根|埃尔夫斯堡|2026-11-22",
+    "competition": "sweden",
+    "home": "赫根",
+    "away": "埃尔夫斯堡",
+    "kickoff": "2026-11-22T13:00:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "sweden|天狼星|尤尔加登|2026-11-22",
+    "competition": "sweden",
+    "home": "天狼星",
+    "away": "尤尔加登",
+    "kickoff": "2026-11-22T13:00:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "sweden|布洛马波卡纳|哈尔姆斯塔德|2026-11-22",
+    "competition": "sweden",
+    "home": "布洛马波卡纳",
+    "away": "哈尔姆斯塔德",
+    "kickoff": "2026-11-22T15:30:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
   }
 ]

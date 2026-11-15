@@ -48,5 +48,15 @@
     "status": "upcoming",
     "home_goals": null,
     "away_goals": null
+  },
+  {
+    "key": "mls|芝加哥火焰|夏洛特fc|2026-11-22",
+    "competition": "mls",
+    "home": "芝加哥火焰",
+    "away": "夏洛特FC",
+    "kickoff": "2026-11-22T23:30:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
   }
 ]

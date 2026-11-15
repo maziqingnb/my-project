@@ -68,5 +68,25 @@
     "status": "upcoming",
     "home_goals": null,
     "away_goals": null
+  },
+  {
+    "key": "bundesliga|augsburg|mainz|2026-11-22",
+    "competition": "bundesliga",
+    "home": "Augsburg",
+    "away": "Mainz",
+    "kickoff": "2026-11-22T14:30:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "bundesliga|werderbremen|hamburgersv|2026-11-22",
+    "competition": "bundesliga",
+    "home": "Werder Bremen",
+    "away": "Hamburger SV",
+    "kickoff": "2026-11-22T16:30:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
   }
 ]

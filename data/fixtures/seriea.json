@@ -38,5 +38,55 @@
     "status": "upcoming",
     "home_goals": null,
     "away_goals": null
+  },
+  {
+    "key": "seriea|juventus|venezia|2026-11-22",
+    "competition": "seriea",
+    "home": "Juventus",
+    "away": "Venezia",
+    "kickoff": "2026-11-22T11:30:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "seriea|bologna|udinese|2026-11-22",
+    "competition": "seriea",
+    "home": "Bologna",
+    "away": "Udinese",
+    "kickoff": "2026-11-22T14:00:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "seriea|sassuolo|genoa|2026-11-22",
+    "competition": "seriea",
+    "home": "Sassuolo",
+    "away": "Genoa",
+    "kickoff": "2026-11-22T14:00:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "seriea|acmilan|frosinone|2026-11-22",
+    "competition": "seriea",
+    "home": "AC Milan",
+    "away": "Frosinone",
+    "kickoff": "2026-11-22T17:00:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "seriea|atalanta|intermilan|2026-11-22",
+    "competition": "seriea",
+    "home": "Atalanta",
+    "away": "Inter Milan",
+    "kickoff": "2026-11-22T19:45:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
   }
 ]

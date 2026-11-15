@@ -68,5 +68,25 @@
     "status": "upcoming",
     "home_goals": null,
     "away_goals": null
+  },
+  {
+    "key": "epl|hullcity|brighton|2026-11-22",
+    "competition": "epl",
+    "home": "Hull City",
+    "away": "Brighton",
+    "kickoff": "2026-11-22T14:00:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "epl|liverpool|manchesterunited|2026-11-22",
+    "competition": "epl",
+    "home": "Liverpool",
+    "away": "Manchester United",
+    "kickoff": "2026-11-22T16:30:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
   }
 ]

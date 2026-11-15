@@ -48,5 +48,45 @@
     "status": "upcoming",
     "home_goals": null,
     "away_goals": null
+  },
+  {
+    "key": "laliga|barcelona|villarreal|2026-11-22",
+    "competition": "laliga",
+    "home": "Barcelona",
+    "away": "Villarreal",
+    "kickoff": "2026-11-22T13:00:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "laliga|racingsantander|realsociedad|2026-11-22",
+    "competition": "laliga",
+    "home": "Racing Santander",
+    "away": "Real Sociedad",
+    "kickoff": "2026-11-22T15:15:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "laliga|osasuna|malaga|2026-11-22",
+    "competition": "laliga",
+    "home": "Osasuna",
+    "away": "Malaga",
+    "kickoff": "2026-11-22T17:30:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "laliga|getafe|atleticomadrid|2026-11-22",
+    "competition": "laliga",
+    "home": "Getafe",
+    "away": "Atletico Madrid",
+    "kickoff": "2026-11-22T20:00:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
   }
 ]

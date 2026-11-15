@@ -38,5 +38,45 @@
     "status": "upcoming",
     "home_goals": null,
     "away_goals": null
+  },
+  {
+    "key": "superlig|埃尔祖鲁姆体育|哥兹塔比|2026-11-22",
+    "competition": "superlig",
+    "home": "埃尔祖鲁姆体育",
+    "away": "哥兹塔比",
+    "kickoff": "2026-11-22T10:30:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "superlig|卡斯帕萨|阿拉尼亚体育|2026-11-22",
+    "competition": "superlig",
+    "home": "卡斯帕萨",
+    "away": "阿拉尼亚体育",
+    "kickoff": "2026-11-22T13:00:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "superlig|科尼亚体育|贝西克塔斯|2026-11-22",
+    "competition": "superlig",
+    "home": "科尼亚体育",
+    "away": "贝西克塔斯",
+    "kickoff": "2026-11-22T13:00:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "superlig|特拉布宗体育|埃于普体育|2026-11-22",
+    "competition": "superlig",
+    "home": "特拉布宗体育",
+    "away": "埃于普体育",
+    "kickoff": "2026-11-22T16:00:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
   }
 ]
