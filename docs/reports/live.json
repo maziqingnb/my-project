@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-15T03:20:33.289327+00:00",
+  "generated_at": "2026-11-15T04:21:24.527155+00:00",
   "matches": [
     {
       "fixture_key": "intl_friendly|新西兰|印度|2026-11-15",
@@ -8,7 +8,7 @@
       "away": "印度",
       "kickoff": "2026-11-15T03:00:00",
       "status": "live",
-      "home_goals": 0,
+      "home_goals": 3,
       "away_goals": 0
     }
   ]
