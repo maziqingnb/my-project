@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-15T00:32:36.273177+00:00",
+  "generated_at": "2026-11-15T00:57:43.252022+00:00",
   "scope": "16 个联赛 + 5 个杯赛",
   "note": "杯赛与联赛数据分开计算；仅开赛前 6h 内出推荐；命中率只统计强推",
   "total": 1,
@@ -387,6 +387,12 @@
           "under": 1.0
         },
         {
+          "ts": "2026-11-14T03:00:00+00:00",
+          "total_line": 2.75,
+          "over": 0.7,
+          "under": 1.0
+        },
+        {
           "ts": "2026-11-14T16:07:29.044506+00:00",
           "total_line": 3.25,
           "over": 0.88,
@@ -451,13 +457,19 @@
           "total_line": 3.25,
           "over": 0.87,
           "under": 0.93
+        },
+        {
+          "ts": "2026-11-15T00:57:40.630989+00:00",
+          "total_line": 3.25,
+          "over": 0.87,
+          "under": 0.93
         }
       ],
       "reliability": 0.6,
       "competition_name": "国家队友谊赛",
       "competition_class": "cup",
       "sport": "football",
-      "lead_hours": 2.4573998530555556,
+      "lead_hours": 2.0387136141666664,
       "prematch": false,
       "result": {
         "settled": false
