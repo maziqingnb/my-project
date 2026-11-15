@@ -40,6 +40,16 @@
     "away_goals": null
   },
   {
+    "key": "intl_friendly|文莱|阿曼|2026-11-17",
+    "competition": "intl_friendly",
+    "home": "文莱",
+    "away": "阿曼",
+    "kickoff": "2026-11-17T09:00:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
     "key": "intl_friendly|新加坡|巴西|2026-11-17",
     "competition": "intl_friendly",
     "home": "新加坡",
@@ -65,6 +75,16 @@
     "home": "越南",
     "away": "吉尔吉斯斯坦",
     "kickoff": "2026-11-17T12:00:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "intl_friendly|泰国|塔吉克斯坦|2026-11-17",
+    "competition": "intl_friendly",
+    "home": "泰国",
+    "away": "塔吉克斯坦",
+    "kickoff": "2026-11-17T12:30:00",
     "status": "upcoming",
     "home_goals": null,
     "away_goals": null
@@ -110,16 +130,6 @@
     "away_goals": null
   },
   {
-    "key": "intl_friendly|科威特|洪都拉斯|2026-11-17",
-    "competition": "intl_friendly",
-    "home": "科威特",
-    "away": "洪都拉斯",
-    "kickoff": "2026-11-17T15:00:00",
-    "status": "upcoming",
-    "home_goals": null,
-    "away_goals": null
-  },
-  {
     "key": "intl_friendly|沙特阿拉伯|乌兹别克斯坦|2026-11-17",
     "competition": "intl_friendly",
     "home": "沙特阿拉伯",
@@ -160,11 +170,21 @@
     "away_goals": null
   },
   {
+    "key": "intl_friendly|科威特|洪都拉斯|2026-11-17",
+    "competition": "intl_friendly",
+    "home": "科威特",
+    "away": "洪都拉斯",
+    "kickoff": "2026-11-17T16:30:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
     "key": "intl_friendly|阿根廷|哥斯达黎加|2026-11-17",
     "competition": "intl_friendly",
     "home": "阿根廷",
     "away": "哥斯达黎加",
-    "kickoff": "2026-11-17T21:00:00",
+    "kickoff": "2026-11-17T23:00:00",
     "status": "upcoming",
     "home_goals": null,
     "away_goals": null
@@ -174,7 +194,7 @@
     "competition": "intl_friendly",
     "home": "智利",
     "away": "哥伦比亚",
-    "kickoff": "2026-11-17T21:00:00",
+    "kickoff": "2026-11-17T23:00:00",
     "status": "upcoming",
     "home_goals": null,
     "away_goals": null
