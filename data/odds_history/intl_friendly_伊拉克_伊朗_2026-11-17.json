@@ -6,6 +6,21 @@
     "away": "伊朗",
     "kickoff": "2026-11-17T16:15:00",
     "bookmaker": "crown",
+    "ts": "2026-11-16T16:15:00+00:00",
+    "handicap_line": 0.5,
+    "handicap_home": 0.9,
+    "handicap_away": 0.92,
+    "total_line": 2.0,
+    "over": 0.76,
+    "under": 1.04
+  },
+  {
+    "fixture_key": "intl_friendly|伊拉克|伊朗|2026-11-17",
+    "competition": "intl_friendly",
+    "home": "伊拉克",
+    "away": "伊朗",
+    "kickoff": "2026-11-17T16:15:00",
+    "bookmaker": "crown",
     "ts": "2026-11-16T17:07:10.517432+00:00",
     "handicap_line": null,
     "handicap_home": null,
@@ -88,5 +103,20 @@
     "total_line": null,
     "over": null,
     "under": null
+  },
+  {
+    "fixture_key": "intl_friendly|伊拉克|伊朗|2026-11-17",
+    "competition": "intl_friendly",
+    "home": "伊拉克",
+    "away": "伊朗",
+    "kickoff": "2026-11-17T16:15:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-16T22:16:20.172216+00:00",
+    "handicap_line": 0.5,
+    "handicap_home": 0.9,
+    "handicap_away": 0.92,
+    "total_line": 2.0,
+    "over": 0.79,
+    "under": 1.01
   }
 ]
