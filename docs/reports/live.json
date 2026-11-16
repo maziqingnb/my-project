@@ -1,16 +1,6 @@
 {
-  "generated_at": "2026-11-16T00:05:37.787027+00:00",
+  "generated_at": "2026-11-16T01:28:54.963105+00:00",
   "matches": [
-    {
-      "fixture_key": "nba|phoenixsuns|losangeleslakers|2026-11-15",
-      "competition": "nba",
-      "home": "Phoenix Suns",
-      "away": "Los Angeles Lakers",
-      "kickoff": "2026-11-15T21:00:00",
-      "status": "live",
-      "home_goals": 0,
-      "away_goals": 0
-    },
     {
       "fixture_key": "nba|losangelesclippers|charlottehornets|2026-11-15",
       "competition": "nba",
