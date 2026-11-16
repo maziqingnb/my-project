@@ -100,16 +100,6 @@
     "away_goals": null
   },
   {
-    "key": "intl_friendly|科威特|洪都拉斯|2026-11-17",
-    "competition": "intl_friendly",
-    "home": "科威特",
-    "away": "洪都拉斯",
-    "kickoff": "2026-11-17T15:00:00",
-    "status": "upcoming",
-    "home_goals": null,
-    "away_goals": null
-  },
-  {
     "key": "intl_friendly|沙特阿拉伯|乌兹别克斯坦|2026-11-17",
     "competition": "intl_friendly",
     "home": "沙特阿拉伯",
@@ -145,6 +135,16 @@
     "home": "伊拉克",
     "away": "伊朗",
     "kickoff": "2026-11-17T16:15:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "intl_friendly|科威特|洪都拉斯|2026-11-17",
+    "competition": "intl_friendly",
+    "home": "科威特",
+    "away": "洪都拉斯",
+    "kickoff": "2026-11-17T16:30:00",
     "status": "upcoming",
     "home_goals": null,
     "away_goals": null
