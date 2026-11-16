@@ -2,6 +2,17 @@
   {
     "competition": "intl_friendly",
     "cls": "cup",
+    "home": "安道尔",
+    "away": "阿塞拜疆",
+    "home_goals": 1,
+    "away_goals": 3,
+    "date": "2026-11-16",
+    "handicap_line": 0.75,
+    "total_line": 2.0
+  },
+  {
+    "competition": "intl_friendly",
+    "cls": "cup",
     "home": "新西兰",
     "away": "印度",
     "home_goals": 3,
