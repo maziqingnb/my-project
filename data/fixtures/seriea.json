@@ -88,5 +88,15 @@
     "status": "upcoming",
     "home_goals": null,
     "away_goals": null
+  },
+  {
+    "key": "seriea|monza|fiorentina|2026-11-23",
+    "competition": "seriea",
+    "home": "Monza",
+    "away": "Fiorentina",
+    "kickoff": "2026-11-23T19:45:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
   }
 ]

@@ -48,5 +48,15 @@
     "status": "upcoming",
     "home_goals": null,
     "away_goals": null
+  },
+  {
+    "key": "denmark|布隆德比|中日德兰|2026-11-23",
+    "competition": "denmark",
+    "home": "布隆德比",
+    "away": "中日德兰",
+    "kickoff": "2026-11-23T18:00:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
   }
 ]

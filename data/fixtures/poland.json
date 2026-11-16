@@ -78,5 +78,15 @@
     "status": "upcoming",
     "home_goals": null,
     "away_goals": null
+  },
+  {
+    "key": "poland|ks莫摩斯|莫托路宾|2026-11-23",
+    "competition": "poland",
+    "home": "KS莫摩斯",
+    "away": "莫托路宾",
+    "kickoff": "2026-11-23T18:00:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
   }
 ]

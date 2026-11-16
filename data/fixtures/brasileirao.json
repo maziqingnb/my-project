@@ -148,5 +148,35 @@
     "status": "upcoming",
     "home_goals": null,
     "away_goals": null
+  },
+  {
+    "key": "brasileirao|巴西国际|维多利亚|2026-11-23",
+    "competition": "brasileirao",
+    "home": "巴西国际",
+    "away": "维多利亚",
+    "kickoff": "2026-11-23T22:30:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "brasileirao|博塔弗戈|圣保罗|2026-11-23",
+    "competition": "brasileirao",
+    "home": "博塔弗戈",
+    "away": "圣保罗",
+    "kickoff": "2026-11-23T23:00:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "brasileirao|桑托斯|格雷米奥|2026-11-24",
+    "competition": "brasileirao",
+    "home": "桑托斯",
+    "away": "格雷米奥",
+    "kickoff": "2026-11-24T00:00:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
   }
 ]

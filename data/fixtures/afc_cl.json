@@ -1,1 +1,62 @@
-[]
+[
+  {
+    "key": "afc_cl|费尔干纳石油工人|利雅得新月|2026-11-23",
+    "competition": "afc_cl",
+    "home": "费尔干纳石油工人",
+    "away": "利雅得新月",
+    "kickoff": "2026-11-23T13:45:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "afc_cl|艾因|德黑兰独立|2026-11-23",
+    "competition": "afc_cl",
+    "home": "艾因",
+    "away": "德黑兰独立",
+    "kickoff": "2026-11-23T16:00:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "afc_cl|大不里士拖拉机|迪拜青年国民|2026-11-23",
+    "competition": "afc_cl",
+    "home": "大不里士拖拉机",
+    "away": "迪拜青年国民",
+    "kickoff": "2026-11-23T16:00:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "afc_cl|艾沙姆|吉达国民|2026-11-23",
+    "competition": "afc_cl",
+    "home": "艾沙姆",
+    "away": "吉达国民",
+    "kickoff": "2026-11-23T16:00:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "afc_cl|吉达联合|塔什干棉农|2026-11-23",
+    "competition": "afc_cl",
+    "home": "吉达联合",
+    "away": "塔什干棉农",
+    "kickoff": "2026-11-23T18:15:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "afc_cl|巴格达空军|加拉法|2026-11-23",
+    "competition": "afc_cl",
+    "home": "巴格达空军",
+    "away": "加拉法",
+    "kickoff": "2026-11-23T18:15:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  }
+]

@@ -58,5 +58,15 @@
     "status": "upcoming",
     "home_goals": null,
     "away_goals": null
+  },
+  {
+    "key": "mls|圣路易斯城|洛杉矶fc|2026-11-24",
+    "competition": "mls",
+    "home": "圣路易斯城",
+    "away": "洛杉矶FC",
+    "kickoff": "2026-11-24T01:00:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
   }
 ]

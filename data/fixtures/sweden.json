@@ -58,5 +58,25 @@
     "status": "upcoming",
     "home_goals": null,
     "away_goals": null
+  },
+  {
+    "key": "sweden|哈马比|哥德堡|2026-11-23",
+    "competition": "sweden",
+    "home": "哈马比",
+    "away": "哥德堡",
+    "kickoff": "2026-11-23T18:00:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "sweden|奥尔格里特|卡尔马|2026-11-23",
+    "competition": "sweden",
+    "home": "奥尔格里特",
+    "away": "卡尔马",
+    "kickoff": "2026-11-23T18:00:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
   }
 ]

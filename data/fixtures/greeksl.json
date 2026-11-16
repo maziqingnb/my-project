@@ -58,5 +58,15 @@
     "status": "upcoming",
     "home_goals": null,
     "away_goals": null
+  },
+  {
+    "key": "greeksl|特里波利斯|阿里斯|2026-11-23",
+    "competition": "greeksl",
+    "home": "特里波利斯",
+    "away": "阿里斯",
+    "kickoff": "2026-11-23T15:00:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
   }
 ]
