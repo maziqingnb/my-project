@@ -1,15 +1,4 @@
 {
-  "generated_at": "2026-11-16T01:28:54.963105+00:00",
-  "matches": [
-    {
-      "fixture_key": "nba|losangelesclippers|charlottehornets|2026-11-15",
-      "competition": "nba",
-      "home": "Los Angeles Clippers",
-      "away": "Charlotte Hornets",
-      "kickoff": "2026-11-15T21:30:00",
-      "status": "live",
-      "home_goals": 0,
-      "away_goals": 0
-    }
-  ]
+  "generated_at": "2026-11-16T02:39:41.846446+00:00",
+  "matches": []
 }
