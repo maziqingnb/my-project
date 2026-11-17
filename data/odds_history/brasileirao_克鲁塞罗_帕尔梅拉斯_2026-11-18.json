@@ -238,5 +238,35 @@
     "total_line": 2.75,
     "over": 0.97,
     "under": 0.9
+  },
+  {
+    "fixture_key": "brasileirao|克鲁塞罗|帕尔梅拉斯|2026-11-18",
+    "competition": "brasileirao",
+    "home": "克鲁塞罗",
+    "away": "帕尔梅拉斯",
+    "kickoff": "2026-11-18T23:30:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-17T23:30:00+00:00",
+    "handicap_line": 0.0,
+    "handicap_home": 1.02,
+    "handicap_away": 0.86,
+    "total_line": 2.75,
+    "over": 0.97,
+    "under": 0.9
+  },
+  {
+    "fixture_key": "brasileirao|克鲁塞罗|帕尔梅拉斯|2026-11-18",
+    "competition": "brasileirao",
+    "home": "克鲁塞罗",
+    "away": "帕尔梅拉斯",
+    "kickoff": "2026-11-18T23:30:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-17T23:42:05.598911+00:00",
+    "handicap_line": 0.0,
+    "handicap_home": 1.02,
+    "handicap_away": 0.86,
+    "total_line": 2.75,
+    "over": 1.01,
+    "under": 0.86
   }
 ]
