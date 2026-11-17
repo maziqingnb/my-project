@@ -1,35 +1,5 @@
 [
   {
-    "key": "intl_friendly|新加坡|巴西|2026-11-17",
-    "competition": "intl_friendly",
-    "home": "新加坡",
-    "away": "巴西",
-    "kickoff": "2026-11-17T10:00:00",
-    "status": "upcoming",
-    "home_goals": null,
-    "away_goals": null
-  },
-  {
-    "key": "intl_friendly|中国|巴林|2026-11-17",
-    "competition": "intl_friendly",
-    "home": "中国",
-    "away": "巴林",
-    "kickoff": "2026-11-17T12:00:00",
-    "status": "upcoming",
-    "home_goals": null,
-    "away_goals": null
-  },
-  {
-    "key": "intl_friendly|越南|吉尔吉斯斯坦|2026-11-17",
-    "competition": "intl_friendly",
-    "home": "越南",
-    "away": "吉尔吉斯斯坦",
-    "kickoff": "2026-11-17T12:00:00",
-    "status": "upcoming",
-    "home_goals": null,
-    "away_goals": null
-  },
-  {
     "key": "intl_friendly|黎巴嫩|巴勒斯坦|2026-11-17",
     "competition": "intl_friendly",
     "home": "黎巴嫩",
