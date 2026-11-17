@@ -201,6 +201,21 @@
     "away": "巴拉圭",
     "kickoff": "2026-11-17T13:10:00",
     "bookmaker": "crown",
+    "ts": "2026-11-16T13:10:00+00:00",
+    "handicap_line": -0.75,
+    "handicap_home": 0.82,
+    "handicap_away": 1.0,
+    "total_line": 2.5,
+    "over": 0.97,
+    "under": 0.83
+  },
+  {
+    "fixture_key": "intl_friendly|日本|巴拉圭|2026-11-17",
+    "competition": "intl_friendly",
+    "home": "日本",
+    "away": "巴拉圭",
+    "kickoff": "2026-11-17T13:10:00",
+    "bookmaker": "crown",
     "ts": "2026-11-16T17:07:08.629132+00:00",
     "handicap_line": -0.75,
     "handicap_home": 0.94,
@@ -388,5 +403,20 @@
     "total_line": 2.5,
     "over": 0.93,
     "under": 0.87
+  },
+  {
+    "fixture_key": "intl_friendly|日本|巴拉圭|2026-11-17",
+    "competition": "intl_friendly",
+    "home": "日本",
+    "away": "巴拉圭",
+    "kickoff": "2026-11-17T13:10:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-17T04:50:20.028107+00:00",
+    "handicap_line": -0.75,
+    "handicap_home": 0.82,
+    "handicap_away": 1.0,
+    "total_line": 2.5,
+    "over": 0.91,
+    "under": 0.89
   }
 ]
