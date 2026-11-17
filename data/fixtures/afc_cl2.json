@@ -1,1 +1,22 @@
-[]
+[
+  {
+    "key": "afc_cl2|东孟加拉|侯塞因|2026-11-24",
+    "competition": "afc_cl2",
+    "home": "东孟加拉",
+    "away": "侯塞因",
+    "kickoff": "2026-11-24T13:45:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "afc_cl2|锡卜|巴格达警察|2026-11-24",
+    "competition": "afc_cl2",
+    "home": "锡卜",
+    "away": "巴格达警察",
+    "kickoff": "2026-11-24T17:00:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  }
+]

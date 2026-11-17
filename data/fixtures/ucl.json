@@ -1,1 +1,92 @@
-[]
+[
+  {
+    "key": "ucl|加拉塔萨雷|astonvilla|2026-11-24",
+    "competition": "ucl",
+    "home": "加拉塔萨雷",
+    "away": "Aston Villa",
+    "kickoff": "2026-11-24T17:45:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "ucl|博德闪耀|lask林茨|2026-11-24",
+    "competition": "ucl",
+    "home": "博德闪耀",
+    "away": "LASK林茨",
+    "kickoff": "2026-11-24T17:45:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "ucl|realmadrid|埃因霍温|2026-11-24",
+    "competition": "ucl",
+    "home": "Real Madrid",
+    "away": "埃因霍温",
+    "kickoff": "2026-11-24T20:00:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "ucl|manchestercity|napoli|2026-11-24",
+    "competition": "ucl",
+    "home": "Manchester City",
+    "away": "Napoli",
+    "kickoff": "2026-11-24T20:00:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "ucl|arsenal|borussiadortmund|2026-11-24",
+    "competition": "ucl",
+    "home": "Arsenal",
+    "away": "Borussia Dortmund",
+    "kickoff": "2026-11-24T20:00:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "ucl|费耶诺德|波尔图|2026-11-24",
+    "competition": "ucl",
+    "home": "费耶诺德",
+    "away": "波尔图",
+    "kickoff": "2026-11-24T20:00:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "ucl|布拉迪斯拉发|realbetis|2026-11-24",
+    "competition": "ucl",
+    "home": "布拉迪斯拉发",
+    "away": "Real Betis",
+    "kickoff": "2026-11-24T20:00:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "ucl|rbleipzig|lens|2026-11-24",
+    "competition": "ucl",
+    "home": "RB Leipzig",
+    "away": "Lens",
+    "kickoff": "2026-11-24T20:00:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "ucl|como|aek雅典|2026-11-24",
+    "competition": "ucl",
+    "home": "Como",
+    "away": "AEK雅典",
+    "kickoff": "2026-11-24T20:00:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  }
+]
