@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17T16:30:16.459405+00:00",
+  "generated_at": "2026-11-17T16:43:27.216874+00:00",
   "matches": [
     {
       "fixture_key": "intl_friendly|沙特阿拉伯|乌兹别克斯坦|2026-11-17",
@@ -18,7 +18,7 @@
       "away": "澳大利亚",
       "kickoff": "2026-11-17T16:00:00",
       "status": "live",
-      "home_goals": 0,
+      "home_goals": 1,
       "away_goals": 0
     },
     {
@@ -39,6 +39,16 @@
       "kickoff": "2026-11-17T16:15:00",
       "status": "live",
       "home_goals": 1,
+      "away_goals": 0
+    },
+    {
+      "fixture_key": "intl_friendly|科威特|洪都拉斯|2026-11-17",
+      "competition": "intl_friendly",
+      "home": "科威特",
+      "away": "洪都拉斯",
+      "kickoff": "2026-11-17T16:30:00",
+      "status": "live",
+      "home_goals": 0,
       "away_goals": 0
     }
   ]
