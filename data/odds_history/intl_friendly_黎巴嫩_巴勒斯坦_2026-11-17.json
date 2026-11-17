@@ -133,5 +133,20 @@
     "total_line": null,
     "over": null,
     "under": null
+  },
+  {
+    "fixture_key": "intl_friendly|黎巴嫩|巴勒斯坦|2026-11-17",
+    "competition": "intl_friendly",
+    "home": "黎巴嫩",
+    "away": "巴勒斯坦",
+    "kickoff": "2026-11-17T13:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-17T00:39:27.391942+00:00",
+    "handicap_line": null,
+    "handicap_home": null,
+    "handicap_away": null,
+    "total_line": null,
+    "over": null,
+    "under": null
   }
 ]
