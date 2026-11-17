@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17T12:28:25.847810+00:00",
+  "generated_at": "2026-11-17T13:48:34.394604+00:00",
   "matches": [
     {
       "fixture_key": "intl_friendly|中国|巴林|2026-11-17",
@@ -8,8 +8,18 @@
       "away": "巴林",
       "kickoff": "2026-11-17T12:00:00",
       "status": "live",
-      "home_goals": 0,
+      "home_goals": 2,
       "away_goals": 2
+    },
+    {
+      "fixture_key": "intl_friendly|日本|巴拉圭|2026-11-17",
+      "competition": "intl_friendly",
+      "home": "日本",
+      "away": "巴拉圭",
+      "kickoff": "2026-11-17T13:10:00",
+      "status": "live",
+      "home_goals": 0,
+      "away_goals": 1
     }
   ]
 }
