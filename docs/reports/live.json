@@ -1,4 +1,15 @@
 {
-  "generated_at": "2026-11-17T03:58:15.432678+00:00",
-  "matches": []
+  "generated_at": "2026-11-17T04:58:05.793262+00:00",
+  "matches": [
+    {
+      "fixture_key": "nba|denvernuggets|phoenixsuns|2026-11-17",
+      "competition": "nba",
+      "home": "Denver Nuggets",
+      "away": "Phoenix Suns",
+      "kickoff": "2026-11-17T02:00:00",
+      "status": "live",
+      "home_goals": 0,
+      "away_goals": 0
+    }
+  ]
 }
