@@ -1,25 +1,5 @@
 [
   {
-    "key": "intl_friendly|塔希提群岛|库克群岛|2026-11-17",
-    "competition": "intl_friendly",
-    "home": "塔希提群岛",
-    "away": "库克群岛",
-    "kickoff": "2026-11-17T05:30:00",
-    "status": "upcoming",
-    "home_goals": null,
-    "away_goals": null
-  },
-  {
-    "key": "intl_friendly|马来西亚|也门|2026-11-17",
-    "competition": "intl_friendly",
-    "home": "马来西亚",
-    "away": "也门",
-    "kickoff": "2026-11-17T06:00:00",
-    "status": "upcoming",
-    "home_goals": null,
-    "away_goals": null
-  },
-  {
     "key": "intl_friendly|新加坡|巴西|2026-11-17",
     "competition": "intl_friendly",
     "home": "新加坡",
