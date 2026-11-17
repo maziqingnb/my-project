@@ -35,6 +35,17 @@
   {
     "competition": "nba",
     "cls": "league",
+    "home": "Denver Nuggets",
+    "away": "Phoenix Suns",
+    "home_goals": 105,
+    "away_goals": 117,
+    "date": "2026-11-17",
+    "handicap_line": null,
+    "total_line": null
+  },
+  {
+    "competition": "nba",
+    "cls": "league",
     "home": "Miami Heat",
     "away": "Houston Rockets",
     "home_goals": 128,
