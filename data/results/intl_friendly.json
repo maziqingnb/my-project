@@ -13,6 +13,28 @@
   {
     "competition": "intl_friendly",
     "cls": "cup",
+    "home": "乌拉圭",
+    "away": "Dominican Republic",
+    "home_goals": 5,
+    "away_goals": 0,
+    "date": "2026-11-17",
+    "handicap_line": null,
+    "total_line": null
+  },
+  {
+    "competition": "intl_friendly",
+    "cls": "cup",
+    "home": "乌拉圭",
+    "away": "多米尼加共和国",
+    "home_goals": 5,
+    "away_goals": 0,
+    "date": "2026-11-17",
+    "handicap_line": -2.75,
+    "total_line": 3.75
+  },
+  {
+    "competition": "intl_friendly",
+    "cls": "cup",
     "home": "伊拉克",
     "away": "伊朗",
     "home_goals": 1,
@@ -42,6 +64,17 @@
     "date": "2026-11-17",
     "handicap_line": 0.75,
     "total_line": 2.5
+  },
+  {
+    "competition": "intl_friendly",
+    "cls": "cup",
+    "home": "厄瓜多尔",
+    "away": "玻利维亚",
+    "home_goals": 2,
+    "away_goals": 0,
+    "date": "2026-11-17",
+    "handicap_line": -2.0,
+    "total_line": 3.0
   },
   {
     "competition": "intl_friendly",
@@ -90,6 +123,17 @@
   {
     "competition": "intl_friendly",
     "cls": "cup",
+    "home": "智利",
+    "away": "哥伦比亚",
+    "home_goals": 0,
+    "away_goals": 0,
+    "date": "2026-11-17",
+    "handicap_line": 0.5,
+    "total_line": 2.25
+  },
+  {
+    "competition": "intl_friendly",
+    "cls": "cup",
     "home": "沙特阿拉伯",
     "away": "乌兹别克斯坦",
     "home_goals": 1,
@@ -130,6 +174,17 @@
     "date": "2026-11-17",
     "handicap_line": -0.25,
     "total_line": 2.25
+  },
+  {
+    "competition": "intl_friendly",
+    "cls": "cup",
+    "home": "阿根廷",
+    "away": "哥斯达黎加",
+    "home_goals": 7,
+    "away_goals": 0,
+    "date": "2026-11-17",
+    "handicap_line": -2.25,
+    "total_line": 3.0
   },
   {
     "competition": "intl_friendly",
