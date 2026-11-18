@@ -501,6 +501,21 @@
     "away": "巴伊亚",
     "kickoff": "2026-11-19T00:30:00",
     "bookmaker": "crown",
+    "ts": "2026-11-18T00:30:00+00:00",
+    "handicap_line": 0.0,
+    "handicap_home": 0.87,
+    "handicap_away": 1.01,
+    "total_line": 2.75,
+    "over": 0.91,
+    "under": 0.96
+  },
+  {
+    "fixture_key": "brasileirao|格雷米奥|巴伊亚|2026-11-19",
+    "competition": "brasileirao",
+    "home": "格雷米奥",
+    "away": "巴伊亚",
+    "kickoff": "2026-11-19T00:30:00",
+    "bookmaker": "crown",
     "ts": "2026-11-18T00:46:13.983969+00:00",
     "handicap_line": -0.25,
     "handicap_home": 0.99,
@@ -718,5 +733,20 @@
     "total_line": 2.75,
     "over": 0.83,
     "under": 1.04
+  },
+  {
+    "fixture_key": "brasileirao|格雷米奥|巴伊亚|2026-11-19",
+    "competition": "brasileirao",
+    "home": "格雷米奥",
+    "away": "巴伊亚",
+    "kickoff": "2026-11-19T00:30:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-18T15:23:14.596184+00:00",
+    "handicap_line": 0.0,
+    "handicap_home": 0.84,
+    "handicap_away": 1.05,
+    "total_line": 2.75,
+    "over": 0.8,
+    "under": 1.07
   }
 ]
