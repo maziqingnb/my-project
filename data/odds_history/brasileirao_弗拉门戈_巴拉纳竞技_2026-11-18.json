@@ -321,6 +321,21 @@
     "away": "巴拉纳竞技",
     "kickoff": "2026-11-18T23:30:00",
     "bookmaker": "crown",
+    "ts": "2026-11-17T23:30:00+00:00",
+    "handicap_line": -1.75,
+    "handicap_home": 0.89,
+    "handicap_away": 0.99,
+    "total_line": 3.25,
+    "over": 1.0,
+    "under": 0.87
+  },
+  {
+    "fixture_key": "brasileirao|弗拉门戈|巴拉纳竞技|2026-11-18",
+    "competition": "brasileirao",
+    "home": "弗拉门戈",
+    "away": "巴拉纳竞技",
+    "kickoff": "2026-11-18T23:30:00",
+    "bookmaker": "crown",
     "ts": "2026-11-17T23:42:05.871204+00:00",
     "handicap_line": -1.75,
     "handicap_home": 0.94,
@@ -388,5 +403,20 @@
     "total_line": 3.25,
     "over": 1.05,
     "under": 0.82
+  },
+  {
+    "fixture_key": "brasileirao|弗拉门戈|巴拉纳竞技|2026-11-18",
+    "competition": "brasileirao",
+    "home": "弗拉门戈",
+    "away": "巴拉纳竞技",
+    "kickoff": "2026-11-18T23:30:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-18T04:27:44.199543+00:00",
+    "handicap_line": -1.75,
+    "handicap_home": 1.03,
+    "handicap_away": 0.84,
+    "total_line": 3.0,
+    "over": 0.86,
+    "under": 1.01
   }
 ]
