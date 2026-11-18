@@ -1,45 +1,5 @@
 [
   {
-    "key": "nba|minnesotatimberwolves|portlandtrailblazers|2026-11-18",
-    "competition": "nba",
-    "home": "Minnesota Timberwolves",
-    "away": "Portland Trail Blazers",
-    "kickoff": "2026-11-18T01:00:00",
-    "status": "upcoming",
-    "home_goals": null,
-    "away_goals": null
-  },
-  {
-    "key": "nba|sanantoniospurs|detroitpistons|2026-11-18",
-    "competition": "nba",
-    "home": "San Antonio Spurs",
-    "away": "Detroit Pistons",
-    "kickoff": "2026-11-18T01:00:00",
-    "status": "upcoming",
-    "home_goals": null,
-    "away_goals": null
-  },
-  {
-    "key": "nba|losangelesclippers|utahjazz|2026-11-18",
-    "competition": "nba",
-    "home": "Los Angeles Clippers",
-    "away": "Utah Jazz",
-    "kickoff": "2026-11-18T03:30:00",
-    "status": "upcoming",
-    "home_goals": null,
-    "away_goals": null
-  },
-  {
-    "key": "nba|losangeleslakers|charlottehornets|2026-11-18",
-    "competition": "nba",
-    "home": "Los Angeles Lakers",
-    "away": "Charlotte Hornets",
-    "kickoff": "2026-11-18T04:00:00",
-    "status": "upcoming",
-    "home_goals": null,
-    "away_goals": null
-  },
-  {
     "key": "nba|clevelandcavaliers|memphisgrizzlies|2026-11-19",
     "competition": "nba",
     "home": "Cleveland Cavaliers",
@@ -525,6 +485,26 @@
     "home": "Orlando Magic",
     "away": "Detroit Pistons",
     "kickoff": "2026-11-25T00:00:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "nba|washingtonwizards|bostonceltics|2026-11-25",
+    "competition": "nba",
+    "home": "Washington Wizards",
+    "away": "Boston Celtics",
+    "kickoff": "2026-11-25T01:00:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "nba|denvernuggets|dallasmavericks|2026-11-25",
+    "competition": "nba",
+    "home": "Denver Nuggets",
+    "away": "Dallas Mavericks",
+    "kickoff": "2026-11-25T03:00:00",
     "status": "upcoming",
     "home_goals": null,
     "away_goals": null

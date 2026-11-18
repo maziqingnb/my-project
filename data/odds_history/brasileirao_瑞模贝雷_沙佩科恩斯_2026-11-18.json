@@ -351,6 +351,21 @@
     "away": "沙佩科恩斯",
     "kickoff": "2026-11-18T23:00:00",
     "bookmaker": "crown",
+    "ts": "2026-11-17T23:00:00+00:00",
+    "handicap_line": -0.75,
+    "handicap_home": 0.85,
+    "handicap_away": 1.03,
+    "total_line": 2.75,
+    "over": 0.82,
+    "under": 1.05
+  },
+  {
+    "fixture_key": "brasileirao|瑞模贝雷|沙佩科恩斯|2026-11-18",
+    "competition": "brasileirao",
+    "home": "瑞模贝雷",
+    "away": "沙佩科恩斯",
+    "kickoff": "2026-11-18T23:00:00",
+    "bookmaker": "crown",
     "ts": "2026-11-17T23:42:05.219842+00:00",
     "handicap_line": -1.0,
     "handicap_home": 1.0,
@@ -448,5 +463,20 @@
     "total_line": 3.0,
     "over": 1.05,
     "under": 0.82
+  },
+  {
+    "fixture_key": "brasileirao|瑞模贝雷|沙佩科恩斯|2026-11-18",
+    "competition": "brasileirao",
+    "home": "瑞模贝雷",
+    "away": "沙佩科恩斯",
+    "kickoff": "2026-11-18T23:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-18T06:55:13.219057+00:00",
+    "handicap_line": -1.0,
+    "handicap_home": 1.02,
+    "handicap_away": 0.87,
+    "total_line": 2.75,
+    "over": 0.85,
+    "under": 1.02
   }
 ]

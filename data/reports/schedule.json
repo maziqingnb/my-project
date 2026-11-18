@@ -1,56 +1,6 @@
 {
-  "generated_at": "2026-11-18T00:45:46.674318+00:00",
+  "generated_at": "2026-11-18T06:54:36.448203+00:00",
   "matches": [
-    {
-      "fixture_key": "nba|minnesotatimberwolves|portlandtrailblazers|2026-11-18",
-      "competition": "nba",
-      "competition_name": "NBA 美国职业篮球联赛",
-      "competition_class": "league",
-      "sport": "basketball",
-      "home": "Minnesota Timberwolves",
-      "away": "Portland Trail Blazers",
-      "kickoff": "2026-11-18T01:00:00"
-    },
-    {
-      "fixture_key": "nba|sanantoniospurs|detroitpistons|2026-11-18",
-      "competition": "nba",
-      "competition_name": "NBA 美国职业篮球联赛",
-      "competition_class": "league",
-      "sport": "basketball",
-      "home": "San Antonio Spurs",
-      "away": "Detroit Pistons",
-      "kickoff": "2026-11-18T01:00:00"
-    },
-    {
-      "fixture_key": "nba|losangelesclippers|utahjazz|2026-11-18",
-      "competition": "nba",
-      "competition_name": "NBA 美国职业篮球联赛",
-      "competition_class": "league",
-      "sport": "basketball",
-      "home": "Los Angeles Clippers",
-      "away": "Utah Jazz",
-      "kickoff": "2026-11-18T03:30:00"
-    },
-    {
-      "fixture_key": "nba|losangeleslakers|charlottehornets|2026-11-18",
-      "competition": "nba",
-      "competition_name": "NBA 美国职业篮球联赛",
-      "competition_class": "league",
-      "sport": "basketball",
-      "home": "Los Angeles Lakers",
-      "away": "Charlotte Hornets",
-      "kickoff": "2026-11-18T04:00:00"
-    },
-    {
-      "fixture_key": "intl_friendly|西斯普林斯|汤加|2026-11-18",
-      "competition": "intl_friendly",
-      "competition_name": "国家队友谊赛",
-      "competition_class": "cup",
-      "sport": "football",
-      "home": "西斯普林斯",
-      "away": "汤加",
-      "kickoff": "2026-11-18T06:00:00"
-    },
     {
       "fixture_key": "brasileirao|科里蒂巴|桑托斯|2026-11-18",
       "competition": "brasileirao",
@@ -2070,6 +2020,26 @@
       "home": "Orlando Magic",
       "away": "Detroit Pistons",
       "kickoff": "2026-11-25T00:00:00"
+    },
+    {
+      "fixture_key": "nba|washingtonwizards|bostonceltics|2026-11-25",
+      "competition": "nba",
+      "competition_name": "NBA 美国职业篮球联赛",
+      "competition_class": "league",
+      "sport": "basketball",
+      "home": "Washington Wizards",
+      "away": "Boston Celtics",
+      "kickoff": "2026-11-25T01:00:00"
+    },
+    {
+      "fixture_key": "nba|denvernuggets|dallasmavericks|2026-11-25",
+      "competition": "nba",
+      "competition_name": "NBA 美国职业篮球联赛",
+      "competition_class": "league",
+      "sport": "basketball",
+      "home": "Denver Nuggets",
+      "away": "Dallas Mavericks",
+      "kickoff": "2026-11-25T03:00:00"
     }
   ]
 }
