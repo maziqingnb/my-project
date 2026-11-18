@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-18T06:54:36.448203+00:00",
+  "generated_at": "2026-11-18T12:52:43.186433+00:00",
   "matches": [
     {
       "fixture_key": "brasileirao|科里蒂巴|桑托斯|2026-11-18",
@@ -182,6 +182,16 @@
       "kickoff": "2026-11-19T03:00:00"
     },
     {
+      "fixture_key": "intl_friendly|西斯普林斯|汤加|2026-11-19",
+      "competition": "intl_friendly",
+      "competition_name": "国家队友谊赛",
+      "competition_class": "cup",
+      "sport": "football",
+      "home": "西斯普林斯",
+      "away": "汤加",
+      "kickoff": "2026-11-19T06:00:00"
+    },
+    {
       "fixture_key": "brasileirao|瓦斯科达伽马|巴西国际|2026-11-19",
       "competition": "brasileirao",
       "competition_name": "巴西甲级联赛",
@@ -242,16 +252,6 @@
       "kickoff": "2026-11-20T01:00:00"
     },
     {
-      "fixture_key": "nba|sanantoniospurs|losangelesclippers|2026-11-20",
-      "competition": "nba",
-      "competition_name": "NBA 美国职业篮球联赛",
-      "competition_class": "league",
-      "sport": "basketball",
-      "home": "San Antonio Spurs",
-      "away": "Los Angeles Clippers",
-      "kickoff": "2026-11-20T01:00:00"
-    },
-    {
       "fixture_key": "nba|memphisgrizzlies|goldenstatewarriors|2026-11-20",
       "competition": "nba",
       "competition_name": "NBA 美国职业篮球联赛",
@@ -259,6 +259,16 @@
       "sport": "basketball",
       "home": "Memphis Grizzlies",
       "away": "Golden State Warriors",
+      "kickoff": "2026-11-20T01:00:00"
+    },
+    {
+      "fixture_key": "nba|sanantoniospurs|losangelesclippers|2026-11-20",
+      "competition": "nba",
+      "competition_name": "NBA 美国职业篮球联赛",
+      "competition_class": "league",
+      "sport": "basketball",
+      "home": "San Antonio Spurs",
+      "away": "Los Angeles Clippers",
       "kickoff": "2026-11-20T01:00:00"
     },
     {
