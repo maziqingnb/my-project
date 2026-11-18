@@ -1,4 +1,25 @@
 {
-  "generated_at": "2026-11-18T22:29:06.695816+00:00",
-  "matches": []
+  "generated_at": "2026-11-18T23:25:15.353305+00:00",
+  "matches": [
+    {
+      "fixture_key": "brasileirao|科里蒂巴|桑托斯|2026-11-18",
+      "competition": "brasileirao",
+      "home": "科里蒂巴",
+      "away": "桑托斯",
+      "kickoff": "2026-11-18T22:30:00",
+      "status": "live",
+      "home_goals": 0,
+      "away_goals": 0
+    },
+    {
+      "fixture_key": "brasileirao|瑞模贝雷|沙佩科恩斯|2026-11-18",
+      "competition": "brasileirao",
+      "home": "瑞模贝雷",
+      "away": "沙佩科恩斯",
+      "kickoff": "2026-11-18T23:00:00",
+      "status": "live",
+      "home_goals": 2,
+      "away_goals": 0
+    }
+  ]
 }
