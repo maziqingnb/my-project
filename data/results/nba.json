@@ -2,6 +2,61 @@
   {
     "competition": "nba",
     "cls": "league",
+    "home": "Los Angeles Clippers",
+    "away": "Utah Jazz",
+    "home_goals": 107,
+    "away_goals": 132,
+    "date": "2026-11-18",
+    "handicap_line": null,
+    "total_line": null
+  },
+  {
+    "competition": "nba",
+    "cls": "league",
+    "home": "Los Angeles Lakers",
+    "away": "Charlotte Hornets",
+    "home_goals": 118,
+    "away_goals": 114,
+    "date": "2026-11-18",
+    "handicap_line": null,
+    "total_line": null
+  },
+  {
+    "competition": "nba",
+    "cls": "league",
+    "home": "Minnesota Timberwolves",
+    "away": "Portland Trail Blazers",
+    "home_goals": 106,
+    "away_goals": 105,
+    "date": "2026-11-18",
+    "handicap_line": null,
+    "total_line": null
+  },
+  {
+    "competition": "nba",
+    "cls": "league",
+    "home": "San Antonio Spurs",
+    "away": "Detroit Pistons",
+    "home_goals": 93,
+    "away_goals": 105,
+    "date": "2026-11-18",
+    "handicap_line": null,
+    "total_line": null
+  },
+  {
+    "competition": "nba",
+    "cls": "league",
+    "home": "Toronto Raptors",
+    "away": "New York Knicks",
+    "home_goals": 102,
+    "away_goals": 111,
+    "date": "2026-11-18",
+    "handicap_line": null,
+    "total_line": null
+  },
+  {
+    "competition": "nba",
+    "cls": "league",
     "home": "Boston Celtics",
     "away": "Orlando Magic",
     "home_goals": 105,
