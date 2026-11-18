@@ -426,6 +426,21 @@
     "away": "博塔弗戈",
     "kickoff": "2026-11-19T00:30:00",
     "bookmaker": "crown",
+    "ts": "2026-11-18T00:30:00+00:00",
+    "handicap_line": -0.5,
+    "handicap_home": 0.84,
+    "handicap_away": 1.04,
+    "total_line": 2.5,
+    "over": 0.91,
+    "under": 0.96
+  },
+  {
+    "fixture_key": "brasileirao|科林蒂安|博塔弗戈|2026-11-19",
+    "competition": "brasileirao",
+    "home": "科林蒂安",
+    "away": "博塔弗戈",
+    "kickoff": "2026-11-19T00:30:00",
+    "bookmaker": "crown",
     "ts": "2026-11-18T00:46:13.815325+00:00",
     "handicap_line": -0.5,
     "handicap_home": 0.86,
@@ -568,5 +583,20 @@
     "total_line": 2.5,
     "over": 0.92,
     "under": 0.95
+  },
+  {
+    "fixture_key": "brasileirao|科林蒂安|博塔弗戈|2026-11-19",
+    "competition": "brasileirao",
+    "home": "科林蒂安",
+    "away": "博塔弗戈",
+    "kickoff": "2026-11-19T00:30:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-18T10:31:56.294389+00:00",
+    "handicap_line": -0.5,
+    "handicap_home": 0.83,
+    "handicap_away": 1.06,
+    "total_line": 2.5,
+    "over": 0.9,
+    "under": 0.97
   }
 ]
