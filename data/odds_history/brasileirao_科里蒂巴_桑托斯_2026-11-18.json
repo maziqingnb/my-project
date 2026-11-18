@@ -411,6 +411,21 @@
     "away": "桑托斯",
     "kickoff": "2026-11-18T22:30:00",
     "bookmaker": "crown",
+    "ts": "2026-11-17T22:30:00+00:00",
+    "handicap_line": 0.25,
+    "handicap_home": 0.99,
+    "handicap_away": 0.89,
+    "total_line": 2.75,
+    "over": 0.93,
+    "under": 0.94
+  },
+  {
+    "fixture_key": "brasileirao|科里蒂巴|桑托斯|2026-11-18",
+    "competition": "brasileirao",
+    "home": "科里蒂巴",
+    "away": "桑托斯",
+    "kickoff": "2026-11-18T22:30:00",
+    "bookmaker": "crown",
     "ts": "2026-11-17T22:44:31.394069+00:00",
     "handicap_line": 0.25,
     "handicap_home": 1.03,
@@ -598,5 +613,20 @@
     "total_line": 2.75,
     "over": 0.96,
     "under": 0.91
+  },
+  {
+    "fixture_key": "brasileirao|科里蒂巴|桑托斯|2026-11-18",
+    "competition": "brasileirao",
+    "home": "科里蒂巴",
+    "away": "桑托斯",
+    "kickoff": "2026-11-18T22:30:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-18T11:52:26.265846+00:00",
+    "handicap_line": 0.25,
+    "handicap_home": 1.09,
+    "handicap_away": 0.8,
+    "total_line": 2.75,
+    "over": 0.95,
+    "under": 0.92
   }
 ]
