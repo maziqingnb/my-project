@@ -2,6 +2,17 @@
   {
     "competition": "intl_friendly",
     "cls": "cup",
+    "home": "西斯普林斯",
+    "away": "汤加",
+    "home_goals": 1,
+    "away_goals": 6,
+    "date": "2026-11-19",
+    "handicap_line": -5.25,
+    "total_line": 7.0
+  },
+  {
+    "competition": "intl_friendly",
+    "cls": "cup",
     "home": "中国",
     "away": "巴林",
     "home_goals": 2,
