@@ -426,6 +426,21 @@
     "away": "巴西国际",
     "kickoff": "2026-11-19T22:30:00",
     "bookmaker": "crown",
+    "ts": "2026-11-18T22:30:00+00:00",
+    "handicap_line": -0.75,
+    "handicap_home": 0.84,
+    "handicap_away": 1.04,
+    "total_line": 2.5,
+    "over": 0.83,
+    "under": 1.04
+  },
+  {
+    "fixture_key": "brasileirao|瓦斯科达伽马|巴西国际|2026-11-19",
+    "competition": "brasileirao",
+    "home": "瓦斯科达伽马",
+    "away": "巴西国际",
+    "kickoff": "2026-11-19T22:30:00",
+    "bookmaker": "crown",
     "ts": "2026-11-18T23:17:27.298036+00:00",
     "handicap_line": -0.75,
     "handicap_home": 0.84,
@@ -598,5 +613,20 @@
     "total_line": 2.75,
     "over": 0.9,
     "under": 0.97
+  },
+  {
+    "fixture_key": "brasileirao|瓦斯科达伽马|巴西国际|2026-11-19",
+    "competition": "brasileirao",
+    "home": "瓦斯科达伽马",
+    "away": "巴西国际",
+    "kickoff": "2026-11-19T22:30:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-19T10:53:17.441225+00:00",
+    "handicap_line": -1.0,
+    "handicap_home": 1.03,
+    "handicap_away": 0.86,
+    "total_line": 2.75,
+    "over": 0.88,
+    "under": 0.99
   }
 ]
