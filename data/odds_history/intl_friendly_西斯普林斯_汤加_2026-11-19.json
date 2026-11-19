@@ -208,5 +208,20 @@
     "total_line": null,
     "over": null,
     "under": null
+  },
+  {
+    "fixture_key": "intl_friendly|西斯普林斯|汤加|2026-11-19",
+    "competition": "intl_friendly",
+    "home": "西斯普林斯",
+    "away": "汤加",
+    "kickoff": "2026-11-19T06:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-19T04:54:44.158441+00:00",
+    "handicap_line": -5.25,
+    "handicap_home": 0.86,
+    "handicap_away": 0.84,
+    "total_line": 7.0,
+    "over": null,
+    "under": null
   }
 ]

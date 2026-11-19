@@ -336,6 +336,21 @@
     "away": "布拉干蒂诺RB",
     "kickoff": "2026-11-19T22:30:00",
     "bookmaker": "crown",
+    "ts": "2026-11-18T22:30:00+00:00",
+    "handicap_line": 0.0,
+    "handicap_home": 1.07,
+    "handicap_away": 0.81,
+    "total_line": 2.75,
+    "over": 1.03,
+    "under": 0.84
+  },
+  {
+    "fixture_key": "brasileirao|维多利亚|布拉干蒂诺rb|2026-11-19",
+    "competition": "brasileirao",
+    "home": "维多利亚",
+    "away": "布拉干蒂诺RB",
+    "kickoff": "2026-11-19T22:30:00",
+    "bookmaker": "crown",
     "ts": "2026-11-18T23:17:27.495360+00:00",
     "handicap_line": 0.0,
     "handicap_home": 0.95,
@@ -418,5 +433,20 @@
     "total_line": 2.75,
     "over": 1.03,
     "under": 0.84
+  },
+  {
+    "fixture_key": "brasileirao|维多利亚|布拉干蒂诺rb|2026-11-19",
+    "competition": "brasileirao",
+    "home": "维多利亚",
+    "away": "布拉干蒂诺RB",
+    "kickoff": "2026-11-19T22:30:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-19T04:54:43.089821+00:00",
+    "handicap_line": 0.0,
+    "handicap_home": 1.01,
+    "handicap_away": 0.88,
+    "total_line": 2.5,
+    "over": 0.84,
+    "under": 1.03
   }
 ]
