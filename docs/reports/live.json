@@ -1,4 +1,25 @@
 {
-  "generated_at": "2026-11-19T22:29:01.949184+00:00",
-  "matches": []
+  "generated_at": "2026-11-19T23:18:51.743835+00:00",
+  "matches": [
+    {
+      "fixture_key": "brasileirao|瓦斯科达伽马|巴西国际|2026-11-19",
+      "competition": "brasileirao",
+      "home": "瓦斯科达伽马",
+      "away": "巴西国际",
+      "kickoff": "2026-11-19T22:30:00",
+      "status": "live",
+      "home_goals": 1,
+      "away_goals": 0
+    },
+    {
+      "fixture_key": "brasileirao|维多利亚|布拉干蒂诺rb|2026-11-19",
+      "competition": "brasileirao",
+      "home": "维多利亚",
+      "away": "布拉干蒂诺RB",
+      "kickoff": "2026-11-19T22:30:00",
+      "status": "live",
+      "home_goals": 2,
+      "away_goals": 0
+    }
+  ]
 }
