@@ -1,65 +1,5 @@
 [
   {
-    "key": "nba|clevelandcavaliers|memphisgrizzlies|2026-11-19",
-    "competition": "nba",
-    "home": "Cleveland Cavaliers",
-    "away": "Memphis Grizzlies",
-    "kickoff": "2026-11-19T00:00:00",
-    "status": "upcoming",
-    "home_goals": null,
-    "away_goals": null
-  },
-  {
-    "key": "nba|miamiheat|milwaukeebucks|2026-11-19",
-    "competition": "nba",
-    "home": "Miami Heat",
-    "away": "Milwaukee Bucks",
-    "kickoff": "2026-11-19T00:00:00",
-    "status": "upcoming",
-    "home_goals": null,
-    "away_goals": null
-  },
-  {
-    "key": "nba|indianapacers|houstonrockets|2026-11-19",
-    "competition": "nba",
-    "home": "Indiana Pacers",
-    "away": "Houston Rockets",
-    "kickoff": "2026-11-19T00:00:00",
-    "status": "upcoming",
-    "home_goals": null,
-    "away_goals": null
-  },
-  {
-    "key": "nba|orlandomagic|philadelphia76ers|2026-11-19",
-    "competition": "nba",
-    "home": "Orlando Magic",
-    "away": "Philadelphia 76ers",
-    "kickoff": "2026-11-19T00:00:00",
-    "status": "upcoming",
-    "home_goals": null,
-    "away_goals": null
-  },
-  {
-    "key": "nba|torontoraptors|washingtonwizards|2026-11-19",
-    "competition": "nba",
-    "home": "Toronto Raptors",
-    "away": "Washington Wizards",
-    "kickoff": "2026-11-19T00:30:00",
-    "status": "upcoming",
-    "home_goals": null,
-    "away_goals": null
-  },
-  {
-    "key": "nba|brooklynnets|chicagobulls|2026-11-19",
-    "competition": "nba",
-    "home": "Brooklyn Nets",
-    "away": "Chicago Bulls",
-    "kickoff": "2026-11-19T00:30:00",
-    "status": "upcoming",
-    "home_goals": null,
-    "away_goals": null
-  },
-  {
     "key": "nba|oklahomacitythunder|atlantahawks|2026-11-19",
     "competition": "nba",
     "home": "Oklahoma City Thunder",
@@ -505,6 +445,46 @@
     "home": "Denver Nuggets",
     "away": "Dallas Mavericks",
     "kickoff": "2026-11-25T03:00:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "nba|philadelphia76ers|miamiheat|2026-11-25",
+    "competition": "nba",
+    "home": "Philadelphia 76ers",
+    "away": "Miami Heat",
+    "kickoff": "2026-11-25T22:00:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "nba|charlottehornets|chicagobulls|2026-11-26",
+    "competition": "nba",
+    "home": "Charlotte Hornets",
+    "away": "Chicago Bulls",
+    "kickoff": "2026-11-26T00:00:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "nba|newyorkknicks|clevelandcavaliers|2026-11-26",
+    "competition": "nba",
+    "home": "New York Knicks",
+    "away": "Cleveland Cavaliers",
+    "kickoff": "2026-11-26T00:30:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "nba|oklahomacitythunder|minnesotatimberwolves|2026-11-26",
+    "competition": "nba",
+    "home": "Oklahoma City Thunder",
+    "away": "Minnesota Timberwolves",
+    "kickoff": "2026-11-26T00:30:00",
     "status": "upcoming",
     "home_goals": null,
     "away_goals": null
