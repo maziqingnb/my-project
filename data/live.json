@@ -1,25 +1,4 @@
 {
-  "generated_at": "2026-11-19T01:42:18.880386+00:00",
-  "matches": [
-    {
-      "fixture_key": "brasileirao|科林蒂安|博塔弗戈|2026-11-19",
-      "competition": "brasileirao",
-      "home": "科林蒂安",
-      "away": "博塔弗戈",
-      "kickoff": "2026-11-19T00:30:00",
-      "status": "live",
-      "home_goals": 2,
-      "away_goals": 0
-    },
-    {
-      "fixture_key": "brasileirao|格雷米奥|巴伊亚|2026-11-19",
-      "competition": "brasileirao",
-      "home": "格雷米奥",
-      "away": "巴伊亚",
-      "kickoff": "2026-11-19T00:30:00",
-      "status": "live",
-      "home_goals": 0,
-      "away_goals": 0
-    }
-  ]
+  "generated_at": "2026-11-19T02:37:39.362167+00:00",
+  "matches": []
 }
