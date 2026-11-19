@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-18T23:25:15.353305+00:00",
+  "generated_at": "2026-11-19T00:18:47.234199+00:00",
   "matches": [
     {
       "fixture_key": "brasileirao|科里蒂巴|桑托斯|2026-11-18",
@@ -20,6 +20,26 @@
       "status": "live",
       "home_goals": 2,
       "away_goals": 0
+    },
+    {
+      "fixture_key": "brasileirao|克鲁塞罗|帕尔梅拉斯|2026-11-18",
+      "competition": "brasileirao",
+      "home": "克鲁塞罗",
+      "away": "帕尔梅拉斯",
+      "kickoff": "2026-11-18T23:30:00",
+      "status": "live",
+      "home_goals": 0,
+      "away_goals": 0
+    },
+    {
+      "fixture_key": "brasileirao|弗拉门戈|巴拉纳竞技|2026-11-18",
+      "competition": "brasileirao",
+      "home": "弗拉门戈",
+      "away": "巴拉纳竞技",
+      "kickoff": "2026-11-18T23:30:00",
+      "status": "live",
+      "home_goals": 2,
+      "away_goals": 1
     }
   ]
 }
