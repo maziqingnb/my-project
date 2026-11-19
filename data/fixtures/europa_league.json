@@ -1,1 +1,182 @@
-[]
+[
+  {
+    "key": "europa_league|比尔森胜利|本菲卡|2026-11-26",
+    "competition": "europa_league",
+    "home": "比尔森胜利",
+    "away": "本菲卡",
+    "kickoff": "2026-11-26T17:45:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "europa_league|奥林匹亚科斯|acmilan|2026-11-26",
+    "competition": "europa_league",
+    "home": "奥林匹亚科斯",
+    "away": "AC Milan",
+    "kickoff": "2026-11-26T17:45:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "europa_league|萨格勒布迪纳摩|bayerleverkusen|2026-11-26",
+    "competition": "europa_league",
+    "home": "萨格勒布迪纳摩",
+    "away": "Bayer Leverkusen",
+    "kickoff": "2026-11-26T17:45:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "europa_league|celtavigo|bournemouth|2026-11-26",
+    "competition": "europa_league",
+    "home": "Celta Vigo",
+    "away": "Bournemouth",
+    "kickoff": "2026-11-26T17:45:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "europa_league|贝西克塔斯|贝尔谢巴夏普尔|2026-11-26",
+    "competition": "europa_league",
+    "home": "贝西克塔斯",
+    "away": "贝尔谢巴夏普尔",
+    "kickoff": "2026-11-26T17:45:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "europa_league|marseille|索非亚列夫斯基|2026-11-26",
+    "competition": "europa_league",
+    "home": "Marseille",
+    "away": "索非亚列夫斯基",
+    "kickoff": "2026-11-26T17:45:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "europa_league|圣吉罗斯|波兹南莱赫|2026-11-26",
+    "competition": "europa_league",
+    "home": "圣吉罗斯",
+    "away": "波兹南莱赫",
+    "kickoff": "2026-11-26T17:45:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "europa_league|萨尔茨堡|阿拉特亚美尼亚|2026-11-26",
+    "competition": "europa_league",
+    "home": "萨尔茨堡",
+    "away": "阿拉特亚美尼亚",
+    "kickoff": "2026-11-26T17:45:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "europa_league|juventus|奥莫尼亚|2026-11-26",
+    "competition": "europa_league",
+    "home": "Juventus",
+    "away": "奥莫尼亚",
+    "kickoff": "2026-11-26T20:00:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "europa_league|sunderland|比亚韦斯托克雅盖隆|2026-11-26",
+    "competition": "europa_league",
+    "home": "Sunderland",
+    "away": "比亚韦斯托克雅盖隆",
+    "kickoff": "2026-11-26T20:00:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "europa_league|lyon|利勒斯特罗姆|2026-11-26",
+    "competition": "europa_league",
+    "home": "Lyon",
+    "away": "利勒斯特罗姆",
+    "kickoff": "2026-11-26T20:00:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "europa_league|布拉格斯巴达|阿尔克马尔|2026-11-26",
+    "competition": "europa_league",
+    "home": "布拉格斯巴达",
+    "away": "阿尔克马尔",
+    "kickoff": "2026-11-26T20:00:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "europa_league|crystalpalace|realsociedad|2026-11-26",
+    "competition": "europa_league",
+    "home": "Crystal Palace",
+    "away": "Real Sociedad",
+    "kickoff": "2026-11-26T20:00:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "europa_league|费伦茨瓦罗斯|采列|2026-11-26",
+    "competition": "europa_league",
+    "home": "费伦茨瓦罗斯",
+    "away": "采列",
+    "kickoff": "2026-11-26T20:00:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "europa_league|杜连斯|凯尔特人|2026-11-26",
+    "competition": "europa_league",
+    "home": "杜连斯",
+    "away": "凯尔特人",
+    "kickoff": "2026-11-26T20:00:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "europa_league|奈梅亨|rennes|2026-11-26",
+    "competition": "europa_league",
+    "home": "奈梅亨",
+    "away": "Rennes",
+    "kickoff": "2026-11-26T20:00:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "europa_league|ofi克里特|安德莱赫特|2026-11-26",
+    "competition": "europa_league",
+    "home": "OFI克里特",
+    "away": "安德莱赫特",
+    "kickoff": "2026-11-26T20:00:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "europa_league|hoffenheim|格拉茨风暴|2026-11-26",
+    "competition": "europa_league",
+    "home": "Hoffenheim",
+    "away": "格拉茨风暴",
+    "kickoff": "2026-11-26T20:00:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  }
+]
