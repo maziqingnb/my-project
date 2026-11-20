@@ -1,0 +1,32 @@
+[
+  {
+    "fixture_key": "bundesliga|elversberg|freiburg|2026-11-21",
+    "competition": "bundesliga",
+    "home": "Elversberg",
+    "away": "Freiburg",
+    "kickoff": "2026-11-21T14:30:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-20T14:30:00+00:00",
+    "handicap_line": 0.5,
+    "handicap_home": 0.84,
+    "handicap_away": 1.04,
+    "total_line": 3.25,
+    "over": 1.05,
+    "under": 0.81
+  },
+  {
+    "fixture_key": "bundesliga|elversberg|freiburg|2026-11-21",
+    "competition": "bundesliga",
+    "home": "Elversberg",
+    "away": "Freiburg",
+    "kickoff": "2026-11-21T14:30:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-20T16:23:16.123787+00:00",
+    "handicap_line": 0.5,
+    "handicap_home": 0.89,
+    "handicap_away": 0.99,
+    "total_line": 3.0,
+    "over": 0.93,
+    "under": 0.95
+  }
+]

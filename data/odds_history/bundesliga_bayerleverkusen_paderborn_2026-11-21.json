@@ -1,0 +1,32 @@
+[
+  {
+    "fixture_key": "bundesliga|bayerleverkusen|paderborn|2026-11-21",
+    "competition": "bundesliga",
+    "home": "Bayer Leverkusen",
+    "away": "Paderborn",
+    "kickoff": "2026-11-21T14:30:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-20T14:30:00+00:00",
+    "handicap_line": -1.75,
+    "handicap_home": 0.84,
+    "handicap_away": 1.04,
+    "total_line": 3.75,
+    "over": 1.02,
+    "under": 0.84
+  },
+  {
+    "fixture_key": "bundesliga|bayerleverkusen|paderborn|2026-11-21",
+    "competition": "bundesliga",
+    "home": "Bayer Leverkusen",
+    "away": "Paderborn",
+    "kickoff": "2026-11-21T14:30:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-20T16:23:12.905943+00:00",
+    "handicap_line": -1.75,
+    "handicap_home": 0.94,
+    "handicap_away": 0.94,
+    "total_line": 3.5,
+    "over": 0.91,
+    "under": 0.97
+  }
+]
