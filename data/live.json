@@ -1,4 +1,15 @@
 {
-  "generated_at": "2026-11-20T16:26:46.829824+00:00",
-  "matches": []
+  "generated_at": "2026-11-20T16:53:31.280718+00:00",
+  "matches": [
+    {
+      "fixture_key": "rpl|rostov|kryliasovetov|2026-11-20",
+      "competition": "rpl",
+      "home": "Rostov",
+      "away": "Krylia Sovetov",
+      "kickoff": "2026-11-20T16:30:00",
+      "status": "live",
+      "home_goals": 1,
+      "away_goals": 0
+    }
+  ]
 }
