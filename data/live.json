@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-20T01:08:14.041015+00:00",
+  "generated_at": "2026-11-20T02:19:28.021870+00:00",
   "matches": [
     {
       "fixture_key": "brasileirao|圣保罗|弗鲁米嫩塞|2026-11-20",
@@ -19,7 +19,7 @@
       "kickoff": "2026-11-20T00:30:00",
       "status": "live",
       "home_goals": 1,
-      "away_goals": 0
+      "away_goals": 2
     }
   ]
 }
