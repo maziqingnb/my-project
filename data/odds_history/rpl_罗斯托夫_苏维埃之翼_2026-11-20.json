@@ -336,6 +336,21 @@
     "away": "苏维埃之翼",
     "kickoff": "2026-11-20T16:30:00",
     "bookmaker": "crown",
+    "ts": "2026-11-19T16:30:00+00:00",
+    "handicap_line": -0.5,
+    "handicap_home": 0.94,
+    "handicap_away": 0.94,
+    "total_line": 2.25,
+    "over": 0.86,
+    "under": 1.01
+  },
+  {
+    "fixture_key": "rpl|罗斯托夫|苏维埃之翼|2026-11-20",
+    "competition": "rpl",
+    "home": "罗斯托夫",
+    "away": "苏维埃之翼",
+    "kickoff": "2026-11-20T16:30:00",
+    "bookmaker": "crown",
     "ts": "2026-11-19T17:29:08.689046+00:00",
     "handicap_line": -0.5,
     "handicap_home": 0.94,
@@ -628,5 +643,20 @@
     "total_line": 2.25,
     "over": 0.93,
     "under": 0.94
+  },
+  {
+    "fixture_key": "rpl|罗斯托夫|苏维埃之翼|2026-11-20",
+    "competition": "rpl",
+    "home": "罗斯托夫",
+    "away": "苏维埃之翼",
+    "kickoff": "2026-11-20T16:30:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-20T11:49:30.876627+00:00",
+    "handicap_line": -0.25,
+    "handicap_home": 1.01,
+    "handicap_away": 0.88,
+    "total_line": 2.25,
+    "over": 0.98,
+    "under": 0.89
   }
 ]
