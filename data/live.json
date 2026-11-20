@@ -1,25 +1,4 @@
 {
-  "generated_at": "2026-11-20T02:19:28.021870+00:00",
-  "matches": [
-    {
-      "fixture_key": "brasileirao|圣保罗|弗鲁米嫩塞|2026-11-20",
-      "competition": "brasileirao",
-      "home": "圣保罗",
-      "away": "弗鲁米嫩塞",
-      "kickoff": "2026-11-20T00:30:00",
-      "status": "live",
-      "home_goals": 0,
-      "away_goals": 1
-    },
-    {
-      "fixture_key": "mls|奥兰多城|fccincinnati|2026-11-20",
-      "competition": "mls",
-      "home": "奥兰多城",
-      "away": "FC Cincinnati",
-      "kickoff": "2026-11-20T00:30:00",
-      "status": "live",
-      "home_goals": 1,
-      "away_goals": 2
-    }
-  ]
+  "generated_at": "2026-11-20T03:10:26.194233+00:00",
+  "matches": []
 }
