@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-20T06:54:24.005852+00:00",
+  "generated_at": "2026-11-20T12:53:47.175097+00:00",
   "matches": [
     {
       "fixture_key": "rpl|罗斯托夫|苏维埃之翼|2026-11-20",
@@ -1132,6 +1132,16 @@
       "kickoff": "2026-11-22T20:30:00"
     },
     {
+      "fixture_key": "mls|纳什威尔sc|辛辛那提|2026-11-22",
+      "competition": "mls",
+      "competition_name": "美国职业大联盟",
+      "competition_class": "league",
+      "sport": "football",
+      "home": "纳什威尔SC",
+      "away": "辛辛那提",
+      "kickoff": "2026-11-22T21:00:00"
+    },
+    {
       "fixture_key": "brasileirao|弗鲁米嫩塞|米拉索|2026-11-22",
       "competition": "brasileirao",
       "competition_name": "巴西甲级联赛",
@@ -1230,6 +1240,16 @@
       "home": "New York Knicks",
       "away": "Indiana Pacers",
       "kickoff": "2026-11-23T01:00:00"
+    },
+    {
+      "fixture_key": "mls|温哥华白浪|皇家盐湖城|2026-11-23",
+      "competition": "mls",
+      "competition_name": "美国职业大联盟",
+      "competition_class": "league",
+      "sport": "football",
+      "home": "温哥华白浪",
+      "away": "皇家盐湖城",
+      "kickoff": "2026-11-23T01:30:00"
     },
     {
       "fixture_key": "nba|goldenstatewarriors|bostonceltics|2026-11-23",
