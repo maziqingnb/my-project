@@ -1,45 +1,5 @@
 [
   {
-    "key": "nba|milwaukeebucks|portlandtrailblazers|2026-11-20",
-    "competition": "nba",
-    "home": "Milwaukee Bucks",
-    "away": "Portland Trail Blazers",
-    "kickoff": "2026-11-20T01:00:00",
-    "status": "upcoming",
-    "home_goals": null,
-    "away_goals": null
-  },
-  {
-    "key": "nba|minnesotatimberwolves|newyorkknicks|2026-11-20",
-    "competition": "nba",
-    "home": "Minnesota Timberwolves",
-    "away": "New York Knicks",
-    "kickoff": "2026-11-20T01:00:00",
-    "status": "upcoming",
-    "home_goals": null,
-    "away_goals": null
-  },
-  {
-    "key": "nba|sanantoniospurs|losangelesclippers|2026-11-20",
-    "competition": "nba",
-    "home": "San Antonio Spurs",
-    "away": "Los Angeles Clippers",
-    "kickoff": "2026-11-20T01:00:00",
-    "status": "upcoming",
-    "home_goals": null,
-    "away_goals": null
-  },
-  {
-    "key": "nba|memphisgrizzlies|goldenstatewarriors|2026-11-20",
-    "competition": "nba",
-    "home": "Memphis Grizzlies",
-    "away": "Golden State Warriors",
-    "kickoff": "2026-11-20T01:00:00",
-    "status": "upcoming",
-    "home_goals": null,
-    "away_goals": null
-  },
-  {
     "key": "nba|atlantahawks|charlottehornets|2026-11-21",
     "competition": "nba",
     "home": "Atlanta Hawks",

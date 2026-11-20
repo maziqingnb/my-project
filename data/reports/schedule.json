@@ -1,56 +1,6 @@
 {
-  "generated_at": "2026-11-20T00:39:21.685231+00:00",
+  "generated_at": "2026-11-20T06:54:24.005852+00:00",
   "matches": [
-    {
-      "fixture_key": "nba|milwaukeebucks|portlandtrailblazers|2026-11-20",
-      "competition": "nba",
-      "competition_name": "NBA 美国职业篮球联赛",
-      "competition_class": "league",
-      "sport": "basketball",
-      "home": "Milwaukee Bucks",
-      "away": "Portland Trail Blazers",
-      "kickoff": "2026-11-20T01:00:00"
-    },
-    {
-      "fixture_key": "nba|minnesotatimberwolves|newyorkknicks|2026-11-20",
-      "competition": "nba",
-      "competition_name": "NBA 美国职业篮球联赛",
-      "competition_class": "league",
-      "sport": "basketball",
-      "home": "Minnesota Timberwolves",
-      "away": "New York Knicks",
-      "kickoff": "2026-11-20T01:00:00"
-    },
-    {
-      "fixture_key": "nba|sanantoniospurs|losangelesclippers|2026-11-20",
-      "competition": "nba",
-      "competition_name": "NBA 美国职业篮球联赛",
-      "competition_class": "league",
-      "sport": "basketball",
-      "home": "San Antonio Spurs",
-      "away": "Los Angeles Clippers",
-      "kickoff": "2026-11-20T01:00:00"
-    },
-    {
-      "fixture_key": "nba|memphisgrizzlies|goldenstatewarriors|2026-11-20",
-      "competition": "nba",
-      "competition_name": "NBA 美国职业篮球联赛",
-      "competition_class": "league",
-      "sport": "basketball",
-      "home": "Memphis Grizzlies",
-      "away": "Golden State Warriors",
-      "kickoff": "2026-11-20T01:00:00"
-    },
-    {
-      "fixture_key": "mls|西雅图海湾人|皇家盐湖城|2026-11-20",
-      "competition": "mls",
-      "competition_name": "美国职业大联盟",
-      "competition_class": "league",
-      "sport": "football",
-      "home": "西雅图海湾人",
-      "away": "皇家盐湖城",
-      "kickoff": "2026-11-20T03:00:00"
-    },
     {
       "fixture_key": "rpl|罗斯托夫|苏维埃之翼|2026-11-20",
       "competition": "rpl",
