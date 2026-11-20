@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-20T20:35:53.439680+00:00",
+  "generated_at": "2026-11-20T21:28:31.375867+00:00",
   "matches": [
     {
       "fixture_key": "laliga|athleticbilbao|espanyol|2026-11-20",
@@ -9,16 +9,6 @@
       "kickoff": "2026-11-20T20:00:00",
       "status": "live",
       "home_goals": 0,
-      "away_goals": 0
-    },
-    {
-      "fixture_key": "bundesliga|bayernmunich|fckoln|2026-11-20",
-      "competition": "bundesliga",
-      "home": "Bayern Munich",
-      "away": "FC Koln",
-      "kickoff": "2026-11-20T19:30:00",
-      "status": "live",
-      "home_goals": 1,
       "away_goals": 1
     },
     {
@@ -28,7 +18,7 @@
       "away": "Le Havre",
       "kickoff": "2026-11-20T19:45:00",
       "status": "live",
-      "home_goals": 1,
+      "home_goals": 2,
       "away_goals": 1
     }
   ]

@@ -2,6 +2,17 @@
   {
     "competition": "poland",
     "cls": "league",
+    "home": "什切青",
+    "away": "史拉斯科",
+    "home_goals": 1,
+    "away_goals": 2,
+    "date": "2026-11-20",
+    "handicap_line": -0.75,
+    "total_line": 3.0
+  },
+  {
+    "competition": "poland",
+    "cls": "league",
     "home": "皮亚斯特",
     "away": "哥罗纳",
     "home_goals": 2,
