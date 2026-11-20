@@ -1,6 +1,26 @@
 {
-  "generated_at": "2026-11-20T18:49:56.635404+00:00",
+  "generated_at": "2026-11-20T19:47:27.975531+00:00",
   "matches": [
+    {
+      "fixture_key": "bundesliga|bayernmunich|fckoln|2026-11-20",
+      "competition": "bundesliga",
+      "home": "Bayern Munich",
+      "away": "FC Koln",
+      "kickoff": "2026-11-20T19:30:00",
+      "status": "live",
+      "home_goals": 0,
+      "away_goals": 1
+    },
+    {
+      "fixture_key": "ligue1|troyes|lehavre|2026-11-20",
+      "competition": "ligue1",
+      "home": "Troyes",
+      "away": "Le Havre",
+      "kickoff": "2026-11-20T19:45:00",
+      "status": "live",
+      "home_goals": 0,
+      "away_goals": 0
+    },
     {
       "fixture_key": "denmark|agf|lyngbyboldklub|2026-11-20",
       "competition": "denmark",
@@ -10,6 +30,16 @@
       "status": "live",
       "home_goals": 2,
       "away_goals": 1
+    },
+    {
+      "fixture_key": "poland|什切青|史拉斯科|2026-11-20",
+      "competition": "poland",
+      "home": "什切青",
+      "away": "史拉斯科",
+      "kickoff": "2026-11-20T19:30:00",
+      "status": "live",
+      "home_goals": 0,
+      "away_goals": 0
     }
   ]
 }
