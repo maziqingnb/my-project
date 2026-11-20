@@ -78,5 +78,15 @@
     "status": "upcoming",
     "home_goals": null,
     "away_goals": null
+  },
+  {
+    "key": "mls|哥伦布机员|迈阿密国际|2026-11-28",
+    "competition": "mls",
+    "home": "哥伦布机员",
+    "away": "迈阿密国际",
+    "kickoff": "2026-11-28T01:00:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
   }
 ]

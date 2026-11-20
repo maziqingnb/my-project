@@ -118,5 +118,15 @@
     "status": "upcoming",
     "home_goals": null,
     "away_goals": null
+  },
+  {
+    "key": "brasileirao|弗鲁米嫩塞|克鲁塞罗|2026-11-27",
+    "competition": "brasileirao",
+    "home": "弗鲁米嫩塞",
+    "away": "克鲁塞罗",
+    "kickoff": "2026-11-27T23:00:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
   }
 ]

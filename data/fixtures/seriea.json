@@ -98,5 +98,15 @@
     "status": "upcoming",
     "home_goals": null,
     "away_goals": null
+  },
+  {
+    "key": "seriea|venezia|bologna|2026-11-27",
+    "competition": "seriea",
+    "home": "Venezia",
+    "away": "Bologna",
+    "kickoff": "2026-11-27T19:45:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
   }
 ]

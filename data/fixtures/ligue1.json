@@ -1,15 +1,5 @@
 [
   {
-    "key": "ligue1|troyes|lehavre|2026-11-20",
-    "competition": "ligue1",
-    "home": "Troyes",
-    "away": "Le Havre",
-    "kickoff": "2026-11-20T19:45:00",
-    "status": "upcoming",
-    "home_goals": null,
-    "away_goals": null
-  },
-  {
     "key": "ligue1|nice|parissaintgermain|2026-11-21",
     "competition": "ligue1",
     "home": "Nice",
@@ -85,6 +75,16 @@
     "home": "Marseille",
     "away": "Le Mans",
     "kickoff": "2026-11-22T19:45:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "ligue1|brest|parisfc|2026-11-27",
+    "competition": "ligue1",
+    "home": "Brest",
+    "away": "Paris FC",
+    "kickoff": "2026-11-27T19:45:00",
     "status": "upcoming",
     "home_goals": null,
     "away_goals": null

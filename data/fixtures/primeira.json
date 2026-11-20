@@ -1,1 +1,12 @@
-[]
+[
+  {
+    "key": "primeira|马里迪莫|葡萄牙国民|2026-11-27",
+    "competition": "primeira",
+    "home": "马里迪莫",
+    "away": "葡萄牙国民",
+    "kickoff": "2026-11-27T20:15:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  }
+]
