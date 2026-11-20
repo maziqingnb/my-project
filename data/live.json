@@ -1,4 +1,15 @@
 {
-  "generated_at": "2026-11-20T03:10:26.194233+00:00",
-  "matches": []
+  "generated_at": "2026-11-20T04:06:07.868104+00:00",
+  "matches": [
+    {
+      "fixture_key": "mls|西雅图海湾人|realsaltlake|2026-11-20",
+      "competition": "mls",
+      "home": "西雅图海湾人",
+      "away": "Real Salt Lake",
+      "kickoff": "2026-11-20T03:00:00",
+      "status": "live",
+      "home_goals": 1,
+      "away_goals": 0
+    }
+  ]
 }
