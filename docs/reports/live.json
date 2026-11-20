@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-11-20T00:03:48.665099+00:00",
+  "generated_at": "2026-11-20T01:08:14.041015+00:00",
   "matches": [
     {
-      "fixture_key": "brasileirao|瓦斯科达伽马|巴西国际|2026-11-19",
+      "fixture_key": "brasileirao|圣保罗|弗鲁米嫩塞|2026-11-20",
       "competition": "brasileirao",
-      "home": "瓦斯科达伽马",
-      "away": "巴西国际",
-      "kickoff": "2026-11-19T22:30:00",
+      "home": "圣保罗",
+      "away": "弗鲁米嫩塞",
+      "kickoff": "2026-11-20T00:30:00",
       "status": "live",
-      "home_goals": 2,
+      "home_goals": 0,
       "away_goals": 1
     },
     {
-      "fixture_key": "brasileirao|维多利亚|布拉干蒂诺rb|2026-11-19",
-      "competition": "brasileirao",
-      "home": "维多利亚",
-      "away": "布拉干蒂诺RB",
-      "kickoff": "2026-11-19T22:30:00",
+      "fixture_key": "mls|奥兰多城|fccincinnati|2026-11-20",
+      "competition": "mls",
+      "home": "奥兰多城",
+      "away": "FC Cincinnati",
+      "kickoff": "2026-11-20T00:30:00",
       "status": "live",
-      "home_goals": 2,
+      "home_goals": 1,
       "away_goals": 0
     }
   ]
