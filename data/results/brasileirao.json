@@ -13,6 +13,17 @@
   {
     "competition": "brasileirao",
     "cls": "league",
+    "home": "瓦斯科达伽马",
+    "away": "巴西国际",
+    "home_goals": 2,
+    "away_goals": 1,
+    "date": "2026-11-19",
+    "handicap_line": -0.75,
+    "total_line": 2.5
+  },
+  {
+    "competition": "brasileirao",
+    "cls": "league",
     "home": "科林蒂安",
     "away": "博塔弗戈",
     "home_goals": 4,
@@ -20,6 +31,17 @@
     "date": "2026-11-19",
     "handicap_line": -0.5,
     "total_line": 2.5
+  },
+  {
+    "competition": "brasileirao",
+    "cls": "league",
+    "home": "维多利亚",
+    "away": "布拉干蒂诺RB",
+    "home_goals": 2,
+    "away_goals": 1,
+    "date": "2026-11-19",
+    "handicap_line": 0.0,
+    "total_line": 2.75
   },
   {
     "competition": "brasileirao",
