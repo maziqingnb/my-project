@@ -24,6 +24,17 @@
   {
     "competition": "mls",
     "cls": "league",
+    "home": "西雅图海湾人",
+    "away": "皇家盐湖城",
+    "home_goals": 1,
+    "away_goals": 1,
+    "date": "2026-11-20",
+    "handicap_line": -0.5,
+    "total_line": 3.0
+  },
+  {
+    "competition": "mls",
+    "cls": "league",
     "home": "FC Dallas",
     "away": "Colorado Rapids",
     "home_goals": 3,

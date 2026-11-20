@@ -2,6 +2,50 @@
   {
     "competition": "nba",
     "cls": "league",
+    "home": "Memphis Grizzlies",
+    "away": "Golden State Warriors",
+    "home_goals": 126,
+    "away_goals": 98,
+    "date": "2026-11-20",
+    "handicap_line": null,
+    "total_line": null
+  },
+  {
+    "competition": "nba",
+    "cls": "league",
+    "home": "Milwaukee Bucks",
+    "away": "Portland Trail Blazers",
+    "home_goals": 114,
+    "away_goals": 124,
+    "date": "2026-11-20",
+    "handicap_line": null,
+    "total_line": null
+  },
+  {
+    "competition": "nba",
+    "cls": "league",
+    "home": "Minnesota Timberwolves",
+    "away": "New York Knicks",
+    "home_goals": 99,
+    "away_goals": 102,
+    "date": "2026-11-20",
+    "handicap_line": null,
+    "total_line": null
+  },
+  {
+    "competition": "nba",
+    "cls": "league",
+    "home": "San Antonio Spurs",
+    "away": "Los Angeles Clippers",
+    "home_goals": 124,
+    "away_goals": 112,
+    "date": "2026-11-20",
+    "handicap_line": null,
+    "total_line": null
+  },
+  {
+    "competition": "nba",
+    "cls": "league",
     "home": "Brooklyn Nets",
     "away": "Chicago Bulls",
     "home_goals": 107,
