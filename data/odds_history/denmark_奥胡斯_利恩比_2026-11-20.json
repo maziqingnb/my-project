@@ -396,6 +396,21 @@
     "away": "利恩比",
     "kickoff": "2026-11-20T18:00:00",
     "bookmaker": "crown",
+    "ts": "2026-11-19T18:00:00+00:00",
+    "handicap_line": -0.75,
+    "handicap_home": 0.97,
+    "handicap_away": 0.91,
+    "total_line": 3.0,
+    "over": 0.97,
+    "under": 0.89
+  },
+  {
+    "fixture_key": "denmark|奥胡斯|利恩比|2026-11-20",
+    "competition": "denmark",
+    "home": "奥胡斯",
+    "away": "利恩比",
+    "kickoff": "2026-11-20T18:00:00",
+    "bookmaker": "crown",
     "ts": "2026-11-19T18:23:24.176925+00:00",
     "handicap_line": -0.75,
     "handicap_home": 0.9,
@@ -718,5 +733,20 @@
     "total_line": 3.0,
     "over": 0.87,
     "under": 1.0
+  },
+  {
+    "fixture_key": "denmark|奥胡斯|利恩比|2026-11-20",
+    "competition": "denmark",
+    "home": "奥胡斯",
+    "away": "利恩比",
+    "kickoff": "2026-11-20T18:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-20T14:10:18.462071+00:00",
+    "handicap_line": -0.75,
+    "handicap_home": 0.84,
+    "handicap_away": 1.05,
+    "total_line": 3.0,
+    "over": 0.85,
+    "under": 1.02
   }
 ]
