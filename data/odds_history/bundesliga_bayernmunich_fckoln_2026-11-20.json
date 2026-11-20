@@ -366,6 +366,21 @@
     "away": "FC Koln",
     "kickoff": "2026-11-20T19:30:00",
     "bookmaker": "crown",
+    "ts": "2026-11-19T19:30:00+00:00",
+    "handicap_line": -2.75,
+    "handicap_home": 0.86,
+    "handicap_away": 1.02,
+    "total_line": 4.25,
+    "over": 0.93,
+    "under": 0.93
+  },
+  {
+    "fixture_key": "bundesliga|bayernmunich|fckoln|2026-11-20",
+    "competition": "bundesliga",
+    "home": "Bayern Munich",
+    "away": "FC Koln",
+    "kickoff": "2026-11-20T19:30:00",
+    "bookmaker": "crown",
     "ts": "2026-11-19T19:30:09.808170+00:00",
     "handicap_line": -3.0,
     "handicap_home": 0.84,
@@ -598,5 +613,20 @@
     "total_line": 4.5,
     "over": 1.01,
     "under": 0.87
+  },
+  {
+    "fixture_key": "bundesliga|bayernmunich|fckoln|2026-11-20",
+    "competition": "bundesliga",
+    "home": "Bayern Munich",
+    "away": "FC Koln",
+    "kickoff": "2026-11-20T19:30:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-20T10:30:32.289809+00:00",
+    "handicap_line": -3.0,
+    "handicap_home": 0.96,
+    "handicap_away": 0.93,
+    "total_line": 4.5,
+    "over": 0.94,
+    "under": 0.94
   }
 ]
