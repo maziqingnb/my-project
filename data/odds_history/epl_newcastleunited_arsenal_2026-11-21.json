@@ -426,6 +426,21 @@
     "away": "Arsenal",
     "kickoff": "2026-11-21T17:30:00",
     "bookmaker": "crown",
+    "ts": "2026-11-20T17:30:00+00:00",
+    "handicap_line": 1.0,
+    "handicap_home": 0.81,
+    "handicap_away": 1.07,
+    "total_line": 2.75,
+    "over": 0.93,
+    "under": 0.93
+  },
+  {
+    "fixture_key": "epl|newcastleunited|arsenal|2026-11-21",
+    "competition": "epl",
+    "home": "Newcastle United",
+    "away": "Arsenal",
+    "kickoff": "2026-11-21T17:30:00",
+    "bookmaker": "crown",
     "ts": "2026-11-20T18:22:41.555720+00:00",
     "handicap_line": 1.0,
     "handicap_home": 0.94,
@@ -778,5 +793,20 @@
     "total_line": 2.75,
     "over": 1.06,
     "under": 0.83
+  },
+  {
+    "fixture_key": "epl|newcastleunited|arsenal|2026-11-21",
+    "competition": "epl",
+    "home": "Newcastle United",
+    "away": "Arsenal",
+    "kickoff": "2026-11-21T17:30:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-21T15:36:42.344130+00:00",
+    "handicap_line": 1.0,
+    "handicap_home": 0.93,
+    "handicap_away": 0.96,
+    "total_line": 2.5,
+    "over": 0.92,
+    "under": 0.97
   }
 ]
