@@ -321,6 +321,21 @@
     "away": "Borussia Dortmund",
     "kickoff": "2026-11-21T14:30:00",
     "bookmaker": "crown",
+    "ts": "2026-11-20T14:30:00+00:00",
+    "handicap_line": 0.75,
+    "handicap_home": 1.05,
+    "handicap_away": 0.83,
+    "total_line": 3.25,
+    "over": 0.99,
+    "under": 0.87
+  },
+  {
+    "fixture_key": "bundesliga|borussiamonchengladbach|borussiadortmund|2026-11-21",
+    "competition": "bundesliga",
+    "home": "Borussia Monchengladbach",
+    "away": "Borussia Dortmund",
+    "kickoff": "2026-11-21T14:30:00",
+    "bookmaker": "crown",
     "ts": "2026-11-20T16:23:13.247388+00:00",
     "handicap_line": 1.0,
     "handicap_home": 0.93,
@@ -628,5 +643,20 @@
     "total_line": 3.25,
     "over": 1.06,
     "under": 0.82
+  },
+  {
+    "fixture_key": "bundesliga|borussiamonchengladbach|borussiadortmund|2026-11-21",
+    "competition": "bundesliga",
+    "home": "Borussia Monchengladbach",
+    "away": "Borussia Dortmund",
+    "kickoff": "2026-11-21T14:30:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-21T11:38:10.322871+00:00",
+    "handicap_line": 1.0,
+    "handicap_home": 0.96,
+    "handicap_away": 0.93,
+    "total_line": 3.25,
+    "over": 1.07,
+    "under": 0.81
   }
 ]

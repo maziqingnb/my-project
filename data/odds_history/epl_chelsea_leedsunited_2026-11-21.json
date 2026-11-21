@@ -321,6 +321,21 @@
     "away": "Leeds United",
     "kickoff": "2026-11-21T15:00:00",
     "bookmaker": "crown",
+    "ts": "2026-11-20T15:00:00+00:00",
+    "handicap_line": -0.5,
+    "handicap_home": 0.83,
+    "handicap_away": 1.05,
+    "total_line": 2.75,
+    "over": 0.99,
+    "under": 0.87
+  },
+  {
+    "fixture_key": "epl|chelsea|leedsunited|2026-11-21",
+    "competition": "epl",
+    "home": "Chelsea",
+    "away": "Leeds United",
+    "kickoff": "2026-11-21T15:00:00",
+    "bookmaker": "crown",
     "ts": "2026-11-20T16:23:11.532283+00:00",
     "handicap_line": -0.5,
     "handicap_home": 0.99,
@@ -628,5 +643,20 @@
     "total_line": 2.5,
     "over": 0.98,
     "under": 0.91
+  },
+  {
+    "fixture_key": "epl|chelsea|leedsunited|2026-11-21",
+    "competition": "epl",
+    "home": "Chelsea",
+    "away": "Leeds United",
+    "kickoff": "2026-11-21T15:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-21T11:38:08.135202+00:00",
+    "handicap_line": -0.5,
+    "handicap_home": 1.04,
+    "handicap_away": 0.85,
+    "total_line": 2.5,
+    "over": 0.97,
+    "under": 0.92
   }
 ]
