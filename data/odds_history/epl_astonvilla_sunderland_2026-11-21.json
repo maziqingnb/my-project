@@ -276,6 +276,21 @@
     "away": "Sunderland",
     "kickoff": "2026-11-21T15:00:00",
     "bookmaker": "crown",
+    "ts": "2026-11-20T15:00:00+00:00",
+    "handicap_line": -0.75,
+    "handicap_home": 0.97,
+    "handicap_away": 0.91,
+    "total_line": 2.75,
+    "over": 0.96,
+    "under": 0.9
+  },
+  {
+    "fixture_key": "epl|astonvilla|sunderland|2026-11-21",
+    "competition": "epl",
+    "home": "Aston Villa",
+    "away": "Sunderland",
+    "kickoff": "2026-11-21T15:00:00",
+    "bookmaker": "crown",
     "ts": "2026-11-20T16:23:06.287030+00:00",
     "handicap_line": -0.75,
     "handicap_home": 1.0,
@@ -538,5 +553,20 @@
     "total_line": 2.75,
     "over": 0.98,
     "under": 0.9
+  },
+  {
+    "fixture_key": "epl|astonvilla|sunderland|2026-11-21",
+    "competition": "epl",
+    "home": "Aston Villa",
+    "away": "Sunderland",
+    "kickoff": "2026-11-21T15:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-21T08:42:47.126423+00:00",
+    "handicap_line": -0.75,
+    "handicap_home": 1.0,
+    "handicap_away": 0.89,
+    "total_line": 2.75,
+    "over": 1.04,
+    "under": 0.84
   }
 ]

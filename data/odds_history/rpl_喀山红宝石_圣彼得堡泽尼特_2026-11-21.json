@@ -276,6 +276,21 @@
     "away": "圣彼得堡泽尼特",
     "kickoff": "2026-11-21T14:30:00",
     "bookmaker": "crown",
+    "ts": "2026-11-20T14:30:00+00:00",
+    "handicap_line": 1.0,
+    "handicap_home": 0.9,
+    "handicap_away": 0.98,
+    "total_line": 2.5,
+    "over": 0.96,
+    "under": 0.91
+  },
+  {
+    "fixture_key": "rpl|喀山红宝石|圣彼得堡泽尼特|2026-11-21",
+    "competition": "rpl",
+    "home": "喀山红宝石",
+    "away": "圣彼得堡泽尼特",
+    "kickoff": "2026-11-21T14:30:00",
+    "bookmaker": "crown",
     "ts": "2026-11-20T16:23:18.360361+00:00",
     "handicap_line": 0.75,
     "handicap_home": 1.08,
@@ -538,5 +553,20 @@
     "total_line": 2.5,
     "over": 0.89,
     "under": 0.98
+  },
+  {
+    "fixture_key": "rpl|喀山红宝石|圣彼得堡泽尼特|2026-11-21",
+    "competition": "rpl",
+    "home": "喀山红宝石",
+    "away": "圣彼得堡泽尼特",
+    "kickoff": "2026-11-21T14:30:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-21T08:42:58.307738+00:00",
+    "handicap_line": 1.0,
+    "handicap_home": 0.86,
+    "handicap_away": 1.03,
+    "total_line": 2.5,
+    "over": 0.91,
+    "under": 0.96
   }
 ]
