@@ -381,6 +381,21 @@
     "away": "Ipswich Town",
     "kickoff": "2026-11-21T15:00:00",
     "bookmaker": "crown",
+    "ts": "2026-11-20T15:00:00+00:00",
+    "handicap_line": -1.0,
+    "handicap_home": 0.8,
+    "handicap_away": 1.08,
+    "total_line": 3.0,
+    "over": 0.99,
+    "under": 0.87
+  },
+  {
+    "fixture_key": "epl|tottenhamhotspur|ipswichtown|2026-11-21",
+    "competition": "epl",
+    "home": "Tottenham Hotspur",
+    "away": "Ipswich Town",
+    "kickoff": "2026-11-21T15:00:00",
+    "bookmaker": "crown",
     "ts": "2026-11-20T16:23:12.355767+00:00",
     "handicap_line": -1.0,
     "handicap_home": 0.9,
@@ -748,5 +763,20 @@
     "total_line": 3.0,
     "over": 0.86,
     "under": 1.03
+  },
+  {
+    "fixture_key": "epl|tottenhamhotspur|ipswichtown|2026-11-21",
+    "competition": "epl",
+    "home": "Tottenham Hotspur",
+    "away": "Ipswich Town",
+    "kickoff": "2026-11-21T15:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-21T14:42:17.896769+00:00",
+    "handicap_line": -1.0,
+    "handicap_home": 0.86,
+    "handicap_away": 1.03,
+    "total_line": 3.0,
+    "over": 0.95,
+    "under": 0.94
   }
 ]
