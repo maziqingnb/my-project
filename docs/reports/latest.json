@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-21T12:40:18.218376+00:00",
+  "generated_at": "2026-11-21T12:42:26.804900+00:00",
   "scope": "16 个联赛 + 5 个杯赛",
   "note": "杯赛与联赛数据分开计算；仅开赛前 6h 内出推荐；命中率只统计强推",
   "total": 3,
@@ -481,6 +481,12 @@
           "under": 0.85
         },
         {
+          "ts": "2026-11-20T13:00:00+00:00",
+          "total_line": 3.0,
+          "over": 1.02,
+          "under": 0.85
+        },
+        {
           "ts": "2026-11-20T16:23:24.234350+00:00",
           "total_line": 3.0,
           "over": 1.02,
@@ -617,13 +623,19 @@
           "total_line": 3.0,
           "over": 0.84,
           "under": 1.03
+        },
+        {
+          "ts": "2026-11-21T12:42:14.281283+00:00",
+          "total_line": 3.0,
+          "over": 0.84,
+          "under": 1.03
         }
       ],
       "reliability": 1.0,
       "competition_name": "土耳其超级联赛",
       "competition_class": "league",
       "sport": "football",
-      "lead_hours": 0.3335092491666667,
+      "lead_hours": 0.2960329769444444,
       "prematch": true,
       "result": {
         "settled": false
@@ -659,6 +671,12 @@
         "conflict": false
       },
       "history": [
+        {
+          "ts": "2026-11-20T13:00:00+00:00",
+          "total_line": 3.5,
+          "over": 0.87,
+          "under": 1.0
+        },
         {
           "ts": "2026-11-20T13:00:00+00:00",
           "total_line": 3.5,
@@ -934,13 +952,19 @@
           "total_line": 3.5,
           "over": 0.89,
           "under": 0.98
+        },
+        {
+          "ts": "2026-11-21T12:42:14.281343+00:00",
+          "total_line": 3.5,
+          "over": 0.89,
+          "under": 0.98
         }
       ],
       "reliability": 1.0,
       "competition_name": "土耳其超级联赛",
       "competition_class": "league",
       "sport": "football",
-      "lead_hours": 0.33323947694444445,
+      "lead_hours": 0.29603296027777776,
       "prematch": true,
       "result": {
         "settled": false
@@ -976,6 +1000,12 @@
         "conflict": false
       },
       "history": [
+        {
+          "ts": "2026-11-20T14:00:00+00:00",
+          "total_line": 2.5,
+          "over": 0.85,
+          "under": 1.02
+        },
         {
           "ts": "2026-11-20T14:00:00+00:00",
           "total_line": 2.5,
@@ -1251,13 +1281,19 @@
           "total_line": 2.75,
           "over": 0.82,
           "under": 1.05
+        },
+        {
+          "ts": "2026-11-21T12:42:22.336543+00:00",
+          "total_line": 2.75,
+          "over": 0.82,
+          "under": 1.05
         }
       ],
       "reliability": 1.0,
       "competition_name": "瑞典超级联赛",
       "competition_class": "league",
       "sport": "football",
-      "lead_hours": 1.3300083822222222,
+      "lead_hours": 1.2937954047222222,
       "prematch": true,
       "result": {
         "settled": false
