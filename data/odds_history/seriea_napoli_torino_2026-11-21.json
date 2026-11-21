@@ -291,6 +291,21 @@
     "away": "Torino",
     "kickoff": "2026-11-21T19:45:00",
     "bookmaker": "crown",
+    "ts": "2026-11-20T19:45:00+00:00",
+    "handicap_line": -1.25,
+    "handicap_home": 0.99,
+    "handicap_away": 0.89,
+    "total_line": 2.75,
+    "over": 0.89,
+    "under": 0.97
+  },
+  {
+    "fixture_key": "seriea|napoli|torino|2026-11-21",
+    "competition": "seriea",
+    "home": "Napoli",
+    "away": "Torino",
+    "kickoff": "2026-11-21T19:45:00",
+    "bookmaker": "crown",
     "ts": "2026-11-20T20:42:23.540718+00:00",
     "handicap_line": -1.25,
     "handicap_home": 1.06,
@@ -418,5 +433,20 @@
     "total_line": 2.75,
     "over": 0.9,
     "under": 0.98
+  },
+  {
+    "fixture_key": "seriea|napoli|torino|2026-11-21",
+    "competition": "seriea",
+    "home": "Napoli",
+    "away": "Torino",
+    "kickoff": "2026-11-21T19:45:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-21T05:24:36.479955+00:00",
+    "handicap_line": -1.0,
+    "handicap_home": 0.87,
+    "handicap_away": 1.02,
+    "total_line": 2.75,
+    "over": 0.86,
+    "under": 1.02
   }
 ]

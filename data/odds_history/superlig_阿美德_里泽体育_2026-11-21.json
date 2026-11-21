@@ -216,6 +216,21 @@
     "away": "里泽体育",
     "kickoff": "2026-11-21T13:00:00",
     "bookmaker": "crown",
+    "ts": "2026-11-20T13:00:00+00:00",
+    "handicap_line": -0.75,
+    "handicap_home": 0.93,
+    "handicap_away": 0.95,
+    "total_line": 3.0,
+    "over": 1.02,
+    "under": 0.85
+  },
+  {
+    "fixture_key": "superlig|阿美德|里泽体育|2026-11-21",
+    "competition": "superlig",
+    "home": "阿美德",
+    "away": "里泽体育",
+    "kickoff": "2026-11-21T13:00:00",
+    "bookmaker": "crown",
     "ts": "2026-11-20T16:23:24.234350+00:00",
     "handicap_line": -0.75,
     "handicap_home": 0.86,
@@ -418,5 +433,20 @@
     "total_line": 3.0,
     "over": 0.99,
     "under": 0.88
+  },
+  {
+    "fixture_key": "superlig|阿美德|里泽体育|2026-11-21",
+    "competition": "superlig",
+    "home": "阿美德",
+    "away": "里泽体育",
+    "kickoff": "2026-11-21T13:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-21T05:24:47.509467+00:00",
+    "handicap_line": -0.75,
+    "handicap_home": 0.96,
+    "handicap_away": 0.93,
+    "total_line": 3.0,
+    "over": 0.97,
+    "under": 0.9
   }
 ]

@@ -291,6 +291,21 @@
     "away": "阿根廷独立",
     "kickoff": "2026-11-21T20:00:00",
     "bookmaker": "crown",
+    "ts": "2026-11-20T20:00:00+00:00",
+    "handicap_line": -0.25,
+    "handicap_home": 0.8,
+    "handicap_away": 1.02,
+    "total_line": 2.0,
+    "over": 0.87,
+    "under": 0.93
+  },
+  {
+    "fixture_key": "argentina|阿根廷青年人|阿根廷独立|2026-11-21",
+    "competition": "argentina",
+    "home": "阿根廷青年人",
+    "away": "阿根廷独立",
+    "kickoff": "2026-11-21T20:00:00",
+    "bookmaker": "crown",
     "ts": "2026-11-20T20:42:37.793076+00:00",
     "handicap_line": -0.5,
     "handicap_home": 0.96,
@@ -418,5 +433,20 @@
     "total_line": 2.0,
     "over": 0.94,
     "under": 0.93
+  },
+  {
+    "fixture_key": "argentina|阿根廷青年人|阿根廷独立|2026-11-21",
+    "competition": "argentina",
+    "home": "阿根廷青年人",
+    "away": "阿根廷独立",
+    "kickoff": "2026-11-21T20:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-21T05:24:51.144646+00:00",
+    "handicap_line": -0.5,
+    "handicap_home": 0.97,
+    "handicap_away": 0.92,
+    "total_line": 2.0,
+    "over": 0.93,
+    "under": 0.94
   }
 ]

@@ -291,6 +291,21 @@
     "away": "Celta Vigo",
     "kickoff": "2026-11-21T20:00:00",
     "bookmaker": "crown",
+    "ts": "2026-11-20T20:00:00+00:00",
+    "handicap_line": -2.0,
+    "handicap_home": 0.98,
+    "handicap_away": 0.9,
+    "total_line": 3.25,
+    "over": 0.83,
+    "under": 1.03
+  },
+  {
+    "fixture_key": "laliga|realmadrid|celtavigo|2026-11-21",
+    "competition": "laliga",
+    "home": "Real Madrid",
+    "away": "Celta Vigo",
+    "kickoff": "2026-11-21T20:00:00",
+    "bookmaker": "crown",
     "ts": "2026-11-20T20:42:25.574899+00:00",
     "handicap_line": -2.25,
     "handicap_home": 1.01,
@@ -418,5 +433,20 @@
     "total_line": 3.5,
     "over": 0.99,
     "under": 0.89
+  },
+  {
+    "fixture_key": "laliga|realmadrid|celtavigo|2026-11-21",
+    "competition": "laliga",
+    "home": "Real Madrid",
+    "away": "Celta Vigo",
+    "kickoff": "2026-11-21T20:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-21T05:24:38.412944+00:00",
+    "handicap_line": -2.25,
+    "handicap_home": 1.03,
+    "handicap_away": 0.86,
+    "total_line": 3.5,
+    "over": 0.98,
+    "under": 0.9
   }
 ]
