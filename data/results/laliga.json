@@ -13,6 +13,17 @@
   {
     "competition": "laliga",
     "cls": "league",
+    "home": "Rayo Vallecano",
+    "away": "Valencia",
+    "home_goals": 0,
+    "away_goals": 1,
+    "date": "2026-11-21",
+    "handicap_line": -0.5,
+    "total_line": 2.25
+  },
+  {
+    "competition": "laliga",
+    "cls": "league",
     "home": "Athletic Bilbao",
     "away": "Espanyol",
     "home_goals": 0,

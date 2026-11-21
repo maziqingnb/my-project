@@ -1,65 +1,15 @@
 {
-  "generated_at": "2026-11-21T16:42:49.247347+00:00",
+  "generated_at": "2026-11-21T17:31:27.535102+00:00",
   "matches": [
     {
-      "fixture_key": "epl|bournemouth|nottinghamforest|2026-11-21",
-      "competition": "epl",
-      "home": "Bournemouth",
-      "away": "Nottingham Forest",
-      "kickoff": "2026-11-21T15:00:00",
-      "status": "live",
-      "home_goals": 2,
-      "away_goals": 0
-    },
-    {
-      "fixture_key": "epl|astonvilla|sunderland|2026-11-21",
-      "competition": "epl",
-      "home": "Aston Villa",
-      "away": "Sunderland",
-      "kickoff": "2026-11-21T15:00:00",
+      "fixture_key": "seriea|parma|roma|2026-11-21",
+      "competition": "seriea",
+      "home": "Parma",
+      "away": "Roma",
+      "kickoff": "2026-11-21T17:00:00",
       "status": "live",
       "home_goals": 0,
       "away_goals": 0
-    },
-    {
-      "fixture_key": "epl|chelsea|leedsunited|2026-11-21",
-      "competition": "epl",
-      "home": "Chelsea",
-      "away": "Leeds United",
-      "kickoff": "2026-11-21T15:00:00",
-      "status": "live",
-      "home_goals": 1,
-      "away_goals": 3
-    },
-    {
-      "fixture_key": "epl|coventrycity|crystalpalace|2026-11-21",
-      "competition": "epl",
-      "home": "Coventry City",
-      "away": "Crystal Palace",
-      "kickoff": "2026-11-21T15:00:00",
-      "status": "live",
-      "home_goals": 2,
-      "away_goals": 2
-    },
-    {
-      "fixture_key": "epl|tottenhamhotspur|ipswichtown|2026-11-21",
-      "competition": "epl",
-      "home": "Tottenham Hotspur",
-      "away": "Ipswich Town",
-      "kickoff": "2026-11-21T15:00:00",
-      "status": "live",
-      "home_goals": 2,
-      "away_goals": 0
-    },
-    {
-      "fixture_key": "laliga|rayovallecano|valencia|2026-11-21",
-      "competition": "laliga",
-      "home": "Rayo Vallecano",
-      "away": "Valencia",
-      "kickoff": "2026-11-21T15:15:00",
-      "status": "live",
-      "home_goals": 0,
-      "away_goals": 1
     },
     {
       "fixture_key": "ligue1|nice|parissaintgermain|2026-11-21",
@@ -69,6 +19,16 @@
       "kickoff": "2026-11-21T16:15:00",
       "status": "live",
       "home_goals": 1,
+      "away_goals": 2
+    },
+    {
+      "fixture_key": "rpl|cskamoscow|akhmatgrozny|2026-11-21",
+      "competition": "rpl",
+      "home": "CSKA Moscow",
+      "away": "Akhmat Grozny",
+      "kickoff": "2026-11-21T16:45:00",
+      "status": "live",
+      "home_goals": 0,
       "away_goals": 0
     },
     {
@@ -79,7 +39,7 @@
       "kickoff": "2026-11-21T16:00:00",
       "status": "live",
       "home_goals": 0,
-      "away_goals": 0
+      "away_goals": 1
     },
     {
       "fixture_key": "sweden|gais|vsterssk|2026-11-21",
@@ -88,18 +48,8 @@
       "away": "Västerås SK",
       "kickoff": "2026-11-21T16:30:00",
       "status": "live",
-      "home_goals": 0,
-      "away_goals": 0
-    },
-    {
-      "fixture_key": "poland|卢宾扎格勒比|扎布热矿工|2026-11-21",
-      "competition": "poland",
-      "home": "卢宾扎格勒比",
-      "away": "扎布热矿工",
-      "kickoff": "2026-11-21T16:30:00",
-      "status": "live",
-      "home_goals": 0,
-      "away_goals": 0
+      "home_goals": 1,
+      "away_goals": 1
     }
   ]
 }

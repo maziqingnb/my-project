@@ -2,6 +2,50 @@
   {
     "competition": "epl",
     "cls": "league",
+    "home": "Aston Villa",
+    "away": "Sunderland",
+    "home_goals": 0,
+    "away_goals": 0,
+    "date": "2026-11-21",
+    "handicap_line": -0.75,
+    "total_line": 2.75
+  },
+  {
+    "competition": "epl",
+    "cls": "league",
+    "home": "Bournemouth",
+    "away": "Nottingham Forest",
+    "home_goals": 2,
+    "away_goals": 0,
+    "date": "2026-11-21",
+    "handicap_line": -0.5,
+    "total_line": 2.75
+  },
+  {
+    "competition": "epl",
+    "cls": "league",
+    "home": "Chelsea",
+    "away": "Leeds United",
+    "home_goals": 1,
+    "away_goals": 4,
+    "date": "2026-11-21",
+    "handicap_line": -0.5,
+    "total_line": 2.75
+  },
+  {
+    "competition": "epl",
+    "cls": "league",
+    "home": "Coventry City",
+    "away": "Crystal Palace",
+    "home_goals": 3,
+    "away_goals": 2,
+    "date": "2026-11-21",
+    "handicap_line": -0.25,
+    "total_line": 2.75
+  },
+  {
+    "competition": "epl",
+    "cls": "league",
     "home": "Manchester City",
     "away": "Fulham",
     "home_goals": 1,
@@ -9,6 +53,17 @@
     "date": "2026-11-21",
     "handicap_line": -1.25,
     "total_line": 3.25
+  },
+  {
+    "competition": "epl",
+    "cls": "league",
+    "home": "Tottenham Hotspur",
+    "away": "Ipswich Town",
+    "home_goals": 2,
+    "away_goals": 0,
+    "date": "2026-11-21",
+    "handicap_line": -1.0,
+    "total_line": 3.0
   },
   {
     "competition": "epl",
