@@ -2,6 +2,17 @@
   {
     "competition": "mls",
     "cls": "league",
+    "home": "新英格兰革命",
+    "away": "费城联合",
+    "home_goals": 2,
+    "away_goals": 0,
+    "date": "2026-11-21",
+    "handicap_line": 0.25,
+    "total_line": 3.0
+  },
+  {
+    "competition": "mls",
+    "cls": "league",
     "home": "奥兰多城",
     "away": "FC Cincinnati",
     "home_goals": 1,
