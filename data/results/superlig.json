@@ -2,6 +2,17 @@
   {
     "competition": "superlig",
     "cls": "league",
+    "home": "Amed SFK",
+    "away": "Caykur Rizespor",
+    "home_goals": 0,
+    "away_goals": 2,
+    "date": "2026-11-21",
+    "handicap_line": null,
+    "total_line": null
+  },
+  {
+    "competition": "superlig",
+    "cls": "league",
     "home": "Genclerbirligi",
     "away": "Gaziantep FK",
     "home_goals": 1,
@@ -13,6 +24,28 @@
   {
     "competition": "superlig",
     "cls": "league",
+    "home": "加拉塔萨雷",
+    "away": "Samsunspor",
+    "home_goals": 2,
+    "away_goals": 1,
+    "date": "2026-11-21",
+    "handicap_line": null,
+    "total_line": null
+  },
+  {
+    "competition": "superlig",
+    "cls": "league",
+    "home": "加拉塔萨雷",
+    "away": "萨姆松体育",
+    "home_goals": 2,
+    "away_goals": 1,
+    "date": "2026-11-21",
+    "handicap_line": -2.0,
+    "total_line": 3.5
+  },
+  {
+    "competition": "superlig",
+    "cls": "league",
     "home": "根克勒比利吉",
     "away": "加济安泰普大都会",
     "home_goals": 1,
@@ -20,6 +53,17 @@
     "date": "2026-11-21",
     "handicap_line": -0.25,
     "total_line": 2.75
+  },
+  {
+    "competition": "superlig",
+    "cls": "league",
+    "home": "阿美德",
+    "away": "里泽体育",
+    "home_goals": 0,
+    "away_goals": 2,
+    "date": "2026-11-21",
+    "handicap_line": -0.75,
+    "total_line": 3.0
   },
   {
     "competition": "superlig",
