@@ -13,6 +13,17 @@
   {
     "competition": "poland",
     "cls": "league",
+    "home": "卢宾扎格勒比",
+    "away": "扎布热矿工",
+    "home_goals": 2,
+    "away_goals": 0,
+    "date": "2026-11-21",
+    "handicap_line": 0.5,
+    "total_line": 2.5
+  },
+  {
+    "competition": "poland",
+    "cls": "league",
     "home": "什切青",
     "away": "史拉斯科",
     "home_goals": 1,

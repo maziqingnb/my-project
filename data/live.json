@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-21T18:13:24.659451+00:00",
+  "generated_at": "2026-11-21T19:10:40.133078+00:00",
   "matches": [
     {
       "fixture_key": "epl|newcastleunited|arsenal|2026-11-21",
@@ -8,8 +8,8 @@
       "away": "Arsenal",
       "kickoff": "2026-11-21T17:30:00",
       "status": "live",
-      "home_goals": 0,
-      "away_goals": 1
+      "home_goals": 2,
+      "away_goals": 2
     },
     {
       "fixture_key": "laliga|sevilla|realbetis|2026-11-21",
@@ -19,16 +19,6 @@
       "kickoff": "2026-11-21T17:30:00",
       "status": "live",
       "home_goals": 0,
-      "away_goals": 0
-    },
-    {
-      "fixture_key": "seriea|parma|roma|2026-11-21",
-      "competition": "seriea",
-      "home": "Parma",
-      "away": "Roma",
-      "kickoff": "2026-11-21T17:00:00",
-      "status": "live",
-      "home_goals": 1,
       "away_goals": 1
     },
     {
@@ -42,26 +32,6 @@
       "away_goals": 0
     },
     {
-      "fixture_key": "ligue1|nice|parissaintgermain|2026-11-21",
-      "competition": "ligue1",
-      "home": "Nice",
-      "away": "Paris Saint-Germain",
-      "kickoff": "2026-11-21T16:15:00",
-      "status": "live",
-      "home_goals": 1,
-      "away_goals": 3
-    },
-    {
-      "fixture_key": "rpl|cskamoscow|akhmatgrozny|2026-11-21",
-      "competition": "rpl",
-      "home": "CSKA Moscow",
-      "away": "Akhmat Grozny",
-      "kickoff": "2026-11-21T16:45:00",
-      "status": "live",
-      "home_goals": 0,
-      "away_goals": 2
-    },
-    {
       "fixture_key": "argentina|防卫者|巴拉卡斯中央队|2026-11-21",
       "competition": "argentina",
       "home": "防卫者",
@@ -69,7 +39,7 @@
       "kickoff": "2026-11-21T18:00:00",
       "status": "live",
       "home_goals": 0,
-      "away_goals": 0
+      "away_goals": 1
     },
     {
       "fixture_key": "greeksl|kalamata|aekathens|2026-11-21",
@@ -79,16 +49,6 @@
       "kickoff": "2026-11-21T17:30:00",
       "status": "live",
       "home_goals": 0,
-      "away_goals": 0
-    },
-    {
-      "fixture_key": "sweden|gais|vsterssk|2026-11-21",
-      "competition": "sweden",
-      "home": "GAIS",
-      "away": "Västerås SK",
-      "kickoff": "2026-11-21T16:30:00",
-      "status": "live",
-      "home_goals": 2,
       "away_goals": 1
     }
   ]

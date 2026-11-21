@@ -13,6 +13,17 @@
   {
     "competition": "sweden",
     "cls": "league",
+    "home": "GAIS",
+    "away": "Västerås SK",
+    "home_goals": 3,
+    "away_goals": 1,
+    "date": "2026-11-21",
+    "handicap_line": null,
+    "total_line": null
+  },
+  {
+    "competition": "sweden",
+    "cls": "league",
     "home": "Mjällby AIF",
     "away": "Malmö FF",
     "home_goals": 1,
