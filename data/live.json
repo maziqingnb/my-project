@@ -1,4 +1,25 @@
 {
-  "generated_at": "2026-11-21T09:47:42.530387+00:00",
-  "matches": []
+  "generated_at": "2026-11-21T10:34:36.972458+00:00",
+  "matches": [
+    {
+      "fixture_key": "rpl|gazovikorenburg|fcbaltikakaliningrad|2026-11-21",
+      "competition": "rpl",
+      "home": "Gazovik Orenburg",
+      "away": "FC Baltika Kaliningrad",
+      "kickoff": "2026-11-21T10:00:00",
+      "status": "live",
+      "home_goals": 0,
+      "away_goals": 1
+    },
+    {
+      "fixture_key": "superlig|genclerbirligi|gaziantepfk|2026-11-21",
+      "competition": "superlig",
+      "home": "Genclerbirligi",
+      "away": "Gaziantep FK",
+      "kickoff": "2026-11-21T10:30:00",
+      "status": "live",
+      "home_goals": 0,
+      "away_goals": 0
+    }
+  ]
 }
