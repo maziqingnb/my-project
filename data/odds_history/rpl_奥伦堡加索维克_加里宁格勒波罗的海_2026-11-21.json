@@ -291,6 +291,21 @@
     "away": "加里宁格勒波罗的海",
     "kickoff": "2026-11-21T10:00:00",
     "bookmaker": "crown",
+    "ts": "2026-11-20T10:00:00+00:00",
+    "handicap_line": 0.25,
+    "handicap_home": 0.79,
+    "handicap_away": 1.09,
+    "total_line": 2.0,
+    "over": 0.82,
+    "under": 1.05
+  },
+  {
+    "fixture_key": "rpl|奥伦堡加索维克|加里宁格勒波罗的海|2026-11-21",
+    "competition": "rpl",
+    "home": "奥伦堡加索维克",
+    "away": "加里宁格勒波罗的海",
+    "kickoff": "2026-11-21T10:00:00",
+    "bookmaker": "crown",
     "ts": "2026-11-20T16:23:16.323490+00:00",
     "handicap_line": 0.0,
     "handicap_home": 1.05,
@@ -568,5 +583,20 @@
     "total_line": 2.25,
     "over": 1.07,
     "under": 0.8
+  },
+  {
+    "fixture_key": "rpl|奥伦堡加索维克|加里宁格勒波罗的海|2026-11-21",
+    "competition": "rpl",
+    "home": "奥伦堡加索维克",
+    "away": "加里宁格勒波罗的海",
+    "kickoff": "2026-11-21T10:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-21T09:40:29.837153+00:00",
+    "handicap_line": 0.0,
+    "handicap_home": 0.86,
+    "handicap_away": 1.03,
+    "total_line": 2.25,
+    "over": 1.08,
+    "under": 0.79
   }
 ]

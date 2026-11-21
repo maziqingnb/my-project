@@ -291,6 +291,21 @@
     "away": "萨姆松体育",
     "kickoff": "2026-11-21T13:00:00",
     "bookmaker": "crown",
+    "ts": "2026-11-20T13:00:00+00:00",
+    "handicap_line": -2.0,
+    "handicap_home": 0.96,
+    "handicap_away": 0.92,
+    "total_line": 3.5,
+    "over": 0.87,
+    "under": 1.0
+  },
+  {
+    "fixture_key": "superlig|加拉塔萨雷|萨姆松体育|2026-11-21",
+    "competition": "superlig",
+    "home": "加拉塔萨雷",
+    "away": "萨姆松体育",
+    "kickoff": "2026-11-21T13:00:00",
+    "bookmaker": "crown",
     "ts": "2026-11-20T16:23:25.624138+00:00",
     "handicap_line": -1.75,
     "handicap_home": 0.84,
@@ -568,5 +583,20 @@
     "total_line": 3.5,
     "over": 0.92,
     "under": 0.95
+  },
+  {
+    "fixture_key": "superlig|加拉塔萨雷|萨姆松体育|2026-11-21",
+    "competition": "superlig",
+    "home": "加拉塔萨雷",
+    "away": "萨姆松体育",
+    "kickoff": "2026-11-21T13:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-21T09:40:39.123591+00:00",
+    "handicap_line": -2.25,
+    "handicap_home": 1.05,
+    "handicap_away": 0.84,
+    "total_line": 3.75,
+    "over": 0.99,
+    "under": 0.88
   }
 ]
