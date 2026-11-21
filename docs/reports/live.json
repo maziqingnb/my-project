@@ -1,12 +1,42 @@
 {
-  "generated_at": "2026-11-21T17:31:27.535102+00:00",
+  "generated_at": "2026-11-21T18:13:24.659451+00:00",
   "matches": [
+    {
+      "fixture_key": "epl|newcastleunited|arsenal|2026-11-21",
+      "competition": "epl",
+      "home": "Newcastle United",
+      "away": "Arsenal",
+      "kickoff": "2026-11-21T17:30:00",
+      "status": "live",
+      "home_goals": 0,
+      "away_goals": 1
+    },
+    {
+      "fixture_key": "laliga|sevilla|realbetis|2026-11-21",
+      "competition": "laliga",
+      "home": "Sevilla",
+      "away": "Real Betis",
+      "kickoff": "2026-11-21T17:30:00",
+      "status": "live",
+      "home_goals": 0,
+      "away_goals": 0
+    },
     {
       "fixture_key": "seriea|parma|roma|2026-11-21",
       "competition": "seriea",
       "home": "Parma",
       "away": "Roma",
       "kickoff": "2026-11-21T17:00:00",
+      "status": "live",
+      "home_goals": 1,
+      "away_goals": 1
+    },
+    {
+      "fixture_key": "bundesliga|schalke04|stuttgart|2026-11-21",
+      "competition": "bundesliga",
+      "home": "Schalke 04",
+      "away": "Stuttgart",
+      "kickoff": "2026-11-21T17:30:00",
       "status": "live",
       "home_goals": 0,
       "away_goals": 0
@@ -19,7 +49,7 @@
       "kickoff": "2026-11-21T16:15:00",
       "status": "live",
       "home_goals": 1,
-      "away_goals": 2
+      "away_goals": 3
     },
     {
       "fixture_key": "rpl|cskamoscow|akhmatgrozny|2026-11-21",
@@ -29,17 +59,27 @@
       "kickoff": "2026-11-21T16:45:00",
       "status": "live",
       "home_goals": 0,
+      "away_goals": 2
+    },
+    {
+      "fixture_key": "argentina|防卫者|巴拉卡斯中央队|2026-11-21",
+      "competition": "argentina",
+      "home": "防卫者",
+      "away": "巴拉卡斯中央队",
+      "kickoff": "2026-11-21T18:00:00",
+      "status": "live",
+      "home_goals": 0,
       "away_goals": 0
     },
     {
-      "fixture_key": "superlig|kocaelispor|费内巴切|2026-11-21",
-      "competition": "superlig",
-      "home": "Kocaelispor",
-      "away": "费内巴切",
-      "kickoff": "2026-11-21T16:00:00",
+      "fixture_key": "greeksl|kalamata|aekathens|2026-11-21",
+      "competition": "greeksl",
+      "home": "Kalamata",
+      "away": "AEK Athens",
+      "kickoff": "2026-11-21T17:30:00",
       "status": "live",
       "home_goals": 0,
-      "away_goals": 1
+      "away_goals": 0
     },
     {
       "fixture_key": "sweden|gais|vsterssk|2026-11-21",
@@ -48,7 +88,7 @@
       "away": "Västerås SK",
       "kickoff": "2026-11-21T16:30:00",
       "status": "live",
-      "home_goals": 1,
+      "home_goals": 2,
       "away_goals": 1
     }
   ]

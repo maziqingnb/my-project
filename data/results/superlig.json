@@ -24,6 +24,17 @@
   {
     "competition": "superlig",
     "cls": "league",
+    "home": "Kocaelispor",
+    "away": "费内巴切",
+    "home_goals": 2,
+    "away_goals": 2,
+    "date": "2026-11-21",
+    "handicap_line": null,
+    "total_line": null
+  },
+  {
+    "competition": "superlig",
+    "cls": "league",
     "home": "加拉塔萨雷",
     "away": "Samsunspor",
     "home_goals": 2,
@@ -52,6 +63,17 @@
     "away_goals": 0,
     "date": "2026-11-21",
     "handicap_line": -0.25,
+    "total_line": 2.75
+  },
+  {
+    "competition": "superlig",
+    "cls": "league",
+    "home": "科贾埃利体育",
+    "away": "费内巴切",
+    "home_goals": 2,
+    "away_goals": 2,
+    "date": "2026-11-21",
+    "handicap_line": 1.0,
     "total_line": 2.75
   },
   {
