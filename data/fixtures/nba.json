@@ -1,45 +1,5 @@
 [
   {
-    "key": "nba|atlantahawks|charlottehornets|2026-11-21",
-    "competition": "nba",
-    "home": "Atlanta Hawks",
-    "away": "Charlotte Hornets",
-    "kickoff": "2026-11-21T00:00:00",
-    "status": "upcoming",
-    "home_goals": null,
-    "away_goals": null
-  },
-  {
-    "key": "nba|brooklynnets|orlandomagic|2026-11-21",
-    "competition": "nba",
-    "home": "Brooklyn Nets",
-    "away": "Orlando Magic",
-    "kickoff": "2026-11-21T00:30:00",
-    "status": "upcoming",
-    "home_goals": null,
-    "away_goals": null
-  },
-  {
-    "key": "nba|clevelandcavaliers|indianapacers|2026-11-21",
-    "competition": "nba",
-    "home": "Cleveland Cavaliers",
-    "away": "Indiana Pacers",
-    "kickoff": "2026-11-21T00:30:00",
-    "status": "upcoming",
-    "home_goals": null,
-    "away_goals": null
-  },
-  {
-    "key": "nba|detroitpistons|torontoraptors|2026-11-21",
-    "competition": "nba",
-    "home": "Detroit Pistons",
-    "away": "Toronto Raptors",
-    "kickoff": "2026-11-21T00:30:00",
-    "status": "upcoming",
-    "home_goals": null,
-    "away_goals": null
-  },
-  {
     "key": "nba|oklahomacitythunder|neworleanspelicans|2026-11-21",
     "competition": "nba",
     "home": "Oklahoma City Thunder",
@@ -435,6 +395,46 @@
     "home": "Golden State Warriors",
     "away": "Sacramento Kings",
     "kickoff": "2026-11-26T03:00:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "nba|newyorkknicks|miamiheat|2026-11-28",
+    "competition": "nba",
+    "home": "New York Knicks",
+    "away": "Miami Heat",
+    "kickoff": "2026-11-28T00:00:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "nba|indianapacers|philadelphia76ers|2026-11-28",
+    "competition": "nba",
+    "home": "Indiana Pacers",
+    "away": "Philadelphia 76ers",
+    "kickoff": "2026-11-28T00:30:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "nba|torontoraptors|brooklynnets|2026-11-28",
+    "competition": "nba",
+    "home": "Toronto Raptors",
+    "away": "Brooklyn Nets",
+    "kickoff": "2026-11-28T00:30:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "nba|detroitpistons|milwaukeebucks|2026-11-28",
+    "competition": "nba",
+    "home": "Detroit Pistons",
+    "away": "Milwaukee Bucks",
+    "kickoff": "2026-11-28T00:30:00",
     "status": "upcoming",
     "home_goals": null,
     "away_goals": null
