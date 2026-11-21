@@ -118,5 +118,35 @@
     "total_line": 2.75,
     "over": 0.83,
     "under": 1.04
+  },
+  {
+    "fixture_key": "brasileirao|巴拉纳竞技|瑞模贝雷|2026-11-22",
+    "competition": "brasileirao",
+    "home": "巴拉纳竞技",
+    "away": "瑞模贝雷",
+    "kickoff": "2026-11-22T19:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-21T19:00:00+00:00",
+    "handicap_line": -1.25,
+    "handicap_home": 1.02,
+    "handicap_away": 0.86,
+    "total_line": 2.75,
+    "over": 0.83,
+    "under": 1.04
+  },
+  {
+    "fixture_key": "brasileirao|巴拉纳竞技|瑞模贝雷|2026-11-22",
+    "competition": "brasileirao",
+    "home": "巴拉纳竞技",
+    "away": "瑞模贝雷",
+    "kickoff": "2026-11-22T19:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-21T19:40:05.244477+00:00",
+    "handicap_line": -1.0,
+    "handicap_home": 0.85,
+    "handicap_away": 1.03,
+    "total_line": 2.75,
+    "over": 0.83,
+    "under": 1.04
   }
 ]
