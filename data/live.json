@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-21T10:34:36.972458+00:00",
+  "generated_at": "2026-11-21T11:25:35.412927+00:00",
   "matches": [
     {
       "fixture_key": "rpl|gazovikorenburg|fcbaltikakaliningrad|2026-11-21",
@@ -18,7 +18,7 @@
       "away": "Gaziantep FK",
       "kickoff": "2026-11-21T10:30:00",
       "status": "live",
-      "home_goals": 0,
+      "home_goals": 1,
       "away_goals": 0
     }
   ]
