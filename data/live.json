@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-21T15:56:50.357877+00:00",
+  "generated_at": "2026-11-21T16:15:50.539580+00:00",
   "matches": [
     {
       "fixture_key": "epl|bournemouth|nottinghamforest|2026-11-21",
@@ -29,7 +29,7 @@
       "kickoff": "2026-11-21T15:00:00",
       "status": "live",
       "home_goals": 1,
-      "away_goals": 1
+      "away_goals": 2
     },
     {
       "fixture_key": "epl|coventrycity|crystalpalace|2026-11-21",
@@ -48,7 +48,7 @@
       "away": "Ipswich Town",
       "kickoff": "2026-11-21T15:00:00",
       "status": "live",
-      "home_goals": 1,
+      "home_goals": 2,
       "away_goals": 0
     },
     {
@@ -59,17 +59,7 @@
       "kickoff": "2026-11-21T15:15:00",
       "status": "live",
       "home_goals": 0,
-      "away_goals": 0
-    },
-    {
-      "fixture_key": "seriea|como|cagliari|2026-11-21",
-      "competition": "seriea",
-      "home": "Como",
-      "away": "Cagliari",
-      "kickoff": "2026-11-21T14:00:00",
-      "status": "live",
-      "home_goals": 2,
-      "away_goals": 0
+      "away_goals": 1
     },
     {
       "fixture_key": "bundesliga|unionberlin|rbleipzig|2026-11-21",
@@ -79,7 +69,7 @@
       "kickoff": "2026-11-21T14:30:00",
       "status": "live",
       "home_goals": 1,
-      "away_goals": 2
+      "away_goals": 4
     },
     {
       "fixture_key": "bundesliga|bayerleverkusen|paderborn|2026-11-21",
@@ -99,7 +89,7 @@
       "kickoff": "2026-11-21T14:30:00",
       "status": "live",
       "home_goals": 0,
-      "away_goals": 0
+      "away_goals": 1
     },
     {
       "fixture_key": "bundesliga|eintrachtfrankfurt|hoffenheim|2026-11-21",
@@ -119,7 +109,7 @@
       "kickoff": "2026-11-21T14:30:00",
       "status": "live",
       "home_goals": 0,
-      "away_goals": 0
+      "away_goals": 1
     },
     {
       "fixture_key": "rpl|rubinkazan|zenitstpetersburg|2026-11-21",
@@ -128,8 +118,18 @@
       "away": "Zenit St Petersburg",
       "kickoff": "2026-11-21T14:30:00",
       "status": "live",
-      "home_goals": 2,
+      "home_goals": 3,
       "away_goals": 1
+    },
+    {
+      "fixture_key": "superlig|kocaelispor|费内巴切|2026-11-21",
+      "competition": "superlig",
+      "home": "Kocaelispor",
+      "away": "费内巴切",
+      "kickoff": "2026-11-21T16:00:00",
+      "status": "live",
+      "home_goals": 0,
+      "away_goals": 0
     }
   ]
 }
