@@ -1,0 +1,32 @@
+[
+  {
+    "fixture_key": "sweden|布洛马波卡纳|哈尔姆斯塔德|2026-11-22",
+    "competition": "sweden",
+    "home": "布洛马波卡纳",
+    "away": "哈尔姆斯塔德",
+    "kickoff": "2026-11-22T15:30:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-21T15:30:00+00:00",
+    "handicap_line": -0.25,
+    "handicap_home": 0.92,
+    "handicap_away": 0.96,
+    "total_line": 2.75,
+    "over": 0.87,
+    "under": 1.0
+  },
+  {
+    "fixture_key": "sweden|布洛马波卡纳|哈尔姆斯塔德|2026-11-22",
+    "competition": "sweden",
+    "home": "布洛马波卡纳",
+    "away": "哈尔姆斯塔德",
+    "kickoff": "2026-11-22T15:30:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-21T16:37:21.547510+00:00",
+    "handicap_line": -0.25,
+    "handicap_home": 0.84,
+    "handicap_away": 1.04,
+    "total_line": 2.75,
+    "over": 0.88,
+    "under": 0.99
+  }
+]

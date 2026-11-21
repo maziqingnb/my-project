@@ -1,0 +1,32 @@
+[
+  {
+    "fixture_key": "greeksl|帕纳辛纳科斯|ofi克里特|2026-11-22",
+    "competition": "greeksl",
+    "home": "帕纳辛纳科斯",
+    "away": "OFI克里特",
+    "kickoff": "2026-11-22T15:30:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-21T15:30:00+00:00",
+    "handicap_line": -1.75,
+    "handicap_home": 0.86,
+    "handicap_away": 0.96,
+    "total_line": 3.25,
+    "over": 1.0,
+    "under": 0.8
+  },
+  {
+    "fixture_key": "greeksl|帕纳辛纳科斯|ofi克里特|2026-11-22",
+    "competition": "greeksl",
+    "home": "帕纳辛纳科斯",
+    "away": "OFI克里特",
+    "kickoff": "2026-11-22T15:30:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-21T16:37:15.856665+00:00",
+    "handicap_line": -1.75,
+    "handicap_home": 0.79,
+    "handicap_away": 1.03,
+    "total_line": 3.25,
+    "over": 1.0,
+    "under": 0.8
+  }
+]
