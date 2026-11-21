@@ -306,6 +306,21 @@
     "away": "克拉科夫",
     "kickoff": "2026-11-21T19:15:00",
     "bookmaker": "crown",
+    "ts": "2026-11-20T19:15:00+00:00",
+    "handicap_line": 0.25,
+    "handicap_home": 1.02,
+    "handicap_away": 0.8,
+    "total_line": 3.0,
+    "over": 0.92,
+    "under": 0.88
+  },
+  {
+    "fixture_key": "poland|拉多麦科|克拉科夫|2026-11-21",
+    "competition": "poland",
+    "home": "拉多麦科",
+    "away": "克拉科夫",
+    "kickoff": "2026-11-21T19:15:00",
+    "bookmaker": "crown",
     "ts": "2026-11-20T19:30:35.047366+00:00",
     "handicap_line": 0.25,
     "handicap_home": 0.98,
@@ -478,5 +493,20 @@
     "total_line": 3.0,
     "over": 1.05,
     "under": 0.81
+  },
+  {
+    "fixture_key": "poland|拉多麦科|克拉科夫|2026-11-21",
+    "competition": "poland",
+    "home": "拉多麦科",
+    "away": "克拉科夫",
+    "kickoff": "2026-11-21T19:15:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-21T07:00:06.593485+00:00",
+    "handicap_line": 0.25,
+    "handicap_home": 0.99,
+    "handicap_away": 0.89,
+    "total_line": 2.75,
+    "over": 0.87,
+    "under": 0.99
   }
 ]

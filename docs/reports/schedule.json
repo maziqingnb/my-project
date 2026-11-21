@@ -1,56 +1,6 @@
 {
-  "generated_at": "2026-11-21T00:42:12.949142+00:00",
+  "generated_at": "2026-11-21T06:54:59.763162+00:00",
   "matches": [
-    {
-      "fixture_key": "nba|oklahomacitythunder|neworleanspelicans|2026-11-21",
-      "competition": "nba",
-      "competition_name": "NBA 美国职业篮球联赛",
-      "competition_class": "league",
-      "sport": "basketball",
-      "home": "Oklahoma City Thunder",
-      "away": "New Orleans Pelicans",
-      "kickoff": "2026-11-21T01:00:00"
-    },
-    {
-      "fixture_key": "nba|chicagobulls|washingtonwizards|2026-11-21",
-      "competition": "nba",
-      "competition_name": "NBA 美国职业篮球联赛",
-      "competition_class": "league",
-      "sport": "basketball",
-      "home": "Chicago Bulls",
-      "away": "Washington Wizards",
-      "kickoff": "2026-11-21T01:00:00"
-    },
-    {
-      "fixture_key": "nba|utahjazz|phoenixsuns|2026-11-21",
-      "competition": "nba",
-      "competition_name": "NBA 美国职业篮球联赛",
-      "competition_class": "league",
-      "sport": "basketball",
-      "home": "Utah Jazz",
-      "away": "Phoenix Suns",
-      "kickoff": "2026-11-21T02:30:00"
-    },
-    {
-      "fixture_key": "nba|denvernuggets|houstonrockets|2026-11-21",
-      "competition": "nba",
-      "competition_name": "NBA 美国职业篮球联赛",
-      "competition_class": "league",
-      "sport": "basketball",
-      "home": "Denver Nuggets",
-      "away": "Houston Rockets",
-      "kickoff": "2026-11-21T03:00:00"
-    },
-    {
-      "fixture_key": "nba|losangeleslakers|sacramentokings|2026-11-21",
-      "competition": "nba",
-      "competition_name": "NBA 美国职业篮球联赛",
-      "competition_class": "league",
-      "sport": "basketball",
-      "home": "Los Angeles Lakers",
-      "away": "Sacramento Kings",
-      "kickoff": "2026-11-21T03:00:00"
-    },
     {
       "fixture_key": "rpl|奥伦堡加索维克|加里宁格勒波罗的海|2026-11-21",
       "competition": "rpl",
@@ -402,16 +352,6 @@
       "kickoff": "2026-11-21T18:00:00"
     },
     {
-      "fixture_key": "nba|philadelphia76ers|milwaukeebucks|2026-11-21",
-      "competition": "nba",
-      "competition_name": "NBA 美国职业篮球联赛",
-      "competition_class": "league",
-      "sport": "basketball",
-      "home": "Philadelphia 76ers",
-      "away": "Milwaukee Bucks",
-      "kickoff": "2026-11-21T18:00:00"
-    },
-    {
       "fixture_key": "mls|新英格兰革命|费城联合|2026-11-21",
       "competition": "mls",
       "competition_name": "美国职业大联盟",
@@ -550,56 +490,6 @@
       "home": "沙佩科恩斯",
       "away": "克鲁塞罗",
       "kickoff": "2026-11-22T00:00:00"
-    },
-    {
-      "fixture_key": "nba|newyorkknicks|portlandtrailblazers|2026-11-22",
-      "competition": "nba",
-      "competition_name": "NBA 美国职业篮球联赛",
-      "competition_class": "league",
-      "sport": "basketball",
-      "home": "New York Knicks",
-      "away": "Portland Trail Blazers",
-      "kickoff": "2026-11-22T00:30:00"
-    },
-    {
-      "fixture_key": "nba|minnesotatimberwolves|memphisgrizzlies|2026-11-22",
-      "competition": "nba",
-      "competition_name": "NBA 美国职业篮球联赛",
-      "competition_class": "league",
-      "sport": "basketball",
-      "home": "Minnesota Timberwolves",
-      "away": "Memphis Grizzlies",
-      "kickoff": "2026-11-22T01:00:00"
-    },
-    {
-      "fixture_key": "nba|sanantoniospurs|neworleanspelicans|2026-11-22",
-      "competition": "nba",
-      "competition_name": "NBA 美国职业篮球联赛",
-      "competition_class": "league",
-      "sport": "basketball",
-      "home": "San Antonio Spurs",
-      "away": "New Orleans Pelicans",
-      "kickoff": "2026-11-22T01:00:00"
-    },
-    {
-      "fixture_key": "nba|dallasmavericks|losangelesclippers|2026-11-22",
-      "competition": "nba",
-      "competition_name": "NBA 美国职业篮球联赛",
-      "competition_class": "league",
-      "sport": "basketball",
-      "home": "Dallas Mavericks",
-      "away": "Los Angeles Clippers",
-      "kickoff": "2026-11-22T01:00:00"
-    },
-    {
-      "fixture_key": "nba|sacramentokings|bostonceltics|2026-11-22",
-      "competition": "nba",
-      "competition_name": "NBA 美国职业篮球联赛",
-      "competition_class": "league",
-      "sport": "basketball",
-      "home": "Sacramento Kings",
-      "away": "Boston Celtics",
-      "kickoff": "2026-11-22T03:00:00"
     },
     {
       "fixture_key": "superlig|埃尔祖鲁姆体育|哥兹塔比|2026-11-22",
@@ -1002,16 +892,6 @@
       "kickoff": "2026-11-22T20:00:00"
     },
     {
-      "fixture_key": "nba|atlantahawks|detroitpistons|2026-11-22",
-      "competition": "nba",
-      "competition_name": "NBA 美国职业篮球联赛",
-      "competition_class": "league",
-      "sport": "basketball",
-      "home": "Atlanta Hawks",
-      "away": "Detroit Pistons",
-      "kickoff": "2026-11-22T20:30:00"
-    },
-    {
       "fixture_key": "mls|纳什威尔sc|辛辛那提|2026-11-22",
       "competition": "mls",
       "competition_name": "美国职业大联盟",
@@ -1052,16 +932,6 @@
       "kickoff": "2026-11-22T22:30:00"
     },
     {
-      "fixture_key": "nba|miamiheat|oklahomacitythunder|2026-11-22",
-      "competition": "nba",
-      "competition_name": "NBA 美国职业篮球联赛",
-      "competition_class": "league",
-      "sport": "basketball",
-      "home": "Miami Heat",
-      "away": "Oklahoma City Thunder",
-      "kickoff": "2026-11-22T23:00:00"
-    },
-    {
       "fixture_key": "mls|芝加哥火焰|夏洛特fc|2026-11-22",
       "competition": "mls",
       "competition_name": "美国职业大联盟",
@@ -1070,36 +940,6 @@
       "home": "芝加哥火焰",
       "away": "夏洛特FC",
       "kickoff": "2026-11-22T23:30:00"
-    },
-    {
-      "fixture_key": "nba|washingtonwizards|orlandomagic|2026-11-23",
-      "competition": "nba",
-      "competition_name": "NBA 美国职业篮球联赛",
-      "competition_class": "league",
-      "sport": "basketball",
-      "home": "Washington Wizards",
-      "away": "Orlando Magic",
-      "kickoff": "2026-11-23T00:00:00"
-    },
-    {
-      "fixture_key": "nba|utahjazz|dallasmavericks|2026-11-23",
-      "competition": "nba",
-      "competition_name": "NBA 美国职业篮球联赛",
-      "competition_class": "league",
-      "sport": "basketball",
-      "home": "Utah Jazz",
-      "away": "Dallas Mavericks",
-      "kickoff": "2026-11-23T00:00:00"
-    },
-    {
-      "fixture_key": "nba|chicagobulls|denvernuggets|2026-11-23",
-      "competition": "nba",
-      "competition_name": "NBA 美国职业篮球联赛",
-      "competition_class": "league",
-      "sport": "basketball",
-      "home": "Chicago Bulls",
-      "away": "Denver Nuggets",
-      "kickoff": "2026-11-23T00:00:00"
     },
     {
       "fixture_key": "argentina|科尔多瓦学院|飓风队|2026-11-23",
@@ -1112,16 +952,6 @@
       "kickoff": "2026-11-23T01:00:00"
     },
     {
-      "fixture_key": "nba|newyorkknicks|indianapacers|2026-11-23",
-      "competition": "nba",
-      "competition_name": "NBA 美国职业篮球联赛",
-      "competition_class": "league",
-      "sport": "basketball",
-      "home": "New York Knicks",
-      "away": "Indiana Pacers",
-      "kickoff": "2026-11-23T01:00:00"
-    },
-    {
       "fixture_key": "mls|温哥华白浪|皇家盐湖城|2026-11-23",
       "competition": "mls",
       "competition_name": "美国职业大联盟",
@@ -1129,16 +959,6 @@
       "sport": "football",
       "home": "温哥华白浪",
       "away": "皇家盐湖城",
-      "kickoff": "2026-11-23T01:30:00"
-    },
-    {
-      "fixture_key": "nba|goldenstatewarriors|bostonceltics|2026-11-23",
-      "competition": "nba",
-      "competition_name": "NBA 美国职业篮球联赛",
-      "competition_class": "league",
-      "sport": "basketball",
-      "home": "Golden State Warriors",
-      "away": "Boston Celtics",
       "kickoff": "2026-11-23T01:30:00"
     },
     {
@@ -1332,56 +1152,6 @@
       "kickoff": "2026-11-24T00:00:00"
     },
     {
-      "fixture_key": "nba|philadelphia76ers|portlandtrailblazers|2026-11-24",
-      "competition": "nba",
-      "competition_name": "NBA 美国职业篮球联赛",
-      "competition_class": "league",
-      "sport": "basketball",
-      "home": "Philadelphia 76ers",
-      "away": "Portland Trail Blazers",
-      "kickoff": "2026-11-24T00:00:00"
-    },
-    {
-      "fixture_key": "nba|charlottehornets|memphisgrizzlies|2026-11-24",
-      "competition": "nba",
-      "competition_name": "NBA 美国职业篮球联赛",
-      "competition_class": "league",
-      "sport": "basketball",
-      "home": "Charlotte Hornets",
-      "away": "Memphis Grizzlies",
-      "kickoff": "2026-11-24T00:00:00"
-    },
-    {
-      "fixture_key": "nba|torontoraptors|milwaukeebucks|2026-11-24",
-      "competition": "nba",
-      "competition_name": "NBA 美国职业篮球联赛",
-      "competition_class": "league",
-      "sport": "basketball",
-      "home": "Toronto Raptors",
-      "away": "Milwaukee Bucks",
-      "kickoff": "2026-11-24T00:30:00"
-    },
-    {
-      "fixture_key": "nba|indianapacers|oklahomacitythunder|2026-11-24",
-      "competition": "nba",
-      "competition_name": "NBA 美国职业篮球联赛",
-      "competition_class": "league",
-      "sport": "basketball",
-      "home": "Indiana Pacers",
-      "away": "Oklahoma City Thunder",
-      "kickoff": "2026-11-24T00:30:00"
-    },
-    {
-      "fixture_key": "nba|minnesotatimberwolves|brooklynnets|2026-11-24",
-      "competition": "nba",
-      "competition_name": "NBA 美国职业篮球联赛",
-      "competition_class": "league",
-      "sport": "basketball",
-      "home": "Minnesota Timberwolves",
-      "away": "Brooklyn Nets",
-      "kickoff": "2026-11-24T00:30:00"
-    },
-    {
       "fixture_key": "mls|圣路易斯城|洛杉矶fc|2026-11-24",
       "competition": "mls",
       "competition_name": "美国职业大联盟",
@@ -1390,56 +1160,6 @@
       "home": "圣路易斯城",
       "away": "洛杉矶FC",
       "kickoff": "2026-11-24T01:00:00"
-    },
-    {
-      "fixture_key": "nba|chicagobulls|clevelandcavaliers|2026-11-24",
-      "competition": "nba",
-      "competition_name": "NBA 美国职业篮球联赛",
-      "competition_class": "league",
-      "sport": "basketball",
-      "home": "Chicago Bulls",
-      "away": "Cleveland Cavaliers",
-      "kickoff": "2026-11-24T01:00:00"
-    },
-    {
-      "fixture_key": "nba|neworleanspelicans|phoenixsuns|2026-11-24",
-      "competition": "nba",
-      "competition_name": "NBA 美国职业篮球联赛",
-      "competition_class": "league",
-      "sport": "basketball",
-      "home": "New Orleans Pelicans",
-      "away": "Phoenix Suns",
-      "kickoff": "2026-11-24T01:00:00"
-    },
-    {
-      "fixture_key": "nba|houstonrockets|losangelesclippers|2026-11-24",
-      "competition": "nba",
-      "competition_name": "NBA 美国职业篮球联赛",
-      "competition_class": "league",
-      "sport": "basketball",
-      "home": "Houston Rockets",
-      "away": "Los Angeles Clippers",
-      "kickoff": "2026-11-24T01:30:00"
-    },
-    {
-      "fixture_key": "nba|losangeleslakers|utahjazz|2026-11-24",
-      "competition": "nba",
-      "competition_name": "NBA 美国职业篮球联赛",
-      "competition_class": "league",
-      "sport": "basketball",
-      "home": "Los Angeles Lakers",
-      "away": "Utah Jazz",
-      "kickoff": "2026-11-24T03:00:00"
-    },
-    {
-      "fixture_key": "nba|sacramentokings|sanantoniospurs|2026-11-24",
-      "competition": "nba",
-      "competition_name": "NBA 美国职业篮球联赛",
-      "competition_class": "league",
-      "sport": "basketball",
-      "home": "Sacramento Kings",
-      "away": "San Antonio Spurs",
-      "kickoff": "2026-11-24T03:00:00"
     },
     {
       "fixture_key": "afc_cl|纽卡斯尔喷气机|柏太阳神|2026-11-24",
@@ -1642,26 +1362,6 @@
       "kickoff": "2026-11-24T21:00:00"
     },
     {
-      "fixture_key": "nba|orlandomagic|detroitpistons|2026-11-25",
-      "competition": "nba",
-      "competition_name": "NBA 美国职业篮球联赛",
-      "competition_class": "league",
-      "sport": "basketball",
-      "home": "Orlando Magic",
-      "away": "Detroit Pistons",
-      "kickoff": "2026-11-25T00:00:00"
-    },
-    {
-      "fixture_key": "nba|washingtonwizards|bostonceltics|2026-11-25",
-      "competition": "nba",
-      "competition_name": "NBA 美国职业篮球联赛",
-      "competition_class": "league",
-      "sport": "basketball",
-      "home": "Washington Wizards",
-      "away": "Boston Celtics",
-      "kickoff": "2026-11-25T01:00:00"
-    },
-    {
       "fixture_key": "mls|圣何塞地震|休斯敦迪纳摩|2026-11-25",
       "competition": "mls",
       "competition_name": "美国职业大联盟",
@@ -1669,16 +1369,6 @@
       "sport": "football",
       "home": "圣何塞地震",
       "away": "休斯敦迪纳摩",
-      "kickoff": "2026-11-25T03:00:00"
-    },
-    {
-      "fixture_key": "nba|denvernuggets|dallasmavericks|2026-11-25",
-      "competition": "nba",
-      "competition_name": "NBA 美国职业篮球联赛",
-      "competition_class": "league",
-      "sport": "basketball",
-      "home": "Denver Nuggets",
-      "away": "Dallas Mavericks",
       "kickoff": "2026-11-25T03:00:00"
     },
     {
@@ -1872,16 +1562,6 @@
       "kickoff": "2026-11-25T20:00:00"
     },
     {
-      "fixture_key": "nba|philadelphia76ers|miamiheat|2026-11-25",
-      "competition": "nba",
-      "competition_name": "NBA 美国职业篮球联赛",
-      "competition_class": "league",
-      "sport": "basketball",
-      "home": "Philadelphia 76ers",
-      "away": "Miami Heat",
-      "kickoff": "2026-11-25T22:00:00"
-    },
-    {
       "fixture_key": "brasileirao|米内罗竞技|科林蒂安|2026-11-25",
       "competition": "brasileirao",
       "competition_name": "巴西甲级联赛",
@@ -1900,86 +1580,6 @@
       "home": "博卡青年",
       "away": "门多萨独立",
       "kickoff": "2026-11-26T00:00:00"
-    },
-    {
-      "fixture_key": "nba|charlottehornets|chicagobulls|2026-11-26",
-      "competition": "nba",
-      "competition_name": "NBA 美国职业篮球联赛",
-      "competition_class": "league",
-      "sport": "basketball",
-      "home": "Charlotte Hornets",
-      "away": "Chicago Bulls",
-      "kickoff": "2026-11-26T00:00:00"
-    },
-    {
-      "fixture_key": "nba|newyorkknicks|clevelandcavaliers|2026-11-26",
-      "competition": "nba",
-      "competition_name": "NBA 美国职业篮球联赛",
-      "competition_class": "league",
-      "sport": "basketball",
-      "home": "New York Knicks",
-      "away": "Cleveland Cavaliers",
-      "kickoff": "2026-11-26T00:30:00"
-    },
-    {
-      "fixture_key": "nba|oklahomacitythunder|minnesotatimberwolves|2026-11-26",
-      "competition": "nba",
-      "competition_name": "NBA 美国职业篮球联赛",
-      "competition_class": "league",
-      "sport": "basketball",
-      "home": "Oklahoma City Thunder",
-      "away": "Minnesota Timberwolves",
-      "kickoff": "2026-11-26T00:30:00"
-    },
-    {
-      "fixture_key": "nba|milwaukeebucks|brooklynnets|2026-11-26",
-      "competition": "nba",
-      "competition_name": "NBA 美国职业篮球联赛",
-      "competition_class": "league",
-      "sport": "basketball",
-      "home": "Milwaukee Bucks",
-      "away": "Brooklyn Nets",
-      "kickoff": "2026-11-26T01:00:00"
-    },
-    {
-      "fixture_key": "nba|memphisgrizzlies|losangelesclippers|2026-11-26",
-      "competition": "nba",
-      "competition_name": "NBA 美国职业篮球联赛",
-      "competition_class": "league",
-      "sport": "basketball",
-      "home": "Memphis Grizzlies",
-      "away": "Los Angeles Clippers",
-      "kickoff": "2026-11-26T01:00:00"
-    },
-    {
-      "fixture_key": "nba|houstonrockets|phoenixsuns|2026-11-26",
-      "competition": "nba",
-      "competition_name": "NBA 美国职业篮球联赛",
-      "competition_class": "league",
-      "sport": "basketball",
-      "home": "Houston Rockets",
-      "away": "Phoenix Suns",
-      "kickoff": "2026-11-26T01:30:00"
-    },
-    {
-      "fixture_key": "nba|portlandtrailblazers|sanantoniospurs|2026-11-26",
-      "competition": "nba",
-      "competition_name": "NBA 美国职业篮球联赛",
-      "competition_class": "league",
-      "sport": "basketball",
-      "home": "Portland Trail Blazers",
-      "away": "San Antonio Spurs",
-      "kickoff": "2026-11-26T03:00:00"
-    },
-    {
-      "fixture_key": "nba|goldenstatewarriors|sacramentokings|2026-11-26",
-      "competition": "nba",
-      "competition_name": "NBA 美国职业篮球联赛",
-      "competition_class": "league",
-      "sport": "basketball",
-      "home": "Golden State Warriors",
-      "away": "Sacramento Kings",
-      "kickoff": "2026-11-26T03:00:00"
     },
     {
       "fixture_key": "afc_cl2|淡滨尼流浪者|上海申花|2026-11-26",
@@ -2350,46 +1950,6 @@
       "home": "弗鲁米嫩塞",
       "away": "克鲁塞罗",
       "kickoff": "2026-11-27T23:00:00"
-    },
-    {
-      "fixture_key": "nba|newyorkknicks|miamiheat|2026-11-28",
-      "competition": "nba",
-      "competition_name": "NBA 美国职业篮球联赛",
-      "competition_class": "league",
-      "sport": "basketball",
-      "home": "New York Knicks",
-      "away": "Miami Heat",
-      "kickoff": "2026-11-28T00:00:00"
-    },
-    {
-      "fixture_key": "nba|indianapacers|philadelphia76ers|2026-11-28",
-      "competition": "nba",
-      "competition_name": "NBA 美国职业篮球联赛",
-      "competition_class": "league",
-      "sport": "basketball",
-      "home": "Indiana Pacers",
-      "away": "Philadelphia 76ers",
-      "kickoff": "2026-11-28T00:30:00"
-    },
-    {
-      "fixture_key": "nba|torontoraptors|brooklynnets|2026-11-28",
-      "competition": "nba",
-      "competition_name": "NBA 美国职业篮球联赛",
-      "competition_class": "league",
-      "sport": "basketball",
-      "home": "Toronto Raptors",
-      "away": "Brooklyn Nets",
-      "kickoff": "2026-11-28T00:30:00"
-    },
-    {
-      "fixture_key": "nba|detroitpistons|milwaukeebucks|2026-11-28",
-      "competition": "nba",
-      "competition_name": "NBA 美国职业篮球联赛",
-      "competition_class": "league",
-      "sport": "basketball",
-      "home": "Detroit Pistons",
-      "away": "Milwaukee Bucks",
-      "kickoff": "2026-11-28T00:30:00"
     },
     {
       "fixture_key": "mls|哥伦布机员|迈阿密国际|2026-11-28",
