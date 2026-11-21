@@ -2,6 +2,17 @@
   {
     "competition": "brasileirao",
     "cls": "league",
+    "home": "帕尔梅拉斯",
+    "away": "弗拉门戈",
+    "home_goals": 1,
+    "away_goals": 1,
+    "date": "2026-11-21",
+    "handicap_line": 0.0,
+    "total_line": 2.5
+  },
+  {
+    "competition": "brasileirao",
+    "cls": "league",
     "home": "圣保罗",
     "away": "弗鲁米嫩塞",
     "home_goals": 0,

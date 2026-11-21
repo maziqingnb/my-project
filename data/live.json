@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-21T21:17:47.057772+00:00",
+  "generated_at": "2026-11-21T22:01:29.862075+00:00",
   "matches": [
     {
       "fixture_key": "laliga|realmadrid|celtavigo|2026-11-21",
@@ -8,67 +8,7 @@
       "away": "Celta Vigo",
       "kickoff": "2026-11-21T20:00:00",
       "status": "live",
-      "home_goals": 0,
-      "away_goals": 1
-    },
-    {
-      "fixture_key": "seriea|napoli|torino|2026-11-21",
-      "competition": "seriea",
-      "home": "Napoli",
-      "away": "Torino",
-      "kickoff": "2026-11-21T19:45:00",
-      "status": "live",
-      "home_goals": 1,
-      "away_goals": 0
-    },
-    {
-      "fixture_key": "ligue1|monaco|auxerre|2026-11-21",
-      "competition": "ligue1",
-      "home": "Monaco",
-      "away": "Auxerre",
-      "kickoff": "2026-11-21T19:45:00",
-      "status": "live",
-      "home_goals": 0,
-      "away_goals": 1
-    },
-    {
-      "fixture_key": "ligue1|lens|toulouse|2026-11-21",
-      "competition": "ligue1",
-      "home": "Lens",
-      "away": "Toulouse",
-      "kickoff": "2026-11-21T19:45:00",
-      "status": "live",
-      "home_goals": 1,
-      "away_goals": 1
-    },
-    {
-      "fixture_key": "ligue1|lille|lyon|2026-11-21",
-      "competition": "ligue1",
-      "home": "Lille",
-      "away": "Lyon",
-      "kickoff": "2026-11-21T19:45:00",
-      "status": "live",
-      "home_goals": 0,
-      "away_goals": 1
-    },
-    {
-      "fixture_key": "ligue1|strasbourg|brest|2026-11-21",
-      "competition": "ligue1",
-      "home": "Strasbourg",
-      "away": "Brest",
-      "kickoff": "2026-11-21T19:45:00",
-      "status": "live",
-      "home_goals": 0,
-      "away_goals": 1
-    },
-    {
-      "fixture_key": "brasileirao|帕尔梅拉斯|弗拉门戈|2026-11-21",
-      "competition": "brasileirao",
-      "home": "帕尔梅拉斯",
-      "away": "弗拉门戈",
-      "kickoff": "2026-11-21T19:30:00",
-      "status": "live",
-      "home_goals": 1,
+      "home_goals": 2,
       "away_goals": 1
     },
     {
@@ -80,16 +20,6 @@
       "status": "live",
       "home_goals": 0,
       "away_goals": 0
-    },
-    {
-      "fixture_key": "argentina|阿根廷青年人|阿根廷独立|2026-11-21",
-      "competition": "argentina",
-      "home": "阿根廷青年人",
-      "away": "阿根廷独立",
-      "kickoff": "2026-11-21T20:00:00",
-      "status": "live",
-      "home_goals": 1,
-      "away_goals": 1
     },
     {
       "fixture_key": "mls|fcdallas|波特兰伐木者|2026-11-21",

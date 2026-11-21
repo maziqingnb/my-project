@@ -13,6 +13,17 @@
   {
     "competition": "argentina",
     "cls": "league",
+    "home": "阿根廷青年人",
+    "away": "阿根廷独立",
+    "home_goals": 1,
+    "away_goals": 2,
+    "date": "2026-11-21",
+    "handicap_line": -0.25,
+    "total_line": 2.0
+  },
+  {
+    "competition": "argentina",
+    "cls": "league",
     "home": "萨斯菲尔德",
     "away": "贝尔格拉诺",
     "home_goals": 1,

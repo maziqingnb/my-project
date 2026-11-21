@@ -24,6 +24,17 @@
   {
     "competition": "seriea",
     "cls": "league",
+    "home": "Napoli",
+    "away": "Torino",
+    "home_goals": 1,
+    "away_goals": 0,
+    "date": "2026-11-21",
+    "handicap_line": -1.25,
+    "total_line": 2.75
+  },
+  {
+    "competition": "seriea",
+    "cls": "league",
     "home": "Parma",
     "away": "Roma",
     "home_goals": 1,
