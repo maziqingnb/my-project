@@ -1,65 +1,5 @@
 [
   {
-    "key": "epl|bournemouth|nottinghamforest|2026-11-21",
-    "competition": "epl",
-    "home": "Bournemouth",
-    "away": "Nottingham Forest",
-    "kickoff": "2026-11-21T15:00:00",
-    "status": "upcoming",
-    "home_goals": null,
-    "away_goals": null
-  },
-  {
-    "key": "epl|astonvilla|sunderland|2026-11-21",
-    "competition": "epl",
-    "home": "Aston Villa",
-    "away": "Sunderland",
-    "kickoff": "2026-11-21T15:00:00",
-    "status": "upcoming",
-    "home_goals": null,
-    "away_goals": null
-  },
-  {
-    "key": "epl|chelsea|leedsunited|2026-11-21",
-    "competition": "epl",
-    "home": "Chelsea",
-    "away": "Leeds United",
-    "kickoff": "2026-11-21T15:00:00",
-    "status": "upcoming",
-    "home_goals": null,
-    "away_goals": null
-  },
-  {
-    "key": "epl|coventrycity|crystalpalace|2026-11-21",
-    "competition": "epl",
-    "home": "Coventry City",
-    "away": "Crystal Palace",
-    "kickoff": "2026-11-21T15:00:00",
-    "status": "upcoming",
-    "home_goals": null,
-    "away_goals": null
-  },
-  {
-    "key": "epl|tottenhamhotspur|ipswichtown|2026-11-21",
-    "competition": "epl",
-    "home": "Tottenham Hotspur",
-    "away": "Ipswich Town",
-    "kickoff": "2026-11-21T15:00:00",
-    "status": "upcoming",
-    "home_goals": null,
-    "away_goals": null
-  },
-  {
-    "key": "epl|newcastleunited|arsenal|2026-11-21",
-    "competition": "epl",
-    "home": "Newcastle United",
-    "away": "Arsenal",
-    "kickoff": "2026-11-21T17:30:00",
-    "status": "upcoming",
-    "home_goals": null,
-    "away_goals": null
-  },
-  {
     "key": "epl|hullcity|brighton|2026-11-22",
     "competition": "epl",
     "home": "Hull City",
@@ -95,6 +35,36 @@
     "home": "Nottingham Forest",
     "away": "Chelsea",
     "kickoff": "2026-11-27T20:00:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "epl|leedsunited|coventrycity|2026-11-28",
+    "competition": "epl",
+    "home": "Leeds United",
+    "away": "Coventry City",
+    "kickoff": "2026-11-28T15:00:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "epl|manchesterunited|brentford|2026-11-28",
+    "competition": "epl",
+    "home": "Manchester United",
+    "away": "Brentford",
+    "kickoff": "2026-11-28T15:00:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "epl|ipswichtown|astonvilla|2026-11-28",
+    "competition": "epl",
+    "home": "Ipswich Town",
+    "away": "Aston Villa",
+    "kickoff": "2026-11-28T17:30:00",
     "status": "upcoming",
     "home_goals": null,
     "away_goals": null

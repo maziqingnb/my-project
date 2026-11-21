@@ -1,65 +1,5 @@
 [
   {
-    "key": "bundesliga|bayerleverkusen|paderborn|2026-11-21",
-    "competition": "bundesliga",
-    "home": "Bayer Leverkusen",
-    "away": "Paderborn",
-    "kickoff": "2026-11-21T14:30:00",
-    "status": "upcoming",
-    "home_goals": null,
-    "away_goals": null
-  },
-  {
-    "key": "bundesliga|borussiamonchengladbach|borussiadortmund|2026-11-21",
-    "competition": "bundesliga",
-    "home": "Borussia Monchengladbach",
-    "away": "Borussia Dortmund",
-    "kickoff": "2026-11-21T14:30:00",
-    "status": "upcoming",
-    "home_goals": null,
-    "away_goals": null
-  },
-  {
-    "key": "bundesliga|eintrachtfrankfurt|hoffenheim|2026-11-21",
-    "competition": "bundesliga",
-    "home": "Eintracht Frankfurt",
-    "away": "Hoffenheim",
-    "kickoff": "2026-11-21T14:30:00",
-    "status": "upcoming",
-    "home_goals": null,
-    "away_goals": null
-  },
-  {
-    "key": "bundesliga|elversberg|freiburg|2026-11-21",
-    "competition": "bundesliga",
-    "home": "Elversberg",
-    "away": "Freiburg",
-    "kickoff": "2026-11-21T14:30:00",
-    "status": "upcoming",
-    "home_goals": null,
-    "away_goals": null
-  },
-  {
-    "key": "bundesliga|unionberlin|rbleipzig|2026-11-21",
-    "competition": "bundesliga",
-    "home": "Union Berlin",
-    "away": "RB Leipzig",
-    "kickoff": "2026-11-21T14:30:00",
-    "status": "upcoming",
-    "home_goals": null,
-    "away_goals": null
-  },
-  {
-    "key": "bundesliga|schalke04|stuttgart|2026-11-21",
-    "competition": "bundesliga",
-    "home": "Schalke 04",
-    "away": "Stuttgart",
-    "kickoff": "2026-11-21T17:30:00",
-    "status": "upcoming",
-    "home_goals": null,
-    "away_goals": null
-  },
-  {
     "key": "bundesliga|augsburg|mainz|2026-11-22",
     "competition": "bundesliga",
     "home": "Augsburg",
@@ -85,6 +25,56 @@
     "home": "Werder Bremen",
     "away": "Borussia Monchengladbach",
     "kickoff": "2026-11-27T19:30:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "bundesliga|fckoln|elversberg|2026-11-28",
+    "competition": "bundesliga",
+    "home": "FC Koln",
+    "away": "Elversberg",
+    "kickoff": "2026-11-28T14:30:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "bundesliga|hamburgersv|bayernmunich|2026-11-28",
+    "competition": "bundesliga",
+    "home": "Hamburger SV",
+    "away": "Bayern Munich",
+    "kickoff": "2026-11-28T14:30:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "bundesliga|mainz|unionberlin|2026-11-28",
+    "competition": "bundesliga",
+    "home": "Mainz",
+    "away": "Union Berlin",
+    "kickoff": "2026-11-28T14:30:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "bundesliga|paderborn|schalke04|2026-11-28",
+    "competition": "bundesliga",
+    "home": "Paderborn",
+    "away": "Schalke 04",
+    "kickoff": "2026-11-28T14:30:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "bundesliga|stuttgart|eintrachtfrankfurt|2026-11-28",
+    "competition": "bundesliga",
+    "home": "Stuttgart",
+    "away": "Eintracht Frankfurt",
+    "kickoff": "2026-11-28T17:30:00",
     "status": "upcoming",
     "home_goals": null,
     "away_goals": null

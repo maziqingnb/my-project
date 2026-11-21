@@ -1,25 +1,5 @@
 [
   {
-    "key": "rpl|喀山红宝石|圣彼得堡泽尼特|2026-11-21",
-    "competition": "rpl",
-    "home": "喀山红宝石",
-    "away": "圣彼得堡泽尼特",
-    "kickoff": "2026-11-21T14:30:00",
-    "status": "upcoming",
-    "home_goals": null,
-    "away_goals": null
-  },
-  {
-    "key": "rpl|莫斯科中央陆军|格罗兹尼特里克|2026-11-21",
-    "competition": "rpl",
-    "home": "莫斯科中央陆军",
-    "away": "格罗兹尼特里克",
-    "kickoff": "2026-11-21T16:45:00",
-    "status": "upcoming",
-    "home_goals": null,
-    "away_goals": null
-  },
-  {
     "key": "rpl|莫斯科迪纳摩|克拉斯诺达尔|2026-11-22",
     "competition": "rpl",
     "home": "莫斯科迪纳摩",
@@ -45,6 +25,36 @@
     "home": "罗迪纳莫斯科",
     "away": "莫斯科火车头",
     "kickoff": "2026-11-22T16:00:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "rpl|喀山红宝石|阿克伦陶里亚蒂|2026-11-28",
+    "competition": "rpl",
+    "home": "喀山红宝石",
+    "away": "阿克伦陶里亚蒂",
+    "kickoff": "2026-11-28T11:00:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "rpl|莫斯科中央陆军|圣彼得堡泽尼特|2026-11-28",
+    "competition": "rpl",
+    "home": "莫斯科中央陆军",
+    "away": "圣彼得堡泽尼特",
+    "kickoff": "2026-11-28T13:30:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "rpl|加里宁格勒波罗的海|格罗兹尼特里克|2026-11-28",
+    "competition": "rpl",
+    "home": "加里宁格勒波罗的海",
+    "away": "格罗兹尼特里克",
+    "kickoff": "2026-11-28T16:00:00",
     "status": "upcoming",
     "home_goals": null,
     "away_goals": null

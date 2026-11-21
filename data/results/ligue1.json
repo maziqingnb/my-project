@@ -2,6 +2,17 @@
   {
     "competition": "ligue1",
     "cls": "league",
+    "home": "Nice",
+    "away": "Paris Saint-Germain",
+    "home_goals": 2,
+    "away_goals": 3,
+    "date": "2026-11-21",
+    "handicap_line": 1.25,
+    "total_line": 3.5
+  },
+  {
+    "competition": "ligue1",
+    "cls": "league",
     "home": "Troyes",
     "away": "Le Havre",
     "home_goals": 3,

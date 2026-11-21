@@ -1,15 +1,5 @@
 [
   {
-    "key": "nba|philadelphia76ers|milwaukeebucks|2026-11-21",
-    "competition": "nba",
-    "home": "Philadelphia 76ers",
-    "away": "Milwaukee Bucks",
-    "kickoff": "2026-11-21T18:00:00",
-    "status": "upcoming",
-    "home_goals": null,
-    "away_goals": null
-  },
-  {
     "key": "nba|newyorkknicks|portlandtrailblazers|2026-11-22",
     "competition": "nba",
     "home": "New York Knicks",

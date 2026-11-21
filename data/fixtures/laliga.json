@@ -1,45 +1,5 @@
 [
   {
-    "key": "laliga|alaves|deportivolacoruna|2026-11-21",
-    "competition": "laliga",
-    "home": "Alaves",
-    "away": "Deportivo La Coruna",
-    "kickoff": "2026-11-21T13:00:00",
-    "status": "upcoming",
-    "home_goals": null,
-    "away_goals": null
-  },
-  {
-    "key": "laliga|rayovallecano|valencia|2026-11-21",
-    "competition": "laliga",
-    "home": "Rayo Vallecano",
-    "away": "Valencia",
-    "kickoff": "2026-11-21T15:15:00",
-    "status": "upcoming",
-    "home_goals": null,
-    "away_goals": null
-  },
-  {
-    "key": "laliga|sevilla|realbetis|2026-11-21",
-    "competition": "laliga",
-    "home": "Sevilla",
-    "away": "Real Betis",
-    "kickoff": "2026-11-21T17:30:00",
-    "status": "upcoming",
-    "home_goals": null,
-    "away_goals": null
-  },
-  {
-    "key": "laliga|realmadrid|celtavigo|2026-11-21",
-    "competition": "laliga",
-    "home": "Real Madrid",
-    "away": "Celta Vigo",
-    "kickoff": "2026-11-21T20:00:00",
-    "status": "upcoming",
-    "home_goals": null,
-    "away_goals": null
-  },
-  {
     "key": "laliga|barcelona|villarreal|2026-11-22",
     "competition": "laliga",
     "home": "Barcelona",
@@ -95,6 +55,46 @@
     "home": "Levante",
     "away": "Racing Santander",
     "kickoff": "2026-11-27T20:00:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "laliga|realbetis|rayovallecano|2026-11-28",
+    "competition": "laliga",
+    "home": "Real Betis",
+    "away": "Rayo Vallecano",
+    "kickoff": "2026-11-28T13:00:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "laliga|malaga|athleticbilbao|2026-11-28",
+    "competition": "laliga",
+    "home": "Malaga",
+    "away": "Athletic Bilbao",
+    "kickoff": "2026-11-28T15:15:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "laliga|elche|atleticomadrid|2026-11-28",
+    "competition": "laliga",
+    "home": "Elche",
+    "away": "Atletico Madrid",
+    "kickoff": "2026-11-28T17:30:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "laliga|realmadrid|alaves|2026-11-28",
+    "competition": "laliga",
+    "home": "Real Madrid",
+    "away": "Alaves",
+    "kickoff": "2026-11-28T20:00:00",
     "status": "upcoming",
     "home_goals": null,
     "away_goals": null

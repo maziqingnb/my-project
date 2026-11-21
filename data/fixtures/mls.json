@@ -1,35 +1,5 @@
 [
   {
-    "key": "mls|新英格兰革命|费城联合|2026-11-21",
-    "competition": "mls",
-    "home": "新英格兰革命",
-    "away": "费城联合",
-    "kickoff": "2026-11-21T19:00:00",
-    "status": "upcoming",
-    "home_goals": null,
-    "away_goals": null
-  },
-  {
-    "key": "mls|达拉斯fc|波特兰伐木者|2026-11-21",
-    "competition": "mls",
-    "home": "达拉斯FC",
-    "away": "波特兰伐木者",
-    "kickoff": "2026-11-21T21:00:00",
-    "status": "upcoming",
-    "home_goals": null,
-    "away_goals": null
-  },
-  {
-    "key": "mls|迈阿密国际|哥伦布机员|2026-11-21",
-    "competition": "mls",
-    "home": "迈阿密国际",
-    "away": "哥伦布机员",
-    "kickoff": "2026-11-21T23:00:00",
-    "status": "upcoming",
-    "home_goals": null,
-    "away_goals": null
-  },
-  {
     "key": "mls|纳什威尔sc|辛辛那提|2026-11-22",
     "competition": "mls",
     "home": "纳什威尔SC",
@@ -85,6 +55,66 @@
     "home": "哥伦布机员",
     "away": "迈阿密国际",
     "kickoff": "2026-11-28T01:00:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "mls|皇家盐湖城|温哥华白浪|2026-11-28",
+    "competition": "mls",
+    "home": "皇家盐湖城",
+    "away": "温哥华白浪",
+    "kickoff": "2026-11-28T03:00:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "mls|夏洛特fc|芝加哥火焰|2026-11-28",
+    "competition": "mls",
+    "home": "夏洛特FC",
+    "away": "芝加哥火焰",
+    "kickoff": "2026-11-28T17:30:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "mls|休斯敦迪纳摩|圣何塞地震|2026-11-28",
+    "competition": "mls",
+    "home": "休斯敦迪纳摩",
+    "away": "圣何塞地震",
+    "kickoff": "2026-11-28T19:30:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "mls|费城联合|新英格兰革命|2026-11-28",
+    "competition": "mls",
+    "home": "费城联合",
+    "away": "新英格兰革命",
+    "kickoff": "2026-11-28T21:30:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "mls|辛辛那提|纳什威尔sc|2026-11-28",
+    "competition": "mls",
+    "home": "辛辛那提",
+    "away": "纳什威尔SC",
+    "kickoff": "2026-11-28T23:30:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "mls|洛杉矶fc|圣路易斯城|2026-11-29",
+    "competition": "mls",
+    "home": "洛杉矶FC",
+    "away": "圣路易斯城",
+    "kickoff": "2026-11-29T01:30:00",
     "status": "upcoming",
     "home_goals": null,
     "away_goals": null

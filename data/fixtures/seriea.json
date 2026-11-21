@@ -1,45 +1,5 @@
 [
   {
-    "key": "seriea|como|cagliari|2026-11-21",
-    "competition": "seriea",
-    "home": "Como",
-    "away": "Cagliari",
-    "kickoff": "2026-11-21T14:00:00",
-    "status": "upcoming",
-    "home_goals": null,
-    "away_goals": null
-  },
-  {
-    "key": "seriea|lazio|lecce|2026-11-21",
-    "competition": "seriea",
-    "home": "Lazio",
-    "away": "Lecce",
-    "kickoff": "2026-11-21T14:00:00",
-    "status": "upcoming",
-    "home_goals": null,
-    "away_goals": null
-  },
-  {
-    "key": "seriea|parma|roma|2026-11-21",
-    "competition": "seriea",
-    "home": "Parma",
-    "away": "Roma",
-    "kickoff": "2026-11-21T17:00:00",
-    "status": "upcoming",
-    "home_goals": null,
-    "away_goals": null
-  },
-  {
-    "key": "seriea|napoli|torino|2026-11-21",
-    "competition": "seriea",
-    "home": "Napoli",
-    "away": "Torino",
-    "kickoff": "2026-11-21T19:45:00",
-    "status": "upcoming",
-    "home_goals": null,
-    "away_goals": null
-  },
-  {
     "key": "seriea|juventus|venezia|2026-11-22",
     "competition": "seriea",
     "home": "Juventus",
@@ -105,6 +65,36 @@
     "home": "Venezia",
     "away": "Bologna",
     "kickoff": "2026-11-27T19:45:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "seriea|frosinone|parma|2026-11-28",
+    "competition": "seriea",
+    "home": "Frosinone",
+    "away": "Parma",
+    "kickoff": "2026-11-28T14:00:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "seriea|torino|lazio|2026-11-28",
+    "competition": "seriea",
+    "home": "Torino",
+    "away": "Lazio",
+    "kickoff": "2026-11-28T17:00:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "seriea|intermilan|genoa|2026-11-28",
+    "competition": "seriea",
+    "home": "Inter Milan",
+    "away": "Genoa",
+    "kickoff": "2026-11-28T19:45:00",
     "status": "upcoming",
     "home_goals": null,
     "away_goals": null

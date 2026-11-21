@@ -8,5 +8,45 @@
     "status": "upcoming",
     "home_goals": null,
     "away_goals": null
+  },
+  {
+    "key": "primeira|阿罗卡|里奥阿维|2026-11-28",
+    "competition": "primeira",
+    "home": "阿罗卡",
+    "away": "里奥阿维",
+    "kickoff": "2026-11-28T15:30:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "primeira|摩里伦斯|圣克拉拉|2026-11-28",
+    "competition": "primeira",
+    "home": "摩里伦斯",
+    "away": "圣克拉拉",
+    "kickoff": "2026-11-28T15:30:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "primeira|维塞乌|艾华卡|2026-11-28",
+    "competition": "primeira",
+    "home": "维塞乌",
+    "away": "艾华卡",
+    "kickoff": "2026-11-28T18:00:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "primeira|吉马良斯|阿马多拉|2026-11-28",
+    "competition": "primeira",
+    "home": "吉马良斯",
+    "away": "阿马多拉",
+    "kickoff": "2026-11-28T20:30:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
   }
 ]
