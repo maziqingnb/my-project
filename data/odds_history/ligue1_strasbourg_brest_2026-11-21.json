@@ -381,6 +381,21 @@
     "away": "Brest",
     "kickoff": "2026-11-21T19:45:00",
     "bookmaker": "crown",
+    "ts": "2026-11-20T19:45:00+00:00",
+    "handicap_line": -0.25,
+    "handicap_home": 0.99,
+    "handicap_away": 0.89,
+    "total_line": 3.0,
+    "over": 1.03,
+    "under": 0.83
+  },
+  {
+    "fixture_key": "ligue1|strasbourg|brest|2026-11-21",
+    "competition": "ligue1",
+    "home": "Strasbourg",
+    "away": "Brest",
+    "kickoff": "2026-11-21T19:45:00",
+    "bookmaker": "crown",
     "ts": "2026-11-20T20:42:31.282471+00:00",
     "handicap_line": -0.25,
     "handicap_home": 0.94,
@@ -598,5 +613,20 @@
     "total_line": 2.75,
     "over": 0.99,
     "under": 0.89
+  },
+  {
+    "fixture_key": "ligue1|strasbourg|brest|2026-11-21",
+    "competition": "ligue1",
+    "home": "Strasbourg",
+    "away": "Brest",
+    "kickoff": "2026-11-21T19:45:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-21T10:40:16.822222+00:00",
+    "handicap_line": -0.25,
+    "handicap_home": 0.95,
+    "handicap_away": 0.94,
+    "total_line": 2.75,
+    "over": 1.01,
+    "under": 0.87
   }
 ]
