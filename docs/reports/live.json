@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-21T15:10:07.107633+00:00",
+  "generated_at": "2026-11-21T15:56:50.357877+00:00",
   "matches": [
     {
       "fixture_key": "epl|bournemouth|nottinghamforest|2026-11-21",
@@ -8,7 +8,7 @@
       "away": "Nottingham Forest",
       "kickoff": "2026-11-21T15:00:00",
       "status": "live",
-      "home_goals": 0,
+      "home_goals": 2,
       "away_goals": 0
     },
     {
@@ -28,8 +28,8 @@
       "away": "Leeds United",
       "kickoff": "2026-11-21T15:00:00",
       "status": "live",
-      "home_goals": 0,
-      "away_goals": 0
+      "home_goals": 1,
+      "away_goals": 1
     },
     {
       "fixture_key": "epl|coventrycity|crystalpalace|2026-11-21",
@@ -38,8 +38,8 @@
       "away": "Crystal Palace",
       "kickoff": "2026-11-21T15:00:00",
       "status": "live",
-      "home_goals": 1,
-      "away_goals": 0
+      "home_goals": 2,
+      "away_goals": 2
     },
     {
       "fixture_key": "epl|tottenhamhotspur|ipswichtown|2026-11-21",
@@ -47,6 +47,16 @@
       "home": "Tottenham Hotspur",
       "away": "Ipswich Town",
       "kickoff": "2026-11-21T15:00:00",
+      "status": "live",
+      "home_goals": 1,
+      "away_goals": 0
+    },
+    {
+      "fixture_key": "laliga|rayovallecano|valencia|2026-11-21",
+      "competition": "laliga",
+      "home": "Rayo Vallecano",
+      "away": "Valencia",
+      "kickoff": "2026-11-21T15:15:00",
       "status": "live",
       "home_goals": 0,
       "away_goals": 0
@@ -58,17 +68,7 @@
       "away": "Cagliari",
       "kickoff": "2026-11-21T14:00:00",
       "status": "live",
-      "home_goals": 1,
-      "away_goals": 0
-    },
-    {
-      "fixture_key": "seriea|lazio|lecce|2026-11-21",
-      "competition": "seriea",
-      "home": "Lazio",
-      "away": "Lecce",
-      "kickoff": "2026-11-21T14:00:00",
-      "status": "live",
-      "home_goals": 1,
+      "home_goals": 2,
       "away_goals": 0
     },
     {
@@ -78,8 +78,8 @@
       "away": "RB Leipzig",
       "kickoff": "2026-11-21T14:30:00",
       "status": "live",
-      "home_goals": 0,
-      "away_goals": 1
+      "home_goals": 1,
+      "away_goals": 2
     },
     {
       "fixture_key": "bundesliga|bayerleverkusen|paderborn|2026-11-21",
@@ -88,7 +88,7 @@
       "away": "Paderborn",
       "kickoff": "2026-11-21T14:30:00",
       "status": "live",
-      "home_goals": 1,
+      "home_goals": 4,
       "away_goals": 0
     },
     {
@@ -129,27 +129,7 @@
       "kickoff": "2026-11-21T14:30:00",
       "status": "live",
       "home_goals": 2,
-      "away_goals": 0
-    },
-    {
-      "fixture_key": "sweden|aik|degerforsif|2026-11-21",
-      "competition": "sweden",
-      "home": "AIK",
-      "away": "Degerfors IF",
-      "kickoff": "2026-11-21T14:00:00",
-      "status": "live",
-      "home_goals": 0,
-      "away_goals": 0
-    },
-    {
-      "fixture_key": "sweden|mjllbyaif|malmff|2026-11-21",
-      "competition": "sweden",
-      "home": "Mjällby AIF",
-      "away": "Malmö FF",
-      "kickoff": "2026-11-21T14:00:00",
-      "status": "live",
-      "home_goals": 1,
-      "away_goals": 0
+      "away_goals": 1
     }
   ]
 }

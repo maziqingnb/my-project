@@ -2,6 +2,17 @@
   {
     "competition": "seriea",
     "cls": "league",
+    "home": "Lazio",
+    "away": "Lecce",
+    "home_goals": 3,
+    "away_goals": 0,
+    "date": "2026-11-21",
+    "handicap_line": -1.5,
+    "total_line": 3.0
+  },
+  {
+    "competition": "seriea",
+    "cls": "league",
     "home": "Fiorentina",
     "away": "Juventus",
     "home_goals": 2,
