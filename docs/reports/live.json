@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-11-21T22:44:00.868479+00:00",
+  "generated_at": "2026-11-21T23:24:45.686767+00:00",
   "matches": [
     {
-      "fixture_key": "mls|fcdallas|波特兰伐木者|2026-11-21",
+      "fixture_key": "mls|迈阿密国际|哥伦布机员|2026-11-21",
       "competition": "mls",
-      "home": "FC Dallas",
-      "away": "波特兰伐木者",
-      "kickoff": "2026-11-21T21:00:00",
+      "home": "迈阿密国际",
+      "away": "哥伦布机员",
+      "kickoff": "2026-11-21T23:00:00",
       "status": "live",
-      "home_goals": 2,
-      "away_goals": 0
+      "home_goals": 0,
+      "away_goals": 1
     }
   ]
 }
