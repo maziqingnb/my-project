@@ -336,6 +336,21 @@
     "away": "Lecce",
     "kickoff": "2026-11-21T14:00:00",
     "bookmaker": "crown",
+    "ts": "2026-11-20T14:00:00+00:00",
+    "handicap_line": -1.5,
+    "handicap_home": 1.04,
+    "handicap_away": 0.84,
+    "total_line": 3.0,
+    "over": 0.98,
+    "under": 0.88
+  },
+  {
+    "fixture_key": "seriea|lazio|lecce|2026-11-21",
+    "competition": "seriea",
+    "home": "Lazio",
+    "away": "Lecce",
+    "kickoff": "2026-11-21T14:00:00",
+    "bookmaker": "crown",
     "ts": "2026-11-20T16:23:07.793790+00:00",
     "handicap_line": -1.25,
     "handicap_home": 0.84,
@@ -658,5 +673,20 @@
     "total_line": 2.75,
     "over": 0.81,
     "under": 1.07
+  },
+  {
+    "fixture_key": "seriea|lazio|lecce|2026-11-21",
+    "competition": "seriea",
+    "home": "Lazio",
+    "away": "Lecce",
+    "kickoff": "2026-11-21T14:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-21T12:39:53.013314+00:00",
+    "handicap_line": -1.0,
+    "handicap_home": 0.82,
+    "handicap_away": 1.07,
+    "total_line": 2.75,
+    "over": 0.82,
+    "under": 1.06
   }
 ]

@@ -1,15 +1,5 @@
 [
   {
-    "key": "epl|manchestercity|fulham|2026-11-21",
-    "competition": "epl",
-    "home": "Manchester City",
-    "away": "Fulham",
-    "kickoff": "2026-11-21T12:30:00",
-    "status": "upcoming",
-    "home_goals": null,
-    "away_goals": null
-  },
-  {
     "key": "epl|bournemouth|nottinghamforest|2026-11-21",
     "competition": "epl",
     "home": "Bournemouth",

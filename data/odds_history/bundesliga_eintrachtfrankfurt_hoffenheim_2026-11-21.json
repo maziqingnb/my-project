@@ -336,6 +336,21 @@
     "away": "Hoffenheim",
     "kickoff": "2026-11-21T14:30:00",
     "bookmaker": "crown",
+    "ts": "2026-11-20T14:30:00+00:00",
+    "handicap_line": 0.0,
+    "handicap_home": 0.84,
+    "handicap_away": 1.04,
+    "total_line": 3.5,
+    "over": 0.93,
+    "under": 0.93
+  },
+  {
+    "fixture_key": "bundesliga|eintrachtfrankfurt|hoffenheim|2026-11-21",
+    "competition": "bundesliga",
+    "home": "Eintracht Frankfurt",
+    "away": "Hoffenheim",
+    "kickoff": "2026-11-21T14:30:00",
+    "bookmaker": "crown",
     "ts": "2026-11-20T16:23:16.123706+00:00",
     "handicap_line": 0.0,
     "handicap_home": 0.86,
@@ -658,5 +673,20 @@
     "total_line": 3.75,
     "over": 0.97,
     "under": 0.91
+  },
+  {
+    "fixture_key": "bundesliga|eintrachtfrankfurt|hoffenheim|2026-11-21",
+    "competition": "bundesliga",
+    "home": "Eintracht Frankfurt",
+    "away": "Hoffenheim",
+    "kickoff": "2026-11-21T14:30:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-21T12:39:47.033332+00:00",
+    "handicap_line": 0.0,
+    "handicap_home": 0.92,
+    "handicap_away": 0.97,
+    "total_line": 3.75,
+    "over": 0.91,
+    "under": 0.97
   }
 ]

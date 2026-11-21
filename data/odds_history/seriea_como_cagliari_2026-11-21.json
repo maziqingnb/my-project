@@ -336,6 +336,21 @@
     "away": "Cagliari",
     "kickoff": "2026-11-21T14:00:00",
     "bookmaker": "crown",
+    "ts": "2026-11-20T14:00:00+00:00",
+    "handicap_line": -1.5,
+    "handicap_home": 1.02,
+    "handicap_away": 0.86,
+    "total_line": 3.0,
+    "over": 0.97,
+    "under": 0.89
+  },
+  {
+    "fixture_key": "seriea|como|cagliari|2026-11-21",
+    "competition": "seriea",
+    "home": "Como",
+    "away": "Cagliari",
+    "kickoff": "2026-11-21T14:00:00",
+    "bookmaker": "crown",
     "ts": "2026-11-20T16:23:07.214916+00:00",
     "handicap_line": -1.5,
     "handicap_home": 0.88,
@@ -658,5 +673,20 @@
     "total_line": 3.25,
     "over": 1.02,
     "under": 0.86
+  },
+  {
+    "fixture_key": "seriea|como|cagliari|2026-11-21",
+    "competition": "seriea",
+    "home": "Como",
+    "away": "Cagliari",
+    "kickoff": "2026-11-21T14:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-21T12:39:49.564899+00:00",
+    "handicap_line": -1.75,
+    "handicap_home": 1.02,
+    "handicap_away": 0.87,
+    "total_line": 3.25,
+    "over": 1.01,
+    "under": 0.87
   }
 ]
