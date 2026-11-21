@@ -46,6 +46,17 @@
   {
     "competition": "bundesliga",
     "cls": "league",
+    "home": "Schalke 04",
+    "away": "Stuttgart",
+    "home_goals": 0,
+    "away_goals": 0,
+    "date": "2026-11-21",
+    "handicap_line": 0.5,
+    "total_line": 3.25
+  },
+  {
+    "competition": "bundesliga",
+    "cls": "league",
     "home": "Union Berlin",
     "away": "RB Leipzig",
     "home_goals": 1,

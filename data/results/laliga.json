@@ -24,6 +24,17 @@
   {
     "competition": "laliga",
     "cls": "league",
+    "home": "Sevilla",
+    "away": "Real Betis",
+    "home_goals": 1,
+    "away_goals": 1,
+    "date": "2026-11-21",
+    "handicap_line": 0.0,
+    "total_line": 2.75
+  },
+  {
+    "competition": "laliga",
+    "cls": "league",
     "home": "Athletic Bilbao",
     "away": "Espanyol",
     "home_goals": 0,

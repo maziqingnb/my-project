@@ -1,34 +1,64 @@
 {
-  "generated_at": "2026-11-21T19:10:40.133078+00:00",
+  "generated_at": "2026-11-21T19:52:43.889191+00:00",
   "matches": [
     {
-      "fixture_key": "epl|newcastleunited|arsenal|2026-11-21",
-      "competition": "epl",
-      "home": "Newcastle United",
-      "away": "Arsenal",
-      "kickoff": "2026-11-21T17:30:00",
-      "status": "live",
-      "home_goals": 2,
-      "away_goals": 2
-    },
-    {
-      "fixture_key": "laliga|sevilla|realbetis|2026-11-21",
-      "competition": "laliga",
-      "home": "Sevilla",
-      "away": "Real Betis",
-      "kickoff": "2026-11-21T17:30:00",
+      "fixture_key": "seriea|napoli|torino|2026-11-21",
+      "competition": "seriea",
+      "home": "Napoli",
+      "away": "Torino",
+      "kickoff": "2026-11-21T19:45:00",
       "status": "live",
       "home_goals": 0,
-      "away_goals": 1
+      "away_goals": 0
     },
     {
-      "fixture_key": "bundesliga|schalke04|stuttgart|2026-11-21",
-      "competition": "bundesliga",
-      "home": "Schalke 04",
-      "away": "Stuttgart",
-      "kickoff": "2026-11-21T17:30:00",
+      "fixture_key": "ligue1|monaco|auxerre|2026-11-21",
+      "competition": "ligue1",
+      "home": "Monaco",
+      "away": "Auxerre",
+      "kickoff": "2026-11-21T19:45:00",
       "status": "live",
       "home_goals": 0,
+      "away_goals": 0
+    },
+    {
+      "fixture_key": "ligue1|lens|toulouse|2026-11-21",
+      "competition": "ligue1",
+      "home": "Lens",
+      "away": "Toulouse",
+      "kickoff": "2026-11-21T19:45:00",
+      "status": "live",
+      "home_goals": 0,
+      "away_goals": 0
+    },
+    {
+      "fixture_key": "ligue1|lille|lyon|2026-11-21",
+      "competition": "ligue1",
+      "home": "Lille",
+      "away": "Lyon",
+      "kickoff": "2026-11-21T19:45:00",
+      "status": "live",
+      "home_goals": 0,
+      "away_goals": 0
+    },
+    {
+      "fixture_key": "ligue1|strasbourg|brest|2026-11-21",
+      "competition": "ligue1",
+      "home": "Strasbourg",
+      "away": "Brest",
+      "kickoff": "2026-11-21T19:45:00",
+      "status": "live",
+      "home_goals": 0,
+      "away_goals": 0
+    },
+    {
+      "fixture_key": "brasileirao|帕尔梅拉斯|弗拉门戈|2026-11-21",
+      "competition": "brasileirao",
+      "home": "帕尔梅拉斯",
+      "away": "弗拉门戈",
+      "kickoff": "2026-11-21T19:30:00",
+      "status": "live",
+      "home_goals": 1,
       "away_goals": 0
     },
     {
@@ -42,14 +72,24 @@
       "away_goals": 1
     },
     {
-      "fixture_key": "greeksl|kalamata|aekathens|2026-11-21",
-      "competition": "greeksl",
-      "home": "Kalamata",
-      "away": "AEK Athens",
-      "kickoff": "2026-11-21T17:30:00",
+      "fixture_key": "mls|新英格兰革命|费城联合|2026-11-21",
+      "competition": "mls",
+      "home": "新英格兰革命",
+      "away": "费城联合",
+      "kickoff": "2026-11-21T19:00:00",
+      "status": "live",
+      "home_goals": 1,
+      "away_goals": 0
+    },
+    {
+      "fixture_key": "poland|拉多麦科|克拉科夫|2026-11-21",
+      "competition": "poland",
+      "home": "拉多麦科",
+      "away": "克拉科夫",
+      "kickoff": "2026-11-21T19:45:00",
       "status": "live",
       "home_goals": 0,
-      "away_goals": 1
+      "away_goals": 0
     }
   ]
 }

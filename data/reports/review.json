@@ -1,7 +1,53 @@
 {
-  "generated_at": "2026-11-21T19:40:18.453938+00:00",
-  "total_missed": 47,
+  "generated_at": "2026-11-21T19:52:47.902868+00:00",
+  "total_missed": 48,
   "days": [
+    {
+      "date": "2026-11-22",
+      "missed": 1,
+      "items": [
+        {
+          "competition": "laliga",
+          "home": "Sevilla",
+          "away": "Real Betis",
+          "kickoff": "2026-11-21T17:30:00",
+          "market": "totals",
+          "sport": "football",
+          "pick": "大球（2.5）",
+          "side": "over",
+          "line": 2.5,
+          "score": 70.4,
+          "confidence": "strong",
+          "outcome": "loss",
+          "outcome_cn": "没中",
+          "home_goals": 1,
+          "away_goals": 1,
+          "book": "盘口 2.5 → 2.5，水位 大0.91/小0.97 → 大0.89/小0.99",
+          "diagnosis": [
+            "盘口 2.5 → 2.5，水位 大0.91/小0.97 → 大0.89/小0.99",
+            "最终总进球 2，相对盘口 2.5 偏小"
+          ],
+          "note": "大球（2.5） · 最终 1-1（总进球 2），未打出",
+          "signals": {
+            "line_desc": "盘口不变",
+            "over_desc": "大球降水 0.91->0.89",
+            "line_first": 2.5,
+            "line_last": 2.5,
+            "over_first": 0.91,
+            "over_last": 0.89,
+            "under_first": 0.97,
+            "under_last": 0.99,
+            "conflict": false
+          },
+          "reasons": [
+            "大小球 盘口不变",
+            "大球降水 0.91->0.89",
+            "主队近5场场均总进球 3.4",
+            "客队近5场场均总进球 3.8"
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-11-21",
       "missed": 2,
