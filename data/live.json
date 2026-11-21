@@ -1,12 +1,52 @@
 {
-  "generated_at": "2026-11-21T12:14:04.153719+00:00",
+  "generated_at": "2026-11-21T13:19:48.773501+00:00",
   "matches": [
     {
-      "fixture_key": "superlig|genclerbirligi|gaziantepfk|2026-11-21",
+      "fixture_key": "epl|manchestercity|fulham|2026-11-21",
+      "competition": "epl",
+      "home": "Manchester City",
+      "away": "Fulham",
+      "kickoff": "2026-11-21T12:30:00",
+      "status": "live",
+      "home_goals": 0,
+      "away_goals": 1
+    },
+    {
+      "fixture_key": "laliga|alaves|deportivolacoruna|2026-11-21",
+      "competition": "laliga",
+      "home": "Alaves",
+      "away": "Deportivo La Coruna",
+      "kickoff": "2026-11-21T13:00:00",
+      "status": "live",
+      "home_goals": 1,
+      "away_goals": 0
+    },
+    {
+      "fixture_key": "rpl|akrontolyatti|fakelvoronezh|2026-11-21",
+      "competition": "rpl",
+      "home": "Akron Tolyatti",
+      "away": "Fakel Voronezh",
+      "kickoff": "2026-11-21T12:15:00",
+      "status": "live",
+      "home_goals": 0,
+      "away_goals": 2
+    },
+    {
+      "fixture_key": "superlig|amedsfk|caykurrizespor|2026-11-21",
       "competition": "superlig",
-      "home": "Genclerbirligi",
-      "away": "Gaziantep FK",
-      "kickoff": "2026-11-21T10:30:00",
+      "home": "Amed SFK",
+      "away": "Caykur Rizespor",
+      "kickoff": "2026-11-21T13:00:00",
+      "status": "live",
+      "home_goals": 0,
+      "away_goals": 0
+    },
+    {
+      "fixture_key": "superlig|加拉塔萨雷|samsunspor|2026-11-21",
+      "competition": "superlig",
+      "home": "加拉塔萨雷",
+      "away": "Samsunspor",
+      "kickoff": "2026-11-21T13:00:00",
       "status": "live",
       "home_goals": 1,
       "away_goals": 0

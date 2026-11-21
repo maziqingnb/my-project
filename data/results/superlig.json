@@ -2,6 +2,17 @@
   {
     "competition": "superlig",
     "cls": "league",
+    "home": "Genclerbirligi",
+    "away": "Gaziantep FK",
+    "home_goals": 1,
+    "away_goals": 0,
+    "date": "2026-11-21",
+    "handicap_line": null,
+    "total_line": null
+  },
+  {
+    "competition": "superlig",
+    "cls": "league",
     "home": "根克勒比利吉",
     "away": "加济安泰普大都会",
     "home_goals": 1,
