@@ -441,6 +441,21 @@
     "away": "Lyon",
     "kickoff": "2026-11-21T19:45:00",
     "bookmaker": "crown",
+    "ts": "2026-11-20T19:45:00+00:00",
+    "handicap_line": -0.25,
+    "handicap_home": 1.02,
+    "handicap_away": 0.86,
+    "total_line": 2.5,
+    "over": 0.94,
+    "under": 0.92
+  },
+  {
+    "fixture_key": "ligue1|lille|lyon|2026-11-21",
+    "competition": "ligue1",
+    "home": "Lille",
+    "away": "Lyon",
+    "kickoff": "2026-11-21T19:45:00",
+    "bookmaker": "crown",
     "ts": "2026-11-20T20:42:30.756692+00:00",
     "handicap_line": -0.25,
     "handicap_home": 0.95,
@@ -718,5 +733,20 @@
     "total_line": 2.25,
     "over": 0.83,
     "under": 1.05
+  },
+  {
+    "fixture_key": "ligue1|lille|lyon|2026-11-21",
+    "competition": "ligue1",
+    "home": "Lille",
+    "away": "Lyon",
+    "kickoff": "2026-11-21T19:45:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-21T13:50:40.970995+00:00",
+    "handicap_line": -0.25,
+    "handicap_home": 0.98,
+    "handicap_away": 0.91,
+    "total_line": 2.25,
+    "over": 0.88,
+    "under": 1.0
   }
 ]
