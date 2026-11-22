@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-22T11:48:27.809110+00:00",
+  "generated_at": "2026-11-22T12:09:01.423170+00:00",
   "scope": "16 个联赛 + 5 个杯赛",
   "note": "杯赛与联赛数据分开计算；仅开赛前 6h 内出推荐；命中率只统计强推",
-  "total": 4,
+  "total": 3,
   "stats": {
     "overall": {
       "counts": {
@@ -326,23 +326,29 @@
       "line": -1.0,
       "reasons": [
         "亚盘 盘口不变",
-        "主队降水 1.05->0.89",
+        "主队降水 1.05->0.85",
         "主队近5场 3胜0平2负，场均进1.4/失1.0",
         "客队近5场 0胜1平4负，场均进0.6/失2.6",
         "交手1次：主队1胜0平0负"
       ],
       "signals": {
         "line_desc": "盘口不变",
-        "water_desc": "主队降水 1.05->0.89",
+        "water_desc": "主队降水 1.05->0.85",
         "line_first": -1.0,
         "line_last": -1.0,
         "home_water_first": 1.05,
-        "home_water_last": 0.89,
+        "home_water_last": 0.85,
         "away_water_first": 0.83,
-        "away_water_last": 1.0,
+        "away_water_last": 1.04,
         "conflict": false
       },
       "history": [
+        {
+          "ts": "2026-11-21T13:00:00+00:00",
+          "handicap_line": -1.0,
+          "handicap_home": 1.05,
+          "handicap_away": 0.83
+        },
         {
           "ts": "2026-11-21T13:00:00+00:00",
           "handicap_line": -1.0,
@@ -606,13 +612,19 @@
           "handicap_line": -1.0,
           "handicap_home": 0.89,
           "handicap_away": 1.0
+        },
+        {
+          "ts": "2026-11-22T12:08:54.038520+00:00",
+          "handicap_line": -1.0,
+          "handicap_home": 0.85,
+          "handicap_away": 1.04
         }
       ],
       "reliability": 1.0,
       "competition_name": "丹麦超级联赛",
       "competition_class": "league",
       "sport": "football",
-      "lead_hours": 1.8097503080555557,
+      "lead_hours": 0.8516559666666667,
       "prematch": true,
       "result": {
         "settled": false
@@ -912,312 +924,6 @@
       }
     },
     {
-      "fixture_key": "superlig|卡斯帕萨|阿拉尼亚体育|2026-11-22",
-      "competition": "superlig",
-      "home": "卡斯帕萨",
-      "away": "阿拉尼亚体育",
-      "kickoff": "2026-11-22T13:00:00",
-      "market": "handicap",
-      "pick": "主队（让 0.5）",
-      "side": "home",
-      "confidence": "strong",
-      "score": 71.2,
-      "line": -0.5,
-      "reasons": [
-        "亚盘 盘口不变",
-        "主队降水 0.95->0.81",
-        "主队近5场 3胜1平1负，场均进2.0/失1.2",
-        "客队近5场 0胜1平4负，场均进0.2/失2.4",
-        "交手0次：主队0胜0平0负"
-      ],
-      "signals": {
-        "line_desc": "盘口不变",
-        "water_desc": "主队降水 0.95->0.81",
-        "line_first": -0.5,
-        "line_last": -0.5,
-        "home_water_first": 0.95,
-        "home_water_last": 0.81,
-        "away_water_first": 0.93,
-        "away_water_last": 1.08,
-        "conflict": false
-      },
-      "history": [
-        {
-          "ts": "2026-11-21T13:00:00+00:00",
-          "handicap_line": -0.5,
-          "handicap_home": 0.95,
-          "handicap_away": 0.93
-        },
-        {
-          "ts": "2026-11-21T13:00:00+00:00",
-          "handicap_line": -0.5,
-          "handicap_home": 0.95,
-          "handicap_away": 0.93
-        },
-        {
-          "ts": "2026-11-21T13:00:00+00:00",
-          "handicap_line": -0.5,
-          "handicap_home": 0.95,
-          "handicap_away": 0.93
-        },
-        {
-          "ts": "2026-11-21T13:00:00+00:00",
-          "handicap_line": -0.5,
-          "handicap_home": 0.95,
-          "handicap_away": 0.93
-        },
-        {
-          "ts": "2026-11-21T13:00:00+00:00",
-          "handicap_line": -0.5,
-          "handicap_home": 0.95,
-          "handicap_away": 0.93
-        },
-        {
-          "ts": "2026-11-21T13:00:00+00:00",
-          "handicap_line": -0.5,
-          "handicap_home": 0.95,
-          "handicap_away": 0.93
-        },
-        {
-          "ts": "2026-11-21T13:00:00+00:00",
-          "handicap_line": -0.5,
-          "handicap_home": 0.95,
-          "handicap_away": 0.93
-        },
-        {
-          "ts": "2026-11-21T13:00:00+00:00",
-          "handicap_line": -0.5,
-          "handicap_home": 0.95,
-          "handicap_away": 0.93
-        },
-        {
-          "ts": "2026-11-21T13:00:00+00:00",
-          "handicap_line": -0.5,
-          "handicap_home": 0.95,
-          "handicap_away": 0.93
-        },
-        {
-          "ts": "2026-11-21T13:00:00+00:00",
-          "handicap_line": -0.5,
-          "handicap_home": 0.95,
-          "handicap_away": 0.93
-        },
-        {
-          "ts": "2026-11-21T13:00:00+00:00",
-          "handicap_line": -0.5,
-          "handicap_home": 0.95,
-          "handicap_away": 0.93
-        },
-        {
-          "ts": "2026-11-21T13:00:00+00:00",
-          "handicap_line": -0.5,
-          "handicap_home": 0.95,
-          "handicap_away": 0.93
-        },
-        {
-          "ts": "2026-11-21T13:00:00+00:00",
-          "handicap_line": -0.5,
-          "handicap_home": 0.95,
-          "handicap_away": 0.93
-        },
-        {
-          "ts": "2026-11-21T13:00:00+00:00",
-          "handicap_line": -0.5,
-          "handicap_home": 0.95,
-          "handicap_away": 0.93
-        },
-        {
-          "ts": "2026-11-21T13:00:00+00:00",
-          "handicap_line": -0.5,
-          "handicap_home": 0.95,
-          "handicap_away": 0.93
-        },
-        {
-          "ts": "2026-11-21T13:00:00+00:00",
-          "handicap_line": -0.5,
-          "handicap_home": 0.95,
-          "handicap_away": 0.93
-        },
-        {
-          "ts": "2026-11-21T13:00:00+00:00",
-          "handicap_line": -0.5,
-          "handicap_home": 0.95,
-          "handicap_away": 0.93
-        },
-        {
-          "ts": "2026-11-21T13:00:00+00:00",
-          "handicap_line": -0.5,
-          "handicap_home": 0.95,
-          "handicap_away": 0.93
-        },
-        {
-          "ts": "2026-11-21T13:00:00+00:00",
-          "handicap_line": -0.5,
-          "handicap_home": 0.95,
-          "handicap_away": 0.93
-        },
-        {
-          "ts": "2026-11-21T13:00:00+00:00",
-          "handicap_line": -0.5,
-          "handicap_home": 0.95,
-          "handicap_away": 0.93
-        },
-        {
-          "ts": "2026-11-21T13:00:00+00:00",
-          "handicap_line": -0.5,
-          "handicap_home": 0.95,
-          "handicap_away": 0.93
-        },
-        {
-          "ts": "2026-11-21T13:00:00+00:00",
-          "handicap_line": -0.5,
-          "handicap_home": 0.95,
-          "handicap_away": 0.93
-        },
-        {
-          "ts": "2026-11-21T16:37:08.942262+00:00",
-          "handicap_line": -0.5,
-          "handicap_home": 0.91,
-          "handicap_away": 0.97
-        },
-        {
-          "ts": "2026-11-21T17:34:02.180733+00:00",
-          "handicap_line": -0.5,
-          "handicap_home": 0.91,
-          "handicap_away": 0.97
-        },
-        {
-          "ts": "2026-11-21T18:30:23.119952+00:00",
-          "handicap_line": -0.5,
-          "handicap_home": 0.91,
-          "handicap_away": 0.97
-        },
-        {
-          "ts": "2026-11-21T18:33:55.475770+00:00",
-          "handicap_line": -0.5,
-          "handicap_home": 0.91,
-          "handicap_away": 0.97
-        },
-        {
-          "ts": "2026-11-21T19:40:03.902533+00:00",
-          "handicap_line": -0.5,
-          "handicap_home": 0.91,
-          "handicap_away": 0.97
-        },
-        {
-          "ts": "2026-11-21T20:32:17.480212+00:00",
-          "handicap_line": -0.5,
-          "handicap_home": 0.91,
-          "handicap_away": 0.97
-        },
-        {
-          "ts": "2026-11-21T21:30:14.444261+00:00",
-          "handicap_line": -0.5,
-          "handicap_home": 0.91,
-          "handicap_away": 0.97
-        },
-        {
-          "ts": "2026-11-21T22:15:04.727239+00:00",
-          "handicap_line": -0.5,
-          "handicap_home": 0.91,
-          "handicap_away": 0.97
-        },
-        {
-          "ts": "2026-11-21T23:08:49.469468+00:00",
-          "handicap_line": -0.5,
-          "handicap_home": 0.91,
-          "handicap_away": 0.97
-        },
-        {
-          "ts": "2026-11-22T00:02:59.754890+00:00",
-          "handicap_line": -0.5,
-          "handicap_home": 0.91,
-          "handicap_away": 0.97
-        },
-        {
-          "ts": "2026-11-22T00:34:46.651453+00:00",
-          "handicap_line": -0.5,
-          "handicap_home": 0.91,
-          "handicap_away": 0.97
-        },
-        {
-          "ts": "2026-11-22T01:43:35.927235+00:00",
-          "handicap_line": -0.5,
-          "handicap_home": 0.91,
-          "handicap_away": 0.97
-        },
-        {
-          "ts": "2026-11-22T02:46:57.024240+00:00",
-          "handicap_line": -0.5,
-          "handicap_home": 0.91,
-          "handicap_away": 0.97
-        },
-        {
-          "ts": "2026-11-22T03:45:37.030471+00:00",
-          "handicap_line": -0.5,
-          "handicap_home": 0.91,
-          "handicap_away": 0.97
-        },
-        {
-          "ts": "2026-11-22T04:50:59.971176+00:00",
-          "handicap_line": -0.5,
-          "handicap_home": 0.88,
-          "handicap_away": 1.01
-        },
-        {
-          "ts": "2026-11-22T05:49:54.185015+00:00",
-          "handicap_line": -0.5,
-          "handicap_home": 0.88,
-          "handicap_away": 1.01
-        },
-        {
-          "ts": "2026-11-22T06:50:43.576936+00:00",
-          "handicap_line": -0.5,
-          "handicap_home": 0.88,
-          "handicap_away": 1.01
-        },
-        {
-          "ts": "2026-11-22T06:54:12.105737+00:00",
-          "handicap_line": -0.5,
-          "handicap_home": 0.88,
-          "handicap_away": 1.01
-        },
-        {
-          "ts": "2026-11-22T08:04:48.376662+00:00",
-          "handicap_line": -0.5,
-          "handicap_home": 0.88,
-          "handicap_away": 1.01
-        },
-        {
-          "ts": "2026-11-22T09:12:48.928712+00:00",
-          "handicap_line": -0.5,
-          "handicap_home": 0.85,
-          "handicap_away": 1.04
-        },
-        {
-          "ts": "2026-11-22T10:16:12.312225+00:00",
-          "handicap_line": -0.5,
-          "handicap_home": 0.81,
-          "handicap_away": 1.08
-        },
-        {
-          "ts": "2026-11-22T11:11:15.799711+00:00",
-          "handicap_line": -0.5,
-          "handicap_home": 0.81,
-          "handicap_away": 1.08
-        }
-      ],
-      "reliability": 1.0,
-      "competition_name": "土耳其超级联赛",
-      "competition_class": "league",
-      "sport": "football",
-      "lead_hours": 1.8122778580555556,
-      "prematch": true,
-      "result": {
-        "settled": false
-      }
-    },
-    {
       "fixture_key": "sweden|布洛马波卡纳|哈尔姆斯塔德|2026-11-22",
       "competition": "sweden",
       "home": "布洛马波卡纳",
@@ -1247,6 +953,12 @@
         "conflict": false
       },
       "history": [
+        {
+          "ts": "2026-11-21T15:30:00+00:00",
+          "total_line": 2.75,
+          "over": 0.87,
+          "under": 1.0
+        },
         {
           "ts": "2026-11-21T15:30:00+00:00",
           "total_line": 2.75,
@@ -1510,13 +1222,19 @@
           "total_line": 2.75,
           "over": 0.88,
           "under": 0.99
+        },
+        {
+          "ts": "2026-11-22T12:08:57.555203+00:00",
+          "total_line": 2.75,
+          "over": 0.88,
+          "under": 0.99
         }
       ],
       "reliability": 0.85,
       "competition_name": "瑞典超级联赛",
       "competition_class": "league",
       "sport": "football",
-      "lead_hours": 4.3093606675,
+      "lead_hours": 3.350679110277778,
       "prematch": false,
       "result": {
         "settled": false
