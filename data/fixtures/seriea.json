@@ -1,15 +1,5 @@
 [
   {
-    "key": "seriea|juventus|venezia|2026-11-22",
-    "competition": "seriea",
-    "home": "Juventus",
-    "away": "Venezia",
-    "kickoff": "2026-11-22T11:30:00",
-    "status": "upcoming",
-    "home_goals": null,
-    "away_goals": null
-  },
-  {
     "key": "seriea|bologna|udinese|2026-11-22",
     "competition": "seriea",
     "home": "Bologna",

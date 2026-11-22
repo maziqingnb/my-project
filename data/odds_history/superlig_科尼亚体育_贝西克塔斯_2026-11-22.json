@@ -351,6 +351,21 @@
     "away": "贝西克塔斯",
     "kickoff": "2026-11-22T13:00:00",
     "bookmaker": "crown",
+    "ts": "2026-11-21T13:00:00+00:00",
+    "handicap_line": 1.0,
+    "handicap_home": 0.82,
+    "handicap_away": 1.06,
+    "total_line": 2.75,
+    "over": 0.92,
+    "under": 0.95
+  },
+  {
+    "fixture_key": "superlig|科尼亚体育|贝西克塔斯|2026-11-22",
+    "competition": "superlig",
+    "home": "科尼亚体育",
+    "away": "贝西克塔斯",
+    "kickoff": "2026-11-22T13:00:00",
+    "bookmaker": "crown",
     "ts": "2026-11-21T16:37:08.942321+00:00",
     "handicap_line": 1.0,
     "handicap_home": 0.87,
@@ -688,5 +703,20 @@
     "total_line": 2.75,
     "over": 0.89,
     "under": 0.98
+  },
+  {
+    "fixture_key": "superlig|科尼亚体育|贝西克塔斯|2026-11-22",
+    "competition": "superlig",
+    "home": "科尼亚体育",
+    "away": "贝西克塔斯",
+    "kickoff": "2026-11-22T13:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-22T12:38:31.952469+00:00",
+    "handicap_line": 1.0,
+    "handicap_home": 0.85,
+    "handicap_away": 1.04,
+    "total_line": 2.75,
+    "over": 0.95,
+    "under": 0.92
   }
 ]

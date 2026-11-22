@@ -351,6 +351,21 @@
     "away": "埃于普体育",
     "kickoff": "2026-11-22T16:00:00",
     "bookmaker": "crown",
+    "ts": "2026-11-21T16:00:00+00:00",
+    "handicap_line": -2.25,
+    "handicap_home": 1.02,
+    "handicap_away": 0.86,
+    "total_line": 3.5,
+    "over": 0.95,
+    "under": 0.92
+  },
+  {
+    "fixture_key": "superlig|特拉布宗体育|埃于普体育|2026-11-22",
+    "competition": "superlig",
+    "home": "特拉布宗体育",
+    "away": "埃于普体育",
+    "kickoff": "2026-11-22T16:00:00",
+    "bookmaker": "crown",
     "ts": "2026-11-21T16:37:08.942363+00:00",
     "handicap_line": -2.25,
     "handicap_home": 0.89,
@@ -688,5 +703,20 @@
     "total_line": 3.5,
     "over": 0.83,
     "under": 1.04
+  },
+  {
+    "fixture_key": "superlig|特拉布宗体育|埃于普体育|2026-11-22",
+    "competition": "superlig",
+    "home": "特拉布宗体育",
+    "away": "埃于普体育",
+    "kickoff": "2026-11-22T16:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-22T12:38:32.483786+00:00",
+    "handicap_line": -2.5,
+    "handicap_home": 1.04,
+    "handicap_away": 0.85,
+    "total_line": 3.5,
+    "over": 0.85,
+    "under": 1.02
   }
 ]

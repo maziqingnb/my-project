@@ -351,6 +351,21 @@
     "away": "华沙莱吉亚",
     "kickoff": "2026-11-22T16:30:00",
     "bookmaker": "crown",
+    "ts": "2026-11-21T16:30:00+00:00",
+    "handicap_line": 0.25,
+    "handicap_home": 0.92,
+    "handicap_away": 0.9,
+    "total_line": 2.75,
+    "over": 0.94,
+    "under": 0.86
+  },
+  {
+    "fixture_key": "poland|普沃茨克维斯瓦|华沙莱吉亚|2026-11-22",
+    "competition": "poland",
+    "home": "普沃茨克维斯瓦",
+    "away": "华沙莱吉亚",
+    "kickoff": "2026-11-22T16:30:00",
+    "bookmaker": "crown",
     "ts": "2026-11-21T16:37:22.181482+00:00",
     "handicap_line": 0.25,
     "handicap_home": 0.86,
@@ -688,5 +703,20 @@
     "total_line": 2.25,
     "over": 0.8,
     "under": 1.06
+  },
+  {
+    "fixture_key": "poland|普沃茨克维斯瓦|华沙莱吉亚|2026-11-22",
+    "competition": "poland",
+    "home": "普沃茨克维斯瓦",
+    "away": "华沙莱吉亚",
+    "kickoff": "2026-11-22T16:30:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-22T12:38:42.698739+00:00",
+    "handicap_line": 0.25,
+    "handicap_home": 0.87,
+    "handicap_away": 1.01,
+    "total_line": 2.25,
+    "over": 0.86,
+    "under": 1.0
   }
 ]

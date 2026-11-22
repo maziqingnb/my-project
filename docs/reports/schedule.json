@@ -1,46 +1,6 @@
 {
-  "generated_at": "2026-11-22T06:49:56.671480+00:00",
+  "generated_at": "2026-11-22T12:37:48.120424+00:00",
   "matches": [
-    {
-      "fixture_key": "superlig|埃尔祖鲁姆体育|哥兹塔比|2026-11-22",
-      "competition": "superlig",
-      "competition_name": "土耳其超级联赛",
-      "competition_class": "league",
-      "sport": "football",
-      "home": "埃尔祖鲁姆体育",
-      "away": "哥兹塔比",
-      "kickoff": "2026-11-22T10:30:00"
-    },
-    {
-      "fixture_key": "rpl|莫斯科迪纳摩|克拉斯诺达尔|2026-11-22",
-      "competition": "rpl",
-      "competition_name": "俄罗斯超级联赛",
-      "competition_class": "league",
-      "sport": "football",
-      "home": "莫斯科迪纳摩",
-      "away": "克拉斯诺达尔",
-      "kickoff": "2026-11-22T11:00:00"
-    },
-    {
-      "fixture_key": "poland|琴斯托霍瓦|维德祖罗兹|2026-11-22",
-      "competition": "poland",
-      "competition_name": "波兰超级联赛",
-      "competition_class": "league",
-      "sport": "football",
-      "home": "琴斯托霍瓦",
-      "away": "维德祖罗兹",
-      "kickoff": "2026-11-22T11:15:00"
-    },
-    {
-      "fixture_key": "seriea|juventus|venezia|2026-11-22",
-      "competition": "seriea",
-      "competition_name": "意大利甲级联赛",
-      "competition_class": "league",
-      "sport": "football",
-      "home": "Juventus",
-      "away": "Venezia",
-      "kickoff": "2026-11-22T11:30:00"
-    },
     {
       "fixture_key": "laliga|barcelona|villarreal|2026-11-22",
       "competition": "laliga",
