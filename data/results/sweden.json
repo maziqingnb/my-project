@@ -2,6 +2,50 @@
   {
     "competition": "sweden",
     "cls": "league",
+    "home": "BK Häcken",
+    "away": "IF Elfsborg",
+    "home_goals": 2,
+    "away_goals": 1,
+    "date": "2026-11-22",
+    "handicap_line": null,
+    "total_line": null
+  },
+  {
+    "competition": "sweden",
+    "cls": "league",
+    "home": "IK Sirius",
+    "away": "Djurgården",
+    "home_goals": 1,
+    "away_goals": 0,
+    "date": "2026-11-22",
+    "handicap_line": null,
+    "total_line": null
+  },
+  {
+    "competition": "sweden",
+    "cls": "league",
+    "home": "天狼星",
+    "away": "尤尔加登",
+    "home_goals": 1,
+    "away_goals": 0,
+    "date": "2026-11-22",
+    "handicap_line": 0.0,
+    "total_line": 3.0
+  },
+  {
+    "competition": "sweden",
+    "cls": "league",
+    "home": "赫根",
+    "away": "埃尔夫斯堡",
+    "home_goals": 2,
+    "away_goals": 1,
+    "date": "2026-11-22",
+    "handicap_line": -0.5,
+    "total_line": 3.0
+  },
+  {
+    "competition": "sweden",
+    "cls": "league",
     "home": "AIK",
     "away": "Degerfors IF",
     "home_goals": 0,

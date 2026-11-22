@@ -2,6 +2,50 @@
   {
     "competition": "denmark",
     "cls": "league",
+    "home": "AC Horsens",
+    "away": "Silkeborg IF",
+    "home_goals": 3,
+    "away_goals": 1,
+    "date": "2026-11-22",
+    "handicap_line": null,
+    "total_line": null
+  },
+  {
+    "competition": "denmark",
+    "cls": "league",
+    "home": "Viborg FF",
+    "away": "Randers FC",
+    "home_goals": 0,
+    "away_goals": 0,
+    "date": "2026-11-22",
+    "handicap_line": null,
+    "total_line": null
+  },
+  {
+    "competition": "denmark",
+    "cls": "league",
+    "home": "维堡",
+    "away": "兰讷斯",
+    "home_goals": 0,
+    "away_goals": 0,
+    "date": "2026-11-22",
+    "handicap_line": -1.0,
+    "total_line": 3.25
+  },
+  {
+    "competition": "denmark",
+    "cls": "league",
+    "home": "霍森斯",
+    "away": "锡尔克堡",
+    "home_goals": 3,
+    "away_goals": 1,
+    "date": "2026-11-22",
+    "handicap_line": -0.25,
+    "total_line": 2.75
+  },
+  {
+    "competition": "denmark",
+    "cls": "league",
     "home": "AGF",
     "away": "Lyngby Boldklub",
     "home_goals": 2,

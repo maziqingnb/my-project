@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-22T14:31:07.978440+00:00",
+  "generated_at": "2026-11-22T15:23:31.842698+00:00",
   "matches": [
     {
       "fixture_key": "epl|hullcity|brighton|2026-11-22",
@@ -12,14 +12,14 @@
       "away_goals": 0
     },
     {
-      "fixture_key": "laliga|barcelona|villarreal|2026-11-22",
+      "fixture_key": "laliga|racingsantander|realsociedad|2026-11-22",
       "competition": "laliga",
-      "home": "Barcelona",
-      "away": "Villarreal",
-      "kickoff": "2026-11-22T13:00:00",
+      "home": "Racing Santander",
+      "away": "Real Sociedad",
+      "kickoff": "2026-11-22T15:15:00",
       "status": "live",
-      "home_goals": 2,
-      "away_goals": 2
+      "home_goals": 1,
+      "away_goals": 0
     },
     {
       "fixture_key": "seriea|bologna|udinese|2026-11-22",
@@ -28,7 +28,7 @@
       "away": "Udinese",
       "kickoff": "2026-11-22T14:00:00",
       "status": "live",
-      "home_goals": 0,
+      "home_goals": 1,
       "away_goals": 0
     },
     {
@@ -39,7 +39,7 @@
       "kickoff": "2026-11-22T14:00:00",
       "status": "live",
       "home_goals": 0,
-      "away_goals": 1
+      "away_goals": 2
     },
     {
       "fixture_key": "bundesliga|augsburg|mainz|2026-11-22",
@@ -48,7 +48,7 @@
       "away": "Mainz",
       "kickoff": "2026-11-22T14:30:00",
       "status": "live",
-      "home_goals": 0,
+      "home_goals": 2,
       "away_goals": 0
     },
     {
@@ -58,7 +58,7 @@
       "away": "Angers",
       "kickoff": "2026-11-22T14:00:00",
       "status": "live",
-      "home_goals": 0,
+      "home_goals": 2,
       "away_goals": 0
     },
     {
@@ -68,28 +68,8 @@
       "away": "Spartak Moscow",
       "kickoff": "2026-11-22T13:30:00",
       "status": "live",
-      "home_goals": 0,
-      "away_goals": 1
-    },
-    {
-      "fixture_key": "superlig|kasimpasa|alanyaspor|2026-11-22",
-      "competition": "superlig",
-      "home": "Kasimpasa",
-      "away": "Alanyaspor",
-      "kickoff": "2026-11-22T13:00:00",
-      "status": "live",
       "home_goals": 1,
       "away_goals": 1
-    },
-    {
-      "fixture_key": "superlig|konyaspor|besiktas|2026-11-22",
-      "competition": "superlig",
-      "home": "Konyaspor",
-      "away": "Besiktas",
-      "kickoff": "2026-11-22T13:00:00",
-      "status": "live",
-      "home_goals": 2,
-      "away_goals": 2
     },
     {
       "fixture_key": "greeksl|levadiakos|atromitos|2026-11-22",
@@ -99,54 +79,24 @@
       "kickoff": "2026-11-22T14:00:00",
       "status": "live",
       "home_goals": 1,
-      "away_goals": 0
+      "away_goals": 1
     },
     {
-      "fixture_key": "denmark|achorsens|silkeborgif|2026-11-22",
-      "competition": "denmark",
-      "home": "AC Horsens",
-      "away": "Silkeborg IF",
-      "kickoff": "2026-11-22T13:00:00",
-      "status": "live",
-      "home_goals": 2,
-      "away_goals": 0
-    },
-    {
-      "fixture_key": "denmark|viborgff|randersfc|2026-11-22",
-      "competition": "denmark",
-      "home": "Viborg FF",
-      "away": "Randers FC",
-      "kickoff": "2026-11-22T13:00:00",
+      "fixture_key": "greeksl|panetolikos|volosnfc|2026-11-22",
+      "competition": "greeksl",
+      "home": "Panetolikos",
+      "away": "Volos NFC",
+      "kickoff": "2026-11-22T15:00:00",
       "status": "live",
       "home_goals": 0,
       "away_goals": 0
     },
     {
-      "fixture_key": "sweden|bkhcken|ifelfsborg|2026-11-22",
-      "competition": "sweden",
-      "home": "BK Häcken",
-      "away": "IF Elfsborg",
-      "kickoff": "2026-11-22T13:00:00",
-      "status": "live",
-      "home_goals": 2,
-      "away_goals": 1
-    },
-    {
-      "fixture_key": "sweden|iksirius|djurgrden|2026-11-22",
-      "competition": "sweden",
-      "home": "IK Sirius",
-      "away": "Djurgården",
-      "kickoff": "2026-11-22T13:00:00",
-      "status": "live",
-      "home_goals": 1,
-      "away_goals": 0
-    },
-    {
-      "fixture_key": "poland|gks卡托威斯|波兹南莱赫|2026-11-22",
-      "competition": "poland",
-      "home": "GKS卡托威斯",
-      "away": "波兹南莱赫",
-      "kickoff": "2026-11-22T13:45:00",
+      "fixture_key": "denmark|snderjyskefodbold|odenseboldklub|2026-11-22",
+      "competition": "denmark",
+      "home": "Sønderjyske Fodbold",
+      "away": "Odense Boldklub",
+      "kickoff": "2026-11-22T15:00:00",
       "status": "live",
       "home_goals": 0,
       "away_goals": 0

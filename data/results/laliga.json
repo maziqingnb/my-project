@@ -2,6 +2,17 @@
   {
     "competition": "laliga",
     "cls": "league",
+    "home": "Barcelona",
+    "away": "Villarreal",
+    "home_goals": 3,
+    "away_goals": 2,
+    "date": "2026-11-22",
+    "handicap_line": -2.25,
+    "total_line": 4.25
+  },
+  {
+    "competition": "laliga",
+    "cls": "league",
     "home": "Alaves",
     "away": "Deportivo La Coruna",
     "home_goals": 3,
