@@ -546,6 +546,21 @@
     "away": "皇家盐湖城",
     "kickoff": "2026-11-23T01:30:00",
     "bookmaker": "crown",
+    "ts": "2026-11-22T01:30:00+00:00",
+    "handicap_line": -1.25,
+    "handicap_home": 1.04,
+    "handicap_away": 0.84,
+    "total_line": 3.25,
+    "over": 0.86,
+    "under": 1.01
+  },
+  {
+    "fixture_key": "mls|温哥华白浪|皇家盐湖城|2026-11-23",
+    "competition": "mls",
+    "home": "温哥华白浪",
+    "away": "皇家盐湖城",
+    "kickoff": "2026-11-23T01:30:00",
+    "bookmaker": "crown",
     "ts": "2026-11-22T01:43:40.092073+00:00",
     "handicap_line": -1.25,
     "handicap_home": 0.99,
@@ -748,5 +763,20 @@
     "total_line": 3.5,
     "over": 1.02,
     "under": 0.85
+  },
+  {
+    "fixture_key": "mls|温哥华白浪|皇家盐湖城|2026-11-23",
+    "competition": "mls",
+    "home": "温哥华白浪",
+    "away": "皇家盐湖城",
+    "kickoff": "2026-11-23T01:30:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-22T14:21:40.165464+00:00",
+    "handicap_line": -1.25,
+    "handicap_home": 1.03,
+    "handicap_away": 0.86,
+    "total_line": 3.5,
+    "over": 1.04,
+    "under": 0.83
   }
 ]

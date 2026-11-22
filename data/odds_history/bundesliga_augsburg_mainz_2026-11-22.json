@@ -381,6 +381,21 @@
     "away": "Mainz",
     "kickoff": "2026-11-22T14:30:00",
     "bookmaker": "crown",
+    "ts": "2026-11-21T14:30:00+00:00",
+    "handicap_line": 0.0,
+    "handicap_home": 1.06,
+    "handicap_away": 0.82,
+    "total_line": 3.25,
+    "over": 0.94,
+    "under": 0.92
+  },
+  {
+    "fixture_key": "bundesliga|augsburg|mainz|2026-11-22",
+    "competition": "bundesliga",
+    "home": "Augsburg",
+    "away": "Mainz",
+    "kickoff": "2026-11-22T14:30:00",
+    "bookmaker": "crown",
     "ts": "2026-11-21T16:37:03.836439+00:00",
     "handicap_line": 0.0,
     "handicap_home": 1.06,
@@ -748,5 +763,20 @@
     "total_line": 3.25,
     "over": 0.93,
     "under": 0.95
+  },
+  {
+    "fixture_key": "bundesliga|augsburg|mainz|2026-11-22",
+    "competition": "bundesliga",
+    "home": "Augsburg",
+    "away": "Mainz",
+    "kickoff": "2026-11-22T14:30:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-22T14:21:32.532771+00:00",
+    "handicap_line": 0.25,
+    "handicap_home": 0.95,
+    "handicap_away": 0.94,
+    "total_line": 3.25,
+    "over": 0.86,
+    "under": 1.03
   }
 ]
