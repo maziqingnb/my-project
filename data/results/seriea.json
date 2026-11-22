@@ -13,6 +13,17 @@
   {
     "competition": "seriea",
     "cls": "league",
+    "home": "Atalanta",
+    "away": "Inter Milan",
+    "home_goals": 4,
+    "away_goals": 4,
+    "date": "2026-11-22",
+    "handicap_line": 1.0,
+    "total_line": 3.25
+  },
+  {
+    "competition": "seriea",
+    "cls": "league",
     "home": "Bologna",
     "away": "Udinese",
     "home_goals": 1,

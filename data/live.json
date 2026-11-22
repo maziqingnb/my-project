@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-22T21:05:04.346287+00:00",
+  "generated_at": "2026-11-22T21:48:29.519668+00:00",
   "matches": [
     {
       "fixture_key": "laliga|getafe|atleticomadrid|2026-11-22",
@@ -12,24 +12,24 @@
       "away_goals": 2
     },
     {
-      "fixture_key": "seriea|atalanta|intermilan|2026-11-22",
-      "competition": "seriea",
-      "home": "Atalanta",
-      "away": "Inter Milan",
-      "kickoff": "2026-11-22T19:45:00",
+      "fixture_key": "brasileirao|弗鲁米嫩塞|米拉索|2026-11-22",
+      "competition": "brasileirao",
+      "home": "弗鲁米嫩塞",
+      "away": "米拉索",
+      "kickoff": "2026-11-22T21:30:00",
       "status": "live",
-      "home_goals": 1,
-      "away_goals": 3
+      "home_goals": 0,
+      "away_goals": 0
     },
     {
-      "fixture_key": "ligue1|marseille|lemans|2026-11-22",
-      "competition": "ligue1",
-      "home": "Marseille",
-      "away": "Le Mans",
-      "kickoff": "2026-11-22T19:45:00",
+      "fixture_key": "mls|纳什威尔sc|fccincinnati|2026-11-22",
+      "competition": "mls",
+      "home": "纳什威尔SC",
+      "away": "FC Cincinnati",
+      "kickoff": "2026-11-22T21:00:00",
       "status": "live",
-      "home_goals": 2,
-      "away_goals": 0
+      "home_goals": 0,
+      "away_goals": 1
     }
   ]
 }
