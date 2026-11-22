@@ -2,6 +2,17 @@
   {
     "competition": "ligue1",
     "cls": "league",
+    "home": "Paris FC",
+    "away": "Angers",
+    "home_goals": 4,
+    "away_goals": 0,
+    "date": "2026-11-22",
+    "handicap_line": -1.25,
+    "total_line": 2.75
+  },
+  {
+    "competition": "ligue1",
+    "cls": "league",
     "home": "Lens",
     "away": "Toulouse",
     "home_goals": 1,
