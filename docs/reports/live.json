@@ -1,16 +1,6 @@
 {
-  "generated_at": "2026-11-22T17:47:58.592860+00:00",
+  "generated_at": "2026-11-22T18:26:40.941127+00:00",
   "matches": [
-    {
-      "fixture_key": "epl|liverpool|manchesterunited|2026-11-22",
-      "competition": "epl",
-      "home": "Liverpool",
-      "away": "Manchester United",
-      "kickoff": "2026-11-22T16:30:00",
-      "status": "live",
-      "home_goals": 2,
-      "away_goals": 0
-    },
     {
       "fixture_key": "laliga|osasuna|malaga|2026-11-22",
       "competition": "laliga",
@@ -18,7 +8,7 @@
       "away": "Malaga",
       "kickoff": "2026-11-22T17:30:00",
       "status": "live",
-      "home_goals": 0,
+      "home_goals": 1,
       "away_goals": 0
     },
     {
@@ -28,7 +18,7 @@
       "away": "Frosinone",
       "kickoff": "2026-11-22T17:00:00",
       "status": "live",
-      "home_goals": 2,
+      "home_goals": 4,
       "away_goals": 1
     },
     {
@@ -38,37 +28,7 @@
       "away": "Hamburger SV",
       "kickoff": "2026-11-22T16:30:00",
       "status": "live",
-      "home_goals": 0,
-      "away_goals": 0
-    },
-    {
-      "fixture_key": "ligue1|lorient|rennes|2026-11-22",
-      "competition": "ligue1",
-      "home": "Lorient",
-      "away": "Rennes",
-      "kickoff": "2026-11-22T16:15:00",
-      "status": "live",
-      "home_goals": 1,
-      "away_goals": 1
-    },
-    {
-      "fixture_key": "rpl|rodinamoscow|lokomotivmoscow|2026-11-22",
-      "competition": "rpl",
-      "home": "Rodina Moscow",
-      "away": "Lokomotiv Moscow",
-      "kickoff": "2026-11-22T16:00:00",
-      "status": "live",
-      "home_goals": 0,
-      "away_goals": 1
-    },
-    {
-      "fixture_key": "superlig|trabzonspor|eyupspor|2026-11-22",
-      "competition": "superlig",
-      "home": "Trabzonspor",
-      "away": "Eyupspor",
-      "kickoff": "2026-11-22T16:00:00",
-      "status": "live",
-      "home_goals": 1,
+      "home_goals": 3,
       "away_goals": 0
     },
     {
@@ -78,7 +38,7 @@
       "away": "Iraklis",
       "kickoff": "2026-11-22T17:00:00",
       "status": "live",
-      "home_goals": 1,
+      "home_goals": 4,
       "away_goals": 2
     },
     {
@@ -98,7 +58,7 @@
       "away": "F.C. København",
       "kickoff": "2026-11-22T17:00:00",
       "status": "live",
-      "home_goals": 1,
+      "home_goals": 2,
       "away_goals": 0
     }
   ]
