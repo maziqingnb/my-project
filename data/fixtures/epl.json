@@ -1,25 +1,5 @@
 [
   {
-    "key": "epl|hullcity|brighton|2026-11-22",
-    "competition": "epl",
-    "home": "Hull City",
-    "away": "Brighton",
-    "kickoff": "2026-11-22T14:00:00",
-    "status": "upcoming",
-    "home_goals": null,
-    "away_goals": null
-  },
-  {
-    "key": "epl|liverpool|manchesterunited|2026-11-22",
-    "competition": "epl",
-    "home": "Liverpool",
-    "away": "Manchester United",
-    "kickoff": "2026-11-22T16:30:00",
-    "status": "upcoming",
-    "home_goals": null,
-    "away_goals": null
-  },
-  {
     "key": "epl|brentford|everton|2026-11-23",
     "competition": "epl",
     "home": "Brentford",
@@ -65,6 +45,66 @@
     "home": "Ipswich Town",
     "away": "Aston Villa",
     "kickoff": "2026-11-28T17:30:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "epl|everton|liverpool|2026-11-29",
+    "competition": "epl",
+    "home": "Everton",
+    "away": "Liverpool",
+    "kickoff": "2026-11-29T12:00:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "epl|brighton|newcastleunited|2026-11-29",
+    "competition": "epl",
+    "home": "Brighton",
+    "away": "Newcastle United",
+    "kickoff": "2026-11-29T14:05:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "epl|crystalpalace|hullcity|2026-11-29",
+    "competition": "epl",
+    "home": "Crystal Palace",
+    "away": "Hull City",
+    "kickoff": "2026-11-29T14:05:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "epl|fulham|bournemouth|2026-11-29",
+    "competition": "epl",
+    "home": "Fulham",
+    "away": "Bournemouth",
+    "kickoff": "2026-11-29T14:05:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "epl|sunderland|tottenhamhotspur|2026-11-29",
+    "competition": "epl",
+    "home": "Sunderland",
+    "away": "Tottenham Hotspur",
+    "kickoff": "2026-11-29T14:05:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "epl|arsenal|manchestercity|2026-11-29",
+    "competition": "epl",
+    "home": "Arsenal",
+    "away": "Manchester City",
+    "kickoff": "2026-11-29T16:30:00",
     "status": "upcoming",
     "home_goals": null,
     "away_goals": null

@@ -1,45 +1,5 @@
 [
   {
-    "key": "denmark|霍森斯|锡尔克堡|2026-11-22",
-    "competition": "denmark",
-    "home": "霍森斯",
-    "away": "锡尔克堡",
-    "kickoff": "2026-11-22T13:00:00",
-    "status": "upcoming",
-    "home_goals": null,
-    "away_goals": null
-  },
-  {
-    "key": "denmark|维堡|兰讷斯|2026-11-22",
-    "competition": "denmark",
-    "home": "维堡",
-    "away": "兰讷斯",
-    "kickoff": "2026-11-22T13:00:00",
-    "status": "upcoming",
-    "home_goals": null,
-    "away_goals": null
-  },
-  {
-    "key": "denmark|桑德捷斯基|欧登塞|2026-11-22",
-    "competition": "denmark",
-    "home": "桑德捷斯基",
-    "away": "欧登塞",
-    "kickoff": "2026-11-22T15:00:00",
-    "status": "upcoming",
-    "home_goals": null,
-    "away_goals": null
-  },
-  {
-    "key": "denmark|北西兰|哥本哈根|2026-11-22",
-    "competition": "denmark",
-    "home": "北西兰",
-    "away": "哥本哈根",
-    "kickoff": "2026-11-22T17:00:00",
-    "status": "upcoming",
-    "home_goals": null,
-    "away_goals": null
-  },
-  {
     "key": "denmark|布隆德比|中日德兰|2026-11-23",
     "competition": "denmark",
     "home": "布隆德比",
@@ -55,6 +15,46 @@
     "home": "桑德捷斯基",
     "away": "布隆德比",
     "kickoff": "2026-11-27T18:00:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "denmark|利恩比|维堡|2026-11-29",
+    "competition": "denmark",
+    "home": "利恩比",
+    "away": "维堡",
+    "kickoff": "2026-11-29T13:00:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "denmark|兰讷斯|霍森斯|2026-11-29",
+    "competition": "denmark",
+    "home": "兰讷斯",
+    "away": "霍森斯",
+    "kickoff": "2026-11-29T13:00:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "denmark|哥本哈根|中日德兰|2026-11-29",
+    "competition": "denmark",
+    "home": "哥本哈根",
+    "away": "中日德兰",
+    "kickoff": "2026-11-29T15:00:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "denmark|锡尔克堡|奥胡斯|2026-11-29",
+    "competition": "denmark",
+    "home": "锡尔克堡",
+    "away": "奥胡斯",
+    "kickoff": "2026-11-29T17:00:00",
     "status": "upcoming",
     "home_goals": null,
     "away_goals": null

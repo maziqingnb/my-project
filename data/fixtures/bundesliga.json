@@ -1,25 +1,5 @@
 [
   {
-    "key": "bundesliga|augsburg|mainz|2026-11-22",
-    "competition": "bundesliga",
-    "home": "Augsburg",
-    "away": "Mainz",
-    "kickoff": "2026-11-22T14:30:00",
-    "status": "upcoming",
-    "home_goals": null,
-    "away_goals": null
-  },
-  {
-    "key": "bundesliga|werderbremen|hamburgersv|2026-11-22",
-    "competition": "bundesliga",
-    "home": "Werder Bremen",
-    "away": "Hamburger SV",
-    "kickoff": "2026-11-22T16:30:00",
-    "status": "upcoming",
-    "home_goals": null,
-    "away_goals": null
-  },
-  {
     "key": "bundesliga|werderbremen|borussiamonchengladbach|2026-11-27",
     "competition": "bundesliga",
     "home": "Werder Bremen",
@@ -75,6 +55,36 @@
     "home": "Stuttgart",
     "away": "Eintracht Frankfurt",
     "kickoff": "2026-11-28T17:30:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "bundesliga|freiburg|rbleipzig|2026-11-29",
+    "competition": "bundesliga",
+    "home": "Freiburg",
+    "away": "RB Leipzig",
+    "kickoff": "2026-11-29T14:30:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "bundesliga|hoffenheim|augsburg|2026-11-29",
+    "competition": "bundesliga",
+    "home": "Hoffenheim",
+    "away": "Augsburg",
+    "kickoff": "2026-11-29T16:30:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "bundesliga|borussiadortmund|bayerleverkusen|2026-11-29",
+    "competition": "bundesliga",
+    "home": "Borussia Dortmund",
+    "away": "Bayer Leverkusen",
+    "kickoff": "2026-11-29T18:30:00",
     "status": "upcoming",
     "home_goals": null,
     "away_goals": null

@@ -48,5 +48,25 @@
     "status": "upcoming",
     "home_goals": null,
     "away_goals": null
+  },
+  {
+    "key": "primeira|吉维森特|埃斯托里尔|2026-11-29",
+    "competition": "primeira",
+    "home": "吉维森特",
+    "away": "埃斯托里尔",
+    "kickoff": "2026-11-29T18:00:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "primeira|波尔图|葡萄牙体育|2026-11-29",
+    "competition": "primeira",
+    "home": "波尔图",
+    "away": "葡萄牙体育",
+    "kickoff": "2026-11-29T20:30:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
   }
 ]

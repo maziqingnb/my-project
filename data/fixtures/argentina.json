@@ -1,35 +1,5 @@
 [
   {
-    "key": "argentina|罗萨里奥中央|甘拿斯亚门多萨|2026-11-22",
-    "competition": "argentina",
-    "home": "罗萨里奥中央",
-    "away": "甘拿斯亚门多萨",
-    "kickoff": "2026-11-22T19:00:00",
-    "status": "upcoming",
-    "home_goals": null,
-    "away_goals": null
-  },
-  {
-    "key": "argentina|河床|拉努斯|2026-11-22",
-    "competition": "argentina",
-    "home": "河床",
-    "away": "拉努斯",
-    "kickoff": "2026-11-22T22:00:00",
-    "status": "upcoming",
-    "home_goals": null,
-    "away_goals": null
-  },
-  {
-    "key": "argentina|科尔多瓦学院|飓风队|2026-11-23",
-    "competition": "argentina",
-    "home": "科尔多瓦学院",
-    "away": "飓风队",
-    "kickoff": "2026-11-23T01:00:00",
-    "status": "upcoming",
-    "home_goals": null,
-    "away_goals": null
-  },
-  {
     "key": "argentina|拉普拉塔体操|纽维尔老男孩|2026-11-23",
     "competition": "argentina",
     "home": "拉普拉塔体操",

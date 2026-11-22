@@ -1,366 +1,6 @@
 {
-  "generated_at": "2026-11-22T12:37:48.120424+00:00",
+  "generated_at": "2026-11-22T18:31:00.536089+00:00",
   "matches": [
-    {
-      "fixture_key": "laliga|barcelona|villarreal|2026-11-22",
-      "competition": "laliga",
-      "competition_name": "西班牙甲级联赛",
-      "competition_class": "league",
-      "sport": "football",
-      "home": "Barcelona",
-      "away": "Villarreal",
-      "kickoff": "2026-11-22T13:00:00"
-    },
-    {
-      "fixture_key": "superlig|卡斯帕萨|阿拉尼亚体育|2026-11-22",
-      "competition": "superlig",
-      "competition_name": "土耳其超级联赛",
-      "competition_class": "league",
-      "sport": "football",
-      "home": "卡斯帕萨",
-      "away": "阿拉尼亚体育",
-      "kickoff": "2026-11-22T13:00:00"
-    },
-    {
-      "fixture_key": "superlig|科尼亚体育|贝西克塔斯|2026-11-22",
-      "competition": "superlig",
-      "competition_name": "土耳其超级联赛",
-      "competition_class": "league",
-      "sport": "football",
-      "home": "科尼亚体育",
-      "away": "贝西克塔斯",
-      "kickoff": "2026-11-22T13:00:00"
-    },
-    {
-      "fixture_key": "denmark|霍森斯|锡尔克堡|2026-11-22",
-      "competition": "denmark",
-      "competition_name": "丹麦超级联赛",
-      "competition_class": "league",
-      "sport": "football",
-      "home": "霍森斯",
-      "away": "锡尔克堡",
-      "kickoff": "2026-11-22T13:00:00"
-    },
-    {
-      "fixture_key": "denmark|维堡|兰讷斯|2026-11-22",
-      "competition": "denmark",
-      "competition_name": "丹麦超级联赛",
-      "competition_class": "league",
-      "sport": "football",
-      "home": "维堡",
-      "away": "兰讷斯",
-      "kickoff": "2026-11-22T13:00:00"
-    },
-    {
-      "fixture_key": "sweden|赫根|埃尔夫斯堡|2026-11-22",
-      "competition": "sweden",
-      "competition_name": "瑞典超级联赛",
-      "competition_class": "league",
-      "sport": "football",
-      "home": "赫根",
-      "away": "埃尔夫斯堡",
-      "kickoff": "2026-11-22T13:00:00"
-    },
-    {
-      "fixture_key": "sweden|天狼星|尤尔加登|2026-11-22",
-      "competition": "sweden",
-      "competition_name": "瑞典超级联赛",
-      "competition_class": "league",
-      "sport": "football",
-      "home": "天狼星",
-      "away": "尤尔加登",
-      "kickoff": "2026-11-22T13:00:00"
-    },
-    {
-      "fixture_key": "rpl|马哈奇卡拉|莫斯科斯巴达|2026-11-22",
-      "competition": "rpl",
-      "competition_name": "俄罗斯超级联赛",
-      "competition_class": "league",
-      "sport": "football",
-      "home": "马哈奇卡拉",
-      "away": "莫斯科斯巴达",
-      "kickoff": "2026-11-22T13:30:00"
-    },
-    {
-      "fixture_key": "poland|gks卡托威斯|波兹南莱赫|2026-11-22",
-      "competition": "poland",
-      "competition_name": "波兰超级联赛",
-      "competition_class": "league",
-      "sport": "football",
-      "home": "GKS卡托威斯",
-      "away": "波兹南莱赫",
-      "kickoff": "2026-11-22T13:45:00"
-    },
-    {
-      "fixture_key": "epl|hullcity|brighton|2026-11-22",
-      "competition": "epl",
-      "competition_name": "英格兰超级联赛",
-      "competition_class": "league",
-      "sport": "football",
-      "home": "Hull City",
-      "away": "Brighton",
-      "kickoff": "2026-11-22T14:00:00"
-    },
-    {
-      "fixture_key": "seriea|bologna|udinese|2026-11-22",
-      "competition": "seriea",
-      "competition_name": "意大利甲级联赛",
-      "competition_class": "league",
-      "sport": "football",
-      "home": "Bologna",
-      "away": "Udinese",
-      "kickoff": "2026-11-22T14:00:00"
-    },
-    {
-      "fixture_key": "seriea|sassuolo|genoa|2026-11-22",
-      "competition": "seriea",
-      "competition_name": "意大利甲级联赛",
-      "competition_class": "league",
-      "sport": "football",
-      "home": "Sassuolo",
-      "away": "Genoa",
-      "kickoff": "2026-11-22T14:00:00"
-    },
-    {
-      "fixture_key": "ligue1|parisfc|angers|2026-11-22",
-      "competition": "ligue1",
-      "competition_name": "法国甲级联赛",
-      "competition_class": "league",
-      "sport": "football",
-      "home": "Paris FC",
-      "away": "Angers",
-      "kickoff": "2026-11-22T14:00:00"
-    },
-    {
-      "fixture_key": "greeksl|莱瓦贾科斯|阿特罗米托斯|2026-11-22",
-      "competition": "greeksl",
-      "competition_name": "希腊超级联赛",
-      "competition_class": "league",
-      "sport": "football",
-      "home": "莱瓦贾科斯",
-      "away": "阿特罗米托斯",
-      "kickoff": "2026-11-22T14:00:00"
-    },
-    {
-      "fixture_key": "bundesliga|augsburg|mainz|2026-11-22",
-      "competition": "bundesliga",
-      "competition_name": "德国甲级联赛",
-      "competition_class": "league",
-      "sport": "football",
-      "home": "Augsburg",
-      "away": "Mainz",
-      "kickoff": "2026-11-22T14:30:00"
-    },
-    {
-      "fixture_key": "greeksl|帕纳多里高斯|维洛斯nfc|2026-11-22",
-      "competition": "greeksl",
-      "competition_name": "希腊超级联赛",
-      "competition_class": "league",
-      "sport": "football",
-      "home": "帕纳多里高斯",
-      "away": "维洛斯NFC",
-      "kickoff": "2026-11-22T15:00:00"
-    },
-    {
-      "fixture_key": "denmark|桑德捷斯基|欧登塞|2026-11-22",
-      "competition": "denmark",
-      "competition_name": "丹麦超级联赛",
-      "competition_class": "league",
-      "sport": "football",
-      "home": "桑德捷斯基",
-      "away": "欧登塞",
-      "kickoff": "2026-11-22T15:00:00"
-    },
-    {
-      "fixture_key": "laliga|racingsantander|realsociedad|2026-11-22",
-      "competition": "laliga",
-      "competition_name": "西班牙甲级联赛",
-      "competition_class": "league",
-      "sport": "football",
-      "home": "Racing Santander",
-      "away": "Real Sociedad",
-      "kickoff": "2026-11-22T15:15:00"
-    },
-    {
-      "fixture_key": "greeksl|帕纳辛纳科斯|ofi克里特|2026-11-22",
-      "competition": "greeksl",
-      "competition_name": "希腊超级联赛",
-      "competition_class": "league",
-      "sport": "football",
-      "home": "帕纳辛纳科斯",
-      "away": "OFI克里特",
-      "kickoff": "2026-11-22T15:30:00"
-    },
-    {
-      "fixture_key": "sweden|布洛马波卡纳|哈尔姆斯塔德|2026-11-22",
-      "competition": "sweden",
-      "competition_name": "瑞典超级联赛",
-      "competition_class": "league",
-      "sport": "football",
-      "home": "布洛马波卡纳",
-      "away": "哈尔姆斯塔德",
-      "kickoff": "2026-11-22T15:30:00"
-    },
-    {
-      "fixture_key": "rpl|罗迪纳莫斯科|莫斯科火车头|2026-11-22",
-      "competition": "rpl",
-      "competition_name": "俄罗斯超级联赛",
-      "competition_class": "league",
-      "sport": "football",
-      "home": "罗迪纳莫斯科",
-      "away": "莫斯科火车头",
-      "kickoff": "2026-11-22T16:00:00"
-    },
-    {
-      "fixture_key": "superlig|特拉布宗体育|埃于普体育|2026-11-22",
-      "competition": "superlig",
-      "competition_name": "土耳其超级联赛",
-      "competition_class": "league",
-      "sport": "football",
-      "home": "特拉布宗体育",
-      "away": "埃于普体育",
-      "kickoff": "2026-11-22T16:00:00"
-    },
-    {
-      "fixture_key": "ligue1|lorient|rennes|2026-11-22",
-      "competition": "ligue1",
-      "competition_name": "法国甲级联赛",
-      "competition_class": "league",
-      "sport": "football",
-      "home": "Lorient",
-      "away": "Rennes",
-      "kickoff": "2026-11-22T16:15:00"
-    },
-    {
-      "fixture_key": "epl|liverpool|manchesterunited|2026-11-22",
-      "competition": "epl",
-      "competition_name": "英格兰超级联赛",
-      "competition_class": "league",
-      "sport": "football",
-      "home": "Liverpool",
-      "away": "Manchester United",
-      "kickoff": "2026-11-22T16:30:00"
-    },
-    {
-      "fixture_key": "bundesliga|werderbremen|hamburgersv|2026-11-22",
-      "competition": "bundesliga",
-      "competition_name": "德国甲级联赛",
-      "competition_class": "league",
-      "sport": "football",
-      "home": "Werder Bremen",
-      "away": "Hamburger SV",
-      "kickoff": "2026-11-22T16:30:00"
-    },
-    {
-      "fixture_key": "poland|普沃茨克维斯瓦|华沙莱吉亚|2026-11-22",
-      "competition": "poland",
-      "competition_name": "波兰超级联赛",
-      "competition_class": "league",
-      "sport": "football",
-      "home": "普沃茨克维斯瓦",
-      "away": "华沙莱吉亚",
-      "kickoff": "2026-11-22T16:30:00"
-    },
-    {
-      "fixture_key": "seriea|acmilan|frosinone|2026-11-22",
-      "competition": "seriea",
-      "competition_name": "意大利甲级联赛",
-      "competition_class": "league",
-      "sport": "football",
-      "home": "AC Milan",
-      "away": "Frosinone",
-      "kickoff": "2026-11-22T17:00:00"
-    },
-    {
-      "fixture_key": "greeksl|奥林匹亚科斯|伊拉克里斯|2026-11-22",
-      "competition": "greeksl",
-      "competition_name": "希腊超级联赛",
-      "competition_class": "league",
-      "sport": "football",
-      "home": "奥林匹亚科斯",
-      "away": "伊拉克里斯",
-      "kickoff": "2026-11-22T17:00:00"
-    },
-    {
-      "fixture_key": "denmark|北西兰|哥本哈根|2026-11-22",
-      "competition": "denmark",
-      "competition_name": "丹麦超级联赛",
-      "competition_class": "league",
-      "sport": "football",
-      "home": "北西兰",
-      "away": "哥本哈根",
-      "kickoff": "2026-11-22T17:00:00"
-    },
-    {
-      "fixture_key": "laliga|osasuna|malaga|2026-11-22",
-      "competition": "laliga",
-      "competition_name": "西班牙甲级联赛",
-      "competition_class": "league",
-      "sport": "football",
-      "home": "Osasuna",
-      "away": "Malaga",
-      "kickoff": "2026-11-22T17:30:00"
-    },
-    {
-      "fixture_key": "greeksl|塞萨洛尼基|基菲萨|2026-11-22",
-      "competition": "greeksl",
-      "competition_name": "希腊超级联赛",
-      "competition_class": "league",
-      "sport": "football",
-      "home": "塞萨洛尼基",
-      "away": "基菲萨",
-      "kickoff": "2026-11-22T17:30:00"
-    },
-    {
-      "fixture_key": "brasileirao|巴拉纳竞技|瑞模贝雷|2026-11-22",
-      "competition": "brasileirao",
-      "competition_name": "巴西甲级联赛",
-      "competition_class": "league",
-      "sport": "football",
-      "home": "巴拉纳竞技",
-      "away": "瑞模贝雷",
-      "kickoff": "2026-11-22T19:00:00"
-    },
-    {
-      "fixture_key": "argentina|罗萨里奥中央|甘拿斯亚门多萨|2026-11-22",
-      "competition": "argentina",
-      "competition_name": "阿根廷甲级联赛",
-      "competition_class": "league",
-      "sport": "football",
-      "home": "罗萨里奥中央",
-      "away": "甘拿斯亚门多萨",
-      "kickoff": "2026-11-22T19:00:00"
-    },
-    {
-      "fixture_key": "seriea|atalanta|intermilan|2026-11-22",
-      "competition": "seriea",
-      "competition_name": "意大利甲级联赛",
-      "competition_class": "league",
-      "sport": "football",
-      "home": "Atalanta",
-      "away": "Inter Milan",
-      "kickoff": "2026-11-22T19:45:00"
-    },
-    {
-      "fixture_key": "ligue1|marseille|lemans|2026-11-22",
-      "competition": "ligue1",
-      "competition_name": "法国甲级联赛",
-      "competition_class": "league",
-      "sport": "football",
-      "home": "Marseille",
-      "away": "Le Mans",
-      "kickoff": "2026-11-22T19:45:00"
-    },
-    {
-      "fixture_key": "laliga|getafe|atleticomadrid|2026-11-22",
-      "competition": "laliga",
-      "competition_name": "西班牙甲级联赛",
-      "competition_class": "league",
-      "sport": "football",
-      "home": "Getafe",
-      "away": "Atletico Madrid",
-      "kickoff": "2026-11-22T20:00:00"
-    },
     {
       "fixture_key": "nba|atlantahawks|detroitpistons|2026-11-22",
       "competition": "nba",
@@ -372,46 +12,6 @@
       "kickoff": "2026-11-22T20:30:00"
     },
     {
-      "fixture_key": "mls|纳什威尔sc|辛辛那提|2026-11-22",
-      "competition": "mls",
-      "competition_name": "美国职业大联盟",
-      "competition_class": "league",
-      "sport": "football",
-      "home": "纳什威尔SC",
-      "away": "辛辛那提",
-      "kickoff": "2026-11-22T21:00:00"
-    },
-    {
-      "fixture_key": "brasileirao|弗鲁米嫩塞|米拉索|2026-11-22",
-      "competition": "brasileirao",
-      "competition_name": "巴西甲级联赛",
-      "competition_class": "league",
-      "sport": "football",
-      "home": "弗鲁米嫩塞",
-      "away": "米拉索",
-      "kickoff": "2026-11-22T21:30:00"
-    },
-    {
-      "fixture_key": "argentina|河床|拉努斯|2026-11-22",
-      "competition": "argentina",
-      "competition_name": "阿根廷甲级联赛",
-      "competition_class": "league",
-      "sport": "football",
-      "home": "河床",
-      "away": "拉努斯",
-      "kickoff": "2026-11-22T22:00:00"
-    },
-    {
-      "fixture_key": "brasileirao|布拉干蒂诺rb|瓦斯科达伽马|2026-11-22",
-      "competition": "brasileirao",
-      "competition_name": "巴西甲级联赛",
-      "competition_class": "league",
-      "sport": "football",
-      "home": "布拉干蒂诺RB",
-      "away": "瓦斯科达伽马",
-      "kickoff": "2026-11-22T22:30:00"
-    },
-    {
       "fixture_key": "nba|miamiheat|oklahomacitythunder|2026-11-22",
       "competition": "nba",
       "competition_name": "NBA 美国职业篮球联赛",
@@ -420,16 +20,6 @@
       "home": "Miami Heat",
       "away": "Oklahoma City Thunder",
       "kickoff": "2026-11-22T23:00:00"
-    },
-    {
-      "fixture_key": "mls|芝加哥火焰|夏洛特fc|2026-11-22",
-      "competition": "mls",
-      "competition_name": "美国职业大联盟",
-      "competition_class": "league",
-      "sport": "football",
-      "home": "芝加哥火焰",
-      "away": "夏洛特FC",
-      "kickoff": "2026-11-22T23:30:00"
     },
     {
       "fixture_key": "nba|washingtonwizards|orlandomagic|2026-11-23",
@@ -462,16 +52,6 @@
       "kickoff": "2026-11-23T00:00:00"
     },
     {
-      "fixture_key": "argentina|科尔多瓦学院|飓风队|2026-11-23",
-      "competition": "argentina",
-      "competition_name": "阿根廷甲级联赛",
-      "competition_class": "league",
-      "sport": "football",
-      "home": "科尔多瓦学院",
-      "away": "飓风队",
-      "kickoff": "2026-11-23T01:00:00"
-    },
-    {
       "fixture_key": "nba|newyorkknicks|indianapacers|2026-11-23",
       "competition": "nba",
       "competition_name": "NBA 美国职业篮球联赛",
@@ -480,16 +60,6 @@
       "home": "New York Knicks",
       "away": "Indiana Pacers",
       "kickoff": "2026-11-23T01:00:00"
-    },
-    {
-      "fixture_key": "mls|温哥华白浪|皇家盐湖城|2026-11-23",
-      "competition": "mls",
-      "competition_name": "美国职业大联盟",
-      "competition_class": "league",
-      "sport": "football",
-      "home": "温哥华白浪",
-      "away": "皇家盐湖城",
-      "kickoff": "2026-11-23T01:30:00"
     },
     {
       "fixture_key": "nba|goldenstatewarriors|bostonceltics|2026-11-23",
@@ -2300,6 +1870,556 @@
       "home": "Houston Rockets",
       "away": "Philadelphia 76ers",
       "kickoff": "2026-11-29T01:30:00"
+    },
+    {
+      "fixture_key": "mls|波特兰伐木者|达拉斯fc|2026-11-29",
+      "competition": "mls",
+      "competition_name": "美国职业大联盟",
+      "competition_class": "league",
+      "sport": "football",
+      "home": "波特兰伐木者",
+      "away": "达拉斯FC",
+      "kickoff": "2026-11-29T03:30:00"
+    },
+    {
+      "fixture_key": "rpl|奥伦堡加索维克|罗迪纳莫斯科|2026-11-29",
+      "competition": "rpl",
+      "competition_name": "俄罗斯超级联赛",
+      "competition_class": "league",
+      "sport": "football",
+      "home": "奥伦堡加索维克",
+      "away": "罗迪纳莫斯科",
+      "kickoff": "2026-11-29T10:00:00"
+    },
+    {
+      "fixture_key": "superlig|科鲁姆|科贾埃利体育|2026-11-29",
+      "competition": "superlig",
+      "competition_name": "土耳其超级联赛",
+      "competition_class": "league",
+      "sport": "football",
+      "home": "科鲁姆",
+      "away": "科贾埃利体育",
+      "kickoff": "2026-11-29T10:30:00"
+    },
+    {
+      "fixture_key": "seriea|udinese|fiorentina|2026-11-29",
+      "competition": "seriea",
+      "competition_name": "意大利甲级联赛",
+      "competition_class": "league",
+      "sport": "football",
+      "home": "Udinese",
+      "away": "Fiorentina",
+      "kickoff": "2026-11-29T11:30:00"
+    },
+    {
+      "fixture_key": "epl|everton|liverpool|2026-11-29",
+      "competition": "epl",
+      "competition_name": "英格兰超级联赛",
+      "competition_class": "league",
+      "sport": "football",
+      "home": "Everton",
+      "away": "Liverpool",
+      "kickoff": "2026-11-29T12:00:00"
+    },
+    {
+      "fixture_key": "rpl|罗斯托夫|克拉斯诺达尔|2026-11-29",
+      "competition": "rpl",
+      "competition_name": "俄罗斯超级联赛",
+      "competition_class": "league",
+      "sport": "football",
+      "home": "罗斯托夫",
+      "away": "克拉斯诺达尔",
+      "kickoff": "2026-11-29T12:15:00"
+    },
+    {
+      "fixture_key": "laliga|valencia|osasuna|2026-11-29",
+      "competition": "laliga",
+      "competition_name": "西班牙甲级联赛",
+      "competition_class": "league",
+      "sport": "football",
+      "home": "Valencia",
+      "away": "Osasuna",
+      "kickoff": "2026-11-29T13:00:00"
+    },
+    {
+      "fixture_key": "superlig|埃于普体育|伊斯坦布尔巴萨克塞尔|2026-11-29",
+      "competition": "superlig",
+      "competition_name": "土耳其超级联赛",
+      "competition_class": "league",
+      "sport": "football",
+      "home": "埃于普体育",
+      "away": "伊斯坦布尔巴萨克塞尔",
+      "kickoff": "2026-11-29T13:00:00"
+    },
+    {
+      "fixture_key": "denmark|利恩比|维堡|2026-11-29",
+      "competition": "denmark",
+      "competition_name": "丹麦超级联赛",
+      "competition_class": "league",
+      "sport": "football",
+      "home": "利恩比",
+      "away": "维堡",
+      "kickoff": "2026-11-29T13:00:00"
+    },
+    {
+      "fixture_key": "denmark|兰讷斯|霍森斯|2026-11-29",
+      "competition": "denmark",
+      "competition_name": "丹麦超级联赛",
+      "competition_class": "league",
+      "sport": "football",
+      "home": "兰讷斯",
+      "away": "霍森斯",
+      "kickoff": "2026-11-29T13:00:00"
+    },
+    {
+      "fixture_key": "poland|波兹南莱赫|什切青|2026-11-29",
+      "competition": "poland",
+      "competition_name": "波兰超级联赛",
+      "competition_class": "league",
+      "sport": "football",
+      "home": "波兹南莱赫",
+      "away": "什切青",
+      "kickoff": "2026-11-29T13:45:00"
+    },
+    {
+      "fixture_key": "seriea|sassuolo|napoli|2026-11-29",
+      "competition": "seriea",
+      "competition_name": "意大利甲级联赛",
+      "competition_class": "league",
+      "sport": "football",
+      "home": "Sassuolo",
+      "away": "Napoli",
+      "kickoff": "2026-11-29T14:00:00"
+    },
+    {
+      "fixture_key": "ligue1|auxerre|marseille|2026-11-29",
+      "competition": "ligue1",
+      "competition_name": "法国甲级联赛",
+      "competition_class": "league",
+      "sport": "football",
+      "home": "Auxerre",
+      "away": "Marseille",
+      "kickoff": "2026-11-29T14:00:00"
+    },
+    {
+      "fixture_key": "sweden|代格福什|奥尔格里特|2026-11-29",
+      "competition": "sweden",
+      "competition_name": "瑞典超级联赛",
+      "competition_class": "league",
+      "sport": "football",
+      "home": "代格福什",
+      "away": "奥尔格里特",
+      "kickoff": "2026-11-29T14:00:00"
+    },
+    {
+      "fixture_key": "sweden|尤尔加登|赫根|2026-11-29",
+      "competition": "sweden",
+      "competition_name": "瑞典超级联赛",
+      "competition_class": "league",
+      "sport": "football",
+      "home": "尤尔加登",
+      "away": "赫根",
+      "kickoff": "2026-11-29T14:00:00"
+    },
+    {
+      "fixture_key": "sweden|埃尔夫斯堡|哥德堡盖斯|2026-11-29",
+      "competition": "sweden",
+      "competition_name": "瑞典超级联赛",
+      "competition_class": "league",
+      "sport": "football",
+      "home": "埃尔夫斯堡",
+      "away": "哥德堡盖斯",
+      "kickoff": "2026-11-29T14:00:00"
+    },
+    {
+      "fixture_key": "sweden|哥德堡|天狼星|2026-11-29",
+      "competition": "sweden",
+      "competition_name": "瑞典超级联赛",
+      "competition_class": "league",
+      "sport": "football",
+      "home": "哥德堡",
+      "away": "天狼星",
+      "kickoff": "2026-11-29T14:00:00"
+    },
+    {
+      "fixture_key": "sweden|哈尔姆斯塔德|米亚尔比|2026-11-29",
+      "competition": "sweden",
+      "competition_name": "瑞典超级联赛",
+      "competition_class": "league",
+      "sport": "football",
+      "home": "哈尔姆斯塔德",
+      "away": "米亚尔比",
+      "kickoff": "2026-11-29T14:00:00"
+    },
+    {
+      "fixture_key": "sweden|卡尔马|索尔纳|2026-11-29",
+      "competition": "sweden",
+      "competition_name": "瑞典超级联赛",
+      "competition_class": "league",
+      "sport": "football",
+      "home": "卡尔马",
+      "away": "索尔纳",
+      "kickoff": "2026-11-29T14:00:00"
+    },
+    {
+      "fixture_key": "sweden|马尔默|布洛马波卡纳|2026-11-29",
+      "competition": "sweden",
+      "competition_name": "瑞典超级联赛",
+      "competition_class": "league",
+      "sport": "football",
+      "home": "马尔默",
+      "away": "布洛马波卡纳",
+      "kickoff": "2026-11-29T14:00:00"
+    },
+    {
+      "fixture_key": "sweden|瓦斯特拉斯|哈马比|2026-11-29",
+      "competition": "sweden",
+      "competition_name": "瑞典超级联赛",
+      "competition_class": "league",
+      "sport": "football",
+      "home": "瓦斯特拉斯",
+      "away": "哈马比",
+      "kickoff": "2026-11-29T14:00:00"
+    },
+    {
+      "fixture_key": "epl|brighton|newcastleunited|2026-11-29",
+      "competition": "epl",
+      "competition_name": "英格兰超级联赛",
+      "competition_class": "league",
+      "sport": "football",
+      "home": "Brighton",
+      "away": "Newcastle United",
+      "kickoff": "2026-11-29T14:05:00"
+    },
+    {
+      "fixture_key": "epl|crystalpalace|hullcity|2026-11-29",
+      "competition": "epl",
+      "competition_name": "英格兰超级联赛",
+      "competition_class": "league",
+      "sport": "football",
+      "home": "Crystal Palace",
+      "away": "Hull City",
+      "kickoff": "2026-11-29T14:05:00"
+    },
+    {
+      "fixture_key": "epl|fulham|bournemouth|2026-11-29",
+      "competition": "epl",
+      "competition_name": "英格兰超级联赛",
+      "competition_class": "league",
+      "sport": "football",
+      "home": "Fulham",
+      "away": "Bournemouth",
+      "kickoff": "2026-11-29T14:05:00"
+    },
+    {
+      "fixture_key": "epl|sunderland|tottenhamhotspur|2026-11-29",
+      "competition": "epl",
+      "competition_name": "英格兰超级联赛",
+      "competition_class": "league",
+      "sport": "football",
+      "home": "Sunderland",
+      "away": "Tottenham Hotspur",
+      "kickoff": "2026-11-29T14:05:00"
+    },
+    {
+      "fixture_key": "bundesliga|freiburg|rbleipzig|2026-11-29",
+      "competition": "bundesliga",
+      "competition_name": "德国甲级联赛",
+      "competition_class": "league",
+      "sport": "football",
+      "home": "Freiburg",
+      "away": "RB Leipzig",
+      "kickoff": "2026-11-29T14:30:00"
+    },
+    {
+      "fixture_key": "rpl|苏维埃之翼|莫斯科迪纳摩|2026-11-29",
+      "competition": "rpl",
+      "competition_name": "俄罗斯超级联赛",
+      "competition_class": "league",
+      "sport": "football",
+      "home": "苏维埃之翼",
+      "away": "莫斯科迪纳摩",
+      "kickoff": "2026-11-29T14:30:00"
+    },
+    {
+      "fixture_key": "greeksl|阿特罗米托斯|帕纳辛纳科斯|2026-11-29",
+      "competition": "greeksl",
+      "competition_name": "希腊超级联赛",
+      "competition_class": "league",
+      "sport": "football",
+      "home": "阿特罗米托斯",
+      "away": "帕纳辛纳科斯",
+      "kickoff": "2026-11-29T15:00:00"
+    },
+    {
+      "fixture_key": "denmark|哥本哈根|中日德兰|2026-11-29",
+      "competition": "denmark",
+      "competition_name": "丹麦超级联赛",
+      "competition_class": "league",
+      "sport": "football",
+      "home": "哥本哈根",
+      "away": "中日德兰",
+      "kickoff": "2026-11-29T15:00:00"
+    },
+    {
+      "fixture_key": "laliga|deportivolacoruna|barcelona|2026-11-29",
+      "competition": "laliga",
+      "competition_name": "西班牙甲级联赛",
+      "competition_class": "league",
+      "sport": "football",
+      "home": "Deportivo La Coruna",
+      "away": "Barcelona",
+      "kickoff": "2026-11-29T15:15:00"
+    },
+    {
+      "fixture_key": "greeksl|ofi克里特|莱瓦贾科斯|2026-11-29",
+      "competition": "greeksl",
+      "competition_name": "希腊超级联赛",
+      "competition_class": "league",
+      "sport": "football",
+      "home": "OFI克里特",
+      "away": "莱瓦贾科斯",
+      "kickoff": "2026-11-29T15:30:00"
+    },
+    {
+      "fixture_key": "superlig|费内巴切|埃尔祖鲁姆体育|2026-11-29",
+      "competition": "superlig",
+      "competition_name": "土耳其超级联赛",
+      "competition_class": "league",
+      "sport": "football",
+      "home": "费内巴切",
+      "away": "埃尔祖鲁姆体育",
+      "kickoff": "2026-11-29T16:00:00"
+    },
+    {
+      "fixture_key": "ligue1|toulouse|rennes|2026-11-29",
+      "competition": "ligue1",
+      "competition_name": "法国甲级联赛",
+      "competition_class": "league",
+      "sport": "football",
+      "home": "Toulouse",
+      "away": "Rennes",
+      "kickoff": "2026-11-29T16:15:00"
+    },
+    {
+      "fixture_key": "epl|arsenal|manchestercity|2026-11-29",
+      "competition": "epl",
+      "competition_name": "英格兰超级联赛",
+      "competition_class": "league",
+      "sport": "football",
+      "home": "Arsenal",
+      "away": "Manchester City",
+      "kickoff": "2026-11-29T16:30:00"
+    },
+    {
+      "fixture_key": "bundesliga|hoffenheim|augsburg|2026-11-29",
+      "competition": "bundesliga",
+      "competition_name": "德国甲级联赛",
+      "competition_class": "league",
+      "sport": "football",
+      "home": "Hoffenheim",
+      "away": "Augsburg",
+      "kickoff": "2026-11-29T16:30:00"
+    },
+    {
+      "fixture_key": "poland|华沙莱吉亚|ks莫摩斯|2026-11-29",
+      "competition": "poland",
+      "competition_name": "波兰超级联赛",
+      "competition_class": "league",
+      "sport": "football",
+      "home": "华沙莱吉亚",
+      "away": "KS莫摩斯",
+      "kickoff": "2026-11-29T16:30:00"
+    },
+    {
+      "fixture_key": "rpl|莫斯科火车头|马哈奇卡拉|2026-11-29",
+      "competition": "rpl",
+      "competition_name": "俄罗斯超级联赛",
+      "competition_class": "league",
+      "sport": "football",
+      "home": "莫斯科火车头",
+      "away": "马哈奇卡拉",
+      "kickoff": "2026-11-29T16:45:00"
+    },
+    {
+      "fixture_key": "seriea|roma|monza|2026-11-29",
+      "competition": "seriea",
+      "competition_name": "意大利甲级联赛",
+      "competition_class": "league",
+      "sport": "football",
+      "home": "Roma",
+      "away": "Monza",
+      "kickoff": "2026-11-29T17:00:00"
+    },
+    {
+      "fixture_key": "greeksl|阿里斯|奥林匹亚科斯|2026-11-29",
+      "competition": "greeksl",
+      "competition_name": "希腊超级联赛",
+      "competition_class": "league",
+      "sport": "football",
+      "home": "阿里斯",
+      "away": "奥林匹亚科斯",
+      "kickoff": "2026-11-29T17:00:00"
+    },
+    {
+      "fixture_key": "denmark|锡尔克堡|奥胡斯|2026-11-29",
+      "competition": "denmark",
+      "competition_name": "丹麦超级联赛",
+      "competition_class": "league",
+      "sport": "football",
+      "home": "锡尔克堡",
+      "away": "奥胡斯",
+      "kickoff": "2026-11-29T17:00:00"
+    },
+    {
+      "fixture_key": "laliga|celtavigo|villarreal|2026-11-29",
+      "competition": "laliga",
+      "competition_name": "西班牙甲级联赛",
+      "competition_class": "league",
+      "sport": "football",
+      "home": "Celta Vigo",
+      "away": "Villarreal",
+      "kickoff": "2026-11-29T17:30:00"
+    },
+    {
+      "fixture_key": "primeira|吉维森特|埃斯托里尔|2026-11-29",
+      "competition": "primeira",
+      "competition_name": "葡萄牙超级联赛",
+      "competition_class": "league",
+      "sport": "football",
+      "home": "吉维森特",
+      "away": "埃斯托里尔",
+      "kickoff": "2026-11-29T18:00:00"
+    },
+    {
+      "fixture_key": "bundesliga|borussiadortmund|bayerleverkusen|2026-11-29",
+      "competition": "bundesliga",
+      "competition_name": "德国甲级联赛",
+      "competition_class": "league",
+      "sport": "football",
+      "home": "Borussia Dortmund",
+      "away": "Bayer Leverkusen",
+      "kickoff": "2026-11-29T18:30:00"
+    },
+    {
+      "fixture_key": "brasileirao|科里蒂巴|弗拉门戈|2026-11-29",
+      "competition": "brasileirao",
+      "competition_name": "巴西甲级联赛",
+      "competition_class": "league",
+      "sport": "football",
+      "home": "科里蒂巴",
+      "away": "弗拉门戈",
+      "kickoff": "2026-11-29T19:00:00"
+    },
+    {
+      "fixture_key": "brasileirao|维多利亚|桑托斯|2026-11-29",
+      "competition": "brasileirao",
+      "competition_name": "巴西甲级联赛",
+      "competition_class": "league",
+      "sport": "football",
+      "home": "维多利亚",
+      "away": "桑托斯",
+      "kickoff": "2026-11-29T19:00:00"
+    },
+    {
+      "fixture_key": "greeksl|aek雅典|塞萨洛尼基|2026-11-29",
+      "competition": "greeksl",
+      "competition_name": "希腊超级联赛",
+      "competition_class": "league",
+      "sport": "football",
+      "home": "AEK雅典",
+      "away": "塞萨洛尼基",
+      "kickoff": "2026-11-29T19:00:00"
+    },
+    {
+      "fixture_key": "poland|比亚韦斯托克雅盖隆|拉多麦科|2026-11-29",
+      "competition": "poland",
+      "competition_name": "波兰超级联赛",
+      "competition_class": "league",
+      "sport": "football",
+      "home": "比亚韦斯托克雅盖隆",
+      "away": "拉多麦科",
+      "kickoff": "2026-11-29T19:15:00"
+    },
+    {
+      "fixture_key": "seriea|como|juventus|2026-11-29",
+      "competition": "seriea",
+      "competition_name": "意大利甲级联赛",
+      "competition_class": "league",
+      "sport": "football",
+      "home": "Como",
+      "away": "Juventus",
+      "kickoff": "2026-11-29T19:45:00"
+    },
+    {
+      "fixture_key": "ligue1|lyon|monaco|2026-11-29",
+      "competition": "ligue1",
+      "competition_name": "法国甲级联赛",
+      "competition_class": "league",
+      "sport": "football",
+      "home": "Lyon",
+      "away": "Monaco",
+      "kickoff": "2026-11-29T19:45:00"
+    },
+    {
+      "fixture_key": "laliga|realsociedad|sevilla|2026-11-29",
+      "competition": "laliga",
+      "competition_name": "西班牙甲级联赛",
+      "competition_class": "league",
+      "sport": "football",
+      "home": "Real Sociedad",
+      "away": "Sevilla",
+      "kickoff": "2026-11-29T20:00:00"
+    },
+    {
+      "fixture_key": "primeira|波尔图|葡萄牙体育|2026-11-29",
+      "competition": "primeira",
+      "competition_name": "葡萄牙超级联赛",
+      "competition_class": "league",
+      "sport": "football",
+      "home": "波尔图",
+      "away": "葡萄牙体育",
+      "kickoff": "2026-11-29T20:30:00"
+    },
+    {
+      "fixture_key": "brasileirao|科林蒂安|格雷米奥|2026-11-29",
+      "competition": "brasileirao",
+      "competition_name": "巴西甲级联赛",
+      "competition_class": "league",
+      "sport": "football",
+      "home": "科林蒂安",
+      "away": "格雷米奥",
+      "kickoff": "2026-11-29T21:30:00"
+    },
+    {
+      "fixture_key": "brasileirao|巴西国际|布拉干蒂诺rb|2026-11-29",
+      "competition": "brasileirao",
+      "competition_name": "巴西甲级联赛",
+      "competition_class": "league",
+      "sport": "football",
+      "home": "巴西国际",
+      "away": "布拉干蒂诺RB",
+      "kickoff": "2026-11-29T21:30:00"
+    },
+    {
+      "fixture_key": "brasileirao|米拉索|巴拉纳竞技|2026-11-29",
+      "competition": "brasileirao",
+      "competition_name": "巴西甲级联赛",
+      "competition_class": "league",
+      "sport": "football",
+      "home": "米拉索",
+      "away": "巴拉纳竞技",
+      "kickoff": "2026-11-29T21:30:00"
+    },
+    {
+      "fixture_key": "brasileirao|米内罗竞技|瓦斯科达伽马|2026-11-29",
+      "competition": "brasileirao",
+      "competition_name": "巴西甲级联赛",
+      "competition_class": "league",
+      "sport": "football",
+      "home": "米内罗竞技",
+      "away": "瓦斯科达伽马",
+      "kickoff": "2026-11-29T22:30:00"
     }
   ]
 }
