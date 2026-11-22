@@ -9,12 +9,13 @@
 """
 from __future__ import annotations
 
-from dataclasses import asdict
+import json
+import os
 from datetime import datetime, timedelta, timezone
 
 from .. import config as C
 from ..models import norm_team
-from ..storage import read_json, write_json
+from ..storage import read_json
 from .recommender import recommend_handicap, recommend_totals
 
 _BJ = timezone(timedelta(hours=8))
@@ -38,9 +39,41 @@ def _bj_date(dt: datetime) -> str:
     return dt.astimezone(_BJ).strftime("%Y-%m-%d")
 
 
-def _rec_dict(rec) -> dict | None:
-    """Recommendation -> dict；None 表示该盘口无数据/无信号。"""
-    return asdict(rec) if rec is not None else None
+def _rec_compact(rec) -> dict | None:
+    """Recommendation -> 精简 dict；None 表示该盘口无数据/无信号。
+
+    只保留看板「主动分析」页用到的字段（pick/方向/信心/分数/理由 + 水位走势用
+    的 history），丢掉 signals、line、reliability 与冗余的 fixture_key/队名/时间，
+    避免 team_analysis.json 无谓膨胀（原始文件会每 6 小时重生成并提交，要控体积）。
+    """
+    if rec is None:
+        return None
+    if rec.market == "handicap":
+        hist = [{"ts": h["ts"], "handicap_home": h.get("handicap_home"),
+                 "handicap_away": h.get("handicap_away")} for h in rec.history]
+    else:
+        hist = [{"ts": h["ts"], "over": h.get("over"), "under": h.get("under")}
+                for h in rec.history]
+    return {
+        "market": rec.market,
+        "pick": rec.pick,
+        "side": rec.side,
+        "confidence": rec.confidence,
+        "score": rec.score,
+        "reasons": rec.reasons,
+        "history": hist,
+    }
+
+
+def _write_compact(path, obj) -> None:
+    """紧凑写 JSON（无缩进）：team_analysis 是每轮全量重建的派生数据，不需要
+    好看的可读 diff，紧凑格式能省下 ~3 倍体积（gzip 与 git 历史都更小）。"""
+    from ..storage import ensure_dir
+    ensure_dir(path.parent)
+    tmp = path.with_suffix(path.suffix + ".tmp")
+    with open(tmp, "w", encoding="utf-8") as f:
+        json.dump(obj, f, ensure_ascii=False, separators=(",", ":"))
+    os.replace(tmp, path)
 
 
 def _reverse_aliases(cfg: dict) -> dict:
@@ -101,8 +134,8 @@ def build_team_analysis(cfg: dict, results_by_comp: dict, odds_by_comp: dict,
             "away": away,
             "kickoff": kickoff,
             "date": _bj_date(ko),
-            "handicap": _rec_dict(handicap_rec),
-            "totals": _rec_dict(totals_rec),
+            "handicap": _rec_compact(handicap_rec),
+            "totals": _rec_compact(totals_rec),
         }
         for name in (home, away):
             b = _bucket(name)
@@ -144,6 +177,6 @@ def build_team_analysis(cfg: dict, results_by_comp: dict, odds_by_comp: dict,
         "date_today": _bj_date(now),
         "teams": team_list,
     }
-    write_json(C.REPORTS_DIR / "team_analysis.json", doc)
-    write_json(C.DOCS_REPORTS_DIR / "team_analysis.json", doc)   # 供 GitHub Pages 看板读取
+    _write_compact(C.REPORTS_DIR / "team_analysis.json", doc)
+    _write_compact(C.DOCS_REPORTS_DIR / "team_analysis.json", doc)   # 供 GitHub Pages 看板读取
     return doc
