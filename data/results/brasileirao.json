@@ -2,6 +2,17 @@
   {
     "competition": "brasileirao",
     "cls": "league",
+    "home": "沙佩科恩斯",
+    "away": "克鲁塞罗",
+    "home_goals": 1,
+    "away_goals": 2,
+    "date": "2026-11-22",
+    "handicap_line": 1.0,
+    "total_line": 3.0
+  },
+  {
+    "competition": "brasileirao",
+    "cls": "league",
     "home": "巴伊亚",
     "away": "科里蒂巴",
     "home_goals": 0,
