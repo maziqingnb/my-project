@@ -13,6 +13,17 @@
   {
     "competition": "bundesliga",
     "cls": "league",
+    "home": "Werder Bremen",
+    "away": "Hamburger SV",
+    "home_goals": 4,
+    "away_goals": 0,
+    "date": "2026-11-22",
+    "handicap_line": -0.75,
+    "total_line": 3.0
+  },
+  {
+    "competition": "bundesliga",
+    "cls": "league",
     "home": "Bayer Leverkusen",
     "away": "Paderborn",
     "home_goals": 4,

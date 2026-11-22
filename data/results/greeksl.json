@@ -35,6 +35,50 @@
   {
     "competition": "greeksl",
     "cls": "league",
+    "home": "PAOK",
+    "away": "Kifisia",
+    "home_goals": 4,
+    "away_goals": 0,
+    "date": "2026-11-22",
+    "handicap_line": null,
+    "total_line": null
+  },
+  {
+    "competition": "greeksl",
+    "cls": "league",
+    "home": "塞萨洛尼基",
+    "away": "基菲萨",
+    "home_goals": 4,
+    "away_goals": 0,
+    "date": "2026-11-22",
+    "handicap_line": -1.25,
+    "total_line": 3.0
+  },
+  {
+    "competition": "greeksl",
+    "cls": "league",
+    "home": "奥林匹亚科斯",
+    "away": "Iraklis",
+    "home_goals": 6,
+    "away_goals": 2,
+    "date": "2026-11-22",
+    "handicap_line": null,
+    "total_line": null
+  },
+  {
+    "competition": "greeksl",
+    "cls": "league",
+    "home": "奥林匹亚科斯",
+    "away": "伊拉克里斯",
+    "home_goals": 6,
+    "away_goals": 2,
+    "date": "2026-11-22",
+    "handicap_line": -2.0,
+    "total_line": 3.25
+  },
+  {
+    "competition": "greeksl",
+    "cls": "league",
     "home": "帕纳多里高斯",
     "away": "维洛斯NFC",
     "home_goals": 1,

@@ -1,62 +1,22 @@
 {
-  "generated_at": "2026-11-22T18:26:40.941127+00:00",
+  "generated_at": "2026-11-22T19:26:33.342354+00:00",
   "matches": [
     {
-      "fixture_key": "laliga|osasuna|malaga|2026-11-22",
-      "competition": "laliga",
-      "home": "Osasuna",
-      "away": "Malaga",
-      "kickoff": "2026-11-22T17:30:00",
+      "fixture_key": "brasileirao|巴拉纳竞技|瑞模贝雷|2026-11-22",
+      "competition": "brasileirao",
+      "home": "巴拉纳竞技",
+      "away": "瑞模贝雷",
+      "kickoff": "2026-11-22T19:00:00",
       "status": "live",
       "home_goals": 1,
       "away_goals": 0
     },
     {
-      "fixture_key": "seriea|acmilan|frosinone|2026-11-22",
-      "competition": "seriea",
-      "home": "AC Milan",
-      "away": "Frosinone",
-      "kickoff": "2026-11-22T17:00:00",
-      "status": "live",
-      "home_goals": 4,
-      "away_goals": 1
-    },
-    {
-      "fixture_key": "bundesliga|werderbremen|hamburgersv|2026-11-22",
-      "competition": "bundesliga",
-      "home": "Werder Bremen",
-      "away": "Hamburger SV",
-      "kickoff": "2026-11-22T16:30:00",
-      "status": "live",
-      "home_goals": 3,
-      "away_goals": 0
-    },
-    {
-      "fixture_key": "greeksl|奥林匹亚科斯|iraklis|2026-11-22",
-      "competition": "greeksl",
-      "home": "奥林匹亚科斯",
-      "away": "Iraklis",
-      "kickoff": "2026-11-22T17:00:00",
-      "status": "live",
-      "home_goals": 4,
-      "away_goals": 2
-    },
-    {
-      "fixture_key": "greeksl|paok|kifisia|2026-11-22",
-      "competition": "greeksl",
-      "home": "PAOK",
-      "away": "Kifisia",
-      "kickoff": "2026-11-22T17:30:00",
-      "status": "live",
-      "home_goals": 1,
-      "away_goals": 0
-    },
-    {
-      "fixture_key": "denmark|fcnordsjlland|fckbenhavn|2026-11-22",
-      "competition": "denmark",
-      "home": "FC Nordsjælland",
-      "away": "F.C. København",
-      "kickoff": "2026-11-22T17:00:00",
+      "fixture_key": "argentina|罗萨里奥中央|gimnasia|2026-11-22",
+      "competition": "argentina",
+      "home": "罗萨里奥中央",
+      "away": "Gimnasia (Mendoza)",
+      "kickoff": "2026-11-22T19:00:00",
       "status": "live",
       "home_goals": 2,
       "away_goals": 0
