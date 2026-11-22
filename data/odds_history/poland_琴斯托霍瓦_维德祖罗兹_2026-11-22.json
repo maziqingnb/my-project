@@ -321,6 +321,21 @@
     "away": "维德祖罗兹",
     "kickoff": "2026-11-22T11:15:00",
     "bookmaker": "crown",
+    "ts": "2026-11-21T11:15:00+00:00",
+    "handicap_line": -0.25,
+    "handicap_home": 0.81,
+    "handicap_away": 1.01,
+    "total_line": 3.0,
+    "over": 0.98,
+    "under": 0.82
+  },
+  {
+    "fixture_key": "poland|琴斯托霍瓦|维德祖罗兹|2026-11-22",
+    "competition": "poland",
+    "home": "琴斯托霍瓦",
+    "away": "维德祖罗兹",
+    "kickoff": "2026-11-22T11:15:00",
+    "bookmaker": "crown",
     "ts": "2026-11-21T16:37:20.884523+00:00",
     "handicap_line": -0.5,
     "handicap_home": 0.99,
@@ -628,5 +643,20 @@
     "total_line": 2.75,
     "over": 0.82,
     "under": 1.04
+  },
+  {
+    "fixture_key": "poland|琴斯托霍瓦|维德祖罗兹|2026-11-22",
+    "competition": "poland",
+    "home": "琴斯托霍瓦",
+    "away": "维德祖罗兹",
+    "kickoff": "2026-11-22T11:15:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-22T11:11:27.321390+00:00",
+    "handicap_line": -0.5,
+    "handicap_home": 1.03,
+    "handicap_away": 0.85,
+    "total_line": 3.0,
+    "over": 1.04,
+    "under": 0.82
   }
 ]
