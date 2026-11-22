@@ -2,6 +2,17 @@
   {
     "competition": "seriea",
     "cls": "league",
+    "home": "Juventus",
+    "away": "Venezia",
+    "home_goals": 4,
+    "away_goals": 0,
+    "date": "2026-11-22",
+    "handicap_line": -1.5,
+    "total_line": 3.0
+  },
+  {
+    "competition": "seriea",
+    "cls": "league",
     "home": "Como",
     "away": "Cagliari",
     "home_goals": 2,

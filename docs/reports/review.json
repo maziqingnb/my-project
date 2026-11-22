@@ -1,11 +1,51 @@
 {
-  "generated_at": "2026-11-22T13:28:23.847917+00:00",
-  "total_missed": 48,
+  "generated_at": "2026-11-22T13:38:18.728203+00:00",
+  "total_missed": 49,
   "days": [
     {
       "date": "2026-11-22",
-      "missed": 1,
+      "missed": 2,
       "items": [
+        {
+          "competition": "rpl",
+          "home": "莫斯科迪纳摩",
+          "away": "克拉斯诺达尔",
+          "kickoff": "2026-11-22T11:00:00",
+          "market": "totals",
+          "sport": "football",
+          "pick": "大球（2.75）",
+          "side": "over",
+          "line": 2.75,
+          "score": 73.5,
+          "confidence": "strong",
+          "outcome": "loss",
+          "outcome_cn": "没中",
+          "home_goals": 1,
+          "away_goals": 1,
+          "book": "盘口 2.75 → 2.75，水位 大0.99/小0.88 → 大0.90/小0.97",
+          "diagnosis": [
+            "盘口 2.75 → 2.75，水位 大0.99/小0.88 → 大0.90/小0.97",
+            "最终总进球 2，相对盘口 2.75 偏小"
+          ],
+          "note": "大球（2.75） · 最终 1-1（总进球 2），未打出",
+          "signals": {
+            "line_desc": "盘口不变",
+            "over_desc": "大球降水 0.99->0.9",
+            "line_first": 2.75,
+            "line_last": 2.75,
+            "over_first": 0.99,
+            "over_last": 0.9,
+            "under_first": 0.88,
+            "under_last": 0.97,
+            "conflict": false
+          },
+          "reasons": [
+            "大小球 盘口不变",
+            "大球降水 0.99->0.9",
+            "主队近5场场均总进球 2.8",
+            "客队近5场场均总进球 4.4"
+          ]
+        },
         {
           "competition": "laliga",
           "home": "Sevilla",
