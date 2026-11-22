@@ -2,6 +2,17 @@
   {
     "competition": "bundesliga",
     "cls": "league",
+    "home": "Augsburg",
+    "away": "Mainz",
+    "home_goals": 3,
+    "away_goals": 1,
+    "date": "2026-11-22",
+    "handicap_line": 0.0,
+    "total_line": 3.25
+  },
+  {
+    "competition": "bundesliga",
+    "cls": "league",
     "home": "Bayer Leverkusen",
     "away": "Paderborn",
     "home_goals": 4,
