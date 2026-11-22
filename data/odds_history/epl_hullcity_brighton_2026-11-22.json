@@ -366,6 +366,21 @@
     "away": "Brighton",
     "kickoff": "2026-11-22T14:00:00",
     "bookmaker": "crown",
+    "ts": "2026-11-21T14:00:00+00:00",
+    "handicap_line": 1.0,
+    "handicap_home": 0.94,
+    "handicap_away": 0.94,
+    "total_line": 2.75,
+    "over": 0.86,
+    "under": 1.0
+  },
+  {
+    "fixture_key": "epl|hullcity|brighton|2026-11-22",
+    "competition": "epl",
+    "home": "Hull City",
+    "away": "Brighton",
+    "kickoff": "2026-11-22T14:00:00",
+    "bookmaker": "crown",
     "ts": "2026-11-21T16:37:02.818037+00:00",
     "handicap_line": 1.0,
     "handicap_home": 1.04,
@@ -718,5 +733,20 @@
     "total_line": 2.75,
     "over": 1.05,
     "under": 0.84
+  },
+  {
+    "fixture_key": "epl|hullcity|brighton|2026-11-22",
+    "competition": "epl",
+    "home": "Hull City",
+    "away": "Brighton",
+    "kickoff": "2026-11-22T14:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-22T13:28:04.734636+00:00",
+    "handicap_line": 1.25,
+    "handicap_home": 0.83,
+    "handicap_away": 1.06,
+    "total_line": 2.75,
+    "over": 0.83,
+    "under": 1.06
   }
 ]

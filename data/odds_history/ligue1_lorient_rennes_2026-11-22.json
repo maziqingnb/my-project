@@ -366,6 +366,21 @@
     "away": "Rennes",
     "kickoff": "2026-11-22T16:15:00",
     "bookmaker": "crown",
+    "ts": "2026-11-21T16:15:00+00:00",
+    "handicap_line": 0.25,
+    "handicap_home": 0.83,
+    "handicap_away": 1.05,
+    "total_line": 2.75,
+    "over": 0.93,
+    "under": 0.93
+  },
+  {
+    "fixture_key": "ligue1|lorient|rennes|2026-11-22",
+    "competition": "ligue1",
+    "home": "Lorient",
+    "away": "Rennes",
+    "kickoff": "2026-11-22T16:15:00",
+    "bookmaker": "crown",
     "ts": "2026-11-21T16:36:58.241265+00:00",
     "handicap_line": 0.0,
     "handicap_home": 1.07,
@@ -718,5 +733,20 @@
     "total_line": 2.25,
     "over": 0.93,
     "under": 0.95
+  },
+  {
+    "fixture_key": "ligue1|lorient|rennes|2026-11-22",
+    "competition": "ligue1",
+    "home": "Lorient",
+    "away": "Rennes",
+    "kickoff": "2026-11-22T16:15:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-22T13:28:03.008938+00:00",
+    "handicap_line": 0.25,
+    "handicap_home": 0.88,
+    "handicap_away": 1.01,
+    "total_line": 2.25,
+    "over": 0.94,
+    "under": 0.94
   }
 ]
