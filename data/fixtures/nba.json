@@ -1,45 +1,5 @@
 [
   {
-    "key": "nba|minnesotatimberwolves|memphisgrizzlies|2026-11-22",
-    "competition": "nba",
-    "home": "Minnesota Timberwolves",
-    "away": "Memphis Grizzlies",
-    "kickoff": "2026-11-22T01:00:00",
-    "status": "upcoming",
-    "home_goals": null,
-    "away_goals": null
-  },
-  {
-    "key": "nba|sanantoniospurs|neworleanspelicans|2026-11-22",
-    "competition": "nba",
-    "home": "San Antonio Spurs",
-    "away": "New Orleans Pelicans",
-    "kickoff": "2026-11-22T01:00:00",
-    "status": "upcoming",
-    "home_goals": null,
-    "away_goals": null
-  },
-  {
-    "key": "nba|dallasmavericks|losangelesclippers|2026-11-22",
-    "competition": "nba",
-    "home": "Dallas Mavericks",
-    "away": "Los Angeles Clippers",
-    "kickoff": "2026-11-22T01:00:00",
-    "status": "upcoming",
-    "home_goals": null,
-    "away_goals": null
-  },
-  {
-    "key": "nba|sacramentokings|bostonceltics|2026-11-22",
-    "competition": "nba",
-    "home": "Sacramento Kings",
-    "away": "Boston Celtics",
-    "kickoff": "2026-11-22T03:00:00",
-    "status": "upcoming",
-    "home_goals": null,
-    "away_goals": null
-  },
-  {
     "key": "nba|atlantahawks|detroitpistons|2026-11-22",
     "competition": "nba",
     "home": "Atlanta Hawks",
@@ -455,6 +415,36 @@
     "home": "Charlotte Hornets",
     "away": "Brooklyn Nets",
     "kickoff": "2026-11-28T23:00:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "nba|chicagobulls|indianapacers|2026-11-29",
+    "competition": "nba",
+    "home": "Chicago Bulls",
+    "away": "Indiana Pacers",
+    "kickoff": "2026-11-29T01:00:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "nba|milwaukeebucks|oklahomacitythunder|2026-11-29",
+    "competition": "nba",
+    "home": "Milwaukee Bucks",
+    "away": "Oklahoma City Thunder",
+    "kickoff": "2026-11-29T01:00:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "nba|houstonrockets|philadelphia76ers|2026-11-29",
+    "competition": "nba",
+    "home": "Houston Rockets",
+    "away": "Philadelphia 76ers",
+    "kickoff": "2026-11-29T01:30:00",
     "status": "upcoming",
     "home_goals": null,
     "away_goals": null
