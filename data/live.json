@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-22T22:30:42.637501+00:00",
+  "generated_at": "2026-11-22T23:24:22.796469+00:00",
   "matches": [
     {
       "fixture_key": "brasileirao|弗鲁米嫩塞|米拉索|2026-11-22",
@@ -12,6 +12,16 @@
       "away_goals": 0
     },
     {
+      "fixture_key": "brasileirao|布拉干蒂诺rb|瓦斯科达伽马|2026-11-22",
+      "competition": "brasileirao",
+      "home": "布拉干蒂诺RB",
+      "away": "瓦斯科达伽马",
+      "kickoff": "2026-11-22T22:30:00",
+      "status": "live",
+      "home_goals": 0,
+      "away_goals": 0
+    },
+    {
       "fixture_key": "argentina|河床|拉努斯|2026-11-22",
       "competition": "argentina",
       "home": "河床",
@@ -19,7 +29,7 @@
       "kickoff": "2026-11-22T22:00:00",
       "status": "live",
       "home_goals": 1,
-      "away_goals": 0
+      "away_goals": 1
     },
     {
       "fixture_key": "mls|纳什威尔sc|fccincinnati|2026-11-22",
