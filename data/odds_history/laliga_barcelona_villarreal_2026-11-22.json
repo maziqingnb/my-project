@@ -306,6 +306,21 @@
     "away": "Villarreal",
     "kickoff": "2026-11-22T13:00:00",
     "bookmaker": "crown",
+    "ts": "2026-11-21T13:00:00+00:00",
+    "handicap_line": -2.25,
+    "handicap_home": 1.03,
+    "handicap_away": 0.85,
+    "total_line": 4.25,
+    "over": 0.98,
+    "under": 0.88
+  },
+  {
+    "fixture_key": "laliga|barcelona|villarreal|2026-11-22",
+    "competition": "laliga",
+    "home": "Barcelona",
+    "away": "Villarreal",
+    "kickoff": "2026-11-22T13:00:00",
+    "bookmaker": "crown",
     "ts": "2026-11-21T16:36:59.531903+00:00",
     "handicap_line": -2.25,
     "handicap_home": 1.03,
@@ -598,5 +613,20 @@
     "total_line": 4.5,
     "over": 1.04,
     "under": 0.84
+  },
+  {
+    "fixture_key": "laliga|barcelona|villarreal|2026-11-22",
+    "competition": "laliga",
+    "home": "Barcelona",
+    "away": "Villarreal",
+    "kickoff": "2026-11-22T13:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-22T10:16:07.025350+00:00",
+    "handicap_line": -2.25,
+    "handicap_home": 0.94,
+    "handicap_away": 0.95,
+    "total_line": 4.5,
+    "over": 0.99,
+    "under": 0.89
   }
 ]

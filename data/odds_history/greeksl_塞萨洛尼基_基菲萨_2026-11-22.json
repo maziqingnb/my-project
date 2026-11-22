@@ -321,6 +321,21 @@
     "away": "基菲萨",
     "kickoff": "2026-11-22T17:30:00",
     "bookmaker": "crown",
+    "ts": "2026-11-21T17:30:00+00:00",
+    "handicap_line": -1.25,
+    "handicap_home": 0.92,
+    "handicap_away": 0.9,
+    "total_line": 3.0,
+    "over": 0.91,
+    "under": 0.89
+  },
+  {
+    "fixture_key": "greeksl|塞萨洛尼基|基菲萨|2026-11-22",
+    "competition": "greeksl",
+    "home": "塞萨洛尼基",
+    "away": "基菲萨",
+    "kickoff": "2026-11-22T17:30:00",
+    "bookmaker": "crown",
     "ts": "2026-11-21T17:34:10.828336+00:00",
     "handicap_line": -1.25,
     "handicap_home": 0.75,
@@ -598,5 +613,20 @@
     "total_line": 2.75,
     "over": 0.96,
     "under": 0.9
+  },
+  {
+    "fixture_key": "greeksl|塞萨洛尼基|基菲萨|2026-11-22",
+    "competition": "greeksl",
+    "home": "塞萨洛尼基",
+    "away": "基菲萨",
+    "kickoff": "2026-11-22T17:30:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-22T10:16:19.296551+00:00",
+    "handicap_line": -1.25,
+    "handicap_home": 0.78,
+    "handicap_away": 1.11,
+    "total_line": 2.75,
+    "over": 0.92,
+    "under": 0.94
   }
 ]
