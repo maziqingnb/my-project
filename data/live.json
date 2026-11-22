@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-22T20:18:10.297062+00:00",
+  "generated_at": "2026-11-22T21:05:04.346287+00:00",
   "matches": [
     {
       "fixture_key": "laliga|getafe|atleticomadrid|2026-11-22",
@@ -9,7 +9,7 @@
       "kickoff": "2026-11-22T20:00:00",
       "status": "live",
       "home_goals": 0,
-      "away_goals": 1
+      "away_goals": 2
     },
     {
       "fixture_key": "seriea|atalanta|intermilan|2026-11-22",
@@ -18,8 +18,8 @@
       "away": "Inter Milan",
       "kickoff": "2026-11-22T19:45:00",
       "status": "live",
-      "home_goals": 0,
-      "away_goals": 2
+      "home_goals": 1,
+      "away_goals": 3
     },
     {
       "fixture_key": "ligue1|marseille|lemans|2026-11-22",
@@ -28,27 +28,7 @@
       "away": "Le Mans",
       "kickoff": "2026-11-22T19:45:00",
       "status": "live",
-      "home_goals": 0,
-      "away_goals": 0
-    },
-    {
-      "fixture_key": "brasileirao|巴拉纳竞技|瑞模贝雷|2026-11-22",
-      "competition": "brasileirao",
-      "home": "巴拉纳竞技",
-      "away": "瑞模贝雷",
-      "kickoff": "2026-11-22T19:00:00",
-      "status": "live",
       "home_goals": 2,
-      "away_goals": 0
-    },
-    {
-      "fixture_key": "argentina|罗萨里奥中央|gimnasia|2026-11-22",
-      "competition": "argentina",
-      "home": "罗萨里奥中央",
-      "away": "Gimnasia (Mendoza)",
-      "kickoff": "2026-11-22T19:00:00",
-      "status": "live",
-      "home_goals": 3,
       "away_goals": 0
     }
   ]
