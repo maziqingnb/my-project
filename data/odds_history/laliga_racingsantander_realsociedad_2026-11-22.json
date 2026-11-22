@@ -396,6 +396,21 @@
     "away": "Real Sociedad",
     "kickoff": "2026-11-22T15:15:00",
     "bookmaker": "crown",
+    "ts": "2026-11-21T15:15:00+00:00",
+    "handicap_line": 0.25,
+    "handicap_home": 0.97,
+    "handicap_away": 0.91,
+    "total_line": 3.25,
+    "over": 0.89,
+    "under": 0.97
+  },
+  {
+    "fixture_key": "laliga|racingsantander|realsociedad|2026-11-22",
+    "competition": "laliga",
+    "home": "Racing Santander",
+    "away": "Real Sociedad",
+    "kickoff": "2026-11-22T15:15:00",
+    "bookmaker": "crown",
     "ts": "2026-11-21T16:36:59.920538+00:00",
     "handicap_line": 0.5,
     "handicap_home": 0.85,
@@ -778,5 +793,20 @@
     "total_line": 3.5,
     "over": 1.04,
     "under": 0.85
+  },
+  {
+    "fixture_key": "laliga|racingsantander|realsociedad|2026-11-22",
+    "competition": "laliga",
+    "home": "Racing Santander",
+    "away": "Real Sociedad",
+    "kickoff": "2026-11-22T15:15:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-22T15:13:42.565252+00:00",
+    "handicap_line": 0.25,
+    "handicap_home": 1.04,
+    "handicap_away": 0.85,
+    "total_line": 3.5,
+    "over": 1.01,
+    "under": 0.88
   }
 ]

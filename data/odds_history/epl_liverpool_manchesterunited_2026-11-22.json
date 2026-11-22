@@ -396,6 +396,21 @@
     "away": "Manchester United",
     "kickoff": "2026-11-22T16:30:00",
     "bookmaker": "crown",
+    "ts": "2026-11-21T16:30:00+00:00",
+    "handicap_line": -0.5,
+    "handicap_home": 0.83,
+    "handicap_away": 1.05,
+    "total_line": 3.0,
+    "over": 0.96,
+    "under": 0.9
+  },
+  {
+    "fixture_key": "epl|liverpool|manchesterunited|2026-11-22",
+    "competition": "epl",
+    "home": "Liverpool",
+    "away": "Manchester United",
+    "kickoff": "2026-11-22T16:30:00",
+    "bookmaker": "crown",
     "ts": "2026-11-21T16:37:02.888245+00:00",
     "handicap_line": -0.75,
     "handicap_home": 0.88,
@@ -778,5 +793,20 @@
     "total_line": 3.0,
     "over": 0.84,
     "under": 1.05
+  },
+  {
+    "fixture_key": "epl|liverpool|manchesterunited|2026-11-22",
+    "competition": "epl",
+    "home": "Liverpool",
+    "away": "Manchester United",
+    "kickoff": "2026-11-22T16:30:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-22T15:13:42.741206+00:00",
+    "handicap_line": -0.75,
+    "handicap_home": 0.98,
+    "handicap_away": 0.91,
+    "total_line": 3.25,
+    "over": 1.01,
+    "under": 0.88
   }
 ]
