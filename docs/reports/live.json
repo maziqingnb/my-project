@@ -1,6 +1,16 @@
 {
-  "generated_at": "2026-11-22T13:38:15.828233+00:00",
+  "generated_at": "2026-11-22T14:31:07.978440+00:00",
   "matches": [
+    {
+      "fixture_key": "epl|hullcity|brighton|2026-11-22",
+      "competition": "epl",
+      "home": "Hull City",
+      "away": "Brighton",
+      "kickoff": "2026-11-22T14:00:00",
+      "status": "live",
+      "home_goals": 0,
+      "away_goals": 0
+    },
     {
       "fixture_key": "laliga|barcelona|villarreal|2026-11-22",
       "competition": "laliga",
@@ -8,8 +18,48 @@
       "away": "Villarreal",
       "kickoff": "2026-11-22T13:00:00",
       "status": "live",
-      "home_goals": 0,
+      "home_goals": 2,
       "away_goals": 2
+    },
+    {
+      "fixture_key": "seriea|bologna|udinese|2026-11-22",
+      "competition": "seriea",
+      "home": "Bologna",
+      "away": "Udinese",
+      "kickoff": "2026-11-22T14:00:00",
+      "status": "live",
+      "home_goals": 0,
+      "away_goals": 0
+    },
+    {
+      "fixture_key": "seriea|sassuolo|genoa|2026-11-22",
+      "competition": "seriea",
+      "home": "Sassuolo",
+      "away": "Genoa",
+      "kickoff": "2026-11-22T14:00:00",
+      "status": "live",
+      "home_goals": 0,
+      "away_goals": 1
+    },
+    {
+      "fixture_key": "bundesliga|augsburg|mainz|2026-11-22",
+      "competition": "bundesliga",
+      "home": "Augsburg",
+      "away": "Mainz",
+      "kickoff": "2026-11-22T14:30:00",
+      "status": "live",
+      "home_goals": 0,
+      "away_goals": 0
+    },
+    {
+      "fixture_key": "ligue1|parisfc|angers|2026-11-22",
+      "competition": "ligue1",
+      "home": "Paris FC",
+      "away": "Angers",
+      "kickoff": "2026-11-22T14:00:00",
+      "status": "live",
+      "home_goals": 0,
+      "away_goals": 0
     },
     {
       "fixture_key": "rpl|dynamomakhachkala|spartakmoscow|2026-11-22",
@@ -19,7 +69,7 @@
       "kickoff": "2026-11-22T13:30:00",
       "status": "live",
       "home_goals": 0,
-      "away_goals": 0
+      "away_goals": 1
     },
     {
       "fixture_key": "superlig|kasimpasa|alanyaspor|2026-11-22",
@@ -29,7 +79,7 @@
       "kickoff": "2026-11-22T13:00:00",
       "status": "live",
       "home_goals": 1,
-      "away_goals": 0
+      "away_goals": 1
     },
     {
       "fixture_key": "superlig|konyaspor|besiktas|2026-11-22",
@@ -38,8 +88,18 @@
       "away": "Besiktas",
       "kickoff": "2026-11-22T13:00:00",
       "status": "live",
-      "home_goals": 0,
+      "home_goals": 2,
       "away_goals": 2
+    },
+    {
+      "fixture_key": "greeksl|levadiakos|atromitos|2026-11-22",
+      "competition": "greeksl",
+      "home": "Levadiakos",
+      "away": "Atromitos",
+      "kickoff": "2026-11-22T14:00:00",
+      "status": "live",
+      "home_goals": 1,
+      "away_goals": 0
     },
     {
       "fixture_key": "denmark|achorsens|silkeborgif|2026-11-22",
@@ -48,7 +108,7 @@
       "away": "Silkeborg IF",
       "kickoff": "2026-11-22T13:00:00",
       "status": "live",
-      "home_goals": 1,
+      "home_goals": 2,
       "away_goals": 0
     },
     {
@@ -68,7 +128,7 @@
       "away": "IF Elfsborg",
       "kickoff": "2026-11-22T13:00:00",
       "status": "live",
-      "home_goals": 1,
+      "home_goals": 2,
       "away_goals": 1
     },
     {
@@ -77,6 +137,16 @@
       "home": "IK Sirius",
       "away": "Djurgården",
       "kickoff": "2026-11-22T13:00:00",
+      "status": "live",
+      "home_goals": 1,
+      "away_goals": 0
+    },
+    {
+      "fixture_key": "poland|gks卡托威斯|波兹南莱赫|2026-11-22",
+      "competition": "poland",
+      "home": "GKS卡托威斯",
+      "away": "波兹南莱赫",
+      "kickoff": "2026-11-22T13:45:00",
       "status": "live",
       "home_goals": 0,
       "away_goals": 0
