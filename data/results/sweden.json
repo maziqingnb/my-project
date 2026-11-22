@@ -46,6 +46,17 @@
   {
     "competition": "sweden",
     "cls": "league",
+    "home": "哥德堡盖斯",
+    "away": "韦斯特罗斯",
+    "home_goals": 3,
+    "away_goals": 1,
+    "date": "2026-11-21",
+    "handicap_line": null,
+    "total_line": null
+  },
+  {
+    "competition": "sweden",
+    "cls": "league",
     "home": "米亚尔比",
     "away": "马尔默",
     "home_goals": 1,

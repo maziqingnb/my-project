@@ -1,16 +1,6 @@
 {
-  "generated_at": "2026-11-21T18:29:51.535886+00:00",
+  "generated_at": "2026-11-22T00:33:47.142693+00:00",
   "matches": [
-    {
-      "fixture_key": "nba|newyorkknicks|portlandtrailblazers|2026-11-22",
-      "competition": "nba",
-      "competition_name": "NBA 美国职业篮球联赛",
-      "competition_class": "league",
-      "sport": "basketball",
-      "home": "New York Knicks",
-      "away": "Portland Trail Blazers",
-      "kickoff": "2026-11-22T00:30:00"
-    },
     {
       "fixture_key": "nba|minnesotatimberwolves|memphisgrizzlies|2026-11-22",
       "competition": "nba",
@@ -2310,6 +2300,26 @@
       "home": "费城联合",
       "away": "新英格兰革命",
       "kickoff": "2026-11-28T21:30:00"
+    },
+    {
+      "fixture_key": "nba|washingtonwizards|orlandomagic|2026-11-28",
+      "competition": "nba",
+      "competition_name": "NBA 美国职业篮球联赛",
+      "competition_class": "league",
+      "sport": "basketball",
+      "home": "Washington Wizards",
+      "away": "Orlando Magic",
+      "kickoff": "2026-11-28T22:00:00"
+    },
+    {
+      "fixture_key": "nba|charlottehornets|brooklynnets|2026-11-28",
+      "competition": "nba",
+      "competition_name": "NBA 美国职业篮球联赛",
+      "competition_class": "league",
+      "sport": "basketball",
+      "home": "Charlotte Hornets",
+      "away": "Brooklyn Nets",
+      "kickoff": "2026-11-28T23:00:00"
     },
     {
       "fixture_key": "mls|辛辛那提|纳什威尔sc|2026-11-28",
