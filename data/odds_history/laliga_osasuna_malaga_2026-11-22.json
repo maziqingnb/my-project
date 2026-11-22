@@ -306,6 +306,21 @@
     "away": "Malaga",
     "kickoff": "2026-11-22T17:30:00",
     "bookmaker": "crown",
+    "ts": "2026-11-21T17:30:00+00:00",
+    "handicap_line": -0.75,
+    "handicap_home": 1.02,
+    "handicap_away": 0.86,
+    "total_line": 2.5,
+    "over": 0.92,
+    "under": 0.94
+  },
+  {
+    "fixture_key": "laliga|osasuna|malaga|2026-11-22",
+    "competition": "laliga",
+    "home": "Osasuna",
+    "away": "Malaga",
+    "kickoff": "2026-11-22T17:30:00",
+    "bookmaker": "crown",
     "ts": "2026-11-21T17:33:54.087146+00:00",
     "handicap_line": -0.5,
     "handicap_home": 0.82,
@@ -568,5 +583,20 @@
     "total_line": 2.5,
     "over": 1.05,
     "under": 0.83
+  },
+  {
+    "fixture_key": "laliga|osasuna|malaga|2026-11-22",
+    "competition": "laliga",
+    "home": "Osasuna",
+    "away": "Malaga",
+    "kickoff": "2026-11-22T17:30:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-22T09:12:41.640468+00:00",
+    "handicap_line": -0.5,
+    "handicap_home": 0.85,
+    "handicap_away": 1.04,
+    "total_line": 2.5,
+    "over": 1.02,
+    "under": 0.86
   }
 ]
