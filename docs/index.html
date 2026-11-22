@@ -64,6 +64,17 @@
   .tablewrap { overflow-x: auto; }
   .spark { display: block; }
 
+  /* 主动分析 */
+  .team-picks { display: flex; flex-wrap: wrap; gap: 8px; }
+  .team-pick { padding: 6px 12px; border: 1px solid var(--border); border-radius: 8px;
+    background: var(--card); color: var(--ink); font-size: 13px; cursor: pointer; font-family: inherit; }
+  .team-pick:hover { border-color: var(--accent); color: var(--accent); }
+  .team-match { background: var(--card); border: 1px solid var(--border); border-radius: 10px;
+    padding: 12px 14px; margin-bottom: 10px; }
+  .team-match .head { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; font-weight: 600; }
+  .team-mkt { background: var(--bg); border: 1px solid var(--border); border-radius: 8px; padding: 10px 12px; margin-top: 8px; }
+  .team-mkt .row { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; margin: 4px 0; }
+
   /* 进行中比赛 */
   .live-list { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 10px; }
   .live-card { background: var(--card); border: 1px solid var(--border); border-radius: 10px; padding: 12px 14px; }
@@ -104,6 +115,7 @@
     <button class="tab active" id="tab-rec" onclick="switchTab('rec')">⚽ 推荐</button>
     <button class="tab" id="tab-bball" onclick="switchTab('bball')">🏀 篮球</button>
     <button class="tab" id="tab-schedule" onclick="switchTab('schedule')">📅 赛程</button>
+    <button class="tab" id="tab-team" onclick="switchTab('team')">🔍 主动分析</button>
     <button class="tab" id="tab-history" onclick="switchTab('history')">📜 历史</button>
   </div>
   <div class="meta" id="meta">加载中…</div>
@@ -116,6 +128,16 @@
   </div>
   <div id="live" class="tab-panel" data-tab="rec"></div>
   <div id="schedule" class="tab-panel" data-tab="schedule"></div>
+  <div id="team" class="tab-panel" data-tab="team">
+    <section>
+      <h2>🔍 主动分析 <span class="tag league">按球队</span></h2>
+      <div class="filters" style="margin-bottom:12px">
+        <input id="teamSearch" placeholder="输入球队名（中/英），如 阿森纳 / Arsenal …" list="teamList" autocomplete="off" oninput="renderTeamAnalysis()">
+        <datalist id="teamList"></datalist>
+      </div>
+      <div id="teamResult"></div>
+    </section>
+  </div>
   <div id="history" class="tab-panel" data-tab="history"></div>
   <div id="stats" class="tab-panel" data-tab="rec"></div>
   <div id="content" class="tab-panel" data-tab="rec"></div>
@@ -525,9 +547,95 @@ function renderRecommendationView() {
 
 function applyFilters() { renderRecommendationView(); }
 
+// ---------------------------------------------------------------- 主动分析
+const teamMarketLabel = (m, sport) =>
+  sport === "basketball" ? (m === "handicap" ? "让分" : "总分") : (m === "handicap" ? "亚盘" : "大小球");
+
+function teamMarketCard(rec, sport, title) {
+  if (!rec) return `<div class="team-mkt"><span class="market">${title}：暂无盘口数据</span></div>`;
+  return `<div class="team-mkt">
+    <div class="row">
+      <span class="badge ${rec.confidence}">${CONF[rec.confidence]}</span>
+      <strong>${title}</strong>
+      <span>${rec.pick}</span>
+      <span class="market">系数 ${rec.score}</span>
+      <span class="bar" style="width:110px"><i style="width:${Math.min(rec.score, 100)}%"></i></span>
+      ${sparkline(rec)}
+    </div>
+    <ul class="reasons">${(rec.reasons || []).map(x => `<li>${x}</li>`).join("")}</ul>
+  </div>`;
+}
+
+function teamMatchCard(m) {
+  const sport = m.sport || "football";
+  const cls = m.competition_class === "cup" ? "cup" : "league";
+  const dayLabel = m.date === (teamData && teamData.date_today) ? "今天" : m.date;
+  const hm = bjDayTime(m.kickoff).hm;
+  return `<div class="team-match">
+    <div class="head">
+      <strong>${teamName(m.home)}</strong> <span class="market">vs</span> <strong>${teamName(m.away)}</strong>
+      <span class="tag ${cls}">${COMP[m.competition] || m.competition}</span>
+      <span class="market">${dayLabel} ${hm}（北京）</span>
+    </div>
+    ${teamMarketCard(m.handicap, sport, teamMarketLabel("handicap", sport))}
+    ${teamMarketCard(m.totals, sport, teamMarketLabel("totals", sport))}
+  </div>`;
+}
+
+function pickTeam(key) {
+  const b = (teamData && teamData.teams || []).find(x => x.key === key);
+  if (!b) return;
+  document.getElementById("teamSearch").value = (b.names && b.names[0]) || b.key;
+  renderTeamAnalysis();
+}
+
+function renderTeamAnalysis() {
+  const box = document.getElementById("teamResult");
+  if (!box) return;
+  if (!teamData || !teamData.teams) {
+    box.innerHTML = `<div class="empty">暂无主动分析数据。请先在 Actions 里跑一次同步与分析（python src/main.py analyze），或本地生成 docs/reports/team_analysis.json。</div>`;
+    return;
+  }
+  const q = (document.getElementById("teamSearch").value || "").trim().toLowerCase();
+  if (!q) {
+    const picks = teamData.teams.map(b =>
+      `<button class="team-pick" onclick="pickTeam('${b.key}')">${teamName((b.names && b.names[0]) || b.key)}</button>`).join("");
+    box.innerHTML = `<div class="market" style="margin-bottom:12px">共 ${teamData.teams.length} 支球队 · 输入队名（中/英）或点击下方球队，查看它当天/近期的比赛分析、盘口走势与推荐理由。</div>
+      <div class="team-picks">${picks}</div>`;
+    return;
+  }
+  const matched = teamData.teams.filter(b => {
+    if (b.key.includes(q)) return true;
+    if ((b.names || []).some(n => String(n).toLowerCase().includes(q))) return true;
+    return (b.matches || []).some(m =>
+      String(m.home).toLowerCase().includes(q) || String(m.away).toLowerCase().includes(q));
+  });
+  if (!matched.length) {
+    box.innerHTML = `<div class="empty">没找到「${q}」相关的球队。试试英文名，或清空后从球队列表里选择。</div>`;
+    return;
+  }
+  box.innerHTML = matched.map(b => {
+    const names = (b.names || []);
+    const alias = names.length > 1 ? `<span class="market">${names.slice(1).join(" / ")}</span>` : "";
+    const matches = (b.matches || []).map(teamMatchCard).join("")
+      || `<div class="empty">该队未来 7 天内没有进入分析窗口的比赛。</div>`;
+    return `<section><h2>${teamName(names[0] || b.key)} ${alias}</h2>${matches}</section>`;
+  }).join("");
+}
+
+function populateTeamList() {
+  const dl = document.getElementById("teamList");
+  if (!dl) return;
+  if (!teamData || !teamData.teams) { dl.innerHTML = ""; return; }
+  const opts = new Set();
+  teamData.teams.forEach(b => (b.names || []).forEach(n => opts.add(n)));
+  dl.innerHTML = [...opts].map(n => `<option value="${n}">`).join("");
+}
+
 switchTab("rec");        // 默认显示「推荐」，赛程在单独标签页
 
 let latestData = null;   // 缓存 latest.json，供「进行中」板块交叉引用推荐
+let teamData = null;     // 缓存 team_analysis.json，供「主动分析」页读取
 
 // 版本化缓存键：按秒级窗口分桶，CDN 在该窗口内共享缓存（更快），窗口过后才拿新数据。
 // 配合 _headers 的 Cache-Control（live 15s / latest 30s / 其余 300s），既快又不失新鲜。
@@ -546,9 +654,11 @@ function loadAll() {
     fetch(bust("./reports/history.json", 300)).then(r => r.ok ? r.json() : null).catch(() => null),
     fetch(bust("./reports/live.json", 15)).then(r => r.ok ? r.json() : null).catch(() => null),
     fetch(bust("./reports/review.json", 300)).then(r => r.ok ? r.json() : null).catch(() => null),
-    fetch(bust("./reports/schedule.json", 300)).then(r => r.ok ? r.json() : null).catch(() => null)
-  ]).then(([d, hist, live, review, schedule]) => {
+    fetch(bust("./reports/schedule.json", 300)).then(r => r.ok ? r.json() : null).catch(() => null),
+    fetch(bust("./reports/team_analysis.json", 300)).then(r => r.ok ? r.json() : null).catch(() => null)
+  ]).then(([d, hist, live, review, schedule, team]) => {
     latestData = d;
+    teamData = team;
     const picks = (d.recommendations || []).filter(r => r.confidence === "strong");
     const nPrematch = picks.filter(r => r.prematch === true).length;
     document.getElementById("meta").textContent =
@@ -562,6 +672,8 @@ function loadAll() {
     renderHistory(hist);
     populateLeagueFilter();
     renderRecommendationView();
+    populateTeamList();
+    renderTeamAnalysis();
   });
 }
 

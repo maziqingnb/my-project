@@ -7,6 +7,7 @@
   python src/main.py analyze --demo        # 演示模式：用内置样例数据跑通全流程
   python src/main.py live                  # 同步进行中比分 + 今日结果并实时结算命中
   python src/main.py review --notify       # 生成/推送每日未命中复盘
+  python src/main.py team                  # 生成按球队的当天/近期比赛主动分析（看板「主动分析」页）
 """
 from __future__ import annotations
 
@@ -177,6 +178,9 @@ def do_analyze(cfg: dict, demo: bool = False) -> dict:
     if not demo:
         from src.output.review import build_daily_review
         build_daily_review()
+    # 主动分析：按球队汇总当天/近期比赛（亚盘+大小球双视角），供看板「主动分析」页读取
+    from src.analysis.team import build_team_analysis
+    build_team_analysis(cfg, results_by_comp, odds_by_comp)
     return report
 
 
@@ -208,6 +212,8 @@ def main() -> None:
     lg = sub.add_parser("leagues", help="发现球探网联赛 ID（给 config.yaml 植入新联赛用）")
     lg.add_argument("keyword", nargs="?", default=None, help="按联赛名关键字过滤，如「欧联」「亚冠」「NBA」")
     lg.add_argument("--date", default=None, help="抓取日期（默认今天；杯赛要在其比赛日查）")
+
+    tp = sub.add_parser("team", help="生成按球队的当天/近期比赛主动分析（docs/reports/team_analysis.json）")
 
     args = parser.parse_args()
     cfg = C.load_config()
@@ -263,6 +269,14 @@ def main() -> None:
             notified_path = C.DATA_DIR / "prematch_notified.json"
             push_report(report, prematch_hours=args.prematch_hours,
                         notified_path=str(notified_path) if args.prematch_hours is not None else None)
+    elif args.cmd == "team":
+        results_by_comp = load_results(cfg)
+        odds_by_comp = load_odds_history()
+        from src.analysis.team import build_team_analysis
+        doc = build_team_analysis(cfg, results_by_comp, odds_by_comp)
+        n_matches = sum(len(b["matches"]) for b in doc["teams"])
+        print(f"\n主动分析完成：{len(doc['teams'])} 支球队、{n_matches} 场比赛，"
+              f"见 docs/reports/team_analysis.json")
     elif args.cmd == "leagues":
         win = _win007_client(cfg, cfg.get("scrapers") or {}, cfg.get("team_name_map") or {})
         try:
