@@ -321,6 +321,21 @@
     "away": "Fiorentina",
     "kickoff": "2026-11-23T19:45:00",
     "bookmaker": "crown",
+    "ts": "2026-11-22T19:45:00+00:00",
+    "handicap_line": 0.25,
+    "handicap_home": 1.03,
+    "handicap_away": 0.85,
+    "total_line": 3.0,
+    "over": 1.01,
+    "under": 0.85
+  },
+  {
+    "fixture_key": "seriea|monza|fiorentina|2026-11-23",
+    "competition": "seriea",
+    "home": "Monza",
+    "away": "Fiorentina",
+    "kickoff": "2026-11-23T19:45:00",
+    "bookmaker": "crown",
     "ts": "2026-11-22T20:14:13.365420+00:00",
     "handicap_line": 0.5,
     "handicap_home": 0.93,
@@ -478,5 +493,20 @@
     "total_line": 3.0,
     "over": 1.0,
     "under": 0.88
+  },
+  {
+    "fixture_key": "seriea|monza|fiorentina|2026-11-23",
+    "competition": "seriea",
+    "home": "Monza",
+    "away": "Fiorentina",
+    "kickoff": "2026-11-23T19:45:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-23T07:07:42.263346+00:00",
+    "handicap_line": 0.5,
+    "handicap_home": 0.88,
+    "handicap_away": 1.01,
+    "total_line": 3.0,
+    "over": 0.96,
+    "under": 0.92
   }
 ]
