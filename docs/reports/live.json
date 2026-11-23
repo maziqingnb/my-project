@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-23T20:37:02.892028+00:00",
+  "generated_at": "2026-11-23T21:30:37.264632+00:00",
   "matches": [
     {
       "fixture_key": "epl|brentford|everton|2026-11-23",
@@ -19,7 +19,7 @@
       "kickoff": "2026-11-23T20:00:00",
       "status": "live",
       "home_goals": 0,
-      "away_goals": 0
+      "away_goals": 1
     },
     {
       "fixture_key": "seriea|monza|fiorentina|2026-11-23",
@@ -28,7 +28,7 @@
       "away": "Fiorentina",
       "kickoff": "2026-11-23T19:45:00",
       "status": "live",
-      "home_goals": 1,
+      "home_goals": 3,
       "away_goals": 0
     },
     {
@@ -39,7 +39,7 @@
       "kickoff": "2026-11-23T20:00:00",
       "status": "live",
       "home_goals": 1,
-      "away_goals": 0
+      "away_goals": 1
     }
   ]
 }
