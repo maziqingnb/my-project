@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-11-23T00:03:18.116884+00:00",
+  "generated_at": "2026-11-23T01:13:47.036875+00:00",
   "matches": [
     {
-      "fixture_key": "brasileirao|布拉干蒂诺rb|瓦斯科达伽马|2026-11-22",
-      "competition": "brasileirao",
-      "home": "布拉干蒂诺RB",
-      "away": "瓦斯科达伽马",
-      "kickoff": "2026-11-22T22:30:00",
+      "fixture_key": "argentina|科尔多瓦学院|飓风队|2026-11-23",
+      "competition": "argentina",
+      "home": "科尔多瓦学院",
+      "away": "飓风队",
+      "kickoff": "2026-11-23T01:00:00",
       "status": "live",
       "home_goals": 1,
       "away_goals": 0
@@ -18,8 +18,8 @@
       "away": "夏洛特FC",
       "kickoff": "2026-11-22T23:30:00",
       "status": "live",
-      "home_goals": 0,
-      "away_goals": 0
+      "home_goals": 1,
+      "away_goals": 1
     }
   ]
 }
