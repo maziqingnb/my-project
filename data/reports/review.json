@@ -1,7 +1,54 @@
 {
-  "generated_at": "2026-11-23T17:52:06.329647+00:00",
-  "total_missed": 50,
+  "generated_at": "2026-11-23T18:41:13.289550+00:00",
+  "total_missed": 51,
   "days": [
+    {
+      "date": "2026-11-24",
+      "missed": 1,
+      "items": [
+        {
+          "competition": "afc_cl",
+          "home": "艾因",
+          "away": "德黑兰独立",
+          "kickoff": "2026-11-23T16:00:00",
+          "market": "handicap",
+          "sport": "football",
+          "pick": "主队（让 1）",
+          "side": "home",
+          "line": -1.0,
+          "score": 72.2,
+          "confidence": "strong",
+          "outcome": "loss",
+          "outcome_cn": "没中",
+          "home_goals": 1,
+          "away_goals": 1,
+          "book": "盘口 主让1 → 主让1，水位 主0.93/0.89 → 主0.74/1.08",
+          "diagnosis": [
+            "盘口 主让1 → 主让1，水位 主0.93/0.89 → 主0.74/1.08",
+            "最终 1-1，推荐侧相对盘口 -1.00 球（未打穿）"
+          ],
+          "note": "主队（让 1） · 最终 1-1（主队净胜 0），未打穿",
+          "signals": {
+            "line_desc": "盘口不变",
+            "water_desc": "主队降水 0.93->0.74",
+            "line_first": -1.0,
+            "line_last": -1.0,
+            "home_water_first": 0.93,
+            "home_water_last": 0.74,
+            "away_water_first": 0.89,
+            "away_water_last": 1.08,
+            "conflict": false
+          },
+          "reasons": [
+            "亚盘 盘口不变",
+            "主队降水 0.93->0.74",
+            "主队近4场 4胜0平0负，场均进3.5/失0.8",
+            "客队近4场 3胜0平1负，场均进1.5/失0.8",
+            "交手0次：主队0胜0平0负"
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-11-23",
       "missed": 1,
