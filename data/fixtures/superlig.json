@@ -1,15 +1,5 @@
 [
   {
-    "key": "superlig|伊斯坦布尔巴萨克塞尔|科鲁姆|2026-11-23",
-    "competition": "superlig",
-    "home": "伊斯坦布尔巴萨克塞尔",
-    "away": "科鲁姆",
-    "kickoff": "2026-11-23T17:00:00",
-    "status": "upcoming",
-    "home_goals": null,
-    "away_goals": null
-  },
-  {
     "key": "superlig|阿拉尼亚体育|科尼亚体育|2026-11-27",
     "competition": "superlig",
     "home": "阿拉尼亚体育",
@@ -75,6 +65,26 @@
     "home": "费内巴切",
     "away": "埃尔祖鲁姆体育",
     "kickoff": "2026-11-29T16:00:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "superlig|哥兹塔比|特拉布宗体育|2026-11-30",
+    "competition": "superlig",
+    "home": "哥兹塔比",
+    "away": "特拉布宗体育",
+    "kickoff": "2026-11-30T16:00:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "superlig|贝西克塔斯|加拉塔萨雷|2026-11-30",
+    "competition": "superlig",
+    "home": "贝西克塔斯",
+    "away": "加拉塔萨雷",
+    "kickoff": "2026-11-30T18:00:00",
     "status": "upcoming",
     "home_goals": null,
     "away_goals": null

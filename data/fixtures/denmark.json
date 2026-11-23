@@ -1,15 +1,5 @@
 [
   {
-    "key": "denmark|布隆德比|中日德兰|2026-11-23",
-    "competition": "denmark",
-    "home": "布隆德比",
-    "away": "中日德兰",
-    "kickoff": "2026-11-23T18:00:00",
-    "status": "upcoming",
-    "home_goals": null,
-    "away_goals": null
-  },
-  {
     "key": "denmark|桑德捷斯基|布隆德比|2026-11-27",
     "competition": "denmark",
     "home": "桑德捷斯基",
@@ -55,6 +45,16 @@
     "home": "锡尔克堡",
     "away": "奥胡斯",
     "kickoff": "2026-11-29T17:00:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "denmark|欧登塞|北西兰|2026-11-30",
+    "competition": "denmark",
+    "home": "欧登塞",
+    "away": "北西兰",
+    "kickoff": "2026-11-30T18:00:00",
     "status": "upcoming",
     "home_goals": null,
     "away_goals": null

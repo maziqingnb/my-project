@@ -68,5 +68,25 @@
     "status": "upcoming",
     "home_goals": null,
     "away_goals": null
+  },
+  {
+    "key": "primeira|本菲卡|法马利康|2026-11-30",
+    "competition": "primeira",
+    "home": "本菲卡",
+    "away": "法马利康",
+    "kickoff": "2026-11-30T20:15:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "primeira|卡萨比亚|布拉加|2026-11-30",
+    "competition": "primeira",
+    "home": "卡萨比亚",
+    "away": "布拉加",
+    "kickoff": "2026-11-30T20:15:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
   }
 ]

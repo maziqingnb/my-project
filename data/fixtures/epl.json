@@ -1,15 +1,5 @@
 [
   {
-    "key": "epl|brentford|everton|2026-11-23",
-    "competition": "epl",
-    "home": "Brentford",
-    "away": "Everton",
-    "kickoff": "2026-11-23T20:00:00",
-    "status": "upcoming",
-    "home_goals": null,
-    "away_goals": null
-  },
-  {
     "key": "epl|nottinghamforest|chelsea|2026-11-27",
     "competition": "epl",
     "home": "Nottingham Forest",

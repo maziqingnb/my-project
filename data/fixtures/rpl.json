@@ -68,5 +68,15 @@
     "status": "upcoming",
     "home_goals": null,
     "away_goals": null
+  },
+  {
+    "key": "rpl|沃罗涅日火炬|莫斯科斯巴达|2026-11-30",
+    "competition": "rpl",
+    "home": "沃罗涅日火炬",
+    "away": "莫斯科斯巴达",
+    "kickoff": "2026-11-30T16:30:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
   }
 ]

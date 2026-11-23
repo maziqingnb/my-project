@@ -1,15 +1,5 @@
 [
   {
-    "key": "laliga|levante|elche|2026-11-23",
-    "competition": "laliga",
-    "home": "Levante",
-    "away": "Elche",
-    "kickoff": "2026-11-23T20:00:00",
-    "status": "upcoming",
-    "home_goals": null,
-    "away_goals": null
-  },
-  {
     "key": "laliga|levante|racingsantander|2026-11-27",
     "competition": "laliga",
     "home": "Levante",
@@ -95,6 +85,16 @@
     "home": "Real Sociedad",
     "away": "Sevilla",
     "kickoff": "2026-11-29T20:00:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "laliga|espanyol|getafe|2026-11-30",
+    "competition": "laliga",
+    "home": "Espanyol",
+    "away": "Getafe",
+    "kickoff": "2026-11-30T20:00:00",
     "status": "upcoming",
     "home_goals": null,
     "away_goals": null
