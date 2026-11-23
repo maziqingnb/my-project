@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-23T12:55:43.186119+00:00",
+  "generated_at": "2026-11-23T12:59:08.700996+00:00",
   "scope": "16 个联赛 + 5 个杯赛",
   "note": "杯赛与联赛数据分开计算；仅开赛前 6h 内出推荐；命中率只统计强推",
   "total": 2,
@@ -500,6 +500,12 @@
           "handicap_away": 1.0
         },
         {
+          "ts": "2026-11-22T18:00:00+00:00",
+          "handicap_line": 0.0,
+          "handicap_home": 0.82,
+          "handicap_away": 1.0
+        },
+        {
           "ts": "2026-11-22T18:06:39.438091+00:00",
           "handicap_line": 0.0,
           "handicap_home": 0.72,
@@ -618,13 +624,19 @@
           "handicap_line": 0.0,
           "handicap_home": 1.05,
           "handicap_away": 0.83
+        },
+        {
+          "ts": "2026-11-23T12:59:00.217114+00:00",
+          "handicap_line": 0.0,
+          "handicap_home": 1.05,
+          "handicap_away": 0.83
         }
       ],
       "reliability": 1.0,
       "competition_name": "波兰超级联赛",
       "competition_class": "league",
       "sport": "football",
-      "lead_hours": 5.072392230277778,
+      "lead_hours": 5.016606357222223,
       "prematch": false,
       "result": {
         "settled": false
@@ -661,6 +673,12 @@
         "conflict": false
       },
       "history": [
+        {
+          "ts": "2026-11-22T16:00:00+00:00",
+          "handicap_line": 0.25,
+          "handicap_home": 0.85,
+          "handicap_away": 0.97
+        },
         {
           "ts": "2026-11-22T16:00:00+00:00",
           "handicap_line": 0.25,
@@ -924,13 +942,19 @@
           "handicap_line": 0.5,
           "handicap_home": 0.96,
           "handicap_away": 0.86
+        },
+        {
+          "ts": "2026-11-23T12:59:04.300224+00:00",
+          "handicap_line": 0.5,
+          "handicap_home": 0.96,
+          "handicap_away": 0.86
         }
       ],
       "reliability": 1.0,
       "competition_name": "亚冠精英",
       "competition_class": "cup",
       "sport": "football",
-      "lead_hours": 3.072602780277778,
+      "lead_hours": 3.01547216,
       "prematch": false,
       "result": {
         "settled": false
