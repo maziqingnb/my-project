@@ -426,6 +426,21 @@
     "away": "维多利亚",
     "kickoff": "2026-11-23T22:30:00",
     "bookmaker": "crown",
+    "ts": "2026-11-22T22:30:00+00:00",
+    "handicap_line": -1.0,
+    "handicap_home": 1.01,
+    "handicap_away": 0.87,
+    "total_line": 2.75,
+    "over": 1.01,
+    "under": 0.86
+  },
+  {
+    "fixture_key": "brasileirao|巴西国际|维多利亚|2026-11-23",
+    "competition": "brasileirao",
+    "home": "巴西国际",
+    "away": "维多利亚",
+    "kickoff": "2026-11-23T22:30:00",
+    "bookmaker": "crown",
     "ts": "2026-11-22T23:11:29.660118+00:00",
     "handicap_line": -0.75,
     "handicap_home": 0.89,
@@ -598,5 +613,20 @@
     "total_line": 2.5,
     "over": 0.97,
     "under": 0.9
+  },
+  {
+    "fixture_key": "brasileirao|巴西国际|维多利亚|2026-11-23",
+    "competition": "brasileirao",
+    "home": "巴西国际",
+    "away": "维多利亚",
+    "kickoff": "2026-11-23T22:30:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-23T11:50:13.820059+00:00",
+    "handicap_line": -0.75,
+    "handicap_home": 0.88,
+    "handicap_away": 1.01,
+    "total_line": 2.5,
+    "over": 0.99,
+    "under": 0.88
   }
 ]
