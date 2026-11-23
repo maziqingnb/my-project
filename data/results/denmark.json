@@ -2,6 +2,28 @@
   {
     "competition": "denmark",
     "cls": "league",
+    "home": "Brøndby IF",
+    "away": "FC Midtjylland",
+    "home_goals": 0,
+    "away_goals": 2,
+    "date": "2026-11-23",
+    "handicap_line": null,
+    "total_line": null
+  },
+  {
+    "competition": "denmark",
+    "cls": "league",
+    "home": "布隆德比",
+    "away": "中日德兰",
+    "home_goals": 0,
+    "away_goals": 2,
+    "date": "2026-11-23",
+    "handicap_line": 0.0,
+    "total_line": 3.0
+  },
+  {
+    "competition": "denmark",
+    "cls": "league",
     "home": "AC Horsens",
     "away": "Silkeborg IF",
     "home_goals": 3,

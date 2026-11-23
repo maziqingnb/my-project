@@ -1,11 +1,52 @@
 {
-  "generated_at": "2026-11-23T19:56:09.229072+00:00",
-  "total_missed": 51,
+  "generated_at": "2026-11-23T20:37:06.283320+00:00",
+  "total_missed": 52,
   "days": [
     {
       "date": "2026-11-24",
-      "missed": 1,
+      "missed": 2,
       "items": [
+        {
+          "competition": "poland",
+          "home": "KS莫摩斯",
+          "away": "莫托路宾",
+          "kickoff": "2026-11-23T18:00:00",
+          "market": "handicap",
+          "sport": "football",
+          "pick": "客队（平手盘）",
+          "side": "away",
+          "line": 0.0,
+          "score": 73.9,
+          "confidence": "strong",
+          "outcome": "loss",
+          "outcome_cn": "没中",
+          "home_goals": 2,
+          "away_goals": 1,
+          "book": "盘口 平手 → 平手，水位 主0.72/1.04 → 主1.05/0.83",
+          "diagnosis": [
+            "盘口 平手 → 平手，水位 主0.72/1.04 → 主1.05/0.83",
+            "最终 2-1，推荐侧相对盘口 -1.00 球（未打穿）"
+          ],
+          "note": "客队（平手盘） · 最终 2-1（客队净胜 -1），未打穿",
+          "signals": {
+            "line_desc": "盘口不变",
+            "water_desc": "主队升水 0.72->1.05",
+            "line_first": 0.0,
+            "line_last": 0.0,
+            "home_water_first": 0.72,
+            "home_water_last": 1.05,
+            "away_water_first": 1.04,
+            "away_water_last": 0.83,
+            "conflict": false
+          },
+          "reasons": [
+            "亚盘 盘口不变",
+            "主队升水 0.72->1.05",
+            "主队近5场 0胜0平5负，场均进0.8/失2.2",
+            "客队近5场 4胜1平0负，场均进2.6/失1.8",
+            "交手0次：主队0胜0平0负"
+          ]
+        },
         {
           "competition": "afc_cl",
           "home": "艾因",
