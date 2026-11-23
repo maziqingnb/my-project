@@ -441,6 +441,21 @@
     "away": "Elche",
     "kickoff": "2026-11-23T20:00:00",
     "bookmaker": "crown",
+    "ts": "2026-11-22T20:00:00+00:00",
+    "handicap_line": -0.25,
+    "handicap_home": 0.92,
+    "handicap_away": 0.96,
+    "total_line": 2.75,
+    "over": 1.01,
+    "under": 0.85
+  },
+  {
+    "fixture_key": "laliga|levante|elche|2026-11-23",
+    "competition": "laliga",
+    "home": "Levante",
+    "away": "Elche",
+    "kickoff": "2026-11-23T20:00:00",
+    "bookmaker": "crown",
     "ts": "2026-11-22T20:14:11.440078+00:00",
     "handicap_line": -0.25,
     "handicap_home": 0.94,
@@ -718,5 +733,20 @@
     "total_line": 2.75,
     "over": 0.88,
     "under": 1.0
+  },
+  {
+    "fixture_key": "laliga|levante|elche|2026-11-23",
+    "competition": "laliga",
+    "home": "Levante",
+    "away": "Elche",
+    "kickoff": "2026-11-23T20:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-23T15:35:29.911671+00:00",
+    "handicap_line": -0.25,
+    "handicap_home": 0.88,
+    "handicap_away": 1.01,
+    "total_line": 2.75,
+    "over": 0.82,
+    "under": 1.06
   }
 ]
