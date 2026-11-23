@@ -411,6 +411,21 @@
     "away": "圣保罗",
     "kickoff": "2026-11-23T23:00:00",
     "bookmaker": "crown",
+    "ts": "2026-11-22T23:00:00+00:00",
+    "handicap_line": -0.25,
+    "handicap_home": 0.95,
+    "handicap_away": 0.93,
+    "total_line": 2.5,
+    "over": 0.95,
+    "under": 0.92
+  },
+  {
+    "fixture_key": "brasileirao|博塔弗戈|圣保罗|2026-11-23",
+    "competition": "brasileirao",
+    "home": "博塔弗戈",
+    "away": "圣保罗",
+    "kickoff": "2026-11-23T23:00:00",
+    "bookmaker": "crown",
     "ts": "2026-11-22T23:11:31.027406+00:00",
     "handicap_line": -0.25,
     "handicap_home": 0.95,
@@ -568,5 +583,20 @@
     "total_line": 2.5,
     "over": 0.95,
     "under": 0.92
+  },
+  {
+    "fixture_key": "brasileirao|博塔弗戈|圣保罗|2026-11-23",
+    "competition": "brasileirao",
+    "home": "博塔弗戈",
+    "away": "圣保罗",
+    "kickoff": "2026-11-23T23:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-23T10:57:10.433094+00:00",
+    "handicap_line": -0.25,
+    "handicap_home": 0.94,
+    "handicap_away": 0.95,
+    "total_line": 2.5,
+    "over": 0.97,
+    "under": 0.9
   }
 ]
