@@ -2,6 +2,17 @@
   {
     "competition": "argentina",
     "cls": "league",
+    "home": "河床",
+    "away": "拉努斯",
+    "home_goals": 3,
+    "away_goals": 1,
+    "date": "2026-11-22",
+    "handicap_line": -0.75,
+    "total_line": 2.25
+  },
+  {
+    "competition": "argentina",
+    "cls": "league",
     "home": "罗萨里奥中央",
     "away": "Gimnasia (Mendoza)",
     "home_goals": 3,

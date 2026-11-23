@@ -1,16 +1,6 @@
 {
-  "generated_at": "2026-11-22T23:24:22.796469+00:00",
+  "generated_at": "2026-11-23T00:03:18.116884+00:00",
   "matches": [
-    {
-      "fixture_key": "brasileirao|弗鲁米嫩塞|米拉索|2026-11-22",
-      "competition": "brasileirao",
-      "home": "弗鲁米嫩塞",
-      "away": "米拉索",
-      "kickoff": "2026-11-22T21:30:00",
-      "status": "live",
-      "home_goals": 0,
-      "away_goals": 0
-    },
     {
       "fixture_key": "brasileirao|布拉干蒂诺rb|瓦斯科达伽马|2026-11-22",
       "competition": "brasileirao",
@@ -18,28 +8,18 @@
       "away": "瓦斯科达伽马",
       "kickoff": "2026-11-22T22:30:00",
       "status": "live",
-      "home_goals": 0,
+      "home_goals": 1,
       "away_goals": 0
     },
     {
-      "fixture_key": "argentina|河床|拉努斯|2026-11-22",
-      "competition": "argentina",
-      "home": "河床",
-      "away": "拉努斯",
-      "kickoff": "2026-11-22T22:00:00",
-      "status": "live",
-      "home_goals": 1,
-      "away_goals": 1
-    },
-    {
-      "fixture_key": "mls|纳什威尔sc|fccincinnati|2026-11-22",
+      "fixture_key": "mls|芝加哥火焰|夏洛特fc|2026-11-22",
       "competition": "mls",
-      "home": "纳什威尔SC",
-      "away": "FC Cincinnati",
-      "kickoff": "2026-11-22T21:00:00",
+      "home": "芝加哥火焰",
+      "away": "夏洛特FC",
+      "kickoff": "2026-11-22T23:30:00",
       "status": "live",
       "home_goals": 0,
-      "away_goals": 1
+      "away_goals": 0
     }
   ]
 }
