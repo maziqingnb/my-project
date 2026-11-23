@@ -276,6 +276,21 @@
     "away": "利雅得新月",
     "kickoff": "2026-11-23T13:45:00",
     "bookmaker": "crown",
+    "ts": "2026-11-22T13:45:00+00:00",
+    "handicap_line": 1.25,
+    "handicap_home": 0.97,
+    "handicap_away": 0.85,
+    "total_line": 3.0,
+    "over": 0.87,
+    "under": 0.93
+  },
+  {
+    "fixture_key": "afc_cl|费尔干纳石油工人|利雅得新月|2026-11-23",
+    "competition": "afc_cl",
+    "home": "费尔干纳石油工人",
+    "away": "利雅得新月",
+    "kickoff": "2026-11-23T13:45:00",
+    "bookmaker": "crown",
     "ts": "2026-11-22T16:13:19.365761+00:00",
     "handicap_line": 1.25,
     "handicap_home": 1.14,
@@ -538,5 +553,20 @@
     "total_line": 3.25,
     "over": 1.02,
     "under": 0.78
+  },
+  {
+    "fixture_key": "afc_cl|费尔干纳石油工人|利雅得新月|2026-11-23",
+    "competition": "afc_cl",
+    "home": "费尔干纳石油工人",
+    "away": "利雅得新月",
+    "kickoff": "2026-11-23T13:45:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-23T09:50:06.952641+00:00",
+    "handicap_line": 1.5,
+    "handicap_home": 0.96,
+    "handicap_away": 0.86,
+    "total_line": 3.25,
+    "over": 0.93,
+    "under": 0.87
   }
 ]
