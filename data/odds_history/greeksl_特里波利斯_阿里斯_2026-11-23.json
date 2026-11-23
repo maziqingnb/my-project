@@ -351,6 +351,21 @@
     "away": "阿里斯",
     "kickoff": "2026-11-23T15:00:00",
     "bookmaker": "crown",
+    "ts": "2026-11-22T15:00:00+00:00",
+    "handicap_line": 0.25,
+    "handicap_home": 0.86,
+    "handicap_away": 0.96,
+    "total_line": 2.25,
+    "over": 0.82,
+    "under": 0.98
+  },
+  {
+    "fixture_key": "greeksl|特里波利斯|阿里斯|2026-11-23",
+    "competition": "greeksl",
+    "home": "特里波利斯",
+    "away": "阿里斯",
+    "kickoff": "2026-11-23T15:00:00",
+    "bookmaker": "crown",
     "ts": "2026-11-22T16:13:17.278930+00:00",
     "handicap_line": 0.25,
     "handicap_home": 0.87,
@@ -688,5 +703,20 @@
     "total_line": 2.0,
     "over": 0.88,
     "under": 0.98
+  },
+  {
+    "fixture_key": "greeksl|特里波利斯|阿里斯|2026-11-23",
+    "competition": "greeksl",
+    "home": "特里波利斯",
+    "away": "阿里斯",
+    "kickoff": "2026-11-23T15:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-23T14:26:26.160503+00:00",
+    "handicap_line": 0.25,
+    "handicap_home": 0.96,
+    "handicap_away": 0.92,
+    "total_line": 2.0,
+    "over": 0.94,
+    "under": 0.92
   }
 ]

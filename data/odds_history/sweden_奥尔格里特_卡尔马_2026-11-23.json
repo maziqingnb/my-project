@@ -381,6 +381,21 @@
     "away": "卡尔马",
     "kickoff": "2026-11-23T18:00:00",
     "bookmaker": "crown",
+    "ts": "2026-11-22T18:00:00+00:00",
+    "handicap_line": 0.25,
+    "handicap_home": 1.01,
+    "handicap_away": 0.87,
+    "total_line": 2.75,
+    "over": 1.01,
+    "under": 0.86
+  },
+  {
+    "fixture_key": "sweden|奥尔格里特|卡尔马|2026-11-23",
+    "competition": "sweden",
+    "home": "奥尔格里特",
+    "away": "卡尔马",
+    "kickoff": "2026-11-23T18:00:00",
+    "bookmaker": "crown",
     "ts": "2026-11-22T18:06:39.233043+00:00",
     "handicap_line": 0.25,
     "handicap_home": 1.06,
@@ -688,5 +703,20 @@
     "total_line": 2.75,
     "over": 0.94,
     "under": 0.93
+  },
+  {
+    "fixture_key": "sweden|奥尔格里特|卡尔马|2026-11-23",
+    "competition": "sweden",
+    "home": "奥尔格里特",
+    "away": "卡尔马",
+    "kickoff": "2026-11-23T18:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-23T14:26:28.024422+00:00",
+    "handicap_line": 0.25,
+    "handicap_home": 1.06,
+    "handicap_away": 0.83,
+    "total_line": 2.75,
+    "over": 0.92,
+    "under": 0.95
   }
 ]

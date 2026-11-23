@@ -486,6 +486,21 @@
     "away": "格雷米奥",
     "kickoff": "2026-11-24T00:00:00",
     "bookmaker": "crown",
+    "ts": "2026-11-23T00:00:00+00:00",
+    "handicap_line": -0.75,
+    "handicap_home": 0.82,
+    "handicap_away": 1.06,
+    "total_line": 3.0,
+    "over": 0.98,
+    "under": 0.89
+  },
+  {
+    "fixture_key": "brasileirao|桑托斯|格雷米奥|2026-11-24",
+    "competition": "brasileirao",
+    "home": "桑托斯",
+    "away": "格雷米奥",
+    "kickoff": "2026-11-24T00:00:00",
+    "bookmaker": "crown",
     "ts": "2026-11-23T00:10:14.948911+00:00",
     "handicap_line": -0.75,
     "handicap_home": 0.82,
@@ -688,5 +703,20 @@
     "total_line": 3.0,
     "over": 0.95,
     "under": 0.92
+  },
+  {
+    "fixture_key": "brasileirao|桑托斯|格雷米奥|2026-11-24",
+    "competition": "brasileirao",
+    "home": "桑托斯",
+    "away": "格雷米奥",
+    "kickoff": "2026-11-24T00:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-23T14:26:24.698488+00:00",
+    "handicap_line": -1.0,
+    "handicap_home": 1.05,
+    "handicap_away": 0.84,
+    "total_line": 3.0,
+    "over": 0.85,
+    "under": 1.02
   }
 ]
