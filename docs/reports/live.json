@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-23T15:45:40.684423+00:00",
+  "generated_at": "2026-11-23T16:29:36.012636+00:00",
   "matches": [
     {
       "fixture_key": "greeksl|asterastripoli|aris|2026-11-23",
@@ -7,6 +7,36 @@
       "home": "Asteras Tripoli",
       "away": "Aris",
       "kickoff": "2026-11-23T15:00:00",
+      "status": "live",
+      "home_goals": 0,
+      "away_goals": 0
+    },
+    {
+      "fixture_key": "afc_cl|艾因|德黑兰独立|2026-11-23",
+      "competition": "afc_cl",
+      "home": "艾因",
+      "away": "德黑兰独立",
+      "kickoff": "2026-11-23T16:00:00",
+      "status": "live",
+      "home_goals": 0,
+      "away_goals": 0
+    },
+    {
+      "fixture_key": "afc_cl|艾沙姆|吉达国民|2026-11-23",
+      "competition": "afc_cl",
+      "home": "艾沙姆",
+      "away": "吉达国民",
+      "kickoff": "2026-11-23T16:00:00",
+      "status": "live",
+      "home_goals": 0,
+      "away_goals": 1
+    },
+    {
+      "fixture_key": "afc_cl|大不里士拖拉机|迪拜青年国民|2026-11-23",
+      "competition": "afc_cl",
+      "home": "大不里士拖拉机",
+      "away": "迪拜青年国民",
+      "kickoff": "2026-11-23T16:00:00",
       "status": "live",
       "home_goals": 0,
       "away_goals": 0
