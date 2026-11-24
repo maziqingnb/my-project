@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24T10:33:31.148562+00:00",
+  "generated_at": "2026-11-24T11:35:10.949448+00:00",
   "matches": [
     {
       "fixture_key": "afc_cl|daejeonhanacitizenfc|北京国安|2026-11-24",
@@ -8,8 +8,8 @@
       "away": "北京国安",
       "kickoff": "2026-11-24T10:00:00",
       "status": "live",
-      "home_goals": 2,
-      "away_goals": 0
+      "home_goals": 3,
+      "away_goals": 2
     },
     {
       "fixture_key": "afc_cl|京都不死鸟|浦项制铁|2026-11-24",
@@ -18,7 +18,7 @@
       "away": "浦项制铁",
       "kickoff": "2026-11-24T10:00:00",
       "status": "live",
-      "home_goals": 0,
+      "home_goals": 1,
       "away_goals": 0
     }
   ]
