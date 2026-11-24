@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-23T23:26:26.152382+00:00",
+  "generated_at": "2026-11-24T00:20:15.524334+00:00",
   "matches": [
     {
       "fixture_key": "brasileirao|巴西国际|维多利亚|2026-11-23",
@@ -8,8 +8,8 @@
       "away": "维多利亚",
       "kickoff": "2026-11-23T22:30:00",
       "status": "live",
-      "home_goals": 1,
-      "away_goals": 2
+      "home_goals": 2,
+      "away_goals": 3
     },
     {
       "fixture_key": "brasileirao|博塔弗戈|圣保罗|2026-11-23",
@@ -19,7 +19,17 @@
       "kickoff": "2026-11-23T23:00:00",
       "status": "live",
       "home_goals": 0,
-      "away_goals": 0
+      "away_goals": 1
+    },
+    {
+      "fixture_key": "brasileirao|桑托斯|格雷米奥|2026-11-24",
+      "competition": "brasileirao",
+      "home": "桑托斯",
+      "away": "格雷米奥",
+      "kickoff": "2026-11-24T00:00:00",
+      "status": "live",
+      "home_goals": 0,
+      "away_goals": 1
     }
   ]
 }
