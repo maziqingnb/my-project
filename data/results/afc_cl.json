@@ -46,6 +46,17 @@
   {
     "competition": "afc_cl",
     "cls": "cup",
+    "home": "利雅得胜利",
+    "away": "萨德",
+    "home_goals": 2,
+    "away_goals": 1,
+    "date": "2026-11-24",
+    "handicap_line": -1.5,
+    "total_line": 3.75
+  },
+  {
+    "competition": "afc_cl",
+    "cls": "cup",
     "home": "大田市民",
     "away": "北京国安",
     "home_goals": 3,

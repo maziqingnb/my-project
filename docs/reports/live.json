@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24T20:08:48.779868+00:00",
+  "generated_at": "2026-11-24T21:04:03.863401+00:00",
   "matches": [
     {
       "fixture_key": "ucl|arsenal|borussiadortmund|2026-11-24",
@@ -8,7 +8,7 @@
       "away": "Borussia Dortmund",
       "kickoff": "2026-11-24T20:00:00",
       "status": "live",
-      "home_goals": 0,
+      "home_goals": 1,
       "away_goals": 0
     },
     {
@@ -48,7 +48,7 @@
       "away": "Lens",
       "kickoff": "2026-11-24T20:00:00",
       "status": "live",
-      "home_goals": 1,
+      "home_goals": 2,
       "away_goals": 0
     },
     {
@@ -59,7 +59,7 @@
       "kickoff": "2026-11-24T20:00:00",
       "status": "live",
       "home_goals": 0,
-      "away_goals": 0
+      "away_goals": 1
     },
     {
       "fixture_key": "ucl|布拉迪斯拉发|realbetis|2026-11-24",
@@ -69,17 +69,17 @@
       "kickoff": "2026-11-24T20:00:00",
       "status": "live",
       "home_goals": 0,
-      "away_goals": 0
+      "away_goals": 1
     },
     {
-      "fixture_key": "afc_cl|利雅得胜利|萨德|2026-11-24",
-      "competition": "afc_cl",
-      "home": "利雅得胜利",
-      "away": "萨德",
-      "kickoff": "2026-11-24T18:15:00",
+      "fixture_key": "brasileirao|沙佩科恩斯|帕尔梅拉斯|2026-11-24",
+      "competition": "brasileirao",
+      "home": "沙佩科恩斯",
+      "away": "帕尔梅拉斯",
+      "kickoff": "2026-11-24T21:00:00",
       "status": "live",
-      "home_goals": 2,
-      "away_goals": 1
+      "home_goals": 0,
+      "away_goals": 0
     }
   ]
 }
