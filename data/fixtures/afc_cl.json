@@ -1,25 +1,5 @@
 [
   {
-    "key": "afc_cl|迪拜青年国民|卡达西亚|2026-11-24",
-    "competition": "afc_cl",
-    "home": "迪拜青年国民",
-    "away": "卡达西亚",
-    "kickoff": "2026-11-24T16:00:00",
-    "status": "upcoming",
-    "home_goals": null,
-    "away_goals": null
-  },
-  {
-    "key": "afc_cl|利雅得胜利|萨德|2026-11-24",
-    "competition": "afc_cl",
-    "home": "利雅得胜利",
-    "away": "萨德",
-    "kickoff": "2026-11-24T18:15:00",
-    "status": "upcoming",
-    "home_goals": null,
-    "away_goals": null
-  },
-  {
     "key": "afc_cl|大阪钢巴|狮子港|2026-11-25",
     "competition": "afc_cl",
     "home": "大阪钢巴",
@@ -35,6 +15,66 @@
     "home": "鹿岛鹿角",
     "away": "全北现代",
     "kickoff": "2026-11-25T10:00:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "afc_cl|浦项制铁|上海海港|2026-12-01",
+    "competition": "afc_cl",
+    "home": "浦项制铁",
+    "away": "上海海港",
+    "kickoff": "2026-12-01T10:00:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "afc_cl|柏太阳神|河内公安|2026-12-01",
+    "competition": "afc_cl",
+    "home": "柏太阳神",
+    "away": "河内公安",
+    "kickoff": "2026-12-01T10:00:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "afc_cl|神户胜利船|纽卡斯尔喷气机|2026-12-01",
+    "competition": "afc_cl",
+    "home": "神户胜利船",
+    "away": "纽卡斯尔喷气机",
+    "kickoff": "2026-12-01T10:00:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "afc_cl|柔佛|大田市民|2026-12-01",
+    "competition": "afc_cl",
+    "home": "柔佛",
+    "away": "大田市民",
+    "kickoff": "2026-12-01T12:15:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "afc_cl|北京国安|拉查布里府|2026-12-01",
+    "competition": "afc_cl",
+    "home": "北京国安",
+    "away": "拉查布里府",
+    "kickoff": "2026-12-01T12:15:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "afc_cl|武里南联|京都不死鸟|2026-12-01",
+    "competition": "afc_cl",
+    "home": "武里南联",
+    "away": "京都不死鸟",
+    "kickoff": "2026-12-01T12:15:00",
     "status": "upcoming",
     "home_goals": null,
     "away_goals": null

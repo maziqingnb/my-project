@@ -98,5 +98,15 @@
     "status": "upcoming",
     "home_goals": null,
     "away_goals": null
+  },
+  {
+    "key": "epl|coventrycity|ipswichtown|2026-12-01",
+    "competition": "epl",
+    "home": "Coventry City",
+    "away": "Ipswich Town",
+    "kickoff": "2026-12-01T20:00:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
   }
 ]
