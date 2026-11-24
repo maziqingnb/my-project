@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24T09:33:54.453727+00:00",
+  "generated_at": "2026-11-24T09:42:25.002151+00:00",
   "scope": "16 个联赛 + 5 个杯赛",
   "note": "杯赛与联赛数据分开计算；仅开赛前 6h 内出推荐；命中率只统计强推",
   "total": 2,
@@ -579,26 +579,32 @@
       "pick": "大球（3）",
       "side": "over",
       "confidence": "strong",
-      "score": 72.3,
+      "score": 73.6,
       "line": 3.0,
       "reasons": [
         "大小球 升盘 2.75->3.0（看大）",
-        "大球水位平稳",
+        "大球降水 0.85->0.8",
         "主队近4场场均总进球 5.8",
         "客队近4场场均总进球 1.2"
       ],
       "signals": {
         "line_desc": "升盘 2.75->3.0（看大）",
-        "over_desc": "大球水位平稳",
+        "over_desc": "大球降水 0.85->0.8",
         "line_first": 2.75,
         "line_last": 3.0,
         "over_first": 0.85,
-        "over_last": 0.84,
+        "over_last": 0.8,
         "under_first": 0.95,
-        "under_last": 0.96,
+        "under_last": 1.0,
         "conflict": false
       },
       "history": [
+        {
+          "ts": "2026-11-23T12:15:00+00:00",
+          "total_line": 2.75,
+          "over": 0.85,
+          "under": 0.95
+        },
         {
           "ts": "2026-11-23T12:15:00+00:00",
           "total_line": 2.75,
@@ -814,13 +820,19 @@
           "total_line": 3.0,
           "over": 0.84,
           "under": 0.96
+        },
+        {
+          "ts": "2026-11-24T09:42:17.794198+00:00",
+          "total_line": 3.0,
+          "over": 0.8,
+          "under": 1.0
         }
       ],
       "reliability": 1.0,
       "competition_name": "亚冠精英",
       "competition_class": "cup",
       "sport": "football",
-      "lead_hours": 3.768867759722222,
+      "lead_hours": 2.545057167222222,
       "prematch": false,
       "result": {
         "settled": false
