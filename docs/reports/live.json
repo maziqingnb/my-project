@@ -1,26 +1,6 @@
 {
-  "generated_at": "2026-11-24T00:20:15.524334+00:00",
+  "generated_at": "2026-11-24T01:44:52.166575+00:00",
   "matches": [
-    {
-      "fixture_key": "brasileirao|巴西国际|维多利亚|2026-11-23",
-      "competition": "brasileirao",
-      "home": "巴西国际",
-      "away": "维多利亚",
-      "kickoff": "2026-11-23T22:30:00",
-      "status": "live",
-      "home_goals": 2,
-      "away_goals": 3
-    },
-    {
-      "fixture_key": "brasileirao|博塔弗戈|圣保罗|2026-11-23",
-      "competition": "brasileirao",
-      "home": "博塔弗戈",
-      "away": "圣保罗",
-      "kickoff": "2026-11-23T23:00:00",
-      "status": "live",
-      "home_goals": 0,
-      "away_goals": 1
-    },
     {
       "fixture_key": "brasileirao|桑托斯|格雷米奥|2026-11-24",
       "competition": "brasileirao",
@@ -30,6 +10,16 @@
       "status": "live",
       "home_goals": 0,
       "away_goals": 1
+    },
+    {
+      "fixture_key": "mls|stlouiscitysc|洛杉矶fc|2026-11-24",
+      "competition": "mls",
+      "home": "St. Louis CITY SC",
+      "away": "洛杉矶FC",
+      "kickoff": "2026-11-24T01:15:00",
+      "status": "live",
+      "home_goals": 0,
+      "away_goals": 0
     }
   ]
 }

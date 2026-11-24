@@ -2,6 +2,17 @@
   {
     "competition": "brasileirao",
     "cls": "league",
+    "home": "博塔弗戈",
+    "away": "圣保罗",
+    "home_goals": 1,
+    "away_goals": 1,
+    "date": "2026-11-23",
+    "handicap_line": -0.25,
+    "total_line": 2.5
+  },
+  {
+    "competition": "brasileirao",
+    "cls": "league",
     "home": "巴西国际",
     "away": "维多利亚",
     "home_goals": 2,
