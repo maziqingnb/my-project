@@ -246,6 +246,21 @@
     "away": "浦项制铁",
     "kickoff": "2026-11-24T10:00:00",
     "bookmaker": "crown",
+    "ts": "2026-11-23T10:00:00+00:00",
+    "handicap_line": -0.75,
+    "handicap_home": 0.79,
+    "handicap_away": 1.03,
+    "total_line": 2.5,
+    "over": 0.88,
+    "under": 0.92
+  },
+  {
+    "fixture_key": "afc_cl|京都不死鸟|浦项制铁|2026-11-24",
+    "competition": "afc_cl",
+    "home": "京都不死鸟",
+    "away": "浦项制铁",
+    "kickoff": "2026-11-24T10:00:00",
+    "bookmaker": "crown",
     "ts": "2026-11-23T16:52:52.230894+00:00",
     "handicap_line": -0.75,
     "handicap_home": 0.8,
@@ -478,5 +493,20 @@
     "total_line": 2.25,
     "over": 0.91,
     "under": 0.89
+  },
+  {
+    "fixture_key": "afc_cl|京都不死鸟|浦项制铁|2026-11-24",
+    "competition": "afc_cl",
+    "home": "京都不死鸟",
+    "away": "浦项制铁",
+    "kickoff": "2026-11-24T10:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-24T06:58:51.764175+00:00",
+    "handicap_line": -0.75,
+    "handicap_home": 0.84,
+    "handicap_away": 0.98,
+    "total_line": 2.25,
+    "over": 0.87,
+    "under": 0.93
   }
 ]
