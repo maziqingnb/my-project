@@ -148,5 +148,35 @@
     "total_line": 3.5,
     "over": 0.86,
     "under": 1.02
+  },
+  {
+    "fixture_key": "ucl|parissaintgermain|roma|2026-11-25",
+    "competition": "ucl",
+    "home": "Paris Saint-Germain",
+    "away": "Roma",
+    "kickoff": "2026-11-25T20:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-24T20:00:00+00:00",
+    "handicap_line": -1.5,
+    "handicap_home": 1.04,
+    "handicap_away": 0.84,
+    "total_line": 3.5,
+    "over": 0.86,
+    "under": 1.02
+  },
+  {
+    "fixture_key": "ucl|parissaintgermain|roma|2026-11-25",
+    "competition": "ucl",
+    "home": "Paris Saint-Germain",
+    "away": "Roma",
+    "kickoff": "2026-11-25T20:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-24T20:45:24.365995+00:00",
+    "handicap_line": -1.25,
+    "handicap_home": 0.92,
+    "handicap_away": 0.96,
+    "total_line": 3.75,
+    "over": 1.03,
+    "under": 0.85
   }
 ]
