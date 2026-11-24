@@ -306,6 +306,21 @@
     "away": "埃因霍温",
     "kickoff": "2026-11-24T20:00:00",
     "bookmaker": "crown",
+    "ts": "2026-11-23T20:00:00+00:00",
+    "handicap_line": -2.25,
+    "handicap_home": 1.02,
+    "handicap_away": 0.86,
+    "total_line": 4.25,
+    "over": 1.02,
+    "under": 0.86
+  },
+  {
+    "fixture_key": "ucl|realmadrid|埃因霍温|2026-11-24",
+    "competition": "ucl",
+    "home": "Real Madrid",
+    "away": "埃因霍温",
+    "kickoff": "2026-11-24T20:00:00",
+    "bookmaker": "crown",
     "ts": "2026-11-23T20:45:09.624617+00:00",
     "handicap_line": -2.5,
     "handicap_home": 1.03,
@@ -448,5 +463,20 @@
     "total_line": 4.5,
     "over": 0.98,
     "under": 0.9
+  },
+  {
+    "fixture_key": "ucl|realmadrid|埃因霍温|2026-11-24",
+    "competition": "ucl",
+    "home": "Real Madrid",
+    "away": "埃因霍温",
+    "kickoff": "2026-11-24T20:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-24T06:54:02.890683+00:00",
+    "handicap_line": -2.75,
+    "handicap_home": 0.99,
+    "handicap_away": 0.9,
+    "total_line": 4.5,
+    "over": 0.96,
+    "under": 0.92
   }
 ]
