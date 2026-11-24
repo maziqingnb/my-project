@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24T16:12:07.464076+00:00",
+  "generated_at": "2026-11-24T16:38:46.235878+00:00",
   "matches": [
     {
       "fixture_key": "afc_cl|shababalahli|卡达西亚|2026-11-24",
@@ -9,7 +9,7 @@
       "kickoff": "2026-11-24T16:00:00",
       "status": "live",
       "home_goals": 0,
-      "away_goals": 1
+      "away_goals": 2
     },
     {
       "fixture_key": "afc_cl2|锡卜|巴格达警察|2026-11-24",
@@ -18,7 +18,7 @@
       "away": "巴格达警察",
       "kickoff": "2026-11-24T16:00:00",
       "status": "live",
-      "home_goals": 0,
+      "home_goals": 1,
       "away_goals": 0
     }
   ]
