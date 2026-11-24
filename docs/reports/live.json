@@ -1,4 +1,15 @@
 {
-  "generated_at": "2026-11-24T06:47:48.196277+00:00",
-  "matches": []
+  "generated_at": "2026-11-24T08:17:37.581348+00:00",
+  "matches": [
+    {
+      "fixture_key": "afc_cl|纽卡斯尔喷气机|kashiwareysol|2026-11-24",
+      "competition": "afc_cl",
+      "home": "纽卡斯尔喷气机",
+      "away": "Kashiwa Reysol",
+      "kickoff": "2026-11-24T07:45:00",
+      "status": "live",
+      "home_goals": 1,
+      "away_goals": 1
+    }
+  ]
 }
