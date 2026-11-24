@@ -261,6 +261,21 @@
     "away": "巴格达警察",
     "kickoff": "2026-11-24T16:00:00",
     "bookmaker": "crown",
+    "ts": "2026-11-23T16:00:00+00:00",
+    "handicap_line": -0.25,
+    "handicap_home": 0.91,
+    "handicap_away": 0.91,
+    "total_line": 2.25,
+    "over": 0.99,
+    "under": 0.81
+  },
+  {
+    "fixture_key": "afc_cl2|锡卜|巴格达警察|2026-11-24",
+    "competition": "afc_cl2",
+    "home": "锡卜",
+    "away": "巴格达警察",
+    "kickoff": "2026-11-24T16:00:00",
+    "bookmaker": "crown",
     "ts": "2026-11-23T16:52:53.946895+00:00",
     "handicap_line": -0.25,
     "handicap_home": 1.08,
@@ -508,5 +523,20 @@
     "total_line": 2.25,
     "over": 0.84,
     "under": 0.96
+  },
+  {
+    "fixture_key": "afc_cl2|锡卜|巴格达警察|2026-11-24",
+    "competition": "afc_cl2",
+    "home": "锡卜",
+    "away": "巴格达警察",
+    "kickoff": "2026-11-24T16:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-24T08:28:52.495527+00:00",
+    "handicap_line": 0.0,
+    "handicap_home": 1.0,
+    "handicap_away": 0.82,
+    "total_line": 2.25,
+    "over": 0.82,
+    "under": 0.98
   }
 ]

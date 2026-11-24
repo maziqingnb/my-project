@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24T08:17:39.926510+00:00",
+  "generated_at": "2026-11-24T08:28:58.538932+00:00",
   "scope": "16 个联赛 + 5 个杯赛",
   "note": "杯赛与联赛数据分开计算；仅开赛前 6h 内出推荐；命中率只统计强推",
   "total": 2,
@@ -593,12 +593,18 @@
         "line_first": 2.75,
         "line_last": 3.0,
         "over_first": 0.85,
-        "over_last": 0.86,
+        "over_last": 0.84,
         "under_first": 0.95,
-        "under_last": 0.94,
+        "under_last": 0.96,
         "conflict": false
       },
       "history": [
+        {
+          "ts": "2026-11-23T12:15:00+00:00",
+          "total_line": 2.75,
+          "over": 0.85,
+          "under": 0.95
+        },
         {
           "ts": "2026-11-23T12:15:00+00:00",
           "total_line": 2.75,
@@ -802,13 +808,19 @@
           "total_line": 3.0,
           "over": 0.86,
           "under": 0.94
+        },
+        {
+          "ts": "2026-11-24T08:28:52.076065+00:00",
+          "total_line": 3.0,
+          "over": 0.84,
+          "under": 0.96
         }
       ],
       "reliability": 1.0,
       "competition_name": "亚冠精英",
       "competition_class": "cup",
       "sport": "football",
-      "lead_hours": 5.267174996666667,
+      "lead_hours": 3.768867759722222,
       "prematch": false,
       "result": {
         "settled": false
