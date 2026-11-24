@@ -1,15 +1,25 @@
 {
-  "generated_at": "2026-11-24T09:33:50.178237+00:00",
+  "generated_at": "2026-11-24T10:33:31.148562+00:00",
   "matches": [
     {
-      "fixture_key": "afc_cl|纽卡斯尔喷气机|kashiwareysol|2026-11-24",
+      "fixture_key": "afc_cl|daejeonhanacitizenfc|北京国安|2026-11-24",
       "competition": "afc_cl",
-      "home": "纽卡斯尔喷气机",
-      "away": "Kashiwa Reysol",
-      "kickoff": "2026-11-24T07:45:00",
+      "home": "Daejeon Hana Citizen FC",
+      "away": "北京国安",
+      "kickoff": "2026-11-24T10:00:00",
       "status": "live",
-      "home_goals": 1,
-      "away_goals": 2
+      "home_goals": 2,
+      "away_goals": 0
+    },
+    {
+      "fixture_key": "afc_cl|京都不死鸟|浦项制铁|2026-11-24",
+      "competition": "afc_cl",
+      "home": "京都不死鸟",
+      "away": "浦项制铁",
+      "kickoff": "2026-11-24T10:00:00",
+      "status": "live",
+      "home_goals": 0,
+      "away_goals": 0
     }
   ]
 }
