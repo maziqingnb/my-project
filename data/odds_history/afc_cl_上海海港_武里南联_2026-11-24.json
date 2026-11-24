@@ -216,6 +216,21 @@
     "away": "武里南联",
     "kickoff": "2026-11-24T12:15:00",
     "bookmaker": "crown",
+    "ts": "2026-11-23T12:15:00+00:00",
+    "handicap_line": -0.75,
+    "handicap_home": 0.95,
+    "handicap_away": 0.87,
+    "total_line": 2.75,
+    "over": 0.85,
+    "under": 0.95
+  },
+  {
+    "fixture_key": "afc_cl|上海海港|武里南联|2026-11-24",
+    "competition": "afc_cl",
+    "home": "上海海港",
+    "away": "武里南联",
+    "kickoff": "2026-11-24T12:15:00",
+    "bookmaker": "crown",
     "ts": "2026-11-23T16:52:57.995064+00:00",
     "handicap_line": -0.5,
     "handicap_home": 0.89,
@@ -418,5 +433,20 @@
     "total_line": 3.0,
     "over": 0.94,
     "under": 0.86
+  },
+  {
+    "fixture_key": "afc_cl|上海海港|武里南联|2026-11-24",
+    "competition": "afc_cl",
+    "home": "上海海港",
+    "away": "武里南联",
+    "kickoff": "2026-11-24T12:15:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-24T05:52:38.238938+00:00",
+    "handicap_line": -0.75,
+    "handicap_home": 1.01,
+    "handicap_away": 0.81,
+    "total_line": 3.0,
+    "over": 0.85,
+    "under": 0.95
   }
 ]

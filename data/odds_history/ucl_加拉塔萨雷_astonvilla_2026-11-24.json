@@ -231,6 +231,21 @@
     "away": "Aston Villa",
     "kickoff": "2026-11-24T17:45:00",
     "bookmaker": "crown",
+    "ts": "2026-11-23T17:45:00+00:00",
+    "handicap_line": 0.0,
+    "handicap_home": 0.99,
+    "handicap_away": 0.89,
+    "total_line": 3.25,
+    "over": 0.93,
+    "under": 0.95
+  },
+  {
+    "fixture_key": "ucl|加拉塔萨雷|astonvilla|2026-11-24",
+    "competition": "ucl",
+    "home": "加拉塔萨雷",
+    "away": "Aston Villa",
+    "kickoff": "2026-11-24T17:45:00",
+    "bookmaker": "crown",
     "ts": "2026-11-23T17:51:55.667042+00:00",
     "handicap_line": 0.25,
     "handicap_home": 0.9,
@@ -418,5 +433,20 @@
     "total_line": 3.5,
     "over": 1.04,
     "under": 0.84
+  },
+  {
+    "fixture_key": "ucl|加拉塔萨雷|astonvilla|2026-11-24",
+    "competition": "ucl",
+    "home": "加拉塔萨雷",
+    "away": "Aston Villa",
+    "kickoff": "2026-11-24T17:45:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-24T05:52:35.257717+00:00",
+    "handicap_line": 0.25,
+    "handicap_home": 0.96,
+    "handicap_away": 0.93,
+    "total_line": 3.25,
+    "over": 1.02,
+    "under": 0.86
   }
 ]
