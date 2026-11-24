@@ -2,6 +2,83 @@
   {
     "competition": "ucl",
     "cls": "cup",
+    "home": "Arsenal",
+    "away": "Borussia Dortmund",
+    "home_goals": 1,
+    "away_goals": 1,
+    "date": "2026-11-24",
+    "handicap_line": -1.25,
+    "total_line": 2.75
+  },
+  {
+    "competition": "ucl",
+    "cls": "cup",
+    "home": "Como",
+    "away": "AEK Athens",
+    "home_goals": 1,
+    "away_goals": 0,
+    "date": "2026-11-24",
+    "handicap_line": null,
+    "total_line": null
+  },
+  {
+    "competition": "ucl",
+    "cls": "cup",
+    "home": "Como",
+    "away": "AEK雅典",
+    "home_goals": 1,
+    "away_goals": 0,
+    "date": "2026-11-24",
+    "handicap_line": -1.5,
+    "total_line": 3.25
+  },
+  {
+    "competition": "ucl",
+    "cls": "cup",
+    "home": "Manchester City",
+    "away": "Napoli",
+    "home_goals": 2,
+    "away_goals": 2,
+    "date": "2026-11-24",
+    "handicap_line": -1.75,
+    "total_line": 3.5
+  },
+  {
+    "competition": "ucl",
+    "cls": "cup",
+    "home": "RB Leipzig",
+    "away": "Lens",
+    "home_goals": 3,
+    "away_goals": 1,
+    "date": "2026-11-24",
+    "handicap_line": -1.5,
+    "total_line": 3.75
+  },
+  {
+    "competition": "ucl",
+    "cls": "cup",
+    "home": "Real Madrid",
+    "away": "PSV Eindhoven",
+    "home_goals": 5,
+    "away_goals": 1,
+    "date": "2026-11-24",
+    "handicap_line": null,
+    "total_line": null
+  },
+  {
+    "competition": "ucl",
+    "cls": "cup",
+    "home": "Real Madrid",
+    "away": "埃因霍温",
+    "home_goals": 5,
+    "away_goals": 1,
+    "date": "2026-11-24",
+    "handicap_line": -2.25,
+    "total_line": 4.25
+  },
+  {
+    "competition": "ucl",
+    "cls": "cup",
     "home": "加拉塔萨雷",
     "away": "Aston Villa",
     "home_goals": 1,
@@ -20,6 +97,39 @@
     "date": "2026-11-24",
     "handicap_line": -1.25,
     "total_line": 3.75
+  },
+  {
+    "competition": "ucl",
+    "cls": "cup",
+    "home": "布拉迪斯拉发",
+    "away": "Real Betis",
+    "home_goals": 0,
+    "away_goals": 2,
+    "date": "2026-11-24",
+    "handicap_line": 1.75,
+    "total_line": 3.5
+  },
+  {
+    "competition": "ucl",
+    "cls": "cup",
+    "home": "费耶诺德",
+    "away": "FC Porto",
+    "home_goals": 0,
+    "away_goals": 1,
+    "date": "2026-11-24",
+    "handicap_line": null,
+    "total_line": null
+  },
+  {
+    "competition": "ucl",
+    "cls": "cup",
+    "home": "费耶诺德",
+    "away": "波尔图",
+    "home_goals": 0,
+    "away_goals": 1,
+    "date": "2026-11-24",
+    "handicap_line": 0.25,
+    "total_line": 3.0
   },
   {
     "competition": "ucl",

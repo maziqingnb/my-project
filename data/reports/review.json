@@ -1,11 +1,51 @@
 {
-  "generated_at": "2026-11-24T21:48:36.057949+00:00",
-  "total_missed": 54,
+  "generated_at": "2026-11-24T22:01:51.024618+00:00",
+  "total_missed": 55,
   "days": [
     {
       "date": "2026-11-25",
-      "missed": 1,
+      "missed": 2,
       "items": [
+        {
+          "competition": "ucl",
+          "home": "Como",
+          "away": "AEK雅典",
+          "kickoff": "2026-11-24T20:00:00",
+          "market": "totals",
+          "sport": "football",
+          "pick": "大球（3.5）",
+          "side": "over",
+          "line": 3.5,
+          "score": 75.0,
+          "confidence": "strong",
+          "outcome": "loss",
+          "outcome_cn": "没中",
+          "home_goals": 1,
+          "away_goals": 0,
+          "book": "盘口 3.5 → 3.5，水位 大0.89/小0.99 → 大0.90/小0.98",
+          "diagnosis": [
+            "盘口 3.5 → 3.5，水位 大0.89/小0.99 → 大0.90/小0.98",
+            "最终总进球 1，相对盘口 3.5 偏小"
+          ],
+          "note": "大球（3.5） · 最终 1-0（总进球 1），未打出",
+          "signals": {
+            "line_desc": "盘口不变",
+            "over_desc": "大球水位平稳",
+            "line_first": 3.5,
+            "line_last": 3.5,
+            "over_first": 0.89,
+            "over_last": 0.9,
+            "under_first": 0.99,
+            "under_last": 0.98,
+            "conflict": false
+          },
+          "reasons": [
+            "大小球 盘口不变",
+            "大球水位平稳",
+            "主队近4场场均总进球 6.2",
+            "客队近1场场均总进球 5.0"
+          ]
+        },
         {
           "competition": "ucl",
           "home": "博德闪耀",
