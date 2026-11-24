@@ -366,6 +366,21 @@
     "away": "波尔图",
     "kickoff": "2026-11-24T20:00:00",
     "bookmaker": "crown",
+    "ts": "2026-11-23T20:00:00+00:00",
+    "handicap_line": 0.25,
+    "handicap_home": 0.85,
+    "handicap_away": 1.03,
+    "total_line": 3.0,
+    "over": 0.93,
+    "under": 0.95
+  },
+  {
+    "fixture_key": "ucl|费耶诺德|波尔图|2026-11-24",
+    "competition": "ucl",
+    "home": "费耶诺德",
+    "away": "波尔图",
+    "kickoff": "2026-11-24T20:00:00",
+    "bookmaker": "crown",
     "ts": "2026-11-23T20:45:10.729896+00:00",
     "handicap_line": 0.25,
     "handicap_home": 0.86,
@@ -568,5 +583,20 @@
     "total_line": 2.75,
     "over": 0.83,
     "under": 1.05
+  },
+  {
+    "fixture_key": "ucl|费耶诺德|波尔图|2026-11-24",
+    "competition": "ucl",
+    "home": "费耶诺德",
+    "away": "波尔图",
+    "kickoff": "2026-11-24T20:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-24T10:50:26.630745+00:00",
+    "handicap_line": 0.25,
+    "handicap_home": 1.02,
+    "handicap_away": 0.87,
+    "total_line": 2.75,
+    "over": 0.81,
+    "under": 1.07
   }
 ]
