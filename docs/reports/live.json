@@ -1,45 +1,4 @@
 {
-  "generated_at": "2026-11-24T13:59:18.533749+00:00",
-  "matches": [
-    {
-      "fixture_key": "afc_cl|河内公安|神户胜利船|2026-11-24",
-      "competition": "afc_cl",
-      "home": "河内公安",
-      "away": "神户胜利船",
-      "kickoff": "2026-11-24T12:15:00",
-      "status": "live",
-      "home_goals": 3,
-      "away_goals": 1
-    },
-    {
-      "fixture_key": "afc_cl|拉查布里府|johordarultazim|2026-11-24",
-      "competition": "afc_cl",
-      "home": "拉查布里府",
-      "away": "Johor Darul Ta'zim",
-      "kickoff": "2026-11-24T12:15:00",
-      "status": "live",
-      "home_goals": 1,
-      "away_goals": 1
-    },
-    {
-      "fixture_key": "afc_cl|上海海港|武里南联|2026-11-24",
-      "competition": "afc_cl",
-      "home": "上海海港",
-      "away": "武里南联",
-      "kickoff": "2026-11-24T12:15:00",
-      "status": "live",
-      "home_goals": 3,
-      "away_goals": 1
-    },
-    {
-      "fixture_key": "afc_cl2|东孟加拉|侯塞因|2026-11-24",
-      "competition": "afc_cl2",
-      "home": "东孟加拉",
-      "away": "侯塞因",
-      "kickoff": "2026-11-24T13:45:00",
-      "status": "live",
-      "home_goals": 0,
-      "away_goals": 0
-    }
-  ]
+  "generated_at": "2026-11-24T14:59:04.523357+00:00",
+  "matches": []
 }
