@@ -13,6 +13,17 @@
   {
     "competition": "afc_cl2",
     "cls": "cup",
+    "home": "锡卜",
+    "away": "巴格达警察",
+    "home_goals": 2,
+    "away_goals": 0,
+    "date": "2026-11-24",
+    "handicap_line": -0.25,
+    "total_line": 2.25
+  },
+  {
+    "competition": "afc_cl2",
+    "cls": "cup",
     "home": "古晋足协",
     "away": "江原FC",
     "home_goals": 2,

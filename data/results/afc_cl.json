@@ -13,6 +13,17 @@
   {
     "competition": "afc_cl",
     "cls": "cup",
+    "home": "Shabab Al Ahli",
+    "away": "卡达西亚",
+    "home_goals": 1,
+    "away_goals": 5,
+    "date": "2026-11-24",
+    "handicap_line": null,
+    "total_line": null
+  },
+  {
+    "competition": "afc_cl",
+    "cls": "cup",
     "home": "上海海港",
     "away": "武里南联",
     "home_goals": 3,
@@ -97,6 +108,17 @@
     "date": "2026-11-24",
     "handicap_line": 1.25,
     "total_line": 3.5
+  },
+  {
+    "competition": "afc_cl",
+    "cls": "cup",
+    "home": "迪拜青年国民",
+    "away": "卡达西亚",
+    "home_goals": 1,
+    "away_goals": 5,
+    "date": "2026-11-24",
+    "handicap_line": 0.25,
+    "total_line": 2.75
   },
   {
     "competition": "afc_cl",

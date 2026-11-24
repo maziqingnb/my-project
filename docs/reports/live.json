@@ -1,15 +1,25 @@
 {
-  "generated_at": "2026-11-24T17:12:52.274537+00:00",
+  "generated_at": "2026-11-24T18:06:26.642383+00:00",
   "matches": [
     {
-      "fixture_key": "afc_cl|shababalahli|卡达西亚|2026-11-24",
-      "competition": "afc_cl",
-      "home": "Shabab Al Ahli",
-      "away": "卡达西亚",
-      "kickoff": "2026-11-24T16:00:00",
+      "fixture_key": "ucl|博德闪耀|lask林茨|2026-11-24",
+      "competition": "ucl",
+      "home": "博德闪耀",
+      "away": "LASK林茨",
+      "kickoff": "2026-11-24T17:45:00",
       "status": "live",
       "home_goals": 0,
-      "away_goals": 2
+      "away_goals": 0
+    },
+    {
+      "fixture_key": "ucl|加拉塔萨雷|astonvilla|2026-11-24",
+      "competition": "ucl",
+      "home": "加拉塔萨雷",
+      "away": "Aston Villa",
+      "kickoff": "2026-11-24T17:45:00",
+      "status": "live",
+      "home_goals": 0,
+      "away_goals": 0
     }
   ]
 }
