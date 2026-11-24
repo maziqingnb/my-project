@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-24T14:59:08.616730+00:00",
+  "generated_at": "2026-11-24T15:30:36.511951+00:00",
   "scope": "16 个联赛 + 5 个杯赛",
   "note": "杯赛与联赛数据分开计算；仅开赛前 6h 内出推荐；命中率只统计强推",
-  "total": 4,
+  "total": 6,
   "stats": {
     "overall": {
       "counts": {
@@ -334,24 +334,24 @@
       "pick": "大球（3.75）",
       "side": "over",
       "confidence": "strong",
-      "score": 75.6,
+      "score": 76.2,
       "line": 3.75,
       "reasons": [
         "大小球 升盘 3.5->3.75（看大）",
-        "大球升水 0.85->0.93",
+        "大球升水 0.85->0.88",
         "主队近4场场均总进球 4.8",
         "客队近5场场均总进球 4.4",
         "大小球盘口与水位方向背离，不好买"
       ],
       "signals": {
         "line_desc": "升盘 3.5->3.75（看大）",
-        "over_desc": "大球升水 0.85->0.93",
+        "over_desc": "大球升水 0.85->0.88",
         "line_first": 3.5,
         "line_last": 3.75,
         "over_first": 0.85,
-        "over_last": 0.93,
+        "over_last": 0.88,
         "under_first": 1.03,
-        "under_last": 0.95,
+        "under_last": 1.0,
         "conflict": true
       },
       "history": [
@@ -384,6 +384,12 @@
           "total_line": 3.5,
           "over": 0.85,
           "under": 1.03
+        },
+        {
+          "ts": "2026-11-23T20:00:00+00:00",
+          "total_line": 3.5,
+          "over": 0.94,
+          "under": 0.94
         },
         {
           "ts": "2026-11-23T20:00:00+00:00",
@@ -642,14 +648,362 @@
           "total_line": 3.75,
           "over": 0.93,
           "under": 0.95
+        },
+        {
+          "ts": "2026-11-24T15:30:27.280409+00:00",
+          "total_line": 3.75,
+          "over": 0.88,
+          "under": 1.0
         }
       ],
       "reliability": 0.6,
       "competition_name": "欧洲冠军联赛",
       "competition_class": "cup",
       "sport": "football",
-      "lead_hours": 5.648306328055556,
+      "lead_hours": 4.492422108611111,
       "prematch": false,
+      "result": {
+        "settled": false
+      }
+    },
+    {
+      "fixture_key": "afc_cl|迪拜青年国民|卡达西亚|2026-11-24",
+      "competition": "afc_cl",
+      "home": "迪拜青年国民",
+      "away": "卡达西亚",
+      "kickoff": "2026-11-24T16:00:00",
+      "market": "handicap",
+      "pick": "客队（让 0.5）",
+      "side": "away",
+      "confidence": "strong",
+      "score": 75.2,
+      "line": 0.5,
+      "reasons": [
+        "亚盘 降盘 0.25->0.5（主队走弱）",
+        "主队升水 0.83->1.02",
+        "主队近5场 2胜1平2负，场均进2.0/失1.8",
+        "客队近4场 2胜2平0负，场均进2.2/失0.8",
+        "交手1次：主队0胜0平1负"
+      ],
+      "signals": {
+        "line_desc": "降盘 0.25->0.5（主队走弱）",
+        "water_desc": "主队升水 0.83->1.02",
+        "line_first": 0.25,
+        "line_last": 0.5,
+        "home_water_first": 0.83,
+        "home_water_last": 1.02,
+        "away_water_first": 0.99,
+        "away_water_last": 0.8,
+        "conflict": false
+      },
+      "history": [
+        {
+          "ts": "2026-11-23T16:00:00+00:00",
+          "handicap_line": 0.25,
+          "handicap_home": 0.83,
+          "handicap_away": 0.99
+        },
+        {
+          "ts": "2026-11-23T16:00:00+00:00",
+          "handicap_line": 0.25,
+          "handicap_home": 0.83,
+          "handicap_away": 0.99
+        },
+        {
+          "ts": "2026-11-23T16:00:00+00:00",
+          "handicap_line": 0.25,
+          "handicap_home": 0.83,
+          "handicap_away": 0.99
+        },
+        {
+          "ts": "2026-11-23T16:00:00+00:00",
+          "handicap_line": 0.25,
+          "handicap_home": 0.83,
+          "handicap_away": 0.99
+        },
+        {
+          "ts": "2026-11-23T16:00:00+00:00",
+          "handicap_line": 0.25,
+          "handicap_home": 0.83,
+          "handicap_away": 0.99
+        },
+        {
+          "ts": "2026-11-23T16:00:00+00:00",
+          "handicap_line": 0.25,
+          "handicap_home": 0.83,
+          "handicap_away": 0.99
+        },
+        {
+          "ts": "2026-11-23T16:00:00+00:00",
+          "handicap_line": 0.25,
+          "handicap_home": 0.83,
+          "handicap_away": 0.99
+        },
+        {
+          "ts": "2026-11-23T16:00:00+00:00",
+          "handicap_line": 0.25,
+          "handicap_home": 0.83,
+          "handicap_away": 0.99
+        },
+        {
+          "ts": "2026-11-23T16:00:00+00:00",
+          "handicap_line": 0.25,
+          "handicap_home": 0.83,
+          "handicap_away": 0.99
+        },
+        {
+          "ts": "2026-11-23T16:00:00+00:00",
+          "handicap_line": 0.25,
+          "handicap_home": 0.83,
+          "handicap_away": 0.99
+        },
+        {
+          "ts": "2026-11-23T16:00:00+00:00",
+          "handicap_line": 0.25,
+          "handicap_home": 0.83,
+          "handicap_away": 0.99
+        },
+        {
+          "ts": "2026-11-23T16:00:00+00:00",
+          "handicap_line": 0.25,
+          "handicap_home": 0.83,
+          "handicap_away": 0.99
+        },
+        {
+          "ts": "2026-11-23T16:00:00+00:00",
+          "handicap_line": 0.25,
+          "handicap_home": 0.83,
+          "handicap_away": 0.99
+        },
+        {
+          "ts": "2026-11-23T16:00:00+00:00",
+          "handicap_line": 0.25,
+          "handicap_home": 0.83,
+          "handicap_away": 0.99
+        },
+        {
+          "ts": "2026-11-23T16:00:00+00:00",
+          "handicap_line": 0.25,
+          "handicap_home": 0.83,
+          "handicap_away": 0.99
+        },
+        {
+          "ts": "2026-11-23T16:00:00+00:00",
+          "handicap_line": 0.25,
+          "handicap_home": 0.83,
+          "handicap_away": 0.99
+        },
+        {
+          "ts": "2026-11-23T16:00:00+00:00",
+          "handicap_line": 0.25,
+          "handicap_home": 0.83,
+          "handicap_away": 0.99
+        },
+        {
+          "ts": "2026-11-23T16:00:00+00:00",
+          "handicap_line": 0.25,
+          "handicap_home": 0.83,
+          "handicap_away": 0.99
+        },
+        {
+          "ts": "2026-11-23T16:00:00+00:00",
+          "handicap_line": 0.25,
+          "handicap_home": 0.83,
+          "handicap_away": 0.99
+        },
+        {
+          "ts": "2026-11-23T16:00:00+00:00",
+          "handicap_line": 0.25,
+          "handicap_home": 0.83,
+          "handicap_away": 0.99
+        },
+        {
+          "ts": "2026-11-23T16:00:00+00:00",
+          "handicap_line": 0.25,
+          "handicap_home": 0.83,
+          "handicap_away": 0.99
+        },
+        {
+          "ts": "2026-11-23T16:00:00+00:00",
+          "handicap_line": 0.25,
+          "handicap_home": 0.83,
+          "handicap_away": 0.99
+        },
+        {
+          "ts": "2026-11-23T16:00:00+00:00",
+          "handicap_line": 0.25,
+          "handicap_home": 0.83,
+          "handicap_away": 0.99
+        },
+        {
+          "ts": "2026-11-23T16:00:00+00:00",
+          "handicap_line": 0.25,
+          "handicap_home": 0.83,
+          "handicap_away": 0.99
+        },
+        {
+          "ts": "2026-11-23T16:00:00+00:00",
+          "handicap_line": 0.25,
+          "handicap_home": 0.83,
+          "handicap_away": 0.99
+        },
+        {
+          "ts": "2026-11-23T16:52:57.995142+00:00",
+          "handicap_line": 0.25,
+          "handicap_home": 0.87,
+          "handicap_away": 0.95
+        },
+        {
+          "ts": "2026-11-23T17:52:01.894247+00:00",
+          "handicap_line": 0.25,
+          "handicap_home": 0.87,
+          "handicap_away": 0.95
+        },
+        {
+          "ts": "2026-11-23T18:45:42.861824+00:00",
+          "handicap_line": 0.25,
+          "handicap_home": 0.87,
+          "handicap_away": 0.95
+        },
+        {
+          "ts": "2026-11-23T18:50:37.897553+00:00",
+          "handicap_line": 0.25,
+          "handicap_home": 0.87,
+          "handicap_away": 0.95
+        },
+        {
+          "ts": "2026-11-23T19:56:04.688419+00:00",
+          "handicap_line": 0.25,
+          "handicap_home": 0.87,
+          "handicap_away": 0.95
+        },
+        {
+          "ts": "2026-11-23T20:45:15.679226+00:00",
+          "handicap_line": 0.25,
+          "handicap_home": 0.85,
+          "handicap_away": 0.97
+        },
+        {
+          "ts": "2026-11-23T21:43:13.941059+00:00",
+          "handicap_line": 0.25,
+          "handicap_home": 0.79,
+          "handicap_away": 1.03
+        },
+        {
+          "ts": "2026-11-23T22:43:48.486639+00:00",
+          "handicap_line": 0.25,
+          "handicap_home": 0.79,
+          "handicap_away": 1.03
+        },
+        {
+          "ts": "2026-11-23T23:42:05.485771+00:00",
+          "handicap_line": 0.25,
+          "handicap_home": 0.79,
+          "handicap_away": 1.03
+        },
+        {
+          "ts": "2026-11-24T00:43:54.346624+00:00",
+          "handicap_line": 0.25,
+          "handicap_home": 0.79,
+          "handicap_away": 1.03
+        },
+        {
+          "ts": "2026-11-24T00:50:31.461033+00:00",
+          "handicap_line": 0.25,
+          "handicap_home": 0.79,
+          "handicap_away": 1.03
+        },
+        {
+          "ts": "2026-11-24T02:08:49.133681+00:00",
+          "handicap_line": 0.25,
+          "handicap_home": 0.79,
+          "handicap_away": 1.03
+        },
+        {
+          "ts": "2026-11-24T03:21:47.133422+00:00",
+          "handicap_line": 0.25,
+          "handicap_home": 0.79,
+          "handicap_away": 1.03
+        },
+        {
+          "ts": "2026-11-24T04:31:56.024400+00:00",
+          "handicap_line": 0.25,
+          "handicap_home": 0.83,
+          "handicap_away": 0.99
+        },
+        {
+          "ts": "2026-11-24T05:52:38.238957+00:00",
+          "handicap_line": 0.25,
+          "handicap_home": 0.83,
+          "handicap_away": 0.99
+        },
+        {
+          "ts": "2026-11-24T06:54:10.755365+00:00",
+          "handicap_line": 0.25,
+          "handicap_home": 0.85,
+          "handicap_away": 0.97
+        },
+        {
+          "ts": "2026-11-24T06:58:58.170071+00:00",
+          "handicap_line": 0.25,
+          "handicap_home": 0.85,
+          "handicap_away": 0.97
+        },
+        {
+          "ts": "2026-11-24T08:28:52.076086+00:00",
+          "handicap_line": 0.25,
+          "handicap_home": 0.86,
+          "handicap_away": 0.96
+        },
+        {
+          "ts": "2026-11-24T09:42:18.274609+00:00",
+          "handicap_line": 0.25,
+          "handicap_home": 0.86,
+          "handicap_away": 0.96
+        },
+        {
+          "ts": "2026-11-24T10:50:24.899671+00:00",
+          "handicap_line": 0.25,
+          "handicap_home": 0.86,
+          "handicap_away": 0.96
+        },
+        {
+          "ts": "2026-11-24T11:50:07.331989+00:00",
+          "handicap_line": 0.25,
+          "handicap_home": 1.02,
+          "handicap_away": 0.8
+        },
+        {
+          "ts": "2026-11-24T12:56:17.136888+00:00",
+          "handicap_line": 0.5,
+          "handicap_home": 0.87,
+          "handicap_away": 0.95
+        },
+        {
+          "ts": "2026-11-24T12:59:09.032671+00:00",
+          "handicap_line": 0.5,
+          "handicap_home": 0.87,
+          "handicap_away": 0.95
+        },
+        {
+          "ts": "2026-11-24T14:21:01.934404+00:00",
+          "handicap_line": 0.5,
+          "handicap_home": 0.9,
+          "handicap_away": 0.92
+        },
+        {
+          "ts": "2026-11-24T15:30:27.557932+00:00",
+          "handicap_line": 0.5,
+          "handicap_home": 1.02,
+          "handicap_away": 0.8
+        }
+      ],
+      "reliability": 1.0,
+      "competition_name": "亚冠精英",
+      "competition_class": "cup",
+      "sport": "football",
+      "lead_hours": 0.49234501888888893,
+      "prematch": true,
       "result": {
         "settled": false
       }
@@ -664,23 +1018,23 @@
       "pick": "大球（3.5）",
       "side": "over",
       "confidence": "strong",
-      "score": 73.9,
+      "score": 75.0,
       "line": 3.5,
       "reasons": [
         "大小球 盘口不变",
-        "大球升水 0.89->0.93",
+        "大球水位平稳",
         "主队近4场场均总进球 6.2",
         "客队近1场场均总进球 5.0"
       ],
       "signals": {
         "line_desc": "盘口不变",
-        "over_desc": "大球升水 0.89->0.93",
+        "over_desc": "大球水位平稳",
         "line_first": 3.5,
         "line_last": 3.5,
         "over_first": 0.89,
-        "over_last": 0.93,
+        "over_last": 0.9,
         "under_first": 0.99,
-        "under_last": 0.95,
+        "under_last": 0.98,
         "conflict": false
       },
       "history": [
@@ -713,6 +1067,12 @@
           "total_line": 3.5,
           "over": 0.89,
           "under": 0.99
+        },
+        {
+          "ts": "2026-11-23T20:00:00+00:00",
+          "total_line": 3.25,
+          "over": 0.85,
+          "under": 1.03
         },
         {
           "ts": "2026-11-23T20:00:00+00:00",
@@ -971,13 +1331,19 @@
           "total_line": 3.5,
           "over": 0.93,
           "under": 0.95
+        },
+        {
+          "ts": "2026-11-24T15:30:30.539829+00:00",
+          "total_line": 3.5,
+          "over": 0.9,
+          "under": 0.98
         }
       ],
-      "reliability": 1.0,
+      "reliability": 0.85,
       "competition_name": "欧洲冠军联赛",
       "competition_class": "cup",
       "sport": "football",
-      "lead_hours": 5.646628612777778,
+      "lead_hours": 4.491516714166667,
       "prematch": false,
       "result": {
         "settled": false
@@ -1043,6 +1409,12 @@
           "total_line": 4.25,
           "over": 0.84,
           "under": 1.04
+        },
+        {
+          "ts": "2026-11-23T20:00:00+00:00",
+          "total_line": 4.25,
+          "over": 1.02,
+          "under": 0.86
         },
         {
           "ts": "2026-11-23T20:00:00+00:00",
@@ -1301,13 +1673,19 @@
           "total_line": 4.5,
           "over": 0.98,
           "under": 0.9
+        },
+        {
+          "ts": "2026-11-24T15:30:27.280345+00:00",
+          "total_line": 4.5,
+          "over": 0.98,
+          "under": 0.9
         }
       ],
       "reliability": 0.6,
       "competition_name": "欧洲冠军联赛",
       "competition_class": "cup",
       "sport": "football",
-      "lead_hours": 5.648337228888889,
+      "lead_hours": 4.492422126388889,
       "prematch": false,
       "result": {
         "settled": false
@@ -1373,6 +1751,12 @@
           "handicap_line": 0.25,
           "handicap_home": 0.86,
           "handicap_away": 1.02
+        },
+        {
+          "ts": "2026-11-23T20:00:00+00:00",
+          "handicap_line": 0.25,
+          "handicap_home": 0.85,
+          "handicap_away": 1.03
         },
         {
           "ts": "2026-11-23T20:00:00+00:00",
@@ -1631,13 +2015,361 @@
           "handicap_line": 0.25,
           "handicap_home": 1.02,
           "handicap_away": 0.87
+        },
+        {
+          "ts": "2026-11-24T15:30:27.280451+00:00",
+          "handicap_line": 0.25,
+          "handicap_home": 1.02,
+          "handicap_away": 0.87
         }
       ],
       "reliability": 1.0,
       "competition_name": "欧洲冠军联赛",
       "competition_class": "cup",
       "sport": "football",
-      "lead_hours": 5.6477841575,
+      "lead_hours": 4.492422096944444,
+      "prematch": false,
+      "result": {
+        "settled": false
+      }
+    },
+    {
+      "fixture_key": "ucl|博德闪耀|lask林茨|2026-11-24",
+      "competition": "ucl",
+      "home": "博德闪耀",
+      "away": "LASK林茨",
+      "kickoff": "2026-11-24T17:45:00",
+      "market": "totals",
+      "pick": "大球（4）",
+      "side": "over",
+      "confidence": "strong",
+      "score": 70.5,
+      "line": 4.0,
+      "reasons": [
+        "大小球 升盘 3.75->4.0（看大）",
+        "大球升水 0.94->0.96",
+        "主队近4场场均总进球 3.2",
+        "客队近4场场均总进球 4.8",
+        "大小球盘口与水位方向背离，不好买"
+      ],
+      "signals": {
+        "line_desc": "升盘 3.75->4.0（看大）",
+        "over_desc": "大球升水 0.94->0.96",
+        "line_first": 3.75,
+        "line_last": 4.0,
+        "over_first": 0.94,
+        "over_last": 0.96,
+        "under_first": 0.94,
+        "under_last": 0.92,
+        "conflict": true
+      },
+      "history": [
+        {
+          "ts": "2026-11-23T16:52:55.357257+00:00",
+          "total_line": 3.75,
+          "over": 0.94,
+          "under": 0.94
+        },
+        {
+          "ts": "2026-11-23T17:45:00+00:00",
+          "total_line": 3.75,
+          "over": 0.95,
+          "under": 0.93
+        },
+        {
+          "ts": "2026-11-23T17:45:00+00:00",
+          "total_line": 3.75,
+          "over": 0.95,
+          "under": 0.93
+        },
+        {
+          "ts": "2026-11-23T17:45:00+00:00",
+          "total_line": 3.75,
+          "over": 0.95,
+          "under": 0.93
+        },
+        {
+          "ts": "2026-11-23T17:45:00+00:00",
+          "total_line": 3.75,
+          "over": 0.95,
+          "under": 0.93
+        },
+        {
+          "ts": "2026-11-23T17:45:00+00:00",
+          "total_line": 3.75,
+          "over": 0.95,
+          "under": 0.93
+        },
+        {
+          "ts": "2026-11-23T17:45:00+00:00",
+          "total_line": 3.75,
+          "over": 0.95,
+          "under": 0.93
+        },
+        {
+          "ts": "2026-11-23T17:45:00+00:00",
+          "total_line": 3.75,
+          "over": 0.95,
+          "under": 0.93
+        },
+        {
+          "ts": "2026-11-23T17:45:00+00:00",
+          "total_line": 3.75,
+          "over": 0.95,
+          "under": 0.93
+        },
+        {
+          "ts": "2026-11-23T17:45:00+00:00",
+          "total_line": 3.75,
+          "over": 0.95,
+          "under": 0.93
+        },
+        {
+          "ts": "2026-11-23T17:45:00+00:00",
+          "total_line": 3.75,
+          "over": 0.95,
+          "under": 0.93
+        },
+        {
+          "ts": "2026-11-23T17:45:00+00:00",
+          "total_line": 3.75,
+          "over": 0.95,
+          "under": 0.93
+        },
+        {
+          "ts": "2026-11-23T17:45:00+00:00",
+          "total_line": 3.75,
+          "over": 0.95,
+          "under": 0.93
+        },
+        {
+          "ts": "2026-11-23T17:45:00+00:00",
+          "total_line": 3.75,
+          "over": 0.95,
+          "under": 0.93
+        },
+        {
+          "ts": "2026-11-23T17:45:00+00:00",
+          "total_line": 3.75,
+          "over": 0.95,
+          "under": 0.93
+        },
+        {
+          "ts": "2026-11-23T17:45:00+00:00",
+          "total_line": 3.75,
+          "over": 0.95,
+          "under": 0.93
+        },
+        {
+          "ts": "2026-11-23T17:45:00+00:00",
+          "total_line": 3.75,
+          "over": 0.95,
+          "under": 0.93
+        },
+        {
+          "ts": "2026-11-23T17:45:00+00:00",
+          "total_line": 3.75,
+          "over": 0.95,
+          "under": 0.93
+        },
+        {
+          "ts": "2026-11-23T17:45:00+00:00",
+          "total_line": 3.75,
+          "over": 0.95,
+          "under": 0.93
+        },
+        {
+          "ts": "2026-11-23T17:45:00+00:00",
+          "total_line": 3.75,
+          "over": 0.95,
+          "under": 0.93
+        },
+        {
+          "ts": "2026-11-23T17:45:00+00:00",
+          "total_line": 3.75,
+          "over": 0.95,
+          "under": 0.93
+        },
+        {
+          "ts": "2026-11-23T17:45:00+00:00",
+          "total_line": 3.75,
+          "over": 0.95,
+          "under": 0.93
+        },
+        {
+          "ts": "2026-11-23T17:45:00+00:00",
+          "total_line": 3.75,
+          "over": 0.95,
+          "under": 0.93
+        },
+        {
+          "ts": "2026-11-23T17:45:00+00:00",
+          "total_line": 3.75,
+          "over": 0.95,
+          "under": 0.93
+        },
+        {
+          "ts": "2026-11-23T17:45:00+00:00",
+          "total_line": 3.75,
+          "over": 0.95,
+          "under": 0.93
+        },
+        {
+          "ts": "2026-11-23T17:45:00+00:00",
+          "total_line": 3.75,
+          "over": 0.95,
+          "under": 0.93
+        },
+        {
+          "ts": "2026-11-23T17:51:55.668730+00:00",
+          "total_line": 3.75,
+          "over": 0.94,
+          "under": 0.94
+        },
+        {
+          "ts": "2026-11-23T18:45:33.415773+00:00",
+          "total_line": 3.75,
+          "over": 0.94,
+          "under": 0.94
+        },
+        {
+          "ts": "2026-11-23T18:50:36.182631+00:00",
+          "total_line": 3.75,
+          "over": 0.94,
+          "under": 0.94
+        },
+        {
+          "ts": "2026-11-23T19:55:58.394750+00:00",
+          "total_line": 3.75,
+          "over": 0.94,
+          "under": 0.94
+        },
+        {
+          "ts": "2026-11-23T20:45:09.113684+00:00",
+          "total_line": 3.75,
+          "over": 0.94,
+          "under": 0.94
+        },
+        {
+          "ts": "2026-11-23T21:43:12.215565+00:00",
+          "total_line": 3.75,
+          "over": 0.94,
+          "under": 0.94
+        },
+        {
+          "ts": "2026-11-23T22:43:41.140728+00:00",
+          "total_line": 3.75,
+          "over": 0.94,
+          "under": 0.94
+        },
+        {
+          "ts": "2026-11-23T23:42:03.438607+00:00",
+          "total_line": 3.75,
+          "over": 0.91,
+          "under": 0.97
+        },
+        {
+          "ts": "2026-11-24T00:43:48.981041+00:00",
+          "total_line": 3.75,
+          "over": 0.91,
+          "under": 0.97
+        },
+        {
+          "ts": "2026-11-24T00:50:29.031211+00:00",
+          "total_line": 3.75,
+          "over": 0.91,
+          "under": 0.97
+        },
+        {
+          "ts": "2026-11-24T02:08:47.315774+00:00",
+          "total_line": 3.75,
+          "over": 0.91,
+          "under": 0.97
+        },
+        {
+          "ts": "2026-11-24T03:21:39.472501+00:00",
+          "total_line": 3.75,
+          "over": 0.91,
+          "under": 0.97
+        },
+        {
+          "ts": "2026-11-24T04:31:54.056966+00:00",
+          "total_line": 3.75,
+          "over": 0.9,
+          "under": 0.98
+        },
+        {
+          "ts": "2026-11-24T05:52:35.257760+00:00",
+          "total_line": 3.75,
+          "over": 0.88,
+          "under": 1.0
+        },
+        {
+          "ts": "2026-11-24T06:54:02.808106+00:00",
+          "total_line": 3.75,
+          "over": 0.88,
+          "under": 1.0
+        },
+        {
+          "ts": "2026-11-24T06:58:48.031812+00:00",
+          "total_line": 3.75,
+          "over": 0.88,
+          "under": 1.0
+        },
+        {
+          "ts": "2026-11-24T08:28:53.068981+00:00",
+          "total_line": 3.75,
+          "over": 0.86,
+          "under": 1.02
+        },
+        {
+          "ts": "2026-11-24T09:42:13.082352+00:00",
+          "total_line": 3.75,
+          "over": 0.86,
+          "under": 1.02
+        },
+        {
+          "ts": "2026-11-24T10:50:19.782470+00:00",
+          "total_line": 4.0,
+          "over": 1.02,
+          "under": 0.86
+        },
+        {
+          "ts": "2026-11-24T11:50:10.234043+00:00",
+          "total_line": 4.0,
+          "over": 1.02,
+          "under": 0.86
+        },
+        {
+          "ts": "2026-11-24T12:56:13.068085+00:00",
+          "total_line": 4.0,
+          "over": 1.02,
+          "under": 0.86
+        },
+        {
+          "ts": "2026-11-24T12:59:10.456179+00:00",
+          "total_line": 4.0,
+          "over": 1.02,
+          "under": 0.86
+        },
+        {
+          "ts": "2026-11-24T14:21:05.985912+00:00",
+          "total_line": 4.0,
+          "over": 1.02,
+          "under": 0.86
+        },
+        {
+          "ts": "2026-11-24T15:30:25.435116+00:00",
+          "total_line": 4.0,
+          "over": 0.96,
+          "under": 0.92
+        }
+      ],
+      "reliability": 0.6,
+      "competition_name": "欧洲冠军联赛",
+      "competition_class": "cup",
+      "sport": "football",
+      "lead_hours": 2.2429346900000002,
       "prematch": false,
       "result": {
         "settled": false

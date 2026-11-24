@@ -366,6 +366,21 @@
     "away": "卡达西亚",
     "kickoff": "2026-11-24T16:00:00",
     "bookmaker": "crown",
+    "ts": "2026-11-23T16:00:00+00:00",
+    "handicap_line": 0.25,
+    "handicap_home": 0.83,
+    "handicap_away": 0.99,
+    "total_line": 2.75,
+    "over": 0.92,
+    "under": 0.88
+  },
+  {
+    "fixture_key": "afc_cl|迪拜青年国民|卡达西亚|2026-11-24",
+    "competition": "afc_cl",
+    "home": "迪拜青年国民",
+    "away": "卡达西亚",
+    "kickoff": "2026-11-24T16:00:00",
+    "bookmaker": "crown",
     "ts": "2026-11-23T16:52:57.995142+00:00",
     "handicap_line": 0.25,
     "handicap_home": 0.87,
@@ -718,5 +733,20 @@
     "total_line": 3.0,
     "over": 0.99,
     "under": 0.81
+  },
+  {
+    "fixture_key": "afc_cl|迪拜青年国民|卡达西亚|2026-11-24",
+    "competition": "afc_cl",
+    "home": "迪拜青年国民",
+    "away": "卡达西亚",
+    "kickoff": "2026-11-24T16:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-24T15:30:27.557932+00:00",
+    "handicap_line": 0.5,
+    "handicap_home": 1.02,
+    "handicap_away": 0.8,
+    "total_line": 3.0,
+    "over": 0.82,
+    "under": 0.98
   }
 ]

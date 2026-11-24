@@ -441,6 +441,21 @@
     "away": "Lens",
     "kickoff": "2026-11-24T20:00:00",
     "bookmaker": "crown",
+    "ts": "2026-11-23T20:00:00+00:00",
+    "handicap_line": -1.5,
+    "handicap_home": 1.03,
+    "handicap_away": 0.85,
+    "total_line": 3.75,
+    "over": 0.99,
+    "under": 0.89
+  },
+  {
+    "fixture_key": "ucl|rbleipzig|lens|2026-11-24",
+    "competition": "ucl",
+    "home": "RB Leipzig",
+    "away": "Lens",
+    "kickoff": "2026-11-24T20:00:00",
+    "bookmaker": "crown",
     "ts": "2026-11-23T20:45:15.005084+00:00",
     "handicap_line": -1.5,
     "handicap_home": 0.98,
@@ -718,5 +733,20 @@
     "total_line": 3.75,
     "over": 0.93,
     "under": 0.95
+  },
+  {
+    "fixture_key": "ucl|rbleipzig|lens|2026-11-24",
+    "competition": "ucl",
+    "home": "RB Leipzig",
+    "away": "Lens",
+    "kickoff": "2026-11-24T20:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-24T15:30:30.177289+00:00",
+    "handicap_line": -1.5,
+    "handicap_home": 0.85,
+    "handicap_away": 1.04,
+    "total_line": 3.75,
+    "over": 0.91,
+    "under": 0.97
   }
 ]

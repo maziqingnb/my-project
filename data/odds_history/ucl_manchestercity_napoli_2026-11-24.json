@@ -441,6 +441,21 @@
     "away": "Napoli",
     "kickoff": "2026-11-24T20:00:00",
     "bookmaker": "crown",
+    "ts": "2026-11-23T20:00:00+00:00",
+    "handicap_line": -1.75,
+    "handicap_home": 0.84,
+    "handicap_away": 1.04,
+    "total_line": 3.5,
+    "over": 0.94,
+    "under": 0.94
+  },
+  {
+    "fixture_key": "ucl|manchestercity|napoli|2026-11-24",
+    "competition": "ucl",
+    "home": "Manchester City",
+    "away": "Napoli",
+    "kickoff": "2026-11-24T20:00:00",
+    "bookmaker": "crown",
     "ts": "2026-11-23T20:45:09.864307+00:00",
     "handicap_line": -1.75,
     "handicap_home": 0.92,
@@ -718,5 +733,20 @@
     "total_line": 3.75,
     "over": 0.93,
     "under": 0.95
+  },
+  {
+    "fixture_key": "ucl|manchestercity|napoli|2026-11-24",
+    "competition": "ucl",
+    "home": "Manchester City",
+    "away": "Napoli",
+    "kickoff": "2026-11-24T20:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-24T15:30:27.280409+00:00",
+    "handicap_line": -1.75,
+    "handicap_home": 0.87,
+    "handicap_away": 1.02,
+    "total_line": 3.75,
+    "over": 0.88,
+    "under": 1.0
   }
 ]
