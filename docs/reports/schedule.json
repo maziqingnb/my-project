@@ -1,66 +1,6 @@
 {
-  "generated_at": "2026-11-24T06:53:35.144473+00:00",
+  "generated_at": "2026-11-24T12:55:30.062812+00:00",
   "matches": [
-    {
-      "fixture_key": "afc_cl|纽卡斯尔喷气机|柏太阳神|2026-11-24",
-      "competition": "afc_cl",
-      "competition_name": "亚冠精英",
-      "competition_class": "cup",
-      "sport": "football",
-      "home": "纽卡斯尔喷气机",
-      "away": "柏太阳神",
-      "kickoff": "2026-11-24T07:45:00"
-    },
-    {
-      "fixture_key": "afc_cl|京都不死鸟|浦项制铁|2026-11-24",
-      "competition": "afc_cl",
-      "competition_name": "亚冠精英",
-      "competition_class": "cup",
-      "sport": "football",
-      "home": "京都不死鸟",
-      "away": "浦项制铁",
-      "kickoff": "2026-11-24T10:00:00"
-    },
-    {
-      "fixture_key": "afc_cl|大田市民|北京国安|2026-11-24",
-      "competition": "afc_cl",
-      "competition_name": "亚冠精英",
-      "competition_class": "cup",
-      "sport": "football",
-      "home": "大田市民",
-      "away": "北京国安",
-      "kickoff": "2026-11-24T10:00:00"
-    },
-    {
-      "fixture_key": "afc_cl|拉查布里府|柔佛|2026-11-24",
-      "competition": "afc_cl",
-      "competition_name": "亚冠精英",
-      "competition_class": "cup",
-      "sport": "football",
-      "home": "拉查布里府",
-      "away": "柔佛",
-      "kickoff": "2026-11-24T12:15:00"
-    },
-    {
-      "fixture_key": "afc_cl|河内公安|神户胜利船|2026-11-24",
-      "competition": "afc_cl",
-      "competition_name": "亚冠精英",
-      "competition_class": "cup",
-      "sport": "football",
-      "home": "河内公安",
-      "away": "神户胜利船",
-      "kickoff": "2026-11-24T12:15:00"
-    },
-    {
-      "fixture_key": "afc_cl|上海海港|武里南联|2026-11-24",
-      "competition": "afc_cl",
-      "competition_name": "亚冠精英",
-      "competition_class": "cup",
-      "sport": "football",
-      "home": "上海海港",
-      "away": "武里南联",
-      "kickoff": "2026-11-24T12:15:00"
-    },
     {
       "fixture_key": "afc_cl2|东孟加拉|侯塞因|2026-11-24",
       "competition": "afc_cl2",
@@ -2040,6 +1980,16 @@
       "home": "Cleveland Cavaliers",
       "away": "Miami Heat",
       "kickoff": "2026-11-29T20:30:00"
+    },
+    {
+      "fixture_key": "argentina|科尔多瓦学院|河床|2026-11-29",
+      "competition": "argentina",
+      "competition_name": "阿根廷甲级联赛",
+      "competition_class": "league",
+      "sport": "football",
+      "home": "科尔多瓦学院",
+      "away": "河床",
+      "kickoff": "2026-11-29T21:00:00"
     },
     {
       "fixture_key": "nba|sanantoniospurs|bostonceltics|2026-11-29",

@@ -396,6 +396,21 @@
     "away": "Real Betis",
     "kickoff": "2026-11-24T20:00:00",
     "bookmaker": "crown",
+    "ts": "2026-11-23T20:00:00+00:00",
+    "handicap_line": 1.75,
+    "handicap_home": 0.89,
+    "handicap_away": 0.99,
+    "total_line": 3.5,
+    "over": 1.0,
+    "under": 0.88
+  },
+  {
+    "fixture_key": "ucl|布拉迪斯拉发|realbetis|2026-11-24",
+    "competition": "ucl",
+    "home": "布拉迪斯拉发",
+    "away": "Real Betis",
+    "kickoff": "2026-11-24T20:00:00",
+    "bookmaker": "crown",
     "ts": "2026-11-23T20:45:14.378615+00:00",
     "handicap_line": 1.75,
     "handicap_home": 1.04,
@@ -628,5 +643,20 @@
     "total_line": 3.5,
     "over": 0.97,
     "under": 0.91
+  },
+  {
+    "fixture_key": "ucl|布拉迪斯拉发|realbetis|2026-11-24",
+    "competition": "ucl",
+    "home": "布拉迪斯拉发",
+    "away": "Real Betis",
+    "kickoff": "2026-11-24T20:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-24T12:56:20.366259+00:00",
+    "handicap_line": 1.75,
+    "handicap_home": 0.98,
+    "handicap_away": 0.91,
+    "total_line": 3.5,
+    "over": 0.96,
+    "under": 0.92
   }
 ]

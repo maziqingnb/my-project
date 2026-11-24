@@ -28,5 +28,15 @@
     "status": "upcoming",
     "home_goals": null,
     "away_goals": null
+  },
+  {
+    "key": "argentina|科尔多瓦学院|河床|2026-11-29",
+    "competition": "argentina",
+    "home": "科尔多瓦学院",
+    "away": "河床",
+    "kickoff": "2026-11-29T21:00:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
   }
 ]
