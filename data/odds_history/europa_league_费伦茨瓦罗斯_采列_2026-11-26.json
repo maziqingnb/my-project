@@ -148,5 +148,35 @@
     "total_line": 3.0,
     "over": 0.81,
     "under": 0.99
+  },
+  {
+    "fixture_key": "europa_league|费伦茨瓦罗斯|采列|2026-11-26",
+    "competition": "europa_league",
+    "home": "费伦茨瓦罗斯",
+    "away": "采列",
+    "kickoff": "2026-11-26T20:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-25T20:00:00+00:00",
+    "handicap_line": -1.5,
+    "handicap_home": 0.96,
+    "handicap_away": 0.86,
+    "total_line": 3.0,
+    "over": 0.81,
+    "under": 0.99
+  },
+  {
+    "fixture_key": "europa_league|费伦茨瓦罗斯|采列|2026-11-26",
+    "competition": "europa_league",
+    "home": "费伦茨瓦罗斯",
+    "away": "采列",
+    "kickoff": "2026-11-26T20:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-25T20:46:53.602260+00:00",
+    "handicap_line": -1.5,
+    "handicap_home": 0.99,
+    "handicap_away": 0.89,
+    "total_line": 3.0,
+    "over": 0.84,
+    "under": 1.03
   }
 ]
