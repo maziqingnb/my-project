@@ -2,6 +2,17 @@
   {
     "competition": "mls",
     "cls": "league",
+    "home": "圣何塞地震",
+    "away": "休斯敦迪纳摩",
+    "home_goals": 2,
+    "away_goals": 1,
+    "date": "2026-11-25",
+    "handicap_line": -0.25,
+    "total_line": 3.0
+  },
+  {
+    "competition": "mls",
+    "cls": "league",
     "home": "St. Louis CITY SC",
     "away": "洛杉矶FC",
     "home_goals": 3,

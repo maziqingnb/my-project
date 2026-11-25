@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25T04:11:53.970585+00:00",
+  "generated_at": "2026-11-25T05:24:43.999959+00:00",
   "matches": [
     {
       "fixture_key": "mls|sanjoseearthquakes|休斯敦迪纳摩|2026-11-25",
@@ -9,7 +9,7 @@
       "kickoff": "2026-11-25T03:00:00",
       "status": "live",
       "home_goals": 2,
-      "away_goals": 0
+      "away_goals": 1
     }
   ]
 }
