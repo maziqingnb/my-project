@@ -1,4 +1,15 @@
 {
-  "generated_at": "2026-11-25T22:39:16.594155+00:00",
-  "matches": []
+  "generated_at": "2026-11-25T23:32:13.121801+00:00",
+  "matches": [
+    {
+      "fixture_key": "brasileirao|米内罗竞技|科林蒂安|2026-11-25",
+      "competition": "brasileirao",
+      "home": "米内罗竞技",
+      "away": "科林蒂安",
+      "kickoff": "2026-11-25T23:00:00",
+      "status": "live",
+      "home_goals": 0,
+      "away_goals": 0
+    }
+  ]
 }
