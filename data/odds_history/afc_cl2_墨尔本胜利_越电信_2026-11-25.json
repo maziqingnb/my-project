@@ -216,6 +216,21 @@
     "away": "越电信",
     "kickoff": "2026-11-25T07:45:00",
     "bookmaker": "crown",
+    "ts": "2026-11-24T07:45:00+00:00",
+    "handicap_line": -1.25,
+    "handicap_home": 0.78,
+    "handicap_away": 0.98,
+    "total_line": 3.0,
+    "over": 0.95,
+    "under": 0.81
+  },
+  {
+    "fixture_key": "afc_cl2|墨尔本胜利|越电信|2026-11-25",
+    "competition": "afc_cl2",
+    "home": "墨尔本胜利",
+    "away": "越电信",
+    "kickoff": "2026-11-25T07:45:00",
+    "bookmaker": "crown",
     "ts": "2026-11-24T16:56:50.718561+00:00",
     "handicap_line": -1.5,
     "handicap_home": 0.8,
@@ -418,5 +433,20 @@
     "total_line": 2.75,
     "over": 0.93,
     "under": 0.87
+  },
+  {
+    "fixture_key": "afc_cl2|墨尔本胜利|越电信|2026-11-25",
+    "competition": "afc_cl2",
+    "home": "墨尔本胜利",
+    "away": "越电信",
+    "kickoff": "2026-11-25T07:45:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-25T05:54:08.489507+00:00",
+    "handicap_line": -1.5,
+    "handicap_home": 0.77,
+    "handicap_away": 1.05,
+    "total_line": 2.75,
+    "over": 0.96,
+    "under": 0.84
   }
 ]
