@@ -1,0 +1,32 @@
+[
+  {
+    "fixture_key": "afc_cl2|巴吞联|狮城水手|2026-11-26",
+    "competition": "afc_cl2",
+    "home": "巴吞联",
+    "away": "狮城水手",
+    "kickoff": "2026-11-26T12:15:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-25T12:15:00+00:00",
+    "handicap_line": 0.0,
+    "handicap_home": 1.0,
+    "handicap_away": 0.76,
+    "total_line": 2.75,
+    "over": 0.8,
+    "under": 0.96
+  },
+  {
+    "fixture_key": "afc_cl2|巴吞联|狮城水手|2026-11-26",
+    "competition": "afc_cl2",
+    "home": "巴吞联",
+    "away": "狮城水手",
+    "kickoff": "2026-11-26T12:15:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-25T16:39:41.332472+00:00",
+    "handicap_line": 0.0,
+    "handicap_home": 1.0,
+    "handicap_away": 0.76,
+    "total_line": 2.75,
+    "over": 0.8,
+    "under": 0.96
+  }
+]
