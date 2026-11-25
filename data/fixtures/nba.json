@@ -1,15 +1,5 @@
 [
   {
-    "key": "nba|orlandomagic|detroitpistons|2026-11-25",
-    "competition": "nba",
-    "home": "Orlando Magic",
-    "away": "Detroit Pistons",
-    "kickoff": "2026-11-25T00:00:00",
-    "status": "upcoming",
-    "home_goals": null,
-    "away_goals": null
-  },
-  {
     "key": "nba|washingtonwizards|bostonceltics|2026-11-25",
     "competition": "nba",
     "home": "Washington Wizards",
@@ -445,6 +435,36 @@
     "home": "Sacramento Kings",
     "away": "New Orleans Pelicans",
     "kickoff": "2026-12-01T03:00:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "nba|philadelphia76ers|memphisgrizzlies|2026-12-02",
+    "competition": "nba",
+    "home": "Philadelphia 76ers",
+    "away": "Memphis Grizzlies",
+    "kickoff": "2026-12-02T00:00:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "nba|clevelandcavaliers|indianapacers|2026-12-02",
+    "competition": "nba",
+    "home": "Cleveland Cavaliers",
+    "away": "Indiana Pacers",
+    "kickoff": "2026-12-02T00:00:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "nba|miamiheat|atlantahawks|2026-12-02",
+    "competition": "nba",
+    "home": "Miami Heat",
+    "away": "Atlanta Hawks",
+    "kickoff": "2026-12-02T00:30:00",
     "status": "upcoming",
     "home_goals": null,
     "away_goals": null

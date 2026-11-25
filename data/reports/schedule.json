@@ -1,16 +1,6 @@
 {
-  "generated_at": "2026-11-24T18:44:52.447015+00:00",
+  "generated_at": "2026-11-25T00:46:56.241155+00:00",
   "matches": [
-    {
-      "fixture_key": "nba|orlandomagic|detroitpistons|2026-11-25",
-      "competition": "nba",
-      "competition_name": "NBA 美国职业篮球联赛",
-      "competition_class": "league",
-      "sport": "basketball",
-      "home": "Orlando Magic",
-      "away": "Detroit Pistons",
-      "kickoff": "2026-11-25T00:00:00"
-    },
     {
       "fixture_key": "nba|washingtonwizards|bostonceltics|2026-11-25",
       "competition": "nba",
@@ -962,26 +952,6 @@
       "kickoff": "2026-11-28T15:00:00"
     },
     {
-      "fixture_key": "argentina|罗萨里奥中央|巴拉卡斯中央队|2026-11-28",
-      "competition": "argentina",
-      "competition_name": "阿根廷甲级联赛",
-      "competition_class": "league",
-      "sport": "football",
-      "home": "罗萨里奥中央",
-      "away": "巴拉卡斯中央队",
-      "kickoff": "2026-11-28T15:00:00"
-    },
-    {
-      "fixture_key": "argentina|萨斯菲尔德|阿根廷独立|2026-11-28",
-      "competition": "argentina",
-      "competition_name": "阿根廷甲级联赛",
-      "competition_class": "league",
-      "sport": "football",
-      "home": "萨斯菲尔德",
-      "away": "阿根廷独立",
-      "kickoff": "2026-11-28T15:00:00"
-    },
-    {
       "fixture_key": "greeksl|伊拉克里斯|帕纳多里高斯|2026-11-28",
       "competition": "greeksl",
       "competition_name": "希腊超级联赛",
@@ -1842,6 +1812,26 @@
       "kickoff": "2026-11-29T20:30:00"
     },
     {
+      "fixture_key": "argentina|罗萨里奥中央|巴拉卡斯中央队|2026-11-29",
+      "competition": "argentina",
+      "competition_name": "阿根廷甲级联赛",
+      "competition_class": "league",
+      "sport": "football",
+      "home": "罗萨里奥中央",
+      "away": "巴拉卡斯中央队",
+      "kickoff": "2026-11-29T21:00:00"
+    },
+    {
+      "fixture_key": "argentina|萨斯菲尔德|阿根廷独立|2026-11-29",
+      "competition": "argentina",
+      "competition_name": "阿根廷甲级联赛",
+      "competition_class": "league",
+      "sport": "football",
+      "home": "萨斯菲尔德",
+      "away": "阿根廷独立",
+      "kickoff": "2026-11-29T21:00:00"
+    },
+    {
       "fixture_key": "argentina|科尔多瓦学院|河床|2026-11-29",
       "competition": "argentina",
       "competition_name": "阿根廷甲级联赛",
@@ -2220,6 +2210,36 @@
       "home": "Coventry City",
       "away": "Ipswich Town",
       "kickoff": "2026-12-01T20:00:00"
+    },
+    {
+      "fixture_key": "nba|philadelphia76ers|memphisgrizzlies|2026-12-02",
+      "competition": "nba",
+      "competition_name": "NBA 美国职业篮球联赛",
+      "competition_class": "league",
+      "sport": "basketball",
+      "home": "Philadelphia 76ers",
+      "away": "Memphis Grizzlies",
+      "kickoff": "2026-12-02T00:00:00"
+    },
+    {
+      "fixture_key": "nba|clevelandcavaliers|indianapacers|2026-12-02",
+      "competition": "nba",
+      "competition_name": "NBA 美国职业篮球联赛",
+      "competition_class": "league",
+      "sport": "basketball",
+      "home": "Cleveland Cavaliers",
+      "away": "Indiana Pacers",
+      "kickoff": "2026-12-02T00:00:00"
+    },
+    {
+      "fixture_key": "nba|miamiheat|atlantahawks|2026-12-02",
+      "competition": "nba",
+      "competition_name": "NBA 美国职业篮球联赛",
+      "competition_class": "league",
+      "sport": "basketball",
+      "home": "Miami Heat",
+      "away": "Atlanta Hawks",
+      "kickoff": "2026-12-02T00:30:00"
     }
   ]
 }
