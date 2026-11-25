@@ -24,6 +24,17 @@
   {
     "competition": "afc_cl2",
     "cls": "cup",
+    "home": "纳萨夫",
+    "away": "哈尔迪亚",
+    "home_goals": 1,
+    "away_goals": 0,
+    "date": "2026-11-25",
+    "handicap_line": -0.5,
+    "total_line": 2.5
+  },
+  {
+    "competition": "afc_cl2",
+    "cls": "cup",
     "home": "东孟加拉",
     "away": "侯塞因",
     "home_goals": 1,
