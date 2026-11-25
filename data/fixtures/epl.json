@@ -108,5 +108,85 @@
     "status": "upcoming",
     "home_goals": null,
     "away_goals": null
+  },
+  {
+    "key": "epl|chelsea|crystalpalace|2026-12-02",
+    "competition": "epl",
+    "home": "Chelsea",
+    "away": "Crystal Palace",
+    "kickoff": "2026-12-02T19:30:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "epl|hullcity|nottinghamforest|2026-12-02",
+    "competition": "epl",
+    "home": "Hull City",
+    "away": "Nottingham Forest",
+    "kickoff": "2026-12-02T19:30:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "epl|liverpool|sunderland|2026-12-02",
+    "competition": "epl",
+    "home": "Liverpool",
+    "away": "Sunderland",
+    "kickoff": "2026-12-02T19:30:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "epl|manchestercity|leedsunited|2026-12-02",
+    "competition": "epl",
+    "home": "Manchester City",
+    "away": "Leeds United",
+    "kickoff": "2026-12-02T19:30:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "epl|bournemouth|brighton|2026-12-02",
+    "competition": "epl",
+    "home": "Bournemouth",
+    "away": "Brighton",
+    "kickoff": "2026-12-02T20:15:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "epl|astonvilla|everton|2026-12-02",
+    "competition": "epl",
+    "home": "Aston Villa",
+    "away": "Everton",
+    "kickoff": "2026-12-02T20:15:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "epl|brentford|arsenal|2026-12-02",
+    "competition": "epl",
+    "home": "Brentford",
+    "away": "Arsenal",
+    "kickoff": "2026-12-02T20:15:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "epl|newcastleunited|manchesterunited|2026-12-02",
+    "competition": "epl",
+    "home": "Newcastle United",
+    "away": "Manchester United",
+    "kickoff": "2026-12-02T20:15:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
   }
 ]

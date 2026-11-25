@@ -98,5 +98,25 @@
     "status": "upcoming",
     "home_goals": null,
     "away_goals": null
+  },
+  {
+    "key": "laliga|realsociedad|realmadrid|2026-12-02",
+    "competition": "laliga",
+    "home": "Real Sociedad",
+    "away": "Real Madrid",
+    "kickoff": "2026-12-02T18:00:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "laliga|barcelona|atleticomadrid|2026-12-02",
+    "competition": "laliga",
+    "home": "Barcelona",
+    "away": "Atletico Madrid",
+    "kickoff": "2026-12-02T20:30:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
   }
 ]

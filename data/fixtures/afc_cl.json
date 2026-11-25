@@ -58,5 +58,25 @@
     "status": "upcoming",
     "home_goals": null,
     "away_goals": null
+  },
+  {
+    "key": "afc_cl|全北现代|大阪钢巴|2026-12-02",
+    "competition": "afc_cl",
+    "home": "全北现代",
+    "away": "大阪钢巴",
+    "kickoff": "2026-12-02T10:00:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "afc_cl|狮子港|鹿岛鹿角|2026-12-02",
+    "competition": "afc_cl",
+    "home": "狮子港",
+    "away": "鹿岛鹿角",
+    "kickoff": "2026-12-02T12:15:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
   }
 ]

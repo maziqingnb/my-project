@@ -1,65 +1,5 @@
 [
   {
-    "key": "afc_cl2|纳萨夫|哈尔迪亚|2026-11-25",
-    "competition": "afc_cl2",
-    "home": "纳萨夫",
-    "away": "哈尔迪亚",
-    "kickoff": "2026-11-25T13:45:00",
-    "status": "upcoming",
-    "home_goals": null,
-    "away_goals": null
-  },
-  {
-    "key": "afc_cl2|科威特竞技|阿布扎比统一|2026-11-25",
-    "competition": "afc_cl2",
-    "home": "科威特竞技",
-    "away": "阿布扎比统一",
-    "kickoff": "2026-11-25T16:00:00",
-    "status": "upcoming",
-    "home_goals": null,
-    "away_goals": null
-  },
-  {
-    "key": "afc_cl2|阿布扎比半岛|高尔高赫|2026-11-25",
-    "competition": "afc_cl2",
-    "home": "阿布扎比半岛",
-    "away": "高尔高赫",
-    "kickoff": "2026-11-25T16:00:00",
-    "status": "upcoming",
-    "home_goals": null,
-    "away_goals": null
-  },
-  {
-    "key": "afc_cl2|慕哈瑞克|阿卡达格|2026-11-25",
-    "competition": "afc_cl2",
-    "home": "慕哈瑞克",
-    "away": "阿卡达格",
-    "kickoff": "2026-11-25T16:00:00",
-    "status": "upcoming",
-    "home_goals": null,
-    "away_goals": null
-  },
-  {
-    "key": "afc_cl2|阿尔费萨里安曼|赖扬|2026-11-25",
-    "competition": "afc_cl2",
-    "home": "阿尔费萨里安曼",
-    "away": "赖扬",
-    "kickoff": "2026-11-25T16:00:00",
-    "status": "upcoming",
-    "home_goals": null,
-    "away_goals": null
-  },
-  {
-    "key": "afc_cl2|布赖代合作|拿达|2026-11-25",
-    "competition": "afc_cl2",
-    "home": "布赖代合作",
-    "away": "拿达",
-    "kickoff": "2026-11-25T18:15:00",
-    "status": "upcoming",
-    "home_goals": null,
-    "away_goals": null
-  },
-  {
     "key": "afc_cl2|淡滨尼流浪者|上海申花|2026-11-26",
     "competition": "afc_cl2",
     "home": "淡滨尼流浪者",
@@ -115,6 +55,26 @@
     "home": "柴桢",
     "away": "町田泽维亚",
     "kickoff": "2026-11-26T12:15:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "afc_cl2|fc首尔|墨尔本胜利|2026-12-02",
+    "competition": "afc_cl2",
+    "home": "FC首尔",
+    "away": "墨尔本胜利",
+    "kickoff": "2026-12-02T10:00:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "afc_cl2|越电信|万隆|2026-12-02",
+    "competition": "afc_cl2",
+    "home": "越电信",
+    "away": "万隆",
+    "kickoff": "2026-12-02T10:00:00",
     "status": "upcoming",
     "home_goals": null,
     "away_goals": null
