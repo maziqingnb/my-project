@@ -184,6 +184,21 @@
     "competition": "mls",
     "home": "圣何塞地震",
     "away": "休斯敦迪纳摩",
+    "kickoff": "2026-11-25T03:30:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-24T03:30:00+00:00",
+    "handicap_line": -0.25,
+    "handicap_home": 0.9,
+    "handicap_away": 0.98,
+    "total_line": 3.0,
+    "over": 1.03,
+    "under": 0.84
+  },
+  {
+    "fixture_key": "mls|圣何塞地震|休斯敦迪纳摩|2026-11-25",
+    "competition": "mls",
+    "home": "圣何塞地震",
+    "away": "休斯敦迪纳摩",
     "kickoff": "2026-11-25T03:00:00",
     "bookmaker": "crown",
     "ts": "2026-11-24T16:56:43.922191+00:00",
@@ -358,5 +373,20 @@
     "total_line": 2.75,
     "over": 0.9,
     "under": 0.97
+  },
+  {
+    "fixture_key": "mls|圣何塞地震|休斯敦迪纳摩|2026-11-25",
+    "competition": "mls",
+    "home": "圣何塞地震",
+    "away": "休斯敦迪纳摩",
+    "kickoff": "2026-11-25T03:30:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-25T03:29:54.023046+00:00",
+    "handicap_line": -0.5,
+    "handicap_home": 0.94,
+    "handicap_away": 0.94,
+    "total_line": 2.75,
+    "over": 0.97,
+    "under": 0.89
   }
 ]
