@@ -2,6 +2,39 @@
   {
     "competition": "nba",
     "cls": "league",
+    "home": "Denver Nuggets",
+    "away": "Dallas Mavericks",
+    "home_goals": 101,
+    "away_goals": 120,
+    "date": "2026-11-25",
+    "handicap_line": null,
+    "total_line": null
+  },
+  {
+    "competition": "nba",
+    "cls": "league",
+    "home": "Orlando Magic",
+    "away": "Detroit Pistons",
+    "home_goals": 86,
+    "away_goals": 104,
+    "date": "2026-11-25",
+    "handicap_line": null,
+    "total_line": null
+  },
+  {
+    "competition": "nba",
+    "cls": "league",
+    "home": "Washington Wizards",
+    "away": "Boston Celtics",
+    "home_goals": 116,
+    "away_goals": 131,
+    "date": "2026-11-25",
+    "handicap_line": null,
+    "total_line": null
+  },
+  {
+    "competition": "nba",
+    "cls": "league",
     "home": "Charlotte Hornets",
     "away": "Memphis Grizzlies",
     "home_goals": 111,

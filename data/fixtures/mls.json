@@ -1,15 +1,5 @@
 [
   {
-    "key": "mls|圣何塞地震|休斯敦迪纳摩|2026-11-25",
-    "competition": "mls",
-    "home": "圣何塞地震",
-    "away": "休斯敦迪纳摩",
-    "kickoff": "2026-11-25T03:00:00",
-    "status": "upcoming",
-    "home_goals": null,
-    "away_goals": null
-  },
-  {
     "key": "mls|哥伦布机员|迈阿密国际|2026-11-28",
     "competition": "mls",
     "home": "哥伦布机员",

@@ -306,6 +306,21 @@
     "away": "Bayern Munich",
     "kickoff": "2026-11-25T20:00:00",
     "bookmaker": "crown",
+    "ts": "2026-11-24T20:00:00+00:00",
+    "handicap_line": 1.75,
+    "handicap_home": 0.87,
+    "handicap_away": 1.01,
+    "total_line": 3.5,
+    "over": 0.88,
+    "under": 1.0
+  },
+  {
+    "fixture_key": "ucl|lille|bayernmunich|2026-11-25",
+    "competition": "ucl",
+    "home": "Lille",
+    "away": "Bayern Munich",
+    "kickoff": "2026-11-25T20:00:00",
+    "bookmaker": "crown",
     "ts": "2026-11-24T20:45:27.367871+00:00",
     "handicap_line": 0.75,
     "handicap_home": 1.02,
@@ -448,5 +463,20 @@
     "total_line": 2.75,
     "over": 1.01,
     "under": 0.87
+  },
+  {
+    "fixture_key": "ucl|lille|bayernmunich|2026-11-25",
+    "competition": "ucl",
+    "home": "Lille",
+    "away": "Bayern Munich",
+    "kickoff": "2026-11-25T20:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-25T06:57:08.555621+00:00",
+    "handicap_line": 1.0,
+    "handicap_home": 0.82,
+    "handicap_away": 1.07,
+    "total_line": 2.5,
+    "over": 0.83,
+    "under": 1.05
   }
 ]

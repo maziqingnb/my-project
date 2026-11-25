@@ -306,6 +306,21 @@
     "away": "维京",
     "kickoff": "2026-11-25T20:00:00",
     "bookmaker": "crown",
+    "ts": "2026-11-24T20:00:00+00:00",
+    "handicap_line": -2.5,
+    "handicap_home": 0.88,
+    "handicap_away": 1.0,
+    "total_line": 3.75,
+    "over": 0.99,
+    "under": 0.89
+  },
+  {
+    "fixture_key": "ucl|atleticomadrid|维京|2026-11-25",
+    "competition": "ucl",
+    "home": "Atletico Madrid",
+    "away": "维京",
+    "kickoff": "2026-11-25T20:00:00",
+    "bookmaker": "crown",
     "ts": "2026-11-24T20:45:24.122007+00:00",
     "handicap_line": -2.5,
     "handicap_home": 0.85,
@@ -448,5 +463,20 @@
     "total_line": 3.75,
     "over": 0.85,
     "under": 1.03
+  },
+  {
+    "fixture_key": "ucl|atleticomadrid|维京|2026-11-25",
+    "competition": "ucl",
+    "home": "Atletico Madrid",
+    "away": "维京",
+    "kickoff": "2026-11-25T20:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-25T06:57:02.030621+00:00",
+    "handicap_line": -2.5,
+    "handicap_home": 0.92,
+    "handicap_away": 0.97,
+    "total_line": 3.75,
+    "over": 0.88,
+    "under": 1.0
   }
 ]
