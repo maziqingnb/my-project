@@ -1,45 +1,4 @@
 {
-  "generated_at": "2026-11-25T16:38:20.056705+00:00",
-  "matches": [
-    {
-      "fixture_key": "afc_cl2|科威特竞技|阿布扎比统一|2026-11-25",
-      "competition": "afc_cl2",
-      "home": "科威特竞技",
-      "away": "阿布扎比统一",
-      "kickoff": "2026-11-25T16:00:00",
-      "status": "live",
-      "home_goals": 0,
-      "away_goals": 0
-    },
-    {
-      "fixture_key": "afc_cl2|阿布扎比半岛|高尔高赫|2026-11-25",
-      "competition": "afc_cl2",
-      "home": "阿布扎比半岛",
-      "away": "高尔高赫",
-      "kickoff": "2026-11-25T16:00:00",
-      "status": "live",
-      "home_goals": 0,
-      "away_goals": 0
-    },
-    {
-      "fixture_key": "afc_cl2|慕哈瑞克|阿卡达格|2026-11-25",
-      "competition": "afc_cl2",
-      "home": "慕哈瑞克",
-      "away": "阿卡达格",
-      "kickoff": "2026-11-25T16:00:00",
-      "status": "live",
-      "home_goals": 1,
-      "away_goals": 2
-    },
-    {
-      "fixture_key": "afc_cl2|阿尔费萨里安曼|赖扬|2026-11-25",
-      "competition": "afc_cl2",
-      "home": "阿尔费萨里安曼",
-      "away": "赖扬",
-      "kickoff": "2026-11-25T16:00:00",
-      "status": "live",
-      "home_goals": 0,
-      "away_goals": 0
-    }
-  ]
+  "generated_at": "2026-11-25T17:00:24.259281+00:00",
+  "matches": []
 }
