@@ -1,15 +1,4 @@
 {
-  "generated_at": "2026-11-25T05:24:43.999959+00:00",
-  "matches": [
-    {
-      "fixture_key": "mls|sanjoseearthquakes|休斯敦迪纳摩|2026-11-25",
-      "competition": "mls",
-      "home": "San Jose Earthquakes",
-      "away": "休斯敦迪纳摩",
-      "kickoff": "2026-11-25T03:00:00",
-      "status": "live",
-      "home_goals": 2,
-      "away_goals": 1
-    }
-  ]
+  "generated_at": "2026-11-25T06:24:27.136054+00:00",
+  "matches": []
 }
