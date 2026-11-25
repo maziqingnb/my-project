@@ -291,6 +291,21 @@
     "away": "赖扬",
     "kickoff": "2026-11-25T16:00:00",
     "bookmaker": "crown",
+    "ts": "2026-11-24T16:00:00+00:00",
+    "handicap_line": 0.25,
+    "handicap_home": 0.91,
+    "handicap_away": 0.85,
+    "total_line": 2.75,
+    "over": 0.94,
+    "under": 0.82
+  },
+  {
+    "fixture_key": "afc_cl2|阿尔费萨里安曼|赖扬|2026-11-25",
+    "competition": "afc_cl2",
+    "home": "阿尔费萨里安曼",
+    "away": "赖扬",
+    "kickoff": "2026-11-25T16:00:00",
+    "bookmaker": "crown",
     "ts": "2026-11-24T16:56:55.534165+00:00",
     "handicap_line": 0.25,
     "handicap_home": 1.03,
@@ -568,5 +583,20 @@
     "total_line": 2.75,
     "over": 0.96,
     "under": 0.84
+  },
+  {
+    "fixture_key": "afc_cl2|阿尔费萨里安曼|赖扬|2026-11-25",
+    "competition": "afc_cl2",
+    "home": "阿尔费萨里安曼",
+    "away": "赖扬",
+    "kickoff": "2026-11-25T16:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-25T11:25:54.536751+00:00",
+    "handicap_line": 0.25,
+    "handicap_home": 0.92,
+    "handicap_away": 0.9,
+    "total_line": 2.75,
+    "over": 0.93,
+    "under": 0.87
   }
 ]
