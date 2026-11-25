@@ -201,6 +201,21 @@
     "away": "全北现代",
     "kickoff": "2026-11-25T10:00:00",
     "bookmaker": "crown",
+    "ts": "2026-11-24T10:00:00+00:00",
+    "handicap_line": -1.0,
+    "handicap_home": 0.88,
+    "handicap_away": 0.94,
+    "total_line": 2.75,
+    "over": 0.91,
+    "under": 0.89
+  },
+  {
+    "fixture_key": "afc_cl|鹿岛鹿角|全北现代|2026-11-25",
+    "competition": "afc_cl",
+    "home": "鹿岛鹿角",
+    "away": "全北现代",
+    "kickoff": "2026-11-25T10:00:00",
+    "bookmaker": "crown",
     "ts": "2026-11-24T16:56:46.754558+00:00",
     "handicap_line": -1.0,
     "handicap_home": 0.81,
@@ -388,5 +403,20 @@
     "total_line": 2.75,
     "over": 0.85,
     "under": 0.95
+  },
+  {
+    "fixture_key": "afc_cl|鹿岛鹿角|全北现代|2026-11-25",
+    "competition": "afc_cl",
+    "home": "鹿岛鹿角",
+    "away": "全北现代",
+    "kickoff": "2026-11-25T10:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-25T04:40:41.606348+00:00",
+    "handicap_line": -1.0,
+    "handicap_home": 0.87,
+    "handicap_away": 0.95,
+    "total_line": 2.75,
+    "over": 0.89,
+    "under": 0.91
   }
 ]

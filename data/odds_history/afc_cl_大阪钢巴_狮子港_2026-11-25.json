@@ -201,6 +201,21 @@
     "away": "狮子港",
     "kickoff": "2026-11-25T10:00:00",
     "bookmaker": "crown",
+    "ts": "2026-11-24T10:00:00+00:00",
+    "handicap_line": -1.5,
+    "handicap_home": 1.01,
+    "handicap_away": 0.81,
+    "total_line": 3.5,
+    "over": 0.97,
+    "under": 0.83
+  },
+  {
+    "fixture_key": "afc_cl|大阪钢巴|狮子港|2026-11-25",
+    "competition": "afc_cl",
+    "home": "大阪钢巴",
+    "away": "狮子港",
+    "kickoff": "2026-11-25T10:00:00",
+    "bookmaker": "crown",
     "ts": "2026-11-24T16:56:44.789416+00:00",
     "handicap_line": -1.5,
     "handicap_home": 0.89,
@@ -388,5 +403,20 @@
     "total_line": 3.5,
     "over": 1.0,
     "under": 0.8
+  },
+  {
+    "fixture_key": "afc_cl|大阪钢巴|狮子港|2026-11-25",
+    "competition": "afc_cl",
+    "home": "大阪钢巴",
+    "away": "狮子港",
+    "kickoff": "2026-11-25T10:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-25T04:40:41.606287+00:00",
+    "handicap_line": -1.75,
+    "handicap_home": 0.99,
+    "handicap_away": 0.83,
+    "total_line": 3.5,
+    "over": 0.9,
+    "under": 0.9
   }
 ]
