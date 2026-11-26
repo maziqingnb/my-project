@@ -2,6 +2,39 @@
   {
     "competition": "afc_cl2",
     "cls": "cup",
+    "home": "古晋足协",
+    "away": "金边皇冠",
+    "home_goals": 3,
+    "away_goals": 0,
+    "date": "2026-11-26",
+    "handicap_line": -0.75,
+    "total_line": 2.75
+  },
+  {
+    "competition": "afc_cl2",
+    "cls": "cup",
+    "home": "江原FC",
+    "away": "杰志",
+    "home_goals": 3,
+    "away_goals": 2,
+    "date": "2026-11-26",
+    "handicap_line": -1.25,
+    "total_line": 2.75
+  },
+  {
+    "competition": "afc_cl2",
+    "cls": "cup",
+    "home": "淡滨尼流浪者",
+    "away": "上海申花",
+    "home_goals": 1,
+    "away_goals": 7,
+    "date": "2026-11-26",
+    "handicap_line": 1.25,
+    "total_line": 3.25
+  },
+  {
+    "competition": "afc_cl2",
+    "cls": "cup",
     "home": "万隆",
     "away": "FC首尔",
     "home_goals": 3,
