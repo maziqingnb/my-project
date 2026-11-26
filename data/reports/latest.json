@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-11-26T21:44:28.425966+00:00",
+  "generated_at": "2026-11-26T22:32:32.206195+00:00",
   "scope": "16 个联赛 + 5 个杯赛",
   "note": "杯赛与联赛数据分开计算；仅开赛前 6h 内出推荐；命中率只统计强推",
   "total": 0,
   "stats": {
     "overall": {
       "counts": {
-        "win": 88,
+        "win": 89,
         "half_win": 6,
         "push": 7,
         "half_loss": 5,
-        "loss": 40
+        "loss": 39
       },
       "settled": 139,
-      "hit": 94,
-      "rate": 67.6
+      "hit": 95,
+      "rate": 68.3
     },
     "by_market": {
       "handicap": {
@@ -31,15 +31,15 @@
       },
       "totals": {
         "counts": {
-          "win": 51,
+          "win": 52,
           "half_win": 4,
           "push": 3,
           "half_loss": 3,
-          "loss": 25
+          "loss": 24
         },
         "settled": 83,
-        "hit": 55,
-        "rate": 66.3
+        "hit": 56,
+        "rate": 67.5
       }
     },
     "by_competition": {
@@ -129,15 +129,15 @@
       },
       "europa_league": {
         "counts": {
-          "win": 9,
+          "win": 10,
           "half_win": 0,
           "push": 1,
           "half_loss": 0,
-          "loss": 6
+          "loss": 5
         },
         "settled": 15,
-        "hit": 9,
-        "rate": 60.0
+        "hit": 10,
+        "rate": 66.7
       },
       "greeksl": {
         "counts": {
@@ -311,15 +311,15 @@
       },
       "football": {
         "counts": {
-          "win": 86,
+          "win": 87,
           "half_win": 6,
           "push": 7,
           "half_loss": 5,
-          "loss": 39
+          "loss": 38
         },
         "settled": 136,
-        "hit": 92,
-        "rate": 67.6
+        "hit": 93,
+        "rate": 68.4
       }
     }
   },

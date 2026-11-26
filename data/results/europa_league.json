@@ -24,6 +24,17 @@
   {
     "competition": "europa_league",
     "cls": "cup",
+    "home": "Crystal Palace",
+    "away": "Real Sociedad",
+    "home_goals": 2,
+    "away_goals": 1,
+    "date": "2026-11-26",
+    "handicap_line": -0.25,
+    "total_line": 3.0
+  },
+  {
+    "competition": "europa_league",
+    "cls": "cup",
     "home": "Dinamo Zagreb",
     "away": "Bayer Leverkusen",
     "home_goals": 0,
@@ -35,6 +46,72 @@
   {
     "competition": "europa_league",
     "cls": "cup",
+    "home": "Ferencvaros",
+    "away": "采列",
+    "home_goals": 0,
+    "away_goals": 0,
+    "date": "2026-11-26",
+    "handicap_line": null,
+    "total_line": null
+  },
+  {
+    "competition": "europa_league",
+    "cls": "cup",
+    "home": "Hoffenheim",
+    "away": "格拉茨风暴",
+    "home_goals": 3,
+    "away_goals": 1,
+    "date": "2026-11-26",
+    "handicap_line": -1.5,
+    "total_line": 3.25
+  },
+  {
+    "competition": "europa_league",
+    "cls": "cup",
+    "home": "Juventus",
+    "away": "Omonia Nicosia",
+    "home_goals": 4,
+    "away_goals": 1,
+    "date": "2026-11-26",
+    "handicap_line": null,
+    "total_line": null
+  },
+  {
+    "competition": "europa_league",
+    "cls": "cup",
+    "home": "Juventus",
+    "away": "奥莫尼亚",
+    "home_goals": 4,
+    "away_goals": 1,
+    "date": "2026-11-26",
+    "handicap_line": -2.0,
+    "total_line": 3.25
+  },
+  {
+    "competition": "europa_league",
+    "cls": "cup",
+    "home": "Lyon",
+    "away": "Lillestrom",
+    "home_goals": 0,
+    "away_goals": 0,
+    "date": "2026-11-26",
+    "handicap_line": null,
+    "total_line": null
+  },
+  {
+    "competition": "europa_league",
+    "cls": "cup",
+    "home": "Lyon",
+    "away": "利勒斯特罗姆",
+    "home_goals": 0,
+    "away_goals": 0,
+    "date": "2026-11-26",
+    "handicap_line": -2.0,
+    "total_line": 3.5
+  },
+  {
+    "competition": "europa_league",
+    "cls": "cup",
     "home": "Marseille",
     "away": "索非亚列夫斯基",
     "home_goals": 1,
@@ -42,6 +119,61 @@
     "date": "2026-11-26",
     "handicap_line": -1.0,
     "total_line": 2.75
+  },
+  {
+    "competition": "europa_league",
+    "cls": "cup",
+    "home": "NEC Nijmegen",
+    "away": "Rennes",
+    "home_goals": 3,
+    "away_goals": 1,
+    "date": "2026-11-26",
+    "handicap_line": null,
+    "total_line": null
+  },
+  {
+    "competition": "europa_league",
+    "cls": "cup",
+    "home": "OFI Crete",
+    "away": "安德莱赫特",
+    "home_goals": 1,
+    "away_goals": 3,
+    "date": "2026-11-26",
+    "handicap_line": null,
+    "total_line": null
+  },
+  {
+    "competition": "europa_league",
+    "cls": "cup",
+    "home": "OFI克里特",
+    "away": "安德莱赫特",
+    "home_goals": 1,
+    "away_goals": 3,
+    "date": "2026-11-26",
+    "handicap_line": 0.5,
+    "total_line": 2.75
+  },
+  {
+    "competition": "europa_league",
+    "cls": "cup",
+    "home": "Sunderland",
+    "away": "比亚韦斯托克雅盖隆",
+    "home_goals": 1,
+    "away_goals": 1,
+    "date": "2026-11-26",
+    "handicap_line": -1.5,
+    "total_line": 2.75
+  },
+  {
+    "competition": "europa_league",
+    "cls": "cup",
+    "home": "Torreense",
+    "away": "Celtic",
+    "home_goals": 1,
+    "away_goals": 2,
+    "date": "2026-11-26",
+    "handicap_line": null,
+    "total_line": null
   },
   {
     "competition": "europa_league",
@@ -79,6 +211,17 @@
   {
     "competition": "europa_league",
     "cls": "cup",
+    "home": "奈梅亨",
+    "away": "Rennes",
+    "home_goals": 3,
+    "away_goals": 1,
+    "date": "2026-11-26",
+    "handicap_line": 0.25,
+    "total_line": 3.0
+  },
+  {
+    "competition": "europa_league",
+    "cls": "cup",
     "home": "奥林匹亚科斯",
     "away": "AC Milan",
     "home_goals": 2,
@@ -86,6 +229,39 @@
     "date": "2026-11-26",
     "handicap_line": -0.25,
     "total_line": 2.5
+  },
+  {
+    "competition": "europa_league",
+    "cls": "cup",
+    "home": "布拉格斯巴达",
+    "away": "AZ Alkmaar",
+    "home_goals": 2,
+    "away_goals": 4,
+    "date": "2026-11-26",
+    "handicap_line": null,
+    "total_line": null
+  },
+  {
+    "competition": "europa_league",
+    "cls": "cup",
+    "home": "布拉格斯巴达",
+    "away": "阿尔克马尔",
+    "home_goals": 2,
+    "away_goals": 4,
+    "date": "2026-11-26",
+    "handicap_line": 0.0,
+    "total_line": 2.75
+  },
+  {
+    "competition": "europa_league",
+    "cls": "cup",
+    "home": "杜连斯",
+    "away": "凯尔特人",
+    "home_goals": 1,
+    "away_goals": 2,
+    "date": "2026-11-26",
+    "handicap_line": 0.75,
+    "total_line": 3.0
   },
   {
     "competition": "europa_league",
@@ -141,6 +317,17 @@
     "date": "2026-11-26",
     "handicap_line": -1.75,
     "total_line": 3.5
+  },
+  {
+    "competition": "europa_league",
+    "cls": "cup",
+    "home": "费伦茨瓦罗斯",
+    "away": "采列",
+    "home_goals": 0,
+    "away_goals": 0,
+    "date": "2026-11-26",
+    "handicap_line": -1.5,
+    "total_line": 3.0
   },
   {
     "competition": "europa_league",
