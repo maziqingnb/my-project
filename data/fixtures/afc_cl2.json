@@ -18,5 +18,65 @@
     "status": "upcoming",
     "home_goals": null,
     "away_goals": null
+  },
+  {
+    "key": "afc_cl2|阿德莱德联|巴吞联|2026-12-03",
+    "competition": "afc_cl2",
+    "home": "阿德莱德联",
+    "away": "巴吞联",
+    "kickoff": "2026-12-03T10:00:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "afc_cl2|狮城水手|和富大埔|2026-12-03",
+    "competition": "afc_cl2",
+    "home": "狮城水手",
+    "away": "和富大埔",
+    "kickoff": "2026-12-03T10:00:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "afc_cl2|町田泽维亚|淡滨尼流浪者|2026-12-03",
+    "competition": "afc_cl2",
+    "home": "町田泽维亚",
+    "away": "淡滨尼流浪者",
+    "kickoff": "2026-12-03T10:00:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "afc_cl2|上海申花|柴桢|2026-12-03",
+    "competition": "afc_cl2",
+    "home": "上海申花",
+    "away": "柴桢",
+    "kickoff": "2026-12-03T10:00:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "afc_cl2|杰志|古晋足协|2026-12-03",
+    "competition": "afc_cl2",
+    "home": "杰志",
+    "away": "古晋足协",
+    "kickoff": "2026-12-03T12:15:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "afc_cl2|金边皇冠|江原fc|2026-12-03",
+    "competition": "afc_cl2",
+    "home": "金边皇冠",
+    "away": "江原FC",
+    "kickoff": "2026-12-03T12:15:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
   }
 ]

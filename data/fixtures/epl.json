@@ -188,5 +188,15 @@
     "status": "upcoming",
     "home_goals": null,
     "away_goals": null
+  },
+  {
+    "key": "epl|tottenhamhotspur|fulham|2026-12-03",
+    "competition": "epl",
+    "home": "Tottenham Hotspur",
+    "away": "Fulham",
+    "kickoff": "2026-12-03T20:00:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
   }
 ]
