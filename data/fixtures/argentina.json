@@ -1,20 +1,10 @@
 [
   {
-    "key": "argentina|罗萨里奥中央|巴拉卡斯中央队|2026-11-29",
-    "competition": "argentina",
-    "home": "罗萨里奥中央",
-    "away": "巴拉卡斯中央队",
-    "kickoff": "2026-11-29T21:00:00",
-    "status": "upcoming",
-    "home_goals": null,
-    "away_goals": null
-  },
-  {
-    "key": "argentina|萨斯菲尔德|阿根廷独立|2026-11-29",
+    "key": "argentina|萨斯菲尔德|阿根廷独立|2026-11-28",
     "competition": "argentina",
     "home": "萨斯菲尔德",
     "away": "阿根廷独立",
-    "kickoff": "2026-11-29T21:00:00",
+    "kickoff": "2026-11-28T23:00:00",
     "status": "upcoming",
     "home_goals": null,
     "away_goals": null
@@ -24,7 +14,17 @@
     "competition": "argentina",
     "home": "科尔多瓦学院",
     "away": "河床",
-    "kickoff": "2026-11-29T21:00:00",
+    "kickoff": "2026-11-29T01:00:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "argentina|罗萨里奥中央|巴拉卡斯中央队|2026-11-29",
+    "competition": "argentina",
+    "home": "罗萨里奥中央",
+    "away": "巴拉卡斯中央队",
+    "kickoff": "2026-11-29T20:45:00",
     "status": "upcoming",
     "home_goals": null,
     "away_goals": null
