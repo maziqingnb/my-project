@@ -351,6 +351,21 @@
     "away": "贝尔谢巴夏普尔",
     "kickoff": "2026-11-26T17:45:00",
     "bookmaker": "crown",
+    "ts": "2026-11-25T17:45:00+00:00",
+    "handicap_line": -1.75,
+    "handicap_home": 0.85,
+    "handicap_away": 0.97,
+    "total_line": 3.5,
+    "over": 0.99,
+    "under": 0.81
+  },
+  {
+    "fixture_key": "europa_league|贝西克塔斯|贝尔谢巴夏普尔|2026-11-26",
+    "competition": "europa_league",
+    "home": "贝西克塔斯",
+    "away": "贝尔谢巴夏普尔",
+    "kickoff": "2026-11-26T17:45:00",
+    "bookmaker": "crown",
     "ts": "2026-11-25T18:39:43.047677+00:00",
     "handicap_line": -2.0,
     "handicap_home": 0.98,
@@ -628,5 +643,20 @@
     "total_line": 3.5,
     "over": 1.03,
     "under": 0.84
+  },
+  {
+    "fixture_key": "europa_league|贝西克塔斯|贝尔谢巴夏普尔|2026-11-26",
+    "competition": "europa_league",
+    "home": "贝西克塔斯",
+    "away": "贝尔谢巴夏普尔",
+    "kickoff": "2026-11-26T17:45:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-26T12:58:10.870075+00:00",
+    "handicap_line": -1.75,
+    "handicap_home": 0.86,
+    "handicap_away": 1.03,
+    "total_line": 3.5,
+    "over": 1.01,
+    "under": 0.86
   }
 ]

@@ -1,66 +1,6 @@
 {
-  "generated_at": "2026-11-26T06:55:34.264100+00:00",
+  "generated_at": "2026-11-26T12:57:30.874785+00:00",
   "matches": [
-    {
-      "fixture_key": "afc_cl2|淡滨尼流浪者|上海申花|2026-11-26",
-      "competition": "afc_cl2",
-      "competition_name": "亚冠二级",
-      "competition_class": "cup",
-      "sport": "football",
-      "home": "淡滨尼流浪者",
-      "away": "上海申花",
-      "kickoff": "2026-11-26T10:00:00"
-    },
-    {
-      "fixture_key": "afc_cl2|江原fc|杰志|2026-11-26",
-      "competition": "afc_cl2",
-      "competition_name": "亚冠二级",
-      "competition_class": "cup",
-      "sport": "football",
-      "home": "江原FC",
-      "away": "杰志",
-      "kickoff": "2026-11-26T10:00:00"
-    },
-    {
-      "fixture_key": "afc_cl2|古晋足协|金边皇冠|2026-11-26",
-      "competition": "afc_cl2",
-      "competition_name": "亚冠二级",
-      "competition_class": "cup",
-      "sport": "football",
-      "home": "古晋足协",
-      "away": "金边皇冠",
-      "kickoff": "2026-11-26T10:00:00"
-    },
-    {
-      "fixture_key": "afc_cl2|巴吞联|狮城水手|2026-11-26",
-      "competition": "afc_cl2",
-      "competition_name": "亚冠二级",
-      "competition_class": "cup",
-      "sport": "football",
-      "home": "巴吞联",
-      "away": "狮城水手",
-      "kickoff": "2026-11-26T12:15:00"
-    },
-    {
-      "fixture_key": "afc_cl2|和富大埔|阿德莱德联|2026-11-26",
-      "competition": "afc_cl2",
-      "competition_name": "亚冠二级",
-      "competition_class": "cup",
-      "sport": "football",
-      "home": "和富大埔",
-      "away": "阿德莱德联",
-      "kickoff": "2026-11-26T12:15:00"
-    },
-    {
-      "fixture_key": "afc_cl2|柴桢|町田泽维亚|2026-11-26",
-      "competition": "afc_cl2",
-      "competition_name": "亚冠二级",
-      "competition_class": "cup",
-      "sport": "football",
-      "home": "柴桢",
-      "away": "町田泽维亚",
-      "kickoff": "2026-11-26T12:15:00"
-    },
     {
       "fixture_key": "europa_league|比尔森胜利|本菲卡|2026-11-26",
       "competition": "europa_league",
