@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-26T18:23:54.193278+00:00",
+  "generated_at": "2026-11-26T19:30:47.533826+00:00",
   "matches": [
     {
       "fixture_key": "europa_league|besiktas|hapoelbeer|2026-11-26",
@@ -19,7 +19,7 @@
       "kickoff": "2026-11-26T17:45:00",
       "status": "live",
       "home_goals": 1,
-      "away_goals": 0
+      "away_goals": 2
     },
     {
       "fixture_key": "europa_league|dinamozagreb|bayerleverkusen|2026-11-26",
@@ -29,7 +29,7 @@
       "kickoff": "2026-11-26T17:45:00",
       "status": "live",
       "home_goals": 0,
-      "away_goals": 1
+      "away_goals": 2
     },
     {
       "fixture_key": "europa_league|marseille|索非亚列夫斯基|2026-11-26",
@@ -48,8 +48,8 @@
       "away": "AC Milan",
       "kickoff": "2026-11-26T17:45:00",
       "status": "live",
-      "home_goals": 1,
-      "away_goals": 0
+      "home_goals": 2,
+      "away_goals": 3
     },
     {
       "fixture_key": "europa_league|萨尔茨堡|araratarmenia|2026-11-26",
@@ -58,7 +58,7 @@
       "away": "Ararat-Armenia",
       "kickoff": "2026-11-26T17:45:00",
       "status": "live",
-      "home_goals": 0,
+      "home_goals": 2,
       "away_goals": 0
     },
     {
@@ -68,7 +68,7 @@
       "away": "Lech Poznan",
       "kickoff": "2026-11-26T17:45:00",
       "status": "live",
-      "home_goals": 0,
+      "home_goals": 2,
       "away_goals": 2
     },
     {
@@ -78,7 +78,7 @@
       "away": "Benfica",
       "kickoff": "2026-11-26T17:45:00",
       "status": "live",
-      "home_goals": 1,
+      "home_goals": 4,
       "away_goals": 0
     }
   ]
