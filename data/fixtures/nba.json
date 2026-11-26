@@ -1,45 +1,5 @@
 [
   {
-    "key": "nba|philadelphia76ers|miamiheat|2026-11-25",
-    "competition": "nba",
-    "home": "Philadelphia 76ers",
-    "away": "Miami Heat",
-    "kickoff": "2026-11-25T22:00:00",
-    "status": "upcoming",
-    "home_goals": null,
-    "away_goals": null
-  },
-  {
-    "key": "nba|charlottehornets|chicagobulls|2026-11-26",
-    "competition": "nba",
-    "home": "Charlotte Hornets",
-    "away": "Chicago Bulls",
-    "kickoff": "2026-11-26T00:00:00",
-    "status": "upcoming",
-    "home_goals": null,
-    "away_goals": null
-  },
-  {
-    "key": "nba|newyorkknicks|clevelandcavaliers|2026-11-26",
-    "competition": "nba",
-    "home": "New York Knicks",
-    "away": "Cleveland Cavaliers",
-    "kickoff": "2026-11-26T00:30:00",
-    "status": "upcoming",
-    "home_goals": null,
-    "away_goals": null
-  },
-  {
-    "key": "nba|oklahomacitythunder|minnesotatimberwolves|2026-11-26",
-    "competition": "nba",
-    "home": "Oklahoma City Thunder",
-    "away": "Minnesota Timberwolves",
-    "kickoff": "2026-11-26T00:30:00",
-    "status": "upcoming",
-    "home_goals": null,
-    "away_goals": null
-  },
-  {
     "key": "nba|milwaukeebucks|brooklynnets|2026-11-26",
     "competition": "nba",
     "home": "Milwaukee Bucks",
@@ -495,6 +455,36 @@
     "home": "Portland Trail Blazers",
     "away": "Minnesota Timberwolves",
     "kickoff": "2026-12-02T04:00:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "nba|detroitpistons|memphisgrizzlies|2026-12-03",
+    "competition": "nba",
+    "home": "Detroit Pistons",
+    "away": "Memphis Grizzlies",
+    "kickoff": "2026-12-03T00:00:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "nba|philadelphia76ers|denvernuggets|2026-12-03",
+    "competition": "nba",
+    "home": "Philadelphia 76ers",
+    "away": "Denver Nuggets",
+    "kickoff": "2026-12-03T00:00:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "nba|bostonceltics|charlottehornets|2026-12-03",
+    "competition": "nba",
+    "home": "Boston Celtics",
+    "away": "Charlotte Hornets",
+    "kickoff": "2026-12-03T00:30:00",
     "status": "upcoming",
     "home_goals": null,
     "away_goals": null
