@@ -426,6 +426,21 @@
     "away": "Real Sociedad",
     "kickoff": "2026-11-26T20:00:00",
     "bookmaker": "crown",
+    "ts": "2026-11-25T20:00:00+00:00",
+    "handicap_line": -0.25,
+    "handicap_home": 0.81,
+    "handicap_away": 1.01,
+    "total_line": 3.0,
+    "over": 0.98,
+    "under": 0.82
+  },
+  {
+    "fixture_key": "europa_league|crystalpalace|realsociedad|2026-11-26",
+    "competition": "europa_league",
+    "home": "Crystal Palace",
+    "away": "Real Sociedad",
+    "kickoff": "2026-11-26T20:00:00",
+    "bookmaker": "crown",
     "ts": "2026-11-25T20:46:52.878197+00:00",
     "handicap_line": -0.25,
     "handicap_home": 0.83,
@@ -688,5 +703,20 @@
     "total_line": 3.25,
     "over": 1.02,
     "under": 0.85
+  },
+  {
+    "fixture_key": "europa_league|crystalpalace|realsociedad|2026-11-26",
+    "competition": "europa_league",
+    "home": "Crystal Palace",
+    "away": "Real Sociedad",
+    "kickoff": "2026-11-26T20:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-26T14:37:25.665660+00:00",
+    "handicap_line": -0.25,
+    "handicap_home": 0.87,
+    "handicap_away": 1.02,
+    "total_line": 3.25,
+    "over": 1.04,
+    "under": 0.83
   }
 ]

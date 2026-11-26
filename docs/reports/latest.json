@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-26T14:10:09.866934+00:00",
+  "generated_at": "2026-11-26T14:37:30.252299+00:00",
   "scope": "16 个联赛 + 5 个杯赛",
   "note": "杯赛与联赛数据分开计算；仅开赛前 6h 内出推荐；命中率只统计强推",
   "total": 1,
@@ -338,20 +338,20 @@
       "line": 0.5,
       "reasons": [
         "亚盘 盘口不变",
-        "主队升水 0.83->0.99",
+        "主队升水 0.83->1.0",
         "主队近5场 1胜0平4负，场均进1.0/失1.6",
         "客队近4场 4胜0平0负，场均进2.8/失0.5",
         "交手0次：主队0胜0平0负"
       ],
       "signals": {
         "line_desc": "盘口不变",
-        "water_desc": "主队升水 0.83->0.99",
+        "water_desc": "主队升水 0.83->1.0",
         "line_first": 0.5,
         "line_last": 0.5,
         "home_water_first": 0.83,
-        "home_water_last": 0.99,
+        "home_water_last": 1.0,
         "away_water_first": 1.05,
-        "away_water_last": 0.9,
+        "away_water_last": 0.89,
         "conflict": false
       },
       "history": [
@@ -366,6 +366,12 @@
           "handicap_line": 0.5,
           "handicap_home": 0.83,
           "handicap_away": 1.05
+        },
+        {
+          "ts": "2026-11-25T17:45:00+00:00",
+          "handicap_line": 0.5,
+          "handicap_home": 0.96,
+          "handicap_away": 0.86
         },
         {
           "ts": "2026-11-25T17:45:00+00:00",
@@ -630,13 +636,19 @@
           "handicap_line": 0.5,
           "handicap_home": 0.99,
           "handicap_away": 0.9
+        },
+        {
+          "ts": "2026-11-26T14:37:20.183540+00:00",
+          "handicap_line": 0.5,
+          "handicap_home": 1.0,
+          "handicap_away": 0.89
         }
       ],
       "reliability": 1.0,
       "competition_name": "欧洲联赛（欧联杯 / UEFA Europa League）",
       "competition_class": "cup",
       "sport": "football",
-      "lead_hours": 4.714255806388889,
+      "lead_hours": 3.1277267944444445,
       "prematch": false,
       "result": {
         "settled": false

@@ -426,6 +426,21 @@
     "away": "格拉茨风暴",
     "kickoff": "2026-11-26T20:00:00",
     "bookmaker": "crown",
+    "ts": "2026-11-25T20:00:00+00:00",
+    "handicap_line": -1.5,
+    "handicap_home": 0.91,
+    "handicap_away": 0.91,
+    "total_line": 3.25,
+    "over": 0.9,
+    "under": 0.9
+  },
+  {
+    "fixture_key": "europa_league|hoffenheim|格拉茨风暴|2026-11-26",
+    "competition": "europa_league",
+    "home": "Hoffenheim",
+    "away": "格拉茨风暴",
+    "kickoff": "2026-11-26T20:00:00",
+    "bookmaker": "crown",
     "ts": "2026-11-25T20:46:54.966604+00:00",
     "handicap_line": -1.5,
     "handicap_home": 0.88,
@@ -688,5 +703,20 @@
     "total_line": 3.5,
     "over": 0.88,
     "under": 0.99
+  },
+  {
+    "fixture_key": "europa_league|hoffenheim|格拉茨风暴|2026-11-26",
+    "competition": "europa_league",
+    "home": "Hoffenheim",
+    "away": "格拉茨风暴",
+    "kickoff": "2026-11-26T20:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-26T14:37:26.284338+00:00",
+    "handicap_line": -1.75,
+    "handicap_home": 1.01,
+    "handicap_away": 0.88,
+    "total_line": 3.5,
+    "over": 0.87,
+    "under": 1.0
   }
 ]
