@@ -441,6 +441,21 @@
     "away": "阿尔克马尔",
     "kickoff": "2026-11-26T20:00:00",
     "bookmaker": "crown",
+    "ts": "2026-11-25T20:00:00+00:00",
+    "handicap_line": 0.0,
+    "handicap_home": 1.0,
+    "handicap_away": 0.82,
+    "total_line": 2.75,
+    "over": 0.91,
+    "under": 0.89
+  },
+  {
+    "fixture_key": "europa_league|布拉格斯巴达|阿尔克马尔|2026-11-26",
+    "competition": "europa_league",
+    "home": "布拉格斯巴达",
+    "away": "阿尔克马尔",
+    "kickoff": "2026-11-26T20:00:00",
+    "bookmaker": "crown",
     "ts": "2026-11-25T20:46:52.721613+00:00",
     "handicap_line": 0.25,
     "handicap_home": 0.88,
@@ -718,5 +733,20 @@
     "total_line": 2.75,
     "over": 0.94,
     "under": 0.93
+  },
+  {
+    "fixture_key": "europa_league|布拉格斯巴达|阿尔克马尔|2026-11-26",
+    "competition": "europa_league",
+    "home": "布拉格斯巴达",
+    "away": "阿尔克马尔",
+    "kickoff": "2026-11-26T20:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-26T15:53:24.244436+00:00",
+    "handicap_line": 0.25,
+    "handicap_home": 0.8,
+    "handicap_away": 1.09,
+    "total_line": 2.75,
+    "over": 0.93,
+    "under": 0.94
   }
 ]
