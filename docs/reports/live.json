@@ -1,84 +1,104 @@
 {
-  "generated_at": "2026-11-26T19:30:47.533826+00:00",
+  "generated_at": "2026-11-26T20:29:44.728078+00:00",
   "matches": [
     {
-      "fixture_key": "europa_league|besiktas|hapoelbeer|2026-11-26",
+      "fixture_key": "europa_league|crystalpalace|realsociedad|2026-11-26",
       "competition": "europa_league",
-      "home": "Besiktas",
-      "away": "Hapoel Be'er",
-      "kickoff": "2026-11-26T17:45:00",
+      "home": "Crystal Palace",
+      "away": "Real Sociedad",
+      "kickoff": "2026-11-26T20:00:00",
       "status": "live",
       "home_goals": 0,
       "away_goals": 0
     },
     {
-      "fixture_key": "europa_league|celtavigo|bournemouth|2026-11-26",
+      "fixture_key": "europa_league|ferencvaros|采列|2026-11-26",
       "competition": "europa_league",
-      "home": "Celta Vigo",
-      "away": "Bournemouth",
-      "kickoff": "2026-11-26T17:45:00",
-      "status": "live",
-      "home_goals": 1,
-      "away_goals": 2
-    },
-    {
-      "fixture_key": "europa_league|dinamozagreb|bayerleverkusen|2026-11-26",
-      "competition": "europa_league",
-      "home": "Dinamo Zagreb",
-      "away": "Bayer Leverkusen",
-      "kickoff": "2026-11-26T17:45:00",
+      "home": "Ferencvaros",
+      "away": "采列",
+      "kickoff": "2026-11-26T20:00:00",
       "status": "live",
       "home_goals": 0,
-      "away_goals": 2
+      "away_goals": 0
     },
     {
-      "fixture_key": "europa_league|marseille|索非亚列夫斯基|2026-11-26",
+      "fixture_key": "europa_league|juventus|omonianicosia|2026-11-26",
       "competition": "europa_league",
-      "home": "Marseille",
-      "away": "索非亚列夫斯基",
-      "kickoff": "2026-11-26T17:45:00",
+      "home": "Juventus",
+      "away": "Omonia Nicosia",
+      "kickoff": "2026-11-26T20:00:00",
+      "status": "live",
+      "home_goals": 0,
+      "away_goals": 1
+    },
+    {
+      "fixture_key": "europa_league|lyon|lillestrom|2026-11-26",
+      "competition": "europa_league",
+      "home": "Lyon",
+      "away": "Lillestrom",
+      "kickoff": "2026-11-26T20:00:00",
+      "status": "live",
+      "home_goals": 0,
+      "away_goals": 0
+    },
+    {
+      "fixture_key": "europa_league|necnijmegen|rennes|2026-11-26",
+      "competition": "europa_league",
+      "home": "NEC Nijmegen",
+      "away": "Rennes",
+      "kickoff": "2026-11-26T20:00:00",
+      "status": "live",
+      "home_goals": 0,
+      "away_goals": 0
+    },
+    {
+      "fixture_key": "europa_league|oficrete|安德莱赫特|2026-11-26",
+      "competition": "europa_league",
+      "home": "OFI Crete",
+      "away": "安德莱赫特",
+      "kickoff": "2026-11-26T20:00:00",
+      "status": "live",
+      "home_goals": 0,
+      "away_goals": 1
+    },
+    {
+      "fixture_key": "europa_league|布拉格斯巴达|azalkmaar|2026-11-26",
+      "competition": "europa_league",
+      "home": "布拉格斯巴达",
+      "away": "AZ Alkmaar",
+      "kickoff": "2026-11-26T20:00:00",
+      "status": "live",
+      "home_goals": 2,
+      "away_goals": 0
+    },
+    {
+      "fixture_key": "europa_league|sunderland|比亚韦斯托克雅盖隆|2026-11-26",
+      "competition": "europa_league",
+      "home": "Sunderland",
+      "away": "比亚韦斯托克雅盖隆",
+      "kickoff": "2026-11-26T20:00:00",
+      "status": "live",
+      "home_goals": 0,
+      "away_goals": 0
+    },
+    {
+      "fixture_key": "europa_league|torreense|celtic|2026-11-26",
+      "competition": "europa_league",
+      "home": "Torreense",
+      "away": "Celtic",
+      "kickoff": "2026-11-26T20:00:00",
       "status": "live",
       "home_goals": 1,
-      "away_goals": 0
+      "away_goals": 1
     },
     {
-      "fixture_key": "europa_league|奥林匹亚科斯|acmilan|2026-11-26",
+      "fixture_key": "europa_league|hoffenheim|格拉茨风暴|2026-11-26",
       "competition": "europa_league",
-      "home": "奥林匹亚科斯",
-      "away": "AC Milan",
-      "kickoff": "2026-11-26T17:45:00",
+      "home": "Hoffenheim",
+      "away": "格拉茨风暴",
+      "kickoff": "2026-11-26T20:00:00",
       "status": "live",
-      "home_goals": 2,
-      "away_goals": 3
-    },
-    {
-      "fixture_key": "europa_league|萨尔茨堡|araratarmenia|2026-11-26",
-      "competition": "europa_league",
-      "home": "萨尔茨堡",
-      "away": "Ararat-Armenia",
-      "kickoff": "2026-11-26T17:45:00",
-      "status": "live",
-      "home_goals": 2,
-      "away_goals": 0
-    },
-    {
-      "fixture_key": "europa_league|unionstgilloise|lechpoznan|2026-11-26",
-      "competition": "europa_league",
-      "home": "Union St.-Gilloise",
-      "away": "Lech Poznan",
-      "kickoff": "2026-11-26T17:45:00",
-      "status": "live",
-      "home_goals": 2,
-      "away_goals": 2
-    },
-    {
-      "fixture_key": "europa_league|viktoriaplzen|benfica|2026-11-26",
-      "competition": "europa_league",
-      "home": "Viktoria Plzen",
-      "away": "Benfica",
-      "kickoff": "2026-11-26T17:45:00",
-      "status": "live",
-      "home_goals": 4,
+      "home_goals": 0,
       "away_goals": 0
     }
   ]
