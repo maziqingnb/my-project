@@ -201,6 +201,21 @@
     "away": "杰志",
     "kickoff": "2026-11-26T10:00:00",
     "bookmaker": "crown",
+    "ts": "2026-11-25T10:00:00+00:00",
+    "handicap_line": -1.25,
+    "handicap_home": 0.8,
+    "handicap_away": 0.96,
+    "total_line": 2.75,
+    "over": 0.91,
+    "under": 0.85
+  },
+  {
+    "fixture_key": "afc_cl2|江原fc|杰志|2026-11-26",
+    "competition": "afc_cl2",
+    "home": "江原FC",
+    "away": "杰志",
+    "kickoff": "2026-11-26T10:00:00",
+    "bookmaker": "crown",
     "ts": "2026-11-25T16:39:40.211496+00:00",
     "handicap_line": -1.25,
     "handicap_home": 0.8,
@@ -388,5 +403,20 @@
     "total_line": 2.75,
     "over": 0.86,
     "under": 0.9
+  },
+  {
+    "fixture_key": "afc_cl2|江原fc|杰志|2026-11-26",
+    "competition": "afc_cl2",
+    "home": "江原FC",
+    "away": "杰志",
+    "kickoff": "2026-11-26T10:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-26T04:38:03.254596+00:00",
+    "handicap_line": -1.25,
+    "handicap_home": 1.03,
+    "handicap_away": 0.79,
+    "total_line": 2.75,
+    "over": 0.91,
+    "under": 0.89
   }
 ]
