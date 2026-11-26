@@ -321,6 +321,21 @@
     "away": "AC Milan",
     "kickoff": "2026-11-26T17:45:00",
     "bookmaker": "crown",
+    "ts": "2026-11-25T17:45:00+00:00",
+    "handicap_line": -0.25,
+    "handicap_home": 1.02,
+    "handicap_away": 0.8,
+    "total_line": 2.5,
+    "over": 0.86,
+    "under": 0.94
+  },
+  {
+    "fixture_key": "europa_league|奥林匹亚科斯|acmilan|2026-11-26",
+    "competition": "europa_league",
+    "home": "奥林匹亚科斯",
+    "away": "AC Milan",
+    "kickoff": "2026-11-26T17:45:00",
+    "bookmaker": "crown",
     "ts": "2026-11-25T18:39:41.597662+00:00",
     "handicap_line": 0.0,
     "handicap_home": 1.05,
@@ -568,5 +583,20 @@
     "total_line": 2.5,
     "over": 0.88,
     "under": 0.99
+  },
+  {
+    "fixture_key": "europa_league|奥林匹亚科斯|acmilan|2026-11-26",
+    "competition": "europa_league",
+    "home": "奥林匹亚科斯",
+    "away": "AC Milan",
+    "kickoff": "2026-11-26T17:45:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-26T10:57:24.859680+00:00",
+    "handicap_line": 0.0,
+    "handicap_home": 1.07,
+    "handicap_away": 0.82,
+    "total_line": 2.5,
+    "over": 0.92,
+    "under": 0.95
   }
 ]
