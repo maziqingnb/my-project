@@ -1,4 +1,35 @@
 {
-  "generated_at": "2026-11-26T09:48:02.365532+00:00",
-  "matches": []
+  "generated_at": "2026-11-26T10:45:15.365194+00:00",
+  "matches": [
+    {
+      "fixture_key": "afc_cl2|淡滨尼流浪者|上海申花|2026-11-26",
+      "competition": "afc_cl2",
+      "home": "淡滨尼流浪者",
+      "away": "上海申花",
+      "kickoff": "2026-11-26T10:00:00",
+      "status": "live",
+      "home_goals": 0,
+      "away_goals": 3
+    },
+    {
+      "fixture_key": "afc_cl2|江原fc|杰志|2026-11-26",
+      "competition": "afc_cl2",
+      "home": "江原FC",
+      "away": "杰志",
+      "kickoff": "2026-11-26T10:00:00",
+      "status": "live",
+      "home_goals": 0,
+      "away_goals": 1
+    },
+    {
+      "fixture_key": "afc_cl2|古晋足协|金边皇冠|2026-11-26",
+      "competition": "afc_cl2",
+      "home": "古晋足协",
+      "away": "金边皇冠",
+      "kickoff": "2026-11-26T10:00:00",
+      "status": "live",
+      "home_goals": 1,
+      "away_goals": 0
+    }
+  ]
 }
