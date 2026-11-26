@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-26T20:29:44.728078+00:00",
+  "generated_at": "2026-11-26T21:26:48.552091+00:00",
   "matches": [
     {
       "fixture_key": "europa_league|crystalpalace|realsociedad|2026-11-26",
@@ -9,7 +9,7 @@
       "kickoff": "2026-11-26T20:00:00",
       "status": "live",
       "home_goals": 0,
-      "away_goals": 0
+      "away_goals": 1
     },
     {
       "fixture_key": "europa_league|ferencvaros|采列|2026-11-26",
@@ -28,7 +28,7 @@
       "away": "Omonia Nicosia",
       "kickoff": "2026-11-26T20:00:00",
       "status": "live",
-      "home_goals": 0,
+      "home_goals": 2,
       "away_goals": 1
     },
     {
@@ -48,8 +48,8 @@
       "away": "Rennes",
       "kickoff": "2026-11-26T20:00:00",
       "status": "live",
-      "home_goals": 0,
-      "away_goals": 0
+      "home_goals": 1,
+      "away_goals": 1
     },
     {
       "fixture_key": "europa_league|oficrete|安德莱赫特|2026-11-26",
@@ -58,8 +58,8 @@
       "away": "安德莱赫特",
       "kickoff": "2026-11-26T20:00:00",
       "status": "live",
-      "home_goals": 0,
-      "away_goals": 1
+      "home_goals": 1,
+      "away_goals": 2
     },
     {
       "fixture_key": "europa_league|布拉格斯巴达|azalkmaar|2026-11-26",
@@ -69,7 +69,7 @@
       "kickoff": "2026-11-26T20:00:00",
       "status": "live",
       "home_goals": 2,
-      "away_goals": 0
+      "away_goals": 2
     },
     {
       "fixture_key": "europa_league|sunderland|比亚韦斯托克雅盖隆|2026-11-26",
@@ -78,8 +78,8 @@
       "away": "比亚韦斯托克雅盖隆",
       "kickoff": "2026-11-26T20:00:00",
       "status": "live",
-      "home_goals": 0,
-      "away_goals": 0
+      "home_goals": 1,
+      "away_goals": 1
     },
     {
       "fixture_key": "europa_league|torreense|celtic|2026-11-26",
@@ -99,7 +99,7 @@
       "kickoff": "2026-11-26T20:00:00",
       "status": "live",
       "home_goals": 0,
-      "away_goals": 0
+      "away_goals": 1
     }
   ]
 }
