@@ -1,35 +1,4 @@
 {
-  "generated_at": "2026-11-26T12:51:45.652602+00:00",
-  "matches": [
-    {
-      "fixture_key": "afc_cl2|巴吞联|狮城水手|2026-11-26",
-      "competition": "afc_cl2",
-      "home": "巴吞联",
-      "away": "狮城水手",
-      "kickoff": "2026-11-26T12:15:00",
-      "status": "live",
-      "home_goals": 0,
-      "away_goals": 1
-    },
-    {
-      "fixture_key": "afc_cl2|和富大埔|阿德莱德联|2026-11-26",
-      "competition": "afc_cl2",
-      "home": "和富大埔",
-      "away": "阿德莱德联",
-      "kickoff": "2026-11-26T12:15:00",
-      "status": "live",
-      "home_goals": 0,
-      "away_goals": 3
-    },
-    {
-      "fixture_key": "afc_cl2|柴桢|町田泽维亚|2026-11-26",
-      "competition": "afc_cl2",
-      "home": "柴桢",
-      "away": "町田泽维亚",
-      "kickoff": "2026-11-26T12:15:00",
-      "status": "live",
-      "home_goals": 0,
-      "away_goals": 0
-    }
-  ]
+  "generated_at": "2026-11-26T14:10:05.845793+00:00",
+  "matches": []
 }
