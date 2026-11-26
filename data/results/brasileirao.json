@@ -2,6 +2,17 @@
   {
     "competition": "brasileirao",
     "cls": "league",
+    "home": "米内罗竞技",
+    "away": "科林蒂安",
+    "home_goals": 1,
+    "away_goals": 1,
+    "date": "2026-11-25",
+    "handicap_line": -0.25,
+    "total_line": 2.5
+  },
+  {
+    "competition": "brasileirao",
+    "cls": "league",
     "home": "桑托斯",
     "away": "格雷米奥",
     "home_goals": 0,

@@ -2,6 +2,17 @@
   {
     "competition": "argentina",
     "cls": "league",
+    "home": "博卡青年",
+    "away": "门多萨独立",
+    "home_goals": 2,
+    "away_goals": 0,
+    "date": "2026-11-26",
+    "handicap_line": -1.0,
+    "total_line": 2.5
+  },
+  {
+    "competition": "argentina",
+    "cls": "league",
     "home": "拉普拉塔体操",
     "away": "纽维尔老男孩",
     "home_goals": 2,
