@@ -1,0 +1,32 @@
+[
+  {
+    "fixture_key": "laliga|realmadrid|alaves|2026-11-28",
+    "competition": "laliga",
+    "home": "Real Madrid",
+    "away": "Alaves",
+    "kickoff": "2026-11-28T20:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-27T16:33:55.354409+00:00",
+    "handicap_line": -2.5,
+    "handicap_home": 0.99,
+    "handicap_away": 0.89,
+    "total_line": 3.5,
+    "over": 0.83,
+    "under": 1.05
+  },
+  {
+    "fixture_key": "laliga|realmadrid|alaves|2026-11-28",
+    "competition": "laliga",
+    "home": "Real Madrid",
+    "away": "Alaves",
+    "kickoff": "2026-11-28T20:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-27T20:00:00+00:00",
+    "handicap_line": -2.25,
+    "handicap_home": 0.98,
+    "handicap_away": 0.9,
+    "total_line": 3.5,
+    "over": 0.88,
+    "under": 0.98
+  }
+]

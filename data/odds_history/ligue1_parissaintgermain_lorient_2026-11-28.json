@@ -1,0 +1,32 @@
+[
+  {
+    "fixture_key": "ligue1|parissaintgermain|lorient|2026-11-28",
+    "competition": "ligue1",
+    "home": "Paris Saint-Germain",
+    "away": "Lorient",
+    "kickoff": "2026-11-28T19:45:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-27T16:33:57.418298+00:00",
+    "handicap_line": -2.0,
+    "handicap_home": 1.07,
+    "handicap_away": 0.81,
+    "total_line": 3.25,
+    "over": 0.96,
+    "under": 0.91
+  },
+  {
+    "fixture_key": "ligue1|parissaintgermain|lorient|2026-11-28",
+    "competition": "ligue1",
+    "home": "Paris Saint-Germain",
+    "away": "Lorient",
+    "kickoff": "2026-11-28T19:45:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-27T19:45:00+00:00",
+    "handicap_line": -1.75,
+    "handicap_home": 0.84,
+    "handicap_away": 1.04,
+    "total_line": 3.25,
+    "over": 0.96,
+    "under": 0.9
+  }
+]

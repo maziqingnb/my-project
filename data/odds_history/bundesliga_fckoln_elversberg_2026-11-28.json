@@ -1,0 +1,32 @@
+[
+  {
+    "fixture_key": "bundesliga|fckoln|elversberg|2026-11-28",
+    "competition": "bundesliga",
+    "home": "FC Koln",
+    "away": "Elversberg",
+    "kickoff": "2026-11-28T14:30:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-27T14:30:00+00:00",
+    "handicap_line": -0.5,
+    "handicap_home": 0.95,
+    "handicap_away": 0.93,
+    "total_line": 3.0,
+    "over": 0.82,
+    "under": 1.04
+  },
+  {
+    "fixture_key": "bundesliga|fckoln|elversberg|2026-11-28",
+    "competition": "bundesliga",
+    "home": "FC Koln",
+    "away": "Elversberg",
+    "kickoff": "2026-11-28T14:30:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-27T16:33:56.822098+00:00",
+    "handicap_line": -0.5,
+    "handicap_home": 1.04,
+    "handicap_away": 0.84,
+    "total_line": 3.0,
+    "over": 1.05,
+    "under": 0.83
+  }
+]

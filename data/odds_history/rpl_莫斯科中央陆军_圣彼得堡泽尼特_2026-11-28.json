@@ -1,0 +1,32 @@
+[
+  {
+    "fixture_key": "rpl|莫斯科中央陆军|圣彼得堡泽尼特|2026-11-28",
+    "competition": "rpl",
+    "home": "莫斯科中央陆军",
+    "away": "圣彼得堡泽尼特",
+    "kickoff": "2026-11-28T13:30:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-27T13:30:00+00:00",
+    "handicap_line": 0.25,
+    "handicap_home": 0.99,
+    "handicap_away": 0.89,
+    "total_line": 2.75,
+    "over": 0.97,
+    "under": 0.9
+  },
+  {
+    "fixture_key": "rpl|莫斯科中央陆军|圣彼得堡泽尼特|2026-11-28",
+    "competition": "rpl",
+    "home": "莫斯科中央陆军",
+    "away": "圣彼得堡泽尼特",
+    "kickoff": "2026-11-28T13:30:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-27T16:34:02.057465+00:00",
+    "handicap_line": 0.25,
+    "handicap_home": 0.95,
+    "handicap_away": 0.93,
+    "total_line": 2.75,
+    "over": 1.02,
+    "under": 0.85
+  }
+]
