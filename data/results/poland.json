@@ -2,6 +2,17 @@
   {
     "competition": "poland",
     "cls": "league",
+    "home": "琴斯托霍瓦",
+    "away": "皮亚斯特",
+    "home_goals": 1,
+    "away_goals": 2,
+    "date": "2026-11-27",
+    "handicap_line": -0.75,
+    "total_line": 3.0
+  },
+  {
+    "competition": "poland",
+    "cls": "league",
     "home": "KS莫摩斯",
     "away": "莫托路宾",
     "home_goals": 2,

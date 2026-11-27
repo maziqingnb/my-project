@@ -1,26 +1,6 @@
 {
-  "generated_at": "2026-11-27T18:10:02.786901+00:00",
+  "generated_at": "2026-11-27T19:10:58.030738+00:00",
   "matches": [
-    {
-      "fixture_key": "superlig|alanyaspor|konyaspor|2026-11-27",
-      "competition": "superlig",
-      "home": "Alanyaspor",
-      "away": "Konyaspor",
-      "kickoff": "2026-11-27T17:00:00",
-      "status": "live",
-      "home_goals": 1,
-      "away_goals": 1
-    },
-    {
-      "fixture_key": "superlig|caykurrizespor|kasimpasa|2026-11-27",
-      "competition": "superlig",
-      "home": "Caykur Rizespor",
-      "away": "Kasimpasa",
-      "kickoff": "2026-11-27T17:00:00",
-      "status": "live",
-      "home_goals": 1,
-      "away_goals": 2
-    },
     {
       "fixture_key": "denmark|snderjyskefodbold|brndbyif|2026-11-27",
       "competition": "denmark",
@@ -28,7 +8,7 @@
       "away": "Brøndby IF",
       "kickoff": "2026-11-27T18:00:00",
       "status": "live",
-      "home_goals": 0,
+      "home_goals": 1,
       "away_goals": 0
     }
   ]
