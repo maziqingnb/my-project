@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-26T23:29:13.191145+00:00",
+  "generated_at": "2026-11-27T00:33:32.009230+00:00",
   "matches": [
     {
       "fixture_key": "brasileirao|圣保罗|瑞模贝雷|2026-11-26",
@@ -8,8 +8,8 @@
       "away": "瑞模贝雷",
       "kickoff": "2026-11-26T23:00:00",
       "status": "live",
-      "home_goals": 0,
-      "away_goals": 0
+      "home_goals": 1,
+      "away_goals": 1
     }
   ]
 }
