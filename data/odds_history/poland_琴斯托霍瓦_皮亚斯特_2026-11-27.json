@@ -321,6 +321,21 @@
     "away": "皮亚斯特",
     "kickoff": "2026-11-27T17:00:00",
     "bookmaker": "crown",
+    "ts": "2026-11-26T17:00:00+00:00",
+    "handicap_line": -0.75,
+    "handicap_home": 0.99,
+    "handicap_away": 0.83,
+    "total_line": 3.0,
+    "over": 0.83,
+    "under": 0.97
+  },
+  {
+    "fixture_key": "poland|琴斯托霍瓦|皮亚斯特|2026-11-27",
+    "competition": "poland",
+    "home": "琴斯托霍瓦",
+    "away": "皮亚斯特",
+    "kickoff": "2026-11-27T17:00:00",
+    "bookmaker": "crown",
     "ts": "2026-11-26T17:52:01.037231+00:00",
     "handicap_line": -0.75,
     "handicap_home": 0.98,
@@ -598,5 +613,20 @@
     "total_line": 3.0,
     "over": 0.81,
     "under": 1.05
+  },
+  {
+    "fixture_key": "poland|琴斯托霍瓦|皮亚斯特|2026-11-27",
+    "competition": "poland",
+    "home": "琴斯托霍瓦",
+    "away": "皮亚斯特",
+    "kickoff": "2026-11-27T17:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-27T12:54:47.424540+00:00",
+    "handicap_line": -1.0,
+    "handicap_home": 1.05,
+    "handicap_away": 0.83,
+    "total_line": 3.25,
+    "over": 1.03,
+    "under": 0.83
   }
 ]
