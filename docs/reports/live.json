@@ -1,4 +1,35 @@
 {
-  "generated_at": "2026-11-27T16:35:46.586438+00:00",
-  "matches": []
+  "generated_at": "2026-11-27T17:20:37.186067+00:00",
+  "matches": [
+    {
+      "fixture_key": "superlig|alanyaspor|konyaspor|2026-11-27",
+      "competition": "superlig",
+      "home": "Alanyaspor",
+      "away": "Konyaspor",
+      "kickoff": "2026-11-27T17:00:00",
+      "status": "live",
+      "home_goals": 1,
+      "away_goals": 0
+    },
+    {
+      "fixture_key": "superlig|caykurrizespor|kasimpasa|2026-11-27",
+      "competition": "superlig",
+      "home": "Caykur Rizespor",
+      "away": "Kasimpasa",
+      "kickoff": "2026-11-27T17:00:00",
+      "status": "live",
+      "home_goals": 0,
+      "away_goals": 0
+    },
+    {
+      "fixture_key": "poland|琴斯托霍瓦|皮亚斯特|2026-11-27",
+      "competition": "poland",
+      "home": "琴斯托霍瓦",
+      "away": "皮亚斯特",
+      "kickoff": "2026-11-27T17:00:00",
+      "status": "live",
+      "home_goals": 0,
+      "away_goals": 0
+    }
+  ]
 }
