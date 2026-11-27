@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27T20:12:20.066174+00:00",
+  "generated_at": "2026-11-27T21:12:40.137011+00:00",
   "matches": [
     {
       "fixture_key": "epl|nottinghamforest|chelsea|2026-11-27",
@@ -8,7 +8,7 @@
       "away": "Chelsea",
       "kickoff": "2026-11-27T20:00:00",
       "status": "live",
-      "home_goals": 1,
+      "home_goals": 2,
       "away_goals": 0
     },
     {
@@ -18,7 +18,7 @@
       "away": "Racing Santander",
       "kickoff": "2026-11-27T20:00:00",
       "status": "live",
-      "home_goals": 0,
+      "home_goals": 1,
       "away_goals": 0
     },
     {
@@ -39,7 +39,7 @@
       "kickoff": "2026-11-27T19:30:00",
       "status": "live",
       "home_goals": 1,
-      "away_goals": 1
+      "away_goals": 3
     },
     {
       "fixture_key": "ligue1|brest|parisfc|2026-11-27",
@@ -50,6 +50,16 @@
       "status": "live",
       "home_goals": 1,
       "away_goals": 0
+    },
+    {
+      "fixture_key": "primeira|maritimo|cdnacional|2026-11-27",
+      "competition": "primeira",
+      "home": "Maritimo",
+      "away": "C.D. Nacional",
+      "kickoff": "2026-11-27T20:15:00",
+      "status": "live",
+      "home_goals": 0,
+      "away_goals": 1
     }
   ]
 }

@@ -13,6 +13,17 @@
   {
     "competition": "denmark",
     "cls": "league",
+    "home": "桑德捷斯基",
+    "away": "布隆德比",
+    "home_goals": 1,
+    "away_goals": 1,
+    "date": "2026-11-27",
+    "handicap_line": 0.75,
+    "total_line": 3.0
+  },
+  {
+    "competition": "denmark",
+    "cls": "league",
     "home": "Brøndby IF",
     "away": "FC Midtjylland",
     "home_goals": 0,
