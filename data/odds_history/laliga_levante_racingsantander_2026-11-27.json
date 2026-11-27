@@ -366,6 +366,21 @@
     "away": "Racing Santander",
     "kickoff": "2026-11-27T20:00:00",
     "bookmaker": "crown",
+    "ts": "2026-11-26T20:00:00+00:00",
+    "handicap_line": -0.25,
+    "handicap_home": 0.87,
+    "handicap_away": 1.01,
+    "total_line": 3.25,
+    "over": 0.98,
+    "under": 0.88
+  },
+  {
+    "fixture_key": "laliga|levante|racingsantander|2026-11-27",
+    "competition": "laliga",
+    "home": "Levante",
+    "away": "Racing Santander",
+    "kickoff": "2026-11-27T20:00:00",
+    "bookmaker": "crown",
     "ts": "2026-11-26T20:47:28.772853+00:00",
     "handicap_line": -0.5,
     "handicap_home": 1.03,
@@ -568,5 +583,20 @@
     "total_line": 3.5,
     "over": 1.02,
     "under": 0.86
+  },
+  {
+    "fixture_key": "laliga|levante|racingsantander|2026-11-27",
+    "competition": "laliga",
+    "home": "Levante",
+    "away": "Racing Santander",
+    "kickoff": "2026-11-27T20:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-27T11:48:54.375087+00:00",
+    "handicap_line": -0.5,
+    "handicap_home": 1.05,
+    "handicap_away": 0.84,
+    "total_line": 3.5,
+    "over": 1.06,
+    "under": 0.82
   }
 ]

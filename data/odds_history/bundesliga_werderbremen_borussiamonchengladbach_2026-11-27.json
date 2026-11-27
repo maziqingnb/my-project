@@ -351,6 +351,21 @@
     "away": "Borussia Monchengladbach",
     "kickoff": "2026-11-27T19:30:00",
     "bookmaker": "crown",
+    "ts": "2026-11-26T19:30:00+00:00",
+    "handicap_line": -0.75,
+    "handicap_home": 0.97,
+    "handicap_away": 0.91,
+    "total_line": 3.25,
+    "over": 1.02,
+    "under": 0.84
+  },
+  {
+    "fixture_key": "bundesliga|werderbremen|borussiamonchengladbach|2026-11-27",
+    "competition": "bundesliga",
+    "home": "Werder Bremen",
+    "away": "Borussia Monchengladbach",
+    "kickoff": "2026-11-27T19:30:00",
+    "bookmaker": "crown",
     "ts": "2026-11-26T19:56:06.541036+00:00",
     "handicap_line": -0.75,
     "handicap_home": 0.91,
@@ -568,5 +583,20 @@
     "total_line": 3.0,
     "over": 0.9,
     "under": 0.98
+  },
+  {
+    "fixture_key": "bundesliga|werderbremen|borussiamonchengladbach|2026-11-27",
+    "competition": "bundesliga",
+    "home": "Werder Bremen",
+    "away": "Borussia Monchengladbach",
+    "kickoff": "2026-11-27T19:30:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-27T11:48:57.401686+00:00",
+    "handicap_line": -0.75,
+    "handicap_home": 0.8,
+    "handicap_away": 1.09,
+    "total_line": 3.0,
+    "over": 0.85,
+    "under": 1.03
   }
 ]
