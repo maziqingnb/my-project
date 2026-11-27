@@ -1,15 +1,5 @@
 [
   {
-    "key": "epl|nottinghamforest|chelsea|2026-11-27",
-    "competition": "epl",
-    "home": "Nottingham Forest",
-    "away": "Chelsea",
-    "kickoff": "2026-11-27T20:00:00",
-    "status": "upcoming",
-    "home_goals": null,
-    "away_goals": null
-  },
-  {
     "key": "epl|leedsunited|coventrycity|2026-11-28",
     "competition": "epl",
     "home": "Leeds United",

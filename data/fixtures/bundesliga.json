@@ -1,15 +1,5 @@
 [
   {
-    "key": "bundesliga|werderbremen|borussiamonchengladbach|2026-11-27",
-    "competition": "bundesliga",
-    "home": "Werder Bremen",
-    "away": "Borussia Monchengladbach",
-    "kickoff": "2026-11-27T19:30:00",
-    "status": "upcoming",
-    "home_goals": null,
-    "away_goals": null
-  },
-  {
     "key": "bundesliga|fckoln|elversberg|2026-11-28",
     "competition": "bundesliga",
     "home": "FC Koln",
@@ -85,6 +75,16 @@
     "home": "Borussia Dortmund",
     "away": "Bayer Leverkusen",
     "kickoff": "2026-11-29T18:30:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "bundesliga|bayernmunich|paderborn|2026-12-04",
+    "competition": "bundesliga",
+    "home": "Bayern Munich",
+    "away": "Paderborn",
+    "kickoff": "2026-12-04T19:30:00",
     "status": "upcoming",
     "home_goals": null,
     "away_goals": null

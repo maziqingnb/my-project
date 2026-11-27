@@ -1,15 +1,5 @@
 [
   {
-    "key": "laliga|levante|racingsantander|2026-11-27",
-    "competition": "laliga",
-    "home": "Levante",
-    "away": "Racing Santander",
-    "kickoff": "2026-11-27T20:00:00",
-    "status": "upcoming",
-    "home_goals": null,
-    "away_goals": null
-  },
-  {
     "key": "laliga|realbetis|rayovallecano|2026-11-28",
     "competition": "laliga",
     "home": "Real Betis",
@@ -115,6 +105,16 @@
     "home": "Barcelona",
     "away": "Atletico Madrid",
     "kickoff": "2026-12-02T20:30:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "laliga|alaves|espanyol|2026-12-04",
+    "competition": "laliga",
+    "home": "Alaves",
+    "away": "Espanyol",
+    "kickoff": "2026-12-04T20:00:00",
     "status": "upcoming",
     "home_goals": null,
     "away_goals": null

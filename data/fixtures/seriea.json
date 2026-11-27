@@ -1,15 +1,5 @@
 [
   {
-    "key": "seriea|venezia|bologna|2026-11-27",
-    "competition": "seriea",
-    "home": "Venezia",
-    "away": "Bologna",
-    "kickoff": "2026-11-27T19:45:00",
-    "status": "upcoming",
-    "home_goals": null,
-    "away_goals": null
-  },
-  {
     "key": "seriea|frosinone|parma|2026-11-28",
     "competition": "seriea",
     "home": "Frosinone",
@@ -95,6 +85,16 @@
     "home": "Cagliari",
     "away": "AC Milan",
     "kickoff": "2026-11-30T19:45:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "seriea|bologna|roma|2026-12-04",
+    "competition": "seriea",
+    "home": "Bologna",
+    "away": "Roma",
+    "kickoff": "2026-12-04T19:45:00",
     "status": "upcoming",
     "home_goals": null,
     "away_goals": null

@@ -1,25 +1,5 @@
 [
   {
-    "key": "poland|琴斯托霍瓦|皮亚斯特|2026-11-27",
-    "competition": "poland",
-    "home": "琴斯托霍瓦",
-    "away": "皮亚斯特",
-    "kickoff": "2026-11-27T17:00:00",
-    "status": "upcoming",
-    "home_goals": null,
-    "away_goals": null
-  },
-  {
-    "key": "poland|扎布热矿工|普沃茨克维斯瓦|2026-11-27",
-    "competition": "poland",
-    "home": "扎布热矿工",
-    "away": "普沃茨克维斯瓦",
-    "kickoff": "2026-11-27T19:30:00",
-    "status": "upcoming",
-    "home_goals": null,
-    "away_goals": null
-  },
-  {
     "key": "poland|维德祖罗兹|卢宾扎格勒比|2026-11-28",
     "competition": "poland",
     "home": "维德祖罗兹",
@@ -85,6 +65,26 @@
     "home": "哥罗纳",
     "away": "克拉科维亚",
     "kickoff": "2026-11-30T18:00:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "poland|ks莫摩斯|哥罗纳|2026-12-04",
+    "competition": "poland",
+    "home": "KS莫摩斯",
+    "away": "哥罗纳",
+    "kickoff": "2026-12-04T17:00:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "poland|卢宾扎格勒比|克拉科夫|2026-12-04",
+    "competition": "poland",
+    "home": "卢宾扎格勒比",
+    "away": "克拉科夫",
+    "kickoff": "2026-12-04T19:30:00",
     "status": "upcoming",
     "home_goals": null,
     "away_goals": null

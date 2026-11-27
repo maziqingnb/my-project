@@ -1,25 +1,5 @@
 [
   {
-    "key": "superlig|阿拉尼亚体育|科尼亚体育|2026-11-27",
-    "competition": "superlig",
-    "home": "阿拉尼亚体育",
-    "away": "科尼亚体育",
-    "kickoff": "2026-11-27T17:00:00",
-    "status": "upcoming",
-    "home_goals": null,
-    "away_goals": null
-  },
-  {
-    "key": "superlig|里泽体育|卡斯帕萨|2026-11-27",
-    "competition": "superlig",
-    "home": "里泽体育",
-    "away": "卡斯帕萨",
-    "kickoff": "2026-11-27T17:00:00",
-    "status": "upcoming",
-    "home_goals": null,
-    "away_goals": null
-  },
-  {
     "key": "superlig|萨姆松体育|根克勒比利吉|2026-11-28",
     "competition": "superlig",
     "home": "萨姆松体育",
@@ -85,6 +65,16 @@
     "home": "贝西克塔斯",
     "away": "加拉塔萨雷",
     "kickoff": "2026-11-30T18:00:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "superlig|加拉塔萨雷|里泽体育|2026-12-04",
+    "competition": "superlig",
+    "home": "加拉塔萨雷",
+    "away": "里泽体育",
+    "kickoff": "2026-12-04T17:00:00",
     "status": "upcoming",
     "home_goals": null,
     "away_goals": null

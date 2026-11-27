@@ -1,15 +1,5 @@
 [
   {
-    "key": "primeira|马里迪莫|葡萄牙国民|2026-11-27",
-    "competition": "primeira",
-    "home": "马里迪莫",
-    "away": "葡萄牙国民",
-    "kickoff": "2026-11-27T20:15:00",
-    "status": "upcoming",
-    "home_goals": null,
-    "away_goals": null
-  },
-  {
     "key": "primeira|阿罗卡|里奥阿维|2026-11-28",
     "competition": "primeira",
     "home": "阿罗卡",
@@ -85,6 +75,16 @@
     "home": "卡萨比亚",
     "away": "布拉加",
     "kickoff": "2026-11-30T20:15:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "primeira|葡萄牙体育|马里迪莫|2026-12-04",
+    "competition": "primeira",
+    "home": "葡萄牙体育",
+    "away": "马里迪莫",
+    "kickoff": "2026-12-04T20:15:00",
     "status": "upcoming",
     "home_goals": null,
     "away_goals": null
