@@ -291,6 +291,21 @@
     "away": "Chelsea",
     "kickoff": "2026-11-27T20:00:00",
     "bookmaker": "crown",
+    "ts": "2026-11-26T20:00:00+00:00",
+    "handicap_line": 0.0,
+    "handicap_home": 1.03,
+    "handicap_away": 0.85,
+    "total_line": 2.75,
+    "over": 0.95,
+    "under": 0.91
+  },
+  {
+    "fixture_key": "epl|nottinghamforest|chelsea|2026-11-27",
+    "competition": "epl",
+    "home": "Nottingham Forest",
+    "away": "Chelsea",
+    "kickoff": "2026-11-27T20:00:00",
+    "bookmaker": "crown",
     "ts": "2026-11-26T20:47:28.780728+00:00",
     "handicap_line": -0.25,
     "handicap_home": 1.11,
@@ -418,5 +433,20 @@
     "total_line": 2.5,
     "over": 0.88,
     "under": 1.0
+  },
+  {
+    "fixture_key": "epl|nottinghamforest|chelsea|2026-11-27",
+    "competition": "epl",
+    "home": "Nottingham Forest",
+    "away": "Chelsea",
+    "kickoff": "2026-11-27T20:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-27T05:55:21.951778+00:00",
+    "handicap_line": 0.0,
+    "handicap_home": 0.84,
+    "handicap_away": 1.05,
+    "total_line": 2.5,
+    "over": 0.92,
+    "under": 0.96
   }
 ]

@@ -276,6 +276,21 @@
     "away": "Bologna",
     "kickoff": "2026-11-27T19:45:00",
     "bookmaker": "crown",
+    "ts": "2026-11-26T19:45:00+00:00",
+    "handicap_line": 0.5,
+    "handicap_home": 0.85,
+    "handicap_away": 1.03,
+    "total_line": 2.5,
+    "over": 0.83,
+    "under": 1.03
+  },
+  {
+    "fixture_key": "seriea|venezia|bologna|2026-11-27",
+    "competition": "seriea",
+    "home": "Venezia",
+    "away": "Bologna",
+    "kickoff": "2026-11-27T19:45:00",
+    "bookmaker": "crown",
     "ts": "2026-11-26T19:56:06.326851+00:00",
     "handicap_line": 0.25,
     "handicap_home": 0.95,
@@ -418,5 +433,20 @@
     "total_line": 2.25,
     "over": 0.87,
     "under": 1.01
+  },
+  {
+    "fixture_key": "seriea|venezia|bologna|2026-11-27",
+    "competition": "seriea",
+    "home": "Venezia",
+    "away": "Bologna",
+    "kickoff": "2026-11-27T19:45:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-27T05:55:23.232185+00:00",
+    "handicap_line": 0.25,
+    "handicap_home": 0.82,
+    "handicap_away": 1.07,
+    "total_line": 2.25,
+    "over": 0.9,
+    "under": 0.98
   }
 ]
