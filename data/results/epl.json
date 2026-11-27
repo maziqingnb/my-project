@@ -2,6 +2,17 @@
   {
     "competition": "epl",
     "cls": "league",
+    "home": "Nottingham Forest",
+    "away": "Chelsea",
+    "home_goals": 3,
+    "away_goals": 2,
+    "date": "2026-11-27",
+    "handicap_line": 0.0,
+    "total_line": 2.75
+  },
+  {
+    "competition": "epl",
+    "cls": "league",
     "home": "Brentford",
     "away": "Everton",
     "home_goals": 4,
