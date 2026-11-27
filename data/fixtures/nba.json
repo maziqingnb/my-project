@@ -498,5 +498,25 @@
     "status": "upcoming",
     "home_goals": null,
     "away_goals": null
+  },
+  {
+    "key": "nba|atlantahawks|indianapacers|2026-12-04",
+    "competition": "nba",
+    "home": "Atlanta Hawks",
+    "away": "Indiana Pacers",
+    "kickoff": "2026-12-04T00:00:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "key": "nba|miamiheat|washingtonwizards|2026-12-04",
+    "competition": "nba",
+    "home": "Miami Heat",
+    "away": "Washington Wizards",
+    "kickoff": "2026-12-04T00:30:00",
+    "status": "upcoming",
+    "home_goals": null,
+    "away_goals": null
   }
 ]

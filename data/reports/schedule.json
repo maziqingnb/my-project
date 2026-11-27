@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-26T18:43:36.343852+00:00",
+  "generated_at": "2026-11-27T00:50:50.932912+00:00",
   "matches": [
     {
       "fixture_key": "superlig|阿拉尼亚体育|科尼亚体育|2026-11-27",
@@ -2110,6 +2110,26 @@
       "home": "Tottenham Hotspur",
       "away": "Fulham",
       "kickoff": "2026-12-03T20:00:00"
+    },
+    {
+      "fixture_key": "nba|atlantahawks|indianapacers|2026-12-04",
+      "competition": "nba",
+      "competition_name": "NBA 美国职业篮球联赛",
+      "competition_class": "league",
+      "sport": "basketball",
+      "home": "Atlanta Hawks",
+      "away": "Indiana Pacers",
+      "kickoff": "2026-12-04T00:00:00"
+    },
+    {
+      "fixture_key": "nba|miamiheat|washingtonwizards|2026-12-04",
+      "competition": "nba",
+      "competition_name": "NBA 美国职业篮球联赛",
+      "competition_class": "league",
+      "sport": "basketball",
+      "home": "Miami Heat",
+      "away": "Washington Wizards",
+      "kickoff": "2026-12-04T00:30:00"
     }
   ]
 }
