@@ -321,6 +321,21 @@
     "away": "葡萄牙国民",
     "kickoff": "2026-11-27T20:15:00",
     "bookmaker": "crown",
+    "ts": "2026-11-26T20:15:00+00:00",
+    "handicap_line": -0.25,
+    "handicap_home": 0.92,
+    "handicap_away": 0.96,
+    "total_line": 2.25,
+    "over": 0.86,
+    "under": 1.0
+  },
+  {
+    "fixture_key": "primeira|马里迪莫|葡萄牙国民|2026-11-27",
+    "competition": "primeira",
+    "home": "马里迪莫",
+    "away": "葡萄牙国民",
+    "kickoff": "2026-11-27T20:15:00",
+    "bookmaker": "crown",
     "ts": "2026-11-26T20:47:29.159978+00:00",
     "handicap_line": -0.25,
     "handicap_home": 0.8,
@@ -478,5 +493,20 @@
     "total_line": 2.0,
     "over": 0.82,
     "under": 1.04
+  },
+  {
+    "fixture_key": "primeira|马里迪莫|葡萄牙国民|2026-11-27",
+    "competition": "primeira",
+    "home": "马里迪莫",
+    "away": "葡萄牙国民",
+    "kickoff": "2026-11-27T20:15:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-27T08:44:18.442158+00:00",
+    "handicap_line": -0.25,
+    "handicap_home": 0.89,
+    "handicap_away": 1.0,
+    "total_line": 2.25,
+    "over": 1.09,
+    "under": 0.77
   }
 ]

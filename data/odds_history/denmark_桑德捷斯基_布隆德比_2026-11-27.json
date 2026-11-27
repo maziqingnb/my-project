@@ -276,6 +276,21 @@
     "away": "布隆德比",
     "kickoff": "2026-11-27T18:00:00",
     "bookmaker": "crown",
+    "ts": "2026-11-26T18:00:00+00:00",
+    "handicap_line": 0.75,
+    "handicap_home": 0.95,
+    "handicap_away": 0.93,
+    "total_line": 3.0,
+    "over": 1.0,
+    "under": 0.87
+  },
+  {
+    "fixture_key": "denmark|桑德捷斯基|布隆德比|2026-11-27",
+    "competition": "denmark",
+    "home": "桑德捷斯基",
+    "away": "布隆德比",
+    "kickoff": "2026-11-27T18:00:00",
+    "bookmaker": "crown",
     "ts": "2026-11-26T18:44:05.016607+00:00",
     "handicap_line": 0.75,
     "handicap_home": 0.96,
@@ -478,5 +493,20 @@
     "total_line": 3.0,
     "over": 1.06,
     "under": 0.81
+  },
+  {
+    "fixture_key": "denmark|桑德捷斯基|布隆德比|2026-11-27",
+    "competition": "denmark",
+    "home": "桑德捷斯基",
+    "away": "布隆德比",
+    "kickoff": "2026-11-27T18:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-27T08:44:23.083301+00:00",
+    "handicap_line": 0.75,
+    "handicap_home": 1.04,
+    "handicap_away": 0.85,
+    "total_line": 3.0,
+    "over": 1.08,
+    "under": 0.79
   }
 ]
