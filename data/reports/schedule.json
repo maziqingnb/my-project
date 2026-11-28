@@ -1,46 +1,6 @@
 {
-  "generated_at": "2026-11-27T18:42:03.135148+00:00",
+  "generated_at": "2026-11-28T00:47:01.224623+00:00",
   "matches": [
-    {
-      "fixture_key": "nba|newyorkknicks|miamiheat|2026-11-28",
-      "competition": "nba",
-      "competition_name": "NBA 美国职业篮球联赛",
-      "competition_class": "league",
-      "sport": "basketball",
-      "home": "New York Knicks",
-      "away": "Miami Heat",
-      "kickoff": "2026-11-28T00:00:00"
-    },
-    {
-      "fixture_key": "nba|detroitpistons|milwaukeebucks|2026-11-28",
-      "competition": "nba",
-      "competition_name": "NBA 美国职业篮球联赛",
-      "competition_class": "league",
-      "sport": "basketball",
-      "home": "Detroit Pistons",
-      "away": "Milwaukee Bucks",
-      "kickoff": "2026-11-28T00:30:00"
-    },
-    {
-      "fixture_key": "nba|torontoraptors|brooklynnets|2026-11-28",
-      "competition": "nba",
-      "competition_name": "NBA 美国职业篮球联赛",
-      "competition_class": "league",
-      "sport": "basketball",
-      "home": "Toronto Raptors",
-      "away": "Brooklyn Nets",
-      "kickoff": "2026-11-28T00:30:00"
-    },
-    {
-      "fixture_key": "nba|indianapacers|philadelphia76ers|2026-11-28",
-      "competition": "nba",
-      "competition_name": "NBA 美国职业篮球联赛",
-      "competition_class": "league",
-      "sport": "basketball",
-      "home": "Indiana Pacers",
-      "away": "Philadelphia 76ers",
-      "kickoff": "2026-11-28T00:30:00"
-    },
     {
       "fixture_key": "nba|bostonceltics|atlantahawks|2026-11-28",
       "competition": "nba",

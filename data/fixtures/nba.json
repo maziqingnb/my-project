@@ -1,45 +1,5 @@
 [
   {
-    "key": "nba|newyorkknicks|miamiheat|2026-11-28",
-    "competition": "nba",
-    "home": "New York Knicks",
-    "away": "Miami Heat",
-    "kickoff": "2026-11-28T00:00:00",
-    "status": "upcoming",
-    "home_goals": null,
-    "away_goals": null
-  },
-  {
-    "key": "nba|detroitpistons|milwaukeebucks|2026-11-28",
-    "competition": "nba",
-    "home": "Detroit Pistons",
-    "away": "Milwaukee Bucks",
-    "kickoff": "2026-11-28T00:30:00",
-    "status": "upcoming",
-    "home_goals": null,
-    "away_goals": null
-  },
-  {
-    "key": "nba|torontoraptors|brooklynnets|2026-11-28",
-    "competition": "nba",
-    "home": "Toronto Raptors",
-    "away": "Brooklyn Nets",
-    "kickoff": "2026-11-28T00:30:00",
-    "status": "upcoming",
-    "home_goals": null,
-    "away_goals": null
-  },
-  {
-    "key": "nba|indianapacers|philadelphia76ers|2026-11-28",
-    "competition": "nba",
-    "home": "Indiana Pacers",
-    "away": "Philadelphia 76ers",
-    "kickoff": "2026-11-28T00:30:00",
-    "status": "upcoming",
-    "home_goals": null,
-    "away_goals": null
-  },
-  {
     "key": "nba|bostonceltics|atlantahawks|2026-11-28",
     "competition": "nba",
     "home": "Boston Celtics",
