@@ -1,14 +1,34 @@
 {
-  "generated_at": "2026-11-28T12:25:21.728054+00:00",
+  "generated_at": "2026-11-28T13:39:42.493832+00:00",
   "matches": [
     {
-      "fixture_key": "rpl|rubinkazan|akrontolyatti|2026-11-28",
-      "competition": "rpl",
-      "home": "Rubin Kazan",
-      "away": "Akron Tolyatti",
-      "kickoff": "2026-11-28T11:00:00",
+      "fixture_key": "laliga|realbetis|rayovallecano|2026-11-28",
+      "competition": "laliga",
+      "home": "Real Betis",
+      "away": "Rayo Vallecano",
+      "kickoff": "2026-11-28T13:00:00",
       "status": "live",
-      "home_goals": 3,
+      "home_goals": 0,
+      "away_goals": 0
+    },
+    {
+      "fixture_key": "rpl|cskamoscow|zenitstpetersburg|2026-11-28",
+      "competition": "rpl",
+      "home": "CSKA Moscow",
+      "away": "Zenit St Petersburg",
+      "kickoff": "2026-11-28T13:30:00",
+      "status": "live",
+      "home_goals": 0,
+      "away_goals": 0
+    },
+    {
+      "fixture_key": "superlig|samsunspor|genclerbirligi|2026-11-28",
+      "competition": "superlig",
+      "home": "Samsunspor",
+      "away": "Genclerbirligi",
+      "kickoff": "2026-11-28T13:00:00",
+      "status": "live",
+      "home_goals": 2,
       "away_goals": 0
     }
   ]
