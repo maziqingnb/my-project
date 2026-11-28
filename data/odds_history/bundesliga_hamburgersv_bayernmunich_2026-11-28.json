@@ -246,6 +246,21 @@
     "away": "Bayern Munich",
     "kickoff": "2026-11-28T14:30:00",
     "bookmaker": "crown",
+    "ts": "2026-11-27T14:30:00+00:00",
+    "handicap_line": 2.5,
+    "handicap_home": 0.92,
+    "handicap_away": 0.96,
+    "total_line": 4.25,
+    "over": 0.93,
+    "under": 0.93
+  },
+  {
+    "fixture_key": "bundesliga|hamburgersv|bayernmunich|2026-11-28",
+    "competition": "bundesliga",
+    "home": "Hamburger SV",
+    "away": "Bayern Munich",
+    "kickoff": "2026-11-28T14:30:00",
+    "bookmaker": "crown",
     "ts": "2026-11-27T16:33:58.046665+00:00",
     "handicap_line": 1.75,
     "handicap_home": 0.94,
@@ -478,5 +493,20 @@
     "total_line": 3.5,
     "over": 0.99,
     "under": 0.89
+  },
+  {
+    "fixture_key": "bundesliga|hamburgersv|bayernmunich|2026-11-28",
+    "competition": "bundesliga",
+    "home": "Hamburger SV",
+    "away": "Bayern Munich",
+    "kickoff": "2026-11-28T14:30:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-28T07:48:09.706603+00:00",
+    "handicap_line": 1.5,
+    "handicap_home": 1.04,
+    "handicap_away": 0.85,
+    "total_line": 3.5,
+    "over": 1.06,
+    "under": 0.82
   }
 ]
