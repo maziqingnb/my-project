@@ -366,6 +366,21 @@
     "away": "Lazio",
     "kickoff": "2026-11-28T17:00:00",
     "bookmaker": "crown",
+    "ts": "2026-11-27T17:00:00+00:00",
+    "handicap_line": 0.5,
+    "handicap_home": 0.91,
+    "handicap_away": 0.97,
+    "total_line": 2.5,
+    "over": 0.86,
+    "under": 1.0
+  },
+  {
+    "fixture_key": "seriea|torino|lazio|2026-11-28",
+    "competition": "seriea",
+    "home": "Torino",
+    "away": "Lazio",
+    "kickoff": "2026-11-28T17:00:00",
+    "bookmaker": "crown",
     "ts": "2026-11-27T17:49:05.428450+00:00",
     "handicap_line": 0.25,
     "handicap_home": 0.97,
@@ -688,5 +703,20 @@
     "total_line": 2.5,
     "over": 0.94,
     "under": 0.94
+  },
+  {
+    "fixture_key": "seriea|torino|lazio|2026-11-28",
+    "competition": "seriea",
+    "home": "Torino",
+    "away": "Lazio",
+    "kickoff": "2026-11-28T17:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-28T13:57:12.071449+00:00",
+    "handicap_line": 0.25,
+    "handicap_home": 0.99,
+    "handicap_away": 0.9,
+    "total_line": 2.5,
+    "over": 0.95,
+    "under": 0.93
   }
 ]
