@@ -201,6 +201,21 @@
     "away": "帕纳多里高斯",
     "kickoff": "2026-11-28T15:00:00",
     "bookmaker": "crown",
+    "ts": "2026-11-27T15:00:00+00:00",
+    "handicap_line": -0.5,
+    "handicap_home": 0.96,
+    "handicap_away": 0.86,
+    "total_line": 2.25,
+    "over": 0.84,
+    "under": 0.96
+  },
+  {
+    "fixture_key": "greeksl|伊拉克里斯|帕纳多里高斯|2026-11-28",
+    "competition": "greeksl",
+    "home": "伊拉克里斯",
+    "away": "帕纳多里高斯",
+    "kickoff": "2026-11-28T15:00:00",
+    "bookmaker": "crown",
     "ts": "2026-11-27T16:34:11.059875+00:00",
     "handicap_line": -0.5,
     "handicap_home": 0.82,
@@ -388,5 +403,20 @@
     "total_line": 2.25,
     "over": 0.89,
     "under": 0.97
+  },
+  {
+    "fixture_key": "greeksl|伊拉克里斯|帕纳多里高斯|2026-11-28",
+    "competition": "greeksl",
+    "home": "伊拉克里斯",
+    "away": "帕纳多里高斯",
+    "kickoff": "2026-11-28T15:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-28T05:29:15.378588+00:00",
+    "handicap_line": -0.5,
+    "handicap_home": 0.9,
+    "handicap_away": 0.98,
+    "total_line": 2.25,
+    "over": 0.8,
+    "under": 1.06
   }
 ]
