@@ -1,0 +1,32 @@
+[
+  {
+    "fixture_key": "rpl|莫斯科火车头|马哈奇卡拉|2026-11-29",
+    "competition": "rpl",
+    "home": "莫斯科火车头",
+    "away": "马哈奇卡拉",
+    "kickoff": "2026-11-29T16:45:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-28T16:39:46.243717+00:00",
+    "handicap_line": -0.5,
+    "handicap_home": 0.89,
+    "handicap_away": 0.99,
+    "total_line": 2.5,
+    "over": 0.92,
+    "under": 0.95
+  },
+  {
+    "fixture_key": "rpl|莫斯科火车头|马哈奇卡拉|2026-11-29",
+    "competition": "rpl",
+    "home": "莫斯科火车头",
+    "away": "马哈奇卡拉",
+    "kickoff": "2026-11-29T16:45:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-28T16:45:00+00:00",
+    "handicap_line": -0.5,
+    "handicap_home": 0.84,
+    "handicap_away": 1.04,
+    "total_line": 2.5,
+    "over": 0.84,
+    "under": 1.03
+  }
+]

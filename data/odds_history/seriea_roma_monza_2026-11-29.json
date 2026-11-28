@@ -1,0 +1,32 @@
+[
+  {
+    "fixture_key": "seriea|roma|monza|2026-11-29",
+    "competition": "seriea",
+    "home": "Roma",
+    "away": "Monza",
+    "kickoff": "2026-11-29T17:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-28T16:39:33.703263+00:00",
+    "handicap_line": -2.0,
+    "handicap_home": 0.87,
+    "handicap_away": 1.01,
+    "total_line": 3.5,
+    "over": 0.89,
+    "under": 0.99
+  },
+  {
+    "fixture_key": "seriea|roma|monza|2026-11-29",
+    "competition": "seriea",
+    "home": "Roma",
+    "away": "Monza",
+    "kickoff": "2026-11-29T17:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-28T17:00:00+00:00",
+    "handicap_line": -1.75,
+    "handicap_home": 0.92,
+    "handicap_away": 0.96,
+    "total_line": 3.25,
+    "over": 0.9,
+    "under": 0.96
+  }
+]

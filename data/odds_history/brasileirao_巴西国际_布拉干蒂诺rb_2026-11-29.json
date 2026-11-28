@@ -1,0 +1,32 @@
+[
+  {
+    "fixture_key": "brasileirao|巴西国际|布拉干蒂诺rb|2026-11-29",
+    "competition": "brasileirao",
+    "home": "巴西国际",
+    "away": "布拉干蒂诺RB",
+    "kickoff": "2026-11-29T21:30:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-28T16:39:51.537234+00:00",
+    "handicap_line": -0.5,
+    "handicap_home": 1.02,
+    "handicap_away": 0.86,
+    "total_line": 2.75,
+    "over": 0.96,
+    "under": 0.91
+  },
+  {
+    "fixture_key": "brasileirao|巴西国际|布拉干蒂诺rb|2026-11-29",
+    "competition": "brasileirao",
+    "home": "巴西国际",
+    "away": "布拉干蒂诺RB",
+    "kickoff": "2026-11-29T21:30:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-28T21:30:00+00:00",
+    "handicap_line": -0.5,
+    "handicap_home": 1.0,
+    "handicap_away": 0.88,
+    "total_line": 2.75,
+    "over": 0.96,
+    "under": 0.91
+  }
+]

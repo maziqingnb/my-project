@@ -1,0 +1,32 @@
+[
+  {
+    "fixture_key": "sweden|马尔默|布洛马波卡纳|2026-11-29",
+    "competition": "sweden",
+    "home": "马尔默",
+    "away": "布洛马波卡纳",
+    "kickoff": "2026-11-29T14:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-28T14:00:00+00:00",
+    "handicap_line": -0.75,
+    "handicap_home": 0.85,
+    "handicap_away": 1.03,
+    "total_line": 3.0,
+    "over": 0.95,
+    "under": 0.92
+  },
+  {
+    "fixture_key": "sweden|马尔默|布洛马波卡纳|2026-11-29",
+    "competition": "sweden",
+    "home": "马尔默",
+    "away": "布洛马波卡纳",
+    "kickoff": "2026-11-29T14:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-28T16:40:07.361320+00:00",
+    "handicap_line": -1.0,
+    "handicap_home": 0.97,
+    "handicap_away": 0.91,
+    "total_line": 3.0,
+    "over": 0.79,
+    "under": 1.08
+  }
+]

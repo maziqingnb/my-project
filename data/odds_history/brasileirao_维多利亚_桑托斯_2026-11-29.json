@@ -1,0 +1,32 @@
+[
+  {
+    "fixture_key": "brasileirao|维多利亚|桑托斯|2026-11-29",
+    "competition": "brasileirao",
+    "home": "维多利亚",
+    "away": "桑托斯",
+    "kickoff": "2026-11-29T19:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-28T16:39:49.053284+00:00",
+    "handicap_line": 0.25,
+    "handicap_home": 0.92,
+    "handicap_away": 0.96,
+    "total_line": 2.5,
+    "over": 0.88,
+    "under": 0.99
+  },
+  {
+    "fixture_key": "brasileirao|维多利亚|桑托斯|2026-11-29",
+    "competition": "brasileirao",
+    "home": "维多利亚",
+    "away": "桑托斯",
+    "kickoff": "2026-11-29T19:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-28T19:00:00+00:00",
+    "handicap_line": 0.25,
+    "handicap_home": 0.86,
+    "handicap_away": 1.02,
+    "total_line": 2.5,
+    "over": 0.88,
+    "under": 0.99
+  }
+]

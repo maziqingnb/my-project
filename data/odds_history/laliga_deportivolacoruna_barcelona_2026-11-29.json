@@ -1,0 +1,32 @@
+[
+  {
+    "fixture_key": "laliga|deportivolacoruna|barcelona|2026-11-29",
+    "competition": "laliga",
+    "home": "Deportivo La Coruna",
+    "away": "Barcelona",
+    "kickoff": "2026-11-29T15:15:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-28T15:15:00+00:00",
+    "handicap_line": 1.5,
+    "handicap_home": 1.0,
+    "handicap_away": 0.88,
+    "total_line": 3.75,
+    "over": 0.86,
+    "under": 1.0
+  },
+  {
+    "fixture_key": "laliga|deportivolacoruna|barcelona|2026-11-29",
+    "competition": "laliga",
+    "home": "Deportivo La Coruna",
+    "away": "Barcelona",
+    "kickoff": "2026-11-29T15:15:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-28T16:39:43.147923+00:00",
+    "handicap_line": 2.0,
+    "handicap_home": 0.96,
+    "handicap_away": 0.92,
+    "total_line": 4.0,
+    "over": 1.0,
+    "under": 0.88
+  }
+]

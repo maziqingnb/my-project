@@ -1,0 +1,32 @@
+[
+  {
+    "fixture_key": "greeksl|阿特罗米托斯|帕纳辛纳科斯|2026-11-29",
+    "competition": "greeksl",
+    "home": "阿特罗米托斯",
+    "away": "帕纳辛纳科斯",
+    "kickoff": "2026-11-29T15:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-28T15:00:00+00:00",
+    "handicap_line": 1.25,
+    "handicap_home": 0.85,
+    "handicap_away": 0.97,
+    "total_line": 2.75,
+    "over": 0.97,
+    "under": 0.83
+  },
+  {
+    "fixture_key": "greeksl|阿特罗米托斯|帕纳辛纳科斯|2026-11-29",
+    "competition": "greeksl",
+    "home": "阿特罗米托斯",
+    "away": "帕纳辛纳科斯",
+    "kickoff": "2026-11-29T15:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-28T16:39:53.077310+00:00",
+    "handicap_line": 1.25,
+    "handicap_home": 0.85,
+    "handicap_away": 0.97,
+    "total_line": 2.75,
+    "over": 1.08,
+    "under": 0.72
+  }
+]

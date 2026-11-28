@@ -1,0 +1,32 @@
+[
+  {
+    "fixture_key": "poland|波兹南莱赫|什切青|2026-11-29",
+    "competition": "poland",
+    "home": "波兹南莱赫",
+    "away": "什切青",
+    "kickoff": "2026-11-29T13:45:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-28T13:45:00+00:00",
+    "handicap_line": -1.0,
+    "handicap_home": 0.89,
+    "handicap_away": 0.93,
+    "total_line": 3.25,
+    "over": 0.94,
+    "under": 0.86
+  },
+  {
+    "fixture_key": "poland|波兹南莱赫|什切青|2026-11-29",
+    "competition": "poland",
+    "home": "波兹南莱赫",
+    "away": "什切青",
+    "kickoff": "2026-11-29T13:45:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-28T16:40:05.574370+00:00",
+    "handicap_line": -1.0,
+    "handicap_home": 0.93,
+    "handicap_away": 0.83,
+    "total_line": 3.25,
+    "over": 0.92,
+    "under": 0.84
+  }
+]

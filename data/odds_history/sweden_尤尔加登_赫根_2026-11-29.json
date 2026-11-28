@@ -1,0 +1,32 @@
+[
+  {
+    "fixture_key": "sweden|尤尔加登|赫根|2026-11-29",
+    "competition": "sweden",
+    "home": "尤尔加登",
+    "away": "赫根",
+    "kickoff": "2026-11-29T14:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-28T14:00:00+00:00",
+    "handicap_line": -0.5,
+    "handicap_home": 0.94,
+    "handicap_away": 0.94,
+    "total_line": 3.0,
+    "over": 0.84,
+    "under": 1.03
+  },
+  {
+    "fixture_key": "sweden|尤尔加登|赫根|2026-11-29",
+    "competition": "sweden",
+    "home": "尤尔加登",
+    "away": "赫根",
+    "kickoff": "2026-11-29T14:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-28T16:40:03.456810+00:00",
+    "handicap_line": -0.5,
+    "handicap_home": 1.02,
+    "handicap_away": 0.86,
+    "total_line": 3.0,
+    "over": 0.91,
+    "under": 0.96
+  }
+]

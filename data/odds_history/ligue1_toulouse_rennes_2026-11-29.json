@@ -1,0 +1,32 @@
+[
+  {
+    "fixture_key": "ligue1|toulouse|rennes|2026-11-29",
+    "competition": "ligue1",
+    "home": "Toulouse",
+    "away": "Rennes",
+    "kickoff": "2026-11-29T16:15:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-28T16:15:00+00:00",
+    "handicap_line": 0.0,
+    "handicap_home": 0.98,
+    "handicap_away": 0.9,
+    "total_line": 3.0,
+    "over": 0.92,
+    "under": 0.94
+  },
+  {
+    "fixture_key": "ligue1|toulouse|rennes|2026-11-29",
+    "competition": "ligue1",
+    "home": "Toulouse",
+    "away": "Rennes",
+    "kickoff": "2026-11-29T16:15:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-28T16:39:39.613621+00:00",
+    "handicap_line": -0.25,
+    "handicap_home": 1.12,
+    "handicap_away": 0.77,
+    "total_line": 2.75,
+    "over": 0.84,
+    "under": 1.03
+  }
+]

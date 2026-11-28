@@ -1,0 +1,32 @@
+[
+  {
+    "fixture_key": "sweden|代格福什|奥尔格里特|2026-11-29",
+    "competition": "sweden",
+    "home": "代格福什",
+    "away": "奥尔格里特",
+    "kickoff": "2026-11-29T14:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-28T14:00:00+00:00",
+    "handicap_line": -0.5,
+    "handicap_home": 1.06,
+    "handicap_away": 0.82,
+    "total_line": 2.75,
+    "over": 0.87,
+    "under": 1.0
+  },
+  {
+    "fixture_key": "sweden|代格福什|奥尔格里特|2026-11-29",
+    "competition": "sweden",
+    "home": "代格福什",
+    "away": "奥尔格里特",
+    "kickoff": "2026-11-29T14:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-28T16:39:59.594973+00:00",
+    "handicap_line": -0.5,
+    "handicap_home": 0.96,
+    "handicap_away": 0.92,
+    "total_line": 2.75,
+    "over": 0.82,
+    "under": 1.05
+  }
+]

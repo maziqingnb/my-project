@@ -1,0 +1,32 @@
+[
+  {
+    "fixture_key": "denmark|哥本哈根|中日德兰|2026-11-29",
+    "competition": "denmark",
+    "home": "哥本哈根",
+    "away": "中日德兰",
+    "kickoff": "2026-11-29T15:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-28T15:00:00+00:00",
+    "handicap_line": -0.5,
+    "handicap_home": 0.97,
+    "handicap_away": 0.91,
+    "total_line": 3.0,
+    "over": 1.05,
+    "under": 0.82
+  },
+  {
+    "fixture_key": "denmark|哥本哈根|中日德兰|2026-11-29",
+    "competition": "denmark",
+    "home": "哥本哈根",
+    "away": "中日德兰",
+    "kickoff": "2026-11-29T15:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-28T16:40:00.759159+00:00",
+    "handicap_line": -0.25,
+    "handicap_home": 0.95,
+    "handicap_away": 0.93,
+    "total_line": 2.75,
+    "over": 0.99,
+    "under": 0.88
+  }
+]

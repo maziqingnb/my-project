@@ -1,0 +1,32 @@
+[
+  {
+    "fixture_key": "seriea|sassuolo|napoli|2026-11-29",
+    "competition": "seriea",
+    "home": "Sassuolo",
+    "away": "Napoli",
+    "kickoff": "2026-11-29T14:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-28T14:00:00+00:00",
+    "handicap_line": 0.75,
+    "handicap_home": 0.97,
+    "handicap_away": 0.91,
+    "total_line": 3.0,
+    "over": 0.89,
+    "under": 0.97
+  },
+  {
+    "fixture_key": "seriea|sassuolo|napoli|2026-11-29",
+    "competition": "seriea",
+    "home": "Sassuolo",
+    "away": "Napoli",
+    "kickoff": "2026-11-29T14:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-28T16:39:32.174278+00:00",
+    "handicap_line": 0.75,
+    "handicap_home": 1.02,
+    "handicap_away": 0.86,
+    "total_line": 3.0,
+    "over": 0.95,
+    "under": 0.93
+  }
+]

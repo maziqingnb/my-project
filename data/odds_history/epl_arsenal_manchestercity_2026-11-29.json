@@ -1,0 +1,32 @@
+[
+  {
+    "fixture_key": "epl|arsenal|manchestercity|2026-11-29",
+    "competition": "epl",
+    "home": "Arsenal",
+    "away": "Manchester City",
+    "kickoff": "2026-11-29T16:30:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-28T16:30:00+00:00",
+    "handicap_line": -0.5,
+    "handicap_home": 1.04,
+    "handicap_away": 0.84,
+    "total_line": 2.75,
+    "over": 0.94,
+    "under": 0.92
+  },
+  {
+    "fixture_key": "epl|arsenal|manchestercity|2026-11-29",
+    "competition": "epl",
+    "home": "Arsenal",
+    "away": "Manchester City",
+    "kickoff": "2026-11-29T16:30:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-28T16:39:44.664940+00:00",
+    "handicap_line": -0.5,
+    "handicap_home": 1.02,
+    "handicap_away": 0.86,
+    "total_line": 2.75,
+    "over": 0.97,
+    "under": 0.91
+  }
+]

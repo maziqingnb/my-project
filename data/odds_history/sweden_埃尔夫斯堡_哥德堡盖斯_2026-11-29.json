@@ -1,0 +1,32 @@
+[
+  {
+    "fixture_key": "sweden|埃尔夫斯堡|哥德堡盖斯|2026-11-29",
+    "competition": "sweden",
+    "home": "埃尔夫斯堡",
+    "away": "哥德堡盖斯",
+    "kickoff": "2026-11-29T14:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-28T14:00:00+00:00",
+    "handicap_line": -0.5,
+    "handicap_home": 0.99,
+    "handicap_away": 0.89,
+    "total_line": 2.75,
+    "over": 0.99,
+    "under": 0.88
+  },
+  {
+    "fixture_key": "sweden|埃尔夫斯堡|哥德堡盖斯|2026-11-29",
+    "competition": "sweden",
+    "home": "埃尔夫斯堡",
+    "away": "哥德堡盖斯",
+    "kickoff": "2026-11-29T14:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-28T16:40:04.464722+00:00",
+    "handicap_line": -0.5,
+    "handicap_home": 0.85,
+    "handicap_away": 1.03,
+    "total_line": 3.0,
+    "over": 0.95,
+    "under": 0.92
+  }
+]
