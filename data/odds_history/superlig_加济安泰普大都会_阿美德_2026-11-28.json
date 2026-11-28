@@ -381,6 +381,21 @@
     "away": "阿美德",
     "kickoff": "2026-11-28T16:00:00",
     "bookmaker": "crown",
+    "ts": "2026-11-27T16:00:00+00:00",
+    "handicap_line": 0.5,
+    "handicap_home": 0.83,
+    "handicap_away": 1.05,
+    "total_line": 2.75,
+    "over": 0.89,
+    "under": 0.98
+  },
+  {
+    "fixture_key": "superlig|加济安泰普大都会|阿美德|2026-11-28",
+    "competition": "superlig",
+    "home": "加济安泰普大都会",
+    "away": "阿美德",
+    "kickoff": "2026-11-28T16:00:00",
+    "bookmaker": "crown",
     "ts": "2026-11-27T16:34:05.258350+00:00",
     "handicap_line": 0.5,
     "handicap_home": 0.83,
@@ -748,5 +763,20 @@
     "total_line": 2.5,
     "over": 0.92,
     "under": 0.95
+  },
+  {
+    "fixture_key": "superlig|加济安泰普大都会|阿美德|2026-11-28",
+    "competition": "superlig",
+    "home": "加济安泰普大都会",
+    "away": "阿美德",
+    "kickoff": "2026-11-28T16:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-28T15:38:40.967827+00:00",
+    "handicap_line": 0.25,
+    "handicap_home": 0.94,
+    "handicap_away": 0.95,
+    "total_line": 2.5,
+    "over": 0.94,
+    "under": 0.93
   }
 ]
