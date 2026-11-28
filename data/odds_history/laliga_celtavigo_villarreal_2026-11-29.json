@@ -28,5 +28,35 @@
     "total_line": 2.75,
     "over": 1.0,
     "under": 0.86
+  },
+  {
+    "fixture_key": "laliga|celtavigo|villarreal|2026-11-29",
+    "competition": "laliga",
+    "home": "Celta Vigo",
+    "away": "Villarreal",
+    "kickoff": "2026-11-29T17:30:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-28T17:30:00+00:00",
+    "handicap_line": 0.0,
+    "handicap_home": 1.0,
+    "handicap_away": 0.88,
+    "total_line": 2.75,
+    "over": 1.0,
+    "under": 0.86
+  },
+  {
+    "fixture_key": "laliga|celtavigo|villarreal|2026-11-29",
+    "competition": "laliga",
+    "home": "Celta Vigo",
+    "away": "Villarreal",
+    "kickoff": "2026-11-29T17:30:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-28T17:36:58.804442+00:00",
+    "handicap_line": 0.0,
+    "handicap_home": 1.01,
+    "handicap_away": 0.87,
+    "total_line": 2.75,
+    "over": 1.01,
+    "under": 0.87
   }
 ]

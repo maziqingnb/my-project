@@ -28,5 +28,35 @@
     "total_line": 3.0,
     "over": 1.0,
     "under": 0.87
+  },
+  {
+    "fixture_key": "denmark|锡尔克堡|奥胡斯|2026-11-29",
+    "competition": "denmark",
+    "home": "锡尔克堡",
+    "away": "奥胡斯",
+    "kickoff": "2026-11-29T17:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-28T17:00:00+00:00",
+    "handicap_line": 0.5,
+    "handicap_home": 0.84,
+    "handicap_away": 1.04,
+    "total_line": 3.0,
+    "over": 1.0,
+    "under": 0.87
+  },
+  {
+    "fixture_key": "denmark|锡尔克堡|奥胡斯|2026-11-29",
+    "competition": "denmark",
+    "home": "锡尔克堡",
+    "away": "奥胡斯",
+    "kickoff": "2026-11-29T17:00:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-28T17:37:18.870508+00:00",
+    "handicap_line": 0.5,
+    "handicap_home": 0.98,
+    "handicap_away": 0.9,
+    "total_line": 2.75,
+    "over": 0.82,
+    "under": 1.05
   }
 ]
