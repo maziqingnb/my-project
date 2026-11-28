@@ -1,15 +1,25 @@
 {
-  "generated_at": "2026-11-28T17:05:45.337859+00:00",
+  "generated_at": "2026-11-28T17:52:09.333286+00:00",
   "matches": [
     {
-      "fixture_key": "laliga|malaga|athleticbilbao|2026-11-28",
-      "competition": "laliga",
-      "home": "Malaga",
-      "away": "Athletic Bilbao",
-      "kickoff": "2026-11-28T15:15:00",
+      "fixture_key": "epl|ipswichtown|astonvilla|2026-11-28",
+      "competition": "epl",
+      "home": "Ipswich Town",
+      "away": "Aston Villa",
+      "kickoff": "2026-11-28T17:30:00",
       "status": "live",
-      "home_goals": 3,
-      "away_goals": 4
+      "home_goals": 1,
+      "away_goals": 1
+    },
+    {
+      "fixture_key": "laliga|elche|atleticomadrid|2026-11-28",
+      "competition": "laliga",
+      "home": "Elche",
+      "away": "Atletico Madrid",
+      "kickoff": "2026-11-28T17:30:00",
+      "status": "live",
+      "home_goals": 0,
+      "away_goals": 2
     },
     {
       "fixture_key": "seriea|torino|lazio|2026-11-28",
@@ -17,6 +27,16 @@
       "home": "Torino",
       "away": "Lazio",
       "kickoff": "2026-11-28T17:00:00",
+      "status": "live",
+      "home_goals": 0,
+      "away_goals": 2
+    },
+    {
+      "fixture_key": "bundesliga|stuttgart|eintrachtfrankfurt|2026-11-28",
+      "competition": "bundesliga",
+      "home": "Stuttgart",
+      "away": "Eintracht Frankfurt",
+      "kickoff": "2026-11-28T17:30:00",
       "status": "live",
       "home_goals": 0,
       "away_goals": 0
@@ -28,28 +48,8 @@
       "away": "Lens",
       "kickoff": "2026-11-28T16:15:00",
       "status": "live",
-      "home_goals": 1,
-      "away_goals": 1
-    },
-    {
-      "fixture_key": "primeira|arouca|rioave|2026-11-28",
-      "competition": "primeira",
-      "home": "Arouca",
-      "away": "Rio Ave",
-      "kickoff": "2026-11-28T15:30:00",
-      "status": "live",
-      "home_goals": 0,
-      "away_goals": 0
-    },
-    {
-      "fixture_key": "primeira|moreirense|santaclara|2026-11-28",
-      "competition": "primeira",
-      "home": "Moreirense",
-      "away": "Santa Clara",
-      "kickoff": "2026-11-28T15:30:00",
-      "status": "live",
-      "home_goals": 0,
-      "away_goals": 2
+      "home_goals": 2,
+      "away_goals": 3
     },
     {
       "fixture_key": "rpl|fcbaltikakaliningrad|akhmatgrozny|2026-11-28",
@@ -58,7 +58,7 @@
       "away": "Akhmat Grozny",
       "kickoff": "2026-11-28T16:00:00",
       "status": "live",
-      "home_goals": 0,
+      "home_goals": 1,
       "away_goals": 0
     },
     {
@@ -68,18 +68,18 @@
       "away": "Amed SFK",
       "kickoff": "2026-11-28T16:00:00",
       "status": "live",
-      "home_goals": 0,
-      "away_goals": 1
+      "home_goals": 1,
+      "away_goals": 2
     },
     {
-      "fixture_key": "poland|史拉斯科|gks卡托威斯|2026-11-28",
-      "competition": "poland",
-      "home": "史拉斯科",
-      "away": "GKS卡托威斯",
-      "kickoff": "2026-11-28T16:30:00",
+      "fixture_key": "mls|夏洛特fc|芝加哥火焰|2026-11-28",
+      "competition": "mls",
+      "home": "夏洛特FC",
+      "away": "芝加哥火焰",
+      "kickoff": "2026-11-28T17:30:00",
       "status": "live",
-      "home_goals": 0,
-      "away_goals": 1
+      "home_goals": 1,
+      "away_goals": 0
     }
   ]
 }

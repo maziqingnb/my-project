@@ -2,6 +2,17 @@
   {
     "competition": "laliga",
     "cls": "league",
+    "home": "Malaga",
+    "away": "Athletic Bilbao",
+    "home_goals": 3,
+    "away_goals": 4,
+    "date": "2026-11-28",
+    "handicap_line": 0.75,
+    "total_line": 2.5
+  },
+  {
+    "competition": "laliga",
+    "cls": "league",
     "home": "Real Betis",
     "away": "Rayo Vallecano",
     "home_goals": 0,

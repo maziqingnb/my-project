@@ -1,33 +1,33 @@
 {
-  "generated_at": "2026-11-28T17:37:28.035531+00:00",
+  "generated_at": "2026-11-28T17:52:13.762073+00:00",
   "scope": "16 个联赛 + 5 个杯赛",
   "note": "杯赛与联赛数据分开计算；仅开赛前 6h 内出推荐；命中率只统计强推",
-  "total": 1,
+  "total": 0,
   "stats": {
     "overall": {
       "counts": {
         "win": 90,
-        "half_win": 6,
+        "half_win": 7,
         "push": 7,
         "half_loss": 6,
         "loss": 40
       },
-      "settled": 142,
-      "hit": 96,
-      "rate": 67.6
+      "settled": 143,
+      "hit": 97,
+      "rate": 67.8
     },
     "by_market": {
       "handicap": {
         "counts": {
           "win": 38,
-          "half_win": 2,
+          "half_win": 3,
           "push": 4,
           "half_loss": 2,
           "loss": 15
         },
-        "settled": 57,
-        "hit": 40,
-        "rate": 70.2
+        "settled": 58,
+        "hit": 41,
+        "rate": 70.7
       },
       "totals": {
         "counts": {
@@ -166,14 +166,14 @@
       "laliga": {
         "counts": {
           "win": 6,
-          "half_win": 0,
+          "half_win": 1,
           "push": 0,
           "half_loss": 0,
           "loss": 2
         },
-        "settled": 8,
-        "hit": 6,
-        "rate": 75.0
+        "settled": 9,
+        "hit": 7,
+        "rate": 77.8
       },
       "ligue1": {
         "counts": {
@@ -312,359 +312,16 @@
       "football": {
         "counts": {
           "win": 88,
-          "half_win": 6,
+          "half_win": 7,
           "push": 7,
           "half_loss": 6,
           "loss": 39
         },
-        "settled": 139,
-        "hit": 94,
-        "rate": 67.6
+        "settled": 140,
+        "hit": 95,
+        "rate": 67.9
       }
     }
   },
-  "recommendations": [
-    {
-      "fixture_key": "laliga|malaga|athleticbilbao|2026-11-28",
-      "competition": "laliga",
-      "home": "Malaga",
-      "away": "Athletic Bilbao",
-      "kickoff": "2026-11-28T15:15:00",
-      "market": "handicap",
-      "pick": "客队（让 0.75）",
-      "side": "away",
-      "confidence": "strong",
-      "score": 70.2,
-      "line": 0.75,
-      "reasons": [
-        "亚盘 盘口不变",
-        "主队升水 0.88->1.01",
-        "主队近5场 0胜1平4负，场均进1.0/失2.2",
-        "客队近5场 2胜1平2负，场均进1.6/失1.2",
-        "交手0次：主队0胜0平0负"
-      ],
-      "signals": {
-        "line_desc": "盘口不变",
-        "water_desc": "主队升水 0.88->1.01",
-        "line_first": 0.75,
-        "line_last": 0.75,
-        "home_water_first": 0.88,
-        "home_water_last": 1.01,
-        "away_water_first": 1.0,
-        "away_water_last": 0.88,
-        "conflict": false
-      },
-      "history": [
-        {
-          "ts": "2026-11-27T15:15:00+00:00",
-          "handicap_line": 0.75,
-          "handicap_home": 0.88,
-          "handicap_away": 1.0
-        },
-        {
-          "ts": "2026-11-27T15:15:00+00:00",
-          "handicap_line": 0.75,
-          "handicap_home": 0.88,
-          "handicap_away": 1.0
-        },
-        {
-          "ts": "2026-11-27T15:15:00+00:00",
-          "handicap_line": 0.75,
-          "handicap_home": 0.88,
-          "handicap_away": 1.0
-        },
-        {
-          "ts": "2026-11-27T15:15:00+00:00",
-          "handicap_line": 0.75,
-          "handicap_home": 0.88,
-          "handicap_away": 1.0
-        },
-        {
-          "ts": "2026-11-27T15:15:00+00:00",
-          "handicap_line": 0.75,
-          "handicap_home": 0.88,
-          "handicap_away": 1.0
-        },
-        {
-          "ts": "2026-11-27T15:15:00+00:00",
-          "handicap_line": 0.75,
-          "handicap_home": 0.88,
-          "handicap_away": 1.0
-        },
-        {
-          "ts": "2026-11-27T15:15:00+00:00",
-          "handicap_line": 0.75,
-          "handicap_home": 0.88,
-          "handicap_away": 1.0
-        },
-        {
-          "ts": "2026-11-27T15:15:00+00:00",
-          "handicap_line": 0.75,
-          "handicap_home": 0.88,
-          "handicap_away": 1.0
-        },
-        {
-          "ts": "2026-11-27T15:15:00+00:00",
-          "handicap_line": 0.75,
-          "handicap_home": 0.88,
-          "handicap_away": 1.0
-        },
-        {
-          "ts": "2026-11-27T15:15:00+00:00",
-          "handicap_line": 0.75,
-          "handicap_home": 0.88,
-          "handicap_away": 1.0
-        },
-        {
-          "ts": "2026-11-27T15:15:00+00:00",
-          "handicap_line": 0.75,
-          "handicap_home": 0.88,
-          "handicap_away": 1.0
-        },
-        {
-          "ts": "2026-11-27T15:15:00+00:00",
-          "handicap_line": 0.75,
-          "handicap_home": 0.88,
-          "handicap_away": 1.0
-        },
-        {
-          "ts": "2026-11-27T15:15:00+00:00",
-          "handicap_line": 0.75,
-          "handicap_home": 0.88,
-          "handicap_away": 1.0
-        },
-        {
-          "ts": "2026-11-27T15:15:00+00:00",
-          "handicap_line": 0.75,
-          "handicap_home": 0.88,
-          "handicap_away": 1.0
-        },
-        {
-          "ts": "2026-11-27T15:15:00+00:00",
-          "handicap_line": 0.75,
-          "handicap_home": 0.88,
-          "handicap_away": 1.0
-        },
-        {
-          "ts": "2026-11-27T15:15:00+00:00",
-          "handicap_line": 0.75,
-          "handicap_home": 0.88,
-          "handicap_away": 1.0
-        },
-        {
-          "ts": "2026-11-27T15:15:00+00:00",
-          "handicap_line": 0.75,
-          "handicap_home": 0.88,
-          "handicap_away": 1.0
-        },
-        {
-          "ts": "2026-11-27T15:15:00+00:00",
-          "handicap_line": 0.75,
-          "handicap_home": 0.88,
-          "handicap_away": 1.0
-        },
-        {
-          "ts": "2026-11-27T15:15:00+00:00",
-          "handicap_line": 0.75,
-          "handicap_home": 0.88,
-          "handicap_away": 1.0
-        },
-        {
-          "ts": "2026-11-27T15:15:00+00:00",
-          "handicap_line": 0.75,
-          "handicap_home": 0.88,
-          "handicap_away": 1.0
-        },
-        {
-          "ts": "2026-11-27T15:15:00+00:00",
-          "handicap_line": 0.75,
-          "handicap_home": 0.88,
-          "handicap_away": 1.0
-        },
-        {
-          "ts": "2026-11-27T15:15:00+00:00",
-          "handicap_line": 0.75,
-          "handicap_home": 0.88,
-          "handicap_away": 1.0
-        },
-        {
-          "ts": "2026-11-27T15:15:00+00:00",
-          "handicap_line": 0.75,
-          "handicap_home": 0.88,
-          "handicap_away": 1.0
-        },
-        {
-          "ts": "2026-11-27T15:15:00+00:00",
-          "handicap_line": 0.75,
-          "handicap_home": 0.88,
-          "handicap_away": 1.0
-        },
-        {
-          "ts": "2026-11-27T15:15:00+00:00",
-          "handicap_line": 0.75,
-          "handicap_home": 0.88,
-          "handicap_away": 1.0
-        },
-        {
-          "ts": "2026-11-27T16:33:51.441807+00:00",
-          "handicap_line": 0.75,
-          "handicap_home": 0.9,
-          "handicap_away": 0.98
-        },
-        {
-          "ts": "2026-11-27T17:49:02.842793+00:00",
-          "handicap_line": 0.75,
-          "handicap_home": 0.9,
-          "handicap_away": 0.98
-        },
-        {
-          "ts": "2026-11-27T18:42:31.690250+00:00",
-          "handicap_line": 0.75,
-          "handicap_home": 0.9,
-          "handicap_away": 0.98
-        },
-        {
-          "ts": "2026-11-27T18:46:42.016552+00:00",
-          "handicap_line": 0.75,
-          "handicap_home": 0.9,
-          "handicap_away": 0.98
-        },
-        {
-          "ts": "2026-11-27T20:47:34.268879+00:00",
-          "handicap_line": 0.75,
-          "handicap_home": 0.9,
-          "handicap_away": 0.98
-        },
-        {
-          "ts": "2026-11-27T21:46:52.345750+00:00",
-          "handicap_line": 0.75,
-          "handicap_home": 0.9,
-          "handicap_away": 0.98
-        },
-        {
-          "ts": "2026-11-27T22:47:51.283934+00:00",
-          "handicap_line": 0.75,
-          "handicap_home": 0.9,
-          "handicap_away": 0.98
-        },
-        {
-          "ts": "2026-11-27T23:43:48.920642+00:00",
-          "handicap_line": 0.75,
-          "handicap_home": 0.9,
-          "handicap_away": 0.98
-        },
-        {
-          "ts": "2026-11-28T00:47:22.350065+00:00",
-          "handicap_line": 0.75,
-          "handicap_home": 0.93,
-          "handicap_away": 0.95
-        },
-        {
-          "ts": "2026-11-28T00:53:52.046054+00:00",
-          "handicap_line": 0.75,
-          "handicap_home": 0.93,
-          "handicap_away": 0.95
-        },
-        {
-          "ts": "2026-11-28T02:12:02.633038+00:00",
-          "handicap_line": 0.75,
-          "handicap_home": 0.93,
-          "handicap_away": 0.95
-        },
-        {
-          "ts": "2026-11-28T03:22:32.830127+00:00",
-          "handicap_line": 0.75,
-          "handicap_home": 0.93,
-          "handicap_away": 0.95
-        },
-        {
-          "ts": "2026-11-28T04:28:34.936899+00:00",
-          "handicap_line": 0.75,
-          "handicap_home": 0.94,
-          "handicap_away": 0.95
-        },
-        {
-          "ts": "2026-11-28T05:28:55.968067+00:00",
-          "handicap_line": 0.75,
-          "handicap_home": 0.94,
-          "handicap_away": 0.95
-        },
-        {
-          "ts": "2026-11-28T06:29:04.750207+00:00",
-          "handicap_line": 0.75,
-          "handicap_home": 0.95,
-          "handicap_away": 0.94
-        },
-        {
-          "ts": "2026-11-28T06:53:24.961217+00:00",
-          "handicap_line": 0.75,
-          "handicap_home": 0.95,
-          "handicap_away": 0.94
-        },
-        {
-          "ts": "2026-11-28T07:48:04.035616+00:00",
-          "handicap_line": 0.75,
-          "handicap_home": 0.95,
-          "handicap_away": 0.94
-        },
-        {
-          "ts": "2026-11-28T08:44:20.695908+00:00",
-          "handicap_line": 0.75,
-          "handicap_home": 0.94,
-          "handicap_away": 0.95
-        },
-        {
-          "ts": "2026-11-28T09:44:27.920124+00:00",
-          "handicap_line": 0.75,
-          "handicap_home": 0.95,
-          "handicap_away": 0.94
-        },
-        {
-          "ts": "2026-11-28T10:44:09.308964+00:00",
-          "handicap_line": 0.75,
-          "handicap_home": 0.94,
-          "handicap_away": 0.95
-        },
-        {
-          "ts": "2026-11-28T11:41:48.784611+00:00",
-          "handicap_line": 0.75,
-          "handicap_home": 0.94,
-          "handicap_away": 0.95
-        },
-        {
-          "ts": "2026-11-28T12:45:08.977007+00:00",
-          "handicap_line": 0.75,
-          "handicap_home": 0.91,
-          "handicap_away": 0.98
-        },
-        {
-          "ts": "2026-11-28T12:48:21.935066+00:00",
-          "handicap_line": 0.75,
-          "handicap_home": 0.91,
-          "handicap_away": 0.98
-        },
-        {
-          "ts": "2026-11-28T13:57:10.372833+00:00",
-          "handicap_line": 0.75,
-          "handicap_home": 0.9,
-          "handicap_away": 0.99
-        },
-        {
-          "ts": "2026-11-28T14:43:20.163200+00:00",
-          "handicap_line": 0.75,
-          "handicap_home": 1.01,
-          "handicap_away": 0.88
-        }
-      ],
-      "reliability": 1.0,
-      "competition_name": "西班牙甲级联赛",
-      "competition_class": "league",
-      "sport": "football",
-      "lead_hours": 0.5277324444444444,
-      "prematch": true,
-      "result": {
-        "settled": false
-      }
-    }
-  ]
+  "recommendations": []
 }

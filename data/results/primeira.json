@@ -2,6 +2,50 @@
   {
     "competition": "primeira",
     "cls": "league",
+    "home": "Arouca",
+    "away": "Rio Ave",
+    "home_goals": 0,
+    "away_goals": 0,
+    "date": "2026-11-28",
+    "handicap_line": null,
+    "total_line": null
+  },
+  {
+    "competition": "primeira",
+    "cls": "league",
+    "home": "Moreirense",
+    "away": "Santa Clara",
+    "home_goals": 0,
+    "away_goals": 2,
+    "date": "2026-11-28",
+    "handicap_line": null,
+    "total_line": null
+  },
+  {
+    "competition": "primeira",
+    "cls": "league",
+    "home": "摩里伦斯",
+    "away": "圣克拉拉",
+    "home_goals": 0,
+    "away_goals": 2,
+    "date": "2026-11-28",
+    "handicap_line": 0.25,
+    "total_line": 2.0
+  },
+  {
+    "competition": "primeira",
+    "cls": "league",
+    "home": "阿罗卡",
+    "away": "里奥阿维",
+    "home_goals": 0,
+    "away_goals": 0,
+    "date": "2026-11-28",
+    "handicap_line": -0.75,
+    "total_line": 2.5
+  },
+  {
+    "competition": "primeira",
+    "cls": "league",
     "home": "Maritimo",
     "away": "C.D. Nacional",
     "home_goals": 1,
