@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-28T11:31:18.633966+00:00",
+  "generated_at": "2026-11-28T12:25:21.728054+00:00",
   "matches": [
     {
       "fixture_key": "rpl|rubinkazan|akrontolyatti|2026-11-28",
@@ -8,7 +8,7 @@
       "away": "Akron Tolyatti",
       "kickoff": "2026-11-28T11:00:00",
       "status": "live",
-      "home_goals": 2,
+      "home_goals": 3,
       "away_goals": 0
     }
   ]
