@@ -366,6 +366,21 @@
     "away": "Lille",
     "kickoff": "2026-11-28T19:45:00",
     "bookmaker": "crown",
+    "ts": "2026-11-27T19:45:00+00:00",
+    "handicap_line": 0.5,
+    "handicap_home": 1.04,
+    "handicap_away": 0.84,
+    "total_line": 2.5,
+    "over": 0.96,
+    "under": 0.9
+  },
+  {
+    "fixture_key": "ligue1|lemans|lille|2026-11-28",
+    "competition": "ligue1",
+    "home": "Le Mans",
+    "away": "Lille",
+    "kickoff": "2026-11-28T19:45:00",
+    "bookmaker": "crown",
     "ts": "2026-11-27T20:47:03.667729+00:00",
     "handicap_line": 0.5,
     "handicap_home": 0.81,
@@ -598,5 +613,20 @@
     "total_line": 2.25,
     "over": 0.95,
     "under": 0.93
+  },
+  {
+    "fixture_key": "ligue1|lemans|lille|2026-11-28",
+    "competition": "ligue1",
+    "home": "Le Mans",
+    "away": "Lille",
+    "kickoff": "2026-11-28T19:45:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-28T11:41:46.006128+00:00",
+    "handicap_line": 0.5,
+    "handicap_home": 0.95,
+    "handicap_away": 0.94,
+    "total_line": 2.5,
+    "over": 0.99,
+    "under": 0.89
   }
 ]
