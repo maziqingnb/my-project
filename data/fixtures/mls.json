@@ -1,15 +1,5 @@
 [
   {
-    "key": "mls|皇家盐湖城|温哥华白浪|2026-11-28",
-    "competition": "mls",
-    "home": "皇家盐湖城",
-    "away": "温哥华白浪",
-    "kickoff": "2026-11-28T03:00:00",
-    "status": "upcoming",
-    "home_goals": null,
-    "away_goals": null
-  },
-  {
     "key": "mls|夏洛特fc|芝加哥火焰|2026-11-28",
     "competition": "mls",
     "home": "夏洛特FC",
@@ -64,7 +54,7 @@
     "competition": "mls",
     "home": "波特兰伐木者",
     "away": "达拉斯FC",
-    "kickoff": "2026-11-29T03:30:00",
+    "kickoff": "2026-11-29T03:45:00",
     "status": "upcoming",
     "home_goals": null,
     "away_goals": null
