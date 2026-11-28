@@ -186,6 +186,21 @@
     "away": "卢宾扎格勒比",
     "kickoff": "2026-11-28T13:45:00",
     "bookmaker": "crown",
+    "ts": "2026-11-27T13:45:00+00:00",
+    "handicap_line": -0.75,
+    "handicap_home": 1.01,
+    "handicap_away": 0.81,
+    "total_line": 2.75,
+    "over": 1.0,
+    "under": 0.8
+  },
+  {
+    "fixture_key": "poland|维德祖罗兹|卢宾扎格勒比|2026-11-28",
+    "competition": "poland",
+    "home": "维德祖罗兹",
+    "away": "卢宾扎格勒比",
+    "kickoff": "2026-11-28T13:45:00",
+    "bookmaker": "crown",
     "ts": "2026-11-27T16:34:15.610312+00:00",
     "handicap_line": -0.75,
     "handicap_home": 1.08,
@@ -358,5 +373,20 @@
     "total_line": 2.75,
     "over": 1.12,
     "under": 0.65
+  },
+  {
+    "fixture_key": "poland|维德祖罗兹|卢宾扎格勒比|2026-11-28",
+    "competition": "poland",
+    "home": "维德祖罗兹",
+    "away": "卢宾扎格勒比",
+    "kickoff": "2026-11-28T13:45:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-28T04:28:52.487355+00:00",
+    "handicap_line": -0.5,
+    "handicap_home": 1.01,
+    "handicap_away": 0.81,
+    "total_line": 2.75,
+    "over": 1.08,
+    "under": 0.72
   }
 ]

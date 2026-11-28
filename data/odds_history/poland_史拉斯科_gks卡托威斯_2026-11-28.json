@@ -186,6 +186,21 @@
     "away": "GKS卡托威斯",
     "kickoff": "2026-11-28T16:30:00",
     "bookmaker": "crown",
+    "ts": "2026-11-27T16:30:00+00:00",
+    "handicap_line": 0.25,
+    "handicap_home": 0.8,
+    "handicap_away": 1.02,
+    "total_line": 3.0,
+    "over": 0.9,
+    "under": 0.9
+  },
+  {
+    "fixture_key": "poland|史拉斯科|gks卡托威斯|2026-11-28",
+    "competition": "poland",
+    "home": "史拉斯科",
+    "away": "GKS卡托威斯",
+    "kickoff": "2026-11-28T16:30:00",
+    "bookmaker": "crown",
     "ts": "2026-11-27T16:34:16.567619+00:00",
     "handicap_line": 0.25,
     "handicap_home": 0.86,
@@ -358,5 +373,20 @@
     "total_line": 3.0,
     "over": 0.88,
     "under": 0.88
+  },
+  {
+    "fixture_key": "poland|史拉斯科|gks卡托威斯|2026-11-28",
+    "competition": "poland",
+    "home": "史拉斯科",
+    "away": "GKS卡托威斯",
+    "kickoff": "2026-11-28T16:30:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-28T04:28:53.787677+00:00",
+    "handicap_line": 0.25,
+    "handicap_home": 0.89,
+    "handicap_away": 0.93,
+    "total_line": 3.0,
+    "over": 0.9,
+    "under": 0.9
   }
 ]
