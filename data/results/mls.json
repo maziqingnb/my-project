@@ -2,6 +2,17 @@
   {
     "competition": "mls",
     "cls": "league",
+    "home": "哥伦布机员",
+    "away": "迈阿密国际",
+    "home_goals": 1,
+    "away_goals": 0,
+    "date": "2026-11-28",
+    "handicap_line": 0.0,
+    "total_line": 3.5
+  },
+  {
+    "competition": "mls",
+    "cls": "league",
     "home": "San Jose Earthquakes",
     "away": "休斯敦迪纳摩",
     "home_goals": 2,
