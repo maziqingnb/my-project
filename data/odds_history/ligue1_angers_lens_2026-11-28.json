@@ -291,6 +291,21 @@
     "away": "Lens",
     "kickoff": "2026-11-28T16:15:00",
     "bookmaker": "crown",
+    "ts": "2026-11-27T16:15:00+00:00",
+    "handicap_line": 0.75,
+    "handicap_home": 0.91,
+    "handicap_away": 0.97,
+    "total_line": 3.0,
+    "over": 1.05,
+    "under": 0.81
+  },
+  {
+    "fixture_key": "ligue1|angers|lens|2026-11-28",
+    "competition": "ligue1",
+    "home": "Angers",
+    "away": "Lens",
+    "kickoff": "2026-11-28T16:15:00",
+    "bookmaker": "crown",
     "ts": "2026-11-27T16:33:53.869525+00:00",
     "handicap_line": 0.75,
     "handicap_home": 0.98,
@@ -568,5 +583,20 @@
     "total_line": 2.75,
     "over": 0.95,
     "under": 0.93
+  },
+  {
+    "fixture_key": "ligue1|angers|lens|2026-11-28",
+    "competition": "ligue1",
+    "home": "Angers",
+    "away": "Lens",
+    "kickoff": "2026-11-28T16:15:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-28T10:44:14.143273+00:00",
+    "handicap_line": 0.75,
+    "handicap_home": 0.97,
+    "handicap_away": 0.92,
+    "total_line": 2.75,
+    "over": 0.94,
+    "under": 0.94
   }
 ]
