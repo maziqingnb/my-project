@@ -299,6 +299,17 @@
   {
     "competition": "europa_league",
     "cls": "cup",
+    "home": "萨尔茨堡红牛",
+    "away": "阿拉特亚美尼亚",
+    "home_goals": 2,
+    "away_goals": 0,
+    "date": "2026-11-26",
+    "handicap_line": -2.0,
+    "total_line": 3.5
+  },
+  {
+    "competition": "europa_league",
+    "cls": "cup",
     "home": "萨格勒布迪纳摩",
     "away": "Bayer Leverkusen",
     "home_goals": 0,
