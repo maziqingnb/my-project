@@ -2,6 +2,17 @@
   {
     "competition": "mls",
     "cls": "league",
+    "home": "Real Salt Lake",
+    "away": "温哥华白浪",
+    "home_goals": 0,
+    "away_goals": 1,
+    "date": "2026-11-28",
+    "handicap_line": null,
+    "total_line": null
+  },
+  {
+    "competition": "mls",
+    "cls": "league",
     "home": "哥伦布机员",
     "away": "迈阿密国际",
     "home_goals": 1,
@@ -9,6 +20,17 @@
     "date": "2026-11-28",
     "handicap_line": 0.0,
     "total_line": 3.5
+  },
+  {
+    "competition": "mls",
+    "cls": "league",
+    "home": "皇家盐湖城",
+    "away": "温哥华白浪",
+    "home_goals": 0,
+    "away_goals": 1,
+    "date": "2026-11-28",
+    "handicap_line": 0.0,
+    "total_line": 3.25
   },
   {
     "competition": "mls",
