@@ -261,6 +261,21 @@
     "away": "圣克拉拉",
     "kickoff": "2026-11-28T15:30:00",
     "bookmaker": "crown",
+    "ts": "2026-11-27T15:30:00+00:00",
+    "handicap_line": 0.25,
+    "handicap_home": 1.05,
+    "handicap_away": 0.83,
+    "total_line": 2.0,
+    "over": 0.83,
+    "under": 1.03
+  },
+  {
+    "fixture_key": "primeira|摩里伦斯|圣克拉拉|2026-11-28",
+    "competition": "primeira",
+    "home": "摩里伦斯",
+    "away": "圣克拉拉",
+    "kickoff": "2026-11-28T15:30:00",
+    "bookmaker": "crown",
     "ts": "2026-11-27T16:33:49.605330+00:00",
     "handicap_line": 0.25,
     "handicap_home": 0.8,
@@ -508,5 +523,20 @@
     "total_line": 2.25,
     "over": 1.05,
     "under": 0.81
+  },
+  {
+    "fixture_key": "primeira|摩里伦斯|圣克拉拉|2026-11-28",
+    "competition": "primeira",
+    "home": "摩里伦斯",
+    "away": "圣克拉拉",
+    "kickoff": "2026-11-28T15:30:00",
+    "bookmaker": "crown",
+    "ts": "2026-11-28T08:44:26.039678+00:00",
+    "handicap_line": 0.0,
+    "handicap_home": 0.93,
+    "handicap_away": 0.96,
+    "total_line": 2.25,
+    "over": 1.06,
+    "under": 0.8
   }
 ]
