@@ -2,6 +2,28 @@
   {
     "competition": "epl",
     "cls": "league",
+    "home": "Leeds United",
+    "away": "Coventry City",
+    "home_goals": 3,
+    "away_goals": 0,
+    "date": "2026-11-28",
+    "handicap_line": -1.0,
+    "total_line": 2.75
+  },
+  {
+    "competition": "epl",
+    "cls": "league",
+    "home": "Manchester United",
+    "away": "Brentford",
+    "home_goals": 0,
+    "away_goals": 4,
+    "date": "2026-11-28",
+    "handicap_line": -0.25,
+    "total_line": 3.0
+  },
+  {
+    "competition": "epl",
+    "cls": "league",
     "home": "Nottingham Forest",
     "away": "Chelsea",
     "home_goals": 3,
