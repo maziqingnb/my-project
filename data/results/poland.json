@@ -2,6 +2,17 @@
   {
     "competition": "poland",
     "cls": "league",
+    "home": "维德祖罗兹",
+    "away": "卢宾扎格勒比",
+    "home_goals": 2,
+    "away_goals": 0,
+    "date": "2026-11-28",
+    "handicap_line": -0.75,
+    "total_line": 2.75
+  },
+  {
+    "competition": "poland",
+    "cls": "league",
     "home": "扎布热矿工",
     "away": "普沃茨克维斯瓦",
     "home_goals": 3,

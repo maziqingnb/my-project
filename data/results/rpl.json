@@ -2,6 +2,17 @@
   {
     "competition": "rpl",
     "cls": "league",
+    "home": "CSKA Moscow",
+    "away": "Zenit St Petersburg",
+    "home_goals": 1,
+    "away_goals": 4,
+    "date": "2026-11-28",
+    "handicap_line": null,
+    "total_line": null
+  },
+  {
+    "competition": "rpl",
+    "cls": "league",
     "home": "Rubin Kazan",
     "away": "Akron Tolyatti",
     "home_goals": 3,
@@ -20,6 +31,17 @@
     "date": "2026-11-28",
     "handicap_line": -0.75,
     "total_line": 2.5
+  },
+  {
+    "competition": "rpl",
+    "cls": "league",
+    "home": "莫斯科中央陆军",
+    "away": "圣彼得堡泽尼特",
+    "home_goals": 1,
+    "away_goals": 4,
+    "date": "2026-11-28",
+    "handicap_line": 0.25,
+    "total_line": 2.75
   },
   {
     "competition": "rpl",
